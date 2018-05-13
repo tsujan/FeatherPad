@@ -1397,7 +1397,7 @@
         <location filename="../../predDialog.ui" line="72"/>
         <location filename="../../predDialog.ui" line="85"/>
         <source>Window frame is excluded.</source>
-        <translation>Fenster rahmen ist ausgenommen.</translation>
+        <translation>Fensterrahmen ist ausgenommen.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="52"/>
@@ -1951,9 +1951,9 @@ trailing spaces of a text file.</source>
 auch dann verwendet werden, wenn die geöffnete Datei
 nicht verändert wurde.
 
-Dies kann unter bestimmten Umständen sinnvoll sein,
-z.B. zum Ändern des Zeitstempels oder zum Entfernen
-von Leerzeichen an den Zeilenenden einer Textdatei.</translation>
+Dies kann unter bestimmten Umständen zum Ändern des
+Zeitstempels oder zum Entfernen von Leerzeichen an den 
+Zeilenenden einer Textdatei sinnvoll sein.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="864"/>
