@@ -1780,12 +1780,12 @@ es kann auch kein einzel Tab Fenster in ein anderes per drag-and-drop zusammenge
     <message>
         <location filename="../../predDialog.ui" line="371"/>
         <source>&amp;Wrap lines by default</source>
-        <translation>&amp;Zeilenumbruch standardmäßig</translation>
+        <translation>Automatischer &amp;Zeilenumbruc</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="378"/>
         <source>Auto-&amp;indent by default</source>
-        <translation>Auto-&amp;Einrückung standartmäßig</translation>
+        <translation>Automatische &amp;Einrückung</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="395"/>
@@ -1795,7 +1795,7 @@ es kann auch kein einzel Tab Fenster in ein anderes per drag-and-drop zusammenge
     <message>
         <location filename="../../predDialog.ui" line="402"/>
         <source>Highlight s&amp;yntax by default</source>
-        <translation>&amp;Syntax hervorhebung standardmäßig</translation>
+        <translation>Automatische &amp;Syntax-Hervorhebung</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="518"/>
@@ -1947,7 +1947,13 @@ be used also when the opened file is not modified.
 This can be useful under certain circumstances,
 e.g. for changing the time stamp or removing the
 trailing spaces of a text file.</source>
-        <translation type="unfinished"></translation>
+        <translation>Wenn markiert, kann der Button/Menüeintrag Speichern
+auch dann verwendet werden, wenn die geöffnete Datei
+nicht verändert wurde.
+
+Dies kann unter bestimmten Umständen sinnvoll sein,
+z.B. zum Ändern des Zeitstempels oder zum Entfernen
+von Leerzeichen an den Zeilenenden einer Textdatei.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="864"/>
