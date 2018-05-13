@@ -34,7 +34,7 @@
         <location filename="../../fp.ui" line="107"/>
         <source>Select text from cursor to this line
 (Ctrl+Shift+J)</source>
-        <translation>Text auswählen von Cursor bis zu dieser Zeile
+        <translation>Text von Cursor bis zu dieser Zeile auswählen
 (Strg+Umschalt+J)</translation>
     </message>
     <message>
@@ -938,7 +938,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="1676"/>
         <source>Script File</source>
-        <translation>Skript Datei</translation>
+        <translation>Skript</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="814"/>
@@ -1135,7 +1135,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="1672"/>
         <source>Script Output</source>
-        <translation>Skript Ausgabe</translation>
+        <translation>Ausgabe des Skripts</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1688"/>
@@ -1452,7 +1452,7 @@ wirksam zu werden.</translation>
     <message>
         <location filename="../../predDialog.ui" line="169"/>
         <source>&amp;Iconless mode</source>
-        <translation>&amp;Keine Symbole</translation>
+        <translation>&amp;Keine Symbole anzeigen</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="176"/>
@@ -1758,7 +1758,7 @@ Neustart der Anwendung notwendig um wirksam zu werden.</translation>
 tooltip and context menu of a single tab but you could not
 merge a single tabbed window into another one by tab drag-
 and-drop either.</source>
-        <translation>Wenn das ausgewählt ist, geht nicht nur der informative
+        <translation type="unfinished">Wenn das ausgewählt ist, geht nicht nur der informative
 Werkzeug Tipp und das Kontext Menü eines einzelnen Tabs verloren,
 es kann auch kein einzel Tab Fenster in ein anderes per drag-and-drop zusammengeführt werden.</translation>
     </message>
@@ -2214,7 +2214,7 @@ in die gespeicherte Sitzung eingeschlossen.</translation>
     <message>
         <location filename="../../session.cpp" line="315"/>
         <source>Do you really want to remove the selected sessions?</source>
-        <translation>Sollen wirklich die gewählten Sitzungen entfernt werden?</translation>
+        <translation>Sollen die gewählten Sitzungen wirklich entfernt werden?</translation>
     </message>
     <message>
         <location filename="../../session.cpp" line="317"/>
