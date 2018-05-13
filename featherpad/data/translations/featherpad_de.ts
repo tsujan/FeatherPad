@@ -1110,7 +1110,7 @@
         <location filename="../../fpwin.cpp" line="699"/>
         <location filename="../../fpwin.cpp" line="3650"/>
         <source>Position:</source>
-        <translation>Position</translation>
+        <translation>Position:</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="746"/>
@@ -1262,13 +1262,13 @@
         <location filename="../../fpwin.cpp" line="3102"/>
         <location filename="../../fpwin.cpp" line="3280"/>
         <source>This file has been modified elsewhere or in another way!</source>
-        <translation>Diese Datei wurde anderswo oder in einer anderen weise verändert.</translation>
+        <translation>Diese Datei wurde anderswo oder in einer anderen Weise verändert!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3103"/>
         <location filename="../../fpwin.cpp" line="3281"/>
         <source>Please be careful about reloading or saving this document!</source>
-        <translation>Bitte vorsichtig sein beim Aktualisieren oder Speichern dieses Dokumentes.</translation>
+        <translation>Vorsicht beim Aktualisieren oder Speichern dieses Dokumentes!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3768"/>
@@ -1596,7 +1596,7 @@ Manche Desktop Umgebungen, wie KDE und LXQt, bieten Datei Dialoge.</translation>
     <message>
         <location filename="../../predDialog.ui" line="452"/>
         <source>Never highlight syntax for files &gt; </source>
-        <translation>Keine Hervorhebung der Syntax für Dateien &gt; </translation>
+        <translation>Keine Syntax-Hervorhebung für Dateien &gt; </translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="425"/>
@@ -1620,7 +1620,7 @@ wenn die Syntax hervorgehoben ist.</translation>
     <message>
         <location filename="../../predDialog.ui" line="476"/>
         <source>Show whitespaces</source>
-        <translation>Leerräume anzeigen</translation>
+        <translation>Zeige Leerzeichen, Tabulatoren und Einrückungslinien</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="490"/>
@@ -2091,7 +2091,7 @@ trailing spaces of a text file.</source>
     <message>
         <location filename="../../sessionDialog.ui" line="33"/>
         <source>&lt;b&gt;Save/Restore Session&lt;/b&gt;</source>
-        <translation>Speichern/Wiederherstellen der Sitzung</translation>
+        <translation>&lt;b&gt;Speichern/Wiederherstellen der Sitzung&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="56"/>
