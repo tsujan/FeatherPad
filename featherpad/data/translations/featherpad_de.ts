@@ -2138,7 +2138,7 @@ in die gespeicherte Sitzung eingeschlossen.</translation>
     <message>
         <location filename="../../sessionDialog.ui" line="163"/>
         <source>Save only from this &amp;window</source>
-        <translation>Speichern nur von diesem &amp;Fenster</translation>
+        <translation>Speichern nur dieses &amp;Fensters</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="180"/>
@@ -2169,7 +2169,7 @@ in die gespeicherte Sitzung eingeschlossen.</translation>
     <message>
         <location filename="../../sessionDialog.ui" line="260"/>
         <source>&amp;Close</source>
-        <translation>&amp;Schliessen</translation>
+        <translation>&amp;Schließen</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="135"/>
@@ -2184,22 +2184,22 @@ in die gespeicherte Sitzung eingeschlossen.</translation>
     <message>
         <location filename="../../sessionDialog.ui" line="149"/>
         <source>Type a name to save session</source>
-        <translation>Namen eingeben um Sitzung zu speichern</translation>
+        <translation>Namen eingeben, um Sitzung zu speichern</translation>
     </message>
     <message>
         <location filename="../../session.cpp" line="148"/>
         <source>Nothing saved.&lt;br&gt;No file was opened.</source>
-        <translation>Nichts gespeichert.</translation>
+        <translation>Nichts gespeichert.&lt;b&gt;Keine Datei wurde geöffnet.</translation>
     </message>
     <message>
         <location filename="../../session.cpp" line="241"/>
         <source>No file exists or can be opened.</source>
-        <translation>Keine Datei vorhanden oder kann geöffnet werden.</translation>
+        <translation>Die Datei existiert nicht  oder kann nicht geöffnet werden.</translation>
     </message>
     <message>
         <location filename="../../session.cpp" line="247"/>
         <source>Not all files exist or can be opened.</source>
-        <translation>Nicht alle Dateien vorhanden oder konnten geöffnet werden.</translation>
+        <translation>Nicht alle Dateien existieren oder konnten geöffnet werden.</translation>
     </message>
     <message>
         <location filename="../../session.cpp" line="290"/>
@@ -2219,7 +2219,7 @@ in die gespeicherte Sitzung eingeschlossen.</translation>
     <message>
         <location filename="../../session.cpp" line="317"/>
         <source>Do you really want to remove the selected session?</source>
-        <translation>Soll wirklich die gewählte Sitzung entfernt werden?</translation>
+        <translation>Soll die gewählte Sitzung wirklich entfernt werden?</translation>
     </message>
     <message>
         <location filename="../../session.cpp" line="322"/>
