@@ -1397,7 +1397,7 @@
         <location filename="../../predDialog.ui" line="72"/>
         <location filename="../../predDialog.ui" line="85"/>
         <source>Window frame is excluded.</source>
-        <translation>Fensterrahmen ist ausgenommen.</translation>
+        <translation>Fenster-Dekoration ist ausgenommen.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="52"/>
@@ -1531,7 +1531,7 @@ Tab Navigation mit Mausrad ist nicht betroffen.</translation>
     <message>
         <location filename="../../predDialog.ui" line="258"/>
         <source>Tab navigation wraps &amp;around</source>
-        <translation>Tab Navigation &amp;verhüllt</translation>
+        <translation>Fort&amp;laufende Tab-Navigation</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="278"/>
