@@ -23,7 +23,7 @@
         <location filename="../../fpwin.cpp" line="3092"/>
         <location filename="../../fpwin.cpp" line="3757"/>
         <source>Untitled</source>
-        <translation>Unbetitelt</translation>
+        <translation>Unbenannt</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="71"/>
@@ -217,7 +217,7 @@
         <location filename="../../fp.ui" line="550"/>
         <location filename="../../fp.ui" line="553"/>
         <source>Reload</source>
-        <translation>Aktualisieren</translation>
+        <translation>Neu laden</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="556"/>
@@ -289,7 +289,7 @@
     <message>
         <location filename="../../fp.ui" line="607"/>
         <source>&amp;Close</source>
-        <translation>&amp;Schliessen</translation>
+        <translation>&amp;Schließen</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="610"/>
@@ -354,7 +354,7 @@
     <message>
         <location filename="../../fp.ui" line="661"/>
         <source>&amp;Select All</source>
-        <translation>Alles &amp;markieren</translation>
+        <translation>Alles a&amp;uswählen</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="664"/>
@@ -458,7 +458,7 @@
     <message>
         <location filename="../../fp.ui" line="961"/>
         <source>Show/hide jump bar</source>
-        <translation>Zeige/blende Sprungleiste aus</translation>
+        <translation>Zeige/Verstecke Sprungleiste aus</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="964"/>
@@ -481,7 +481,7 @@
     <message>
         <location filename="../../fp.ui" line="1078"/>
         <source>&amp;Run</source>
-        <translation>&amp;Start</translation>
+        <translation>&amp;Starte</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1084"/>
@@ -509,7 +509,7 @@
     <message>
         <location filename="../../fp.ui" line="1100"/>
         <source>Sa&amp;ve/Restore Session</source>
-        <translation>Sitzung Speichern/Wiederherstellen</translation>
+        <translation>Sit&amp;zung Speichern/Wiederherstellen</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1103"/>
@@ -521,7 +521,7 @@
     <message>
         <location filename="../../fp.ui" line="1108"/>
         <source>Side-Pane</source>
-        <translation>Seitenleiste</translation>
+        <translation>S&amp;eitenleiste</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1111"/>
@@ -583,12 +583,12 @@
     <message>
         <location filename="../../fp.ui" line="999"/>
         <source>Close Ne&amp;xt Tabs</source>
-        <translation>&amp;Nächsten Tabs schliessen</translation>
+        <translation>&amp;Nächsten Tabs schließen</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1004"/>
         <source>Close &amp;Previous Tabs</source>
-        <translation>Vorherigen Tabs &amp;schliessen</translation>
+        <translation>Vorherigen Tabs &amp;schließen</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1032"/>
@@ -628,7 +628,7 @@
     <message>
         <location filename="../../fp.ui" line="223"/>
         <source>&amp;Western European</source>
-        <translation>&amp;West Europäisch</translation>
+        <translation>&amp;Westeuropäisch</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="231"/>
@@ -651,7 +651,7 @@
     <message>
         <location filename="../../fp.ui" line="564"/>
         <source>Focus/hide search bar</source>
-        <translation>Suchleiste fokussieren/ausblenden</translation>
+        <translation>Suchleiste fokussieren/verstecken</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="572"/>
@@ -761,17 +761,17 @@
     <message>
         <location filename="../../fp.ui" line="1014"/>
         <source>Close &amp;Other Tabs</source>
-        <translation>&amp;Andere Tabs schliessen</translation>
+        <translation>&amp;Andere Tabs schließen</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1019"/>
         <source>&amp;Copy File Name</source>
-        <translation>&amp;Kopiere Datei Name</translation>
+        <translation>&amp;Kopiere Dateinamen</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1024"/>
         <source>Copy File &amp;Path</source>
-        <translation>Kopiere Datei &amp;Pfad</translation>
+        <translation>Kopiere Datei&amp;pfad</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1035"/>
@@ -803,7 +803,7 @@
         <location filename="../../fpwin.cpp" line="673"/>
         <location filename="../../fpwin.cpp" line="1319"/>
         <source>Alt+Down</source>
-        <translation>Alt+Unten</translation>
+        <translation>Alt+Runter</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1065"/>
@@ -815,7 +815,7 @@
         <location filename="../../fpwin.cpp" line="673"/>
         <location filename="../../fpwin.cpp" line="1318"/>
         <source>Alt+Up</source>
-        <translation>Alt+Oben</translation>
+        <translation>Alt+Hoch</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1073"/>
@@ -826,8 +826,8 @@
         <location filename="../../fpwin.cpp" line="91"/>
         <source>Calculate number of words
 (For huge texts, this may be CPU-intensive.)</source>
-        <translation>Berchne Anzahlder Worte
-(Für grosse Texte kann das CPU-intensiv sein.)</translation>
+        <translation>Berechne Anzahl der Worte
+(Für große Texte kann das CPU-intensiv sein.)</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="105"/>
@@ -859,7 +859,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="1685"/>
         <source>Close</source>
-        <translation>Schliessen</translation>
+        <translation>Schließen</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1093"/>
@@ -869,7 +869,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="815"/>
         <source>Please attend to that window or just close its dialog!</source>
-        <translation>Bitte dieses Fenster beachten oder Dialog schliessen!</translation>
+        <translation>Bitte dieses Fenster beachten oder Dialog schließen!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1097"/>
@@ -895,7 +895,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="1111"/>
         <source>No to all</source>
-        <translation>Nein zu Allen</translation>
+        <translation>Nein zu Allem</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1377"/>
@@ -921,7 +921,7 @@
         <location filename="../../fpwin.cpp" line="3609"/>
         <location filename="../../fpwin.cpp" line="3623"/>
         <source>Sel. Chars</source>
-        <translation>Ausw. Zeichen</translation>
+        <translation>Markierte Zeichen</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1398"/>
@@ -1015,12 +1015,12 @@
     <message>
         <location filename="../../fpwin.cpp" line="663"/>
         <source>Ctrl+Up</source>
-        <translation>Strg+Oben</translation>
+        <translation>Strg+Hoch</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="663"/>
         <source>Ctrl+Down</source>
-        <translation>Strg+Unten</translation>
+        <translation>Strg+Runter</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="663"/>
@@ -1035,32 +1035,32 @@
     <message>
         <location filename="../../fpwin.cpp" line="663"/>
         <source>Ctrl+Shift+Up</source>
-        <translation>Strg+Umschalt+Oben</translation>
+        <translation>Strg+Umschalt+Hoch</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="663"/>
         <source>Ctrl+Shift+Down</source>
-        <translation>Strg+Umschalt+Unten</translation>
+        <translation>Strg+Umschalt+Runter</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="663"/>
         <source>Meta+Up</source>
-        <translation>Super+Oben</translation>
+        <translation>Super+Hoch</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="663"/>
         <source>Meta+Down</source>
-        <translation>Super+Unten</translation>
+        <translation>Super+Runter</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="663"/>
         <source>Meta+Shift+Up</source>
-        <translation>Super+Umschalt+Oben</translation>
+        <translation>Super+Umschalt+Hoch</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="663"/>
         <source>Meta+Shift+Down</source>
-        <translation>Super+Umschalt+Unten</translation>
+        <translation>Super+Umschalt+Runter</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="666"/>
@@ -1150,7 +1150,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="2299"/>
         <source>Some file(s) could not be opened!</source>
-        <translation>Datei(en) konnte(n) nicht geöffnet werden!</translation>
+        <translation>Einige Datei(en) konnte(n) nicht geöffnet werden!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2300"/>
@@ -1170,12 +1170,12 @@
     <message>
         <location filename="../../fpwin.cpp" line="2356"/>
         <source>A previous crash detected!</source>
-        <translation>Einen vorherigen Absturz erkannt!</translation>
+        <translation>Einen vorherigen Absturz wurde erkannt!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2357"/>
         <source>Preferably, close all FeatherPad windows and start again!</source>
-        <translation>Vorzugsweise, alle FeatherPad-Fenster schliessen und neu starten!</translation>
+        <translation>Bitte alle FeatherPad-Fenster schliessen und neu starten!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2430"/>
@@ -1223,7 +1223,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="2775"/>
         <source>Do you want to use &lt;b&gt;MS Windows&lt;/b&gt; end-of-lines?</source>
-        <translation>Sollen &lt;b&gt;MS Windows&lt;/b&gt; end-of-lines benutzt werden?</translation>
+        <translation>Sollen &lt;b&gt;MS Windows&lt;/b&gt; Zeilenenden benutzt werden?</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2776"/>
@@ -1256,7 +1256,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="2290"/>
         <source>Huge file(s) not opened!</source>
-        <translation>Grosse Datei(en) nicht geöffnet!</translation>
+        <translation>Große Datei(en) nicht geöffnet!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3102"/>
@@ -1285,7 +1285,7 @@
         <location filename="../../fpwin.cpp" line="4380"/>
         <location filename="../../fpwin.cpp" line="4450"/>
         <source>Copy Target Path</source>
-        <translation>Ziel Pfad Kopieren</translation>
+        <translation>Zielpfad kopieren</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4384"/>
