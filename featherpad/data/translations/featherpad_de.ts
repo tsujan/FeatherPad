@@ -1655,12 +1655,12 @@ dessen letzte Zeile nicht leer ist.</translation>
     <message>
         <location filename="../../predDialog.ui" line="616"/>
         <source>Ensure an empty last line on saving</source>
-        <translation>Leerzeile am Textende bei Speicherung</translation>
+        <translation>Leerzeile am Textende bei Speicherung garantieren</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="623"/>
         <source>Remove trailing spaces on saving</source>
-        <translation>Entfernen von Schleifen Räumen beim Speichern</translation>
+        <translation>Entfernen von nachgestellten Leerzeichen beim Speichern</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="634"/>
