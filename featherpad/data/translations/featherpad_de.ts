@@ -1765,7 +1765,7 @@ es kann auch kein einzel Tab Fenster in ein anderes per drag-and-drop zusammenge
     <message>
         <location filename="../../predDialog.ui" line="271"/>
         <source>&amp;Do not show a single tab</source>
-        <translation>&amp;Einzeltab nicht anzeigen</translation>
+        <translation>&amp;Einzelnen Tab verbergen</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="316"/>
