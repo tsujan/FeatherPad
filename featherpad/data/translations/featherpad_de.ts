@@ -1655,7 +1655,7 @@ dessen letzte Zeile nicht leer ist.</translation>
     <message>
         <location filename="../../predDialog.ui" line="616"/>
         <source>Ensure an empty last line on saving</source>
-        <translation>Gewährleisten einer leeren Zeile beim Speichern</translation>
+        <translation>Leerzeile am Textende bei Speicherung</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="623"/>
