@@ -1531,7 +1531,7 @@ Tab Navigation mit Mausrad ist nicht betroffen.</translation>
     <message>
         <location filename="../../predDialog.ui" line="258"/>
         <source>Tab navigation wraps &amp;around</source>
-        <translation>Fort&amp;laufende Tab-Navigation</translation>
+        <translation>Fortl&amp;aufende Tab-Navigation</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="278"/>
