@@ -1867,12 +1867,12 @@ Gültige den hellen Hintergrund sind zwischen
 230 und 255; für den dunklen Hintergrund
 zwischen 0 und 50.
 
-Neustart des Fensters notwendig um wirksam zu werden.</translation>
+Neustart des Fensters notwendig, um wirksam zu werden.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="753"/>
         <source>Run executable scripts</source>
-        <translation>Start ausführbarer Skripte</translation>
+        <translation>Starte ausführbare Skripte</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="672"/>
@@ -1883,7 +1883,7 @@ is 10.
 
 Needs application restart to take effect.</source>
         <translation>Die maximale Anzahl von kürzlich bearbeiteten oder
-geöffneten Dateien die FeatherPad anzeigt.
+geöffneten Dateien, die FeatherPad anzeigt.
 Standard ist 10.</translation>
     </message>
     <message>
@@ -1895,9 +1895,9 @@ Takes effect after closing this dialog.
 
 Leave empty for:
 MMM dd, yyyy, hh:mm:ss</source>
-        <translation>Genutzt zum einfügen von Datum und Zeit.
+        <translation>Genutzt zum Einfügen von Datum und Uhrzeit.
 
-Wird wirksam nach dem Schliessen diese Dialogs.
+Wird wirksam nach dem Schließen diese Dialogs.
 
 Leer lassen für:
 MMM dd, yyyy, hh:mm:ss</translation>
@@ -1905,35 +1905,35 @@ MMM dd, yyyy, hh:mm:ss</translation>
     <message>
         <location filename="../../predDialog.ui" line="589"/>
         <source>Text tab size:</source>
-        <translation>Text Tab Grösse:</translation>
+        <translation>Tab Größe:</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="596"/>
         <source> spaces</source>
-        <translation> Räume</translation>
+        <translation> Leerzeichen</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="630"/>
         <source>Should the mouse wheel scrolling be inertial
 if the cursor is inside the text view?</source>
-        <translation>Sollte die Abrollfunktion des Mausrads Träge sein
+        <translation>Sollte die Abrollfunktion des Mausrads träge sein,
 wenn der Cursor innerhalb der Textansicht ist?</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="679"/>
         <source>Number of recent files: </source>
-        <translation>Anzahl von kürzlichen Dateien: </translation>
+        <translation>Anzahl von kürzlichen geöffneten Dateien: </translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="733"/>
         <source>Only if their number is not greater than 50.</source>
-        <translation>Nur wenn ihre Nummer nicht grösser als 50 ist.</translation>
+        <translation>Nur wenn ihre Zahl nicht grösser als 50 ist.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="830"/>
         <location filename="../../predDialog.ui" line="840"/>
         <source>Only for files that exist and can be saved.</source>
-        <translation>Nur für Dateien die existieren und gespeichert werden können.</translation>
+        <translation>Nur für Dateien, die existieren und gespeichert werden können.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="843"/>
@@ -1974,17 +1974,17 @@ Zeilenenden einer Textdatei sinnvoll sein.</translation>
     <message>
         <location filename="../../predDialog.ui" line="885"/>
         <source>Shortcuts</source>
-        <translation>Kurzbefehle</translation>
+        <translation>Tastatur-Kurzbefehle</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="904"/>
         <source>Action</source>
-        <translation>Action</translation>
+        <translation>Aktion</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="909"/>
         <source>Shortcut</source>
-        <translation>Kurzbefehl</translation>
+        <translation>Tastatur-Kurzbefehl</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="917"/>
@@ -1999,7 +1999,7 @@ Zeilenenden einer Textdatei sinnvoll sein.</translation>
     <message>
         <location filename="../../predDialog.ui" line="955"/>
         <source>Close</source>
-        <translation>Schliessen</translation>
+        <translation>Schließen</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="248"/>
@@ -2017,17 +2017,17 @@ Zeilenenden einer Textdatei sinnvoll sein.</translation>
         <location filename="../../pref.cpp" line="373"/>
         <location filename="../../pref.cpp" line="1238"/>
         <source>Warning: Ambiguous shortcut detected!</source>
-        <translation>Warnung: Mehrdeutiger Kurzbefehl erkannt!</translation>
+        <translation>Warnung: Mehrdeutiger Tastatur-Kurzbefehl erkannt!</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="477"/>
         <source>Application restart is needed for changes to take effect.</source>
-        <translation>Neustart der Anwendung notwendig um wirksam zu werden.</translation>
+        <translation>Neustart der Anwendung, notwendig um wirksam zu werden.</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="489"/>
         <source>Window reopening is needed for changes to take effect.</source>
-        <translation>Neustart des Fensters notwendig um wirksam zu werden.</translation>
+        <translation>Neustart des Fensters notwendig, um wirksam zu werden.</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="1160"/>
@@ -2042,12 +2042,12 @@ Zeilenenden einer Textdatei sinnvoll sein.</translation>
     <message>
         <location filename="../../pref.cpp" line="1228"/>
         <source>The typed shortcut was not valid.</source>
-        <translation>Der eingegebene Kurzbefehl war nicht gültig.</translation>
+        <translation>Der eingegebene Tastatur-Kurzbefehl war nicht gültig.</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="1230"/>
         <source>The typed shortcut was reserved.</source>
-        <translation>Der eingegebene Kurzbefehl war reserviert.</translation>
+        <translation>Der eingegebene Tastatur-Kurzbefehl war reserviert.</translation>
     </message>
 </context>
 <context>
@@ -2061,13 +2061,13 @@ Zeilenenden einer Textdatei sinnvoll sein.</translation>
         <location filename="../../searchbar.cpp" line="73"/>
         <location filename="../../searchbar.cpp" line="77"/>
         <source>Match Case</source>
-        <translation>Übereinstimmung</translation>
+        <translation>Groß/Kleinschreibung beachten</translation>
     </message>
     <message>
         <location filename="../../searchbar.cpp" line="85"/>
         <location filename="../../searchbar.cpp" line="89"/>
         <source>Whole Word</source>
-        <translation>Ganzes Wort</translation>
+        <translation>Ganzes Worte</translation>
     </message>
     <message>
         <location filename="../../searchbar.cpp" line="62"/>
@@ -2087,7 +2087,7 @@ Zeilenenden einer Textdatei sinnvoll sein.</translation>
     <message>
         <location filename="../../sessionDialog.ui" line="14"/>
         <source>Session Manager</source>
-        <translation>Sitzungs Manager</translation>
+        <translation>Sitzungs-Manager</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="101"/>
