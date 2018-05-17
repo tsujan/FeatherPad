@@ -95,7 +95,7 @@ unix {
 
   # add the fpad symlink
   slink.path = $$BINDIR
-  slink.extra += ln -sf $${TARGET} fpad && cp --no-dereference fpad $(INSTALL_ROOT)$$BINDIR
+  slink.extra += ln -sf $${TARGET} fpad && cp -P fpad $(INSTALL_ROOT)$$BINDIR
 
   desktop.path = $$DATADIR/applications
   desktop.files += ./data/$${TARGET}.desktop
