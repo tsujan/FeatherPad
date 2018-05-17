@@ -1915,7 +1915,7 @@ MMM dd, yyyy, hh:mm:ss</translation>
     <message>
         <location filename="../../predDialog.ui" line="630"/>
         <source>Thick text cursor</source>
-        <translation type="unfinished">Fetter Textcursor</translation>
+        <translation>Fetter Textcursor</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="637"/>
