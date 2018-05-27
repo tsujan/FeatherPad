@@ -448,7 +448,7 @@
     <message>
         <location filename="../../fp.ui" line="953"/>
         <source>Save with &amp;Encoding</source>
-        <translation>Speichern mit &amp;Kodierung</translation>
+        <translation>Speichern mit &amp;Codierung</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="958"/>
@@ -1208,7 +1208,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="2702"/>
         <source>Keep encoding and save as...</source>
-        <translation>Kodierung behalten und speichern als...</translation>
+        <translation>Codierung behalten und speichern als...</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2776"/>
@@ -1780,7 +1780,7 @@ es kann auch kein einzel Tab Fenster in ein anderes per drag-and-drop zusammenge
     <message>
         <location filename="../../predDialog.ui" line="371"/>
         <source>&amp;Wrap lines by default</source>
-        <translation>Automatischer &amp;Zeilenumbruc</translation>
+        <translation>Automatischer &amp;Zeilenumbruch</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="378"/>
