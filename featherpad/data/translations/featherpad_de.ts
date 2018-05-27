@@ -448,7 +448,7 @@
     <message>
         <location filename="../../fp.ui" line="953"/>
         <source>Save with &amp;Encoding</source>
-        <translation>Speichern mit &amp;Codierung</translation>
+        <translation>Speichern mit &amp;Kodierung</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="958"/>
@@ -1208,7 +1208,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="2702"/>
         <source>Keep encoding and save as...</source>
-        <translation>Codierung behalten und speichern als...</translation>
+        <translation>Kodierung behalten und speichern als...</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2776"/>
