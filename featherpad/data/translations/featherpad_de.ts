@@ -1695,12 +1695,16 @@ will be executed directly.
 If the script is not run in a terminal
 emulator, the output and error messages
 will be shown by a popup dialog.</source>
-        <translation>Das kann jeder Start Befehl mit
-Argumenten, zum Beispiel, &quot;xterm -hold&quot;
+        <translation>Das kann ein beliebiger Startbefehl mit
+Argumenten sein, zum Beispiel;  &quot;xterm -hold&quot;
 um den Prozess in XTerm laufen zu lassen.
 
 Wenn der Befehlt leer gelassen wird, wird die Datei
-direkt ausgeführt.</translation>
+direkt ausgeführt.
+
+Wenn das Script nicht in einem Terminalemulator
+ausgeführt wird, dann werden die Ausgabe und 
+Fehlermeldungen in einem Popup-Dialog angezeigt.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="795"/>
@@ -1758,9 +1762,10 @@ Neustart der Anwendung notwendig um wirksam zu werden.</translation>
 tooltip and context menu of a single tab but you could not
 merge a single tabbed window into another one by tab drag-
 and-drop either.</source>
-        <translation type="unfinished">Wenn das ausgewählt ist, geht nicht nur der informative
-Werkzeug Tipp und das Kontext Menü eines einzelnen Tabs verloren,
-es kann auch kein einzel Tab Fenster in ein anderes per drag-and-drop zusammengeführt werden.</translation>
+        <translation>Wenn diese Option ausgewählt ist, gehen tooltip und das 
+Kontextmenü verloren. Es ist auch nicht möglich, ein
+Einzelfenster in ein anderes Fenster per Ziehen und 
+Fallenlassen zu integrieren.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="271"/>
