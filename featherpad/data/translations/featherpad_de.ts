@@ -69,7 +69,7 @@
         <location filename="../../fpwin.cpp" line="2533"/>
         <location filename="../../fpwin.cpp" line="3608"/>
         <source>Encoding</source>
-        <translation>Codierung</translation>
+        <translation>Kodierung</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="271"/>
