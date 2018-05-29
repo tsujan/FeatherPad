@@ -30,3 +30,11 @@ The active Qt widget style determines the look and feel of every Qt application.
 
 ![Tabs](screenshots/Tabs.png?raw=true "Tabs")
 ![Side-Pane](screenshots/Side-Pane.png?raw=true "Side-Pane")
+
+## Translations
+FeatherPad is being translated using Weblate, a web tool designed to ease translating for both developers and translators.
+If you would like to contribute to translation of FeatherPad, you need to register on this server.
+
+<a href="https://weblate.lxqt.org/engage/featherpad/?utm_source=widget">
+<img src="https://weblate.lxqt.org/widgets/featherpad/-/featherpad/multi-auto.svg" alt="Translation status" />
+</a>
