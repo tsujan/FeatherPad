@@ -618,7 +618,7 @@
     <message>
         <location filename="../../fp.ui" line="212"/>
         <source>&amp;Encoding</source>
-        <translation>&amp;Codierung</translation>
+        <translation>&amp;Kodierung</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="216"/>
