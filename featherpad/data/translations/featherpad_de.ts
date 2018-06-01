@@ -1763,8 +1763,8 @@ tooltip and context menu of a single tab but you could not
 merge a single tabbed window into another one by tab drag-
 and-drop either.</source>
         <translation>Wenn diese Option ausgewählt ist, gehen der Tooltip und 
-das Kontextmenü verloren. Es ist auch nicht möglich, ein
-Einzelfenster in ein anderes Fenster per Ziehen und 
+das Kontextmenü verloren. Es ist dann auch nicht möglich,
+ein Einzelfenster in ein anderes Fenster per Ziehen und 
 Fallenlassen zu integrieren.</translation>
     </message>
     <message>
