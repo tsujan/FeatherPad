@@ -2250,7 +2250,7 @@ in die gespeicherte Sitzung eingeschlossen.</translation>
     <message>
         <location filename="../../textedit.cpp" line="134"/>
         <source>Double click to center current line</source>
-        <translation type="unfinished"></translation>
+        <translation>Doppel-Klick um die aktuelle Zeile zu zentreieren</translation>
     </message>
     <message>
         <location filename="../../textedit.cpp" line="1537"/>
