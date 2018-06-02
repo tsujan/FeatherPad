@@ -2071,7 +2071,7 @@ Zeilenenden einer Textdatei sinnvoll sein.</translation>
         <location filename="../../searchbar.cpp" line="73"/>
         <location filename="../../searchbar.cpp" line="77"/>
         <source>Match Case</source>
-        <translation>Groß/Kleinschreibung beachten</translation>
+        <translation>Groß-/Kleinschreibung beachten</translation>
     </message>
     <message>
         <location filename="../../searchbar.cpp" line="85"/>
