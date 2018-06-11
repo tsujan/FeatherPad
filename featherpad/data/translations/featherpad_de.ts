@@ -1344,7 +1344,7 @@
     <message>
         <location filename="../../syntax.cpp" line="249"/>
         <source>The size limit for syntax highlighting is exceeded.</source>
-        <translation type="unfinished"></translation>
+        <translation>Das Größenlimit für die Syntaxhervorhebung ist überschritten.</translation>
     </message>
 </context>
 <context>
