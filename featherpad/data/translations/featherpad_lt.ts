@@ -6,7 +6,7 @@
     <message>
         <location filename="../../about.ui" line="128"/>
         <source>License</source>
-        <translation></translation>
+        <translation>Licencija</translation>
     </message>
 </context>
 <context>
@@ -23,12 +23,12 @@
         <location filename="../../fpwin.cpp" line="3074"/>
         <location filename="../../fpwin.cpp" line="3746"/>
         <source>Untitled</source>
-        <translation></translation>
+        <translation>Be pavadinimo</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="71"/>
         <source>Go to line:</source>
-        <translation></translation>
+        <translation>Pereiti į eilutę:</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="107"/>
@@ -45,12 +45,12 @@
         <location filename="../../fp.ui" line="114"/>
         <location filename="../../fpwin.cpp" line="675"/>
         <source>Ctrl+Shift+J</source>
-        <translation></translation>
+        <translation>Ctrl(Vald)+Shift(Lyg2)+J</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="149"/>
         <source>&amp;File</source>
-        <translation></translation>
+        <translation>&amp;Failas</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="187"/>
