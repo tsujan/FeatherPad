@@ -56,50 +56,50 @@
         <location filename="../../fp.ui" line="187"/>
         <location filename="../../fp.ui" line="969"/>
         <source>&amp;Edit</source>
-        <translation></translation>
+        <translation>&amp;Taisa</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="208"/>
         <source>&amp;Options</source>
-        <translation></translation>
+        <translation>&amp;Parinktys</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1389"/>
         <location filename="../../fpwin.cpp" line="2511"/>
         <location filename="../../fpwin.cpp" line="3586"/>
         <source>Encoding</source>
-        <translation></translation>
+        <translation>Koduotė</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="271"/>
         <source>&amp;Search</source>
-        <translation></translation>
+        <translation>Pa&amp;ieška</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="279"/>
         <location filename="../../fp.ui" line="735"/>
         <source>&amp;Help</source>
-        <translation></translation>
+        <translation>Ži&amp;nynas</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="379"/>
         <source>Find:</source>
-        <translation></translation>
+        <translation>Rasti:</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="395"/>
         <source>To be replaced</source>
-        <translation></translation>
+        <translation>Bus pakeista</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="408"/>
         <source>Replace with:</source>
-        <translation></translation>
+        <translation>Kuo pakeisti:</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="424"/>
         <source>Replacing text</source>
-        <translation></translation>
+        <translation>Tekstas, kuriuo keičiama</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="106"/>
@@ -128,7 +128,7 @@
     <message>
         <location filename="../../fp.ui" line="483"/>
         <source>&amp;New</source>
-        <translation></translation>
+        <translation>&amp;Naujas</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="486"/>
