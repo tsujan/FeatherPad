@@ -133,58 +133,58 @@
     <message>
         <location filename="../../fp.ui" line="486"/>
         <source>New tab</source>
-        <translation></translation>
+        <translation>Nauja kortelė</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="489"/>
         <location filename="../../fpwin.cpp" line="1245"/>
         <location filename="../../fpwin.cpp" line="4458"/>
         <source>Ctrl+N</source>
-        <translation></translation>
+        <translation>Ctrl(Vald)+N</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="494"/>
         <source>&amp;Open</source>
-        <translation></translation>
+        <translation>&amp;Atverti</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="497"/>
         <source>Open a file</source>
-        <translation></translation>
+        <translation>Atverti failą</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="500"/>
         <location filename="../../fpwin.cpp" line="1246"/>
         <location filename="../../fpwin.cpp" line="4459"/>
         <source>Ctrl+O</source>
-        <translation></translation>
+        <translation>Ctrl(Vald)+O</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="508"/>
         <source>&amp;Save</source>
-        <translation></translation>
+        <translation>Į&amp;rašyti</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="511"/>
         <source>Save the current tab</source>
-        <translation></translation>
+        <translation>Įrašyti esamą kortelę</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="514"/>
         <location filename="../../fpwin.cpp" line="1247"/>
         <location filename="../../fpwin.cpp" line="4460"/>
         <source>Ctrl+S</source>
-        <translation></translation>
+        <translation>Ctrl(Vald)+S</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="522"/>
         <source>&amp;Undo</source>
-        <translation></translation>
+        <translation>A&amp;tšaukti</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="525"/>
         <source>Undo</source>
-        <translation></translation>
+        <translation>Atšaukti</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="528"/>
@@ -192,17 +192,17 @@
         <location filename="../../fpwin.cpp" line="1270"/>
         <location filename="../../fpwin.cpp" line="4485"/>
         <source>Ctrl+Z</source>
-        <translation></translation>
+        <translation>Ctrl(Vald)+Z</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="536"/>
         <source>&amp;Redo</source>
-        <translation></translation>
+        <translation>&amp;Grąžinti</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="539"/>
         <source>Redo</source>
-        <translation></translation>
+        <translation>Grąžinti</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="542"/>
@@ -210,32 +210,32 @@
         <location filename="../../fpwin.cpp" line="1271"/>
         <location filename="../../fpwin.cpp" line="4486"/>
         <source>Ctrl+Shift+Z</source>
-        <translation></translation>
+        <translation>Ctrl(Vald)+Shift(Lyg2)+Z</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="550"/>
         <location filename="../../fp.ui" line="553"/>
         <source>Reload</source>
-        <translation></translation>
+        <translation>Įkelti iš naujo</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="556"/>
         <location filename="../../fpwin.cpp" line="1259"/>
         <location filename="../../fpwin.cpp" line="4461"/>
         <source>Ctrl+Shift+R</source>
-        <translation></translation>
+        <translation>Ctrl(Vald)+Shift(Lyg2)+R</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="561"/>
         <source>&amp;Find</source>
-        <translation></translation>
+        <translation>&amp;Rasti</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="567"/>
         <location filename="../../fpwin.cpp" line="1248"/>
         <location filename="../../fpwin.cpp" line="4462"/>
         <source>Ctrl+F</source>
-        <translation></translation>
+        <translation>Ctrl(Vald)+F</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="575"/>
@@ -247,235 +247,235 @@
         <location filename="../../fpwin.cpp" line="1249"/>
         <location filename="../../fpwin.cpp" line="4463"/>
         <source>Ctrl+R</source>
-        <translation></translation>
+        <translation>Ctrl(Vald)+R</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="583"/>
         <source>Save &amp;As</source>
-        <translation></translation>
+        <translation>Įrašyti ka&amp;ip</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="586"/>
         <location filename="../../fpwin.cpp" line="1250"/>
         <location filename="../../fpwin.cpp" line="4464"/>
         <source>Ctrl+Shift+S</source>
-        <translation></translation>
+        <translation>Ctrl(Vald)+Shift(Lyg2)+S</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="591"/>
         <source>&amp;Print</source>
-        <translation></translation>
+        <translation>S&amp;pausdinti</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="594"/>
         <location filename="../../fpwin.cpp" line="1251"/>
         <location filename="../../fpwin.cpp" line="4465"/>
         <source>Ctrl+P</source>
-        <translation></translation>
+        <translation>Ctrl(Vald)+P</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="599"/>
         <source>Documen&amp;t Properties</source>
-        <translation></translation>
+        <translation>Dokumen&amp;to savybės</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="602"/>
         <location filename="../../fpwin.cpp" line="1252"/>
         <location filename="../../fpwin.cpp" line="4466"/>
         <source>Ctrl+Shift+D</source>
-        <translation></translation>
+        <translation>Ctrl(Vald)+Shift(Lyg2)+D</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="607"/>
         <source>&amp;Close</source>
-        <translation></translation>
+        <translation>&amp;Užverti</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="610"/>
         <location filename="../../fpwin.cpp" line="1253"/>
         <location filename="../../fpwin.cpp" line="4467"/>
         <source>Ctrl+Shift+Q</source>
-        <translation></translation>
+        <translation>Ctrl(Vald)+Shift(Lyg2)+Q</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="615"/>
         <source>&amp;Quit</source>
-        <translation></translation>
+        <translation>&amp;Išeiti</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="618"/>
         <location filename="../../fpwin.cpp" line="1254"/>
         <location filename="../../fpwin.cpp" line="4468"/>
         <source>Ctrl+Q</source>
-        <translation></translation>
+        <translation>Ctrl(Vald)+Q</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="626"/>
         <source>&amp;Cut</source>
-        <translation></translation>
+        <translation>Iš&amp;kirpti</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="629"/>
         <location filename="../../fpwin.cpp" line="663"/>
         <location filename="../../fpwin.cpp" line="1310"/>
         <source>Ctrl+X</source>
-        <translation></translation>
+        <translation>Ctrl(Vald)+X</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="637"/>
         <source>C&amp;opy</source>
-        <translation></translation>
+        <translation>K&amp;opijuoti</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="640"/>
         <location filename="../../fpwin.cpp" line="663"/>
         <location filename="../../fpwin.cpp" line="1311"/>
         <source>Ctrl+C</source>
-        <translation></translation>
+        <translation>Ctrl(Vald)+C</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="645"/>
         <source>&amp;Paste</source>
-        <translation></translation>
+        <translation>Į&amp;dėti</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="648"/>
         <location filename="../../fpwin.cpp" line="663"/>
         <location filename="../../fpwin.cpp" line="1312"/>
         <source>Ctrl+V</source>
-        <translation></translation>
+        <translation>Ctrl(Vald)+V</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="656"/>
         <source>&amp;Delete</source>
-        <translation></translation>
+        <translation>Iš&amp;trinti</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="661"/>
         <source>&amp;Select All</source>
-        <translation></translation>
+        <translation>Ž&amp;ymėti viską</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="664"/>
         <location filename="../../fpwin.cpp" line="663"/>
         <location filename="../../fpwin.cpp" line="1313"/>
         <source>Ctrl+A</source>
-        <translation></translation>
+        <translation>Ctrl(Vald)+A</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="669"/>
         <source>&amp;Font</source>
-        <translation></translation>
+        <translation>Šri&amp;ftas</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="677"/>
         <source>&amp;Line Numbers</source>
-        <translation></translation>
+        <translation>Ei&amp;lučių numeriai</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="680"/>
         <location filename="../../fpwin.cpp" line="1240"/>
         <location filename="../../fpwin.cpp" line="4469"/>
         <source>Ctrl+L</source>
-        <translation></translation>
+        <translation>Ctrl(Vald)+L</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="691"/>
         <source>&amp;Wrap Lines</source>
-        <translation></translation>
+        <translation>Skai&amp;dyti eilutes</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="694"/>
         <location filename="../../fpwin.cpp" line="1241"/>
         <location filename="../../fpwin.cpp" line="4470"/>
         <source>Ctrl+W</source>
-        <translation></translation>
+        <translation>Ctrl(Vald)+W</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="705"/>
         <source>&amp;Auto-Indentation</source>
-        <translation></translation>
+        <translation>&amp;Automatinė įtrauka</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="708"/>
         <location filename="../../fpwin.cpp" line="1242"/>
         <location filename="../../fpwin.cpp" line="4471"/>
         <source>Ctrl+I</source>
-        <translation></translation>
+        <translation>Ctrl(Vald)+I</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="719"/>
         <source>&amp;Syntax Highlighting</source>
-        <translation></translation>
+        <translation>&amp;Sintaksės paryškinimas</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="722"/>
         <location filename="../../fpwin.cpp" line="1243"/>
         <location filename="../../fpwin.cpp" line="4472"/>
         <source>Ctrl+Shift+H</source>
-        <translation></translation>
+        <translation>Ctrl(Vald)+Shift(Lyg2)+H</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="727"/>
         <source>&amp;Preferences</source>
-        <translation></translation>
+        <translation>&amp;Nuostatos</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="730"/>
         <location filename="../../fpwin.cpp" line="1255"/>
         <location filename="../../fpwin.cpp" line="4473"/>
         <source>Ctrl+Shift+P</source>
-        <translation></translation>
+        <translation>Ctrl(Vald)+Shift(Lyg2)+P</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="738"/>
         <location filename="../../fpwin.cpp" line="1256"/>
         <location filename="../../fpwin.cpp" line="4474"/>
         <source>Ctrl+H</source>
-        <translation></translation>
+        <translation>Ctrl(Vald)+H</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="743"/>
         <source>&amp;About</source>
-        <translation></translation>
+        <translation>&amp;Apie</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="770"/>
         <source>Enforce UTF-8</source>
-        <translation></translation>
+        <translation>Priverstinai naudoti UTF-8</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="953"/>
         <source>Save with &amp;Encoding</source>
-        <translation></translation>
+        <translation>Įrašyti su koduot&amp;e</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="958"/>
         <source>&amp;Jump to</source>
-        <translation></translation>
+        <translation>&amp;Peršokti į</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="961"/>
         <source>Show/hide jump bar</source>
-        <translation></translation>
+        <translation>Rodyti/slėpti peršokimo juostą</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="964"/>
         <location filename="../../fpwin.cpp" line="1264"/>
         <location filename="../../fpwin.cpp" line="4475"/>
         <source>Ctrl+J</source>
-        <translation></translation>
+        <translation>Ctrl(Vald)+J</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="972"/>
         <source>Edit text</source>
-        <translation></translation>
+        <translation>Redaguoti tekstą</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="975"/>
         <location filename="../../fpwin.cpp" line="4476"/>
         <source>Ctrl+Shift+E</source>
-        <translation></translation>
+        <translation>Ctrl(Vald)+Shift(Lyg2)+E</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1078"/>
