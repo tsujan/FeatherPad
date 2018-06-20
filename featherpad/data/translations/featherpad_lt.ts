@@ -1464,33 +1464,34 @@ Tam, kad įsigaliotų, reikia paleisti programą iš naujo.</translation>
         <location filename="../../predDialog.ui" line="183"/>
         <source>If the menubar is hidden,
 a menu button appears on the toolbar.</source>
-        <translation></translation>
+        <translation>Jeigu meniu juosta yra paslėpta,
+meniu mygtukas yra rodomas įrankių juostoje.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="187"/>
         <source>Do not show &amp;menubar</source>
-        <translation></translation>
+        <translation>Nerodyti &amp;meniu juostos</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="194"/>
         <source>Hide search &amp;bar by default</source>
-        <translation></translation>
+        <translation>Pagal numatymą slėpti paieškos &amp;juostą</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="201"/>
         <source>Always show st&amp;atus bar</source>
-        <translation></translation>
+        <translation>Visada rodyti &amp;būsenos juostą</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="208"/>
         <source>Show cursor position on status bar</source>
-        <translation></translation>
+        <translation>Rodyti būsenos juostoje žymeklio vietą</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="215"/>
         <location filename="../../predDialog.ui" line="225"/>
         <source>Will take effect after closing this dialog.</source>
-        <translation></translation>
+        <translation>Įsigalios, užvėrus šį dialogą.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="218"/>
@@ -1500,22 +1501,22 @@ a menu button appears on the toolbar.</source>
     <message>
         <location filename="../../predDialog.ui" line="229"/>
         <source>North</source>
-        <translation></translation>
+        <translation>Viršus</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="234"/>
         <source>South</source>
-        <translation></translation>
+        <translation>Apačia</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="239"/>
         <source>West</source>
-        <translation></translation>
+        <translation>Kairė</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="244"/>
         <source>East</source>
-        <translation></translation>
+        <translation>Dešinė</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="252"/>
@@ -1533,7 +1534,7 @@ Tab navigation with mouse wheel is not affected.</source>
     <message>
         <location filename="../../predDialog.ui" line="278"/>
         <source>Close window on closing its last tab</source>
-        <translation></translation>
+        <translation>Užvėrus paskutinę kortelę, užverti langą</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="285"/>
@@ -1547,7 +1548,7 @@ report that they have multiple desktops.</source>
     <message>
         <location filename="../../predDialog.ui" line="292"/>
         <source>Always open in separate windows</source>
-        <translation></translation>
+        <translation>Visada atverti atskiruose languose</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="299"/>
@@ -1560,7 +1561,7 @@ Some desktop environments, like KDE and LXQt, provide files dialogs.</source>
     <message>
         <location filename="../../predDialog.ui" line="305"/>
         <source>Native file dialog</source>
-        <translation></translation>
+        <translation>Savas failų dialogas</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="361"/>
@@ -1570,7 +1571,7 @@ Some desktop environments, like KDE and LXQt, provide files dialogs.</source>
     <message>
         <location filename="../../predDialog.ui" line="364"/>
         <source>Remember &amp;font</source>
-        <translation></translation>
+        <translation>Prisiminti šri&amp;ftą</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="385"/>
