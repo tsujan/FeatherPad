@@ -1342,7 +1342,7 @@
     <message>
         <location filename="../../syntax.cpp" line="249"/>
         <source>The size limit for syntax highlighting is exceeded.</source>
-        <translation type="unfinished"></translation>
+        <translation>Limit rozmiaru dla podświetlania składni został przekroczony.</translation>
     </message>
 </context>
 <context>
@@ -1526,12 +1526,16 @@ przycisk menu pojawi się na pasku narzędzi.</translation>
 after the last tab is activated, and the same for Alt+Left.
 
 Tab navigation with mouse wheel is not affected.</source>
-        <translation type="unfinished"></translation>
+        <translation>Oznacza to, że w przypadku trybu LTR, Alt+strzałka w prawo
+przenosi do pierwszej karty, gdy aktywna jest ostatnia karta,
+tak samo dla Alt+strzałka w lewo.
+
+Nawigacja z użyciem myszy nie ulegnie zmianie.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="258"/>
         <source>Tab navigation wraps &amp;around</source>
-        <translation type="unfinished"></translation>
+        <translation>Nawigacja po kartach powtarza się</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="278"/>
@@ -1825,7 +1829,13 @@ executable, the file will be executed by clicking
 the Run button, that appears on the toolbar/filemenu
 when needed, or by its shortcut Ctrl+E. Then, the
 process could be killed by Ctrl+Alt+E.</source>
-        <translation type="unfinished"></translation>
+        <translation>Dotyczy to plików wykonywalnych napisanych
+w językach skryptowych takich jak Python.
+
+Jeżeli zaznaczone i otwarty plik jest wykonywalny,
+możesz wykonać go przyciskiem Uruchom, który
+pojawi się na pasku zadań/w menu, lub skrótem Ctrl+E.
+Proces może zostać zakończony skrótem Ctrl+Alt+E.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="515"/>
@@ -1881,7 +1891,12 @@ Takes effect after closing this dialog.
 
 Leave empty for:
 MMM dd, yyyy, hh:mm:ss</source>
-        <translation type="unfinished"></translation>
+        <translation>Używany do umieszczania daty i godziny.
+
+Efekt widoczny jest po zamknięciu okna.
+
+Pozostaw pusty, aby przywrócić:
+MMM dd, rrrr, gg:mm:ss</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="589"/>
@@ -1896,7 +1911,7 @@ MMM dd, yyyy, hh:mm:ss</source>
     <message>
         <location filename="../../predDialog.ui" line="630"/>
         <source>Thick text cursor</source>
-        <translation type="unfinished"></translation>
+        <translation>Grubszy wskaźnik tekstu</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="637"/>
@@ -2219,7 +2234,7 @@ oknach zostaną uwzględnione w zapisanej sesji.</translation>
     <message>
         <location filename="../../textedit.cpp" line="134"/>
         <source>Double click to center current line</source>
-        <translation type="unfinished"></translation>
+        <translation>Naciśnij dwukrotnie, aby wyśrodkować obecny wiersz</translation>
     </message>
     <message>
         <location filename="../../textedit.cpp" line="1537"/>
