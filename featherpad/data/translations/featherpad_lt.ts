@@ -34,12 +34,13 @@
         <location filename="../../fp.ui" line="107"/>
         <source>Select text from cursor to this line
 (Ctrl+Shift+J)</source>
-        <translation></translation>
+        <translation>Žymėti tekstą nuo žymeklio iki šios eilutės
+(Ctrl(Vald)+Shift(Lyg2)+J)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="111"/>
         <source>Select Text</source>
-        <translation></translation>
+        <translation>Žymėti tekstą</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="114"/>
@@ -240,7 +241,7 @@
     <message>
         <location filename="../../fp.ui" line="575"/>
         <source>Show/hide replacement dock</source>
-        <translation></translation>
+        <translation>Rodyti/slėpti pakeitimų doką</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="578"/>
@@ -545,7 +546,7 @@
         <location filename="../../fp.ui" line="1124"/>
         <location filename="../../fp.ui" line="1127"/>
         <source>To Upper Case</source>
-        <translation></translation>
+        <translation>Paversti didžiosiomis</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1130"/>
@@ -558,7 +559,7 @@
         <location filename="../../fp.ui" line="1135"/>
         <location filename="../../fp.ui" line="1138"/>
         <source>To Lower Case</source>
-        <translation></translation>
+        <translation>Paversti mažosiomis</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1141"/>
@@ -922,7 +923,7 @@
         <location filename="../../fpwin.cpp" line="3606"/>
         <location filename="../../fpwin.cpp" line="3620"/>
         <source>Sel. Chars</source>
-        <translation></translation>
+        <translation>Paž. simbolių</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1393"/>
@@ -1423,17 +1424,18 @@
         <location filename="../../predDialog.ui" line="111"/>
         <source>Most suitable with sessions
 but without tab functionality.</source>
-        <translation></translation>
+        <translation>Labiausia tinka su seansais, tačiau be
+kortelių funkcionalumo.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="138"/>
         <source>Uncheck for 1/5 of the width.</source>
-        <translation></translation>
+        <translation>Nuimkite žymėjimą, norėdami naudoti 1/5 pločio.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="141"/>
         <source>Remember splitter position</source>
-        <translation></translation>
+        <translation>Prisiminti skirtuko vietą</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="161"/>
@@ -1475,7 +1477,7 @@ meniu mygtukas yra rodomas įrankių juostoje.</translation>
     <message>
         <location filename="../../predDialog.ui" line="194"/>
         <source>Hide search &amp;bar by default</source>
-        <translation>Pagal numatymą slėpti paieškos &amp;juostą</translation>
+        <translation>Pagal numatymą, slėpti paieškos &amp;juostą</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="201"/>
@@ -1524,12 +1526,15 @@ meniu mygtukas yra rodomas įrankių juostoje.</translation>
 after the last tab is activated, and the same for Alt+Left.
 
 Tab navigation with mouse wheel is not affected.</source>
-        <translation></translation>
+        <translation>Tai reiškia, kad kalboms iš kairės į dešinę, aktyvavus paskutinę kortelę,
+ir paspaudus Alt+Dešinėn bus pereita į pirmą kortelę, taip pat ir su Alt+Kairėn.
+
+Kortelių naršymas pelės ratuku nebus paveiktas.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="258"/>
         <source>Tab navigation wraps &amp;around</source>
-        <translation></translation>
+        <translation>&amp;Cikliškai perjunginėti kortelių naršymą</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="278"/>
@@ -1543,7 +1548,11 @@ current desktop, files will be opened in its tabs.
 
 However, some desktop environments may not
 report that they have multiple desktops.</source>
-        <translation></translation>
+        <translation>Pagal numatymą, jei FeatherPad langas yra esamame
+darbalaukyje, tuomet failai bus atveriami programos kortelėse.
+
+Kita vertus, kai kurios darbalaukio aplinkos gali ir nepranešti,
+kad turi kelis darbalaukius.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="292"/>
@@ -1556,7 +1565,10 @@ report that they have multiple desktops.</source>
 desktop environment will be used instead of the Qt file dialog.
 
 Some desktop environments, like KDE and LXQt, provide files dialogs.</source>
-        <translation></translation>
+        <translation>Jei tai yra pažymėta, tuomet vietoj Qt failų dialogo, bus naudojamas
+esamos darbalaukio aplinkos pateikiamas failų dialogas.
+
+Kai kurios darbalaukio aplinkos, tokios kaip KDE ir LXQt, pateikia failų dialogus.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="305"/>
@@ -1566,7 +1578,7 @@ Some desktop environments, like KDE and LXQt, provide files dialogs.</source>
     <message>
         <location filename="../../predDialog.ui" line="361"/>
         <source>Uncheck for Monospace 9.</source>
-        <translation></translation>
+        <translation>Nuimkite žymėjimą, norėdami naudoti Lygiaplotį (Monospace) 9.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="364"/>
@@ -1576,7 +1588,7 @@ Some desktop environments, like KDE and LXQt, provide files dialogs.</source>
     <message>
         <location filename="../../predDialog.ui" line="385"/>
         <source>This covers parentheses, braces, brackets and quotes.</source>
-        <translation></translation>
+        <translation>Tai apima įvairius skliaustus ir kabutes.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="388"/>
@@ -1775,12 +1787,12 @@ langų su kortelėmis, velkant korteles.</translation>
     <message>
         <location filename="../../predDialog.ui" line="371"/>
         <source>&amp;Wrap lines by default</source>
-        <translation>Pagal numatymą s&amp;kaidyti eilutes</translation>
+        <translation>Pagal numatymą, s&amp;kaidyti eilutes</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="378"/>
         <source>Auto-&amp;indent by default</source>
-        <translation>Pagal numatymą daryti automatinę į&amp;trauką</translation>
+        <translation>Pagal numatymą, daryti automatinę į&amp;trauką</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="395"/>
@@ -1790,7 +1802,7 @@ langų su kortelėmis, velkant korteles.</translation>
     <message>
         <location filename="../../predDialog.ui" line="402"/>
         <source>Highlight s&amp;yntax by default</source>
-        <translation>Pagal numatymą paryškinti s&amp;intaksę</translation>
+        <translation>Pagal numatymą, paryškinti s&amp;intaksę</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="518"/>
@@ -1906,7 +1918,7 @@ mmm dd, MMMM, vv:mm:ss</translation>
     <message>
         <location filename="../../predDialog.ui" line="596"/>
         <source> spaces</source>
-        <translation> tarpų</translation>
+        <translation> tarpai</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="630"/>
