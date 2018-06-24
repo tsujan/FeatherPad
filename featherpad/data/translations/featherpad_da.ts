@@ -546,7 +546,7 @@
         <location filename="../../fp.ui" line="1124"/>
         <location filename="../../fp.ui" line="1127"/>
         <source>To Upper Case</source>
-        <translation type="unfinished"></translation>
+        <translation>Til store bogstaver</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1130"/>
@@ -559,7 +559,7 @@
         <location filename="../../fp.ui" line="1135"/>
         <location filename="../../fp.ui" line="1138"/>
         <source>To Lower Case</source>
-        <translation type="unfinished"></translation>
+        <translation>Til små bogstaver</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1141"/>
@@ -1125,7 +1125,7 @@
         <location filename="../../fpwin.cpp" line="1094"/>
         <location filename="../../fpwin.cpp" line="2302"/>
         <source>The file does not exist.</source>
-        <translation type="unfinished"></translation>
+        <translation>Filen findes ikke.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1588"/>
@@ -1279,7 +1279,7 @@
         <location filename="../../fpwin.cpp" line="4343"/>
         <location filename="../../fpwin.cpp" line="4411"/>
         <source>%1 Pages</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 sider</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4369"/>
@@ -1539,7 +1539,7 @@ Fanebladsnavigation med musehjul påvirkes ikke.</translation>
     <message>
         <location filename="../../predDialog.ui" line="278"/>
         <source>Close window on closing its last tab</source>
-        <translation type="unfinished"></translation>
+        <translation>Luk vindue når det sidste faneblad lukkes</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="285"/>
@@ -1919,12 +1919,12 @@ MMM dd, åååå, tt:mm:ss</translation>
     <message>
         <location filename="../../predDialog.ui" line="596"/>
         <source> spaces</source>
-        <translation type="unfinished"></translation>
+        <translation> mellemrum</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="630"/>
         <source>Thick text cursor</source>
-        <translation type="unfinished"></translation>
+        <translation>Fed tekstmarkør</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="637"/>
@@ -1967,17 +1967,17 @@ trailing spaces of a text file.</source>
     <message>
         <location filename="../../predDialog.ui" line="871"/>
         <source>Allow saving unmodified files</source>
-        <translation type="unfinished"></translation>
+        <translation>Tillad at uændrede filer gemmes</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="878"/>
         <source>Show a warning instead.</source>
-        <translation type="unfinished"></translation>
+        <translation>Vis i stedet en advarsel.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="881"/>
         <source>Do not permit opening of non-text files</source>
-        <translation type="unfinished"></translation>
+        <translation>Tilladt ikke åbning af filer som ikke er tekstfiler</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="892"/>
@@ -2263,7 +2263,7 @@ vinduer i den gemte session.</translation>
     <message>
         <location filename="../../textedit.cpp" line="1564"/>
         <source>To Upper Case</source>
-        <translation type="unfinished"></translation>
+        <translation>Til store bogstaver</translation>
     </message>
     <message>
         <location filename="../../textedit.cpp" line="1568"/>
