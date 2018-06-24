@@ -810,7 +810,7 @@
     <message>
         <location filename="../../fp.ui" line="1065"/>
         <source>&amp;Last Tab</source>
-        <translation>&amp;Letzter Tab</translation>
+        <translation>&amp;Letzte Registerkarte</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1068"/>
