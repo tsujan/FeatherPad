@@ -546,7 +546,7 @@
         <location filename="../../fp.ui" line="1124"/>
         <location filename="../../fp.ui" line="1127"/>
         <source>To Upper Case</source>
-        <translation>Til store bogstaver</translation>
+        <translation>Store bogstaver</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1130"/>
@@ -1941,7 +1941,7 @@ hvis markøren er inden i tekstvisningen?</translation>
     <message>
         <location filename="../../predDialog.ui" line="740"/>
         <source>Only if their number is not greater than 50.</source>
-        <translation type="unfinished"></translation>
+        <translation>Kun hvis der er flere end 50.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="837"/>
@@ -2248,7 +2248,7 @@ vinduer i den gemte session.</translation>
     <message>
         <location filename="../../textedit.cpp" line="135"/>
         <source>Double click to center current line</source>
-        <translation type="unfinished"></translation>
+        <translation>Dobbeltklik for at centrere nuværende linje</translation>
     </message>
     <message>
         <location filename="../../textedit.cpp" line="1538"/>
@@ -2268,7 +2268,7 @@ vinduer i den gemte session.</translation>
     <message>
         <location filename="../../textedit.cpp" line="1568"/>
         <source>To Lower Case</source>
-        <translation type="unfinished"></translation>
+        <translation>Små bogstaver</translation>
     </message>
     <message>
         <location filename="../../textedit.cpp" line="1574"/>
