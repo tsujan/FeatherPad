@@ -1342,7 +1342,7 @@
     <message>
         <location filename="../../syntax.cpp" line="249"/>
         <source>The size limit for syntax highlighting is exceeded.</source>
-        <translation type="unfinished"></translation>
+        <translation>Størrelsesbegrænsningen for syntaksfremhævning er oversteget.</translation>
     </message>
 </context>
 <context>
@@ -1682,7 +1682,7 @@ hvor den sidste linje ikke er tom.</translation>
     <message>
         <location filename="../../predDialog.ui" line="743"/>
         <source>Start with files of last window</source>
-        <translation type="unfinished"></translation>
+        <translation>Start med filer fra sidste vindue</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="783"/>
@@ -1914,7 +1914,7 @@ MMM dd, åååå, tt:mm:ss</translation>
     <message>
         <location filename="../../predDialog.ui" line="589"/>
         <source>Text tab size:</source>
-        <translation type="unfinished"></translation>
+        <translation>Tabulatorstørrelse for tekst:</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="596"/>
@@ -1962,7 +1962,12 @@ be used also when the opened file is not modified.
 This can be useful under certain circumstances,
 e.g. for changing the time stamp or removing the
 trailing spaces of a text file.</source>
-        <translation type="unfinished"></translation>
+        <translation>Hvis den er valgt til, kan gem-knappen/menupunktet
+også bruges når den åbnede fil ikke er ændret.
+
+Det kan være nyttigt under bestemte omstændigheder,
+f.eks. til at ændre tidsstemplet eller fjerne de
+efterstillede mellemrum i en tekstfil.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="871"/>
