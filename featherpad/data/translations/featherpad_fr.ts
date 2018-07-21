@@ -535,7 +535,7 @@
     <message>
         <location filename="../../fp.ui" line="1116"/>
         <source>Paste Date and Time</source>
-        <translation type="Coller la date et l'heure"></translation>
+        <translation>Coller la date et l'heure</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1119"/>
@@ -548,7 +548,7 @@
         <location filename="../../fp.ui" line="1124"/>
         <location filename="../../fp.ui" line="1127"/>
         <source>To Upper Case</source>
-        <translation type="Mettre en majuscule"></translation>
+        <translation>Mettre en majuscule</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1130"/>
@@ -561,7 +561,7 @@
         <location filename="../../fp.ui" line="1135"/>
         <location filename="../../fp.ui" line="1138"/>
         <source>To Lower Case</source>
-        <translation type="Mettre en minuscule"></translation>
+        <translation>Mettre en minuscule</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1141"/>
@@ -987,47 +987,47 @@
     <message>
         <location filename="../../fpwin.cpp" line="665"/>
         <source>Shift+Ins</source>
-        <translation type="MAJ+Inser"></translation>
+        <translation>MAJ+Inser</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="665"/>
         <source>Shift+Del</source>
-        <translation type="MAJ+Suppr"></translation>
+        <translation>MAJ+Suppr</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="665"/>
         <source>Ctrl+Ins</source>
-        <translation type="Ctrl+Inser"></translation>
+        <translation>Ctrl+Inser</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="665"/>
         <source>Ctrl+Left</source>
-        <translation type="Ctrl+Gauche"></translation>
+        <translation>Ctrl+Gauche</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="665"/>
         <source>Ctrl+Right</source>
-        <translation type="Ctrl+Droite"></translation>
+        <translation>Ctrl+Droite</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="666"/>
         <source>Ctrl+Up</source>
-        <translation type="Ctrl+Haut"></translation>
+        <translation>Ctrl+Haut</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="666"/>
         <source>Ctrl+Down</source>
-        <translation type="Ctrl+Bas"></translation>
+        <translation>Ctrl+Bas</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="666"/>
         <source>Ctrl+Home</source>
-        <translation type="Ctrl+Début"></translation>
+        <translation>Ctrl+Début</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="666"/>
         <source>Ctrl+End</source>
-        <translation type="Ctrl+Fin"></translation>
+        <translation>Ctrl+Fin</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="666"/>
@@ -1114,7 +1114,7 @@
         <location filename="../../fpwin.cpp" line="3669"/>
         <location filename="../../fpwin.cpp" line="3689"/>
         <source>Normal</source>
-        <translation type="Normal"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1094"/>
@@ -1145,12 +1145,12 @@
     <message>
         <location filename="../../fpwin.cpp" line="2282"/>
         <source>Some file(s) could not be opened!</source>
-        <translation type="Certains fichiers n'ont pas pu être ouverts!"></translation>
+        <translation>Certains fichiers n'ont pas pu être ouverts!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2283"/>
         <source>You may not have the permission to read.</source>
-        <translation type="Vous n'avez par les droits en lecture"></translation>
+        <translation>Vous n'avez par les droits en lecture</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2293"/>
@@ -1166,19 +1166,19 @@
         <location filename="../../fpwin.cpp" line="3098"/>
         <location filename="../../fpwin.cpp" line="3281"/>
         <source>This file has been modified elsewhere or in another way!</source>
-        <translation type="Ce fichier a été modifié ailleurs et par un autre moyen!"></translation>
+        <translation>Ce fichier a été modifié ailleurs et par un autre moyen!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3099"/>
         <location filename="../../fpwin.cpp" line="3282"/>
         <source>Please be careful about reloading or saving this document!</source>
-        <translation type="Soyez prudent lors du chargement ou de l'enregistrement de ce document!"></translation>
+        <translation>Soyez prudent lors du chargement ou de l'enregistrement de ce document!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4347"/>
         <location filename="../../fpwin.cpp" line="4415"/>
         <source>%1 Pages</source>
-        <translation type="%1 Pages"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4373"/>
@@ -1342,7 +1342,7 @@
     <message>
         <location filename="../../syntax.cpp" line="251"/>
         <source>The size limit for syntax highlighting is exceeded.</source>
-        <translation type="La limite accordée à la coloration syntaxique a été atteinte."></translation>
+        <translation>La limite accordée à la coloration syntaxique a été atteinte.</translation>
     </message>
 </context>
 <context>
@@ -1487,7 +1487,7 @@ un bouton menu apparait sur la barre d&apos;outils.</translation>
     <message>
         <location filename="../../predDialog.ui" line="208"/>
         <source>Show cursor position on status bar</source>
-        <translation type="Afficher la position du curseur sur la barre d'état"></translation>
+        <translation>Afficher la position du curseur sur la barre d'état</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="215"/>
@@ -1539,7 +1539,7 @@ La navigation par onglets avec la souris n&apos;est pas concernée.</translation
     <message>
         <location filename="../../predDialog.ui" line="278"/>
         <source>Close window on closing its last tab</source>
-        <translation type="Fermer la fenêtre à la fermeture du dernier onglet"></translation>
+        <translation>Fermer la fenêtre à la fermeture du dernier onglet</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="285"/>
@@ -1605,13 +1605,13 @@ Certains environnnements de bureau, comme KDE et LXQt, disposent de leurs propre
         <location filename="../../predDialog.ui" line="425"/>
         <source>This creates a menu button on the
 status bar for changing the syntax.</source>
-        <translation type="Affichera une bouton sur la barre d'état
-pour permettre la modification de la syntaxe"></translation>
+        <translation>Affichera une bouton sur la barre d'état
+pour permettre la modification de la syntaxe</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="429"/>
         <source>Support syntax override</source>
-        <translation type="Support de la modification syntaxique"></translation>
+        <translation>Support de la modification syntaxique</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="472"/>
@@ -1630,13 +1630,13 @@ quand la syntaxe est colorée.</translation>
         <location filename="../../predDialog.ui" line="501"/>
         <source>The vertical position lines will be drawn only if
 the editor font has a fixed pitch (like Monospace).</source>
-        <translation type="Les lignes de position verticale s'afficheront
-uniquement si la police a une taille constante (comme Monospace)"></translation>
+        <translation>Les lignes de position verticale s'afficheront
+uniquement si la police a une taille constante (comme Monospace)</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="494"/>
         <source>Show vertical lines starting from this position:</source>
-        <translation type="Afficher des lignes verticales depuis cette position:"></translation>
+        <translation>Afficher des lignes verticales depuis cette position:</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="483"/>
@@ -1646,7 +1646,7 @@ uniquement si la police a une taille constante (comme Monospace)"></translation>
     <message>
         <location filename="../../predDialog.ui" line="564"/>
         <source>Date and time format:</source>
-        <translation type="Format de la date et de l'heure:"></translation>
+        <translation>Format de la date et de l'heure:</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="612"/>
@@ -1663,7 +1663,7 @@ dont la dernière ligne n&apos;est pas vide.</translation>
     <message>
         <location filename="../../predDialog.ui" line="623"/>
         <source>Remove trailing spaces on saving</source>
-        <translation type="Supprimer les espaces de fin à l'enregistrement"></translation>
+        <translation>Supprimer les espaces de fin à l'enregistrement</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="641"/>
@@ -1683,7 +1683,7 @@ dont la dernière ligne n&apos;est pas vide.</translation>
     <message>
         <location filename="../../predDialog.ui" line="743"/>
         <source>Start with files of last window</source>
-        <translation type="Commencer avec les fichiers de la dernière fenêtre"></translation>
+        <translation>Démarrer une session avec les derniers fichiers ouverts</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="783"/>
@@ -1732,7 +1732,7 @@ seront affichés dans une boîte de dialogue popup.</translation>
     <message>
         <location filename="../../predDialog.ui" line="840"/>
         <source>Save changes to opened files every:</source>
-        <translation type="Enregister les modifications des fichiers ouverts tous les:"></translation>
+        <translation>Enregister les modifications des fichiers ouverts toutes les:</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="951"/>
@@ -1904,27 +1904,27 @@ Takes effect after closing this dialog.
 
 Leave empty for:
 MMM dd, yyyy, hh:mm:ss</source>
-        <translation type="Utilisé pour copier la date et l'heure.
+        <translation>Utilisé pour copier la date et l'heure.
 
 Prendra effet après la fermeture de cette fenêtre.
 
 Laisser vide pour:
-MMM jj, aaaa, hh:mm:ss"></translation>
+MMM jj, aaaa, hh:mm:ss</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="589"/>
         <source>Text tab size:</source>
-        <translation type="Taille du texte des onglets"></translation>
+        <translation>Taille du texte des onglets</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="596"/>
         <source> spaces</source>
-        <translation type="espaces"></translation>
+        <translation> espaces</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="630"/>
         <source>Thick text cursor</source>
-        <translation type="Curseur de texte large"></translation>
+        <translation>Curseur de texte épais</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="637"/>
@@ -1941,18 +1941,18 @@ doit-il être inertiel si le curseur se trouve dans la vue du texte?</translatio
     <message>
         <location filename="../../predDialog.ui" line="740"/>
         <source>Only if their number is not greater than 50.</source>
-        <translation type="Uniquement s'il y en a moins de 50"></translation>
+        <translation>Uniquement s'il y en a moins de 50</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="837"/>
         <location filename="../../predDialog.ui" line="847"/>
         <source>Only for files that exist and can be saved.</source>
-        <translation type="Uniquement pour les fichiers existants qui peuvent être sauvegardés"></translation>
+        <translation>Uniquement pour les fichiers existants qui peuvent être sauvegardés</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="850"/>
         <source> min</source>
-        <translation type="min"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="863"/>
@@ -1962,27 +1962,27 @@ be used also when the opened file is not modified.
 This can be useful under certain circumstances,
 e.g. for changing the time stamp or removing the
 trailing spaces of a text file.</source>
-        <translation type="Si coché, le bouton/entrée de menu Enregistrer
+        <translation>Si coché, le bouton/entrée de menu Enregistrer
 pourra aussi être utilisé lorsque le fichier ouvert n'est pas modifié.
                            
 Peut être utile dans certains cas,
 p.ex. pour modifier l'horodatage ou supprimer les espaces
-de fin de ligne d'un fichier texte."></translation>
+de fin de ligne d'un fichier texte.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="871"/>
         <source>Allow saving unmodified files</source>
-        <translation type="Permettre l'enregistrement de fichiers non modifiés"></translation>
+        <translation>Permettre l'enregistrement de fichiers non modifiés</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="878"/>
         <source>Show a warning instead.</source>
-        <translation type="Affiche un avertissement à la place"></translation>
+        <translation>Affiche un avertissement à la place</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="881"/>
         <source>Do not permit opening of non-text files</source>
-        <translation type="Ne pas permettre l'ouverture de fichier n'étant pas de type texte"></translation>
+        <translation>Ne pas permettre l'ouverture de fichier n'étant pas de type texte</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="892"/>
@@ -2253,32 +2253,32 @@ fenêtres seront inclus dans la session sauvegardée.</translation>
     <message>
         <location filename="../../textedit.cpp" line="135"/>
         <source>Double click to center current line</source>
-        <translation type="Double clic pour centrer la ligne utilisée"></translation>
+        <translation>Double clic pour centrer la ligne utilisée</translation>
     </message>
     <message>
         <location filename="../../textedit.cpp" line="1538"/>
         <source>Open Link</source>
-        <translation type="Ouvrir le lien"></translation>
+        <translation>Ouvrir le lien</translation>
     </message>
     <message>
         <location filename="../../textedit.cpp" line="1551"/>
         <source>Copy Link</source>
-        <translation type="Copier le lien"></translation>
+        <translation>Copier le lien</translation>
     </message>
     <message>
         <location filename="../../textedit.cpp" line="1564"/>
         <source>To Upper Case</source>
-        <translation type="Mettre en majuscule"></translation>
+        <translation>Mettre en majuscule</translation>
     </message>
     <message>
         <location filename="../../textedit.cpp" line="1568"/>
         <source>To Lower Case</source>
-        <translation type="Mettre en minuscule"></translation>
+        <translation>Mettre en minuscule</translation>
     </message>
     <message>
         <location filename="../../textedit.cpp" line="1574"/>
         <source>Paste Date and Time</source>
-        <translation type="Coller la date et l'heure"></translation>
+        <translation>Coller la date et l'heure</translation>
     </message>
 </context>
 <context>
