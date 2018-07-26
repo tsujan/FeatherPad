@@ -134,7 +134,7 @@
     <message>
         <location filename="../../fp.ui" line="486"/>
         <source>New tab</source>
-        <translation>Neuer Tab</translation>
+        <translation>Neue Registerkarte</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="489"/>
@@ -168,7 +168,7 @@
     <message>
         <location filename="../../fp.ui" line="511"/>
         <source>Save the current tab</source>
-        <translation>Aktuellen Tab speichern</translation>
+        <translation>Aktuelle Registerkarte speichern</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="514"/>
@@ -571,7 +571,7 @@
     <message>
         <location filename="../../fp.ui" line="983"/>
         <source>&amp;Detach Tab</source>
-        <translation>&amp;Tab abtrennen</translation>
+        <translation>&amp;Registerkarte abtrennen</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="986"/>
@@ -593,12 +593,12 @@
     <message>
         <location filename="../../fp.ui" line="1032"/>
         <source>Ne&amp;xt Tab</source>
-        <translation>&amp;Nächster Tab</translation>
+        <translation>&amp;Nächste Registerkarte</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1043"/>
         <source>Previous Ta&amp;b</source>
-        <translation>&amp;Vorheriger Tab</translation>
+        <translation>&amp;Vorherige Registekarte</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1081"/>
@@ -798,7 +798,7 @@
     <message>
         <location filename="../../fp.ui" line="1054"/>
         <source>&amp;First Tab</source>
-        <translation>&amp;Erster Tab</translation>
+        <translation>&amp;Erste Registerkarte</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1057"/>
@@ -935,7 +935,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="1586"/>
         <source>Another process is running in this tab!</source>
-        <translation>Ein anderer Prozess läuft in diesem Tab!</translation>
+        <translation>Ein weiterer Prozess läuft in dieser Registerkarte!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1670"/>
@@ -1130,7 +1130,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="1587"/>
         <source>Only one process is allowed per tab.</source>
-        <translation>Nur ein Prozess erlaubt pro Tab.</translation>
+        <translation>Nur ein Prozess pro Registerkarte erlaubt.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1666"/>
@@ -1425,7 +1425,7 @@
         <source>Most suitable with sessions
 but without tab functionality.</source>
         <translation>Am geeignetsten mit Sitzungen
-aber ohne Tabfunktionalität.</translation>
+aber ohne Registerkartenfunktionalität.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="138"/>
@@ -1500,7 +1500,7 @@ erscheint ein Menüknopf auf der Werkzeugleiste.</translation>
     <message>
         <location filename="../../predDialog.ui" line="218"/>
         <source>Tab position: </source>
-        <translation>Tab-Position: </translation>
+        <translation>Reiterposition: </translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="229"/>
@@ -1528,15 +1528,16 @@ erscheint ein Menüknopf auf der Werkzeugleiste.</translation>
 after the last tab is activated, and the same for Alt+Left.
 
 Tab navigation with mouse wheel is not affected.</source>
-        <translation>Damit ist gemeint, dass für LTR, Alt+Rechts zum ersten Tab geht
-nachdem der letzte Tab aktiviert wurde, entsprechend für Alt+Links.
+        <translation>Ermöglicht zyklisches Wechseln zwischen Registerkarten, 
+sodass erste und letzte Registerkarten beieinander liegen. 
+(Rechts: Alt+Rechts / Links: Alt+Links)
         
-Tab Navigation mit Mausrad ist nicht betroffen.</translation>
+Registerkarten sind von der Navigation mit Mausrad nicht betroffen.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="258"/>
         <source>Tab navigation wraps &amp;around</source>
-        <translation>Fortl&amp;aufende Tab-Navigation</translation>
+        <translation>Fortl&amp;aufende Registerkarten-Navigation</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="278"/>
@@ -1619,7 +1620,7 @@ Statusleiste zum Ändern der Syntax.</translation>
         <location filename="../../predDialog.ui" line="472"/>
         <source>Show spaces, tabs and tab lines
 when the syntax is highlighted.</source>
-        <translation>Anzeigen von Leerzeichen, Tabs und Einrückungslinien
+        <translation>Anzeigen von Leerzeichen, Tabulatoren und Einrückungslinien
 wenn die Syntax-Erweiterung aktiv ist.</translation>
     </message>
     <message>
@@ -1775,7 +1776,7 @@ Fallenlassen zu integrieren.</translation>
     <message>
         <location filename="../../predDialog.ui" line="271"/>
         <source>&amp;Do not show a single tab</source>
-        <translation>&amp;Einzelnen Tab verbergen</translation>
+        <translation>&amp;Reiterleiste bei einer Registerkarte verbergen</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="316"/>
@@ -1915,7 +1916,7 @@ MMM dd, yyyy, hh:mm:ss</translation>
     <message>
         <location filename="../../predDialog.ui" line="589"/>
         <source>Text tab size:</source>
-        <translation>Tab Größe:</translation>
+        <translation>Tabulatorgröße:</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="596"/>
