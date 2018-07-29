@@ -1588,7 +1588,7 @@ Kai kurios darbalaukio aplinkos, tokios kaip KDE ir LXQt, pateikia failų dialog
     <message>
         <location filename="../../predDialog.ui" line="385"/>
         <source>This covers parentheses, braces, brackets and quotes.</source>
-        <translation>Tai apima įvairius skliaustus ir kabutes.</translation>
+        <translation>Tai apima įvairius skliaustelius, riestinius skliaustus ir kabutes.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="388"/>
