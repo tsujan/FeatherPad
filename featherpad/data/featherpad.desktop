@@ -2,6 +2,7 @@
 Name=FeatherPad
 GenericName=Text Editor
 GenericName[da]=Tekstredigering
+GenericName[es]=Editor de texto
 GenericName[eo]=Tekst-Redaktilo
 GenericName[pl]=Edytor tekstu
 GenericName[pt]=Editor de texto
@@ -9,6 +10,7 @@ GenericName[tr]=Metin Düzenleyici
 GenericName[zh_CN]=文本编辑器
 Comment=Lightweight Qt5 text editor
 Comment[da]=Letvægts Qt5-tekstredigering
+Comment[es]=Editor de texto ligero basado en Qt5
 Comment[eo]=Malpeza tekst-redaktilo bazita sur Qt5
 Comment[pl]=Lekki edytor tekstu oparty na Qt5
 Comment[pt]=Editor de texto em Qt5
