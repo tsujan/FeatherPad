@@ -572,14 +572,14 @@
         <location filename="../../fp.ui" line="1150"/>
         <location filename="../../fp.ui" line="1153"/>
         <source>Last Active Tab</source>
-        <translation type="unfinished"></translation>
+        <translation>Sidste aktive faneblad</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1156"/>
         <location filename="../../fpwin.cpp" line="1299"/>
         <location filename="../../fpwin.cpp" line="4547"/>
         <source>F1</source>
-        <translation type="unfinished">F1</translation>
+        <translation>F1</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="984"/>
