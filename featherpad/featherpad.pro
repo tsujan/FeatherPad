@@ -3,8 +3,11 @@ QT += core gui \
       printsupport \
       network \
       svg
-
-TARGET = featherpad
+haiku {
+	TARGET = FeatherPad
+}else {
+	TARGET = featherpad
+}
 TEMPLATE = app
 CONFIG += c++11
 
@@ -67,7 +70,7 @@ RESOURCES += data/fp.qrc
 contains(WITHOUT_X11, YES) {
   message("Compiling without X11...")
 }
-else:unix:!macx {
+else:unix:!macx:!haiku {
   QT += x11extras
   SOURCES += x11.cpp
   HEADERS += x11.h
@@ -85,7 +88,8 @@ unix {
     updateqm.CONFIG += no_link target_predeps
     QMAKE_EXTRA_COMPILERS += updateqm
   }
-
+}
+unix:!haiku {
   #VARIABLES
   isEmpty(PREFIX) {
     PREFIX = /usr
@@ -116,4 +120,22 @@ unix {
   trans.files += data/translations/translations
 
   INSTALLS += target slink desktop iconsvg help trans
+
+}else:haiku {
+	isEmpty(PREFIX) {
+	PREFIX = /boot/home/config/non-packaged/apps/FeatherPad
+  }
+	BINDIR = $$PREFIX
+	DATADIR =$$PREFIX/data
+
+	DEFINES += DATADIR=\\\"$$DATADIR\\\" PKGDATADIR=\\\"$$PKGDATADIR\\\"
+
+	target.path =$$BINDIR
+
+	help.path = $$DATADIR
+	help.files += ./data/help
+
+	trans.path = $$PREFIX
+	trans.files += data/translations/translations
+	INSTALLS += target help trans
 }

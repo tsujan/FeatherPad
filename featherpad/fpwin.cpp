@@ -4839,7 +4839,11 @@ void FPwin::helpDoc()
         }
     }
 
+#ifdef Q_OS_HAIKU
+	QFile helpFile (DATADIR "/help");
+#else
     QFile helpFile (DATADIR "/featherpad/help");
+#endif
 
     if (!helpFile.exists()) return;
     if (!helpFile.open (QFile::ReadOnly)) return;

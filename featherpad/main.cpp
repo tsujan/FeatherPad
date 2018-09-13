@@ -98,7 +98,11 @@ int main (int argc, char **argv)
     singleton.installTranslator (&qtTranslator);
 
     QTranslator FPTranslator;
-    FPTranslator.load ("featherpad_" + lang, DATADIR "/featherpad/translations");
+#ifdef Q_OS_HAIKU
+	FPTranslator.load ("featherpad_" + lang, "/translations");
+#else
+	FPTranslator.load ("featherpad_" + lang, DATADIR "/featherpad/translations");
+#endif
     singleton.installTranslator (&FPTranslator);
 
     QString info;
