@@ -579,7 +579,7 @@
         <location filename="../../fpwin.cpp" line="1301"/>
         <location filename="../../fpwin.cpp" line="4553"/>
         <source>F1</source>
-        <translation type="unfinished">F1</translation>
+        <translation>F1</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="984"/>
