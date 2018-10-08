@@ -16,7 +16,7 @@ If there is more that one tab, each one will have a right-click menu for closing
 
 If a file is opened in a tab, the right-click menu of that tab will also contain two items for copying the name and path of the file.
 
-For users' comfort, double clicking on an empty area of tha tab-bar creates a new tab.
+For users' comfort, double clicking on an empty area of the tab-bar creates a new tab.
 
 ***********************
 *   File Management   *
@@ -56,7 +56,7 @@ The programming language is detected based on the mime type or file name and its
 
 If the text has no programming language or its syntax is not supported, only its hyperlinks/URLs will be highlighted and it will be possible to open them by right clicking them and activating the related menu-item or by pressing the Control key, moving the cursor over them, and clicking them while the cursor is like a pointing hand.
 
-Also, there is an optiion in the Preferences dialog that, if enabled and checked, will add a language button to the status bar for overriding the original syntax or lack of it. Reloading a document restores its original syntax.
+Also, there is an option in the Preferences dialog that, if enabled and checked, will add a language button to the status bar for overriding the original syntax or lack of it. Reloading a document restores its original syntax.
 
 There are also options for showing whitespaces (spaces, line ends and the document end) and vertical position lines when syntax highlighting is enabled (by default or temporarily).
 
@@ -71,7 +71,7 @@ To remove the yellow highlights after finishing a search, you could
 * Empty the search entry and press Enter or F3 in it, or
 * Hide the search bar by focusing it and then, pressing Ctrl+F.
 
-The 'Replace' docked window respects the settings for 'Match Case' and 'Whole Word' on the search bar. It can be detached from and reattached to the the main window at top or bottom. To remove the green highlights after replacing text, you could either hide/close the 'Replace' docked window or do as in the case of removing yellow search highlights (without closing the dock).
+The 'Replace' docked window respects the settings for 'Match Case' and 'Whole Word' on the search bar. It can be detached from and reattached to the main window at top or bottom. To remove the green highlights after replacing text, you could either hide/close the 'Replace' docked window or do as in the case of removing yellow search highlights (without closing the dock).
 
 ***********************
 *   Going to A Line   *

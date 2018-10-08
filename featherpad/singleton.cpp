@@ -71,7 +71,7 @@ FPsingleton::FPsingleton (int &argc, char **argv) : QApplication (argc, argv)
     lockFile_ = new QLockFile (lockFilePath);
 
     if (lockFile_->tryLock())
-    { // create a local server and listen to incomming messages from other instances
+    { // create a local server and listen to incoming messages from other instances
         localServer = new QLocalServer (this);
         connect (localServer, &QLocalServer::newConnection, this, &FPsingleton::receiveMessage);
         if (!localServer->listen (uniqueKey_))

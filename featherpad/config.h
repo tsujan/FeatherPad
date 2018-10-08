@@ -329,14 +329,14 @@ public:
     bool getExecuteScripts() const {
         return executeScripts_;
     }
-    void setExecuteScripts (bool excute) {
-        executeScripts_ = excute;
+    void setExecuteScripts (bool execute) {
+        executeScripts_ = execute;
     }
     QString getExecuteCommand() const {
         return executeCommand_;
     }
-    void setExecuteCommand (const QString& commnad) {
-        executeCommand_ = commnad;
+    void setExecuteCommand (const QString& command) {
+        executeCommand_ = command;
     }
 /*************************/
     bool getAppendEmptyLine() const {

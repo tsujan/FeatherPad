@@ -1304,7 +1304,7 @@ void Highlighter::pythonMLComment (const QString &text, const int indx)
     noteFormat.setFontItalic (true);
     noteFormat.setForeground (DarkRed);
 
-    /* we reset tha block state because this method is also called
+    /* we reset the block state because this method is also called
        during the multiline quotation formatting after clearing formats */
     setCurrentBlockState (-1);
 
@@ -1492,7 +1492,7 @@ int Highlighter::cssHighlighter (const QString &text, bool mainFormatting, const
         if (hugeText)
             setFormat (index, text.length() - index, translucentFormat);
         int endIndex;
-        /* when the css block starts in the prvious line
+        /* when the css block starts in the previous line
            and the search for its end has just begun... */
         if ((prevState == cssBlockState
              || prevState == commentInCssState
@@ -1721,7 +1721,7 @@ void Highlighter::singleLineComment (const QString &text, const int start)
                 }
                 /* take care of next-line comments with languages, for which
                    no highlighting function is called after singleLineComment()
-                   and before the main formaatting in highlightBlock()
+                   and before the main formatting in highlightBlock()
                    (only c and c++ for now) */
                 if ((progLan == "c" || progLan == "cpp")
                     && text.endsWith (QLatin1Char('\\')))
@@ -2114,7 +2114,7 @@ void Highlighter::multiLineQuote (const QString &text, const int start, int comS
                 }
             }
             else if (progLan == "markdown")
-            { // this is the main differenct of a markdown inline code from a single-line quote
+            { // this is the main different of a markdown inline code from a single-line quote
                 isQuotation = false;
             }
         }

@@ -303,7 +303,7 @@ private:
     qint64 size_; // file size for limiting syntax highlighting (the file may be removed)
     QDateTime lastModified_; // the last modification time for knowing about changes.
     int wordNumber_; // the calculated number of words (-1 if not counted yet)
-    QString searchedText_; // the text that is being searched in the documnet
+    QString searchedText_; // the text that is being searched in the document
     QString replaceTitle_; // the title of the Replacement dock (can change)
     QString fileName_; // opened file
     QString prog_; // real programming language (never empty; defaults to "url")
@@ -324,14 +324,14 @@ private:
      ***** Inertial scrolling *****
      ******************************/
     bool inertialScrolling_;
-    struct scollData {
+    struct scrollData {
       int delta;
       int leftSteps;
       int totalSteps;
     };
     QTimer *scrollTimer_;
     QWheelEvent *wheelEvent_;
-    QList<scollData> queuedScrollSteps_;
+    QList<scrollData> queuedScrollSteps_;
 };
 /*************************/
 class LineNumberArea : public QWidget

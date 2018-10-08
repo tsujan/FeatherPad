@@ -442,7 +442,7 @@ void TextEdit::keyPressEvent (QKeyEvent *event)
             else if (!isReadOnly() && event->key() == Qt::Key_Z)
             {
                 /* QWidgetTextControl::undo() callls ensureCursorVisible() even when there's nothing to undo.
-                   Users may press Ctrl+Z just to know whether a documnet is in its original state and
+                   Users may press Ctrl+Z just to know whether a document is in its original state and
                    a scroll jump can confuse them when there's nothing to undo. */
                 if (!document()->isUndoAvailable())
                 {
@@ -457,7 +457,7 @@ void TextEdit::keyPressEvent (QKeyEvent *event)
         {
             if (highlighter_)
                 viewport()->setCursor (Qt::IBeamCursor);
-            /* QWidgetTextControl::redo() callls ensureCursorVisible() even when there's nothing to redo.
+            /* QWidgetTextControl::redo() calls ensureCursorVisible() even when there's nothing to redo.
                That may cause a scroll jump, which can be confusing when nothing else has happened. */
             if (!isReadOnly() && (event->modifiers() & Qt::ShiftModifier) && event->key() == Qt::Key_Z
                 && !document()->isRedoAvailable())
@@ -960,7 +960,7 @@ void TextEdit::wheelEvent (QWheelEvent *event)
             int fps = qMax (SCROLL_FRAMES_PER_SEC / wheelEvents.size(), 5);
 
             /* set the data for inertial scrolling */
-            scollData data;
+            scrollData data;
             data.delta = delta;
             data.totalSteps = data.leftSteps = fps * SCROLL_DURATION / 1000;
             queuedScrollSteps_.append (data);
@@ -980,7 +980,7 @@ void TextEdit::scrollWithInertia()
     if (!wheelEvent_ || !verticalScrollBar()) return;
 
     int totalDelta = 0;
-    for (QList<scollData>::iterator it = queuedScrollSteps_.begin(); it != queuedScrollSteps_.end(); ++it)
+    for (QList<scrollData>::iterator it = queuedScrollSteps_.begin(); it != queuedScrollSteps_.end(); ++it)
     {
         totalDelta += qRound (static_cast<qreal>(it->delta) / static_cast<qreal>(it->totalSteps));
         -- it->leftSteps;

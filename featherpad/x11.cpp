@@ -32,7 +32,7 @@ namespace FeatherPad {
  *** because Qt does not fetch enough information on X11. ***
  *************************************************************/
 
-// Get the curent virtual desktop.
+// Get the current virtual desktop.
 long fromDesktop()
 {
     long res = -1;
