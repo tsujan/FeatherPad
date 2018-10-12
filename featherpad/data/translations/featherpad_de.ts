@@ -572,7 +572,7 @@
         <location filename="../../fp.ui" line="1150"/>
         <location filename="../../fp.ui" line="1153"/>
         <source>Last Active Tab</source>
-        <translation type="unfinished"></translation>
+        <translation>Letzte aktive Registerkarte</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1156"/>
