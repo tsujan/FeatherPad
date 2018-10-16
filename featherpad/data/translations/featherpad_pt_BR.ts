@@ -1020,7 +1020,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="678"/>
         <source>Ctrl+Left</source>
-        <translation></translation>
+        <translation>Ctrl+Seta esquerda</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="678"/>
@@ -1924,18 +1924,19 @@ MMM dd, yyyy, hh:mm:ss</translation>
     <message>
         <location filename="../../predDialog.ui" line="596"/>
         <source> spaces</source>
-        <translation></translation>
+        <translation> espaços</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="630"/>
         <source>Thick text cursor</source>
-        <translation></translation>
+        <translation>Cursor de texto espesso</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="637"/>
         <source>Should the mouse wheel scrolling be inertial
 if the cursor is inside the text view?</source>
-        <translation></translation>
+        <translation>A rolagem do mouse deve ser inercial
+se o cursor estiver dentro da visualização de texto?</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="686"/>
@@ -1945,13 +1946,13 @@ if the cursor is inside the text view?</source>
     <message>
         <location filename="../../predDialog.ui" line="740"/>
         <source>Only if their number is not greater than 50.</source>
-        <translation></translation>
+        <translation>Apenas se o seu número não for maior que 50.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="837"/>
         <location filename="../../predDialog.ui" line="847"/>
         <source>Only for files that exist and can be saved.</source>
-        <translation></translation>
+        <translation>Apenas para arquivos que existem e podem ser salvos.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="850"/>
@@ -1966,27 +1967,32 @@ be used also when the opened file is not modified.
 This can be useful under certain circumstances,
 e.g. for changing the time stamp or removing the
 trailing spaces of a text file.</source>
-        <translation></translation>
+        <translation>Se isso estiver marcado, o botão Salvar no item de menu
+poderá ser usado também quando o arquivo aberto não for modificado.
+
+Isto pode ser útil sob certas circunstâncias,
+ex: para alterar o registro de data e hora ou remover os
+espaços à direita de um arquivo de texto.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="871"/>
         <source>Allow saving unmodified files</source>
-        <translation></translation>
+        <translation>Permitir salvar arquivos não modificados</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="878"/>
         <source>Show a warning instead.</source>
-        <translation></translation>
+        <translation>Exibir um aviso em seu lugar.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="881"/>
         <source>Do not permit opening of non-text files</source>
-        <translation></translation>
+        <translation>Não permitir abertura de arquivos não-texto</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="892"/>
         <source>Shortcuts</source>
-        <translation></translation>
+        <translation>Atalhos</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="911"/>
@@ -1996,12 +2002,12 @@ trailing spaces of a text file.</source>
     <message>
         <location filename="../../predDialog.ui" line="916"/>
         <source>Shortcut</source>
-        <translation></translation>
+        <translation>Atalho</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="924"/>
         <source>Restore default shortcuts.</source>
-        <translation></translation>
+        <translation>Restaurar atalhos padrão.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="927"/>
@@ -2011,7 +2017,7 @@ trailing spaces of a text file.</source>
     <message>
         <location filename="../../predDialog.ui" line="962"/>
         <source>Close</source>
-        <translation></translation>
+        <translation>Fechar</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="250"/>
@@ -2029,37 +2035,37 @@ trailing spaces of a text file.</source>
         <location filename="../../pref.cpp" line="392"/>
         <location filename="../../pref.cpp" line="1278"/>
         <source>Warning: Ambiguous shortcut detected!</source>
-        <translation></translation>
+        <translation>Atenção: Atalho ambíguo detectado!</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="497"/>
         <source>Application restart is needed for changes to take effect.</source>
-        <translation></translation>
+        <translation>A reinicialização do aplicativo é necessária para que as alterações entrem em vigor.</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="509"/>
         <source>Window reopening is needed for changes to take effect.</source>
-        <translation></translation>
+        <translation>A reabertura da janela é necessária para que as alterações entrem em vigor.</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="1200"/>
         <source>&amp;Recently Opened</source>
-        <translation></translation>
+        <translation>&amp;Recentemente Aberto</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="1201"/>
         <source>Recently &amp;Modified</source>
-        <translation></translation>
+        <translation>Recentemente &amp;Modificado</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="1268"/>
         <source>The typed shortcut was not valid.</source>
-        <translation></translation>
+        <translation>O atalho digitado não foi válido.</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="1270"/>
         <source>The typed shortcut was reserved.</source>
-        <translation></translation>
+        <translation>O atalho digitado foi reservado.</translation>
     </message>
 </context>
 <context>
@@ -2067,31 +2073,31 @@ trailing spaces of a text file.</source>
     <message>
         <location filename="../../searchbar.cpp" line="36"/>
         <source>Search...</source>
-        <translation></translation>
+        <translation>Pesquisar...</translation>
     </message>
     <message>
         <location filename="../../searchbar.cpp" line="73"/>
         <location filename="../../searchbar.cpp" line="77"/>
         <source>Match Case</source>
-        <translation></translation>
+        <translation>Caso de compatibilidade</translation>
     </message>
     <message>
         <location filename="../../searchbar.cpp" line="85"/>
         <location filename="../../searchbar.cpp" line="89"/>
         <source>Whole Word</source>
-        <translation></translation>
+        <translation>Palavra inteira</translation>
     </message>
     <message>
         <location filename="../../searchbar.cpp" line="62"/>
         <location filename="../../searchbar.cpp" line="67"/>
         <source>Next</source>
-        <translation></translation>
+        <translation>Próximo</translation>
     </message>
     <message>
         <location filename="../../searchbar.cpp" line="63"/>
         <location filename="../../searchbar.cpp" line="68"/>
         <source>Previous</source>
-        <translation></translation>
+        <translation>Anterior</translation>
     </message>
 </context>
 <context>
@@ -2099,18 +2105,18 @@ trailing spaces of a text file.</source>
     <message>
         <location filename="../../sessionDialog.ui" line="14"/>
         <source>Session Manager</source>
-        <translation></translation>
+        <translation>Gerenciador de Sessão</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="101"/>
         <location filename="../../sessionDialog.ui" line="270"/>
         <source>&amp;Remove</source>
-        <translation></translation>
+        <translation>&amp;Remover</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="33"/>
         <source>&lt;b&gt;Save/Restore Session&lt;/b&gt;</source>
-        <translation></translation>
+        <translation>&lt;b&gt;Salvar/Restaurar Sessão&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="56"/>
@@ -2120,7 +2126,7 @@ trailing spaces of a text file.</source>
     <message>
         <location filename="../../sessionDialog.ui" line="69"/>
         <source>Open the selected session(s).</source>
-        <translation></translation>
+        <translation>Abrir a sessão selecionada.</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="72"/>
@@ -2144,23 +2150,24 @@ trailing spaces of a text file.</source>
         <location filename="../../sessionDialog.ui" line="159"/>
         <source>By default, all files that are opened in all
 windows will be included in the saved session.</source>
-        <translation></translation>
+        <translation>Por padrão, todos os arquivos abertos em todas
+as janelas serão incluídos na sessão salva.</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="163"/>
         <source>Save only from this &amp;window</source>
-        <translation></translation>
+        <translation>Salvar apenas desta &amp;janela</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="180"/>
         <source>&lt;b&gt;Warning&lt;/b&gt;</source>
-        <translation></translation>
+        <translation>&lt;b&gt;Atenção&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="226"/>
         <location filename="../../session.cpp" line="319"/>
         <source>&amp;Yes</source>
-        <translation></translation>
+        <translation>&amp;Sim</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="233"/>
@@ -2175,42 +2182,42 @@ windows will be included in the saved session.</source>
     <message>
         <location filename="../../sessionDialog.ui" line="118"/>
         <source>Remove &amp;All</source>
-        <translation></translation>
+        <translation>Remover &amp;Todos</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="260"/>
         <source>&amp;Close</source>
-        <translation></translation>
+        <translation>&amp;Fechar</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="135"/>
         <source>Save the current session under the given title.</source>
-        <translation></translation>
+        <translation>Salve a sessão atual sob o título inserido.</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="138"/>
         <source>&amp;Save</source>
-        <translation></translation>
+        <translation>&amp;Salvar</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="149"/>
         <source>Type a name to save session</source>
-        <translation></translation>
+        <translation>Digite um nome para salvar a sessão</translation>
     </message>
     <message>
         <location filename="../../session.cpp" line="163"/>
         <source>Nothing saved.&lt;br&gt;No file was opened.</source>
-        <translation></translation>
+        <translation>Nada salvo.&lt;br&gt;Nenhum arquivo foi aberto.</translation>
     </message>
     <message>
         <location filename="../../session.cpp" line="256"/>
         <source>No file exists or can be opened.</source>
-        <translation></translation>
+        <translation>Nenhum arquivo existe ou pode ser aberto.</translation>
     </message>
     <message>
         <location filename="../../session.cpp" line="262"/>
         <source>Not all files exist or can be opened.</source>
-        <translation></translation>
+        <translation>Nem todos os arquivos existem ou podem ser abertos.</translation>
     </message>
     <message>
         <location filename="../../session.cpp" line="305"/>
@@ -2220,22 +2227,22 @@ windows will be included in the saved session.</source>
     <message>
         <location filename="../../session.cpp" line="324"/>
         <source>Do you really want to remove all saved sessions?</source>
-        <translation></translation>
+        <translation>Você realmente quer remover todas as sessões salvas?</translation>
     </message>
     <message>
         <location filename="../../session.cpp" line="330"/>
         <source>Do you really want to remove the selected sessions?</source>
-        <translation></translation>
+        <translation>Você realmente quer remover as sessões selecionadas?</translation>
     </message>
     <message>
         <location filename="../../session.cpp" line="332"/>
         <source>Do you really want to remove the selected session?</source>
-        <translation></translation>
+        <translation>Você realmente quer remover a sessão selecionada?</translation>
     </message>
     <message>
         <location filename="../../session.cpp" line="337"/>
         <source>A session with the same name exists.&lt;br&gt;Do you want to overwrite it?</source>
-        <translation></translation>
+        <translation>Uma sessão com o mesmo nome existe.&lt;br&gt;Você deseja sobrescrever?</translation>
     </message>
 </context>
 <context>
@@ -2251,7 +2258,7 @@ windows will be included in the saved session.</source>
     <message>
         <location filename="../../textedit.cpp" line="136"/>
         <source>Double click to center current line</source>
-        <translation></translation>
+        <translation>Clique duas vezes para centralizar a linha atual</translation>
     </message>
     <message>
         <location filename="../../textedit.cpp" line="1546"/>
@@ -2261,22 +2268,22 @@ windows will be included in the saved session.</source>
     <message>
         <location filename="../../textedit.cpp" line="1559"/>
         <source>Copy Link</source>
-        <translation></translation>
+        <translation>Copiar Link</translation>
     </message>
     <message>
         <location filename="../../textedit.cpp" line="1572"/>
         <source>To Upper Case</source>
-        <translation></translation>
+        <translation>Para maiúsculas</translation>
     </message>
     <message>
         <location filename="../../textedit.cpp" line="1576"/>
         <source>To Lower Case</source>
-        <translation></translation>
+        <translation>Para minúsculas</translation>
     </message>
     <message>
         <location filename="../../textedit.cpp" line="1582"/>
         <source>Paste Date and Time</source>
-        <translation></translation>
+        <translation>Colar Data e Hora</translation>
     </message>
 </context>
 <context>
@@ -2285,7 +2292,7 @@ windows will be included in the saved session.</source>
         <location filename="../../warningbar.h" line="79"/>
         <location filename="../../warningbar.h" line="88"/>
         <source>Close</source>
-        <translation></translation>
+        <translation>Fechar</translation>
     </message>
 </context>
 </TS>
