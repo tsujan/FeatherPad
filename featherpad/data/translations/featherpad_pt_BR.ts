@@ -34,7 +34,7 @@
         <location filename="../../fp.ui" line="107"/>
         <source>Select text from cursor to this line
 (Ctrl+Shift+J)</source>
-        <translation>Selecione o texto do cursor para esta linha
+        <translation>Selecione o texto do cursor até esta linha
 (Ctrl+Shift+J)</translation>
     </message>
     <message>
