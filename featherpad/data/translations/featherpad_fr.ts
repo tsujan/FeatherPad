@@ -574,14 +574,14 @@
         <location filename="../../fp.ui" line="1150"/>
         <location filename="../../fp.ui" line="1153"/>
         <source>Last Active Tab</source>
-        <translation type="unfinished"></translation>
+        <translation>Dernier Onglet Actif</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1156"/>
         <location filename="../../fpwin.cpp" line="1319"/>
         <location filename="../../fpwin.cpp" line="4571"/>
         <source>F1</source>
-        <translation type="unfinished"></translation>
+        <translation>F1</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="984"/>
