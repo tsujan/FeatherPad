@@ -1741,7 +1741,7 @@ seront affichés dans une boîte de dialogue popup.</translation>
     <message>
         <location filename="../../predDialog.ui" line="840"/>
         <source>Save changes to opened files every:</source>
-        <translation>Enregister les modifications des fichiers ouverts toutes les:</translation>
+        <translation>Enregistrer les modifications des fichiers ouverts toutes les:</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="951"/>
