@@ -22,4 +22,11 @@ Terminal=false
 Type=Application
 MimeType=text/plain;
 Categories=Qt;Utility;TextEditor;
-X-KDE-StartupNotify=false
+X-KDE-StartupNotify=false;
+Keywords=Text;Editor;Plaintext;
+Actions=new-window;
+
+[Desktop Action new-window]
+Name=New Window
+Name[de]=Neues Fenster
+Exec=featherpad --win
