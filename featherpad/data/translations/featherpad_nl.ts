@@ -6,7 +6,7 @@
     <message>
         <location filename="../../about.ui" line="130"/>
         <source>License</source>
-        <translation></translation>
+        <translation>Licentie</translation>
     </message>
 </context>
 <context>
@@ -23,23 +23,24 @@
         <location filename="../../fpwin.cpp" line="3130"/>
         <location filename="../../fpwin.cpp" line="3807"/>
         <source>Untitled</source>
-        <translation></translation>
+        <translation>Naamloos</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="71"/>
         <source>Go to line:</source>
-        <translation></translation>
+        <translation>Ga naar regel:</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="107"/>
         <source>Select text from cursor to this line
 (Ctrl+Shift+J)</source>
-        <translation></translation>
+        <translation>Selecteer tekst vanaf de cursor tot deze regel
+(Ctrl+Shift+J)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="111"/>
         <source>Select Text</source>
-        <translation></translation>
+        <translation>Tekst selecteren</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="114"/>
@@ -50,56 +51,56 @@
     <message>
         <location filename="../../fp.ui" line="149"/>
         <source>&amp;File</source>
-        <translation></translation>
+        <translation>&amp;Bestand</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="188"/>
         <location filename="../../fp.ui" line="970"/>
         <source>&amp;Edit</source>
-        <translation></translation>
+        <translation>B&amp;ewerken</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="209"/>
         <source>&amp;Options</source>
-        <translation></translation>
+        <translation>&amp;Opties</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1428"/>
         <location filename="../../fpwin.cpp" line="2554"/>
         <location filename="../../fpwin.cpp" line="3647"/>
         <source>Encoding</source>
-        <translation></translation>
+        <translation>Tekenreeks</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="272"/>
         <source>&amp;Search</source>
-        <translation></translation>
+        <translation>&amp;Zoeken</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="280"/>
         <location filename="../../fp.ui" line="736"/>
         <source>&amp;Help</source>
-        <translation></translation>
+        <translation>&amp;Hulp</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="380"/>
         <source>Find:</source>
-        <translation></translation>
+        <translation>Zoeken:</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="396"/>
         <source>To be replaced</source>
-        <translation></translation>
+        <translation>Te vervangen</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="409"/>
         <source>Replace with:</source>
-        <translation></translation>
+        <translation>Vervangen door:</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="425"/>
         <source>Replacing text</source>
-        <translation></translation>
+        <translation>Bezig met vervangen van tekst</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="108"/>
@@ -128,12 +129,12 @@
     <message>
         <location filename="../../fp.ui" line="484"/>
         <source>&amp;New</source>
-        <translation></translation>
+        <translation>&amp;Nieuw</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="487"/>
         <source>New tab</source>
-        <translation></translation>
+        <translation>Nieuw tabblad</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="490"/>
@@ -145,12 +146,12 @@
     <message>
         <location filename="../../fp.ui" line="495"/>
         <source>&amp;Open</source>
-        <translation></translation>
+        <translation>&amp;Openen</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="498"/>
         <source>Open a file</source>
-        <translation></translation>
+        <translation>Open een bestand</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="501"/>
@@ -162,12 +163,12 @@
     <message>
         <location filename="../../fp.ui" line="509"/>
         <source>&amp;Save</source>
-        <translation></translation>
+        <translation>Op&amp;slaan</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="512"/>
         <source>Save the current tab</source>
-        <translation></translation>
+        <translation>Huidig tabblad opslaan</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="515"/>
@@ -179,12 +180,12 @@
     <message>
         <location filename="../../fp.ui" line="523"/>
         <source>&amp;Undo</source>
-        <translation></translation>
+        <translation>&amp;Ongedaan maken</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="526"/>
         <source>Undo</source>
-        <translation></translation>
+        <translation>Ongedaan maken</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="529"/>
@@ -197,12 +198,12 @@
     <message>
         <location filename="../../fp.ui" line="537"/>
         <source>&amp;Redo</source>
-        <translation></translation>
+        <translation>&amp;Opnieuw</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="540"/>
         <source>Redo</source>
-        <translation></translation>
+        <translation>Opnieuw</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="543"/>
@@ -216,7 +217,7 @@
         <location filename="../../fp.ui" line="551"/>
         <location filename="../../fp.ui" line="554"/>
         <source>Reload</source>
-        <translation></translation>
+        <translation>Herladen</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="557"/>
