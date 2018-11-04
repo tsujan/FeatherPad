@@ -229,7 +229,7 @@
     <message>
         <location filename="../../fp.ui" line="562"/>
         <source>&amp;Find</source>
-        <translation></translation>
+        <translation>&amp;Zoeken</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="568"/>
@@ -241,7 +241,7 @@
     <message>
         <location filename="../../fp.ui" line="576"/>
         <source>Show/hide replacement dock</source>
-        <translation></translation>
+        <translation>Vervangpaneel tonen/verbergen</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="579"/>
@@ -253,7 +253,7 @@
     <message>
         <location filename="../../fp.ui" line="584"/>
         <source>Save &amp;As</source>
-        <translation></translation>
+        <translation>Opslaan &amp;als</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="587"/>
@@ -265,7 +265,7 @@
     <message>
         <location filename="../../fp.ui" line="592"/>
         <source>&amp;Print</source>
-        <translation></translation>
+        <translation>&amp;Afdrukken</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="595"/>
@@ -277,7 +277,7 @@
     <message>
         <location filename="../../fp.ui" line="600"/>
         <source>Documen&amp;t Properties</source>
-        <translation></translation>
+        <translation>Documen&amp;teigenschappen</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="603"/>
@@ -289,7 +289,7 @@
     <message>
         <location filename="../../fp.ui" line="608"/>
         <source>&amp;Close</source>
-        <translation></translation>
+        <translation>&amp;Sluiten</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="611"/>
@@ -301,7 +301,7 @@
     <message>
         <location filename="../../fp.ui" line="616"/>
         <source>&amp;Quit</source>
-        <translation></translation>
+        <translation>&amp;Afsluiten</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="619"/>
@@ -313,7 +313,7 @@
     <message>
         <location filename="../../fp.ui" line="627"/>
         <source>&amp;Cut</source>
-        <translation></translation>
+        <translation>&amp;Knippen</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="630"/>
@@ -325,7 +325,7 @@
     <message>
         <location filename="../../fp.ui" line="638"/>
         <source>C&amp;opy</source>
-        <translation></translation>
+        <translation>K&amp;opiëren</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="641"/>
@@ -337,7 +337,7 @@
     <message>
         <location filename="../../fp.ui" line="646"/>
         <source>&amp;Paste</source>
-        <translation></translation>
+        <translation>&amp;Plakken</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="649"/>
@@ -349,12 +349,12 @@
     <message>
         <location filename="../../fp.ui" line="657"/>
         <source>&amp;Delete</source>
-        <translation></translation>
+        <translation>Verwij&amp;deren</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="662"/>
         <source>&amp;Select All</source>
-        <translation></translation>
+        <translation>Alles &amp;selecteren</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="665"/>
@@ -366,12 +366,12 @@
     <message>
         <location filename="../../fp.ui" line="670"/>
         <source>&amp;Font</source>
-        <translation></translation>
+        <translation>&amp;Lettertype</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="678"/>
         <source>&amp;Line Numbers</source>
-        <translation></translation>
+        <translation>Rege&amp;lnummers</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="681"/>
@@ -383,7 +383,7 @@
     <message>
         <location filename="../../fp.ui" line="692"/>
         <source>&amp;Wrap Lines</source>
-        <translation></translation>
+        <translation>Regels &amp;omslaan</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="695"/>
@@ -395,7 +395,7 @@
     <message>
         <location filename="../../fp.ui" line="706"/>
         <source>&amp;Auto-Indentation</source>
-        <translation></translation>
+        <translation>&amp;Automatisch inspringen</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="709"/>
@@ -407,7 +407,7 @@
     <message>
         <location filename="../../fp.ui" line="720"/>
         <source>&amp;Syntax Highlighting</source>
-        <translation></translation>
+        <translation>&amp;Syntaxmarkering</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="723"/>
@@ -419,7 +419,7 @@
     <message>
         <location filename="../../fp.ui" line="728"/>
         <source>&amp;Preferences</source>
-        <translation></translation>
+        <translation>&amp;Voorkeuren</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="731"/>
@@ -438,27 +438,27 @@
     <message>
         <location filename="../../fp.ui" line="744"/>
         <source>&amp;About</source>
-        <translation></translation>
+        <translation>&amp;Over</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="771"/>
         <source>Enforce UTF-8</source>
-        <translation></translation>
+        <translation>UTF-8 afdwingen</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="954"/>
         <source>Save with &amp;Encoding</source>
-        <translation></translation>
+        <translation>Opslaan met t&amp;ekenreeks</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="959"/>
         <source>&amp;Jump to</source>
-        <translation></translation>
+        <translation>&amp;Springen naar</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="962"/>
         <source>Show/hide jump bar</source>
-        <translation></translation>
+        <translation>Snelspringbalk tonen/verbergen</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="965"/>
@@ -470,7 +470,7 @@
     <message>
         <location filename="../../fp.ui" line="973"/>
         <source>Edit text</source>
-        <translation></translation>
+        <translation>Tekst bewerken</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="976"/>
@@ -481,7 +481,7 @@
     <message>
         <location filename="../../fp.ui" line="1079"/>
         <source>&amp;Run</source>
-        <translation></translation>
+        <translation>Uitvoe&amp;ren</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1085"/>
@@ -494,22 +494,22 @@
     <message>
         <location filename="../../fp.ui" line="1090"/>
         <source>&amp;Clear</source>
-        <translation></translation>
+        <translation>&amp;Wissen</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1093"/>
         <source>Clear the list of recently modified files</source>
-        <translation></translation>
+        <translation>Wis de lijst met recent bewerkte bestanden</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1098"/>
         <source>Save/Restore Session</source>
-        <translation></translation>
+        <translation>Sessie opslaan/herstellen</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1101"/>
         <source>Sa&amp;ve/Restore Session</source>
-        <translation></translation>
+        <translation>Sessie op&amp;slaan/herstellen</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1104"/>
@@ -521,7 +521,7 @@
     <message>
         <location filename="../../fp.ui" line="1109"/>
         <source>Side-Pane</source>
-        <translation></translation>
+        <translation>Zijpaneel</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1112"/>
@@ -533,7 +533,7 @@
     <message>
         <location filename="../../fp.ui" line="1117"/>
         <source>Paste Date and Time</source>
-        <translation></translation>
+        <translation>Datum en tijd invoegen</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1120"/>
@@ -546,7 +546,7 @@
         <location filename="../../fp.ui" line="1125"/>
         <location filename="../../fp.ui" line="1128"/>
         <source>To Upper Case</source>
-        <translation></translation>
+        <translation>Omzetten naar hoofdletters</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1131"/>
@@ -559,7 +559,7 @@
         <location filename="../../fp.ui" line="1136"/>
         <location filename="../../fp.ui" line="1139"/>
         <source>To Lower Case</source>
-        <translation></translation>
+        <translation>Omzetten naar kleine letters</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1142"/>
@@ -572,7 +572,7 @@
         <location filename="../../fp.ui" line="1150"/>
         <location filename="../../fp.ui" line="1153"/>
         <source>Last Active Tab</source>
-        <translation></translation>
+        <translation>Laatst actieve tabblad</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1156"/>
@@ -584,7 +584,7 @@
     <message>
         <location filename="../../fp.ui" line="984"/>
         <source>&amp;Detach Tab</source>
-        <translation></translation>
+        <translation>Tabbla&amp;d losmaken</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="987"/>
@@ -596,42 +596,42 @@
     <message>
         <location filename="../../fp.ui" line="1000"/>
         <source>Close Ne&amp;xt Tabs</source>
-        <translation></translation>
+        <translation>&amp;Volgende tabbladen sluiten</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1005"/>
         <source>Close &amp;Previous Tabs</source>
-        <translation></translation>
+        <translation>Vorige &amp;tabbladen sluiten</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1033"/>
         <source>Ne&amp;xt Tab</source>
-        <translation></translation>
+        <translation>&amp;Volgend tabblad</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1044"/>
         <source>Previous Ta&amp;b</source>
-        <translation></translation>
+        <translation>Vorig ta&amp;bblad</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1082"/>
         <source>Execute</source>
-        <translation></translation>
+        <translation>Uitvoeren</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1010"/>
         <source>Close &amp;All Tabs</source>
-        <translation></translation>
+        <translation>&amp;Alle tabbladen sluiten</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="153"/>
         <source>Recently &amp;Modified</source>
-        <translation></translation>
+        <translation>Recent &amp;bewerkt</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="213"/>
         <source>&amp;Encoding</source>
-        <translation></translation>
+        <translation>T&amp;ekenreeks</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="217"/>
@@ -641,17 +641,17 @@
     <message>
         <location filename="../../fp.ui" line="224"/>
         <source>&amp;Western European</source>
-        <translation></translation>
+        <translation>&amp;West-Europees</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="232"/>
         <source>&amp;East European</source>
-        <translation></translation>
+        <translation>Oost-&amp;Europees</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="240"/>
         <source>Ea&amp;st Asian</source>
-        <translation></translation>
+        <translation>Oo&amp;st-Aziatisch</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="332"/>
@@ -659,27 +659,27 @@
         <location filename="../../replace.cpp" line="62"/>
         <location filename="../../replace.cpp" line="114"/>
         <source>Rep&amp;lacement</source>
-        <translation></translation>
+        <translation>Vervan&amp;ging</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="565"/>
         <source>Focus/hide search bar</source>
-        <translation></translation>
+        <translation>Zoekbalk focussen/verbergen</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="573"/>
         <source>&amp;Replace</source>
-        <translation></translation>
+        <translation>Ve&amp;rvangen</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="755"/>
         <source>Windows Arabic (&amp;CP1256)</source>
-        <translation></translation>
+        <translation>Windows Arabisch (&amp;CP1256)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="763"/>
         <source>&amp;Other</source>
-        <translation></translation>
+        <translation>&amp;Overig</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="782"/>
@@ -704,67 +704,67 @@
     <message>
         <location filename="../../fp.ui" line="826"/>
         <source>&amp;Cyrillic (CP1251)</source>
-        <translation></translation>
+        <translation>&amp;Cyrillisch (CP1251)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="837"/>
         <source>Cyrillic (&amp;KOI8-U)</source>
-        <translation></translation>
+        <translation>Cyrillisch (&amp;KOI8-U)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="848"/>
         <source>Cyrillic (&amp;ISO-8859-5)</source>
-        <translation></translation>
+        <translation>Cyrillisch (&amp;ISO-8859-5)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="859"/>
         <source>&amp;Chinese (BIG5)</source>
-        <translation></translation>
+        <translation>&amp;Chinees (BIG5)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="870"/>
         <source>Chinese (&amp;GB18030)</source>
-        <translation></translation>
+        <translation>Chinees (&amp;GB18030)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="881"/>
         <source>&amp;Japanese (ISO-2022-JP)</source>
-        <translation></translation>
+        <translation>&amp;Japans (ISO-2022-JP)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="892"/>
         <source>Japanese (&amp;ISO-2022-JP-2)</source>
-        <translation></translation>
+        <translation>Japans (&amp;ISO-2022-JP-2)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="903"/>
         <source>Japanese (ISO-&amp;2022-KR)</source>
-        <translation></translation>
+        <translation>Japans (ISO-&amp;2022-KR)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="914"/>
         <source>Ja&amp;panese (CP932)</source>
-        <translation></translation>
+        <translation>Ja&amp;pans (CP932)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="925"/>
         <source>Japa&amp;nese (EUC-JP)</source>
-        <translation></translation>
+        <translation>Japa&amp;ns (EUC-JP)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="933"/>
         <source>&amp;Korean (CP949)</source>
-        <translation></translation>
+        <translation>&amp;Koreaans (CP949)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="941"/>
         <source>K&amp;orean (CP1361)</source>
-        <translation></translation>
+        <translation>K&amp;oreaans (CP1361)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="949"/>
         <source>Korean (&amp;EUC-KR)</source>
-        <translation></translation>
+        <translation>Koreaans (&amp;EUC-KR)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="995"/>
@@ -774,17 +774,17 @@
     <message>
         <location filename="../../fp.ui" line="1015"/>
         <source>Close &amp;Other Tabs</source>
-        <translation></translation>
+        <translation>&amp;Andere tabbladen sluiten</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1020"/>
         <source>&amp;Copy File Name</source>
-        <translation></translation>
+        <translation>Bestandsnaam &amp;kopiëren</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1025"/>
         <source>Copy File &amp;Path</source>
-        <translation></translation>
+        <translation>Bestands&amp;pad kopiëren</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1036"/>
@@ -795,7 +795,7 @@
         <location filename="../../fpwin.cpp" line="4567"/>
         <location filename="../../fpwin.cpp" line="4571"/>
         <source>Alt+Right</source>
-        <translation></translation>
+        <translation>Alt+pijltje rechts</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1047"/>
@@ -806,31 +806,31 @@
         <location filename="../../fpwin.cpp" line="4566"/>
         <location filename="../../fpwin.cpp" line="4572"/>
         <source>Alt+Left</source>
-        <translation></translation>
+        <translation>Alt+pijltje links</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1055"/>
         <source>&amp;First Tab</source>
-        <translation></translation>
+        <translation>&amp;Eerste tabblad</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1058"/>
         <location filename="../../fpwin.cpp" line="1323"/>
         <location filename="../../fpwin.cpp" line="4574"/>
         <source>Alt+Down</source>
-        <translation></translation>
+        <translation>Alt+pijltje omlaag</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1066"/>
         <source>&amp;Last Tab</source>
-        <translation></translation>
+        <translation>&amp;Laatste tabblad</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1069"/>
         <location filename="../../fpwin.cpp" line="1322"/>
         <location filename="../../fpwin.cpp" line="4575"/>
         <source>Alt+Up</source>
-        <translation></translation>
+        <translation>Alt+pijltje omhoog</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1074"/>
@@ -841,81 +841,82 @@
         <location filename="../../fpwin.cpp" line="93"/>
         <source>Calculate number of words
 (For huge texts, this may be CPU-intensive.)</source>
-        <translation></translation>
+        <translation>Bereken het aantal woorden
+(bij grote teksten kan dit de processor zwaar belasten)</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="107"/>
         <location filename="../../fpwin.cpp" line="518"/>
         <source>Next</source>
-        <translation></translation>
+        <translation>Volgende</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="108"/>
         <location filename="../../fpwin.cpp" line="519"/>
         <source>Previous</source>
-        <translation></translation>
+        <translation>Vorige</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="109"/>
         <source>Replace all</source>
-        <translation></translation>
+        <translation>Alles vervangen</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="499"/>
         <source>&amp;Recently Opened</source>
-        <translation></translation>
+        <translation>&amp;Recent geopend</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="520"/>
         <source>All</source>
-        <translation></translation>
+        <translation>Alles</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1720"/>
         <source>Close</source>
-        <translation></translation>
+        <translation>Sluiten</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1128"/>
         <source>Save changes?</source>
-        <translation></translation>
+        <translation>Wijzigingen opslaan?</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="835"/>
         <source>Please attend to that window or just close its dialog!</source>
-        <translation></translation>
+        <translation>Kies een optie in dat venster of sluit het!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1132"/>
         <source>The document has been modified.</source>
-        <translation></translation>
+        <translation>Het document is bewerkt.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1142"/>
         <source>Save</source>
-        <translation></translation>
+        <translation>Opslaan</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1143"/>
         <source>Discard changes</source>
-        <translation></translation>
+        <translation>Wijzigingen verwerpen</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1144"/>
         <location filename="../../fpwin.cpp" line="2802"/>
         <source>Cancel</source>
-        <translation></translation>
+        <translation>Annuleren</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1146"/>
         <source>No to all</source>
-        <translation></translation>
+        <translation>Nee op alles</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1410"/>
         <location filename="../../fpwin.cpp" line="1467"/>
         <source>Unsaved</source>
-        <translation></translation>
+        <translation>Niet-opgeslagen</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1429"/>
@@ -928,36 +929,36 @@
         <location filename="../../fpwin.cpp" line="4768"/>
         <location filename="../../fpwin.cpp" line="4775"/>
         <source>Lines</source>
-        <translation></translation>
+        <translation>Regels</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1430"/>
         <location filename="../../fpwin.cpp" line="3652"/>
         <location filename="../../fpwin.cpp" line="3666"/>
         <source>Sel. Chars</source>
-        <translation></translation>
+        <translation>Tekens</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1431"/>
         <location filename="../../fpwin.cpp" line="3654"/>
         <location filename="../../fpwin.cpp" line="3667"/>
         <source>Words</source>
-        <translation></translation>
+        <translation>Woorden</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1627"/>
         <source>Another process is running in this tab!</source>
-        <translation></translation>
+        <translation>Er is al een proces actief op dit tabblad!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1711"/>
         <source>Script File</source>
-        <translation></translation>
+        <translation>Scriptbestand</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="834"/>
         <source>Another FeatherPad window has a modal dialog!</source>
-        <translation></translation>
+        <translation>Een ander FeatherPad-venster bevat een modaal dialoogvenster!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="251"/>
@@ -1019,22 +1020,22 @@
     <message>
         <location filename="../../fpwin.cpp" line="683"/>
         <source>Ctrl+Left</source>
-        <translation></translation>
+        <translation>Ctrl+pijltje links</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="683"/>
         <source>Ctrl+Right</source>
-        <translation></translation>
+        <translation>Ctrl+pijltje rechts</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="684"/>
         <source>Ctrl+Up</source>
-        <translation></translation>
+        <translation>Ctrl+pijltje omhoog</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="684"/>
         <source>Ctrl+Down</source>
-        <translation></translation>
+        <translation>Ctrl+pijltje omlaag</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="684"/>
@@ -1049,32 +1050,32 @@
     <message>
         <location filename="../../fpwin.cpp" line="684"/>
         <source>Ctrl+Shift+Up</source>
-        <translation></translation>
+        <translation>Ctrl+Shift+pijltje omhoog</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="684"/>
         <source>Ctrl+Shift+Down</source>
-        <translation></translation>
+        <translation>Ctrl+Shift+pijltje omlaag</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="684"/>
         <source>Meta+Up</source>
-        <translation></translation>
+        <translation>Meta+pijltje omhoog</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="684"/>
         <source>Meta+Down</source>
-        <translation></translation>
+        <translation>Meta+pijltje omlaag</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="684"/>
         <source>Meta+Shift+Up</source>
-        <translation></translation>
+        <translation>Meta+Shift+pijltje omhoog</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="684"/>
         <source>Meta+Shift+Down</source>
-        <translation></translation>
+        <translation>Meta+Shift+pijltje omlaag</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="687"/>
@@ -1124,135 +1125,135 @@
         <location filename="../../fpwin.cpp" line="719"/>
         <location filename="../../fpwin.cpp" line="3693"/>
         <source>Position:</source>
-        <translation></translation>
+        <translation>Positie:</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="766"/>
         <location filename="../../fpwin.cpp" line="3711"/>
         <location filename="../../fpwin.cpp" line="3731"/>
         <source>Normal</source>
-        <translation></translation>
+        <translation>Normaal</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1130"/>
         <location filename="../../fpwin.cpp" line="2344"/>
         <source>The file does not exist.</source>
-        <translation></translation>
+        <translation>Het bestand bestaat niet.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1628"/>
         <source>Only one process is allowed per tab.</source>
-        <translation></translation>
+        <translation>Er is slechts één proces per tabblad toegestaan.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1707"/>
         <source>Script Output</source>
-        <translation></translation>
+        <translation>Scriptuitvoer</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1723"/>
         <source>Clear</source>
-        <translation></translation>
+        <translation>Wissen</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2316"/>
         <source>FeatherPad does not open files larger than 100 MiB.</source>
-        <translation></translation>
+        <translation>FeatherPad kan geen bestanden openen die groter zijn dan 100 MiB.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2324"/>
         <source>Some file(s) could not be opened!</source>
-        <translation></translation>
+        <translation>Bestand(en) kan/kunnen niet worden geopend!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2325"/>
         <source>You may not have the permission to read.</source>
-        <translation></translation>
+        <translation>Mogelijk heb je geen leestoegang.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2335"/>
         <source>Uneditable file(s)!</source>
-        <translation></translation>
+        <translation>Onbewerkba(a)r(e) bestand(en)!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2336"/>
         <source>Non-text files or files with huge lines cannot be edited.</source>
-        <translation></translation>
+        <translation>Bestanden die geen tekstbestanden zijn of een enorm aantal regels bevatten kunnen niet worden bewerkt.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2385"/>
         <source>A previous crash detected!</source>
-        <translation></translation>
+        <translation>Vorige crash gedetecteerd!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2386"/>
         <source>Preferably, close all FeatherPad windows and start again!</source>
-        <translation></translation>
+        <translation>Sluit bij voorkeur alle FeatherPad-vensters en open ze opnieuw!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2454"/>
         <location filename="../../fpwin.cpp" line="2611"/>
         <location filename="../../fpwin.cpp" line="2638"/>
         <source>All Files (*)</source>
-        <translation></translation>
+        <translation>Alle bestanden (*)</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2459"/>
         <source>All Files (*);;.%1 Files (*.%1)</source>
-        <translation></translation>
+        <translation>Alle bestanden (*);;.%1-bestanden (*.%1)</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2463"/>
         <source>Open file...</source>
-        <translation></translation>
+        <translation>Bestand openen...</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2616"/>
         <source>.%1 Files (*.%1);;All Files (*)</source>
-        <translation></translation>
+        <translation>.%1-bestanden (*.%1);;Alle bestanden (*)</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2663"/>
         <location filename="../../fpwin.cpp" line="2695"/>
         <source>Save as...</source>
-        <translation></translation>
+        <translation>Opslaan als...</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2725"/>
         <source>Keep encoding and save as...</source>
-        <translation></translation>
+        <translation>Tekenreeks behouden en opslaan als...</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2800"/>
         <source>Yes</source>
-        <translation></translation>
+        <translation>Ja</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2801"/>
         <source>No</source>
-        <translation></translation>
+        <translation>Nee</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2803"/>
         <source>Do you want to use &lt;b&gt;MS Windows&lt;/b&gt; end-of-lines?</source>
-        <translation></translation>
+        <translation>Wil je &lt;b&gt;MS Windows&lt;/b&gt;-compatibele regeleindes gebruiken?</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2804"/>
         <source>This may be good for readability under MS Windows.</source>
-        <translation></translation>
+        <translation>Dit kan helpen bij de leesbaarheid op MS Windows.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2947"/>
         <source>Cannot be saved!</source>
-        <translation></translation>
+        <translation>Opslaan mislukt!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="353"/>
         <location filename="../../fpwin.cpp" line="3128"/>
         <location filename="../../fpwin.cpp" line="4930"/>
         <source>Help</source>
-        <translation></translation>
+        <translation>Hulp</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2909"/>
@@ -1268,88 +1269,88 @@
     <message>
         <location filename="../../fpwin.cpp" line="2315"/>
         <source>Huge file(s) not opened!</source>
-        <translation></translation>
+        <translation>Enorm(e) bestand(en) niet geopend!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3140"/>
         <location filename="../../fpwin.cpp" line="3323"/>
         <source>This file has been modified elsewhere or in another way!</source>
-        <translation></translation>
+        <translation>Dit bestand is elders of anders bewerkt!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3141"/>
         <location filename="../../fpwin.cpp" line="3324"/>
         <source>Please be careful about reloading or saving this document!</source>
-        <translation></translation>
+        <translation>Wees voorzichtig met het herladen of opslaan van dit document!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3818"/>
         <source>Print Document</source>
-        <translation></translation>
+        <translation>Document afdrukken</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4403"/>
         <location filename="../../fpwin.cpp" line="4471"/>
         <source>%1 Pages</source>
-        <translation></translation>
+        <translation>%1 pagina&apos;s</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4429"/>
         <location filename="../../fpwin.cpp" line="4499"/>
         <source>Copy Target Path</source>
-        <translation></translation>
+        <translation>Doelpad kopiëren</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4433"/>
         <location filename="../../fpwin.cpp" line="4503"/>
         <source>Open Target Here</source>
-        <translation></translation>
+        <translation>Doel hier openen</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4831"/>
         <source>Translators</source>
-        <translation></translation>
+        <translation>Vertalers</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4827"/>
         <source>A lightweight, tabbed, plain-text editor</source>
-        <translation></translation>
+        <translation>Een lichtgewicht platte tekst-bewerker met tabbladen</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4828"/>
         <source>based on Qt5</source>
-        <translation></translation>
+        <translation>gebouwd met Qt5</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4829"/>
         <source>Author</source>
-        <translation></translation>
+        <translation>Maker</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4830"/>
         <source>aka.</source>
-        <translation></translation>
+        <translation>ook bekend als</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4831"/>
         <location filename="../../fpwin.cpp" line="4832"/>
         <source>About FeatherPad</source>
-        <translation></translation>
+        <translation>Over FeatherPad</translation>
     </message>
     <message>
         <location filename="../../replace.cpp" line="239"/>
         <source>No Replacement</source>
-        <translation></translation>
+        <translation>Geen vervanging</translation>
     </message>
     <message>
         <location filename="../../replace.cpp" line="241"/>
         <source>One Replacement</source>
-        <translation></translation>
+        <translation>Eén vervanging</translation>
     </message>
     <message>
         <location filename="../../replace.cpp" line="243"/>
         <source>Replacements</source>
-        <translation></translation>
+        <translation>Vervangingen</translation>
     </message>
     <message>
         <location filename="../../syntax.cpp" line="251"/>
