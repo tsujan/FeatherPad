@@ -1431,12 +1431,13 @@
         <location filename="../../predDialog.ui" line="111"/>
         <source>Enforcing a window position is not recommended
 and may not work with some window managers.</source>
-        <translation type="unfinished"></translation>
+        <translation>Det anbefales ikke at gennemtvinge en vinduesplacering
+og det virker måske ikke i nogle vindueshåndteringer.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="115"/>
         <source>Remember window &amp;position on closing</source>
-        <translation type="unfinished"></translation>
+        <translation>Husk &amp;vinduesplacering ved lukning</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="122"/>
