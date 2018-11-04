@@ -1431,12 +1431,13 @@
         <location filename="../../predDialog.ui" line="111"/>
         <source>Enforcing a window position is not recommended
 and may not work with some window managers.</source>
-        <translation type="unfinished"></translation>
+        <translation>Priverstinai naudoti lango poziciją nėra rekomenduojama
+ir tai gali neveikti su kai kuriomis langų tvarkytuvėmis.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="115"/>
         <source>Remember window &amp;position on closing</source>
-        <translation type="unfinished"></translation>
+        <translation>Užveriant, prisiminti lango &amp;poziciją</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="122"/>
