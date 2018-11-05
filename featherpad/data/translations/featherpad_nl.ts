@@ -1355,7 +1355,7 @@
     <message>
         <location filename="../../syntax.cpp" line="251"/>
         <source>The size limit for syntax highlighting is exceeded.</source>
-        <translation></translation>
+        <translation>Het groottelimiet voor syntaxmarkering is overschreden.</translation>
     </message>
 </context>
 <context>
@@ -1378,7 +1378,7 @@
     <message>
         <location filename="../../lineedit.cpp" line="34"/>
         <source>Clear text (Ctrl+K)</source>
-        <translation></translation>
+        <translation>Tekst wissen (Ctrl+K)</translation>
     </message>
 </context>
 <context>
@@ -1386,22 +1386,22 @@
     <message>
         <location filename="../../predDialog.ui" line="14"/>
         <source>Preferences</source>
-        <translation></translation>
+        <translation>Voorkeuren</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="30"/>
         <source>Window</source>
-        <translation></translation>
+        <translation>Venster</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="36"/>
         <source>Window Settings</source>
-        <translation></translation>
+        <translation>Vensterinstellingen</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="42"/>
         <source>Remember window &amp;size on closing</source>
-        <translation></translation>
+        <translation>Ven&amp;sterafmetingen onthouden bij sluiten</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="49"/>
@@ -1409,12 +1409,12 @@
         <location filename="../../predDialog.ui" line="72"/>
         <location filename="../../predDialog.ui" line="85"/>
         <source>Window frame is excluded.</source>
-        <translation></translation>
+        <translation>Exclusief de vensterrand.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="52"/>
         <source>Start with this size: </source>
-        <translation></translation>
+        <translation>Opstarten met deze afmetingen: </translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="65"/>
@@ -1431,12 +1431,13 @@
         <location filename="../../predDialog.ui" line="111"/>
         <source>Enforcing a window position is not recommended
 and may not work with some window managers.</source>
-        <translation type="unfinished"></translation>
+        <translation>Het afdwingen van een vensterpositie wordt niet aanbevolen
+en werkt mogelijk niet met sommige vensterbeheerders.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="115"/>
         <source>Remember window &amp;position on closing</source>
-        <translation type="unfinished"></translation>
+        <translation>Venster&amp;positie onthouden bij sluiten</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="122"/>
