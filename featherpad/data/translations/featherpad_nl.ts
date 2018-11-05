@@ -1443,17 +1443,18 @@ en werkt mogelijk niet met sommige vensterbeheerders.</translation>
         <location filename="../../predDialog.ui" line="122"/>
         <source>Most suitable with sessions
 but without tab functionality.</source>
-        <translation></translation>
+        <translation>Meest geschikt voor sessies,
+maar zonder tabbladen.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="149"/>
         <source>Uncheck for 1/5 of the width.</source>
-        <translation></translation>
+        <translation>Vink dit uit voor 1/5 van de breedte.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="152"/>
         <source>Remember splitter position</source>
-        <translation></translation>
+        <translation>Splitspositie onthouden</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="172"/>
@@ -1463,74 +1464,80 @@ KDE may have a bug that disables search and
 replace shortcuts with the iconless mode.
 
 Needs application restart to take effect.</source>
-        <translation></translation>
+        <translation>Geen pictogrammen in het hoofdvenster en de menu&apos;s.
+
+KDE kan een bug bevatten die zoeken uitschakelt
+en sneltoetsen vervangt door de pictogramloze modus.
+
+De applicatie moet worden herstart om de wijziging toe te passen.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="180"/>
         <source>&amp;Iconless mode</source>
-        <translation></translation>
+        <translation>P&amp;ictogramloze modus</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="187"/>
         <source>Do not show &amp;toolbar</source>
-        <translation></translation>
+        <translation>Werkbalk niet &amp;tonen</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="194"/>
         <source>If the menubar is hidden,
 a menu button appears on the toolbar.</source>
-        <translation></translation>
+        <translation>Als de menubalk verborgen is,
+dan verschijnt er een menuknop op de werkbalk.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="198"/>
         <source>Do not show &amp;menubar</source>
-        <translation></translation>
+        <translation>&amp;Menubalk niet tonen</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="205"/>
         <source>Hide search &amp;bar by default</source>
-        <translation></translation>
+        <translation>Zoek&amp;balk standaard verbergen</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="212"/>
         <source>Always show st&amp;atus bar</source>
-        <translation></translation>
+        <translation>St&amp;atusbalk altijd tonen</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="219"/>
         <source>Show cursor position on status bar</source>
-        <translation></translation>
+        <translation>Cursorpositie tonen op statusbalk</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="226"/>
         <location filename="../../predDialog.ui" line="236"/>
         <source>Will take effect after closing this dialog.</source>
-        <translation></translation>
+        <translation>De wijziging wordt toegepast na sluiten van dit venster.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="229"/>
         <source>Tab position: </source>
-        <translation></translation>
+        <translation>Tabbladpositie: </translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="240"/>
         <source>North</source>
-        <translation></translation>
+        <translation>Noordelijk</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="245"/>
         <source>South</source>
-        <translation></translation>
+        <translation>Zuidelijk</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="250"/>
         <source>West</source>
-        <translation></translation>
+        <translation>Westelijk</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="255"/>
         <source>East</source>
-        <translation></translation>
+        <translation>Oostelijk</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="263"/>
@@ -1538,17 +1545,20 @@ a menu button appears on the toolbar.</source>
 after the last tab is activated, and the same for Alt+Left.
 
 Tab navigation with mouse wheel is not affected.</source>
-        <translation></translation>
+        <translation>Dit betekent dat voor LNR Alt+pijltje rechts naar het eerste tabblad gaat
+nadat het laatste tabblad is geactiveerd, en hetzelfde geldt voor Alt+pijltje links.
+
+Tabbladnavigatie via het muiswiel wordt hier niet door beïnvloed.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="269"/>
         <source>Tab navigation wraps &amp;around</source>
-        <translation></translation>
+        <translation>Tabbladnavigatie sl&amp;aat om</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="289"/>
         <source>Close window on closing its last tab</source>
-        <translation></translation>
+        <translation>Venster sluiten na sluiten van laatste tabblad</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="296"/>
@@ -1557,12 +1567,17 @@ current desktop, files will be opened in its tabs.
 
 However, some desktop environments may not
 report that they have multiple desktops.</source>
-        <translation></translation>
+        <translation>Als er al een FeatherPad-venster geopend is op het huidige
+bureaublad, dan worden bestanden automatisch geopend
+op nieuwe tabbladen.
+
+Bij sommige werkomgevingen wordt er echter niet doorgegeven
+dat er meerdere bureaubladen aanwezig zijn.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="303"/>
         <source>Always open in separate windows</source>
-        <translation></translation>
+        <translation>Altijd openen in losse vensters</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="310"/>
@@ -1570,117 +1585,124 @@ report that they have multiple desktops.</source>
 desktop environment will be used instead of the Qt file dialog.
 
 Some desktop environments, like KDE and LXQt, provide files dialogs.</source>
-        <translation></translation>
+        <translation>Als dit wordt aangevinkt, dan wordt het bestandsvenster van
+de huidige werkomgeving gebruikt in plaats van die van Qt.
+
+Sommige werkomgevingen, zoals KDE en LXQt, hebben bestandsvensters.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="316"/>
         <source>Native file dialog</source>
-        <translation></translation>
+        <translation>Bestandsvenster van werkomgeving</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="372"/>
         <source>Uncheck for Monospace 9.</source>
-        <translation></translation>
+        <translation>Vink uit om Monospace 9 te gebruiken.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="375"/>
         <source>Remember &amp;font</source>
-        <translation></translation>
+        <translation>Lettertype &amp;onthouden</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="396"/>
         <source>This covers parentheses, braces, brackets and quotes.</source>
-        <translation></translation>
+        <translation>Dit beslaat enkele/dubbele aanhalingstekens en ronde/vierkante haakjes.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="399"/>
         <source>Auto-&amp;bracket</source>
-        <translation></translation>
+        <translation>Automatische &amp;haakjes</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="463"/>
         <source>Never highlight syntax for files &gt; </source>
-        <translation></translation>
+        <translation>Geen syntaxmarkering voor bestanden &gt; </translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="436"/>
         <source>This creates a menu button on the
 status bar for changing the syntax.</source>
-        <translation></translation>
+        <translation>Dit plaatst een menuknop op de statusbalk
+waarmee de syntax kan worden gewijzigd.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="440"/>
         <source>Support syntax override</source>
-        <translation></translation>
+        <translation>Syntax kan worden gewijzigd</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="483"/>
         <source>Show spaces, tabs and tab lines
 when the syntax is highlighted.</source>
-        <translation></translation>
+        <translation>Toon spaties, tabs en tabregels
+bij het markeren van de syntax.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="487"/>
         <source>Show whitespaces</source>
-        <translation></translation>
+        <translation>Witruimte tonen</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="501"/>
         <location filename="../../predDialog.ui" line="512"/>
         <source>The vertical position lines will be drawn only if
 the editor font has a fixed pitch (like Monospace).</source>
-        <translation></translation>
+        <translation>De verticale positielijnen worden alleen getoond als
+het lettertype een vastgezet lettertype is (zoals Monospace).</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="505"/>
         <source>Show vertical lines starting from this position:</source>
-        <translation></translation>
+        <translation>Verticale lijnen tonen vanaf deze positie:</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="494"/>
         <source>Also show line and document ends</source>
-        <translation></translation>
+        <translation>Ook regel- en documenteindes tonen</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="575"/>
         <source>Date and time format:</source>
-        <translation></translation>
+        <translation>Datum- en tijdopmaak:</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="623"/>
         <source>Some text editors cannot open a document
 whose last line is not empty.</source>
-        <translation></translation>
+        <translation>Sommige tekstbewerker kunnen geen document openen
+dat geen lege regel bevat aan het einde.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="627"/>
         <source>Ensure an empty last line on saving</source>
-        <translation></translation>
+        <translation>Lege regel aan einde invoegen bij opslaan</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="634"/>
         <source>Remove trailing spaces on saving</source>
-        <translation></translation>
+        <translation>Achterliggende spaties verwijderen bij opslaan</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="652"/>
         <source>Inertial scrolling with mouse wheel</source>
-        <translation></translation>
+        <translation>Bewegingsloos scroll met muiswiel</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="678"/>
         <source>Files</source>
-        <translation></translation>
+        <translation>Bestanden</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="684"/>
         <source>File Management</source>
-        <translation></translation>
+        <translation>Bestandsbeheer</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="754"/>
         <source>Start with files of last window</source>
-        <translation></translation>
+        <translation>Bestanden van laatste venster openen bij opstarten</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="794"/>
