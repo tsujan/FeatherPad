@@ -559,7 +559,7 @@
     <message>
         <location filename="../../fp.ui" line="1109"/>
         <source>Side-Pane</source>
-        <translation type="unfinished"></translation>
+        <translation>Боковая панель</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1112"/>
@@ -571,7 +571,7 @@
     <message>
         <location filename="../../fp.ui" line="1117"/>
         <source>Paste Date and Time</source>
-        <translation type="unfinished"></translation>
+        <translation>Вставить дату и время</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1120"/>
@@ -584,7 +584,7 @@
         <location filename="../../fp.ui" line="1125"/>
         <location filename="../../fp.ui" line="1128"/>
         <source>To Upper Case</source>
-        <translation type="unfinished"></translation>
+        <translation>В верхний регистр</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1131"/>
@@ -597,7 +597,7 @@
         <location filename="../../fp.ui" line="1136"/>
         <location filename="../../fp.ui" line="1139"/>
         <source>To Lower Case</source>
-        <translation type="unfinished"></translation>
+        <translation>В нижний регистр</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1142"/>
@@ -610,7 +610,7 @@
         <location filename="../../fp.ui" line="1150"/>
         <location filename="../../fp.ui" line="1153"/>
         <source>Last Active Tab</source>
-        <translation type="unfinished"></translation>
+        <translation>Последняя активная вкладка</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1156"/>
