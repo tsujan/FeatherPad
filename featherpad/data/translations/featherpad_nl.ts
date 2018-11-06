@@ -1717,37 +1717,46 @@ will be executed directly.
 If the script is not run in a terminal
 emulator, the output and error messages
 will be shown by a popup dialog.</source>
-        <translation></translation>
+        <translation>Dit kan elke opstartopdracht zijn, incl.
+parameters. Gebruik bijv. &quot;xterm -hold&quot;
+om het proces uit te voeren in XTerm.
+
+Als het opdrachtveld blanco blijft, dan wordt
+het bestand direct uitgevoerd.
+
+Als het script niet wordt uitgevoerd in een terminal-
+venster, dan worden de uitvoer en foutmeldingen
+getoond in een pop-upvenster.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="806"/>
         <source>Start with this command: </source>
-        <translation></translation>
+        <translation>Opstarten met deze opdracht: </translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="825"/>
         <source>Command + Arguments</source>
-        <translation></translation>
+        <translation>Opdracht + Parameters</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="734"/>
         <source>Show recentl&amp;y modified files</source>
-        <translation></translation>
+        <translation>Re&amp;cent bewerkte bestanden tonen</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="744"/>
         <source>Show recentl&amp;y opened files</source>
-        <translation></translation>
+        <translation>Re&amp;cent geopende bestanden tonen</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="851"/>
         <source>Save changes to opened files every:</source>
-        <translation></translation>
+        <translation>Wijzigingen aan geopende bestanden opslaan, elke:</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="962"/>
         <source>Help</source>
-        <translation></translation>
+        <translation>Hulp</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="159"/>
@@ -1755,17 +1764,21 @@ will be shown by a popup dialog.</source>
 use system icons!
 
 Needs application restart to take effect.</source>
-        <translation></translation>
+        <translation>Vink dit uit als je wilt dat FeatherPad de
+systeempictogrammen gebruikt!
+
+De applicatie moet worden herstart om de
+wijziging toe te passen.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="126"/>
         <source>Start with side-pane mode</source>
-        <translation></translation>
+        <translation>Opstarten met zijpaneelmodus</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="165"/>
         <source>&amp;Use own icons</source>
-        <translation></translation>
+        <translation>&amp;Eigen pictogrammen gebruiken</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="276"/>
@@ -1773,52 +1786,55 @@ Needs application restart to take effect.</source>
 tooltip and context menu of a single tab but you could not
 merge a single tabbed window into another one by tab drag-
 and-drop either.</source>
-        <translation></translation>
+        <translation>Als dit wordt aangevinkt, dan verlies je niet alleen de informatieve
+hulpballon en het rechtermuisknopmenu van een los tabblad, maar
+je kunt ook geen venster meer samenvoegen met een ander door het
+tabblad te verslepen.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="282"/>
         <source>&amp;Do not show a single tab</source>
-        <translation></translation>
+        <translation>Nooit een tabbla&amp;d tonen</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="327"/>
         <source>Text</source>
-        <translation></translation>
+        <translation>Tekst</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="366"/>
         <source>Text Editor</source>
-        <translation></translation>
+        <translation>Tekstbewerker</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="382"/>
         <source>&amp;Wrap lines by default</source>
-        <translation></translation>
+        <translation>Regels standaard &amp;omslaan</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="389"/>
         <source>Auto-&amp;indent by default</source>
-        <translation></translation>
+        <translation>Standaard automatisch &amp;inspringen</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="406"/>
         <source>Always show line &amp;numbers</source>
-        <translation></translation>
+        <translation>Altijd regel&amp;nummers tonen</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="413"/>
         <source>Highlight s&amp;yntax by default</source>
-        <translation></translation>
+        <translation>S&amp;yntax standaard markeren</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="529"/>
         <source>Dark c&amp;olor scheme</source>
-        <translation></translation>
+        <translation>D&amp;onker thema</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="560"/>
         <source>Background color value: </source>
-        <translation></translation>
+        <translation>Waarde van achtergrondkleur: </translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="470"/>
@@ -1829,12 +1845,13 @@ and-drop either.</source>
         <location filename="../../predDialog.ui" line="659"/>
         <source>This is not a complete fix but
 prevents annoying scroll jumps.</source>
-        <translation></translation>
+        <translation>Dit is geen volledige oplossing,
+maar voorkomt vervelende scroll-verspringingen.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="663"/>
         <source>Workaround for &amp;Qt5&apos;s scroll jump bug</source>
-        <translation></translation>
+        <translation>Omzeiling voor &amp;Qt5&apos;s scroll-verspringbug</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="761"/>
@@ -1846,12 +1863,19 @@ executable, the file will be executed by clicking
 the Run button, that appears on the toolbar/filemenu
 when needed, or by its shortcut Ctrl+E. Then, the
 process could be killed by Ctrl+Alt+E.</source>
-        <translation></translation>
+        <translation>Dit gaat alleen over uitvoerbare bestanden die geschreven
+zijn in scripttalen zoals Shell en Python.
+
+Als dit wordt aangevinkt en het geopende bestand is
+uitvoerbaar, dan wordt het bestand uitgevoerd na een klik
+op de knop Uitvoeren die verschijnt op de werkbalk/in het bestandsmenu
+indien nodig of via de sneltoets Ctrl+E. Het proces kan daarna worden
+afgebroken via Ctrl+Alt+E.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="526"/>
         <source>Needs window reopening to take effect.</source>
-        <translation></translation>
+        <translation>De applicatie moet worden herstart om de instelling toe te passen.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="536"/>
@@ -1864,12 +1888,19 @@ between 230 and 255; for the dark
 background, between 0 and 50.
 
 Needs window reopening to take effect.</source>
-        <translation></translation>
+        <translation>De kleurwaarde van de achtergrond.
+255 betekent wit; 0 betekent zwart.
+
+Een lichte achtergrond ligt tussen de
+230 en 255; een donkere ligt tussen de
+0 en 50.
+
+De applicatie moet worden herstart om de wijziging toe te passen.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="771"/>
         <source>Run executable scripts</source>
-        <translation></translation>
+        <translation>Uitvoerbare scripts uitvoeren</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="690"/>
@@ -1879,7 +1910,11 @@ opened files FeatherPad shows. The default
 is 10.
 
 Needs application restart to take effect.</source>
-        <translation></translation>
+        <translation>Het maximaal aantal recent bewerkte of geopende
+bestanden dat FeatherPad toont. Standaard is dit
+10.
+
+De applicatie moet worden herstart om de wijziging toe te passen.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="567"/>
@@ -1890,44 +1925,50 @@ Takes effect after closing this dialog.
 
 Leave empty for:
 MMM dd, yyyy, hh:mm:ss</source>
-        <translation></translation>
+        <translation>Wordt gebruikt voor het plakken van de datum en tijd.
+
+Wordt toegepast na sluiten van dit venster.
+
+Laat blanco voor:
+MMM dd, yyyy, hh:mm:ss</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="600"/>
         <source>Text tab size:</source>
-        <translation></translation>
+        <translation>Grootte van tekst op tabblad:</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="607"/>
         <source> spaces</source>
-        <translation></translation>
+        <translation> spaties</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="641"/>
         <source>Thick text cursor</source>
-        <translation></translation>
+        <translation>Dikke tekstcursor</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="648"/>
         <source>Should the mouse wheel scrolling be inertial
 if the cursor is inside the text view?</source>
-        <translation></translation>
+        <translation>Moet het scrollen bewegingsloos zijn als de
+cursor zich in de tekstweergave bevindt?</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="697"/>
         <source>Number of recent files: </source>
-        <translation></translation>
+        <translation>Aantal recente bestanden: </translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="751"/>
         <source>Only if their number is not greater than 50.</source>
-        <translation></translation>
+        <translation>Alleen als het aantal niet hoger dan 50 is.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="848"/>
         <location filename="../../predDialog.ui" line="858"/>
         <source>Only for files that exist and can be saved.</source>
-        <translation></translation>
+        <translation>Alleen voor bestanden die bestaan en kunnen worden opgeslagen.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="861"/>
@@ -1942,100 +1983,105 @@ be used also when the opened file is not modified.
 This can be useful under certain circumstances,
 e.g. for changing the time stamp or removing the
 trailing spaces of a text file.</source>
-        <translation></translation>
+        <translation>Als dit wordt aangevinkt, dan kan de knop/het menu-item
+Opslaan ook worden gebruikt als het geopende bestand niet
+bewerkt is.
+
+Dit kan handig zijn om bijv. de tijdstempel te wijzigen of de
+achterliggende spaties te verwijderen uit een tekstbestand.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="882"/>
         <source>Allow saving unmodified files</source>
-        <translation></translation>
+        <translation>Toestaan dat niet-bewerkte bestanden kunnen worden opgeslagen</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="889"/>
         <source>Show a warning instead.</source>
-        <translation></translation>
+        <translation>Toon in plaats daarvan een waarschuwing.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="892"/>
         <source>Do not permit opening of non-text files</source>
-        <translation></translation>
+        <translation>Openen van niet-tekstbestanden niet toestaan.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="903"/>
         <source>Shortcuts</source>
-        <translation></translation>
+        <translation>Sneltoetsen</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="922"/>
         <source>Action</source>
-        <translation></translation>
+        <translation>Actie</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="927"/>
         <source>Shortcut</source>
-        <translation></translation>
+        <translation>Sneltoets</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="935"/>
         <source>Restore default shortcuts.</source>
-        <translation></translation>
+        <translation>Standaardsneltoetsen herstellen.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="938"/>
         <source>Default</source>
-        <translation></translation>
+        <translation>Standaard</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="973"/>
         <source>Close</source>
-        <translation></translation>
+        <translation>Sluiten</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="253"/>
         <location filename="../../pref.cpp" line="1186"/>
         <source>files</source>
-        <translation></translation>
+        <translation>bestanden</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="253"/>
         <location filename="../../pref.cpp" line="1186"/>
         <source>file</source>
-        <translation></translation>
+        <translation>bestand</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="395"/>
         <location filename="../../pref.cpp" line="1290"/>
         <source>Warning: Ambiguous shortcut detected!</source>
-        <translation></translation>
+        <translation>Waarschuwing: dubbelzinnige sneltoets gedetecteerd!</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="500"/>
         <source>Application restart is needed for changes to take effect.</source>
-        <translation></translation>
+        <translation>De applicatie moet worden herstart om de wijzigingen toe te passen.</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="512"/>
         <source>Window reopening is needed for changes to take effect.</source>
-        <translation></translation>
+        <translation>De applicatie moet worden herstart om de wijzigingen toe te passen.</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="1212"/>
         <source>&amp;Recently Opened</source>
-        <translation></translation>
+        <translation>&amp;Recent geopend</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="1213"/>
         <source>Recently &amp;Modified</source>
-        <translation></translation>
+        <translation>Recent &amp;bewerkt</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="1280"/>
         <source>The typed shortcut was not valid.</source>
-        <translation></translation>
+        <translation>De ingevoerde sneltoets is ongeldig.</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="1282"/>
         <source>The typed shortcut was reserved.</source>
-        <translation></translation>
+        <translation>De ingevoerde sneltoets is gereserveerd.</translation>
     </message>
 </context>
 <context>
@@ -2043,31 +2089,31 @@ trailing spaces of a text file.</source>
     <message>
         <location filename="../../searchbar.cpp" line="36"/>
         <source>Search...</source>
-        <translation></translation>
+        <translation>Zoeken...</translation>
     </message>
     <message>
         <location filename="../../searchbar.cpp" line="73"/>
         <location filename="../../searchbar.cpp" line="77"/>
         <source>Match Case</source>
-        <translation></translation>
+        <translation>Hoofdlettergebruik moet overeenkomen</translation>
     </message>
     <message>
         <location filename="../../searchbar.cpp" line="85"/>
         <location filename="../../searchbar.cpp" line="89"/>
         <source>Whole Word</source>
-        <translation></translation>
+        <translation>Geheel woord</translation>
     </message>
     <message>
         <location filename="../../searchbar.cpp" line="62"/>
         <location filename="../../searchbar.cpp" line="67"/>
         <source>Next</source>
-        <translation></translation>
+        <translation>Volgende</translation>
     </message>
     <message>
         <location filename="../../searchbar.cpp" line="63"/>
         <location filename="../../searchbar.cpp" line="68"/>
         <source>Previous</source>
-        <translation></translation>
+        <translation>Vorige</translation>
     </message>
 </context>
 <context>
@@ -2075,34 +2121,34 @@ trailing spaces of a text file.</source>
     <message>
         <location filename="../../sessionDialog.ui" line="14"/>
         <source>Session Manager</source>
-        <translation></translation>
+        <translation>Sessiebeheer</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="101"/>
         <location filename="../../sessionDialog.ui" line="270"/>
         <source>&amp;Remove</source>
-        <translation></translation>
+        <translation>Ve&amp;rwijderen</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="33"/>
         <source>&lt;b&gt;Save/Restore Session&lt;/b&gt;</source>
-        <translation></translation>
+        <translation>&lt;b&gt;Sessie herstellen/opslaan&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="56"/>
         <source>Filter...</source>
-        <translation></translation>
+        <translation>Filteren...</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="69"/>
         <source>Open the selected session(s).</source>
-        <translation></translation>
+        <translation>Open de geselecteerde sessie(s).</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="72"/>
         <location filename="../../sessionDialog.ui" line="275"/>
         <source>&amp;Open</source>
-        <translation></translation>
+        <translation>&amp;Openen</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="98"/>
@@ -2120,98 +2166,99 @@ trailing spaces of a text file.</source>
         <location filename="../../sessionDialog.ui" line="159"/>
         <source>By default, all files that are opened in all
 windows will be included in the saved session.</source>
-        <translation></translation>
+        <translation>Standaard worden alle geopende bestanden meegenomen
+in de opgeslagen sessie.</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="163"/>
         <source>Save only from this &amp;window</source>
-        <translation></translation>
+        <translation>Alleen uit dit &amp;venster opslaan</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="180"/>
         <source>&lt;b&gt;Warning&lt;/b&gt;</source>
-        <translation></translation>
+        <translation>&lt;b&gt;Waarschuwing&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="226"/>
         <location filename="../../session.cpp" line="319"/>
         <source>&amp;Yes</source>
-        <translation></translation>
+        <translation>&amp;Ja</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="233"/>
         <source>&amp;No</source>
-        <translation></translation>
+        <translation>&amp;Nee</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="283"/>
         <source>Re&amp;name</source>
-        <translation></translation>
+        <translation>&amp;Naam wijzigen</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="118"/>
         <source>Remove &amp;All</source>
-        <translation></translation>
+        <translation>&amp;Alles verwijderen</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="260"/>
         <source>&amp;Close</source>
-        <translation></translation>
+        <translation>&amp;Sluiten</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="135"/>
         <source>Save the current session under the given title.</source>
-        <translation></translation>
+        <translation>Sla de huidige sessie op met de opgegeven naam.</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="138"/>
         <source>&amp;Save</source>
-        <translation></translation>
+        <translation>Op&amp;slaan</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="149"/>
         <source>Type a name to save session</source>
-        <translation></translation>
+        <translation>Voer een naam in voor de sessie</translation>
     </message>
     <message>
         <location filename="../../session.cpp" line="163"/>
         <source>Nothing saved.&lt;br&gt;No file was opened.</source>
-        <translation></translation>
+        <translation>Niks opgeslagen.&lt;br&gt;Er is geen bestand geopend.</translation>
     </message>
     <message>
         <location filename="../../session.cpp" line="256"/>
         <source>No file exists or can be opened.</source>
-        <translation></translation>
+        <translation>Er is geen bestand aanwezig of er kan niks worden geopend.</translation>
     </message>
     <message>
         <location filename="../../session.cpp" line="262"/>
         <source>Not all files exist or can be opened.</source>
-        <translation></translation>
+        <translation>Niet alle bestanden zijn aanwezig of kunnen worden geopend.</translation>
     </message>
     <message>
         <location filename="../../session.cpp" line="305"/>
         <source>&amp;OK</source>
-        <translation></translation>
+        <translation>&amp;Oké</translation>
     </message>
     <message>
         <location filename="../../session.cpp" line="324"/>
         <source>Do you really want to remove all saved sessions?</source>
-        <translation></translation>
+        <translation>Weet je zeker dat je alle opgeslagen sessie wilt verwijderen?</translation>
     </message>
     <message>
         <location filename="../../session.cpp" line="330"/>
         <source>Do you really want to remove the selected sessions?</source>
-        <translation></translation>
+        <translation>Weet je zeker dat je de geselecteerde sessies wilt verwijderen?</translation>
     </message>
     <message>
         <location filename="../../session.cpp" line="332"/>
         <source>Do you really want to remove the selected session?</source>
-        <translation></translation>
+        <translation>Weet je zeker dat je de geselecteerde sessie wilt verwijderen?</translation>
     </message>
     <message>
         <location filename="../../session.cpp" line="337"/>
         <source>A session with the same name exists.&lt;br&gt;Do you want to overwrite it?</source>
-        <translation></translation>
+        <translation>Er bestaat al een sessie met deze naam.&lt;br&gt;Wil je deze overschrijven?</translation>
     </message>
 </context>
 <context>
@@ -2219,7 +2266,7 @@ windows will be included in the saved session.</source>
     <message>
         <location filename="../../sidepane.cpp" line="108"/>
         <source>Filter...</source>
-        <translation></translation>
+        <translation>Filteren...</translation>
     </message>
 </context>
 <context>
@@ -2227,32 +2274,32 @@ windows will be included in the saved session.</source>
     <message>
         <location filename="../../textedit.cpp" line="136"/>
         <source>Double click to center current line</source>
-        <translation></translation>
+        <translation>Dubbelklik om de huidige regel te centreren</translation>
     </message>
     <message>
         <location filename="../../textedit.cpp" line="1546"/>
         <source>Open Link</source>
-        <translation></translation>
+        <translation>Link openen</translation>
     </message>
     <message>
         <location filename="../../textedit.cpp" line="1559"/>
         <source>Copy Link</source>
-        <translation></translation>
+        <translation>Link kopiëren</translation>
     </message>
     <message>
         <location filename="../../textedit.cpp" line="1572"/>
         <source>To Upper Case</source>
-        <translation></translation>
+        <translation>Omzetten naar hoofdletters</translation>
     </message>
     <message>
         <location filename="../../textedit.cpp" line="1576"/>
         <source>To Lower Case</source>
-        <translation></translation>
+        <translation>Omzetten naar kleine letters</translation>
     </message>
     <message>
         <location filename="../../textedit.cpp" line="1582"/>
         <source>Paste Date and Time</source>
-        <translation></translation>
+        <translation>Datum en tijd invoegen</translation>
     </message>
 </context>
 <context>
@@ -2261,7 +2308,7 @@ windows will be included in the saved session.</source>
         <location filename="../../warningbar.h" line="79"/>
         <location filename="../../warningbar.h" line="88"/>
         <source>Close</source>
-        <translation></translation>
+        <translation>Sluiten</translation>
     </message>
 </context>
 </TS>
