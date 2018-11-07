@@ -2003,7 +2003,7 @@ achterliggende spaties te verwijderen uit een tekstbestand.</translation>
     <message>
         <location filename="../../predDialog.ui" line="892"/>
         <source>Do not permit opening of non-text files</source>
-        <translation>Openen van niet-tekstbestanden niet toestaan.</translation>
+        <translation>Openen van niet-tekstbestanden niet toestaan</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="903"/>
