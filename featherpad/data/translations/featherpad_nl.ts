@@ -1264,7 +1264,7 @@
         <location filename="../../fpwin.cpp" line="4759"/>
         <location filename="../../fpwin.cpp" line="4767"/>
         <source>Syntax</source>
-        <translation></translation>
+        <translation>Zinsbouw</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2315"/>
