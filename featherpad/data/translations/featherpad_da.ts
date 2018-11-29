@@ -585,13 +585,13 @@
         <location filename="../../fp.ui" line="1164"/>
         <location filename="../../fp.ui" line="1167"/>
         <source>Sort Lines</source>
-        <translation type="unfinished"></translation>
+        <translation>Sortér linjer</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1172"/>
         <location filename="../../fp.ui" line="1175"/>
         <source>Sort Lines Reversely</source>
-        <translation type="unfinished"></translation>
+        <translation>Sortér linjer rekursivt</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="987"/>
@@ -2309,12 +2309,12 @@ vinduer i den gemte session.</translation>
     <message>
         <location filename="../../textedit.cpp" line="1622"/>
         <source>Sort Lines</source>
-        <translation type="unfinished"></translation>
+        <translation>Sortér linjer</translation>
     </message>
     <message>
         <location filename="../../textedit.cpp" line="1626"/>
         <source>Sort Lines Reversely</source>
-        <translation type="unfinished"></translation>
+        <translation>Sortér linjer rekursivt</translation>
     </message>
     <message>
         <location filename="../../textedit.cpp" line="1633"/>
