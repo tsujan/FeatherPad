@@ -2311,12 +2311,12 @@ in de opgeslagen sessie.</translation>
     <message>
         <location filename="../../textedit.cpp" line="1622"/>
         <source>Sort Lines</source>
-        <translation type="unfinished"></translation>
+        <translation>Regels rangschikken</translation>
     </message>
     <message>
         <location filename="../../textedit.cpp" line="1626"/>
         <source>Sort Lines Reversely</source>
-        <translation type="unfinished"></translation>
+        <translation>Regels omgekeerd rangschikken</translation>
     </message>
     <message>
         <location filename="../../textedit.cpp" line="1633"/>
