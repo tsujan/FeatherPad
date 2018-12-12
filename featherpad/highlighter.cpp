@@ -2448,18 +2448,15 @@ bool Highlighter::isHereDocument (const QString &text)
             if (!data) return false;
             data->insertInfo (delimStr);
             /* inherit the previous data property and open nests */
-            if (prevData)
+            if (bool p = prevData->getProperty())
+                data->setProperty (p);
+            int N = prevData->openNests();
+            if (N > 0)
             {
-                if (bool p = prevData->getProperty())
-                    data->setProperty (p);
-                int N = prevData->openNests();
-                if (N > 0)
-                {
-                    data->insertNestInfo (N);
-                    QSet<int> Q = prevData->openQuotes();
-                    if (!Q.isEmpty())
-                        data->insertOpenQuotes (Q);
-                }
+                data->insertNestInfo (N);
+                QSet<int> Q = prevData->openQuotes();
+                if (!Q.isEmpty())
+                    data->insertOpenQuotes (Q);
             }
             setCurrentBlockUserData (data);
             if (prevState % 2 == 0)
