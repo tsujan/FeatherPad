@@ -504,7 +504,6 @@ static bool detect_noniso (const char *text)
 bool validateUTF8 (const QByteArray byteArray)
 {
     const char *string = byteArray.constData();
-    if (!string) return true;
 
     const unsigned char *bytes = (const unsigned char*)string;
     unsigned int cp; // code point
