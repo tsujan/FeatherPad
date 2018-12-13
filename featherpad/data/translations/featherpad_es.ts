@@ -585,13 +585,13 @@
         <location filename="../../fp.ui" line="1164"/>
         <location filename="../../fp.ui" line="1167"/>
         <source>Sort Lines</source>
-        <translation type="unfinished"></translation>
+        <translation>Ordenar líneas</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1172"/>
         <location filename="../../fp.ui" line="1175"/>
         <source>Sort Lines Reversely</source>
-        <translation type="unfinished"></translation>
+        <translation>Ordenar líneas de forma inversa</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="987"/>
@@ -1443,12 +1443,13 @@
         <location filename="../../predDialog.ui" line="111"/>
         <source>Enforcing a window position is not recommended
 and may not work with some window managers.</source>
-        <translation type="unfinished"></translation>
+        <translation>No se recomienda forzar la posición de ventanas, y puede
+que no funcione con algunos gestores de ventanas.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="115"/>
         <source>Remember window &amp;position on closing</source>
-        <translation type="unfinished"></translation>
+        <translation>Recordar la &amp;posición de la ventana al salir</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="122"/>
@@ -2309,12 +2310,12 @@ las ventanas serán incluidos en la sesión guardada.</translation>
     <message>
         <location filename="../../textedit.cpp" line="1622"/>
         <source>Sort Lines</source>
-        <translation type="unfinished"></translation>
+        <translation>Ordenar líneas</translation>
     </message>
     <message>
         <location filename="../../textedit.cpp" line="1626"/>
         <source>Sort Lines Reversely</source>
-        <translation type="unfinished"></translation>
+        <translation>Ordenar líneas de forma inversa</translation>
     </message>
     <message>
         <location filename="../../textedit.cpp" line="1633"/>
