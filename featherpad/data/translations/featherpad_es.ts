@@ -2183,7 +2183,7 @@ las ventanas serán incluidos en la sesión guardada.</translation>
     <message>
         <location filename="../../sessionDialog.ui" line="163"/>
         <source>Save only from this &amp;window</source>
-        <translation>Guardar solo de esta ventana.</translation>
+        <translation>Guardar solo de esta ventana</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="180"/>
