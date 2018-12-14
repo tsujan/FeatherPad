@@ -108,7 +108,7 @@
     <message>
         <location filename="../../fp.ui" line="412"/>
         <source>Replace with:</source>
-        <translation>Заменить:</translation>
+        <translation>Заменить на:</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="428"/>
@@ -446,7 +446,7 @@
     <message>
         <location filename="../../fp.ui" line="758"/>
         <source>Windows Arabic (&amp;CP1256)</source>
-        <translation type="unfinished"></translation>
+        <translation>Windows Arabic (&amp;CP1256)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="774"/>
@@ -617,19 +617,19 @@
         <location filename="../../fpwin.cpp" line="1327"/>
         <location filename="../../fpwin.cpp" line="4602"/>
         <source>F1</source>
-        <translation type="unfinished"></translation>
+        <translation>F1</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1164"/>
         <location filename="../../fp.ui" line="1167"/>
         <source>Sort Lines</source>
-        <translation type="unfinished"></translation>
+        <translation>Сортировать строки</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1172"/>
         <location filename="../../fp.ui" line="1175"/>
         <source>Sort Lines Reversely</source>
-        <translation type="unfinished"></translation>
+        <translation>Сортировать строки в обратном порядке</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="987"/>
@@ -674,17 +674,17 @@
     <message>
         <location filename="../../fp.ui" line="873"/>
         <source>Chinese (&amp;GB18030)</source>
-        <translation type="unfinished"></translation>
+        <translation>Китайская (&amp;GB18030)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="895"/>
         <source>Japanese (&amp;ISO-2022-JP-2)</source>
-        <translation type="unfinished"></translation>
+        <translation>Японская (&amp;ISO-2022-JP-2)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="906"/>
         <source>Japanese (ISO-&amp;2022-KR)</source>
-        <translation type="unfinished"></translation>
+        <translation>Японская (ISO-&amp;2022-KR)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="928"/>
@@ -694,17 +694,17 @@
     <message>
         <location filename="../../fp.ui" line="944"/>
         <source>K&amp;orean (CP1361)</source>
-        <translation type="unfinished"></translation>
+        <translation>К&amp;орейская (CP1361)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="952"/>
         <source>Korean (&amp;EUC-KR)</source>
-        <translation type="unfinished"></translation>
+        <translation>Корейская (&amp;EUC-KR)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="957"/>
         <source>Save with &amp;Encoding</source>
-        <translation type="unfinished"></translation>
+        <translation>Сохранить в &amp;кодировке</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="990"/>
@@ -977,7 +977,7 @@
         <location filename="../../fpwin.cpp" line="725"/>
         <location filename="../../fpwin.cpp" line="3719"/>
         <source>Position:</source>
-        <translation type="unfinished"></translation>
+        <translation>Позиция:</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="772"/>
@@ -995,7 +995,7 @@
         <location filename="../../fpwin.cpp" line="1133"/>
         <location filename="../../fpwin.cpp" line="2347"/>
         <source>The file does not exist.</source>
-        <translation type="unfinished"></translation>
+        <translation>Файл не существует.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1146"/>
@@ -1049,17 +1049,17 @@
     <message>
         <location filename="../../fpwin.cpp" line="2318"/>
         <source>Huge file(s) not opened!</source>
-        <translation type="unfinished"></translation>
+        <translation>Большой файл не открыт!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2319"/>
         <source>FeatherPad does not open files larger than 100 MiB.</source>
-        <translation type="unfinished"></translation>
+        <translation>FeatherPad не позволяет открывать файлы размером более 100 МБ.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2327"/>
         <source>Some file(s) could not be opened!</source>
-        <translation type="unfinished"></translation>
+        <translation>Некоторые файлы не могут быть открыты!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2328"/>
@@ -1069,22 +1069,22 @@
     <message>
         <location filename="../../fpwin.cpp" line="2338"/>
         <source>Uneditable file(s)!</source>
-        <translation type="unfinished"></translation>
+        <translation>Недоступный для редактирования файл!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2339"/>
         <source>Non-text files or files with huge lines cannot be edited.</source>
-        <translation type="unfinished"></translation>
+        <translation>Файлы, отличные от текстовых, а также с очень длинными строками, недоступны для редактирования.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2388"/>
         <source>A previous crash detected!</source>
-        <translation type="unfinished"></translation>
+        <translation>Обнаружен крах программы!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2389"/>
         <source>Preferably, close all FeatherPad windows and start again!</source>
-        <translation type="unfinished"></translation>
+        <translation>Лучше закрыть все окна FeatherPad и запустить программу снова!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2457"/>
@@ -1135,7 +1135,7 @@
         <location filename="../../fpwin.cpp" line="4429"/>
         <location filename="../../fpwin.cpp" line="4497"/>
         <source>%1 Pages</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 страниц</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4455"/>
@@ -1152,7 +1152,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="4857"/>
         <source>Translators</source>
-        <translation type="unfinished"></translation>
+        <translation>Переводчики</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4853"/>
@@ -1310,7 +1310,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="2728"/>
         <source>Keep encoding and save as...</source>
-        <translation type="unfinished"></translation>
+        <translation>Оставить кодировку и сохранить как...</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2806"/>
@@ -1367,7 +1367,7 @@
     <message>
         <location filename="../../syntax.cpp" line="251"/>
         <source>The size limit for syntax highlighting is exceeded.</source>
-        <translation type="unfinished"></translation>
+        <translation>Превышен предельный размер для подсветки синтаксиса.</translation>
     </message>
 </context>
 <context>
@@ -1443,7 +1443,7 @@ and may not work with some window managers.</source>
     <message>
         <location filename="../../predDialog.ui" line="115"/>
         <source>Remember window &amp;position on closing</source>
-        <translation type="unfinished"></translation>
+        <translation>Запомнить &amp;расположение окна при закрытии</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="122"/>
@@ -1459,7 +1459,7 @@ but without tab functionality.</source>
     <message>
         <location filename="../../predDialog.ui" line="152"/>
         <source>Remember splitter position</source>
-        <translation type="unfinished"></translation>
+        <translation>Запомнить положение разделителя</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="172"/>
@@ -1491,7 +1491,7 @@ a menu button appears on the toolbar.</source>
     <message>
         <location filename="../../predDialog.ui" line="219"/>
         <source>Show cursor position on status bar</source>
-        <translation type="unfinished"></translation>
+        <translation>Отображать позицию курсора в строке состояния</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="226"/>
@@ -1538,7 +1538,7 @@ Tab navigation with mouse wheel is not affected.</source>
     <message>
         <location filename="../../predDialog.ui" line="289"/>
         <source>Close window on closing its last tab</source>
-        <translation type="unfinished"></translation>
+        <translation>Закрывать окно при закрытии последней вкладки</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="296"/>
@@ -1552,7 +1552,7 @@ report that they have multiple desktops.</source>
     <message>
         <location filename="../../predDialog.ui" line="303"/>
         <source>Always open in separate windows</source>
-        <translation type="unfinished"></translation>
+        <translation>Всегда открывать в новом окне</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="310"/>
@@ -1602,7 +1602,7 @@ when the syntax is highlighted.</source>
     <message>
         <location filename="../../predDialog.ui" line="487"/>
         <source>Show whitespaces</source>
-        <translation type="unfinished"></translation>
+        <translation>Отображать пробелы</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="501"/>
@@ -1624,7 +1624,7 @@ the editor font has a fixed pitch (like Monospace).</source>
     <message>
         <location filename="../../predDialog.ui" line="575"/>
         <source>Date and time format:</source>
-        <translation type="unfinished"></translation>
+        <translation>Формат даты и времени:</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="600"/>
@@ -1736,22 +1736,22 @@ trailing spaces of a text file.</source>
     <message>
         <location filename="../../predDialog.ui" line="882"/>
         <source>Allow saving unmodified files</source>
-        <translation type="unfinished"></translation>
+        <translation>Разрешить сохранение неизмененных файлов</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="889"/>
         <source>Show a warning instead.</source>
-        <translation type="unfinished"></translation>
+        <translation>Показывать предупреждение.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="892"/>
         <source>Do not permit opening of non-text files</source>
-        <translation type="unfinished"></translation>
+        <translation>Не позволять открытие файлов, отличных от текстовых</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="903"/>
         <source>Shortcuts</source>
-        <translation type="unfinished"></translation>
+        <translation>Сочетания клавиш</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="922"/>
@@ -1761,17 +1761,17 @@ trailing spaces of a text file.</source>
     <message>
         <location filename="../../predDialog.ui" line="927"/>
         <source>Shortcut</source>
-        <translation type="unfinished"></translation>
+        <translation>Сочетание клавиш</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="935"/>
         <source>Restore default shortcuts.</source>
-        <translation type="unfinished"></translation>
+        <translation>Восстановить сочетания клавиш по умолчанию.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="938"/>
         <source>Default</source>
-        <translation type="unfinished"></translation>
+        <translation>По умолчанию</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="962"/>
@@ -2014,7 +2014,7 @@ if the cursor is inside the text view?</source>
     <message>
         <location filename="../../predDialog.ui" line="851"/>
         <source>Save changes to opened files every:</source>
-        <translation type="unfinished"></translation>
+        <translation>Сохранять изменения в открытых файлах каждые:</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="973"/>
@@ -2123,7 +2123,7 @@ if the cursor is inside the text view?</source>
     <message>
         <location filename="../../sessionDialog.ui" line="56"/>
         <source>Filter...</source>
-        <translation type="unfinished"></translation>
+        <translation>Фильтр...</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="69"/>
@@ -2162,7 +2162,7 @@ windows will be included in the saved session.</source>
     <message>
         <location filename="../../sessionDialog.ui" line="163"/>
         <source>Save only from this &amp;window</source>
-        <translation type="unfinished"></translation>
+        <translation>Сохранить только из этого &amp;окна</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="180"/>
@@ -2251,7 +2251,7 @@ windows will be included in the saved session.</source>
     <message>
         <location filename="../../sidepane.cpp" line="108"/>
         <source>Filter...</source>
-        <translation type="unfinished"></translation>
+        <translation>Фильтр...</translation>
     </message>
 </context>
 <context>
@@ -2264,12 +2264,12 @@ windows will be included in the saved session.</source>
     <message>
         <location filename="../../textedit.cpp" line="1585"/>
         <source>Open Link</source>
-        <translation type="unfinished"></translation>
+        <translation>Открыть ссылку</translation>
     </message>
     <message>
         <location filename="../../textedit.cpp" line="1598"/>
         <source>Copy Link</source>
-        <translation type="unfinished"></translation>
+        <translation>Копировать сссылку</translation>
     </message>
     <message>
         <location filename="../../textedit.cpp" line="1611"/>
@@ -2279,7 +2279,7 @@ windows will be included in the saved session.</source>
     <message>
         <location filename="../../textedit.cpp" line="1615"/>
         <source>To Lower Case</source>
-        <translation type="unfinished">В нижний регистр</translation>
+        <translation>В нижний регистр</translation>
     </message>
     <message>
         <location filename="../../textedit.cpp" line="1622"/>
@@ -2294,7 +2294,7 @@ windows will be included in the saved session.</source>
     <message>
         <location filename="../../textedit.cpp" line="1633"/>
         <source>Paste Date and Time</source>
-        <translation type="unfinished">Вставить дату и время</translation>
+        <translation>Вставить дату и время</translation>
     </message>
 </context>
 <context>
