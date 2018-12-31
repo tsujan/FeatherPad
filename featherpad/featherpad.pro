@@ -4,7 +4,7 @@ QT += core gui \
       network \
       svg
 
-haiku {
+haiku|macx {
   TARGET = FeatherPad
 }
 else {
@@ -93,7 +93,7 @@ unix {
   }
 }
 
-unix:!haiku {
+unix:!haiku:!macx {
   #VARIABLES
   isEmpty(PREFIX) {
     PREFIX = /usr
@@ -143,5 +143,28 @@ else:haiku {
 
   trans.path = $$PREFIX
   trans.files += data/translations/translations
+  INSTALLS += target help trans
+}
+else:macx{
+  #VARIABLES
+  isEmpty(PREFIX) {
+    PREFIX = /Applications/
+  }
+  BINDIR = $$PREFIX
+  DATADIR = "$$BINDIR/$$TARGET".app
+
+  DEFINES += DATADIR=\\\"$$DATADIR\\\" PKGDATADIR=\\\"$$PKGDATADIR\\\"
+
+  #MAKE INSTALL
+
+  target.path =$$BINDIR
+
+  help.path = $$DATADIR/featherpad
+  help.files += ./data/help
+  help.files += ./data/help_*
+
+  trans.path = $$DATADIR/featherpad
+  trans.files += data/translations/translations
+
   INSTALLS += target help trans
 }
