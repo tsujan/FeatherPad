@@ -1451,7 +1451,7 @@ and may not work with some window managers.</source>
     <message>
         <location filename="../../predDialog.ui" line="115"/>
         <source>Remember window &amp;position on closing</source>
-        <translation type="unfinished"></translation>
+        <translation>Fenster&amp;position beim Schließen merken</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="122"/>
@@ -2294,22 +2294,22 @@ in die gespeicherte Sitzung eingeschlossen.</translation>
     <message>
         <location filename="../../textedit.cpp" line="1585"/>
         <source>Open Link</source>
-        <translation>Öffne Link</translation>
+        <translation>Link öffnen</translation>
     </message>
     <message>
         <location filename="../../textedit.cpp" line="1598"/>
         <source>Copy Link</source>
-        <translation>Kopiere Link</translation>
+        <translation>Link kopieren</translation>
     </message>
     <message>
         <location filename="../../textedit.cpp" line="1611"/>
         <source>To Upper Case</source>
-        <translation>Umwandeln in Großbuchstaben</translation>
+        <translation>Zu Großbuchstaben</translation>
     </message>
     <message>
         <location filename="../../textedit.cpp" line="1615"/>
         <source>To Lower Case</source>
-        <translation>Umwandeln in Kleinbuchstaben</translation>
+        <translation>Zu Kleinbuchstaben</translation>
     </message>
     <message>
         <location filename="../../textedit.cpp" line="1622"/>
@@ -2333,7 +2333,7 @@ in die gespeicherte Sitzung eingeschlossen.</translation>
         <location filename="../../warningbar.h" line="79"/>
         <location filename="../../warningbar.h" line="88"/>
         <source>Close</source>
-        <translation>Schliessen</translation>
+        <translation>Schließen</translation>
     </message>
 </context>
 </TS>
