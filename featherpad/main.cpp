@@ -101,7 +101,7 @@ int main (int argc, char **argv)
 #ifdef Q_OS_HAIKU
     FPTranslator.load ("featherpad_" + lang, "/translations");
 #else
-    FPTranslator.load ("featherpad_" + lang, DATADIR "/featherpad/translations");
+    FPTranslator.load ("featherpad_" + lang, QStringLiteral (DATADIR) + "/featherpad/translations");
 #endif
     singleton.installTranslator (&FPTranslator);
 
