@@ -751,7 +751,7 @@
     <message>
         <location filename="../../fp.ui" line="766"/>
         <source>&amp;Other</source>
-        <translation>&amp;Другой</translation>
+        <translation>&amp;Другая</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="785"/>
@@ -1024,7 +1024,7 @@
         <location filename="../../fpwin.cpp" line="3678"/>
         <location filename="../../fpwin.cpp" line="3692"/>
         <source>Sel. Chars</source>
-        <translation>Sel. символы</translation>
+        <translation>Выделенные символы</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1630"/>
