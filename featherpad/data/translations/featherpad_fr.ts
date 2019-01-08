@@ -80,7 +80,7 @@
     <message>
         <location filename="../../fp.ui" line="383"/>
         <source>Find:</source>
-        <translation>Trouver:</translation>
+        <translation>Trouver :</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="399"/>
@@ -90,7 +90,7 @@
     <message>
         <location filename="../../fp.ui" line="412"/>
         <source>Replace with:</source>
-        <translation>Remplacer par:</translation>
+        <translation>Remplacer par :</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="428"/>
@@ -640,7 +640,7 @@
     <message>
         <location filename="../../fp.ui" line="71"/>
         <source>Go to line:</source>
-        <translation>Aller à la ligne:</translation>
+        <translation>Aller à la ligne :</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="153"/>
@@ -891,12 +891,12 @@
     <message>
         <location filename="../../fpwin.cpp" line="1131"/>
         <source>Save changes?</source>
-        <translation>Enregistrer les changements?</translation>
+        <translation>Enregistrer les changements ?</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="841"/>
         <source>Please attend to that window or just close its dialog!</source>
-        <translation>Veuillez vous occuper de cette fenêtre ou fermez simplement la boîte de dialogue!</translation>
+        <translation>Veuillez vous occuper de cette fenêtre ou fermez simplement la boîte de dialogue !</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1145"/>
@@ -955,7 +955,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="1630"/>
         <source>Another process is running in this tab!</source>
-        <translation>Un autre processus a été lancé dans cet onglet!</translation>
+        <translation>Un autre processus a été lancé dans cet onglet !</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1714"/>
@@ -965,7 +965,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="840"/>
         <source>Another FeatherPad window has a modal dialog!</source>
-        <translation>Une autre fenêtre de FeatherPad a une boite de dialogue modale!</translation>
+        <translation>Une autre fenêtre de FeatherPad a une boite de dialogue modale !</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="257"/>
@@ -1132,7 +1132,7 @@
         <location filename="../../fpwin.cpp" line="725"/>
         <location filename="../../fpwin.cpp" line="3719"/>
         <source>Position:</source>
-        <translation>Position:</translation>
+        <translation>Position :</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="772"/>
@@ -1170,7 +1170,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="2327"/>
         <source>Some file(s) could not be opened!</source>
-        <translation>Certains fichiers n&apos;ont pas pu être ouverts!</translation>
+        <translation>Certains fichiers n&apos;ont pas pu être ouverts !</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2328"/>
@@ -1180,7 +1180,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="2338"/>
         <source>Uneditable file(s)!</source>
-        <translation>Fichier(s) non modifiable(s)!</translation>
+        <translation>Fichier(s) non modifiable(s) !</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2339"/>
@@ -1191,13 +1191,13 @@
         <location filename="../../fpwin.cpp" line="3166"/>
         <location filename="../../fpwin.cpp" line="3349"/>
         <source>This file has been modified elsewhere or in another way!</source>
-        <translation>Ce fichier a été modifié ailleurs et par un autre moyen!</translation>
+        <translation>Ce fichier a été modifié ailleurs et par un autre moyen !</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3167"/>
         <location filename="../../fpwin.cpp" line="3350"/>
         <source>Please be careful about reloading or saving this document!</source>
-        <translation>Soyez prudent lors du chargement ou de l&apos;enregistrement de ce document!</translation>
+        <translation>Soyez prudent lors du chargement ou de l&apos;enregistrement de ce document !</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4429"/>
@@ -1240,12 +1240,12 @@
     <message>
         <location filename="../../fpwin.cpp" line="2388"/>
         <source>A previous crash detected!</source>
-        <translation>Plantage antérieur détecté!</translation>
+        <translation>Plantage antérieur détecté !</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2389"/>
         <source>Preferably, close all FeatherPad windows and start again!</source>
-        <translation>Si possible, fermez toutes les fenêtres de FeatherPad et redémarrez!</translation>
+        <translation>Si possible, fermez toutes les fenêtres de FeatherPad et redémarrez !</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2457"/>
@@ -1293,7 +1293,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="2806"/>
         <source>Do you want to use &lt;b&gt;MS Windows&lt;/b&gt; end-of-lines?</source>
-        <translation>Voulez-vous utiliser les fins de ligne &lt;b&gt;MS Windows&lt;/b&gt;?</translation>
+        <translation>Voulez-vous utiliser les fins de ligne &lt;b&gt;MS Windows&lt;/b&gt; ?</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2807"/>
@@ -1303,7 +1303,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="2950"/>
         <source>Cannot be saved!</source>
-        <translation>Sauvegarde impossible!</translation>
+        <translation>Sauvegarde impossible !</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="359"/>
@@ -1326,7 +1326,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="2318"/>
         <source>Huge file(s) not opened!</source>
-        <translation>Fichier(s) volumineux non ouvert(s)!</translation>
+        <translation>Fichier(s) volumineux non ouvert(s) !</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3844"/>
@@ -1672,7 +1672,7 @@ uniquement si la police a une taille constante (comme Monospace).</translation>
     <message>
         <location filename="../../predDialog.ui" line="505"/>
         <source>Show vertical lines starting from this position:</source>
-        <translation>Afficher des lignes verticales depuis cette position:</translation>
+        <translation>Afficher des lignes verticales depuis cette position :</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="494"/>
@@ -1682,7 +1682,7 @@ uniquement si la police a une taille constante (comme Monospace).</translation>
     <message>
         <location filename="../../predDialog.ui" line="575"/>
         <source>Date and time format:</source>
-        <translation>Format de la date et de l&apos;heure:</translation>
+        <translation>Format de la date et de l&apos;heure :</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="623"/>
@@ -1768,7 +1768,7 @@ seront affichés dans une boîte de dialogue popup.</translation>
     <message>
         <location filename="../../predDialog.ui" line="851"/>
         <source>Save changes to opened files every:</source>
-        <translation>Enregistrer les modifications des fichiers ouverts toutes les:</translation>
+        <translation>Enregistrer les modifications des fichiers ouverts toutes les :</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="962"/>
@@ -1950,7 +1950,7 @@ MMM jj, aaaa, hh:mm:ss</translation>
     <message>
         <location filename="../../predDialog.ui" line="600"/>
         <source>Text tab size:</source>
-        <translation>Taille du texte des onglets:</translation>
+        <translation>Taille du texte des onglets :</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="607"/>
@@ -1967,7 +1967,7 @@ MMM jj, aaaa, hh:mm:ss</translation>
         <source>Should the mouse wheel scrolling be inertial
 if the cursor is inside the text view?</source>
         <translation>Le défilement de la roulette de la souris
-doit-il être inertiel si le curseur se trouve dans la vue du texte?</translation>
+doit-il être inertiel si le curseur se trouve dans la vue du texte ?</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="697"/>
@@ -2066,7 +2066,7 @@ de fin de ligne d&apos;un fichier texte.</translation>
         <location filename="../../pref.cpp" line="395"/>
         <location filename="../../pref.cpp" line="1290"/>
         <source>Warning: Ambiguous shortcut detected!</source>
-        <translation>Attention: raccourci ambigu détecté!</translation>
+        <translation>Attention: raccourci ambigu détecté !</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="500"/>
@@ -2258,22 +2258,22 @@ fenêtres seront inclus dans la session sauvegardée.</translation>
     <message>
         <location filename="../../session.cpp" line="324"/>
         <source>Do you really want to remove all saved sessions?</source>
-        <translation>Souhaitez-vous vraiment supprimer toutes les sessions sauvegardées?</translation>
+        <translation>Souhaitez-vous vraiment supprimer toutes les sessions sauvegardées ?</translation>
     </message>
     <message>
         <location filename="../../session.cpp" line="330"/>
         <source>Do you really want to remove the selected sessions?</source>
-        <translation>Souhaitez-vous vraiment supprimer les sessions sélectionnées?</translation>
+        <translation>Souhaitez-vous vraiment supprimer les sessions sélectionnées ?</translation>
     </message>
     <message>
         <location filename="../../session.cpp" line="332"/>
         <source>Do you really want to remove the selected session?</source>
-        <translation>Souhaitez-vous vraiment supprimer la session sélectionnée?</translation>
+        <translation>Souhaitez-vous vraiment supprimer la session sélectionnée ?</translation>
     </message>
     <message>
         <location filename="../../session.cpp" line="337"/>
         <source>A session with the same name exists.&lt;br&gt;Do you want to overwrite it?</source>
-        <translation>Il existe une session ayant le même nom.&lt;br&gt;Souhaitez-vous l&apos;écraser?</translation>
+        <translation>Il existe une session ayant le même nom.&lt;br&gt;Souhaitez-vous l&apos;écraser ?</translation>
     </message>
 </context>
 <context>
