@@ -587,13 +587,13 @@
         <location filename="../../fp.ui" line="1164"/>
         <location filename="../../fp.ui" line="1167"/>
         <source>Sort Lines</source>
-        <translation type="unfinished"></translation>
+        <translation>Trier les lignes</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1172"/>
         <location filename="../../fp.ui" line="1175"/>
         <source>Sort Lines Reversely</source>
-        <translation type="unfinished"></translation>
+        <translation>Trier les lignes dans le sens inverse</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="987"/>
@@ -1448,12 +1448,13 @@
         <location filename="../../predDialog.ui" line="111"/>
         <source>Enforcing a window position is not recommended
 and may not work with some window managers.</source>
-        <translation type="unfinished"></translation>
+        <translation>Imposer une position à la fenêtre n&apos;est pas recommandé
+et peut ne pas fonctionner avec certains gestionnaires de fenêtres.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="115"/>
         <source>Remember window &amp;position on closing</source>
-        <translation type="unfinished"></translation>
+        <translation>Mémoriser la &amp;position de la fenêtre à la fermeture</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="122"/>
@@ -2313,12 +2314,12 @@ fenêtres seront inclus dans la session sauvegardée.</translation>
     <message>
         <location filename="../../textedit.cpp" line="1622"/>
         <source>Sort Lines</source>
-        <translation type="unfinished"></translation>
+        <translation>Trier les lignes</translation>
     </message>
     <message>
         <location filename="../../textedit.cpp" line="1626"/>
         <source>Sort Lines Reversely</source>
-        <translation type="unfinished"></translation>
+        <translation>Trier les lignes dans le sens inverse</translation>
     </message>
     <message>
         <location filename="../../textedit.cpp" line="1633"/>
