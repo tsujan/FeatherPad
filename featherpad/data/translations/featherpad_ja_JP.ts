@@ -1091,7 +1091,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="1146"/>
         <source>Discard changes</source>
-        <translation>変更をキャンセル</translation>
+        <translation>保存せず</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1147"/>
@@ -1347,7 +1347,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="4857"/>
         <source>Translators</source>
-        <translation>翻訳者</translation>
+        <translation>翻訳</translation>
     </message>
     <message>
         <location filename="../../replace.cpp" line="239"/>
@@ -1721,7 +1721,7 @@ status bar for changing the syntax.</source>
         <source>Show spaces, tabs and tab lines
 when the syntax is highlighted.</source>
         <translation>構文がハイライト表示されているとき、
-スペース、タブ、インデントを表示する。</translation>
+スペース、タブ、インデントを表示します。</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="487"/>
