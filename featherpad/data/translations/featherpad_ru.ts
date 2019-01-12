@@ -563,7 +563,7 @@
     <message>
         <location filename="../../fp.ui" line="243"/>
         <source>Ea&amp;st Asian</source>
-        <translation type="unfinished"></translation>
+        <translation>Восточноазиатские</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="587"/>
@@ -613,7 +613,7 @@
     <message>
         <location filename="../../fp.ui" line="928"/>
         <source>Japa&amp;nese (EUC-JP)</source>
-        <translation type="unfinished"></translation>
+        <translation>Японская (EUC-JP)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="944"/>
@@ -890,7 +890,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="2288"/>
         <source>You may not have the permission to read.</source>
-        <translation type="unfinished"></translation>
+        <translation>Возможно не хватает прав для доступа.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2298"/>
@@ -949,13 +949,13 @@
         <location filename="../../fpwin.cpp" line="3138"/>
         <location filename="../../fpwin.cpp" line="3321"/>
         <source>This file has been modified elsewhere or in another way!</source>
-        <translation type="unfinished"></translation>
+        <translation>Файл был изменён внешней программой!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3139"/>
         <location filename="../../fpwin.cpp" line="3322"/>
         <source>Please be careful about reloading or saving this document!</source>
-        <translation type="unfinished"></translation>
+        <translation>Пожалуйста, будте осторожны при перезагрузке или сохранении документа!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4401"/>
@@ -1207,7 +1207,8 @@
         <location filename="../../predDialog.ui" line="111"/>
         <source>Enforcing a window position is not recommended
 and may not work with some window managers.</source>
-        <translation type="unfinished"></translation>
+        <translation>Установка позиции окна не рекомендуется
+и может не работать с некоторыми оконными менеджерами.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="115"/>
@@ -1329,12 +1330,15 @@ report that they have multiple desktops.</source>
 desktop environment will be used instead of the Qt file dialog.
 
 Some desktop environments, like KDE and LXQt, provide files dialogs.</source>
-        <translation type="unfinished"></translation>
+        <translation>Если выбрано, будет запущен диалог выбора файла, предоставленный текущим
+окружением рабочего стола вместо диалога выбора файлов Qt.
+
+Некоторые окружения, такие как KDE и LXQt предоставляют собственные диалоги.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="316"/>
         <source>Native file dialog</source>
-        <translation type="unfinished"></translation>
+        <translation>Системный диалог выбора файла</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="372"/>
@@ -1360,7 +1364,7 @@ status bar for changing the syntax.</source>
     <message>
         <location filename="../../predDialog.ui" line="440"/>
         <source>Support syntax override</source>
-        <translation type="unfinished"></translation>
+        <translation>Поддержка установки синтаксиса</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="483"/>
@@ -1383,7 +1387,7 @@ the editor font has a fixed pitch (like Monospace).</source>
     <message>
         <location filename="../../predDialog.ui" line="505"/>
         <source>Show vertical lines starting from this position:</source>
-        <translation type="unfinished"></translation>
+        <translation>Отображать вертикальные полосы начиная с позиции:</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="494"/>
