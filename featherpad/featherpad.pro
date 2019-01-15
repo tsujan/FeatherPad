@@ -154,17 +154,16 @@ else:macx{
   DATADIR = "$$BINDIR/$$TARGET".app
 
   DEFINES += DATADIR=\\\"$$DATADIR\\\" PKGDATADIR=\\\"$$PKGDATADIR\\\"
-
   #MAKE INSTALL
-
   target.path =$$BINDIR
 
-  help.path = $$DATADIR/featherpad
-  help.files += ./data/help
-  help.files += ./data/help_*
+  help.path = featherpad
+  help.files += $$files(./data/help*)
 
-  trans.path = $$DATADIR/featherpad
-  trans.files += data/translations/translations
 
-  INSTALLS += target help trans
+  trans.path = Resources/translations
+  trans.files += $$files($$OUT_PWD/data/translations/translations/*.qm)
+
+  QMAKE_BUNDLE_DATA += help trans
+  INSTALLS += target
 }
