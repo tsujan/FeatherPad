@@ -101,9 +101,7 @@ int main (int argc, char **argv)
 #if defined(Q_OS_HAIKU)
     FPTranslator.load ("featherpad_" + lang, "/translations");
 #elif defined(Q_OS_MAC)
-    QString stringPath = QCoreApplication::applicationDirPath();
-    stringPath = stringPath + "/../../Resources/translations";
-    FPTranslator.load ("featherpad_" + lang, stringPath);
+    FPTranslator.load ("featherpad_" + lang, QCoreApplication::applicationDirPath() + "/../../Translations");
 #else
     FPTranslator.load ("featherpad_" + lang, QStringLiteral (DATADIR) + "/featherpad/translations");
 #endif

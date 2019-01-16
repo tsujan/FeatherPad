@@ -150,18 +150,16 @@ else:macx{
   isEmpty(PREFIX) {
     PREFIX = /Applications/
   }
-  BINDIR = $$PREFIX
-  DATADIR = "$$BINDIR/$$TARGET".app
 
-  DEFINES += DATADIR=\\\"$$DATADIR\\\" PKGDATADIR=\\\"$$PKGDATADIR\\\"
   #MAKE INSTALL
-  target.path =$$BINDIR
+  target.path = $$PREFIX
 
-  help.path = featherpad
+  #BUNDLE HELP
+  help.path = Help
   help.files += $$files(./data/help*)
 
-
-  trans.path = Resources/translations
+  #BUNDLE TRANSLATIONS
+  trans.path = Translations
   trans.files += $$files($$OUT_PWD/data/translations/translations/*.qm)
 
   QMAKE_BUNDLE_DATA += help trans
