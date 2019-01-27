@@ -498,24 +498,24 @@
         <location filename="../../fp.ui" line="1153"/>
         <location filename="../../fp.ui" line="1156"/>
         <source>Last Active Tab</source>
-        <translation type="unfinished"></translation>
+        <translation>Ostatnia aktywna karta</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1159"/>
         <source>F1</source>
-        <translation type="unfinished">F1</translation>
+        <translation>F1</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1164"/>
         <location filename="../../fp.ui" line="1167"/>
         <source>Sort Lines</source>
-        <translation type="unfinished"></translation>
+        <translation>Sortuj wiersze</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1172"/>
         <location filename="../../fp.ui" line="1175"/>
         <source>Sort Lines Reversely</source>
-        <translation type="unfinished"></translation>
+        <translation>Sortuj wiersze w odwróconej kolejności</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="987"/>
@@ -1217,12 +1217,13 @@
         <location filename="../../predDialog.ui" line="111"/>
         <source>Enforcing a window position is not recommended
 and may not work with some window managers.</source>
-        <translation type="unfinished"></translation>
+        <translation>Wymuszenie położenia okna nie jest zalecane
+i może nie działać na niektórych menedżerach okien.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="115"/>
         <source>Remember window &amp;position on closing</source>
-        <translation type="unfinished"></translation>
+        <translation>Zapamiętaj &amp;pozycję okna przy zamykaniu</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="122"/>
@@ -2063,12 +2064,12 @@ oknach zostaną uwzględnione w zapisanej sesji.</translation>
     <message>
         <location filename="../../textedit.cpp" line="1626"/>
         <source>Sort Lines</source>
-        <translation type="unfinished"></translation>
+        <translation>Sortuj wiersze</translation>
     </message>
     <message>
         <location filename="../../textedit.cpp" line="1630"/>
         <source>Sort Lines Reversely</source>
-        <translation type="unfinished"></translation>
+        <translation>Sortuj wiersze w odwróconej kolejności</translation>
     </message>
     <message>
         <location filename="../../textedit.cpp" line="1637"/>
