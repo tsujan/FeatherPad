@@ -970,7 +970,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="2362"/>
         <source>Root Instance</source>
-        <translation type="unfinished"></translation>
+        <translation>Šaknies egzempliorius</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2430"/>
