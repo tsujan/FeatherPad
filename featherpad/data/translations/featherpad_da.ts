@@ -970,7 +970,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="2364"/>
         <source>Root Instance</source>
-        <translation type="unfinished"></translation>
+        <translation>Root-instans</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2435"/>
