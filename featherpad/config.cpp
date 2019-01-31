@@ -61,6 +61,7 @@ Config::Config():
     skipNonText_ (true),
     saveUnmodified_ (false),
     closeWithLastTab_ (false),
+    tabInsertSpaces_ (false),
     vLineDistance_ (-80),
     tabPosition_ (0),
     maxSHSize_ (2),
@@ -170,6 +171,9 @@ void Config::readConfig()
 
     if (settings.value ("closeWithLastTab").toBool())
         closeWithLastTab_ = true; // false by default
+
+    if (settings.value ("tabInsertSpaces").toBool())
+        tabInsertSpaces_ = true; // false by default
 
     settings.endGroup();
 
@@ -365,6 +369,7 @@ void Config::writeConfig()
     settings.setValue ("openInWindows", openInWindows_);
     settings.setValue ("nativeDialog", nativeDialog_);
     settings.setValue ("closeWithLastTab", closeWithLastTab_);
+    settings.setValue ("tabInsertSpaces", tabInsertSpaces_);
 
     settings.endGroup();
 

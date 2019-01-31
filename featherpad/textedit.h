@@ -66,6 +66,13 @@ public:
         textTab_ = textTab_.leftJustified (textTabSize, ' ', true);
     }
 
+    void setTabInsertSpaces (bool insert) {
+        tabInsertSpaces_ = insert;
+    }
+    bool getTabInsertSpaces_() const {
+        return tabInsertSpaces_;
+    }
+
     QTextEdit::ExtraSelection currentLineSelection() {
         return currentLine;
     }
@@ -304,6 +311,7 @@ private:
     QPoint pressPoint_; // used internally for hyperlinks
     QFont font_; // used internally for keeping track of the unzoomed font
     QString textTab_; // text tab in terms of spaces
+    bool tabInsertSpaces_;  // tabs always insert spaces
     /********************************************
      ***** All needed information on a page *****
      ********************************************/

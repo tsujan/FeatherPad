@@ -618,6 +618,16 @@ MMM dd, yyyy, hh:mm:ss</string>
                </widget>
               </item>
               <item row="15" column="0" colspan="3">
+               <widget class="QCheckBox" name="tabInsertSpacesBox">
+                <property name="toolTip">
+                 <string>Tabs always changes to spaces while typing.</string>
+                </property>
+                <property name="text">
+                 <string>Tab insert spaces</string>
+                </property>
+               </widget>
+              </item>
+              <item row="16" column="0" colspan="3">
                <widget class="QCheckBox" name="lastLineBox">
                 <property name="toolTip">
                  <string>Some text editors cannot open a document
@@ -628,21 +638,21 @@ whose last line is not empty.</string>
                 </property>
                </widget>
               </item>
-              <item row="16" column="0" colspan="3">
+              <item row="17" column="0" colspan="3">
                <widget class="QCheckBox" name="trailingSpacesBox">
                 <property name="text">
                  <string>Remove trailing spaces on saving</string>
                 </property>
                </widget>
               </item>
-              <item row="17" column="0" colspan="3">
+              <item row="18" column="0" colspan="3">
                <widget class="QCheckBox" name="thickCursorBox">
                 <property name="text">
                  <string>Thick text cursor</string>
                 </property>
                </widget>
               </item>
-              <item row="18" column="0" colspan="3">
+              <item row="19" column="0" colspan="3">
                <widget class="QCheckBox" name="inertiaBox">
                 <property name="toolTip">
                  <string>Should the mouse wheel scrolling be inertial
@@ -653,7 +663,7 @@ if the cursor is inside the text view?</string>
                 </property>
                </widget>
               </item>
-              <item row="19" column="0" colspan="3">
+              <item row="20" column="0" colspan="3">
                <widget class="QCheckBox" name="scrollBox">
                 <property name="toolTip">
                  <string>This is not a complete fix but

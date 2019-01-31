@@ -839,7 +839,7 @@ void TextEdit::keyPressEvent (QKeyEvent *event)
                 if (cursor.block().text().indexOf (QRegularExpression ("^\\s+"), 0, &match) > -1)
                     indx = match.capturedLength();
                 cursor.setPosition (cursor.block().position() + indx);
-                if (event->modifiers() & Qt::ControlModifier)
+                if ((event->modifiers() & Qt::ControlModifier) || tabInsertSpaces_)
                 {
                     cursor.insertText (remainingSpaces (event->modifiers() & Qt::MetaModifier
                                                         ? "  " : textTab_, cursor));
@@ -853,7 +853,7 @@ void TextEdit::keyPressEvent (QKeyEvent *event)
             event->accept();
             return;
         }
-        else if (event->modifiers() & Qt::ControlModifier)
+        else if ((event->modifiers() & Qt::ControlModifier) || tabInsertSpaces_)
         {
             QTextCursor tmp (cursor);
             tmp.setPosition (qMin (tmp.anchor(), tmp.position()));

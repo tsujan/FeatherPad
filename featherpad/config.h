@@ -488,6 +488,12 @@ public:
     void setCloseWithLastTab (bool close) {
         closeWithLastTab_ = close;
     }
+    bool getTabInsertSpaces() const {
+        return tabInsertSpaces_;
+    }
+    void setTabInsertSpaces (bool insert) {
+        tabInsertSpaces_ = insert;
+    }
 
 private:
     QString validatedShortcut (const QVariant v);
@@ -516,7 +522,8 @@ private:
          scrollJumpWorkaround_, // Should a workaround for Qt5's "scroll jump" bug be applied?
          skipNonText_,
          saveUnmodified_,
-         closeWithLastTab_;
+         closeWithLastTab_,
+         tabInsertSpaces_;
     int vLineDistance_,
         tabPosition_,
         maxSHSize_,

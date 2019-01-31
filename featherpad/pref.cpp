@@ -88,6 +88,7 @@ PrefDialog::PrefDialog (QWidget *parent)
     showEndings_ = config.getShowEndings();
     vLineDistance_ = config.getVLineDistance();
     textTabSize_ = config.getTextTabSize();
+    tabInsertSpaces_ = config.getTabInsertSpaces();
 
     /**************
      *** Window ***
@@ -225,6 +226,9 @@ PrefDialog::PrefDialog (QWidget *parent)
 
     ui->lastLineBox->setChecked (config.getAppendEmptyLine());
     connect (ui->lastLineBox, &QCheckBox::stateChanged, this, &PrefDialog::prefAppendEmptyLine);
+
+    ui->tabInsertSpacesBox->setChecked (tabInsertSpaces_);
+    connect (ui->tabInsertSpacesBox, &QCheckBox::stateChanged, this, &PrefDialog::prefTabInsertSpaces);
 
     ui->trailingSpacesBox->setChecked (config.getRemoveTrailingSpaces());
     connect (ui->trailingSpacesBox, &QCheckBox::stateChanged, this, &PrefDialog::prefRemoveTrailingSpaces);
@@ -431,7 +435,8 @@ void PrefDialog::showPrompt (const QString& str, bool temporary)
              || showEndings_ != config.getShowEndings()
              || textTabSize_ != config.getTextTabSize()
              || (vLineDistance_ * config.getVLineDistance() < 0
-                 || (vLineDistance_ > 0 && vLineDistance_ != config.getVLineDistance())))
+             || (vLineDistance_ > 0 && vLineDistance_ != config.getVLineDistance()))
+             || tabInsertSpaces_ != config.getTabInsertSpaces())
     {
         ui->promptLabel->setText ("<b>" + tr ("Window reopening is needed for changes to take effect.") + "</b>");
         ui->promptLabel->setStyleSheet (style);
@@ -940,6 +945,17 @@ void PrefDialog::prefAppendEmptyLine (int checked)
         config.setAppendEmptyLine (true);
     else if (checked == Qt::Unchecked)
         config.setAppendEmptyLine (false);
+}
+/*************************/
+void PrefDialog::prefTabInsertSpaces (int checked)
+{
+    FPsingleton *singleton = static_cast<FPsingleton*>(qApp);
+    Config& config = singleton->getConfig();
+    if (checked == Qt::Checked)
+        config.setTabInsertSpaces (true);
+    else if (checked == Qt::Unchecked)
+        config.setTabInsertSpaces (false);
+    showPrompt();
 }
 /*************************/
 void PrefDialog::prefRemoveTrailingSpaces (int checked)

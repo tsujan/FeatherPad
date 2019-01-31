@@ -78,6 +78,7 @@ private slots:
     void prefColValue (int value);
     void prefThickCursor();
     void prefAppendEmptyLine (int checked);
+    void prefTabInsertSpaces (int checked);
     void prefRemoveTrailingSpaces (int checked);
     void prefScrollJumpWorkaround (int checked);
     void prefSkipNontext (int checked);
@@ -114,7 +115,7 @@ private:
 
     Ui::PrefDialog *ui;
     QWidget * parent_;
-    bool darkBg_, sysIcons_, iconless_, showWhiteSpace_, showEndings_;
+    bool darkBg_, sysIcons_, iconless_, showWhiteSpace_, showEndings_, tabInsertSpaces_;
     int vLineDistance_, darkColValue_, lightColValue_, recentNumber_, textTabSize_;
     QHash<QString, QString> shortcuts_, newShortcuts_;
     QString prevtMsg_;
