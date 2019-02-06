@@ -23,7 +23,7 @@
 #include <QStandardPaths>
 #include <QCryptographicHash>
 
-#if defined Q_OS_LINUX
+#if defined Q_OS_LINUX || defined Q_OS_FREEBSD || defined Q_OS_OPENBSD
 #include <unistd.h> // for geteuid()
 #endif
 
@@ -260,8 +260,10 @@ FPwin* FPsingleton::newWin (const QStringList& filesList,
     fp->show();
     if (socketFailure_)
         fp->showCrashWarning();
+#if defined Q_OS_LINUX || defined Q_OS_FREEBSD || defined Q_OS_OPENBSD
     else if (geteuid() == 0)
         fp->showRootWarning();
+#endif
     Wins.append (fp);
 
     if (!filesList.isEmpty())
