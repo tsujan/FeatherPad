@@ -23,7 +23,7 @@
 #include <QStandardPaths>
 #include <QCryptographicHash>
 
-#if defined Q_OS_LINUX
+#if defined Q_OS_LINUX || defined Q_OS_FREEBSD || defined Q_OS_OPENBSD
 #include <unistd.h> // for geteuid()
 #endif
 
