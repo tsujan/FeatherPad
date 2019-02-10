@@ -955,7 +955,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="2364"/>
         <source>Root Instance</source>
-        <translation type="unfinished"></translation>
+        <translation>Instance root</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3150"/>
