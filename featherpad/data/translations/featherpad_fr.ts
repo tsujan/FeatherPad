@@ -40,7 +40,7 @@
     <message>
         <location filename="../../fp.ui" line="114"/>
         <source>Ctrl+Shift+J</source>
-        <translation>Ctrl+MAJ+J</translation>
+        <translation>Ctrl+Maj+J</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="149"/>
