@@ -6,7 +6,7 @@
     <message>
         <location filename="../../about.ui" line="135"/>
         <source>License</source>
-        <translation></translation>
+        <translation>Licenza</translation>
     </message>
 </context>
 <context>
@@ -23,12 +23,12 @@
         <location filename="../../fpwin.cpp" line="3140"/>
         <location filename="../../fpwin.cpp" line="3817"/>
         <source>Untitled</source>
-        <translation></translation>
+        <translation>Senza nome</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="71"/>
         <source>Go to line:</source>
-        <translation></translation>
+        <translation>Vai a riga:</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="107"/>
@@ -39,7 +39,7 @@
     <message>
         <location filename="../../fp.ui" line="111"/>
         <source>Select Text</source>
-        <translation></translation>
+        <translation>Seleziona testo</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="114"/>
@@ -55,7 +55,7 @@
         <location filename="../../fp.ui" line="188"/>
         <location filename="../../fp.ui" line="973"/>
         <source>&amp;Edit</source>
-        <translation></translation>
+        <translation>&amp;Modifica</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="212"/>
