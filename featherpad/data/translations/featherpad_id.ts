@@ -6,7 +6,7 @@
     <message>
         <location filename="../../about.ui" line="137"/>
         <source>License</source>
-        <translation></translation>
+        <translation>Lisensi</translation>
     </message>
 </context>
 <context>
@@ -23,7 +23,7 @@
         <location filename="../../fpwin.cpp" line="3126"/>
         <location filename="../../fpwin.cpp" line="3803"/>
         <source>Untitled</source>
-        <translation></translation>
+        <translation>Tanpa Judul</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="71"/>
@@ -34,12 +34,13 @@
         <location filename="../../fp.ui" line="107"/>
         <source>Select text from cursor to this line
 (Ctrl+Shift+J)</source>
-        <translation></translation>
+        <translation>Pilih teks dari kursor ke baris ini
+(Ctrl+Shift+J)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="111"/>
         <source>Select Text</source>
-        <translation></translation>
+        <translation>Pilih Teks</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="114"/>
@@ -55,7 +56,7 @@
         <location filename="../../fp.ui" line="188"/>
         <location filename="../../fp.ui" line="973"/>
         <source>&amp;Edit</source>
-        <translation></translation>
+        <translation>Sunting</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="212"/>
@@ -72,7 +73,7 @@
     <message>
         <location filename="../../fp.ui" line="275"/>
         <source>&amp;Search</source>
-        <translation></translation>
+        <translation>Cari</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="283"/>
@@ -83,7 +84,7 @@
     <message>
         <location filename="../../fp.ui" line="383"/>
         <source>Find:</source>
-        <translation></translation>
+        <translation>Cari:</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="399"/>
