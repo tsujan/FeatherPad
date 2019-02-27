@@ -812,7 +812,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="1169"/>
         <source>Discard changes</source>
-        <translation>Annuler les changements</translation>
+        <translation>Annuler les modifications</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1170"/>
@@ -1015,7 +1015,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="2350"/>
         <source>Preferably, close all FeatherPad windows and start again!</source>
-        <translation>Si possible, fermez toutes les fenêtres de FeatherPad et redémarrez !</translation>
+        <translation>Si possible, fermez toutes les fenêtres de FeatherPad et redémarrer !</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2428"/>
@@ -1201,7 +1201,7 @@
     <message>
         <location filename="../../predDialog.ui" line="52"/>
         <source>Start with this size: </source>
-        <translation>Démarrer avec la taille: </translation>
+        <translation>Démarrer avec la taille : </translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="65"/>
@@ -1551,7 +1551,7 @@ seront affichés dans une boîte de dialogue popup.</translation>
 use system icons!
 
 Needs application restart to take effect.</source>
-        <translation>Décochez si vous voulez que FeatherPad
+        <translation>Décocher si vous voulez que FeatherPad
 utilise les icônes du système!
 
 Nécessite le redémarrage de l&apos;application pour prendre effet.</translation>
