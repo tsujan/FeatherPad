@@ -40,7 +40,7 @@
     <message>
         <location filename="../../fp.ui" line="111"/>
         <source>Select Text</source>
-        <translation>&amp;Metni Seç</translation>
+        <translation>Metni Seç</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="114"/>
@@ -56,7 +56,7 @@
         <location filename="../../fp.ui" line="188"/>
         <location filename="../../fp.ui" line="973"/>
         <source>&amp;Edit</source>
-        <translation>D&amp;üzenle</translation>
+        <translation>Düz&amp;enle</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="212"/>
@@ -217,7 +217,7 @@
     <message>
         <location filename="../../fp.ui" line="579"/>
         <source>Show/hide replacement dock</source>
-        <translation>Değiştirme panelini göster/sakla</translation>
+        <translation>Değiştirme panelini göster/gizle</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="582"/>
@@ -237,7 +237,7 @@
     <message>
         <location filename="../../fp.ui" line="595"/>
         <source>&amp;Print</source>
-        <translation>Ya&amp;zdır</translation>
+        <translation>&amp;Yazdır</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="598"/>
@@ -257,7 +257,7 @@
     <message>
         <location filename="../../fp.ui" line="611"/>
         <source>&amp;Close</source>
-        <translation>Kapa&amp;t</translation>
+        <translation>&amp;Kapat</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="614"/>
@@ -357,7 +357,7 @@
     <message>
         <location filename="../../fp.ui" line="723"/>
         <source>&amp;Syntax Highlighting</source>
-        <translation>Sentaks &amp;Vurgula</translation>
+        <translation>&amp;Sözdizimi Vurgulama</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="726"/>
@@ -404,7 +404,7 @@
     <message>
         <location filename="../../fp.ui" line="965"/>
         <source>Show/hide jump bar</source>
-        <translation>Satıra gitme çubuğunu göster/sakla</translation>
+        <translation>Satıra git çubuğunu göster/gizle</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="968"/>
@@ -440,18 +440,18 @@
         <location filename="../../fp.ui" line="1096"/>
         <source>Clear the list of recently modified files</source>
         <translatorcomment>RAPOR 4 : As the same message would apparently be used for both recently opened and modified files, I have changed the term &quot;recently modified files&quot; to &quot;recent documents&quot; (stole from libreoffice)</translatorcomment>
-        <translation>Son belgeler listesini sıfırla</translation>
+        <translation>Son belgeler listesini temizle</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1101"/>
         <source>Save/Restore Session</source>
-        <translation>&amp;Oturum Kaydet/Yükle</translation>
+        <translation>Oturumu Kaydet/Yükle</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1104"/>
         <source>Sa&amp;ve/Restore Session</source>
         <translatorcomment>RAPOR 1 : Message seems to be unused.</translatorcomment>
-        <translation>Oturumu Kaydet / Geri Yükle</translation>
+        <translation>&amp;Oturumu Kaydet / Yükle</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1107"/>
@@ -461,7 +461,7 @@
     <message>
         <location filename="../../fp.ui" line="1112"/>
         <source>Side-Pane</source>
-        <translation>Yan &amp;Panel</translation>
+        <translation>Yan Panel</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1115"/>
@@ -471,7 +471,7 @@
     <message>
         <location filename="../../fp.ui" line="1120"/>
         <source>Paste Date and Time</source>
-        <translation>Tarih-&amp;Zamanı Yapıştır</translation>
+        <translation>Tarih ve Zamanı Yapıştır</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1123"/>
@@ -482,7 +482,7 @@
         <location filename="../../fp.ui" line="1128"/>
         <location filename="../../fp.ui" line="1131"/>
         <source>To Upper Case</source>
-        <translation>&amp;Büyük Harfe Çevir</translation>
+        <translation>Büyük Harfe Çevir</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1134"/>
@@ -493,7 +493,7 @@
         <location filename="../../fp.ui" line="1139"/>
         <location filename="../../fp.ui" line="1142"/>
         <source>To Lower Case</source>
-        <translation>&amp;Küçük Harfe Çevir</translation>
+        <translation>Küçük Harfe Çevir</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1145"/>
@@ -504,24 +504,24 @@
         <location filename="../../fp.ui" line="1153"/>
         <location filename="../../fp.ui" line="1156"/>
         <source>Last Active Tab</source>
-        <translation type="unfinished"></translation>
+        <translation>Son Aktif Sekme</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1159"/>
         <source>F1</source>
-        <translation type="unfinished"></translation>
+        <translation>F1</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1164"/>
         <location filename="../../fp.ui" line="1167"/>
         <source>Sort Lines</source>
-        <translation type="unfinished"></translation>
+        <translation>Satırları Sırala</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1172"/>
         <location filename="../../fp.ui" line="1175"/>
         <source>Sort Lines Reversely</source>
-        <translation type="unfinished"></translation>
+        <translation>Satırları Tersten Sırala</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="987"/>
@@ -541,7 +541,7 @@
     <message>
         <location filename="../../fp.ui" line="1008"/>
         <source>Close &amp;Previous Tabs</source>
-        <translation>&amp;Evvelki Sekmeleri Kapat</translation>
+        <translation>&amp;Önceki Sekmeleri Kapat</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1036"/>
@@ -551,12 +551,12 @@
     <message>
         <location filename="../../fp.ui" line="1047"/>
         <source>Previous Ta&amp;b</source>
-        <translation>Ev&amp;velki Sekme</translation>
+        <translation>&amp;Önceki Sekme</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1085"/>
         <source>Execute</source>
-        <translation>Dosyayı Çalıştır</translation>
+        <translation>Çalıştır</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1013"/>
@@ -605,7 +605,7 @@
     <message>
         <location filename="../../fp.ui" line="568"/>
         <source>Focus/hide search bar</source>
-        <translation>Arama çubuğunu göster/sakla</translation>
+        <translation>Arama çubuğunu göster/gizle</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="576"/>
@@ -615,12 +615,12 @@
     <message>
         <location filename="../../fp.ui" line="758"/>
         <source>Windows Arabic (&amp;CP1256)</source>
-        <translation>&amp;Windows Arapçası (CP1256)</translation>
+        <translation>Windows Arapçası (&amp;CP1256)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="766"/>
         <source>&amp;Other</source>
-        <translation>Di&amp;ğer</translation>
+        <translation>&amp;Diğer</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="785"/>
@@ -660,7 +660,7 @@
     <message>
         <location filename="../../fp.ui" line="862"/>
         <source>&amp;Chinese (BIG5)</source>
-        <translation>Çince (&amp;BIG5)</translation>
+        <translation>&amp;Çince (BIG5)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="873"/>
@@ -720,7 +720,7 @@
     <message>
         <location filename="../../fp.ui" line="1023"/>
         <source>&amp;Copy File Name</source>
-        <translation>&amp;Dosya İsmini Kopyala</translation>
+        <translation>Dosya İsmini &amp;Kopyala</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1028"/>
@@ -766,20 +766,20 @@
         <location filename="../../fpwin.cpp" line="95"/>
         <source>Calculate number of words
 (For huge texts, this may be CPU-intensive.)</source>
-        <translation>Kelime adedini hesapla
+        <translation>Kelime sayısını hesapla
 (Devasa dosyalarda işlemciyi yorabilir.)</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="110"/>
         <location filename="../../fpwin.cpp" line="551"/>
         <source>Next</source>
-        <translation>Bir Sonraki</translation>
+        <translation>Sonraki</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="111"/>
         <location filename="../../fpwin.cpp" line="552"/>
         <source>Previous</source>
-        <translation>Bir Evvelki</translation>
+        <translation>Önceki</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="112"/>
@@ -910,7 +910,7 @@
         <location filename="../../fpwin.cpp" line="748"/>
         <location filename="../../fpwin.cpp" line="3689"/>
         <source>Position:</source>
-        <translation>İmleç:</translation>
+        <translation>Konum:</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="795"/>
@@ -933,7 +933,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="1663"/>
         <source>Script Output</source>
-        <translation>Program Çıktısı</translation>
+        <translation>Betik Çıktısı</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1679"/>
@@ -978,7 +978,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="2357"/>
         <source>Root Instance</source>
-        <translation type="unfinished"></translation>
+        <translation>Yetkili Kullanıcı</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2428"/>
@@ -1028,7 +1028,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="2777"/>
         <source>Do you want to use &lt;b&gt;MS Windows&lt;/b&gt; end-of-lines?</source>
-        <translation>&lt;b&gt;MS Windows&lt;/b&gt; satır sonlandırması istiyor musunuz?</translation>
+        <translation>&lt;b&gt;MS Windows&lt;/b&gt; satır sonlandırmasını kullanmak istiyor musunuz?</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2778"/>
@@ -1056,7 +1056,7 @@
         <location filename="../../fpwin.cpp" line="4705"/>
         <location filename="../../fpwin.cpp" line="4713"/>
         <source>Syntax</source>
-        <translation>Sentaks</translation>
+        <translation>Sözdizimi</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2271"/>
@@ -1101,19 +1101,19 @@
     <message>
         <location filename="../../fpwin.cpp" line="4777"/>
         <source>Translators</source>
-        <translation>Mütercimler</translation>
+        <translation>Çevirmenler</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4773"/>
         <source>A lightweight, tabbed, plain-text editor</source>
         <translatorcomment>RAPOR 7: Please see the other comment.</translatorcomment>
-        <translation>Hafif, sekme destekli, düz metin düzenleyici</translation>
+        <translation>Hafif, sekmeli, düz metin düzenleyici</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4774"/>
         <source>based on Qt5</source>
         <translatorcomment>RAPOR 7: Either has to be put at the start or mid-sentence as part of the features, or has to be added to the end as an afterthought. Because of such things, I suggest this and the preceding message be merged in a single compound sentence.</translatorcomment>
-        <translation>(Qt5 tabanlı)</translation>
+        <translation>Qt5 tabanlı</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4775"/>
@@ -1147,14 +1147,13 @@
         <location filename="../../replace.cpp" line="243"/>
         <source>%Ln Replacements</source>
         <translatorcomment>Reminder: Must be singular for enumerated items as in &quot;7 file&quot; but NOT &quot;7 files&quot;</translatorcomment>
-        <translation>
-            <numerusform>%Ln Değişiklik</numerusform>
-        </translation>
-    </message>
+        <translation><numerusform>%Ln Değişiklik</numerusform>
+        <numerusform></numerusform>
+        </translation></message>
     <message>
         <location filename="../../syntax.cpp" line="262"/>
         <source>The size limit for syntax highlighting is exceeded.</source>
-        <translation type="unfinished"></translation>
+        <translation>Sözdizimi vurgulaması için boyut sınırı aşıldı.</translation>
     </message>
 </context>
 <context>
@@ -1179,7 +1178,7 @@
     <message>
         <location filename="../../lineedit.cpp" line="34"/>
         <source>Clear text (Ctrl+K)</source>
-        <translation>Metni Temizle (Ctrl+K)</translation>
+        <translation>Metni temizle (Ctrl+K)</translation>
     </message>
 </context>
 <context>
@@ -1192,7 +1191,7 @@
     <message>
         <location filename="../../predDialog.ui" line="30"/>
         <source>Window</source>
-        <translation>&amp;Pencere</translation>
+        <translation>Pencere</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="36"/>
@@ -1202,7 +1201,7 @@
     <message>
         <location filename="../../predDialog.ui" line="42"/>
         <source>Remember window &amp;size on closing</source>
-        <translation>Kapanıştaki pencere boyutlarını &amp;hatırla</translation>
+        <translation>Kapanıştaki pencere &amp;boyutlarını hatırla</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="49"/>
@@ -1232,12 +1231,12 @@
         <location filename="../../predDialog.ui" line="111"/>
         <source>Enforcing a window position is not recommended
 and may not work with some window managers.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Bir pencere pozisyonunu uygulama önerilmez ve bazı pencere yöneticileriyle çalışmayabilir.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="115"/>
         <source>Remember window &amp;position on closing</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Pencerenin kapanıştaki konumunu hatırla</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="122"/>
@@ -1274,29 +1273,29 @@ Uygulama tekrar başlatılınca etkinleşir.</translation>
     <message>
         <location filename="../../predDialog.ui" line="180"/>
         <source>&amp;Iconless mode</source>
-        <translation>&amp;Simgesiz menüler</translation>
+        <translation>&amp;Simgesiz kip</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="187"/>
         <source>Do not show &amp;toolbar</source>
-        <translation>&amp;Araç çubuğunu kaldır</translation>
+        <translation>&amp;Araç çubuğunu gösterme</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="194"/>
         <source>If the menubar is hidden,
 a menu button appears on the toolbar.</source>
         <translation>Menü çubuğu gizlenirse, araç çubuğunda
-bir menü düğmesi peydahlanır.</translation>
+bir menü düğmesi görüntülenir.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="198"/>
         <source>Do not show &amp;menubar</source>
-        <translation>Men&amp;ü çubuğunu kaldır</translation>
+        <translation>Men&amp;ü çubuğunu gösterme</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="205"/>
         <source>Hide search &amp;bar by default</source>
-        <translation>&amp;Başlangıçta arama çubuğunu gizle</translation>
+        <translation>&amp;Öntanımlı olarak arama çubuğunu gizle</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="212"/>
@@ -1312,7 +1311,7 @@ bir menü düğmesi peydahlanır.</translation>
         <location filename="../../predDialog.ui" line="226"/>
         <location filename="../../predDialog.ui" line="236"/>
         <source>Will take effect after closing this dialog.</source>
-        <translation>Diyaloğu kapatınca etkinleşecektir.</translation>
+        <translation>Pencereyi kapatınca etkinleşecektir.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="229"/>
@@ -1322,22 +1321,22 @@ bir menü düğmesi peydahlanır.</translation>
     <message>
         <location filename="../../predDialog.ui" line="240"/>
         <source>North</source>
-        <translation>Kuzey</translation>
+        <translation>Üst</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="245"/>
         <source>South</source>
-        <translation>Güney</translation>
+        <translation>Alt</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="250"/>
         <source>West</source>
-        <translation>Batı</translation>
+        <translation>Sol</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="255"/>
         <source>East</source>
-        <translation>Doğu</translation>
+        <translation>Sağ</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="263"/>
@@ -1419,20 +1418,18 @@ KDE ve LXQt gibi bazı masaüstlerinin kendi dosya diyaloğu vardır.</translati
         <location filename="../../predDialog.ui" line="463"/>
         <source>Never highlight syntax for files &gt; </source>
         <translatorcomment>Reminder: MA in caps to stress negation (has double/conflicting meanings)</translatorcomment>
-        <translation>Bundan büyük dosyalarda sentaks vurgulaMA </translation>
+        <translation>Bundan büyük dosyalarda sözdizimini vurgulama </translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="436"/>
         <source>This creates a menu button on the
 status bar for changing the syntax.</source>
-        <translation>Algılanandan farklı bir sentaks
-vurgulaması seçebilmek için durum
-çubuğunda bir düğme peydahlanır.</translation>
+        <translation>Sözdizimini değiştirme için durum çubuğunda menü düğmesi oluşturur.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="440"/>
         <source>Support syntax override</source>
-        <translation>&amp;Farklı sentaks seçme imkanı</translation>
+        <translation>&amp;Farklı sözdizimi seçme imkanı</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="483"/>
@@ -1444,7 +1441,7 @@ sekmeleri ve sekme çizgilerini göster.</translation>
     <message>
         <location filename="../../predDialog.ui" line="487"/>
         <source>Show whitespaces</source>
-        <translation>&amp;Boşlukları ve sekmeleri göster</translation>
+        <translation>Boşlukları ve sekmeleri göster</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="501"/>
@@ -1452,7 +1449,7 @@ sekmeleri ve sekme çizgilerini göster.</translation>
         <source>The vertical position lines will be drawn only if
 the editor font has a fixed pitch (like Monospace).</source>
         <translation>Düşey çizgiler sadece sabit genişlikte yazı
-tipi (misal Monospace) kullanılıyorsa çizilir.</translation>
+tipi (Monospace gibi) kullanılıyorsa çizilir.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="505"/>
@@ -1475,12 +1472,12 @@ tipi (misal Monospace) kullanılıyorsa çizilir.</translation>
         <source>Some text editors cannot open a document
 whose last line is not empty.</source>
         <translation>Bazı metin düzenleyiciler, son satırı
-boş olmayan belgeleri açamıyorlar.</translation>
+boş olmayan belgeleri açamazlar.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="627"/>
         <source>Ensure an empty last line on saving</source>
-        <translation>Kaydederken &amp;en sonda boş satır olsun</translation>
+        <translation>Kaydederken sonda boş satır olduğundan emin olun</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="634"/>
@@ -1746,7 +1743,7 @@ hh=saat ; mm=dakika ; ss=saniye</translation>
     <message>
         <location filename="../../predDialog.ui" line="641"/>
         <source>Thick text cursor</source>
-        <translation type="unfinished"></translation>
+        <translation>Kalın metin imleci</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="648"/>
@@ -2075,7 +2072,7 @@ dosyalar kaydedilen oturuma dahil edilir.</translation>
     <message>
         <location filename="../../textedit.cpp" line="137"/>
         <source>Double click to center current line</source>
-        <translation type="unfinished"></translation>
+        <translation>Bulunulan satırı ortalamak için çift tıklayın</translation>
     </message>
     <message>
         <location filename="../../textedit.cpp" line="1639"/>
@@ -2100,12 +2097,12 @@ dosyalar kaydedilen oturuma dahil edilir.</translation>
     <message>
         <location filename="../../textedit.cpp" line="1676"/>
         <source>Sort Lines</source>
-        <translation type="unfinished"></translation>
+        <translation>Satırları Sırala</translation>
     </message>
     <message>
         <location filename="../../textedit.cpp" line="1680"/>
         <source>Sort Lines Reversely</source>
-        <translation type="unfinished"></translation>
+        <translation>Satırları Tersten Sırala</translation>
     </message>
     <message>
         <location filename="../../textedit.cpp" line="1687"/>
