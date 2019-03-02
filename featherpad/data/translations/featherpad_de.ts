@@ -509,13 +509,13 @@
         <location filename="../../fp.ui" line="1164"/>
         <location filename="../../fp.ui" line="1167"/>
         <source>Sort Lines</source>
-        <translation type="unfinished"></translation>
+        <translation>Zeilen sortieren</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1172"/>
         <location filename="../../fp.ui" line="1175"/>
         <source>Sort Lines Reversely</source>
-        <translation type="unfinished"></translation>
+        <translation>Zeilen umgekehrt sortieren</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="987"/>
@@ -970,7 +970,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="2357"/>
         <source>Root Instance</source>
-        <translation type="unfinished"></translation>
+        <translation>Wurzelinstanz</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2428"/>
@@ -1216,7 +1216,8 @@
         <location filename="../../predDialog.ui" line="111"/>
         <source>Enforcing a window position is not recommended
 and may not work with some window managers.</source>
-        <translation type="unfinished"></translation>
+        <translation>Das Erzwingen einer Fensterposition wird nicht empfohlen und
+funktioniert möglicherweise nicht mit einigen Fenstermanagern.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="115"/>
@@ -2084,12 +2085,12 @@ in die gespeicherte Sitzung eingeschlossen.</translation>
     <message>
         <location filename="../../textedit.cpp" line="1676"/>
         <source>Sort Lines</source>
-        <translation type="unfinished"></translation>
+        <translation>Zeilen sortieren</translation>
     </message>
     <message>
         <location filename="../../textedit.cpp" line="1680"/>
         <source>Sort Lines Reversely</source>
-        <translation type="unfinished"></translation>
+        <translation>Zeilen umgekehrt sortieren</translation>
     </message>
     <message>
         <location filename="../../textedit.cpp" line="1687"/>
