@@ -935,7 +935,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="2361"/>
         <source>Root Instance</source>
-        <translation>Modo Root</translation>
+        <translation>Instância Root</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2432"/>
