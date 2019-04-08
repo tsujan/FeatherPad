@@ -1854,12 +1854,12 @@ pvz., laiko žymos keitimui arba tekstinio failo galinių tarpų
     <message>
         <location filename="../../searchbar.cpp" line="88"/>
         <source>Regular Expression</source>
-        <translation type="unfinished"></translation>
+        <translation>Reguliarusis reiškinys</translation>
     </message>
     <message>
         <location filename="../../searchbar.cpp" line="120"/>
         <source>Search with regex...</source>
-        <translation type="unfinished"></translation>
+        <translation>Ieškoti naudojant reguliarųjį reiškinį...</translation>
     </message>
     <message>
         <location filename="../../searchbar.cpp" line="64"/>
