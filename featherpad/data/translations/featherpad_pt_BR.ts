@@ -1851,12 +1851,12 @@ espaços à direita de um arquivo de texto.</translation>
     <message>
         <location filename="../../searchbar.cpp" line="88"/>
         <source>Regular Expression</source>
-        <translation type="unfinished"></translation>
+        <translation>Expressão Regular</translation>
     </message>
     <message>
         <location filename="../../searchbar.cpp" line="120"/>
         <source>Search with regex...</source>
-        <translation type="unfinished"></translation>
+        <translation>Pesquisar com regex...</translation>
     </message>
     <message>
         <location filename="../../searchbar.cpp" line="64"/>
