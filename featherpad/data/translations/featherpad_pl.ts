@@ -1434,7 +1434,7 @@ jeżeli ostatni wiersz nie jest pusty.</translation>
     <message>
         <location filename="../../predDialog.ui" line="652"/>
         <source>Inertial scrolling with mouse wheel</source>
-        <translation type="unfinished"></translation>
+        <translation>Inercyjne przewijanie kółkiem myszy</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="678"/>
@@ -1464,7 +1464,17 @@ will be executed directly.
 If the script is not run in a terminal
 emulator, the output and error messages
 will be shown by a popup dialog.</source>
-        <translation type="unfinished"></translation>
+        <translation>To może być dowolne polecenie startowe
+z argumentami, na przykład &quot;xterm -hold&quot;
+by uruchomić proces w XTermie.
+
+Jeśli polecenie będzie puste, dane zostaną
+wykonane bezpośrednio.
+
+Gdy skrypt nie jest wykonywany
+w emulatorze terminala, rezultat wykonania
+oraz powiadomienia o błędach będą
+pokazane w okienku dialogowym.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="806"/>
@@ -1718,7 +1728,12 @@ be used also when the opened file is not modified.
 This can be useful under certain circumstances,
 e.g. for changing the time stamp or removing the
 trailing spaces of a text file.</source>
-        <translation type="unfinished"></translation>
+        <translation>Jeśli to jest zaznaczone, przycisk/opcja zapisu może być
+użyty także gdy otwarty plik nie został zmodyfikowany.
+
+Może to być przydatne w pewnych okolicznościach,
+np. do zmiany daty modyfikacji lub usunięcia spacji
+na końcu pliku.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="882"/>
@@ -1835,12 +1850,12 @@ trailing spaces of a text file.</source>
     <message>
         <location filename="../../searchbar.cpp" line="88"/>
         <source>Regular Expression</source>
-        <translation type="unfinished"></translation>
+        <translation>Wyrażenie regularne</translation>
     </message>
     <message>
         <location filename="../../searchbar.cpp" line="120"/>
         <source>Search with regex...</source>
-        <translation type="unfinished"></translation>
+        <translation>Wyszukaj wyrażeniem regularnym...</translation>
     </message>
     <message>
         <location filename="../../searchbar.cpp" line="64"/>
