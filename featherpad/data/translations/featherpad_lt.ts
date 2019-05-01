@@ -1370,12 +1370,14 @@ Kai kurios darbalaukio aplinkos, tokios kaip KDE ir LXQt, pateikia failų dialog
         <source>By default, a triple period is replaced with an ellipsis
 and a double hyphen with a long dash while typing,
 under proper circumstances.</source>
-        <translation type="unfinished"></translation>
+        <translation>Pagal numatymą, rašant, esant tinkamoms aplinkybėms,
+trys taškai yra pakeičiami daugtaškiu, o dvigubas brūkšnelis
+ilguoju brūkšniu.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="411"/>
         <source>Replace triple periods and double hyphens while typing</source>
-        <translation type="unfinished"></translation>
+        <translation>Rašant, pakeisti trys taškus ir dvigubus brūkšnelius</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="475"/>
