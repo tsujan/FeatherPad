@@ -1369,12 +1369,14 @@ Alguns ambientes de desktop, como o KDE e o LXQt, fornecem caixas de diálogo de
         <source>By default, a triple period is replaced with an ellipsis
 and a double hyphen with a long dash while typing,
 under proper circumstances.</source>
-        <translation type="unfinished"></translation>
+        <translation>Por padrão, um período triplo é substituído por reticências
+e um hífen duplo com um traço longo durante a digitação,
+em circunstâncias apropriadas.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="496"/>
         <source>Replace triple periods and double hyphens while typing</source>
-        <translation type="unfinished"></translation>
+        <translation>Substituir períodos triplos e duplos hifens enquanto digita</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="566"/>
