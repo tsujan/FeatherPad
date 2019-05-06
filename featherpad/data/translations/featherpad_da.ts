@@ -1369,12 +1369,14 @@ Nogle skrivebordsmiljøer, såsom KDE og LXQt leverer fildialoger.</translation>
         <source>By default, a triple period is replaced with an ellipsis
 and a double hyphen with a long dash while typing,
 under proper circumstances.</source>
-        <translation type="unfinished"></translation>
+        <translation>Som standard erstattes et tredobbelt punktum med udeladelsesprikker
+og en dobbelt bindestreg med en lang tankestreg mens der skrives,
+under de rette omstændigheder.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="496"/>
         <source>Replace triple periods and double hyphens while typing</source>
-        <translation type="unfinished"></translation>
+        <translation>Erstat tredobbelte punktummer og dobbelte bindestrenger mens der skrives</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="566"/>
