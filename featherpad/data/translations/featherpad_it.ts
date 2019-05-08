@@ -1371,12 +1371,15 @@ Alcuni ambienti desktop, come KDE e LXQt, forniscono finestre di dialogo dei fil
         <source>By default, a triple period is replaced with an ellipsis
 and a double hyphen with a long dash while typing,
 under proper circumstances.</source>
-        <translation type="unfinished"></translation>
+        <translation>Di default, sotto determinate condizioni, tre punti
+consecutivi sono sostituiti dai punti di sospensione
+e due trattini (--) sono sostituiti con un tratto lungo
+(–).</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="496"/>
         <source>Replace triple periods and double hyphens while typing</source>
-        <translation type="unfinished"></translation>
+        <translation>Sostituisci tre punti e doppi trattini durante la scrittura</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="566"/>
@@ -1852,7 +1855,7 @@ modificare la data o rimuovere spazi  vuoti.</translation>
         <location filename="../../searchbar.cpp" line="37"/>
         <location filename="../../searchbar.cpp" line="122"/>
         <source>Search...</source>
-        <translation>Cerca...</translation>
+        <translation>Cerca…</translation>
     </message>
     <message>
         <location filename="../../searchbar.cpp" line="74"/>
@@ -1867,12 +1870,12 @@ modificare la data o rimuovere spazi  vuoti.</translation>
     <message>
         <location filename="../../searchbar.cpp" line="88"/>
         <source>Regular Expression</source>
-        <translation type="unfinished"></translation>
+        <translation>Espressione regolare (regex)</translation>
     </message>
     <message>
         <location filename="../../searchbar.cpp" line="120"/>
         <source>Search with regex...</source>
-        <translation type="unfinished"></translation>
+        <translation>Cerca con regex…</translation>
     </message>
     <message>
         <location filename="../../searchbar.cpp" line="64"/>
