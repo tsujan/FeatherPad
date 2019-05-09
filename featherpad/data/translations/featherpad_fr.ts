@@ -1372,12 +1372,14 @@ Certains environnnements de bureau, comme KDE et LXQt, disposent de leurs propre
         <source>By default, a triple period is replaced with an ellipsis
 and a double hyphen with a long dash while typing,
 under proper circumstances.</source>
-        <translation type="unfinished"></translation>
+        <translation>Par défaut, trois points sont remplacés par des points de suspension
+et les traits d&apos;union doubles par un tiret long lors de l&apos;écriture,
+dans les cas appropriés.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="496"/>
         <source>Replace triple periods and double hyphens while typing</source>
-        <translation type="unfinished"></translation>
+        <translation>Remplacer trois points et traits d&apos;union doubles en cours d&apos;écriture</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="566"/>
@@ -1867,12 +1869,12 @@ de fin de ligne d&apos;un fichier texte.</translation>
     <message>
         <location filename="../../searchbar.cpp" line="88"/>
         <source>Regular Expression</source>
-        <translation type="unfinished"></translation>
+        <translation>Expression régulière</translation>
     </message>
     <message>
         <location filename="../../searchbar.cpp" line="120"/>
         <source>Search with regex...</source>
-        <translation type="unfinished"></translation>
+        <translation>Rechercher avec regex...</translation>
     </message>
     <message>
         <location filename="../../searchbar.cpp" line="64"/>
