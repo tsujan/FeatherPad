@@ -6,7 +6,7 @@
     <message>
         <location filename="../../about.ui" line="139"/>
         <source>License</source>
-        <translation></translation>
+        <translation>Licencia</translation>
     </message>
 </context>
 <context>
@@ -23,7 +23,7 @@
         <location filename="../../fpwin.cpp" line="3131"/>
         <location filename="../../fpwin.cpp" line="3808"/>
         <source>Untitled</source>
-        <translation></translation>
+        <translation>Bez mena</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="71"/>
@@ -39,7 +39,7 @@
     <message>
         <location filename="../../fp.ui" line="111"/>
         <source>Select Text</source>
-        <translation></translation>
+        <translation>Vybrať text</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="114"/>
@@ -55,7 +55,7 @@
         <location filename="../../fp.ui" line="188"/>
         <location filename="../../fp.ui" line="973"/>
         <source>&amp;Edit</source>
-        <translation></translation>
+        <translation>&amp;Upraviť</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="212"/>
@@ -67,12 +67,12 @@
         <location filename="../../fpwin.cpp" line="2533"/>
         <location filename="../../fpwin.cpp" line="3648"/>
         <source>Encoding</source>
-        <translation></translation>
+        <translation>Kódovanie</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="275"/>
         <source>&amp;Search</source>
-        <translation></translation>
+        <translation>&amp;Hľadať</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="283"/>
@@ -83,22 +83,22 @@
     <message>
         <location filename="../../fp.ui" line="383"/>
         <source>Find:</source>
-        <translation></translation>
+        <translation>Nájsť:</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="399"/>
         <source>To be replaced</source>
-        <translation></translation>
+        <translation>K nahradeniu</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="412"/>
         <source>Replace with:</source>
-        <translation></translation>
+        <translation>Nahradiť s:</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="428"/>
         <source>Replacing text</source>
-        <translation></translation>
+        <translation>Nahradiť text</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="487"/>
@@ -133,7 +133,7 @@
     <message>
         <location filename="../../fp.ui" line="512"/>
         <source>&amp;Save</source>
-        <translation></translation>
+        <translation>&amp;Uložiť</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="515"/>
@@ -148,12 +148,12 @@
     <message>
         <location filename="../../fp.ui" line="526"/>
         <source>&amp;Undo</source>
-        <translation></translation>
+        <translation>&amp;Späť</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="529"/>
         <source>Undo</source>
-        <translation></translation>
+        <translation>Späť</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="532"/>
@@ -163,12 +163,12 @@
     <message>
         <location filename="../../fp.ui" line="540"/>
         <source>&amp;Redo</source>
-        <translation></translation>
+        <translation>&amp;Opakovať</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="543"/>
         <source>Redo</source>
-        <translation></translation>
+        <translation>Opakovať</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="546"/>
@@ -179,7 +179,7 @@
         <location filename="../../fp.ui" line="554"/>
         <location filename="../../fp.ui" line="557"/>
         <source>Reload</source>
-        <translation></translation>
+        <translation>Znovu načítať</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="560"/>
@@ -189,7 +189,7 @@
     <message>
         <location filename="../../fp.ui" line="565"/>
         <source>&amp;Find</source>
-        <translation></translation>
+        <translation>&amp;Nájsť</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="571"/>
@@ -209,7 +209,7 @@
     <message>
         <location filename="../../fp.ui" line="587"/>
         <source>Save &amp;As</source>
-        <translation></translation>
+        <translation>&amp;Uložiť ako</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="590"/>
@@ -219,7 +219,7 @@
     <message>
         <location filename="../../fp.ui" line="595"/>
         <source>&amp;Print</source>
-        <translation></translation>
+        <translation>&amp;Vytlačiť</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="598"/>
@@ -229,7 +229,7 @@
     <message>
         <location filename="../../fp.ui" line="603"/>
         <source>Documen&amp;t Properties</source>
-        <translation></translation>
+        <translation>&amp;Vlastnosti dokumentu</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="606"/>
@@ -239,7 +239,7 @@
     <message>
         <location filename="../../fp.ui" line="611"/>
         <source>&amp;Close</source>
-        <translation></translation>
+        <translation>&amp;Zatvoriť</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="614"/>
@@ -249,7 +249,7 @@
     <message>
         <location filename="../../fp.ui" line="619"/>
         <source>&amp;Quit</source>
-        <translation></translation>
+        <translation>&amp;Ukončiť</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="622"/>
@@ -259,7 +259,7 @@
     <message>
         <location filename="../../fp.ui" line="630"/>
         <source>&amp;Cut</source>
-        <translation></translation>
+        <translation>&amp;Vystrihnúť</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="633"/>
@@ -269,7 +269,7 @@
     <message>
         <location filename="../../fp.ui" line="641"/>
         <source>C&amp;opy</source>
-        <translation></translation>
+        <translation>&amp;Kopírovať</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="644"/>
@@ -279,7 +279,7 @@
     <message>
         <location filename="../../fp.ui" line="649"/>
         <source>&amp;Paste</source>
-        <translation></translation>
+        <translation>&amp;Prilepiť</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="652"/>
@@ -294,7 +294,7 @@
     <message>
         <location filename="../../fp.ui" line="665"/>
         <source>&amp;Select All</source>
-        <translation></translation>
+        <translation>&amp;Vybrať všetko</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="668"/>
@@ -309,7 +309,7 @@
     <message>
         <location filename="../../fp.ui" line="681"/>
         <source>&amp;Line Numbers</source>
-        <translation></translation>
+        <translation>&amp;Číslo riadku</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="684"/>
@@ -349,7 +349,7 @@
     <message>
         <location filename="../../fp.ui" line="731"/>
         <source>&amp;Preferences</source>
-        <translation></translation>
+        <translation>&amp;Nastavenia</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="734"/>
@@ -364,7 +364,7 @@
     <message>
         <location filename="../../fp.ui" line="747"/>
         <source>&amp;About</source>
-        <translation></translation>
+        <translation>&amp;O programe</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="774"/>
@@ -374,12 +374,12 @@
     <message>
         <location filename="../../fp.ui" line="957"/>
         <source>Save with &amp;Encoding</source>
-        <translation></translation>
+        <translation>&amp;Uložiť s kódovaním</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="962"/>
         <source>&amp;Jump to</source>
-        <translation></translation>
+        <translation>&amp;Preskočiť na</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="965"/>
@@ -394,7 +394,7 @@
     <message>
         <location filename="../../fp.ui" line="976"/>
         <source>Edit text</source>
-        <translation></translation>
+        <translation>Upraviť text</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="979"/>
@@ -404,7 +404,7 @@
     <message>
         <location filename="../../fp.ui" line="1082"/>
         <source>&amp;Run</source>
-        <translation></translation>
+        <translation>&amp;Spustiť</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1088"/>
@@ -414,22 +414,22 @@
     <message>
         <location filename="../../fp.ui" line="1093"/>
         <source>&amp;Clear</source>
-        <translation></translation>
+        <translation>&amp;Vyčistiť</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1096"/>
         <source>Clear the list of recently modified files</source>
-        <translation></translation>
+        <translation>Vymazať zoznam nedávno upravených súborov</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1101"/>
         <source>Save/Restore Session</source>
-        <translation></translation>
+        <translation>Uložiť/obnoviť sedenie</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1104"/>
         <source>Sa&amp;ve/Restore Session</source>
-        <translation></translation>
+        <translation>&amp;Uložiť/obnoviť sedenie</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1107"/>
@@ -439,7 +439,7 @@
     <message>
         <location filename="../../fp.ui" line="1112"/>
         <source>Side-Pane</source>
-        <translation></translation>
+        <translation>Bočný panel</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1115"/>
@@ -449,7 +449,7 @@
     <message>
         <location filename="../../fp.ui" line="1120"/>
         <source>Paste Date and Time</source>
-        <translation></translation>
+        <translation>Vložiť dátum a čas</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1123"/>
@@ -460,7 +460,7 @@
         <location filename="../../fp.ui" line="1128"/>
         <location filename="../../fp.ui" line="1131"/>
         <source>To Upper Case</source>
-        <translation></translation>
+        <translation>Veľkými písmenami</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1134"/>
@@ -471,7 +471,7 @@
         <location filename="../../fp.ui" line="1139"/>
         <location filename="../../fp.ui" line="1142"/>
         <source>To Lower Case</source>
-        <translation></translation>
+        <translation>Malými písmenami</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1145"/>
@@ -493,7 +493,7 @@
         <location filename="../../fp.ui" line="1164"/>
         <location filename="../../fp.ui" line="1167"/>
         <source>Sort Lines</source>
-        <translation></translation>
+        <translation>Triediť riadky</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1172"/>
@@ -519,7 +519,7 @@
     <message>
         <location filename="../../fp.ui" line="1008"/>
         <source>Close &amp;Previous Tabs</source>
-        <translation></translation>
+        <translation>Zatvoriť kartu vľavo</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1036"/>
@@ -529,12 +529,12 @@
     <message>
         <location filename="../../fp.ui" line="1047"/>
         <source>Previous Ta&amp;b</source>
-        <translation></translation>
+        <translation>&amp;Predošlá karta</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1085"/>
         <source>Execute</source>
-        <translation></translation>
+        <translation>Vykonať</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1013"/>
@@ -544,12 +544,12 @@
     <message>
         <location filename="../../fp.ui" line="153"/>
         <source>Recently &amp;Modified</source>
-        <translation></translation>
+        <translation>&amp;Nedávno upravené</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="216"/>
         <source>&amp;Encoding</source>
-        <translation></translation>
+        <translation>&amp;Kódovanie</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="220"/>
@@ -569,7 +569,7 @@
     <message>
         <location filename="../../fp.ui" line="243"/>
         <source>Ea&amp;st Asian</source>
-        <translation></translation>
+        <translation>&amp;Východná Ázia</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="335"/>
@@ -577,17 +577,17 @@
         <location filename="../../replace.cpp" line="62"/>
         <location filename="../../replace.cpp" line="115"/>
         <source>Rep&amp;lacement</source>
-        <translation></translation>
+        <translation>&amp;Nahradiť</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="568"/>
         <source>Focus/hide search bar</source>
-        <translation></translation>
+        <translation>Zobraziť/skryť panel vyhľadávania</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="576"/>
         <source>&amp;Replace</source>
-        <translation></translation>
+        <translation>&amp;Nahradiť</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="758"/>
@@ -647,27 +647,27 @@
     <message>
         <location filename="../../fp.ui" line="884"/>
         <source>&amp;Japanese (ISO-2022-JP)</source>
-        <translation></translation>
+        <translation>&amp;Japonské (ISO-2022-JP)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="895"/>
         <source>Japanese (&amp;ISO-2022-JP-2)</source>
-        <translation></translation>
+        <translation>Japonské (&amp;ISO-2022-JP-2)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="906"/>
         <source>Japanese (ISO-&amp;2022-KR)</source>
-        <translation></translation>
+        <translation>Japonské (ISO-&amp;2022-KR)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="917"/>
         <source>Ja&amp;panese (CP932)</source>
-        <translation></translation>
+        <translation>&amp;Japonské (CP932)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="928"/>
         <source>Japa&amp;nese (EUC-JP)</source>
-        <translation></translation>
+        <translation>&amp;Japonské (EUC-JP)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="936"/>
@@ -677,12 +677,12 @@
     <message>
         <location filename="../../fp.ui" line="944"/>
         <source>K&amp;orean (CP1361)</source>
-        <translation></translation>
+        <translation>&amp;Kórejské (CP1361)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="952"/>
         <source>Korean (&amp;EUC-KR)</source>
-        <translation></translation>
+        <translation>Kórejské (&amp;EUC-KR)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="998"/>
@@ -697,7 +697,7 @@
     <message>
         <location filename="../../fp.ui" line="1023"/>
         <source>&amp;Copy File Name</source>
-        <translation></translation>
+        <translation>&amp;Kopírovať názov súboru</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1028"/>
@@ -749,38 +749,38 @@
         <location filename="../../fpwin.cpp" line="110"/>
         <location filename="../../fpwin.cpp" line="555"/>
         <source>Next</source>
-        <translation></translation>
+        <translation>Ďalší</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="111"/>
         <location filename="../../fpwin.cpp" line="556"/>
         <source>Previous</source>
-        <translation></translation>
+        <translation>Predošlý</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="112"/>
         <source>Replace all</source>
-        <translation></translation>
+        <translation>Nahradiť všetko</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="536"/>
         <source>&amp;Recently Opened</source>
-        <translation></translation>
+        <translation>&amp;Nedávno otvorené</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="557"/>
         <source>All</source>
-        <translation></translation>
+        <translation>Všetko</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1681"/>
         <source>Close</source>
-        <translation></translation>
+        <translation>Zatvoriť</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1158"/>
         <source>Save changes?</source>
-        <translation></translation>
+        <translation>Uložiť zmeny?</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="868"/>
@@ -790,34 +790,34 @@
     <message>
         <location filename="../../fpwin.cpp" line="1162"/>
         <source>The document has been modified.</source>
-        <translation></translation>
+        <translation>Dokument bol upravený.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1172"/>
         <source>Save</source>
-        <translation></translation>
+        <translation>Uložiť</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1173"/>
         <source>Discard changes</source>
-        <translation></translation>
+        <translation>Zahodiť zmeny</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1174"/>
         <location filename="../../fpwin.cpp" line="2781"/>
         <source>Cancel</source>
-        <translation></translation>
+        <translation>Prerušiť</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1176"/>
         <source>No to all</source>
-        <translation></translation>
+        <translation>Nie všetkým</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1367"/>
         <location filename="../../fpwin.cpp" line="1424"/>
         <source>Unsaved</source>
-        <translation></translation>
+        <translation>Neuložené</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1386"/>
@@ -830,21 +830,21 @@
         <location filename="../../fpwin.cpp" line="4719"/>
         <location filename="../../fpwin.cpp" line="4726"/>
         <source>Lines</source>
-        <translation></translation>
+        <translation>Riadky</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1387"/>
         <location filename="../../fpwin.cpp" line="3653"/>
         <location filename="../../fpwin.cpp" line="3667"/>
         <source>Sel. Chars</source>
-        <translation></translation>
+        <translation>Vybraté znaky</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1388"/>
         <location filename="../../fpwin.cpp" line="3655"/>
         <location filename="../../fpwin.cpp" line="3668"/>
         <source>Words</source>
-        <translation></translation>
+        <translation>Slová</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1584"/>
@@ -878,7 +878,7 @@
         <location filename="../../fpwin.cpp" line="1160"/>
         <location filename="../../fpwin.cpp" line="2310"/>
         <source>The file does not exist.</source>
-        <translation></translation>
+        <translation>Súbor neexistuje.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1585"/>
@@ -893,7 +893,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="1684"/>
         <source>Clear</source>
-        <translation></translation>
+        <translation>Vyčistiť</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2277"/>
@@ -903,27 +903,27 @@
     <message>
         <location filename="../../fpwin.cpp" line="2285"/>
         <source>Some file(s) could not be opened!</source>
-        <translation></translation>
+        <translation>Niektoré súbory sa nedá otvoriť!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2286"/>
         <source>You may not have the permission to read.</source>
-        <translation></translation>
+        <translation>Pravdepodobne chýba povolenie k čítaniu.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2296"/>
         <source>Uneditable file(s)!</source>
-        <translation></translation>
+        <translation>Súbro nemôže byť upravovaný!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2297"/>
         <source>Non-text files or files with huge lines cannot be edited.</source>
-        <translation></translation>
+        <translation>Nie je možné upravovať súbor, dlhé riadky nemôžu byť upravované.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2354"/>
         <source>A previous crash detected!</source>
-        <translation></translation>
+        <translation>Bolo zistené predošlé zlyhanie!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2355"/>
@@ -933,19 +933,19 @@
     <message>
         <location filename="../../fpwin.cpp" line="2362"/>
         <source>Root Instance</source>
-        <translation></translation>
+        <translation>Inštancia Root</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2433"/>
         <location filename="../../fpwin.cpp" line="2590"/>
         <location filename="../../fpwin.cpp" line="2617"/>
         <source>All Files (*)</source>
-        <translation></translation>
+        <translation>Všetky súbory (*)</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2438"/>
         <source>All Files (*);;.%1 Files (*.%1)</source>
-        <translation></translation>
+        <translation>Všetky súbory (*);;.%1 Súbory  (*.%1)</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2442"/>
@@ -955,13 +955,13 @@
     <message>
         <location filename="../../fpwin.cpp" line="2595"/>
         <source>.%1 Files (*.%1);;All Files (*)</source>
-        <translation></translation>
+        <translation>.%1 Súbory (*.%1);;Všetky súbory (*)</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2642"/>
         <location filename="../../fpwin.cpp" line="2674"/>
         <source>Save as...</source>
-        <translation></translation>
+        <translation>Uložiť ako...</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2704"/>
@@ -971,7 +971,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="2779"/>
         <source>Yes</source>
-        <translation></translation>
+        <translation>Áno</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2780"/>
@@ -991,7 +991,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="2925"/>
         <source>Cannot be saved!</source>
-        <translation></translation>
+        <translation>Nedá sa uložiť!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="387"/>
@@ -1014,7 +1014,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="2276"/>
         <source>Huge file(s) not opened!</source>
-        <translation></translation>
+        <translation>Neotvorené veľké súbory!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3141"/>
@@ -1031,7 +1031,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="3819"/>
         <source>Print Document</source>
-        <translation></translation>
+        <translation>Vytlačiť dokument</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4404"/>
@@ -1054,7 +1054,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="4782"/>
         <source>Translators</source>
-        <translation></translation>
+        <translation>Prekladatelia</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4778"/>
@@ -1064,7 +1064,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="4779"/>
         <source>based on Qt5</source>
-        <translation></translation>
+        <translation>Založené na Qt5</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4780"/>
@@ -1080,17 +1080,17 @@
         <location filename="../../fpwin.cpp" line="4782"/>
         <location filename="../../fpwin.cpp" line="4783"/>
         <source>About FeatherPad</source>
-        <translation></translation>
+        <translation>O  FeatherPad</translation>
     </message>
     <message>
         <location filename="../../replace.cpp" line="241"/>
         <source>No Replacement</source>
-        <translation></translation>
+        <translation>Žiadna náhrada</translation>
     </message>
     <message>
         <location filename="../../replace.cpp" line="243"/>
         <source>One Replacement</source>
-        <translation></translation>
+        <translation>Jedno nahradenie</translation>
     </message>
     <message numerus="yes">
         <location filename="../../replace.cpp" line="245"/>
