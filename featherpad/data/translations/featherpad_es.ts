@@ -505,7 +505,7 @@
     <message>
         <location filename="../../fp.ui" line="1182"/>
         <source>Check Spelling</source>
-        <translation type="unfinished"></translation>
+        <translation>Revisar ortografía</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1185"/>
@@ -871,7 +871,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="873"/>
         <source>Another FeatherPad window has a modal dialog!</source>
-        <translation>¡Otra ventana de FeatherPad tiene un diálodo modal!</translation>
+        <translation>¡Otra ventana de FeatherPad tiene un diálogo modal!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="758"/>
@@ -1076,43 +1076,43 @@
     <message>
         <location filename="../../fpwin.cpp" line="4721"/>
         <source>You need to add a Hunspell dictionary.</source>
-        <translation type="unfinished"></translation>
+        <translation>Necesitas añadir un diccionario en formato Hunspell.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4722"/>
         <location filename="../../fpwin.cpp" line="4728"/>
         <location filename="../../fpwin.cpp" line="4737"/>
         <source>See Preferences → Text → Spell Checking!</source>
-        <translation type="unfinished"></translation>
+        <translation>¡Seleccione: Preferencias → Texto → Revisión Ortográfica!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4727"/>
         <source>The Hunspell dictionary does not exist.</source>
-        <translation type="unfinished"></translation>
+        <translation>El diccionario en formato Hunspell no existe.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4736"/>
         <source>The Hunspell dictionary is not accompanied by an affix file.</source>
-        <translation type="unfinished"></translation>
+        <translation>El diccionario en formato Hunspell no está acompañado de un archivo affix.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4758"/>
         <location filename="../../fpwin.cpp" line="4776"/>
         <location filename="../../fpwin.cpp" line="4791"/>
         <source>No misspelling in document.</source>
-        <translation type="unfinished"></translation>
+        <translation>No se encontraron errores de ortografía en este documento.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4760"/>
         <location filename="../../fpwin.cpp" line="4778"/>
         <location filename="../../fpwin.cpp" line="4793"/>
         <source>No misspelling from text cursor.</source>
-        <translation type="unfinished"></translation>
+        <translation>No se encontraron errores de ortografía donde está el cursor de texto.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4805"/>
         <source>Spell Checking</source>
-        <translation type="unfinished"></translation>
+        <translation>Revisión Ortográfica</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5150"/>
@@ -1431,12 +1431,14 @@ Algunos entornos de escritorio, como KDE y LXQt, ofrecen díalogos de archivos.<
         <source>By default, a triple period is replaced with an ellipsis
 and a double hyphen with a long dash while typing,
 under proper circumstances.</source>
-        <translation type="unfinished"></translation>
+        <translation>Por defecto se reemplazarán, Tres puntos continuos por una elipsis
+y dos guiones continuos por un guión largo, se realizará mientras se
+escribe y solo bajo las circunstancias apropiadas.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="512"/>
         <source>Replace triple periods and double hyphens while typing</source>
-        <translation type="unfinished"></translation>
+        <translation>Reemplazar los tres puntos seguidos y dos guiones seguidos mientras se escribe</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="582"/>
@@ -1779,7 +1781,7 @@ si el cursor está dentro del área de texto?</translation>
     <message>
         <location filename="../../predDialog.ui" line="887"/>
         <source>Spell Checking</source>
-        <translation type="unfinished"></translation>
+        <translation>Correción Ortográfica</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="895"/>
@@ -1787,29 +1789,32 @@ si el cursor está dentro del área de texto?</translation>
         <source>A Hunspell dictionary has a name that ends with &quot;.dic&quot;
 and should be alongside an affix file with the same
 name but ending with &quot;.aff&quot;.</source>
-        <translation type="unfinished"></translation>
+        <translation>El nombre de un diccionario en formato Hunspell debe terminar con &quot;.dic&quot;
+y debe estar acompañado de un archivo en formato affix con el mismo
+nombre pero terminando en &quot;.aff&quot;.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="900"/>
         <source>Hunspell dictionary path:</source>
-        <translation type="unfinished"></translation>
+        <translation>Ruta del diccionario en formato Hunspell:</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="919"/>
         <location filename="../../pref.cpp" line="1484"/>
         <source>Add dictionary...</source>
-        <translation type="unfinished"></translation>
+        <translation>Agregar un diccionario...</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="931"/>
         <source>If this is unchecked, spell checking
 will be started from the document start.</source>
-        <translation type="unfinished"></translation>
+        <translation>Si esta opción no está marcada, el corrector
+ortográfico se iniciará desde el inicio del documento.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="935"/>
         <source>Start spell checking from text cursor</source>
-        <translation type="unfinished"></translation>
+        <translation>Iniciar la corrección ortográfica desde el cursor</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="990"/>
@@ -1819,13 +1824,13 @@ will be started from the document start.</source>
     <message>
         <location filename="../../predDialog.ui" line="1089"/>
         <source>Only if their number is not greater than 50.</source>
-        <translation>Solo si su número no es mayor que 50.</translation>
+        <translation>Sólo si su número no es superior a 50.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="1176"/>
         <location filename="../../predDialog.ui" line="1186"/>
         <source>Only for files that exist and can be saved.</source>
-        <translation>Solo para archivos existentes y que pueden guardarse.</translation>
+        <translation>Solo para archivos existentes y que pueden ser guardados.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="1189"/>
@@ -1943,7 +1948,7 @@ los espacios finales de un archivo de texto.</translation>
     <message>
         <location filename="../../pref.cpp" line="1486"/>
         <source>Hunspell Dictionary Files (*.dic)</source>
-        <translation type="unfinished"></translation>
+        <translation>Archivos de diccionario en formato Hunspell (*.dic)</translation>
     </message>
 </context>
 <context>
@@ -1967,12 +1972,12 @@ los espacios finales de un archivo de texto.</translation>
     <message>
         <location filename="../../searchbar.cpp" line="88"/>
         <source>Regular Expression</source>
-        <translation type="unfinished"></translation>
+        <translation>Expresión regular</translation>
     </message>
     <message>
         <location filename="../../searchbar.cpp" line="120"/>
         <source>Search with regex...</source>
-        <translation type="unfinished"></translation>
+        <translation>Buscar con expresiones regulares...</translation>
     </message>
     <message>
         <location filename="../../searchbar.cpp" line="64"/>
@@ -2145,37 +2150,37 @@ las ventanas serán incluidos en la sesión guardada.</translation>
     <message>
         <location filename="../../spellDialog.ui" line="25"/>
         <source>Unknown word:</source>
-        <translation type="unfinished"></translation>
+        <translation>Palabra desconocida:</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="51"/>
         <source>Add To Dictionary</source>
-        <translation type="unfinished"></translation>
+        <translation>Agregar al diccionario</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="62"/>
         <source>Replace with:</source>
-        <translation type="unfinished">Sustituir con:</translation>
+        <translation>Sustituir por:</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="129"/>
         <source>Correct Once</source>
-        <translation type="unfinished"></translation>
+        <translation>Corregir una</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="142"/>
         <source>Correct All</source>
-        <translation type="unfinished"></translation>
+        <translation>Corregir todas</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="87"/>
         <source>Ignore Once</source>
-        <translation type="unfinished"></translation>
+        <translation>Ignorar una</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="100"/>
         <source>Ignore All</source>
-        <translation type="unfinished"></translation>
+        <translation>Ignorar todas</translation>
     </message>
 </context>
 <context>
