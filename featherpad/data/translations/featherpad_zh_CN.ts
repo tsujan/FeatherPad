@@ -6,7 +6,7 @@
     <message>
         <location filename="../../about.ui" line="141"/>
         <source>License</source>
-        <translation type="unfinished"></translation>
+        <translation>许可证</translation>
     </message>
 </context>
 <context>
@@ -461,7 +461,7 @@
         <location filename="../../fp.ui" line="1130"/>
         <location filename="../../fp.ui" line="1133"/>
         <source>To Upper Case</source>
-        <translation type="unfinished"></translation>
+        <translation>转换为大写</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1136"/>
@@ -472,7 +472,7 @@
         <location filename="../../fp.ui" line="1141"/>
         <location filename="../../fp.ui" line="1144"/>
         <source>To Lower Case</source>
-        <translation type="unfinished"></translation>
+        <translation>转换为小写</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1147"/>
@@ -483,34 +483,34 @@
         <location filename="../../fp.ui" line="1155"/>
         <location filename="../../fp.ui" line="1158"/>
         <source>Last Active Tab</source>
-        <translation type="unfinished"></translation>
+        <translation>最后激活的标签页</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1161"/>
         <source>F1</source>
-        <translation type="unfinished"></translation>
+        <translation>F1</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1166"/>
         <location filename="../../fp.ui" line="1169"/>
         <source>Sort Lines</source>
-        <translation type="unfinished"></translation>
+        <translation>行排序</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1174"/>
         <location filename="../../fp.ui" line="1177"/>
         <source>Sort Lines Reversely</source>
-        <translation type="unfinished"></translation>
+        <translation>反向排序</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1182"/>
         <source>Check Spelling</source>
-        <translation type="unfinished"></translation>
+        <translation>拼写检查</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1185"/>
         <source>F2</source>
-        <translation type="unfinished"></translation>
+        <translation>F2</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="989"/>
@@ -890,7 +890,7 @@
         <location filename="../../fpwin.cpp" line="1166"/>
         <location filename="../../fpwin.cpp" line="2405"/>
         <source>The file does not exist.</source>
-        <translation type="unfinished"></translation>
+        <translation>该文件不存在。</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1504"/>
@@ -955,7 +955,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="2457"/>
         <source>Root Instance</source>
-        <translation type="unfinished"></translation>
+        <translation>根实例</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2528"/>
@@ -1059,7 +1059,7 @@
         <location filename="../../fpwin.cpp" line="4503"/>
         <location filename="../../fpwin.cpp" line="4571"/>
         <source>%1 Pages</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 页</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4529"/>
@@ -1076,48 +1076,48 @@
     <message>
         <location filename="../../fpwin.cpp" line="4721"/>
         <source>You need to add a Hunspell dictionary.</source>
-        <translation type="unfinished"></translation>
+        <translation>你需要添加一个Hunspell字典。</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4722"/>
         <location filename="../../fpwin.cpp" line="4728"/>
         <location filename="../../fpwin.cpp" line="4737"/>
         <source>See Preferences → Text → Spell Checking!</source>
-        <translation type="unfinished"></translation>
+        <translation>请参阅首选项→文本→拼写检查！</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4727"/>
         <source>The Hunspell dictionary does not exist.</source>
-        <translation type="unfinished"></translation>
+        <translation>Hunspell字典不存在。</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4736"/>
         <source>The Hunspell dictionary is not accompanied by an affix file.</source>
-        <translation type="unfinished"></translation>
+        <translation>Hunspell字典没有附带词缀文件。</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4758"/>
         <location filename="../../fpwin.cpp" line="4776"/>
         <location filename="../../fpwin.cpp" line="4791"/>
         <source>No misspelling in document.</source>
-        <translation type="unfinished"></translation>
+        <translation>文档中没有拼写错误。</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4760"/>
         <location filename="../../fpwin.cpp" line="4778"/>
         <location filename="../../fpwin.cpp" line="4793"/>
         <source>No misspelling from text cursor.</source>
-        <translation type="unfinished"></translation>
+        <translation>文本光标没有拼写错误。</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4805"/>
         <source>Spell Checking</source>
-        <translation type="unfinished"></translation>
+        <translation>拼写检查</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5150"/>
         <source>Translators</source>
-        <translation type="unfinished"></translation>
+        <translation>转换器</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5146"/>
@@ -1165,7 +1165,7 @@
     <message>
         <location filename="../../syntax.cpp" line="262"/>
         <source>The size limit for syntax highlighting is exceeded.</source>
-        <translation type="unfinished"></translation>
+        <translation>超出了语法突出显示的大小限制。</translation>
     </message>
 </context>
 <context>
@@ -1241,12 +1241,13 @@
         <location filename="../../predDialog.ui" line="148"/>
         <source>Enforcing a window position is not recommended
 and may not work with some window managers.</source>
-        <translation type="unfinished"></translation>
+        <translation>不建议强制执行窗口位置
+可能无法与某些窗口管理器一起使用。</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="152"/>
         <source>Remember window &amp;position on closing</source>
-        <translation type="unfinished"></translation>
+        <translation>记住关闭时的窗口和位置</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="159"/>
@@ -1362,7 +1363,7 @@ Tab navigation with mouse wheel is not affected.</source>
     <message>
         <location filename="../../predDialog.ui" line="370"/>
         <source>Close window on closing its last tab</source>
-        <translation type="unfinished"></translation>
+        <translation>关闭其最后一个选项卡时关闭窗口</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="377"/>
@@ -1420,12 +1421,14 @@ Qt 的文件对话框。
         <source>By default, a triple period is replaced with an ellipsis
 and a double hyphen with a long dash while typing,
 under proper circumstances.</source>
-        <translation type="unfinished"></translation>
+        <translation>默认设置下，triple period将替换为省略号
+和带长划线的双连字符，
+在适当的情况下。</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="512"/>
         <source>Replace triple periods and double hyphens while typing</source>
-        <translation type="unfinished"></translation>
+        <translation>键入时替换三重句点和双连字符</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="582"/>
@@ -1510,7 +1513,7 @@ whose last line is not empty.</source>
     <message>
         <location filename="../../predDialog.ui" line="1092"/>
         <source>Start with files of last window</source>
-        <translation type="unfinished"></translation>
+        <translation>从最后一个窗口的文件开始</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="1134"/>
@@ -1592,7 +1595,7 @@ and-drop either.</source>
     <message>
         <location filename="../../predDialog.ui" line="363"/>
         <source>&amp;Do not show a single tab</source>
-        <translation>不显示单个标签(&amp;D)</translation>
+        <translation>&amp;不显示单个标签</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="428"/>
@@ -1722,17 +1725,17 @@ MMM dd, yyyy, hh:mm:ss</source>
     <message>
         <location filename="../../predDialog.ui" line="799"/>
         <source>Text tab size:</source>
-        <translation type="unfinished"></translation>
+        <translation>文本选项卡大小</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="806"/>
         <source> spaces</source>
-        <translation type="unfinished"></translation>
+        <translation> 空格</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="858"/>
         <source>Thick text cursor</source>
-        <translation type="unfinished"></translation>
+        <translation>文本光标</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="865"/>
@@ -1743,7 +1746,7 @@ if the cursor is inside the text view?</source>
     <message>
         <location filename="../../predDialog.ui" line="887"/>
         <source>Spell Checking</source>
-        <translation type="unfinished"></translation>
+        <translation>拼写检查</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="895"/>
@@ -1751,29 +1754,32 @@ if the cursor is inside the text view?</source>
         <source>A Hunspell dictionary has a name that ends with &quot;.dic&quot;
 and should be alongside an affix file with the same
 name but ending with &quot;.aff&quot;.</source>
-        <translation type="unfinished"></translation>
+        <translation>Hunspell字典的名称以“.dic”结尾
+并且应该与具有相同的词缀文件一起
+名称，但以“.aff”结尾。</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="900"/>
         <source>Hunspell dictionary path:</source>
-        <translation type="unfinished"></translation>
+        <translation>Hunspell字典路径：</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="919"/>
         <location filename="../../pref.cpp" line="1484"/>
         <source>Add dictionary...</source>
-        <translation type="unfinished"></translation>
+        <translation>添加词典......</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="931"/>
         <source>If this is unchecked, spell checking
 will be started from the document start.</source>
-        <translation type="unfinished"></translation>
+        <translation>如果未选中，则拼写检查
+将从文件开始启动。</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="935"/>
         <source>Start spell checking from text cursor</source>
-        <translation type="unfinished"></translation>
+        <translation>从文本光标开始拼写检查</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="990"/>
@@ -1783,7 +1789,7 @@ will be started from the document start.</source>
     <message>
         <location filename="../../predDialog.ui" line="1089"/>
         <source>Only if their number is not greater than 50.</source>
-        <translation type="unfinished"></translation>
+        <translation>除非数量不超过50。</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="1176"/>
@@ -1804,22 +1810,27 @@ be used also when the opened file is not modified.
 This can be useful under certain circumstances,
 e.g. for changing the time stamp or removing the
 trailing spaces of a text file.</source>
-        <translation type="unfinished"></translation>
+        <translation>如果选中此选项，Save按钮/菜单项可以
+在打开的文件未被修改时使用。
+
+这在某些情况下是有用的，
+例如更改时间戳或移除
+文本文件的尾随空格。</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="1228"/>
         <source>Allow saving unmodified files</source>
-        <translation type="unfinished"></translation>
+        <translation>允许保存未修改的文件</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="1235"/>
         <source>Show a warning instead.</source>
-        <translation type="unfinished"></translation>
+        <translation>改为显示一个警告。</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="1238"/>
         <source>Do not permit opening of non-text files</source>
-        <translation type="unfinished"></translation>
+        <translation>不允许打开非文本文件</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="1265"/>
@@ -1902,7 +1913,7 @@ trailing spaces of a text file.</source>
     <message>
         <location filename="../../pref.cpp" line="1486"/>
         <source>Hunspell Dictionary Files (*.dic)</source>
-        <translation type="unfinished"></translation>
+        <translation>Hunspell字典文件（* .dic）</translation>
     </message>
 </context>
 <context>
@@ -1926,12 +1937,12 @@ trailing spaces of a text file.</source>
     <message>
         <location filename="../../searchbar.cpp" line="88"/>
         <source>Regular Expression</source>
-        <translation type="unfinished"></translation>
+        <translation>正则表达式</translation>
     </message>
     <message>
         <location filename="../../searchbar.cpp" line="120"/>
         <source>Search with regex...</source>
-        <translation type="unfinished"></translation>
+        <translation>用正则表达式搜索...</translation>
     </message>
     <message>
         <location filename="../../searchbar.cpp" line="64"/>
@@ -2104,12 +2115,12 @@ windows will be included in the saved session.</source>
     <message>
         <location filename="../../spellDialog.ui" line="25"/>
         <source>Unknown word:</source>
-        <translation type="unfinished"></translation>
+        <translation>未知的词:</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="51"/>
         <source>Add To Dictionary</source>
-        <translation type="unfinished"></translation>
+        <translation>添加到词典</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="62"/>
@@ -2119,22 +2130,22 @@ windows will be included in the saved session.</source>
     <message>
         <location filename="../../spellDialog.ui" line="129"/>
         <source>Correct Once</source>
-        <translation type="unfinished"></translation>
+        <translation>纠正一次</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="142"/>
         <source>Correct All</source>
-        <translation type="unfinished"></translation>
+        <translation>纠正一切</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="87"/>
         <source>Ignore Once</source>
-        <translation type="unfinished"></translation>
+        <translation>忽略一次</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="100"/>
         <source>Ignore All</source>
-        <translation type="unfinished"></translation>
+        <translation>全部忽略</translation>
     </message>
 </context>
 <context>
@@ -2142,7 +2153,7 @@ windows will be included in the saved session.</source>
     <message>
         <location filename="../../textedit.cpp" line="138"/>
         <source>Double click to center current line</source>
-        <translation type="unfinished"></translation>
+        <translation>双击以居中当前行</translation>
     </message>
 </context>
 <context>
