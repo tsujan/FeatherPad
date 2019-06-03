@@ -1083,7 +1083,7 @@
         <location filename="../../fpwin.cpp" line="4728"/>
         <location filename="../../fpwin.cpp" line="4737"/>
         <source>See Preferences → Text → Spell Checking!</source>
-        <translation type="unfinished"></translation>
+        <translation>Žiūrėkite Nuostatos → Tekstas → Rašybos tikrinimas!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4727"/>
@@ -1093,26 +1093,26 @@
     <message>
         <location filename="../../fpwin.cpp" line="4736"/>
         <source>The Hunspell dictionary is not accompanied by an affix file.</source>
-        <translation type="unfinished"></translation>
+        <translation>Hunspell žodynas nėra lydimas pridedamo failo.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4758"/>
         <location filename="../../fpwin.cpp" line="4776"/>
         <location filename="../../fpwin.cpp" line="4791"/>
         <source>No misspelling in document.</source>
-        <translation type="unfinished"></translation>
+        <translation>Dokumente nėra rašymo su klaidomis.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4760"/>
         <location filename="../../fpwin.cpp" line="4778"/>
         <location filename="../../fpwin.cpp" line="4793"/>
         <source>No misspelling from text cursor.</source>
-        <translation type="unfinished"></translation>
+        <translation>Pradedant nuo teksto žymeklio nėra rašymo su klaidomis.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4805"/>
         <source>Spell Checking</source>
-        <translation type="unfinished"></translation>
+        <translation>Rašybos tikrinimas</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5150"/>
@@ -1780,7 +1780,7 @@ jei žymeklis yra teksto rodinio viduje?</translation>
     <message>
         <location filename="../../predDialog.ui" line="887"/>
         <source>Spell Checking</source>
-        <translation type="unfinished"></translation>
+        <translation>Rašybos tikrinimas</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="895"/>
@@ -1788,7 +1788,9 @@ jei žymeklis yra teksto rodinio viduje?</translation>
         <source>A Hunspell dictionary has a name that ends with &quot;.dic&quot;
 and should be alongside an affix file with the same
 name but ending with &quot;.aff&quot;.</source>
-        <translation type="unfinished"></translation>
+        <translation>Hunspell žodynas turi pavadinimą su prievardžiu &quot;.dic&quot;
+ir turėtų būti kartu su pridedamu tokio pačio pavadinimo failu,
+tačiau turinčiu &quot;.aff&quot; prievardį.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="900"/>
@@ -1805,12 +1807,13 @@ name but ending with &quot;.aff&quot;.</source>
         <location filename="../../predDialog.ui" line="931"/>
         <source>If this is unchecked, spell checking
 will be started from the document start.</source>
-        <translation type="unfinished"></translation>
+        <translation>Jei čia žymėjimas yra nuimtas, tuomet rašybos tikrinimas
+bus pradedamas nuo dokumento pradžios.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="935"/>
         <source>Start spell checking from text cursor</source>
-        <translation type="unfinished"></translation>
+        <translation>Pradėti rašybos tikrinimą nuo teksto žymeklio</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="990"/>
@@ -2162,12 +2165,12 @@ bus įtraukti į įrašytą seansą.</translation>
     <message>
         <location filename="../../spellDialog.ui" line="129"/>
         <source>Correct Once</source>
-        <translation type="unfinished"></translation>
+        <translation>Ištaisyti vieną kartą</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="142"/>
         <source>Correct All</source>
-        <translation type="unfinished"></translation>
+        <translation>Ištaisyti visus</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="87"/>
