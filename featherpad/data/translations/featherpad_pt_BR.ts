@@ -200,7 +200,7 @@
     <message>
         <location filename="../../fp.ui" line="581"/>
         <source>Show/hide replacement dock</source>
-        <translation>Exibir/ocultar doca de substituição</translation>
+        <translation>Exibir/ocultar painel de substituição</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="584"/>
@@ -505,12 +505,12 @@
     <message>
         <location filename="../../fp.ui" line="1182"/>
         <source>Check Spelling</source>
-        <translation type="unfinished"></translation>
+        <translation>Verificar Ortografia</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1185"/>
         <source>F2</source>
-        <translation type="unfinished"></translation>
+        <translation>F2</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="989"/>
@@ -1076,43 +1076,43 @@
     <message>
         <location filename="../../fpwin.cpp" line="4721"/>
         <source>You need to add a Hunspell dictionary.</source>
-        <translation type="unfinished"></translation>
+        <translation>Você precisa adicionar um dicionário Hunspell.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4722"/>
         <location filename="../../fpwin.cpp" line="4728"/>
         <location filename="../../fpwin.cpp" line="4737"/>
         <source>See Preferences → Text → Spell Checking!</source>
-        <translation type="unfinished"></translation>
+        <translation>Veja Preferências → Texto → Verificação ortográfica!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4727"/>
         <source>The Hunspell dictionary does not exist.</source>
-        <translation type="unfinished"></translation>
+        <translation>O dicionário Hunspell não existe.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4736"/>
         <source>The Hunspell dictionary is not accompanied by an affix file.</source>
-        <translation type="unfinished"></translation>
+        <translation>O dicionário Hunspell não está acompanhado por um arquivo de afixação.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4758"/>
         <location filename="../../fpwin.cpp" line="4776"/>
         <location filename="../../fpwin.cpp" line="4791"/>
         <source>No misspelling in document.</source>
-        <translation type="unfinished"></translation>
+        <translation>Nenhum erro de ortografia no documento.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4760"/>
         <location filename="../../fpwin.cpp" line="4778"/>
         <location filename="../../fpwin.cpp" line="4793"/>
         <source>No misspelling from text cursor.</source>
-        <translation type="unfinished"></translation>
+        <translation>Nenhum erro ortográfico no cursor de texto.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4805"/>
         <source>Spell Checking</source>
-        <translation type="unfinished"></translation>
+        <translation>Verificação ortográfica</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5150"/>
@@ -1778,7 +1778,7 @@ se o cursor estiver dentro da visualização de texto?</translation>
     <message>
         <location filename="../../predDialog.ui" line="887"/>
         <source>Spell Checking</source>
-        <translation type="unfinished"></translation>
+        <translation>Verificação ortográfica</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="895"/>
@@ -1786,29 +1786,32 @@ se o cursor estiver dentro da visualização de texto?</translation>
         <source>A Hunspell dictionary has a name that ends with &quot;.dic&quot;
 and should be alongside an affix file with the same
 name but ending with &quot;.aff&quot;.</source>
-        <translation type="unfinished"></translation>
+        <translation>Um dicionário Hunspell tem um nome que termina com &quot;.dic&quot;
+e deve estar ao lado de um arquivo de afixo com o mesmo
+nome, mas terminando com &quot;.aff&quot;.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="900"/>
         <source>Hunspell dictionary path:</source>
-        <translation type="unfinished"></translation>
+        <translation>Caminho do dicionário Hunspell:</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="919"/>
         <location filename="../../pref.cpp" line="1484"/>
         <source>Add dictionary...</source>
-        <translation type="unfinished"></translation>
+        <translation>Adicionar dicionário...</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="931"/>
         <source>If this is unchecked, spell checking
 will be started from the document start.</source>
-        <translation type="unfinished"></translation>
+        <translation>Se isso estiver desmarcado, a verificação ortográfica
+será iniciado a partir do início do documento.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="935"/>
         <source>Start spell checking from text cursor</source>
-        <translation type="unfinished"></translation>
+        <translation>Iniciar verificação ortográfica a partir do cursor de texto</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="990"/>
@@ -1942,7 +1945,7 @@ espaços à direita de um arquivo de texto.</translation>
     <message>
         <location filename="../../pref.cpp" line="1486"/>
         <source>Hunspell Dictionary Files (*.dic)</source>
-        <translation type="unfinished"></translation>
+        <translation>Arquivos de Dicionário Hunspell  (*.dic)</translation>
     </message>
 </context>
 <context>
@@ -2136,7 +2139,7 @@ as janelas serão incluídos na sessão salva.</translation>
     <message>
         <location filename="../../sidepane.cpp" line="108"/>
         <source>Filter...</source>
-        <translation></translation>
+        <translation>Filtrar...</translation>
     </message>
 </context>
 <context>
@@ -2144,37 +2147,37 @@ as janelas serão incluídos na sessão salva.</translation>
     <message>
         <location filename="../../spellDialog.ui" line="25"/>
         <source>Unknown word:</source>
-        <translation type="unfinished"></translation>
+        <translation>Palavra desconhecida:</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="51"/>
         <source>Add To Dictionary</source>
-        <translation type="unfinished"></translation>
+        <translation>Adicionar ao Dicionário</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="62"/>
         <source>Replace with:</source>
-        <translation type="unfinished">Substituir com:</translation>
+        <translation>Substituir com:</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="129"/>
         <source>Correct Once</source>
-        <translation type="unfinished"></translation>
+        <translation>Corrigir Uma Vez</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="142"/>
         <source>Correct All</source>
-        <translation type="unfinished"></translation>
+        <translation>Corrigir Todos</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="87"/>
         <source>Ignore Once</source>
-        <translation type="unfinished"></translation>
+        <translation>Ignorar Uma Vez</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="100"/>
         <source>Ignore All</source>
-        <translation type="unfinished"></translation>
+        <translation>Ignorar Todos</translation>
     </message>
 </context>
 <context>
