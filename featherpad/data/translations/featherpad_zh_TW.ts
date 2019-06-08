@@ -6,7 +6,7 @@
     <message>
         <location filename="../../about.ui" line="141"/>
         <source>License</source>
-        <translation></translation>
+        <translation>授權條款</translation>
     </message>
 </context>
 <context>
@@ -23,23 +23,24 @@
         <location filename="../../fpwin.cpp" line="3226"/>
         <location filename="../../fpwin.cpp" line="3903"/>
         <source>Untitled</source>
-        <translation></translation>
+        <translation>尚未命名</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="71"/>
         <source>Go to line:</source>
-        <translation></translation>
+        <translation>移動至行：</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="107"/>
         <source>Select text from cursor to this line
 (Ctrl+Shift+J)</source>
-        <translation></translation>
+        <translation>選取游標至此行的所有文字
+(Ctrl+Shift+J)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="111"/>
         <source>Select Text</source>
-        <translation></translation>
+        <translation>選取文字</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="114"/>
@@ -49,61 +50,61 @@
     <message>
         <location filename="../../fp.ui" line="149"/>
         <source>&amp;File</source>
-        <translation></translation>
+        <translation>檔案(&amp;F)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="188"/>
         <location filename="../../fp.ui" line="975"/>
         <source>&amp;Edit</source>
-        <translation></translation>
+        <translation>編輯(&amp;E)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="214"/>
         <source>&amp;Options</source>
-        <translation></translation>
+        <translation>選項(&amp;O)</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1392"/>
         <location filename="../../fpwin.cpp" line="2628"/>
         <location filename="../../fpwin.cpp" line="3743"/>
         <source>Encoding</source>
-        <translation></translation>
+        <translation>字元編碼</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="277"/>
         <source>&amp;Search</source>
-        <translation></translation>
+        <translation>搜尋(&amp;S)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="285"/>
         <location filename="../../fp.ui" line="741"/>
         <source>&amp;Help</source>
-        <translation></translation>
+        <translation>尋求幫助(&amp;H)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="385"/>
         <source>Find:</source>
-        <translation></translation>
+        <translation>尋找：</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="401"/>
         <source>To be replaced</source>
-        <translation></translation>
+        <translation>要替換的文字</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="414"/>
         <source>Replace with:</source>
-        <translation></translation>
+        <translation>替換為：</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="430"/>
         <source>Replacing text</source>
-        <translation></translation>
+        <translation>替換文字</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="489"/>
         <source>&amp;New</source>
-        <translation></translation>
+        <translation>新建(&amp;N)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="492"/>
