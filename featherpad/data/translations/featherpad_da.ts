@@ -505,12 +505,12 @@
     <message>
         <location filename="../../fp.ui" line="1182"/>
         <source>Check Spelling</source>
-        <translation type="unfinished"></translation>
+        <translation>Stavekontrol</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1185"/>
         <source>F2</source>
-        <translation type="unfinished">F2</translation>
+        <translation>F2</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="989"/>
@@ -1076,43 +1076,43 @@
     <message>
         <location filename="../../fpwin.cpp" line="4723"/>
         <source>You need to add a Hunspell dictionary.</source>
-        <translation type="unfinished"></translation>
+        <translation>Du skal tilføje en Hunspell-orgbog.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4724"/>
         <location filename="../../fpwin.cpp" line="4730"/>
         <location filename="../../fpwin.cpp" line="4739"/>
         <source>See Preferences → Text → Spell Checking!</source>
-        <translation type="unfinished"></translation>
+        <translation>Se Præferencer → Tekst → Stavekontrol!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4729"/>
         <source>The Hunspell dictionary does not exist.</source>
-        <translation type="unfinished"></translation>
+        <translation>Hunspell-ordbogen findes ikke.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4738"/>
         <source>The Hunspell dictionary is not accompanied by an affix file.</source>
-        <translation type="unfinished"></translation>
+        <translation>Der medfølger ikke en affix-fil til Hunspell-ordbogen.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4760"/>
         <location filename="../../fpwin.cpp" line="4778"/>
         <location filename="../../fpwin.cpp" line="4793"/>
         <source>No misspelling in document.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ingen stavefejl i dokumentet.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4762"/>
         <location filename="../../fpwin.cpp" line="4780"/>
         <location filename="../../fpwin.cpp" line="4795"/>
         <source>No misspelling from text cursor.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ingen stavefejl fra tekstmarkøren.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4807"/>
         <source>Spell Checking</source>
-        <translation type="unfinished"></translation>
+        <translation>Stavekontrol</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5152"/>
@@ -1780,7 +1780,7 @@ hvis markøren er inden i tekstvisningen?</translation>
     <message>
         <location filename="../../predDialog.ui" line="887"/>
         <source>Spell Checking</source>
-        <translation type="unfinished"></translation>
+        <translation>Stavekontrol</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="895"/>
@@ -1788,29 +1788,32 @@ hvis markøren er inden i tekstvisningen?</translation>
         <source>A Hunspell dictionary has a name that ends with &quot;.dic&quot;
 and should be alongside an affix file with the same
 name but ending with &quot;.aff&quot;.</source>
-        <translation type="unfinished"></translation>
+        <translation>En Hunspell-ordbog har et navn som slutter med &quot;.dic&quot;
+og skal være sammen med en affix-fil med samme navn
+men hvor det slutter med &quot;.aff&quot;.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="900"/>
         <source>Hunspell dictionary path:</source>
-        <translation type="unfinished"></translation>
+        <translation>Sti til Hunspell-ordbog:</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="919"/>
         <location filename="../../pref.cpp" line="1485"/>
         <source>Add dictionary...</source>
-        <translation type="unfinished"></translation>
+        <translation>Tilføj ordbog ...</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="931"/>
         <source>If this is unchecked, spell checking
 will be started from the document start.</source>
-        <translation type="unfinished"></translation>
+        <translation>Hvis den er fravalgt, så starter
+stavekontrollen fra dokumentets begyndelse.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="935"/>
         <source>Start spell checking from text cursor</source>
-        <translation type="unfinished"></translation>
+        <translation>Start stavekontrol fra tekstmarkøren</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="990"/>
@@ -1944,7 +1947,7 @@ efterstillede mellemrum i en tekstfil.</translation>
     <message>
         <location filename="../../pref.cpp" line="1487"/>
         <source>Hunspell Dictionary Files (*.dic)</source>
-        <translation type="unfinished"></translation>
+        <translation>Hunspell-ordbogsfiler (*.dic)</translation>
     </message>
 </context>
 <context>
@@ -2146,37 +2149,37 @@ vinduer i den gemte session.</translation>
     <message>
         <location filename="../../spellDialog.ui" line="25"/>
         <source>Unknown word:</source>
-        <translation type="unfinished"></translation>
+        <translation>Ukendt ord:</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="51"/>
         <source>Add To Dictionary</source>
-        <translation type="unfinished"></translation>
+        <translation>Tilføj til ordbog</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="62"/>
         <source>Replace with:</source>
-        <translation type="unfinished">Erstat med:</translation>
+        <translation>Erstat med:</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="129"/>
         <source>Correct Once</source>
-        <translation type="unfinished"></translation>
+        <translation>Ret én gang</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="142"/>
         <source>Correct All</source>
-        <translation type="unfinished"></translation>
+        <translation>Ret alle</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="87"/>
         <source>Ignore Once</source>
-        <translation type="unfinished"></translation>
+        <translation>Ignorer én gang</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="100"/>
         <source>Ignore All</source>
-        <translation type="unfinished"></translation>
+        <translation>Ignorer alle</translation>
     </message>
 </context>
 <context>
