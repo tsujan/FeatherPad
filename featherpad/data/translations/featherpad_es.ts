@@ -849,7 +849,7 @@
         <location filename="../../fpwin.cpp" line="3750"/>
         <location filename="../../fpwin.cpp" line="3764"/>
         <source>Sel. Chars</source>
-        <translation>Caract. selec.</translation>
+        <translation>Selec. Caracteristicas</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1395"/>
@@ -955,7 +955,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="2458"/>
         <source>Root Instance</source>
-        <translation type="unfinished"></translation>
+        <translation>Instancia Raíz</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2529"/>
