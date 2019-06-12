@@ -504,12 +504,12 @@
     <message>
         <location filename="../../fp.ui" line="1182"/>
         <source>Check Spelling</source>
-        <translation type="unfinished"></translation>
+        <translation>Skontrolovať pravopis</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1185"/>
         <source>F2</source>
-        <translation type="unfinished"></translation>
+        <translation>F2</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="989"/>
@@ -893,7 +893,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="1504"/>
         <source>Open Link</source>
-        <translation type="unfinished"></translation>
+        <translation>Otvoriť link</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1517"/>
@@ -1081,12 +1081,12 @@
         <location filename="../../fpwin.cpp" line="4730"/>
         <location filename="../../fpwin.cpp" line="4739"/>
         <source>See Preferences → Text → Spell Checking!</source>
-        <translation type="unfinished"></translation>
+        <translation>Viď predvoľby → Text → Kontrola pravopisu!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4729"/>
         <source>The Hunspell dictionary does not exist.</source>
-        <translation type="unfinished"></translation>
+        <translation>Slovník hunspell neexistuje.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4738"/>
@@ -1098,19 +1098,19 @@
         <location filename="../../fpwin.cpp" line="4778"/>
         <location filename="../../fpwin.cpp" line="4793"/>
         <source>No misspelling in document.</source>
-        <translation type="unfinished"></translation>
+        <translation>V dokumente nebol nájdený žiaden preklep.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4762"/>
         <location filename="../../fpwin.cpp" line="4780"/>
         <location filename="../../fpwin.cpp" line="4795"/>
         <source>No misspelling from text cursor.</source>
-        <translation type="unfinished"></translation>
+        <translation>Žiaden preklep od  textového kurzoru.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4807"/>
         <source>Spell Checking</source>
-        <translation type="unfinished"></translation>
+        <translation>Kontrola pravopisu</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5152"/>
@@ -1715,7 +1715,7 @@ if the cursor is inside the text view?</source>
     <message>
         <location filename="../../predDialog.ui" line="887"/>
         <source>Spell Checking</source>
-        <translation type="unfinished"></translation>
+        <translation>Kontrola pravopisu</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="895"/>
@@ -1728,13 +1728,13 @@ name but ending with &quot;.aff&quot;.</source>
     <message>
         <location filename="../../predDialog.ui" line="900"/>
         <source>Hunspell dictionary path:</source>
-        <translation type="unfinished"></translation>
+        <translation>Cesta k slovníku hunspell:</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="919"/>
         <location filename="../../pref.cpp" line="1485"/>
         <source>Add dictionary...</source>
-        <translation type="unfinished"></translation>
+        <translation>Pridať slovník...</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="931"/>
@@ -1745,7 +1745,7 @@ will be started from the document start.</source>
     <message>
         <location filename="../../predDialog.ui" line="935"/>
         <source>Start spell checking from text cursor</source>
-        <translation type="unfinished"></translation>
+        <translation>Začať kontrolou pravopisu od textového kurzoru</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="990"/>
@@ -1874,7 +1874,7 @@ trailing spaces of a text file.</source>
     <message>
         <location filename="../../pref.cpp" line="1487"/>
         <source>Hunspell Dictionary Files (*.dic)</source>
-        <translation type="unfinished"></translation>
+        <translation>Súbor slovníka hunspell (*.dic)</translation>
     </message>
 </context>
 <context>
@@ -2075,12 +2075,12 @@ windows will be included in the saved session.</source>
     <message>
         <location filename="../../spellDialog.ui" line="25"/>
         <source>Unknown word:</source>
-        <translation type="unfinished"></translation>
+        <translation>Neznáme slovo:</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="51"/>
         <source>Add To Dictionary</source>
-        <translation type="unfinished"></translation>
+        <translation>Pridať do slovníka</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="62"/>
@@ -2090,22 +2090,22 @@ windows will be included in the saved session.</source>
     <message>
         <location filename="../../spellDialog.ui" line="87"/>
         <source>Ignore Once</source>
-        <translation type="unfinished"></translation>
+        <translation>Ignorovať raz</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="100"/>
         <source>Ignore All</source>
-        <translation type="unfinished"></translation>
+        <translation>Ignorovať všetko</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="129"/>
         <source>Correct Once</source>
-        <translation type="unfinished"></translation>
+        <translation>Upraviť raz</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="142"/>
         <source>Correct All</source>
-        <translation type="unfinished"></translation>
+        <translation>Upraviť všetko</translation>
     </message>
 </context>
 <context>
