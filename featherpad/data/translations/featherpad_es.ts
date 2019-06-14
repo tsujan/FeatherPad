@@ -420,7 +420,7 @@
     <message>
         <location filename="../../fp.ui" line="1098"/>
         <source>Clear the list of recently modified files</source>
-        <translation>Limpia la lista de archivos modificados recientemente</translation>
+        <translation>Limpiar la lista de archivos modificados recientemente</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1103"/>
@@ -455,7 +455,7 @@
     <message>
         <location filename="../../fp.ui" line="1125"/>
         <source>Ctrl+Shift+V</source>
-        <translation>Ctrl+Shift+V</translation>
+        <translation>Ctrl+Mayús+V</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1130"/>
@@ -580,7 +580,7 @@
     <message>
         <location filename="../../fp.ui" line="245"/>
         <source>Ea&amp;st Asian</source>
-        <translation>Asiático del este</translation>
+        <translation>Asiático oriental</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="337"/>
@@ -797,7 +797,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="874"/>
         <source>Please attend to that window or just close its dialog!</source>
-        <translation>¡Haga el favor de atender a esa ventana o cierre su diálogo!</translation>
+        <translation>¡Por favor atienda esa ventana o cierre su diálogo!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1168"/>
@@ -1036,7 +1036,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="2372"/>
         <source>Huge file(s) not opened!</source>
-        <translation>¡Uno o más archivos muy grandes no se han abierto!</translation>
+        <translation>¡Uno o más archivos son demasiado grandes y no se han abierto!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3238"/>
@@ -1048,7 +1048,7 @@
         <location filename="../../fpwin.cpp" line="3239"/>
         <location filename="../../fpwin.cpp" line="3422"/>
         <source>Please be careful about reloading or saving this document!</source>
-        <translation>¡Haga el favor de tener cuidado al recargar o guardar el documento!</translation>
+        <translation>¡Por favor tenga cuidado al recargar o guardar este documento!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3916"/>
@@ -1166,7 +1166,7 @@
     <message>
         <location filename="../../syntax.cpp" line="262"/>
         <source>The size limit for syntax highlighting is exceeded.</source>
-        <translation>El tamaño límite para el que se excede el realce de sintaxis.</translation>
+        <translation>Se ha superado el límite permitido para el resaltado de sintaxis.</translation>
     </message>
 </context>
 <context>
@@ -1220,7 +1220,7 @@
         <location filename="../../predDialog.ui" line="107"/>
         <location filename="../../predDialog.ui" line="120"/>
         <source>Window frame is excluded.</source>
-        <translation>No incluye el borde de la ventana.</translation>
+        <translation>No incluir el borde de la ventana.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="87"/>
@@ -1297,7 +1297,7 @@ Es necesario reiniciar la aplicación para que tenga efecto.</translation>
         <source>If the menubar is hidden,
 a menu button appears on the toolbar.</source>
         <translation>Si la barra de menú está oculta,
-un bottón de menú aparece en la barra de herramientas.</translation>
+un botón de menú aparecerá en la barra de herramientas.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="239"/>
@@ -1307,7 +1307,7 @@ un bottón de menú aparece en la barra de herramientas.</translation>
     <message>
         <location filename="../../predDialog.ui" line="246"/>
         <source>Hide search &amp;bar by default</source>
-        <translation>Ocultar la &amp;barra de búsqueda por omisión</translation>
+        <translation>Ocultar la &amp;barra de búsqueda de forma predeterminada</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="253"/>
@@ -1365,7 +1365,7 @@ La circulación entre pestañas con el ratón no se ve afectada.</translation>
     <message>
         <location filename="../../predDialog.ui" line="350"/>
         <source>Tab navigation wraps &amp;around</source>
-        <translation>La circulación entre pestañas es cíclic&amp;a</translation>
+        <translation>La navegación entre pestañas es cíclic&amp;a</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="370"/>
@@ -1443,7 +1443,7 @@ escribe y solo bajo las circunstancias apropiadas.</translation>
     <message>
         <location filename="../../predDialog.ui" line="582"/>
         <source>Never highlight syntax for files &gt; </source>
-        <translation>No realzar la sintaxis de archivos &gt; </translation>
+        <translation>Nunca resaltar la sintaxis de archivos &gt; </translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="551"/>
@@ -1462,7 +1462,7 @@ barra de estado para cambiar la sintaxis.</translation>
         <source>Show spaces, tabs and tab lines
 when the syntax is highlighted.</source>
         <translation>Mostar espacios, tabuladores y líneas de tabulación
-cuando la sintaxis esté realzada.</translation>
+cuando la sintaxis esté resaltada.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="624"/>
@@ -1474,8 +1474,8 @@ cuando la sintaxis esté realzada.</translation>
         <location filename="../../predDialog.ui" line="651"/>
         <source>The vertical position lines will be drawn only if
 the editor font has a fixed pitch (like Monospace).</source>
-        <translation>Las líneas de posición vertical se pintarán solo si
-el tipo de letra del editor es de ancho fijo (como Monospace).</translation>
+        <translation>Las líneas de posición vertical solo se verán si el tipo
+de letra del editor es de ancho fijo (como Monospace).</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="644"/>
@@ -1502,7 +1502,7 @@ cuya última línea no esté vacía.</translation>
     <message>
         <location filename="../../predDialog.ui" line="844"/>
         <source>Ensure an empty last line on saving</source>
-        <translation>Garantizar una última línea vacía al guardar</translation>
+        <translation>Asegurarse de dejar una última línea vacía al guardar</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="851"/>
@@ -1527,7 +1527,7 @@ cuya última línea no esté vacía.</translation>
     <message>
         <location filename="../../predDialog.ui" line="1092"/>
         <source>Start with files of last window</source>
-        <translation>Iniciar con archivos de la última ventana</translation>
+        <translation>Iniciar con los archivos de la última ventana</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="1134"/>
@@ -1589,15 +1589,15 @@ se muestran en un díalogo emergente.</translation>
 use system icons!
 
 Needs application restart to take effect.</source>
-        <translation>¡Desmárquelo si quiere que FeatherPad use
-los iconos del sistema!
+        <translation>¡Desmarque esta opción si usted desea que FeatherPad
+utilice los iconos del sistema!
 
 Es necesario reiniciar la aplicación para que tenga efecto.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="163"/>
         <source>Start with side-pane mode</source>
-        <translation>Iniciar en modo con panel lateral</translation>
+        <translation>Iniciar con el modo panel lateral</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="206"/>
@@ -1610,10 +1610,10 @@ Es necesario reiniciar la aplicación para que tenga efecto.</translation>
 tooltip and context menu of a single tab but you could not
 merge a single tabbed window into another one by tab drag-
 and-drop either.</source>
-        <translation>Si está marcado, no solo perderá los mensajes emergentes
-informativos y el menú contextual de una pestaña sino que tampoco
-podrá mover ventanas con una pestaña a otra arrastrando dicha pestaña
-y soltándola.</translation>
+        <translation>Si se marca esta opción, no solo perderá la información sobre
+herramientas y el menú contextual de una única pestaña, sino 
+que tampoco podrá combinar una ventana con otra arrastrando
+y soltando la pestaña.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="363"/>
@@ -1633,7 +1633,7 @@ y soltándola.</translation>
     <message>
         <location filename="../../predDialog.ui" line="483"/>
         <source>&amp;Wrap lines by default</source>
-        <translation>Dividir las líneas por omisión</translation>
+        <translation>Mostrar las líneas de forma predeterminada</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="490"/>
@@ -1648,7 +1648,7 @@ y soltándola.</translation>
     <message>
         <location filename="../../predDialog.ui" line="526"/>
         <source>Highlight s&amp;yntax by default</source>
-        <translation>Realzar la sintaxis por omisión</translation>
+        <translation>Resaltar la sintaxis de forma predeterminada</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="686"/>
@@ -1669,13 +1669,13 @@ y soltándola.</translation>
         <location filename="../../predDialog.ui" line="876"/>
         <source>This is not a complete fix but
 prevents annoying scroll jumps.</source>
-        <translation>No es un arreglo completo pero
-evita saltos de desplazamiento molestos.</translation>
+        <translation>No es un arreglo definitivo, pero evita los
+molestos saltos durante el desplazamiento.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="880"/>
         <source>Workaround for &amp;Qt5&apos;s scroll jump bug</source>
-        <translation>Solución provisional para el fallo de saltos de desplazamiento de &amp;Qt5</translation>
+        <translation>Solución temporal al error de &amp;Qt5 que genera saltos durante el desplazamiento</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="1099"/>
@@ -1687,14 +1687,15 @@ executable, the file will be executed by clicking
 the Run button, that appears on the toolbar/filemenu
 when needed, or by its shortcut Ctrl+E. Then, the
 process could be killed by Ctrl+Alt+E.</source>
-        <translation>Esto solo incluye archivos ejecutales escritos
+        <translation>Esto solo incluye archivos ejecutables escritos
 en lenguajes de script como Shell y Python.
 
 Si está marcado y el archivo abierto es
-ejecutable, el archivo será ejecutado al hacer clic
-en el botón Ejecutar que aparece en la barra de herramientas/menú de archivos
-cuando sea necesario, o por su atajo de teclado Ctrl+E. Entonces, el
-proceso se puede matar con Ctrl+Alt+E.</translation>
+ejecutable, el archivo se ejecutará haciendo
+clic en el botón Ejecutar, que aparece en la 
+barra de herramientas cuando sea necesario,
+o mediante el acceso directo Ctrl+E.
+El proceso podra ser finalizado con Ctrl+Alt+E.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="683"/>
@@ -1712,19 +1713,18 @@ between 230 and 255; for the dark
 background, between 0 and 50.
 
 Needs window reopening to take effect.</source>
-        <translation>El valor del color de fondo.
-255 significa blanco, y 0 es negro.
+        <translation>Al seleccionar un valor para el del color del fondo
+255 significa blanco, mientras que 0 significa negro.
 
-Para un fondo claro, puede estar
-entre 230 y 255; para uno fondo
-oscuro, entre 0 y 50.
+Para un fondo claro, debe estar entre 230 y 255;
+Para un fondo oscuro, debe estar entre 0 y 50.
 
 Es necesario reabrir la ventana para que tenga efecto.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="1109"/>
         <source>Run executable scripts</source>
-        <translation>Ejecutar los script ejecutables</translation>
+        <translation>Ejecutar scripts ejecutables</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="983"/>
@@ -1734,11 +1734,11 @@ opened files FeatherPad shows. The default
 is 10.
 
 Needs application restart to take effect.</source>
-        <translation>El número máximo de archivos modificados o
-abiertos recientemente que muestra FeatherPad.
-Por omisión es 10.
+        <translation>El número máximo de archivos recientemente
+modificados o abiertos que muestra FeatherPad.
+El valor predeterminado es 10.
 
-Es necesario reiniciar la aplicación para que tenga efecto.</translation>
+Necesita reiniciar la aplicación para que tenga efecto.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="762"/>
@@ -1749,12 +1749,12 @@ Takes effect after closing this dialog.
 
 Leave empty for:
 MMM dd, yyyy, hh:mm:ss</source>
-        <translation>Se usa para pegar la fecha y hora.
+        <translation>Se utiliza para pegar la fecha y la hora.
 
-Tiene efecto al cerrar este diálogo.
+Tendrá efecto después de cerrar este diálogo.
 
-Déjelo vacío para:
-MMM dd, aaaa, hh:mm:ss</translation>
+Dejar vacío para:
+MM dd, aaaa, hh:mm:ss</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="799"/>
@@ -1769,14 +1769,14 @@ MMM dd, aaaa, hh:mm:ss</translation>
     <message>
         <location filename="../../predDialog.ui" line="858"/>
         <source>Thick text cursor</source>
-        <translation>Cursor del texto grueso</translation>
+        <translation>Cursor de texto grueso</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="865"/>
         <source>Should the mouse wheel scrolling be inertial
 if the cursor is inside the text view?</source>
-        <translation>¿Usar el desplazamiento inercial con la rueda del ratón
-si el cursor está dentro del área de texto?</translation>
+        <translation>¿Usar el desplazamiento inercial con la rueda del
+ratón si el cursor está dentro del área de texto?</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="887"/>
@@ -1845,11 +1845,11 @@ be used also when the opened file is not modified.
 This can be useful under certain circumstances,
 e.g. for changing the time stamp or removing the
 trailing spaces of a text file.</source>
-        <translation>Si está marcado, el botón/ítem del menú Guardar podría
-usarse también cuando el archivo abierto no ha sido modificado.
+        <translation>Si se marca esta opción, el botón Guardar podría usarse
+también cuando el archivo abierto no se ha modificado.
 
-Esto puede ser útil en ciertas circunstancias,
-p. ej. para camiar la marca de fecha o eliminar
+Esto puede ser útil bajo ciertas circunstancias, por
+ejemplo, para cambiar la marca de tiempo o eliminar
 los espacios finales de un archivo de texto.</translation>
     </message>
     <message>
@@ -1885,12 +1885,12 @@ los espacios finales de un archivo de texto.</translation>
     <message>
         <location filename="../../predDialog.ui" line="1297"/>
         <source>Restore default shortcuts.</source>
-        <translation>Restaurar los atajos por omisión.</translation>
+        <translation>Restaurar atajos predeterminados.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="1300"/>
         <source>Default</source>
-        <translation>Por omisión</translation>
+        <translation>Predeterminado</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="1335"/>
@@ -1913,7 +1913,7 @@ los espacios finales de un archivo de texto.</translation>
         <location filename="../../pref.cpp" line="324"/>
         <location filename="../../pref.cpp" line="1303"/>
         <source>Warning: Ambiguous shortcut detected!</source>
-        <translation>Aviso: ¡atajo ambiguo detectado!</translation>
+        <translation>Advertencia: ¡Se detectó un atajo ambiguo!</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="447"/>
@@ -1938,12 +1938,12 @@ los espacios finales de un archivo de texto.</translation>
     <message>
         <location filename="../../pref.cpp" line="1293"/>
         <source>The typed shortcut was not valid.</source>
-        <translation>El atajo pulsado no es válido.</translation>
+        <translation>El atajo escrito no es válido.</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="1295"/>
         <source>The typed shortcut was reserved.</source>
-        <translation>El atajo pulsado está reservado.</translation>
+        <translation>El atajo escrito esta reservado.</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="1487"/>
@@ -1967,7 +1967,7 @@ los espacios finales de un archivo de texto.</translation>
     <message>
         <location filename="../../searchbar.cpp" line="81"/>
         <source>Whole Word</source>
-        <translation>Palabras completas</translation>
+        <translation>Palabra completa</translation>
     </message>
     <message>
         <location filename="../../searchbar.cpp" line="88"/>
@@ -2018,7 +2018,7 @@ los espacios finales de un archivo de texto.</translation>
     <message>
         <location filename="../../sessionDialog.ui" line="69"/>
         <source>Open the selected session(s).</source>
-        <translation>Abrir las sesiones seleccionadas.</translation>
+        <translation>Abrir sesiones seleccionadas.</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="72"/>
@@ -2042,18 +2042,18 @@ los espacios finales de un archivo de texto.</translation>
         <location filename="../../sessionDialog.ui" line="159"/>
         <source>By default, all files that are opened in all
 windows will be included in the saved session.</source>
-        <translation>Por omisión, todos los archivos abiertos en todas
-las ventanas serán incluidos en la sesión guardada.</translation>
+        <translation>De forma predeterminada, todos los archivos abiertos
+en las ventanas se incluirán en la sesión guardada.</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="163"/>
         <source>Save only from this &amp;window</source>
-        <translation>Guardar solo de esta ventana</translation>
+        <translation>Guardar solo esta ventana</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="180"/>
         <source>&lt;b&gt;Warning&lt;/b&gt;</source>
-        <translation>&lt;b&gt;Aviso&lt;/b&gt;</translation>
+        <translation>&lt;b&gt;Advertencia&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="226"/>
@@ -2099,7 +2099,7 @@ las ventanas serán incluidos en la sesión guardada.</translation>
     <message>
         <location filename="../../session.cpp" line="174"/>
         <source>Nothing saved.&lt;br&gt;No file was opened.</source>
-        <translation>No se ha guardado nada.&lt;br&gt;No había ningún archivo abierto.</translation>
+        <translation>No se ha guardado nada.&lt;br&gt;Ningún archivo fue abierto.</translation>
     </message>
     <message>
         <location filename="../../session.cpp" line="267"/>
@@ -2109,7 +2109,7 @@ las ventanas serán incluidos en la sesión guardada.</translation>
     <message>
         <location filename="../../session.cpp" line="273"/>
         <source>Not all files exist or can be opened.</source>
-        <translation>No existen todos los archivos o no pueden abrirse.</translation>
+        <translation>No todos los archivos existen o no todos pueden abrirse.</translation>
     </message>
     <message>
         <location filename="../../session.cpp" line="316"/>
@@ -2119,22 +2119,22 @@ las ventanas serán incluidos en la sesión guardada.</translation>
     <message>
         <location filename="../../session.cpp" line="335"/>
         <source>Do you really want to remove all saved sessions?</source>
-        <translation>¿Realmente quiere borar todas las sesiones guardadas?</translation>
+        <translation>¿Realmente desea eliminar todas las sesiones guardadas?</translation>
     </message>
     <message>
         <location filename="../../session.cpp" line="341"/>
         <source>Do you really want to remove the selected sessions?</source>
-        <translation>¿Realmente quiere borrar las sesiones seleccionadas?</translation>
+        <translation>¿Realmente desea eliminar las sesiones seleccionadas?</translation>
     </message>
     <message>
         <location filename="../../session.cpp" line="343"/>
         <source>Do you really want to remove the selected session?</source>
-        <translation>¿Realmente quiere borrar la sesión seleccionada?</translation>
+        <translation>¿Realmente desea eliminar la sesión seleccionada?</translation>
     </message>
     <message>
         <location filename="../../session.cpp" line="348"/>
         <source>A session with the same name exists.&lt;br&gt;Do you want to overwrite it?</source>
-        <translation>¿Ya existe una sesión con el mismo nombe.&lt;br&gt;¿Quiere sobrescribirla?</translation>
+        <translation>Ya existe una sesión con el mismo nombe.&lt;br&gt;¿Desea sobrescribirla?</translation>
     </message>
 </context>
 <context>
@@ -2188,7 +2188,7 @@ las ventanas serán incluidos en la sesión guardada.</translation>
     <message>
         <location filename="../../textedit.cpp" line="138"/>
         <source>Double click to center current line</source>
-        <translation>Hacer doble clic para centrar la línea actual</translation>
+        <translation>Haga doble clic para centrar la línea actual.</translation>
     </message>
 </context>
 <context>
