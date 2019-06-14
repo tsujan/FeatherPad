@@ -6,7 +6,7 @@
     <message>
         <location filename="../../about.ui" line="143"/>
         <source>License</source>
-        <translation>许可证</translation>
+        <translation>许可</translation>
     </message>
 </context>
 <context>
@@ -1595,7 +1595,7 @@ and-drop either.</source>
     <message>
         <location filename="../../predDialog.ui" line="363"/>
         <source>&amp;Do not show a single tab</source>
-        <translation>&amp;不显示单个标签</translation>
+        <translation>&amp;只有一个选项卡时隐藏选项卡栏</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="428"/>
@@ -1725,7 +1725,7 @@ MMM dd, yyyy, hh:mm:ss</source>
     <message>
         <location filename="../../predDialog.ui" line="799"/>
         <source>Text tab size:</source>
-        <translation>文本选项卡大小</translation>
+        <translation>文本tab缩进:</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="806"/>
@@ -2125,7 +2125,7 @@ windows will be included in the saved session.</source>
     <message>
         <location filename="../../spellDialog.ui" line="62"/>
         <source>Replace with:</source>
-        <translation type="unfinished">替换为:</translation>
+        <translation>替换为:</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="129"/>
