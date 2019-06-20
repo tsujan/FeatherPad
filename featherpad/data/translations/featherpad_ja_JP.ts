@@ -392,7 +392,7 @@
     <message>
         <location filename="../../fp.ui" line="749"/>
         <source>&amp;About</source>
-        <translation>Featherpadについて(&amp;A)</translation>
+        <translation>FeatherPadについて(&amp;A)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="760"/>
@@ -711,13 +711,13 @@
         <location filename="../../fp.ui" line="1166"/>
         <location filename="../../fp.ui" line="1169"/>
         <source>Sort Lines</source>
-        <translation>行を並び替え</translation>
+        <translation>行を並べ替える</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1174"/>
         <location filename="../../fp.ui" line="1177"/>
         <source>Sort Lines Reversely</source>
-        <translation>逆方向に行を並び替え</translation>
+        <translation>行を逆順に並べ替える</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1182"/>
