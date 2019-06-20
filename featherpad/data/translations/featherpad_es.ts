@@ -955,7 +955,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="2458"/>
         <source>Root Instance</source>
-        <translation>Instancia Raíz</translation>
+        <translation>Permisos de administrador activados</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2529"/>
