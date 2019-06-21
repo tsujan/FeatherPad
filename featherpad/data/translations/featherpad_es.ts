@@ -94,7 +94,7 @@
     <message>
         <location filename="../../fp.ui" line="414"/>
         <source>Replace with:</source>
-        <translation>Sustituir con:</translation>
+        <translation>Sustituir por:</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="430"/>
@@ -109,7 +109,7 @@
     <message>
         <location filename="../../fp.ui" line="492"/>
         <source>New tab</source>
-        <translation>Nueva pestaña</translation>
+        <translation>Nueva pestaña vacía</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="495"/>
@@ -180,7 +180,7 @@
         <location filename="../../fp.ui" line="556"/>
         <location filename="../../fp.ui" line="559"/>
         <source>Reload</source>
-        <translation>Recargar</translation>
+        <translation>Volver a cargar el archivo</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="562"/>
@@ -200,7 +200,7 @@
     <message>
         <location filename="../../fp.ui" line="581"/>
         <source>Show/hide replacement dock</source>
-        <translation>Mostrar/ocultar el panel de sustituciones</translation>
+        <translation>Muestra/Oculta el panel de sustituciones</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="584"/>
@@ -461,7 +461,7 @@
         <location filename="../../fp.ui" line="1130"/>
         <location filename="../../fp.ui" line="1133"/>
         <source>To Upper Case</source>
-        <translation>A mayúsculas</translation>
+        <translation>Cambiar a mayúsculas el texto seleccionado</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1136"/>
@@ -472,7 +472,7 @@
         <location filename="../../fp.ui" line="1141"/>
         <location filename="../../fp.ui" line="1144"/>
         <source>To Lower Case</source>
-        <translation>A minúsculas</translation>
+        <translation>Cambiar a minúsculas el texto seleccionado</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1147"/>
@@ -593,7 +593,7 @@
     <message>
         <location filename="../../fp.ui" line="570"/>
         <source>Focus/hide search bar</source>
-        <translation>Enfocar/ocultar la barra de búsqueda</translation>
+        <translation>Muestra/Oculta la barra de búsqueda</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="578"/>
@@ -797,7 +797,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="874"/>
         <source>Please attend to that window or just close its dialog!</source>
-        <translation>¡Por favor atienda esa ventana o cierre su diálogo!</translation>
+        <translation>¡Por favor preste atención a esa ventana o ciérrala!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1168"/>
@@ -849,7 +849,7 @@
         <location filename="../../fpwin.cpp" line="3750"/>
         <location filename="../../fpwin.cpp" line="3764"/>
         <source>Sel. Chars</source>
-        <translation>Selec. Caracteristicas</translation>
+        <translation>Selec. Caracteres</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1395"/>
@@ -895,12 +895,12 @@
     <message>
         <location filename="../../fpwin.cpp" line="1504"/>
         <source>Open Link</source>
-        <translation>Abrir el enlace</translation>
+        <translation>Abrir enlace</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1517"/>
         <source>Copy Link</source>
-        <translation>Copiar el enlace</translation>
+        <translation>Copiar enlace</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1680"/>
@@ -1148,7 +1148,7 @@
     <message>
         <location filename="../../replace.cpp" line="241"/>
         <source>No Replacement</source>
-        <translation>No hay sustituciones</translation>
+        <translation>No se encontró ninguna coincidencia con la búsqueda</translation>
     </message>
     <message>
         <location filename="../../replace.cpp" line="243"/>
@@ -1158,11 +1158,9 @@
     <message numerus="yes">
         <location filename="../../replace.cpp" line="245"/>
         <source>%Ln Replacements</source>
-        <translation>
-            <numerusform>%Ln sustitución</numerusform>
-            <numerusform>%Ln sustituciones</numerusform>
-        </translation>
-    </message>
+        <translation><numerusform>Se ha sustituido %Ln palabra o caracter</numerusform>
+        <numerusform>Se han sustituido %Ln palabras o caracteres</numerusform>
+        </translation></message>
     <message>
         <location filename="../../syntax.cpp" line="262"/>
         <source>The size limit for syntax highlighting is exceeded.</source>
@@ -1255,12 +1253,12 @@ que no funcione con algunos gestores de ventanas.</translation>
         <source>Most suitable with sessions
 but without tab functionality.</source>
         <translation>Más adecuado para sesiones
-pero sin la funcionalidad de pestañas.</translation>
+sin la funcion de pestañas activa.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="188"/>
         <source>Uncheck for 1/5 of the width.</source>
-        <translation>Desmarcar para 1/5 del ancho.</translation>
+        <translation>Si desactiva esta opción se establecera un tamaño de 1/5 del ancho.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="191"/>
@@ -1323,7 +1321,7 @@ un botón de menú aparecerá en la barra de herramientas.</translation>
         <location filename="../../predDialog.ui" line="289"/>
         <location filename="../../predDialog.ui" line="299"/>
         <source>Will take effect after closing this dialog.</source>
-        <translation>Tendrá efecto tras cerrar este diálogo.</translation>
+        <translation>Los cambios tendrán efecto tras cerrar esta ventana.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="292"/>
@@ -1356,11 +1354,11 @@ un botón de menú aparecerá en la barra de herramientas.</translation>
 after the last tab is activated, and the same for Alt+Left.
 
 Tab navigation with mouse wheel is not affected.</source>
-        <translation>Esto implica que, para idiomas escritos de izquierda a derecha,
-Alt+Derecha va a la primera pestaña tras activar la última, y lo
-mismo para Alt+Izquierda.
+        <translation>Debe tener en cuenta que, para idiomas escritos de izquierda a derecha,
+Alt+Derecha vuelve a la primera pestaña luego de haber pasado por la última, 
+y lo mismo sucede al utilizar Alt+Izquierda.
 
-La circulación entre pestañas con el ratón no se ve afectada.</translation>
+En el caso de utilizar el raton circulación entre pestañas no se ve afectada.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="350"/>
@@ -1379,11 +1377,11 @@ current desktop, files will be opened in its tabs.
 
 However, some desktop environments may not
 report that they have multiple desktops.</source>
-        <translation>Por defecto, si una ventana de FeatherPad existe en el
-escritorio actual, los archivos se abren en sus pestañas.
+        <translation>Si una ventana de FeatherPad esta abierta en el escritorio
+actual, los archivos se abren en sus pestañas por defecto.
 
-Sin embargo, algunos entornos de escritorio pueden no
-comunicar que tienen varios escritorios.</translation>
+Debe tener en cuenta que algunos entornos de escritorio
+pueden no comunicar que tienen varios escritorios.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="384"/>
@@ -1396,15 +1394,16 @@ comunicar que tienen varios escritorios.</translation>
 desktop environment will be used instead of the Qt file dialog.
 
 Some desktop environments, like KDE and LXQt, provide files dialogs.</source>
-        <translation>Si está marcado, el diálogo de archivos proporcionado por el entorno
-de escritorio actual será el que se use en vez del de Qt.
+        <translation>Si activa esta opción, se utilizará la ventana proporcionada nativamente
+por el entorno de escritorio actual en lugar del proporcionado por Qt.
 
-Algunos entornos de escritorio, como KDE y LXQt, ofrecen díalogos de archivos.</translation>
+Esta opción existe debido a que algunos entornos de escritorio, como
+KDE y LXQt, pueden ofrecer sus propias ventanas.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="397"/>
         <source>Native file dialog</source>
-        <translation>Diálogo de archivos nativo</translation>
+        <translation>Utilizar ventanas nativas del entorno</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="473"/>
@@ -1431,7 +1430,7 @@ Algunos entornos de escritorio, como KDE y LXQt, ofrecen díalogos de archivos.<
         <source>By default, a triple period is replaced with an ellipsis
 and a double hyphen with a long dash while typing,
 under proper circumstances.</source>
-        <translation>Por defecto se reemplazarán, Tres puntos continuos por una elipsis
+        <translation>Por defecto se reemplazarán, tres puntos continuos por una elipsis
 y dos guiones continuos por un guión largo, se realizará mientras se
 escribe y solo bajo las circunstancias apropiadas.</translation>
     </message>
@@ -1485,7 +1484,7 @@ de letra del editor es de ancho fijo (como Monospace).</translation>
     <message>
         <location filename="../../predDialog.ui" line="631"/>
         <source>Also show line and document ends</source>
-        <translation>Mostrar también el final de líneas y del documento</translation>
+        <translation>Mostrar los símbolos de salto de linea y el de final del documento</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="770"/>
@@ -1542,16 +1541,13 @@ will be executed directly.
 If the script is not run in a terminal
 emulator, the output and error messages
 will be shown by a popup dialog.</source>
-        <translation>Puede ser cualquier orden de inicio con
-argumentos, por ejemplo, &quot;xterm -hold&quot;
-para ejecutar el proceso en XTerm.
-
-Si la orden se deja vacía, el archivo
-será ejecutado directamente.
-
-Si el script no se ejecuta en un emulador
-de terminal, la salida y mensajes de error
-se muestran en un díalogo emergente.</translation>
+        <translation>Este puede ser cualquier comando de inicio con argumentos,
+si por ejemplo escribe, &quot;xterm -hold&quot; se ejecutará el proceso
+dentro de la aplicación XTerm.
+En el caso de dejarlo vacío, el archivo se ejecutará
+directamente.
+Si el script no se ejecuta en un emulador de terminal, los mensajes
+de salida y de error se mostrarán en una ventana emergente.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="1146"/>
@@ -1618,7 +1614,7 @@ y soltando la pestaña.</translation>
     <message>
         <location filename="../../predDialog.ui" line="363"/>
         <source>&amp;Do not show a single tab</source>
-        <translation>No mostrar una sola pestaña</translation>
+        <translation>No mostrar las pestañas cuando haya solo una</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="428"/>
@@ -1638,7 +1634,7 @@ y soltando la pestaña.</translation>
     <message>
         <location filename="../../predDialog.ui" line="490"/>
         <source>Auto-&amp;indent by default</source>
-        <translation>Sangría automát&amp;ica por omisión</translation>
+        <translation>Insertar sangría automát&amp;icamente al saltar de linea</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="519"/>
@@ -1648,7 +1644,7 @@ y soltando la pestaña.</translation>
     <message>
         <location filename="../../predDialog.ui" line="526"/>
         <source>Highlight s&amp;yntax by default</source>
-        <translation>Resaltar la sintaxis de forma predeterminada</translation>
+        <translation>Activar el resaltado de sintaxis</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="686"/>
@@ -1734,11 +1730,11 @@ opened files FeatherPad shows. The default
 is 10.
 
 Needs application restart to take effect.</source>
-        <translation>El número máximo de archivos recientemente
-modificados o abiertos que muestra FeatherPad.
+        <translation>Al modificar este valor usted puede guardar una mayor o menor
+cantidad de archivos recientemente modificados o abiertos que
+muestra FeatherPad en su lista.
 El valor predeterminado es 10.
-
-Necesita reiniciar la aplicación para que tenga efecto.</translation>
+Los cambios tendrán efecto después de reiniciar la aplicación.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="762"/>
@@ -1751,10 +1747,11 @@ Leave empty for:
 MMM dd, yyyy, hh:mm:ss</source>
         <translation>Se utiliza para pegar la fecha y la hora.
 
-Tendrá efecto después de cerrar este diálogo.
+Los cambios tendrán efecto después de
+cerrar esta ventana.
 
 Dejar vacío para:
-MM dd, aaaa, hh:mm:ss</translation>
+MMM dd, aaaa, hh:mm:ss</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="799"/>
@@ -1962,7 +1959,7 @@ los espacios finales de un archivo de texto.</translation>
     <message>
         <location filename="../../searchbar.cpp" line="74"/>
         <source>Match Case</source>
-        <translation>Distinguir mayúsculas de minúsculas</translation>
+        <translation>Tener en cuenta mayúsculas y minúsculas</translation>
     </message>
     <message>
         <location filename="../../searchbar.cpp" line="81"/>
@@ -2188,7 +2185,7 @@ en las ventanas se incluirán en la sesión guardada.</translation>
     <message>
         <location filename="../../textedit.cpp" line="138"/>
         <source>Double click to center current line</source>
-        <translation>Haga doble clic para centrar la línea actual.</translation>
+        <translation>Haga doble clic para centrar la línea actual</translation>
     </message>
 </context>
 <context>
