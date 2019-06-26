@@ -505,7 +505,7 @@
     <message>
         <location filename="../../fp.ui" line="1182"/>
         <source>Check Spelling</source>
-        <translation type="unfinished"></translation>
+        <translation>Tikrinti rašybą</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1185"/>
@@ -1076,7 +1076,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="4723"/>
         <source>You need to add a Hunspell dictionary.</source>
-        <translation type="unfinished"></translation>
+        <translation>Turite pridėti Hunspell žodyną.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4724"/>
@@ -1088,7 +1088,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="4729"/>
         <source>The Hunspell dictionary does not exist.</source>
-        <translation type="unfinished"></translation>
+        <translation>Hunspell žodyno nėra.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4738"/>
@@ -1795,13 +1795,13 @@ tačiau turinčiu &quot;.aff&quot; prievardį.</translation>
     <message>
         <location filename="../../predDialog.ui" line="900"/>
         <source>Hunspell dictionary path:</source>
-        <translation type="unfinished"></translation>
+        <translation>Hunspell žodyno kelias:</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="919"/>
         <location filename="../../pref.cpp" line="1485"/>
         <source>Add dictionary...</source>
-        <translation type="unfinished"></translation>
+        <translation>Pridėti žodyną...</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="931"/>
@@ -1948,7 +1948,7 @@ pvz., laiko žymos keitimui arba tekstinio failo galinių tarpų
     <message>
         <location filename="../../pref.cpp" line="1487"/>
         <source>Hunspell Dictionary Files (*.dic)</source>
-        <translation type="unfinished"></translation>
+        <translation>Hunspell žodyno failai (*.dic)</translation>
     </message>
 </context>
 <context>
@@ -2150,17 +2150,17 @@ bus įtraukti į įrašytą seansą.</translation>
     <message>
         <location filename="../../spellDialog.ui" line="25"/>
         <source>Unknown word:</source>
-        <translation type="unfinished"></translation>
+        <translation>Nežinomas žodis:</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="51"/>
         <source>Add To Dictionary</source>
-        <translation type="unfinished"></translation>
+        <translation>Pridėti į žodyną</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="62"/>
         <source>Replace with:</source>
-        <translation type="unfinished">Kuo pakeisti:</translation>
+        <translation>Kuo pakeisti:</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="129"/>
@@ -2175,12 +2175,12 @@ bus įtraukti į įrašytą seansą.</translation>
     <message>
         <location filename="../../spellDialog.ui" line="87"/>
         <source>Ignore Once</source>
-        <translation type="unfinished"></translation>
+        <translation>Nepaisyti vieną kartą</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="100"/>
         <source>Ignore All</source>
-        <translation type="unfinished"></translation>
+        <translation>Nepaisyti visų</translation>
     </message>
 </context>
 <context>
