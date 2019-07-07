@@ -96,7 +96,7 @@
         <location filename="../../replace.cpp" line="62"/>
         <location filename="../../replace.cpp" line="115"/>
         <source>Rep&amp;lacement</source>
-        <translation>置換(&amp;l)</translation>
+        <translation>置換(&amp;L)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="385"/>
@@ -2059,7 +2059,7 @@ windows will be included in the saved session.</source>
     <message>
         <location filename="../../sessionDialog.ui" line="163"/>
         <source>Save only from this &amp;window</source>
-        <translation>このウィンドウからのみ保存する(&amp;w)</translation>
+        <translation>このウィンドウからのみ保存する(&amp;W)</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="180"/>
