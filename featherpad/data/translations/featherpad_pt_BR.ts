@@ -895,12 +895,12 @@
     <message>
         <location filename="../../fpwin.cpp" line="1504"/>
         <source>Open Link</source>
-        <translation type="unfinished"></translation>
+        <translation>Abrir Link</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1517"/>
         <source>Copy Link</source>
-        <translation type="unfinished">Copiar Link</translation>
+        <translation>Copiar Link</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1684"/>
@@ -1751,7 +1751,7 @@ MMM dd, yyyy, hh:mm:ss</source>
 Entra em vigor depois de fechar este diálogo.
 
 Deixar em branco para:
-MMM dd, yyyy, hh:mm:ss</translation>
+DD de MM de AAAA | hh:mm:ss</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="799"/>
