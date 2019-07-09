@@ -505,7 +505,7 @@
     <message>
         <location filename="../../fp.ui" line="1182"/>
         <source>Check Spelling</source>
-        <translation type="unfinished"></translation>
+        <translation>Verificar Ortografia</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1185"/>
@@ -895,12 +895,12 @@
     <message>
         <location filename="../../fpwin.cpp" line="1504"/>
         <source>Open Link</source>
-        <translation>Abrir ligação</translation>
+        <translation>Abrir Link</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1517"/>
         <source>Copy Link</source>
-        <translation>Copiar ligação</translation>
+        <translation>Copiar Link</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1684"/>
@@ -940,7 +940,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="2401"/>
         <source>Non-text files or files with huge lines cannot be edited.</source>
-        <translation></translation>
+        <translation>Arquivos que não são de texto ou arquivos com linhas enormes não podem ser editados.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2458"/>
@@ -1036,13 +1036,13 @@
     <message>
         <location filename="../../fpwin.cpp" line="2380"/>
         <source>Huge file(s) not opened!</source>
-        <translation></translation>
+        <translation>Arquivo(s) que é(são) enorme(s) não abre(m)!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3250"/>
         <location filename="../../fpwin.cpp" line="3433"/>
         <source>This file has been modified elsewhere or in another way!</source>
-        <translation></translation>
+        <translation>Este arquivo foi modificado em outro lugar ou de outra maneira!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3251"/>
@@ -1059,7 +1059,7 @@
         <location filename="../../fpwin.cpp" line="4517"/>
         <location filename="../../fpwin.cpp" line="4585"/>
         <source>%1 Pages</source>
-        <translation></translation>
+        <translation>%1 Páginas</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4543"/>
@@ -1076,43 +1076,43 @@
     <message>
         <location filename="../../fpwin.cpp" line="4735"/>
         <source>You need to add a Hunspell dictionary.</source>
-        <translation type="unfinished"></translation>
+        <translation>Você precisa adicionar um dicionário Hunspell.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4736"/>
         <location filename="../../fpwin.cpp" line="4742"/>
         <location filename="../../fpwin.cpp" line="4751"/>
         <source>See Preferences → Text → Spell Checking!</source>
-        <translation type="unfinished"></translation>
+        <translation>Consulte Preferências → Texto → Verificação Ortográfica!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4741"/>
         <source>The Hunspell dictionary does not exist.</source>
-        <translation type="unfinished"></translation>
+        <translation>O dicionário Hunspell não existe.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4750"/>
         <source>The Hunspell dictionary is not accompanied by an affix file.</source>
-        <translation type="unfinished"></translation>
+        <translation>O dicionário Hunspell não está acompanhado por um arquivo de afixação.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4772"/>
         <location filename="../../fpwin.cpp" line="4790"/>
         <location filename="../../fpwin.cpp" line="4805"/>
         <source>No misspelling in document.</source>
-        <translation type="unfinished"></translation>
+        <translation>Nenhum erro de ortografia no documento.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4774"/>
         <location filename="../../fpwin.cpp" line="4792"/>
         <location filename="../../fpwin.cpp" line="4807"/>
         <source>No misspelling from text cursor.</source>
-        <translation type="unfinished"></translation>
+        <translation>Nenhum erro ortográfico a partir do cursor de texto.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4819"/>
         <source>Spell Checking</source>
-        <translation type="unfinished"></translation>
+        <translation>Verificação Ortográfica</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5164"/>
@@ -1274,12 +1274,17 @@ KDE may have a bug that disables search and
 replace shortcuts with the iconless mode.
 
 Needs application restart to take effect.</source>
-        <translation></translation>
+        <translation>Nenhum ícone na janela principal e seus menus.
+
+O KDE pode ter um erro que desabilita a pesquisa e
+substitui os atalhos pelo modo sem ícone.
+
+Precisa de reinicialização do aplicativo para entrar em vigor.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="221"/>
         <source>&amp;Iconless mode</source>
-        <translation></translation>
+        <translation>&amp;modo sem ícones</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="228"/>
@@ -1397,12 +1402,12 @@ Some desktop environments, like KDE and LXQt, provide files dialogs.</source>
     <message>
         <location filename="../../predDialog.ui" line="476"/>
         <source>Remember &amp;font</source>
-        <translation></translation>
+        <translation>Lembrar da &amp;fonte</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="497"/>
         <source>This covers parentheses, braces, brackets and quotes.</source>
-        <translation></translation>
+        <translation>Abrange parênteses, chaves, colchetes e citações.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="500"/>
@@ -1536,12 +1541,12 @@ will be shown by a popup dialog.</source>
     <message>
         <location filename="../../predDialog.ui" line="1050"/>
         <source>Show recentl&amp;y modified files</source>
-        <translation></translation>
+        <translation>Mostrar arquivos modificados &amp;recentemente</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="1080"/>
         <source>Show recentl&amp;y opened files</source>
-        <translation></translation>
+        <translation>Mostrar arquivos abertos &amp;recentemente</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="1179"/>
@@ -1582,7 +1587,7 @@ and-drop either.</source>
     <message>
         <location filename="../../predDialog.ui" line="363"/>
         <source>&amp;Do not show a single tab</source>
-        <translation></translation>
+        <translation>&amp;Não mostrar uma única guia</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="428"/>
@@ -1597,12 +1602,12 @@ and-drop either.</source>
     <message>
         <location filename="../../predDialog.ui" line="483"/>
         <source>&amp;Wrap lines by default</source>
-        <translation></translation>
+        <translation>&amp;Quebrar linhas por padrão</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="490"/>
         <source>Auto-&amp;indent by default</source>
-        <translation></translation>
+        <translation>Auto-&amp;recuo por padrão</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="519"/>
@@ -1655,7 +1660,7 @@ process could be killed by Ctrl+Alt+E.</source>
     <message>
         <location filename="../../predDialog.ui" line="683"/>
         <source>Needs window reopening to take effect.</source>
-        <translation></translation>
+        <translation>Precisa reabrir a janela para entrar em vigor.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="711"/>
@@ -1673,7 +1678,7 @@ Needs window reopening to take effect.</source>
     <message>
         <location filename="../../predDialog.ui" line="1109"/>
         <source>Run executable scripts</source>
-        <translation></translation>
+        <translation>Executar scripts executáveis</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="983"/>
@@ -1699,7 +1704,7 @@ MMM dd, yyyy, hh:mm:ss</source>
     <message>
         <location filename="../../predDialog.ui" line="799"/>
         <source>Text tab size:</source>
-        <translation></translation>
+        <translation>Tamanho da guia de texto:</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="806"/>
@@ -1720,7 +1725,7 @@ if the cursor is inside the text view?</source>
     <message>
         <location filename="../../predDialog.ui" line="887"/>
         <source>Spell Checking</source>
-        <translation type="unfinished"></translation>
+        <translation>Verificação Ortográfica</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="895"/>
@@ -1728,29 +1733,32 @@ if the cursor is inside the text view?</source>
         <source>A Hunspell dictionary has a name that ends with &quot;.dic&quot;
 and should be alongside an affix file with the same
 name but ending with &quot;.aff&quot;.</source>
-        <translation type="unfinished"></translation>
+        <translation>Um dicionário Hunspell tem um nome que termina com &quot;.dic&quot;
+e deve estar ao lado de um arquivo de afixação com o mesmo
+nome, mas terminando com &quot;.aff&quot;.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="900"/>
         <source>Hunspell dictionary path:</source>
-        <translation type="unfinished"></translation>
+        <translation>Diretório do dicionário Hunspell:</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="919"/>
         <location filename="../../pref.cpp" line="1486"/>
         <source>Add dictionary...</source>
-        <translation type="unfinished"></translation>
+        <translation>Adicionar um dicionário...</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="931"/>
         <source>If this is unchecked, spell checking
 will be started from the document start.</source>
-        <translation type="unfinished"></translation>
+        <translation>Caso estiver desmarcado, a verificação ortográfica
+será iniciada a partir do início do documento.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="935"/>
         <source>Start spell checking from text cursor</source>
-        <translation type="unfinished"></translation>
+        <translation>Iniciar verificação ortográfica a partir do cursor de texto</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="990"/>
@@ -1796,7 +1804,7 @@ trailing spaces of a text file.</source>
     <message>
         <location filename="../../predDialog.ui" line="1238"/>
         <source>Do not permit opening of non-text files</source>
-        <translation></translation>
+        <translation>Não permitir a abertura de arquivos que não sejam de texto</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="1265"/>
@@ -1879,7 +1887,7 @@ trailing spaces of a text file.</source>
     <message>
         <location filename="../../pref.cpp" line="1488"/>
         <source>Hunspell Dictionary Files (*.dic)</source>
-        <translation type="unfinished"></translation>
+        <translation>Arquivos do Dicionário Hunspell (* .dic)</translation>
     </message>
 </context>
 <context>
@@ -2081,37 +2089,37 @@ abertos serão incluídos na sessão guardada.</translation>
     <message>
         <location filename="../../spellDialog.ui" line="25"/>
         <source>Unknown word:</source>
-        <translation type="unfinished"></translation>
+        <translation>Palavra desconhecida:</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="51"/>
         <source>Add To Dictionary</source>
-        <translation type="unfinished"></translation>
+        <translation>Adicionar ao Dicionário</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="62"/>
         <source>Replace with:</source>
-        <translation type="unfinished">Substituir por:</translation>
+        <translation>Substituir por:</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="129"/>
         <source>Correct Once</source>
-        <translation type="unfinished"></translation>
+        <translation>Corrigir Uma</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="142"/>
         <source>Correct All</source>
-        <translation type="unfinished"></translation>
+        <translation>Corrigir Todas</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="87"/>
         <source>Ignore Once</source>
-        <translation type="unfinished"></translation>
+        <translation>Ignore Uma</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="100"/>
         <source>Ignore All</source>
-        <translation type="unfinished"></translation>
+        <translation>Ignore Todas</translation>
     </message>
 </context>
 <context>
