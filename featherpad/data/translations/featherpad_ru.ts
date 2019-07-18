@@ -543,7 +543,7 @@
     <message>
         <location filename="../../fp.ui" line="1182"/>
         <source>Check Spelling</source>
-        <translation type="unfinished"></translation>
+        <translation>Проверить правописание</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1185"/>
@@ -713,7 +713,7 @@
     <message>
         <location filename="../../fp.ui" line="1025"/>
         <source>&amp;Copy File Name</source>
-        <translation>&amp;Имя файла копирования</translation>
+        <translation>&amp;Копировать имя файла</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1041"/>
@@ -810,7 +810,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="874"/>
         <source>Please attend to that window or just close its dialog!</source>
-        <translation type="unfinished"></translation>
+        <translation>Пожалуйста, зайдите в это окно или просто закройте диалог!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1166"/>
@@ -895,12 +895,12 @@
     <message>
         <location filename="../../fpwin.cpp" line="2390"/>
         <source>You may not have the permission to read.</source>
-        <translation>Возможно не хватает прав для доступа.</translation>
+        <translation>Возможно, не хватает прав для доступа.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2400"/>
         <source>Uneditable file(s)!</source>
-        <translation>Недоступный для редактирования файл!</translation>
+        <translation>Недоступный(-ые) для редактирования файл(-ы)!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2401"/>
@@ -920,7 +920,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="2466"/>
         <source>Root Instance</source>
-        <translation type="unfinished"></translation>
+        <translation>Запущено от имени администратора</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2537"/>
@@ -932,7 +932,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="2542"/>
         <source>All Files (*);;.%1 Files (*.%1)</source>
-        <translation>Все файлы (*);;.%1 Файлы (*.%1)</translation>
+        <translation>Все файлы (*);;.%1-файлы (*.%1)</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2546"/>
@@ -988,14 +988,14 @@
     <message>
         <location filename="../../fpwin.cpp" line="4735"/>
         <source>You need to add a Hunspell dictionary.</source>
-        <translation type="unfinished"></translation>
+        <translation>Вам нужно добавить словарь Hunspell.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4736"/>
         <location filename="../../fpwin.cpp" line="4742"/>
         <location filename="../../fpwin.cpp" line="4751"/>
         <source>See Preferences → Text → Spell Checking!</source>
-        <translation type="unfinished"></translation>
+        <translation>Смотрите Настройки → Текст → Проверка правописания!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4741"/>
@@ -1012,7 +1012,7 @@
         <location filename="../../fpwin.cpp" line="4790"/>
         <location filename="../../fpwin.cpp" line="4805"/>
         <source>No misspelling in document.</source>
-        <translation type="unfinished"></translation>
+        <translation>В документе нет орфографических ошибок.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4774"/>
@@ -1024,7 +1024,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="4819"/>
         <source>Spell Checking</source>
-        <translation type="unfinished"></translation>
+        <translation>Проверка правописания</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5164"/>
@@ -1158,12 +1158,10 @@
     <message numerus="yes">
         <location filename="../../replace.cpp" line="245"/>
         <source>%Ln Replacements</source>
-        <translation>
-            <numerusform>%Ln замена</numerusform>
-            <numerusform>%Ln замены</numerusform>
-            <numerusform>%Ln замены</numerusform>
-        </translation>
-    </message>
+        <translation><numerusform>%Ln замена</numerusform>
+        <numerusform>%Ln замены</numerusform>
+        <numerusform>%Ln замен</numerusform>
+        </translation></message>
     <message>
         <location filename="../../syntax.cpp" line="262"/>
         <source>The size limit for syntax highlighting is exceeded.</source>
@@ -1348,7 +1346,12 @@ current desktop, files will be opened in its tabs.
 
 However, some desktop environments may not
 report that they have multiple desktops.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">По умолчанию, если окно FeatherPad есть на
+данном рабочем столе, файлы будут открыты
+во вкладках этого окна.
+Правда, некоторые окружения рабочего
+стола могут не сообщать о том, что в них
+есть несколько рабочих столов.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="384"/>
@@ -1379,24 +1382,26 @@ Some desktop environments, like KDE and LXQt, provide files dialogs.</source>
     <message>
         <location filename="../../predDialog.ui" line="497"/>
         <source>This covers parentheses, braces, brackets and quotes.</source>
-        <translation type="unfinished"></translation>
+        <translation>Это касается круглых, фигурных, квадратных скобок и кавычек.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="500"/>
         <source>Auto-&amp;bracket</source>
-        <translation type="unfinished"></translation>
+        <translation>Автозакрытие скобки</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="507"/>
         <source>By default, a triple period is replaced with an ellipsis
 and a double hyphen with a long dash while typing,
 under proper circumstances.</source>
-        <translation type="unfinished"></translation>
+        <translation>По умолчанию, во время набора текста три точки 
+заменяются на многоточие, а два дефиса – на тире
+в нужном контексте.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="512"/>
         <source>Replace triple periods and double hyphens while typing</source>
-        <translation type="unfinished"></translation>
+        <translation>Заменять три точки и два дефиса во время набора текста</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="551"/>
@@ -1477,12 +1482,12 @@ whose last line is not empty.</source>
     <message>
         <location filename="../../predDialog.ui" line="869"/>
         <source>Inertial scrolling with mouse wheel</source>
-        <translation type="unfinished"></translation>
+        <translation>Инерционная прокрутка колесом мыши</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="887"/>
         <source>Spell Checking</source>
-        <translation type="unfinished"></translation>
+        <translation>Проверка правописания</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="895"/>
@@ -1495,13 +1500,13 @@ name but ending with &quot;.aff&quot;.</source>
     <message>
         <location filename="../../predDialog.ui" line="900"/>
         <source>Hunspell dictionary path:</source>
-        <translation type="unfinished"></translation>
+        <translation>Путь к словарю Hunspell:</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="919"/>
         <location filename="../../pref.cpp" line="1486"/>
         <source>Add dictionary...</source>
-        <translation type="unfinished"></translation>
+        <translation>Добавить словарь…</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="931"/>
@@ -1567,7 +1572,7 @@ will be shown by a popup dialog.</source>
         <location filename="../../predDialog.ui" line="1176"/>
         <location filename="../../predDialog.ui" line="1186"/>
         <source>Only for files that exist and can be saved.</source>
-        <translation type="unfinished"></translation>
+        <translation>Только для тех файлов, которые существуют и могут быть сохранены.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="1189"/>
@@ -1607,7 +1612,7 @@ trailing spaces of a text file.</source>
     <message>
         <location filename="../../predDialog.ui" line="1284"/>
         <source>Action</source>
-        <translation type="unfinished"></translation>
+        <translation>Действие</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="1289"/>
@@ -1648,7 +1653,7 @@ Needs application restart to take effect.</source>
     <message>
         <location filename="../../predDialog.ui" line="163"/>
         <source>Start with side-pane mode</source>
-        <translation type="unfinished"></translation>
+        <translation>Запускать с боковой панелью</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="206"/>
@@ -1829,7 +1834,12 @@ Takes effect after closing this dialog.
 
 Leave empty for:
 MMM dd, yyyy, hh:mm:ss</source>
-        <translation type="unfinished"></translation>
+        <translation>Используется для вставки даты и 
+времени.
+Имеет эффект после закрытия этого
+диалога.
+Оставить пустым для:
+МММ дд, гггг, чч:мм:сс</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="865"/>
@@ -1860,7 +1870,7 @@ if the cursor is inside the text view?</source>
     <message>
         <location filename="../../predDialog.ui" line="1089"/>
         <source>Only if their number is not greater than 50.</source>
-        <translation type="unfinished"></translation>
+        <translation>Только если их число не более 50.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="1179"/>
@@ -1913,17 +1923,17 @@ if the cursor is inside the text view?</source>
     <message>
         <location filename="../../pref.cpp" line="1294"/>
         <source>The typed shortcut was not valid.</source>
-        <translation type="unfinished"></translation>
+        <translation>Введённое сочетание клавиш некорректно.</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="1296"/>
         <source>The typed shortcut was reserved.</source>
-        <translation type="unfinished"></translation>
+        <translation>Введённое сочетание клавиш занято.</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="1488"/>
         <source>Hunspell Dictionary Files (*.dic)</source>
-        <translation type="unfinished"></translation>
+        <translation>Файлы словаря Hunspell (*.dic)</translation>
     </message>
 </context>
 <context>
@@ -1947,12 +1957,12 @@ if the cursor is inside the text view?</source>
     <message>
         <location filename="../../searchbar.cpp" line="88"/>
         <source>Regular Expression</source>
-        <translation type="unfinished"></translation>
+        <translation>Регулярное выражение</translation>
     </message>
     <message>
         <location filename="../../searchbar.cpp" line="120"/>
         <source>Search with regex...</source>
-        <translation type="unfinished"></translation>
+        <translation>Искать с помощью регулярных выражений…</translation>
     </message>
     <message>
         <location filename="../../searchbar.cpp" line="64"/>
@@ -2124,12 +2134,12 @@ windows will be included in the saved session.</source>
     <message>
         <location filename="../../spellDialog.ui" line="25"/>
         <source>Unknown word:</source>
-        <translation type="unfinished"></translation>
+        <translation>Неизвестное слово:</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="51"/>
         <source>Add To Dictionary</source>
-        <translation type="unfinished"></translation>
+        <translation>Добавить в словарь</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="62"/>
@@ -2139,22 +2149,22 @@ windows will be included in the saved session.</source>
     <message>
         <location filename="../../spellDialog.ui" line="129"/>
         <source>Correct Once</source>
-        <translation type="unfinished"></translation>
+        <translation>Исправить один раз</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="142"/>
         <source>Correct All</source>
-        <translation type="unfinished"></translation>
+        <translation>Исправить всё</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="87"/>
         <source>Ignore Once</source>
-        <translation type="unfinished"></translation>
+        <translation>Игнорировать один раз</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="100"/>
         <source>Ignore All</source>
-        <translation type="unfinished"></translation>
+        <translation>Игнорировать всё</translation>
     </message>
 </context>
 <context>
