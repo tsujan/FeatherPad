@@ -1270,7 +1270,7 @@
     <message>
         <location filename="../../predDialog.ui" line="75"/>
         <source>Remember window &amp;size on closing</source>
-        <translation>閉じる時にウィンドウのサイズを記憶(&amp;s)</translation>
+        <translation>閉じる時にウィンドウのサイズを記憶(&amp;S)</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="84"/>
@@ -1306,7 +1306,7 @@ and may not work with some window managers.</source>
     <message>
         <location filename="../../predDialog.ui" line="152"/>
         <source>Remember window &amp;position on closing</source>
-        <translation>閉じる時にウィンドウの位置を記憶(&amp;p)</translation>
+        <translation>閉じる時にウィンドウの位置を記憶(&amp;P)</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="159"/>
@@ -1368,7 +1368,7 @@ KDEにはバグがある可能性があります。
     <message>
         <location filename="../../predDialog.ui" line="228"/>
         <source>Do not show &amp;toolbar</source>
-        <translation>ツールバーを表示しない(&amp;t)</translation>
+        <translation>ツールバーを表示しない(&amp;T)</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="235"/>
@@ -1380,17 +1380,17 @@ a menu button appears on the toolbar.</source>
     <message>
         <location filename="../../predDialog.ui" line="239"/>
         <source>Do not show &amp;menubar</source>
-        <translation>メニューバーを表示しない(&amp;m)</translation>
+        <translation>メニューバーを表示しない(&amp;M)</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="246"/>
         <source>Hide search &amp;bar by default</source>
-        <translation>[既定値] 検索バーを表示しない(&amp;b)</translation>
+        <translation>[既定値] 検索バーを表示しない(&amp;B)</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="253"/>
         <source>Always show st&amp;atus bar</source>
-        <translation>常にステータスバーを表示(&amp;a)</translation>
+        <translation>常にステータスバーを表示(&amp;A)</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="278"/>
@@ -1442,7 +1442,7 @@ Alt+Leftで最後のタブがアクティブにされます。
     <message>
         <location filename="../../predDialog.ui" line="350"/>
         <source>Tab navigation wraps &amp;around</source>
-        <translation>タブのナビゲーションを折り返す(&amp;a)</translation>
+        <translation>タブのナビゲーションを折り返す(&amp;A)</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="357"/>
@@ -1516,7 +1516,7 @@ KDEやLXQtのようなデスクトップ環境は、独自のファイルダイ�
     <message>
         <location filename="../../predDialog.ui" line="476"/>
         <source>Remember &amp;font</source>
-        <translation>フォントを記憶(&amp;f)</translation>
+        <translation>フォントを記憶(&amp;F)</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="483"/>
@@ -1526,7 +1526,7 @@ KDEやLXQtのようなデスクトップ環境は、独自のファイルダイ�
     <message>
         <location filename="../../predDialog.ui" line="490"/>
         <source>Auto-&amp;indent by default</source>
-        <translation>[既定値] 自動インデント(&amp;i)</translation>
+        <translation>[既定値] 自動インデント(&amp;I)</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="497"/>
@@ -1536,7 +1536,7 @@ KDEやLXQtのようなデスクトップ環境は、独自のファイルダイ�
     <message>
         <location filename="../../predDialog.ui" line="500"/>
         <source>Auto-&amp;bracket</source>
-        <translation>自動でカッコを閉じる(&amp;b)</translation>
+        <translation>自動でカッコを閉じる(&amp;B)</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="507"/>
@@ -1553,12 +1553,12 @@ under proper circumstances.</source>
     <message>
         <location filename="../../predDialog.ui" line="519"/>
         <source>Always show line &amp;numbers</source>
-        <translation>常に行番号を表示(&amp;n)</translation>
+        <translation>常に行番号を表示(&amp;N)</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="526"/>
         <source>Highlight s&amp;yntax by default</source>
-        <translation>[既定値] 構文をハイライト表示(&amp;y)</translation>
+        <translation>[既定値] 構文をハイライト表示(&amp;Y)</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="551"/>
@@ -1621,7 +1621,7 @@ the editor font has a fixed pitch (like Monospace).</source>
     <message>
         <location filename="../../predDialog.ui" line="686"/>
         <source>Dark c&amp;olor scheme</source>
-        <translation>暗い色のスキームを使う(&amp;o)</translation>
+        <translation>暗い色のスキームを使う(&amp;O)</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="711"/>
@@ -1724,7 +1724,7 @@ prevents annoying scroll jumps.</source>
     <message>
         <location filename="../../predDialog.ui" line="880"/>
         <source>Workaround for &amp;Qt5&apos;s scroll jump bug</source>
-        <translation>Qt5のスクロールジャンプの不具合を回避( &amp;Q)</translation>
+        <translation>Qt5のスクロールジャンプの不具合を回避(&amp;Q)</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="887"/>
@@ -1793,12 +1793,12 @@ Needs application restart to take effect.</source>
     <message>
         <location filename="../../predDialog.ui" line="1050"/>
         <source>Show recentl&amp;y modified files</source>
-        <translation>最近変更されたファイルを表示(&amp;y)</translation>
+        <translation>最近変更されたファイルを表示(&amp;Y)</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="1080"/>
         <source>Show recentl&amp;y opened files</source>
-        <translation>最近開いたファイルを表示(&amp;y)</translation>
+        <translation>最近開いたファイルを表示(&amp;Y)</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="1089"/>
@@ -2024,7 +2024,7 @@ trailing spaces of a text file.</source>
     <message>
         <location filename="../../searchbar.cpp" line="74"/>
         <source>Match Case</source>
-        <translation>一致した場合</translation>
+        <translation>大文字・小文字の区別</translation>
     </message>
     <message>
         <location filename="../../searchbar.cpp" line="81"/>
@@ -2034,7 +2034,7 @@ trailing spaces of a text file.</source>
     <message>
         <location filename="../../searchbar.cpp" line="88"/>
         <source>Regular Expression</source>
-        <translation type="unfinished"></translation>
+        <translation>正規表現</translation>
     </message>
     <message>
         <location filename="../../searchbar.cpp" line="120"/>
@@ -2144,7 +2144,7 @@ windows will be included in the saved session.</source>
     <message>
         <location filename="../../sessionDialog.ui" line="283"/>
         <source>Re&amp;name</source>
-        <translation>名前を変更(&amp;n)</translation>
+        <translation>名前を変更(&amp;N)</translation>
     </message>
     <message>
         <location filename="../../session.cpp" line="174"/>
