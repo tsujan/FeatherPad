@@ -47,6 +47,10 @@
 #include <QStandardPaths>
 #include <QDesktopServices>
 
+#ifdef Q_OS_MAC
+#include <QCoreApplication>
+#endif
+
 #ifdef HAS_X11
 #include "x11.h"
 #endif
@@ -5113,16 +5117,20 @@ void FPwin::helpDoc()
     if (!langs.isEmpty())
         lang = langs.first().replace ('-', '_');
 
-#ifdef Q_OS_HAIKU
+#if defined (Q_OS_HAIKU)
     QString helpPath (QStringLiteral (DATADIR) + "/help_" + lang);
+#elif defined (Q_OS_MAC)
+    QString helpPath (qApp->applicationDirPath() + QStringLiteral ("/../Resources/") + "/help_" + lang);
 #else
     QString helpPath (QStringLiteral (DATADIR) + "/featherpad/help_" + lang);
 #endif
 
     if (!QFile::exists (helpPath))
     {
-#ifdef Q_OS_HAIKU
+#if defined(Q_OS_HAIKU)
         helpPath =  QStringLiteral (DATADIR) + "/help";
+#elif defined(Q_OS_MAC)
+        helpPath = qApp->applicationDirPath() + QStringLiteral ("/../Resources/") + "/help";
 #else
         helpPath =  QStringLiteral (DATADIR) + "/featherpad/help";
 #endif

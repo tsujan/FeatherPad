@@ -96,8 +96,10 @@ int main (int argc, char **argv)
     singleton.installTranslator (&qtTranslator);
 
     QTranslator FPTranslator;
-#ifdef Q_OS_HAIKU
+#if defined(Q_OS_HAIKU)
     FPTranslator.load ("featherpad_" + lang, "/translations");
+#elif defined(Q_OS_MAC)
+    FPTranslator.load ("featherpad_" + lang, singleton.applicationDirPath() + QStringLiteral ("/../Resources"));
 #else
     FPTranslator.load ("featherpad_" + lang, QStringLiteral (DATADIR) + "/featherpad/translations");
 #endif
