@@ -4,7 +4,7 @@
 
 Files can be dragged and dropped into FeatherPad windows.
 
-Also tabs can be dragged from a window and dropped into another window or outside all FeatherPad windows. In the first case, the dropped tab will appear after the previously active tab; in the second case, a new window containing the dropped tab will be created, i.e. the tab will be detached.
+Also, tabs can be dragged from a window and dropped into another window or outside all FeatherPad windows. In the first case, the dropped tab will appear after the previously active tab; in the second case, a new window containing the dropped tab will be created, i.e. the tab will be detached.
 
 NOTE: Tab DND is enabled only under X11 because, at least, Wayland has a serious issue related to DND.
 
@@ -14,7 +14,7 @@ NOTE: Tab DND is enabled only under X11 because, at least, Wayland has a serious
 
 Tabs can be reordered or detached by the mouse.
 
-If there is more that one tab, each one will have a right-click menu for closing its right or left tabs. With more than one tab, it is also possible to detach the active tab by clicking the related item on the File menu or with Ctrl+T.
+If there is more than one tab, each one will have a right-click menu for closing its right or left tabs. With more than one tab, it is also possible to detach the active tab by clicking the related item on the File menu or with Ctrl+T.
 
 If a file is opened in a tab, the right-click menu of that tab will also contain two items for copying the name and path of the file.
 
@@ -24,7 +24,7 @@ For users' comfort, double clicking on an empty area of the tab-bar creates a ne
 *   File Management   *
 ***********************
 
-If there is a FeatherPad window on the current virtual desktop or viewport, so that more than half of its width as well as its height is visible, files will be opened as new tabs in it; otherwise, a new window will be created. Also when the window on the current desktop/viewport has a modal dialog, another window is created.
+If there is a FeatherPad window on the current virtual desktop or viewport, so that more than half of its width as well as its height is visible, files will be opened as new tabs in it; otherwise, a new window will be created. Also, when the window on the current desktop/viewport has a modal dialog, another window is created.
 
 In this way, FeatherPad is aware of virtual desktops under most Linux desktop environments. However, there are exceptions (like non-X11 environments or Enlightenment).
 
@@ -34,7 +34,7 @@ If a file is opened multiple times, its second (third, ... ) instance will be un
 
 If the opened file is a symbolic link (symlink), the context menu of its tab will have two extra items for copying its target path and opening its target inside the current window.
 
-Executable script files could be run from inside FeatherPad if the corresponding option is enabled in the Preferences dialog. Then also a Run button will appear on the tool bar and the File menu whenever needed. If no terminal command is used to run them, their output and error messages will be shown by a popup dialog.
+Executable script files could be run from inside FeatherPad if the corresponding option is enabled in the Preferences dialog. Then also a Run button will appear on the toolbar and the File menu whenever needed. If no terminal command is used to run them, their output and error messages will be shown by a popup dialog.
 
 FeatherPad remembers recently modified or opened files, depending on which option is enabled in the Preferences dialog. It can also open the files of the last window on a session startup. However, it has a more advanced session manager, which provides the user with options for saving a session and restoring or removing saved sessions at any time and without limit.
 
@@ -105,7 +105,7 @@ The (selected multi-line) text can be tabbed by the Tab key and untabbed by Shif
 
 If Ctrl+Tab is used, the tabulation will be done by 4 spaces instead of a tab (or the number of spaces that is set by the user in the related option of the Preferences dialog).
 
-With Ctrl+Meta+Tab, the text will be tabbed by 2 spaces, while Shift+Meta+Tab is for 2-space untabbing as far as possible
+With Ctrl+Meta+Tab, the text will be tabbed by 2 spaces, while Shift+Meta+Tab is for 2-space untabbing as far as possible.
 
 ********************
 *   Auto-Bracket   *
@@ -113,7 +113,7 @@ With Ctrl+Meta+Tab, the text will be tabbed by 2 spaces, while Shift+Meta+Tab is
 
 With "auto-bracketing" enabled in Preferences, if a left parenthesis, brace, square bracket or double-quote is typed, a right parenthesis, brace, square bracket or double-quote will respectively be inserted after it and the cursor will be moved between them, provided that the next character is not a letter or number. (Although double-quote is not a bracket and has identical left and right signs, it is included in this.)
 
-Also if any part of the text is selected from end to start, typing of a left parenthesis, brace, etc. will add a right one after the selection end, so that the selection will be put inside parentheses, braces, etc.
+Also, if any part of the text is selected from end to start, typing of a left parenthesis, brace, etc. will add a right one after the selection end, so that the selection will be put inside parentheses, braces, etc.
 
 For user convenience, if Enter/Return is pressed after a text selection is auto-bracketed by parentheses "(...)" or braces "{...}", the bracketed text will be put below the left bracket and above the right one.
 
