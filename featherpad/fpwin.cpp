@@ -47,10 +47,6 @@
 #include <QStandardPaths>
 #include <QDesktopServices>
 
-#ifdef Q_OS_MAC
-#include <QCoreApplication>
-#endif
-
 #ifdef HAS_X11
 #include "x11.h"
 #endif
