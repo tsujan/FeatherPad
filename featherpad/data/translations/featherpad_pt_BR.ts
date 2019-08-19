@@ -996,7 +996,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="2777"/>
         <source>Do you want to use &lt;b&gt;MS Windows&lt;/b&gt; end-of-lines?</source>
-        <translation>Você quer usar &lt;b&gt;MS Windows&lt;/b&gt; end-of-lines?</translation>
+        <translation>Você quer usar fim de linha &lt;b&gt;MS Windows&lt;/b&gt;?</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2778"/>
@@ -1182,58 +1182,58 @@
     <message>
         <location filename="../../fontDialog.ui" line="14"/>
         <source>Select Font</source>
-        <translation type="unfinished"></translation>
+        <translation>Fonte Selecionada</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="38"/>
         <source>Programming Fonts</source>
-        <translation type="unfinished"></translation>
+        <translation>Fontes de Programação</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="45"/>
         <location filename="../../fontDialog.ui" line="55"/>
         <source>Font:</source>
-        <translation type="unfinished"></translation>
+        <translation>Fonte:</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="69"/>
         <source>Size:</source>
-        <translation type="unfinished"></translation>
+        <translation>Tamanho:</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="89"/>
         <source>Weight:</source>
-        <translation type="unfinished"></translation>
+        <translation>Peso:</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="103"/>
         <source>Normal</source>
-        <translation type="unfinished"></translation>
+        <translation>Normal</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="108"/>
         <source>Medium</source>
-        <translation type="unfinished"></translation>
+        <translation>Médio</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="113"/>
         <source>Bold</source>
-        <translation type="unfinished"></translation>
+        <translation>Negrito</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="118"/>
         <source>Black</source>
-        <translation type="unfinished"></translation>
+        <translation>Preto</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="126"/>
         <source>Italic</source>
-        <translation type="unfinished"></translation>
+        <translation>Itálico</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="149"/>
         <source>Preview</source>
-        <translation type="unfinished"></translation>
+        <translation>Visualizar</translation>
     </message>
 </context>
 <context>
@@ -1345,12 +1345,13 @@ um botão de menu aparecerá na barra de ferramentas.</translation>
         <location filename="../../predDialog.ui" line="225"/>
         <source>By default, each search entry
 has a separate search history.</source>
-        <translation type="unfinished"></translation>
+        <translation>Por padrão, cada entrada de pesquisa
+tem um histórico de pesquisa separado.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="229"/>
         <source>Use a shared search history</source>
-        <translation type="unfinished"></translation>
+        <translation>Usar um histórico de pesquisa compartilhada</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="236"/>
