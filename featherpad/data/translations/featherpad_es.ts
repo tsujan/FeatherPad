@@ -1346,12 +1346,13 @@ menú aparecerá en la barra de herramientas.</translation>
         <location filename="../../predDialog.ui" line="225"/>
         <source>By default, each search entry
 has a separate search history.</source>
-        <translation type="unfinished"></translation>
+        <translation>Cada entrada de búsqueda tiene un historial
+de búsqueda separado de forma predeterminada.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="229"/>
         <source>Use a shared search history</source>
-        <translation type="unfinished"></translation>
+        <translation>Usar historial de búsqueda compartido</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="236"/>
