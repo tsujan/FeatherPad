@@ -722,7 +722,7 @@
     <message>
         <location filename="../../fp.ui" line="1182"/>
         <source>Check Spelling</source>
-        <translation type="unfinished"></translation>
+        <translation>スペルチェック</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1185"/>
@@ -960,7 +960,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="2358"/>
         <source>Root Instance</source>
-        <translation type="unfinished"></translation>
+        <translation>Root 権限 インスタンス</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2429"/>
@@ -1069,19 +1069,19 @@
     <message>
         <location filename="../../fpwin.cpp" line="4648"/>
         <source>You need to add a Hunspell dictionary.</source>
-        <translation type="unfinished"></translation>
+        <translation>Hunspell 辞書を追加して下さい。</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4649"/>
         <location filename="../../fpwin.cpp" line="4655"/>
         <location filename="../../fpwin.cpp" line="4664"/>
         <source>See Preferences → Text → Spell Checking!</source>
-        <translation type="unfinished"></translation>
+        <translation>設定 → テキスト → スペルチェック を参照して下さい！</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4654"/>
         <source>The Hunspell dictionary does not exist.</source>
-        <translation type="unfinished"></translation>
+        <translation>Hunspell 辞書が存在しません。</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4663"/>
@@ -1100,12 +1100,12 @@
         <location filename="../../fpwin.cpp" line="4705"/>
         <location filename="../../fpwin.cpp" line="4720"/>
         <source>No misspelling from text cursor.</source>
-        <translation type="unfinished"></translation>
+        <translation>テキストのカーソル位置から、スペルミスはありません。</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4732"/>
         <source>Spell Checking</source>
-        <translation type="unfinished"></translation>
+        <translation>スペルチェック</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5072"/>
@@ -1181,28 +1181,28 @@
     <message>
         <location filename="../../fontDialog.ui" line="14"/>
         <source>Select Font</source>
-        <translation type="unfinished"></translation>
+        <translation>フォントの選択</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="38"/>
         <source>Programming Fonts</source>
-        <translation type="unfinished"></translation>
+        <translation>プログラミングのフォント</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="45"/>
         <location filename="../../fontDialog.ui" line="55"/>
         <source>Font:</source>
-        <translation type="unfinished"></translation>
+        <translation>フォント:</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="69"/>
         <source>Size:</source>
-        <translation type="unfinished"></translation>
+        <translation>サイズ:</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="89"/>
         <source>Weight:</source>
-        <translation type="unfinished"></translation>
+        <translation>ウェイト:</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="103"/>
@@ -1217,22 +1217,22 @@
     <message>
         <location filename="../../fontDialog.ui" line="113"/>
         <source>Bold</source>
-        <translation type="unfinished"></translation>
+        <translation>太字</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="118"/>
         <source>Black</source>
-        <translation type="unfinished"></translation>
+        <translation>ブラック</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="126"/>
         <source>Italic</source>
-        <translation type="unfinished"></translation>
+        <translation>斜体</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="149"/>
         <source>Preview</source>
-        <translation type="unfinished"></translation>
+        <translation>プレビュー</translation>
     </message>
 </context>
 <context>
@@ -1698,7 +1698,7 @@ prevents annoying scroll jumps.</source>
     <message>
         <location filename="../../predDialog.ui" line="870"/>
         <source>Spell Checking</source>
-        <translation type="unfinished"></translation>
+        <translation>スペルチェック</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="878"/>
@@ -1711,13 +1711,13 @@ name but ending with &quot;.aff&quot;.</source>
     <message>
         <location filename="../../predDialog.ui" line="883"/>
         <source>Hunspell dictionary path:</source>
-        <translation type="unfinished"></translation>
+        <translation>Hunspell 辞書のパス:</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="902"/>
         <location filename="../../pref.cpp" line="1460"/>
         <source>Add dictionary...</source>
-        <translation type="unfinished"></translation>
+        <translation>辞書の追加...</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="914"/>
@@ -1728,7 +1728,7 @@ will be started from the document start.</source>
     <message>
         <location filename="../../predDialog.ui" line="918"/>
         <source>Start spell checking from text cursor</source>
-        <translation type="unfinished"></translation>
+        <translation>テキストカーソルからスペルチェックを開始する</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="952"/>
@@ -1967,7 +1967,7 @@ trailing spaces of a text file.</source>
     <message>
         <location filename="../../pref.cpp" line="1462"/>
         <source>Hunspell Dictionary Files (*.dic)</source>
-        <translation type="unfinished"></translation>
+        <translation>Hunspell 辞書ファイル (*.dic)</translation>
     </message>
 </context>
 <context>
@@ -2006,7 +2006,7 @@ trailing spaces of a text file.</source>
     <message>
         <location filename="../../searchbar.cpp" line="120"/>
         <source>Search with regex...</source>
-        <translation type="unfinished"></translation>
+        <translation>正規表現で検索...</translation>
     </message>
 </context>
 <context>
@@ -2167,17 +2167,17 @@ windows will be included in the saved session.</source>
     <message>
         <location filename="../../spellDialog.ui" line="25"/>
         <source>Unknown word:</source>
-        <translation type="unfinished"></translation>
+        <translation>未知の単語:</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="51"/>
         <source>Add To Dictionary</source>
-        <translation type="unfinished"></translation>
+        <translation>辞書に追加</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="62"/>
         <source>Replace with:</source>
-        <translation type="unfinished">置換する文字列:</translation>
+        <translation>置換する文字列:</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="129"/>
