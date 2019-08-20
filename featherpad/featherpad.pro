@@ -157,7 +157,7 @@ else:haiku {
 else:macx{
   #VARIABLES
   isEmpty(PREFIX) {
-    PREFIX = /Applications/
+    PREFIX = /Applications
   }
   BINDIR = $$PREFIX
   DATADIR = "$$BINDIR/$$TARGET".app
@@ -168,11 +168,11 @@ else:macx{
 
   target.path =$$BINDIR
 
-  help.path = $$DATADIR/featherpad
+  help.path = $$DATADIR/Contents/Resources/
   help.files += ./data/help
-  help.files += ./data/help_*
+  help.files += ./data/helps/help_*
 
-  trans.path = $$DATADIR/featherpad
+  trans.path = $$DATADIR/Contents/Resources/
   trans.files += data/translations/translations
 
   INSTALLS += target help trans
