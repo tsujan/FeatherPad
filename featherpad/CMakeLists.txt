@@ -3,8 +3,6 @@ set(HUNSPELL_MINIMUM_VERSION "1.6")
 
 set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${CMAKE_SOURCE_DIR}/cmake/Modules/")
 
-include_directories(/usr/local/include/)
-
 find_package(Qt5Core "${QT_MINIMUM_VERSION}" REQUIRED)
 find_package(Qt5Gui "${QT_MINIMUM_VERSION}" REQUIRED)
 find_package(Qt5Widgets "${QT_MINIMUM_VERSION}" REQUIRED)
