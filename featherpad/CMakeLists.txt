@@ -58,8 +58,6 @@ endif()
 
 if(HAIKU)
   add_definitions(-DDATADIR="${CMAKE_INSTALL_PREFIX}/data")
-elseif(APPLE)
-  #add_definitions(-DDATADIR="${CMAKE_INSTALL_PREFIX}/${PROJECT_NAME}.app")
 elseif(UNIX)
   add_definitions(-DDATADIR="${CMAKE_INSTALL_PREFIX}/share")
 endif()
