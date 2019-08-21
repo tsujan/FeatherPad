@@ -1008,12 +1008,12 @@
     <message>
         <location filename="../../fpwin.cpp" line="2777"/>
         <source>Do you want to use &lt;b&gt;MS Windows&lt;/b&gt; end-of-lines?</source>
-        <translation>Windowsの改行コード(CR LF)を使いますか？</translation>
+        <translation>&lt;b&gt;MS Windows&lt;/b&gt; の改行コード(CR LF)を使いますか？</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2778"/>
         <source>This may be good for readability under MS Windows.</source>
-        <translation>これにより、Windowsで文章が読みやすくなります。</translation>
+        <translation>これにより、MS Windows で文章が読みやすくなります。</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2887"/>
@@ -1086,14 +1086,14 @@
     <message>
         <location filename="../../fpwin.cpp" line="4663"/>
         <source>The Hunspell dictionary is not accompanied by an affix file.</source>
-        <translation type="unfinished"></translation>
+        <translation>Hunspell 辞書に付属ファイルがありません。</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4685"/>
         <location filename="../../fpwin.cpp" line="4703"/>
         <location filename="../../fpwin.cpp" line="4718"/>
         <source>No misspelling in document.</source>
-        <translation type="unfinished"></translation>
+        <translation>文書にスペルミスはありません。</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4687"/>
@@ -1207,12 +1207,12 @@
     <message>
         <location filename="../../fontDialog.ui" line="103"/>
         <source>Normal</source>
-        <translation type="unfinished">ノーマル</translation>
+        <translation>ノーマル</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="108"/>
         <source>Medium</source>
-        <translation type="unfinished"></translation>
+        <translation>ミディアム</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="113"/>
@@ -1349,12 +1349,13 @@ a menu button appears on the toolbar.</source>
         <location filename="../../predDialog.ui" line="225"/>
         <source>By default, each search entry
 has a separate search history.</source>
-        <translation type="unfinished"></translation>
+        <translation>デフォルトでは、各検索エントリには
+個別の検索履歴があります。</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="229"/>
         <source>Use a shared search history</source>
-        <translation type="unfinished"></translation>
+        <translation>検索履歴を共有する</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="236"/>
@@ -1440,8 +1441,8 @@ current desktop, files will be opened in its tabs.
 
 However, some desktop environments may not
 report that they have multiple desktops.</source>
-        <translation>規定: ファイルは現在のデスクトップで、
-FeatherPadのウィンドウのタブとして開かれます。
+        <translation>既定: ファイルは現在のデスクトップで、
+FeatherPad のウィンドウのタブとして開かれます。
 
 ただし、複数の（仮想）デスクトップを持つ、
 デスクトップ環境もあります。</translation>
@@ -1512,12 +1513,14 @@ KDEやLXQtのようなデスクトップ環境は、独自のファイルダイ�
         <source>By default, a triple period is replaced with an ellipsis
 and a double hyphen with a long dash while typing,
 under proper circumstances.</source>
-        <translation type="unfinished"></translation>
+        <translation>デフォルトでは、適切な状況の下で入力中に、
+３個のピリオド(...)が３点リーダー(…)に置き換えられ、
+２個のハイフン(--)が長いダッシュ(—)に置き換えられます。</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="495"/>
         <source>Replace triple periods and double hyphens while typing</source>
-        <translation type="unfinished"></translation>
+        <translation>入力中に３個のピリオドと２個のハイフンを置換する</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="502"/>
@@ -1706,7 +1709,9 @@ prevents annoying scroll jumps.</source>
         <source>A Hunspell dictionary has a name that ends with &quot;.dic&quot;
 and should be alongside an affix file with the same
 name but ending with &quot;.aff&quot;.</source>
-        <translation type="unfinished"></translation>
+        <translation>Hunspell 辞書は、&quot;.dic&quot; で終わる名前と
+&quot;.aff&quot; で終わる同じ名前の付属ファイルを
+一緒にする必要があります。</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="883"/>
@@ -1723,7 +1728,8 @@ name but ending with &quot;.aff&quot;.</source>
         <location filename="../../predDialog.ui" line="914"/>
         <source>If this is unchecked, spell checking
 will be started from the document start.</source>
-        <translation type="unfinished"></translation>
+        <translation>チェックをオフにした場合、
+スペルチェックは文書の先頭から開始されます。</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="918"/>
@@ -2019,7 +2025,7 @@ trailing spaces of a text file.</source>
     <message>
         <location filename="../../sessionDialog.ui" line="33"/>
         <source>&lt;b&gt;Save/Restore Session&lt;/b&gt;</source>
-        <translation>セッションの保存/復元</translation>
+        <translation>&lt;b&gt;セッションの保存/復元&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="56"/>
@@ -2090,7 +2096,7 @@ windows will be included in the saved session.</source>
     <message>
         <location filename="../../sessionDialog.ui" line="180"/>
         <source>&lt;b&gt;Warning&lt;/b&gt;</source>
-        <translation>警告</translation>
+        <translation>&lt;b&gt;警告&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="226"/>
@@ -2182,22 +2188,22 @@ windows will be included in the saved session.</source>
     <message>
         <location filename="../../spellDialog.ui" line="129"/>
         <source>Correct Once</source>
-        <translation type="unfinished"></translation>
+        <translation>１つ置換</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="142"/>
         <source>Correct All</source>
-        <translation type="unfinished"></translation>
+        <translation>すべて置換</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="87"/>
         <source>Ignore Once</source>
-        <translation type="unfinished"></translation>
+        <translation>１つ無視</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="100"/>
         <source>Ignore All</source>
-        <translation type="unfinished"></translation>
+        <translation>すべて無視</translation>
     </message>
 </context>
 <context>
