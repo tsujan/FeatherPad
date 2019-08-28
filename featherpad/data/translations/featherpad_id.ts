@@ -505,12 +505,12 @@
     <message>
         <location filename="../../fp.ui" line="1182"/>
         <source>Check Spelling</source>
-        <translation type="unfinished"></translation>
+        <translation>Periksa Ejaan</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1185"/>
         <source>F2</source>
-        <translation type="unfinished"></translation>
+        <translation>F2</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="989"/>
@@ -887,12 +887,12 @@
     <message>
         <location filename="../../fpwin.cpp" line="1393"/>
         <source>Open Link</source>
-        <translation type="unfinished"></translation>
+        <translation>Buka Tautan</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1406"/>
         <source>Copy Link</source>
-        <translation type="unfinished"></translation>
+        <translation>Salin Tautan</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1573"/>
@@ -1068,43 +1068,43 @@
     <message>
         <location filename="../../fpwin.cpp" line="4648"/>
         <source>You need to add a Hunspell dictionary.</source>
-        <translation type="unfinished"></translation>
+        <translation>Anda perlu menambahkan kamus Hunspell.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4649"/>
         <location filename="../../fpwin.cpp" line="4655"/>
         <location filename="../../fpwin.cpp" line="4664"/>
         <source>See Preferences → Text → Spell Checking!</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Lihat Preferensi → Teks → Pengecekan Ejaan!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4654"/>
         <source>The Hunspell dictionary does not exist.</source>
-        <translation type="unfinished"></translation>
+        <translation>Kamus Hunspell tidak ditemukan.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4663"/>
         <source>The Hunspell dictionary is not accompanied by an affix file.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Kamus Hunspell tidak disertai dengan file imbuhan.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4685"/>
         <location filename="../../fpwin.cpp" line="4703"/>
         <location filename="../../fpwin.cpp" line="4718"/>
         <source>No misspelling in document.</source>
-        <translation type="unfinished"></translation>
+        <translation>Tidak ada kesalahan ejaan dalam dokumen.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4687"/>
         <location filename="../../fpwin.cpp" line="4705"/>
         <location filename="../../fpwin.cpp" line="4720"/>
         <source>No misspelling from text cursor.</source>
-        <translation type="unfinished"></translation>
+        <translation>Tidak ada kesalahan ejaan dalam kursor teks.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4732"/>
         <source>Spell Checking</source>
-        <translation type="unfinished"></translation>
+        <translation>Pemeriksaan Ejaan</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5076"/>
@@ -1180,58 +1180,58 @@
     <message>
         <location filename="../../fontDialog.ui" line="14"/>
         <source>Select Font</source>
-        <translation type="unfinished"></translation>
+        <translation>Pilih Fonta</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="38"/>
         <source>Programming Fonts</source>
-        <translation type="unfinished"></translation>
+        <translation>Fonta Pemrograman</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="45"/>
         <location filename="../../fontDialog.ui" line="55"/>
         <source>Font:</source>
-        <translation type="unfinished"></translation>
+        <translation>Fonta:</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="69"/>
         <source>Size:</source>
-        <translation type="unfinished"></translation>
+        <translation>Ukuran:</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="89"/>
         <source>Weight:</source>
-        <translation type="unfinished"></translation>
+        <translation>Tebal:</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="103"/>
         <source>Normal</source>
-        <translation type="unfinished"></translation>
+        <translation>Normal</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="108"/>
         <source>Medium</source>
-        <translation type="unfinished"></translation>
+        <translation>Sedang</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="113"/>
         <source>Bold</source>
-        <translation type="unfinished"></translation>
+        <translation>Tebal</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="118"/>
         <source>Black</source>
-        <translation type="unfinished"></translation>
+        <translation>Hitam</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="126"/>
         <source>Italic</source>
-        <translation type="unfinished"></translation>
+        <translation>Miring</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="149"/>
         <source>Preview</source>
-        <translation type="unfinished"></translation>
+        <translation>Preview</translation>
     </message>
 </context>
 <context>
@@ -1340,12 +1340,13 @@ a menu button appears on the toolbar.</source>
         <location filename="../../predDialog.ui" line="225"/>
         <source>By default, each search entry
 has a separate search history.</source>
-        <translation type="unfinished"></translation>
+        <translation>Secara default, setiap entri pencarian
+memiliki riwayat pencarian yang terpisah.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="229"/>
         <source>Use a shared search history</source>
-        <translation type="unfinished"></translation>
+        <translation>Gunakan riwayat pencarian bersama</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="236"/>
@@ -1458,7 +1459,9 @@ Some desktop environments, like KDE and LXQt, provide files dialogs.</source>
         <source>By default, a triple period is replaced with an ellipsis
 and a double hyphen with a long dash while typing,
 under proper circumstances.</source>
-        <translation type="unfinished"></translation>
+        <translation>Secara default, tiga periode diganti dengan elipsis
+dan tanda hubung ganda dengan tanda hubung panjang saat mengetik,
+dalam kondisi yang tepat.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="495"/>
