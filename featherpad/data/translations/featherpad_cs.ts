@@ -23,23 +23,24 @@
         <location filename="../../fpwin.cpp" line="3131"/>
         <location filename="../../fpwin.cpp" line="3829"/>
         <source>Untitled</source>
-        <translation></translation>
+        <translation>Bez názvu</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="71"/>
         <source>Go to line:</source>
-        <translation></translation>
+        <translation>Přejít na řádek:</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="107"/>
         <source>Select text from cursor to this line
 (Ctrl+Shift+J)</source>
-        <translation></translation>
+        <translation>Vybrat text od pozice kurzoru po
+tento řádek (Ctrl+Shift+J)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="111"/>
         <source>Select Text</source>
-        <translation></translation>
+        <translation>Vybrat text</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="114"/>
@@ -49,66 +50,66 @@
     <message>
         <location filename="../../fp.ui" line="149"/>
         <source>&amp;File</source>
-        <translation></translation>
+        <translation>&amp;Soubor</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="188"/>
         <location filename="../../fp.ui" line="975"/>
         <source>&amp;Edit</source>
-        <translation></translation>
+        <translation>&amp;Upravit</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="214"/>
         <source>&amp;Options</source>
-        <translation></translation>
+        <translation>M&amp;ožnosti</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1281"/>
         <location filename="../../fpwin.cpp" line="2529"/>
         <location filename="../../fpwin.cpp" line="3652"/>
         <source>Encoding</source>
-        <translation></translation>
+        <translation>Znaková sada</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="277"/>
         <source>&amp;Search</source>
-        <translation></translation>
+        <translation>&amp;Hledat</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="285"/>
         <location filename="../../fp.ui" line="741"/>
         <source>&amp;Help</source>
-        <translation></translation>
+        <translation>&amp;Nápověda</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="385"/>
         <source>Find:</source>
-        <translation></translation>
+        <translation>Najít:</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="401"/>
         <source>To be replaced</source>
-        <translation></translation>
+        <translation>Co má být nahrazeno</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="414"/>
         <source>Replace with:</source>
-        <translation></translation>
+        <translation>Čím nahradit:</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="430"/>
         <source>Replacing text</source>
-        <translation></translation>
+        <translation>Text je nahrazován</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="489"/>
         <source>&amp;New</source>
-        <translation></translation>
+        <translation>&amp;Nové</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="492"/>
         <source>New tab</source>
-        <translation></translation>
+        <translation>Nový panel</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="495"/>
@@ -118,12 +119,12 @@
     <message>
         <location filename="../../fp.ui" line="500"/>
         <source>&amp;Open</source>
-        <translation></translation>
+        <translation>&amp;Otevřít</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="503"/>
         <source>Open a file</source>
-        <translation></translation>
+        <translation>Otevřít soubor</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="506"/>
@@ -133,12 +134,12 @@
     <message>
         <location filename="../../fp.ui" line="514"/>
         <source>&amp;Save</source>
-        <translation></translation>
+        <translation>&amp;Uložit</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="517"/>
         <source>Save the current tab</source>
-        <translation></translation>
+        <translation>Uložit stávající panel</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="520"/>
@@ -148,12 +149,12 @@
     <message>
         <location filename="../../fp.ui" line="528"/>
         <source>&amp;Undo</source>
-        <translation></translation>
+        <translation>&amp;Zpět</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="531"/>
         <source>Undo</source>
-        <translation></translation>
+        <translation>Zpět</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="534"/>
@@ -163,12 +164,12 @@
     <message>
         <location filename="../../fp.ui" line="542"/>
         <source>&amp;Redo</source>
-        <translation></translation>
+        <translation>&amp;Zopakovat</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="545"/>
         <source>Redo</source>
-        <translation></translation>
+        <translation>Zopakovat</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="548"/>
@@ -179,7 +180,7 @@
         <location filename="../../fp.ui" line="556"/>
         <location filename="../../fp.ui" line="559"/>
         <source>Reload</source>
-        <translation></translation>
+        <translation>Načíst znovu</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="562"/>
@@ -189,7 +190,7 @@
     <message>
         <location filename="../../fp.ui" line="567"/>
         <source>&amp;Find</source>
-        <translation></translation>
+        <translation>&amp;Najít</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="573"/>
@@ -199,7 +200,7 @@
     <message>
         <location filename="../../fp.ui" line="581"/>
         <source>Show/hide replacement dock</source>
-        <translation></translation>
+        <translation>Zobrazit/skrýt dok nahrazení</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="584"/>
@@ -209,7 +210,7 @@
     <message>
         <location filename="../../fp.ui" line="589"/>
         <source>Save &amp;As</source>
-        <translation></translation>
+        <translation>Uložit j&amp;ako</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="592"/>
@@ -219,7 +220,7 @@
     <message>
         <location filename="../../fp.ui" line="597"/>
         <source>&amp;Print</source>
-        <translation></translation>
+        <translation>&amp;Tisk</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="600"/>
@@ -229,7 +230,7 @@
     <message>
         <location filename="../../fp.ui" line="605"/>
         <source>Documen&amp;t Properties</source>
-        <translation></translation>
+        <translation>Vlastnosti dokumen&amp;tu</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="608"/>
@@ -239,7 +240,7 @@
     <message>
         <location filename="../../fp.ui" line="613"/>
         <source>&amp;Close</source>
-        <translation></translation>
+        <translation>&amp;Zavřít</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="616"/>
@@ -249,7 +250,7 @@
     <message>
         <location filename="../../fp.ui" line="621"/>
         <source>&amp;Quit</source>
-        <translation></translation>
+        <translation>&amp;Ukončit</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="624"/>
@@ -259,7 +260,7 @@
     <message>
         <location filename="../../fp.ui" line="632"/>
         <source>&amp;Cut</source>
-        <translation></translation>
+        <translation>&amp;Vyjmout</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="635"/>
@@ -269,7 +270,7 @@
     <message>
         <location filename="../../fp.ui" line="643"/>
         <source>C&amp;opy</source>
-        <translation></translation>
+        <translation>Zk&amp;opírovat</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="646"/>
@@ -279,7 +280,7 @@
     <message>
         <location filename="../../fp.ui" line="651"/>
         <source>&amp;Paste</source>
-        <translation></translation>
+        <translation>&amp;Vložit</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="654"/>
@@ -289,12 +290,12 @@
     <message>
         <location filename="../../fp.ui" line="662"/>
         <source>&amp;Delete</source>
-        <translation></translation>
+        <translation>&amp;Smazat</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="667"/>
         <source>&amp;Select All</source>
-        <translation></translation>
+        <translation>&amp;Vybrat vše</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="670"/>
@@ -304,12 +305,12 @@
     <message>
         <location filename="../../fp.ui" line="675"/>
         <source>&amp;Font</source>
-        <translation></translation>
+        <translation>&amp;Písmo</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="683"/>
         <source>&amp;Line Numbers</source>
-        <translation></translation>
+        <translation>Čís&amp;la řádků</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="686"/>
@@ -319,7 +320,7 @@
     <message>
         <location filename="../../fp.ui" line="697"/>
         <source>&amp;Wrap Lines</source>
-        <translation></translation>
+        <translation>&amp;Zalamovat řádky</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="700"/>
@@ -329,7 +330,7 @@
     <message>
         <location filename="../../fp.ui" line="711"/>
         <source>&amp;Auto-Indentation</source>
-        <translation></translation>
+        <translation>&amp;Automatické odsazování</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="714"/>
@@ -339,7 +340,7 @@
     <message>
         <location filename="../../fp.ui" line="725"/>
         <source>&amp;Syntax Highlighting</source>
-        <translation></translation>
+        <translation>Zvýrazňování &amp;syntaxe</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="728"/>
@@ -349,7 +350,7 @@
     <message>
         <location filename="../../fp.ui" line="733"/>
         <source>&amp;Preferences</source>
-        <translation></translation>
+        <translation>&amp;Předvolby</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="736"/>
@@ -364,27 +365,27 @@
     <message>
         <location filename="../../fp.ui" line="749"/>
         <source>&amp;About</source>
-        <translation></translation>
+        <translation>O &amp;aplikaci</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="776"/>
         <source>Enforce UTF-8</source>
-        <translation></translation>
+        <translation>Vynutit UTF-8</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="959"/>
         <source>Save with &amp;Encoding</source>
-        <translation></translation>
+        <translation>Uložit s&amp;e znakovou sadou</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="964"/>
         <source>&amp;Jump to</source>
-        <translation></translation>
+        <translation>&amp;Přeskočit na</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="967"/>
         <source>Show/hide jump bar</source>
-        <translation></translation>
+        <translation>Zobrazit/skrýt pruh poskočení</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="970"/>
@@ -394,7 +395,7 @@
     <message>
         <location filename="../../fp.ui" line="978"/>
         <source>Edit text</source>
-        <translation></translation>
+        <translation>Upravit text</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="981"/>
@@ -404,7 +405,7 @@
     <message>
         <location filename="../../fp.ui" line="1084"/>
         <source>&amp;Run</source>
-        <translation></translation>
+        <translation>&amp;Spustit</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1090"/>
@@ -414,22 +415,22 @@
     <message>
         <location filename="../../fp.ui" line="1095"/>
         <source>&amp;Clear</source>
-        <translation></translation>
+        <translation>&amp;Vyčistit</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1098"/>
         <source>Clear the list of recently modified files</source>
-        <translation></translation>
+        <translation>Vyčistit seznam nedávnou změněných souborů</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1103"/>
         <source>Save/Restore Session</source>
-        <translation></translation>
+        <translation>Uložit/obnovit sezení</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1106"/>
         <source>Sa&amp;ve/Restore Session</source>
-        <translation></translation>
+        <translation>Uložit/obnovit &amp;relaci</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1109"/>
@@ -439,7 +440,7 @@
     <message>
         <location filename="../../fp.ui" line="1114"/>
         <source>Side-Pane</source>
-        <translation></translation>
+        <translation>Boční podokno</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1117"/>
@@ -449,7 +450,7 @@
     <message>
         <location filename="../../fp.ui" line="1122"/>
         <source>Paste Date and Time</source>
-        <translation></translation>
+        <translation>Vložit datum a čas</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1125"/>
@@ -460,7 +461,7 @@
         <location filename="../../fp.ui" line="1130"/>
         <location filename="../../fp.ui" line="1133"/>
         <source>To Upper Case</source>
-        <translation></translation>
+        <translation>Na velká písmena</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1136"/>
@@ -471,7 +472,7 @@
         <location filename="../../fp.ui" line="1141"/>
         <location filename="../../fp.ui" line="1144"/>
         <source>To Lower Case</source>
-        <translation></translation>
+        <translation>Na malá písmena</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1147"/>
@@ -482,7 +483,7 @@
         <location filename="../../fp.ui" line="1155"/>
         <location filename="../../fp.ui" line="1158"/>
         <source>Last Active Tab</source>
-        <translation></translation>
+        <translation>Minule aktivní panel</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1161"/>
@@ -493,28 +494,28 @@
         <location filename="../../fp.ui" line="1166"/>
         <location filename="../../fp.ui" line="1169"/>
         <source>Sort Lines</source>
-        <translation></translation>
+        <translation>Seřadit řádky</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1174"/>
         <location filename="../../fp.ui" line="1177"/>
         <source>Sort Lines Reversely</source>
-        <translation></translation>
+        <translation>Seřadit řádky pozpátku</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1182"/>
         <source>Check Spelling</source>
-        <translation type="unfinished"></translation>
+        <translation>Zkontrolovat pravopis</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1185"/>
         <source>F2</source>
-        <translation type="unfinished"></translation>
+        <translation>F2</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="989"/>
         <source>&amp;Detach Tab</source>
-        <translation></translation>
+        <translation>O&amp;dpojit panel</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="992"/>
@@ -524,62 +525,62 @@
     <message>
         <location filename="../../fp.ui" line="1005"/>
         <source>Close Ne&amp;xt Tabs</source>
-        <translation></translation>
+        <translation>&amp;Zavřít panely napravo</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1010"/>
         <source>Close &amp;Previous Tabs</source>
-        <translation></translation>
+        <translation>Zavřít &amp;panely nalevo</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1038"/>
         <source>Ne&amp;xt Tab</source>
-        <translation></translation>
+        <translation>&amp;Následující panel</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1049"/>
         <source>Previous Ta&amp;b</source>
-        <translation></translation>
+        <translation>&amp;Předchozí panel</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1087"/>
         <source>Execute</source>
-        <translation></translation>
+        <translation>Vykonat</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1015"/>
         <source>Close &amp;All Tabs</source>
-        <translation></translation>
+        <translation>Z&amp;avřít všechny panely</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="153"/>
         <source>Recently &amp;Modified</source>
-        <translation></translation>
+        <translation>Nedávno z&amp;měněné</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="218"/>
         <source>&amp;Encoding</source>
-        <translation></translation>
+        <translation>&amp;Znaková sada</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="222"/>
         <source>&amp;Unicode</source>
-        <translation></translation>
+        <translation>&amp;Univerzální kódování</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="229"/>
         <source>&amp;Western European</source>
-        <translation></translation>
+        <translation>&amp;Západoevropské</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="237"/>
         <source>&amp;East European</source>
-        <translation></translation>
+        <translation>&amp;Východoevropské</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="245"/>
         <source>Ea&amp;st Asian</source>
-        <translation></translation>
+        <translation>Východoa&amp;sijské</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="337"/>
@@ -587,27 +588,27 @@
         <location filename="../../replace.cpp" line="62"/>
         <location filename="../../replace.cpp" line="115"/>
         <source>Rep&amp;lacement</source>
-        <translation></translation>
+        <translation>&amp;Nahrazení</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="570"/>
         <source>Focus/hide search bar</source>
-        <translation></translation>
+        <translation>Zaměřit/skrýt pruh hledání</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="578"/>
         <source>&amp;Replace</source>
-        <translation></translation>
+        <translation>Nah&amp;radit</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="760"/>
         <source>Windows Arabic (&amp;CP1256)</source>
-        <translation></translation>
+        <translation>Windows arabské (&amp;CP1256)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="768"/>
         <source>&amp;Other</source>
-        <translation></translation>
+        <translation>&amp;Ostatní</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="787"/>
@@ -632,67 +633,67 @@
     <message>
         <location filename="../../fp.ui" line="831"/>
         <source>&amp;Cyrillic (CP1251)</source>
-        <translation></translation>
+        <translation>&amp;Cyrilice (CP1251)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="842"/>
         <source>Cyrillic (&amp;KOI8-U)</source>
-        <translation></translation>
+        <translation>Cyrilice (&amp;KOI8-U)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="853"/>
         <source>Cyrillic (&amp;ISO-8859-5)</source>
-        <translation></translation>
+        <translation>Cyrilice (&amp;ISO-8859-5)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="864"/>
         <source>&amp;Chinese (BIG5)</source>
-        <translation></translation>
+        <translation>čí&amp;nština (BIG5)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="875"/>
         <source>Chinese (&amp;GB18030)</source>
-        <translation></translation>
+        <translation>čínština (&amp;GB18030)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="886"/>
         <source>&amp;Japanese (ISO-2022-JP)</source>
-        <translation></translation>
+        <translation>&amp;japonština (ISO-2022-JP)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="897"/>
         <source>Japanese (&amp;ISO-2022-JP-2)</source>
-        <translation></translation>
+        <translation>japonština (&amp;ISO-2022-JP-2)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="908"/>
         <source>Japanese (ISO-&amp;2022-KR)</source>
-        <translation></translation>
+        <translation>japonština (ISO-&amp;2022-KR)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="919"/>
         <source>Ja&amp;panese (CP932)</source>
-        <translation></translation>
+        <translation>ja&amp;ponština (CP932)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="930"/>
         <source>Japa&amp;nese (EUC-JP)</source>
-        <translation></translation>
+        <translation>japo&amp;nština (EUC-JP)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="938"/>
         <source>&amp;Korean (CP949)</source>
-        <translation></translation>
+        <translation>&amp;korejština (CP949)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="946"/>
         <source>K&amp;orean (CP1361)</source>
-        <translation></translation>
+        <translation>k&amp;orejština (CP1361)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="954"/>
         <source>Korean (&amp;EUC-KR)</source>
-        <translation></translation>
+        <translation>korejština (&amp;EUC-KR)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1000"/>
@@ -702,125 +703,126 @@
     <message>
         <location filename="../../fp.ui" line="1020"/>
         <source>Close &amp;Other Tabs</source>
-        <translation></translation>
+        <translation>Zavřít &amp;ostatní panely</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1025"/>
         <source>&amp;Copy File Name</source>
-        <translation></translation>
+        <translation>&amp;zkopírovat název souboru</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1030"/>
         <source>Copy File &amp;Path</source>
-        <translation></translation>
+        <translation>Zkopírovat &amp;popis umístění souboru</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1041"/>
         <source>Alt+Right</source>
-        <translation></translation>
+        <translation>Alt+šipka doprava</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1052"/>
         <source>Alt+Left</source>
-        <translation></translation>
+        <translation>Alt+šipka vlevo</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1060"/>
         <source>&amp;First Tab</source>
-        <translation></translation>
+        <translation>&amp;První panel</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1063"/>
         <source>Alt+Down</source>
-        <translation></translation>
+        <translation>Alt+šipka dolů</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1071"/>
         <source>&amp;Last Tab</source>
-        <translation></translation>
+        <translation>&amp;Poslední panel</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1074"/>
         <source>Alt+Up</source>
-        <translation></translation>
+        <translation>Alt+šipka nahoru</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1079"/>
         <source>Menu</source>
-        <translation></translation>
+        <translation>Nabídka</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="99"/>
         <source>Calculate number of words
 (For huge texts, this may be CPU-intensive.)</source>
-        <translation></translation>
+        <translation>Spočítat počet slov
+(V případě rozsáhlých textů toto může způsobit vysoké vytížení procesoru.)</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="114"/>
         <source>Next</source>
-        <translation></translation>
+        <translation>Další</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="115"/>
         <source>Previous</source>
-        <translation></translation>
+        <translation>Předchozí</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="116"/>
         <source>Replace all</source>
-        <translation></translation>
+        <translation>Nahradit vše</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="542"/>
         <source>&amp;Recently Opened</source>
-        <translation></translation>
+        <translation>&amp;Nedávno otevřeno</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1669"/>
         <source>Close</source>
-        <translation></translation>
+        <translation>Zavřít</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1052"/>
         <source>Save changes?</source>
-        <translation></translation>
+        <translation>Uložit změny?</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="777"/>
         <source>Please attend to that window or just close its dialog!</source>
-        <translation></translation>
+        <translation>Přejděte prosím do tohoto okna nebo zavřete jeho dialog!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1056"/>
         <source>The document has been modified.</source>
-        <translation></translation>
+        <translation>Dokument byl změněn.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1066"/>
         <source>Save</source>
-        <translation></translation>
+        <translation>Uložit</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1067"/>
         <source>Discard changes</source>
-        <translation></translation>
+        <translation>Zahodit změny</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1068"/>
         <location filename="../../fpwin.cpp" line="2776"/>
         <source>Cancel</source>
-        <translation></translation>
+        <translation>Storno</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1070"/>
         <source>No to all</source>
-        <translation></translation>
+        <translation>Ne všemu</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1263"/>
         <location filename="../../fpwin.cpp" line="1320"/>
         <source>Unsaved</source>
-        <translation></translation>
+        <translation>Neuloženo</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1282"/>
@@ -833,185 +835,185 @@
         <location filename="../../fpwin.cpp" line="5013"/>
         <location filename="../../fpwin.cpp" line="5020"/>
         <source>Lines</source>
-        <translation></translation>
+        <translation>Řádky</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1283"/>
         <location filename="../../fpwin.cpp" line="3657"/>
         <location filename="../../fpwin.cpp" line="3671"/>
         <source>Sel. Chars</source>
-        <translation></translation>
+        <translation>Vybr. znaky</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1284"/>
         <location filename="../../fpwin.cpp" line="3659"/>
         <location filename="../../fpwin.cpp" line="3672"/>
         <source>Words</source>
-        <translation></translation>
+        <translation>Slova</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1572"/>
         <source>Another process is running in this tab!</source>
-        <translation></translation>
+        <translation>V tomto panelu je spuštěný jiný proces!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1660"/>
         <source>Script File</source>
-        <translation></translation>
+        <translation>Soubor se skriptem</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="776"/>
         <source>Another FeatherPad window has a modal dialog!</source>
-        <translation></translation>
+        <translation>Jiné okno FeatherPad má modální dialog!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="661"/>
         <location filename="../../fpwin.cpp" line="3698"/>
         <source>Position:</source>
-        <translation></translation>
+        <translation>Pozice:</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="708"/>
         <location filename="../../fpwin.cpp" line="3716"/>
         <location filename="../../fpwin.cpp" line="3736"/>
         <source>Normal</source>
-        <translation></translation>
+        <translation>Normální</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1054"/>
         <location filename="../../fpwin.cpp" line="2306"/>
         <source>The file does not exist.</source>
-        <translation></translation>
+        <translation>Soubor neexistuje.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1393"/>
         <source>Open Link</source>
-        <translation type="unfinished"></translation>
+        <translation>Otevřít odkaz</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1406"/>
         <source>Copy Link</source>
-        <translation type="unfinished"></translation>
+        <translation>Zkopírovat odkaz</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1573"/>
         <source>Only one process is allowed per tab.</source>
-        <translation></translation>
+        <translation>V rámci jednoho panelu může být pouze jeden proces.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1656"/>
         <source>Script Output</source>
-        <translation></translation>
+        <translation>Výstup ze skriptu</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1672"/>
         <source>Clear</source>
-        <translation></translation>
+        <translation>Vyčistit</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2273"/>
         <source>FeatherPad does not open files larger than 100 MiB.</source>
-        <translation></translation>
+        <translation>FeatherPad neotevírá soubory větší než 100 MiB.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2281"/>
         <source>Some file(s) could not be opened!</source>
-        <translation></translation>
+        <translation>Některé soubory se nepodařilo otevřít!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2282"/>
         <source>You may not have the permission to read.</source>
-        <translation></translation>
+        <translation>Může být, že nemáte oprávnění k jejich čtení.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2292"/>
         <source>Uneditable file(s)!</source>
-        <translation></translation>
+        <translation>Soubory, které nelze upravovat!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2293"/>
         <source>Non-text files or files with huge lines cannot be edited.</source>
-        <translation></translation>
+        <translation>Netextové soubory nebo takové, které obsahují opravdu dlouhé řádky není možné upravovat.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2350"/>
         <source>A previous crash detected!</source>
-        <translation></translation>
+        <translation>Zjištěn předchozí pád!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2351"/>
         <source>Preferably, close all FeatherPad windows and start again!</source>
-        <translation></translation>
+        <translation>Nejlépe bude zavřít všechna okna s FeatherPad a spustit znovu!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2358"/>
         <source>Root Instance</source>
-        <translation></translation>
+        <translation>Instance uživatele správce systému (root)</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2429"/>
         <location filename="../../fpwin.cpp" line="2586"/>
         <location filename="../../fpwin.cpp" line="2613"/>
         <source>All Files (*)</source>
-        <translation></translation>
+        <translation>Všechny soubory (*)</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2434"/>
         <source>All Files (*);;.%1 Files (*.%1)</source>
-        <translation></translation>
+        <translation>Všechny soubory (*);;.%1 Soubory (*.%1)</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2438"/>
         <source>Open file...</source>
-        <translation></translation>
+        <translation>Otevřít soubor…</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2591"/>
         <source>.%1 Files (*.%1);;All Files (*)</source>
-        <translation></translation>
+        <translation>.%1 soubory (*.%1);;Všechny soubory (*)</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2638"/>
         <location filename="../../fpwin.cpp" line="2670"/>
         <source>Save as...</source>
-        <translation></translation>
+        <translation>Uložit jako…</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2700"/>
         <source>Keep encoding and save as...</source>
-        <translation></translation>
+        <translation>Ponechat znakovou sadu a uložit jako…</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2774"/>
         <source>Yes</source>
-        <translation></translation>
+        <translation>Ano</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2775"/>
         <source>No</source>
-        <translation></translation>
+        <translation>Ne</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2777"/>
         <source>Do you want to use &lt;b&gt;MS Windows&lt;/b&gt; end-of-lines?</source>
-        <translation></translation>
+        <translation>Opravdu chcete použít konce řádků jako v &lt;b&gt;MS Windows&lt;/b&gt;?</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2778"/>
         <source>This may be good for readability under MS Windows.</source>
-        <translation></translation>
+        <translation>To může být užitečné pro čitelnost v MS Windows.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2925"/>
         <source>Cannot be saved!</source>
-        <translation></translation>
+        <translation>Není možné uložit!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="393"/>
         <location filename="../../fpwin.cpp" line="3129"/>
         <location filename="../../fpwin.cpp" line="5195"/>
         <source>Help</source>
-        <translation></translation>
+        <translation>Nápověda</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2887"/>
@@ -1022,143 +1024,141 @@
         <location filename="../../fpwin.cpp" line="5004"/>
         <location filename="../../fpwin.cpp" line="5012"/>
         <source>Syntax</source>
-        <translation></translation>
+        <translation>Syntaxe</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2272"/>
         <source>Huge file(s) not opened!</source>
-        <translation></translation>
+        <translation>Obrovské soubor neotevřeny!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3141"/>
         <location filename="../../fpwin.cpp" line="3328"/>
         <source>This file has been modified elsewhere or in another way!</source>
-        <translation></translation>
+        <translation>Tento soubor byl změněn z jiné aplikace či jinak!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3142"/>
         <location filename="../../fpwin.cpp" line="3329"/>
         <source>Please be careful about reloading or saving this document!</source>
-        <translation></translation>
+        <translation>Buďte opatrní při opětovném načítání nebo ukládání tohoto dokumentu!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3840"/>
         <source>Print Document</source>
-        <translation></translation>
+        <translation>Vytisknout dokument</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4430"/>
         <location filename="../../fpwin.cpp" line="4498"/>
         <source>%1 Pages</source>
-        <translation></translation>
+        <translation>%1 stránek</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4456"/>
         <location filename="../../fpwin.cpp" line="4526"/>
         <source>Copy Target Path</source>
-        <translation></translation>
+        <translation>Zkopírovat cílový popis umístění</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4460"/>
         <location filename="../../fpwin.cpp" line="4530"/>
         <source>Open Target Here</source>
-        <translation></translation>
+        <translation>Otevřít cíl zde</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4648"/>
         <source>You need to add a Hunspell dictionary.</source>
-        <translation type="unfinished"></translation>
+        <translation>Je třeba přidat Hunspell slovník.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4649"/>
         <location filename="../../fpwin.cpp" line="4655"/>
         <location filename="../../fpwin.cpp" line="4664"/>
         <source>See Preferences → Text → Spell Checking!</source>
-        <translation type="unfinished"></translation>
+        <translation>Viz předvolby → Text → Kontrola pravopisu!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4654"/>
         <source>The Hunspell dictionary does not exist.</source>
-        <translation type="unfinished"></translation>
+        <translation>Hunspell slovník neexistuje.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4663"/>
         <source>The Hunspell dictionary is not accompanied by an affix file.</source>
-        <translation type="unfinished"></translation>
+        <translation>Hunspell slovník není doprovázen affix souborem.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4685"/>
         <location filename="../../fpwin.cpp" line="4703"/>
         <location filename="../../fpwin.cpp" line="4718"/>
         <source>No misspelling in document.</source>
-        <translation type="unfinished"></translation>
+        <translation>V dokumentu nejsou žádné překlepy.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4687"/>
         <location filename="../../fpwin.cpp" line="4705"/>
         <location filename="../../fpwin.cpp" line="4720"/>
         <source>No misspelling from text cursor.</source>
-        <translation type="unfinished"></translation>
+        <translation>Žádné překlepy od pozice kurzoru.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4732"/>
         <source>Spell Checking</source>
-        <translation type="unfinished"></translation>
+        <translation>Kontrola pravopisu</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5076"/>
         <source>Translators</source>
-        <translation></translation>
+        <translation>Překladatelé</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5072"/>
         <source>A lightweight, tabbed, plain-text editor</source>
-        <translation></translation>
+        <translation>Nenáročný editor neformátovaného textu s panely</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5073"/>
         <source>based on Qt5</source>
-        <translation></translation>
+        <translation>založeno na Qt5</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5074"/>
         <source>Author</source>
-        <translation></translation>
+        <translation>Autor</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5075"/>
         <source>aka.</source>
-        <translation></translation>
+        <translation>alias</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5076"/>
         <location filename="../../fpwin.cpp" line="5077"/>
         <source>About FeatherPad</source>
-        <translation></translation>
+        <translation>O aplikaci FeatherPad</translation>
     </message>
     <message>
         <location filename="../../replace.cpp" line="241"/>
         <source>No Replacement</source>
-        <translation></translation>
+        <translation>Žádné nahrazení</translation>
     </message>
     <message>
         <location filename="../../replace.cpp" line="243"/>
         <source>One Replacement</source>
-        <translation></translation>
+        <translation>Jedno nahrazení</translation>
     </message>
     <message numerus="yes">
         <location filename="../../replace.cpp" line="245"/>
         <source>%Ln Replacements</source>
-        <translation>
-            <numerusform></numerusform>
-            <numerusform></numerusform>
-            <numerusform></numerusform>
-        </translation>
-    </message>
+        <translation><numerusform>%Ln nahrazení</numerusform>
+        <numerusform>%Ln nahrazení</numerusform>
+        <numerusform>%Ln nahrazení</numerusform>
+        </translation></message>
     <message>
         <location filename="../../syntax.cpp" line="272"/>
         <source>The size limit for syntax highlighting is exceeded.</source>
-        <translation></translation>
+        <translation>Překročen limit velikosti pro zvýrazňování syntaxe.</translation>
     </message>
 </context>
 <context>
@@ -1181,58 +1181,58 @@
     <message>
         <location filename="../../fontDialog.ui" line="14"/>
         <source>Select Font</source>
-        <translation type="unfinished"></translation>
+        <translation>Vybrat písmo</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="38"/>
         <source>Programming Fonts</source>
-        <translation type="unfinished"></translation>
+        <translation>Písma pro programování</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="45"/>
         <location filename="../../fontDialog.ui" line="55"/>
         <source>Font:</source>
-        <translation type="unfinished"></translation>
+        <translation>Písmo:</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="69"/>
         <source>Size:</source>
-        <translation type="unfinished"></translation>
+        <translation>Velikost:</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="89"/>
         <source>Weight:</source>
-        <translation type="unfinished"></translation>
+        <translation>Váha:</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="103"/>
         <source>Normal</source>
-        <translation type="unfinished"></translation>
+        <translation>Normální</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="108"/>
         <source>Medium</source>
-        <translation type="unfinished"></translation>
+        <translation>Střední</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="113"/>
         <source>Bold</source>
-        <translation type="unfinished"></translation>
+        <translation>Tučné</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="118"/>
         <source>Black</source>
-        <translation type="unfinished"></translation>
+        <translation>Černá</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="126"/>
         <source>Italic</source>
-        <translation type="unfinished"></translation>
+        <translation>Kurzíva</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="149"/>
         <source>Preview</source>
-        <translation type="unfinished"></translation>
+        <translation>Náhled</translation>
     </message>
 </context>
 <context>
@@ -1240,7 +1240,7 @@
     <message>
         <location filename="../../lineedit.cpp" line="34"/>
         <source>Clear text (Ctrl+K)</source>
-        <translation></translation>
+        <translation>Vyčistit text (Ctrl+K)</translation>
     </message>
 </context>
 <context>
@@ -1248,22 +1248,22 @@
     <message>
         <location filename="../../predDialog.ui" line="14"/>
         <source>Preferences</source>
-        <translation></translation>
+        <translation>Předvolby</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="30"/>
         <source>Window</source>
-        <translation></translation>
+        <translation>Okno</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="69"/>
         <source>Window Settings</source>
-        <translation></translation>
+        <translation>Nastavení okna</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="75"/>
         <source>Remember window &amp;size on closing</source>
-        <translation></translation>
+        <translation>Zapamatovat si při zavření veliko&amp;st okna</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="84"/>
@@ -1271,18 +1271,18 @@
         <location filename="../../predDialog.ui" line="107"/>
         <location filename="../../predDialog.ui" line="120"/>
         <source>Window frame is excluded.</source>
-        <translation></translation>
+        <translation>Rámeček okna je vynechán.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="87"/>
         <source>Start with this size: </source>
-        <translation></translation>
+        <translation>Začít s touto velikostí: </translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="100"/>
         <location filename="../../predDialog.ui" line="123"/>
         <source> px</source>
-        <translation></translation>
+        <translation> obr. bodů</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="110"/>
@@ -1293,101 +1293,105 @@
         <location filename="../../predDialog.ui" line="148"/>
         <source>Enforcing a window position is not recommended
 and may not work with some window managers.</source>
-        <translation></translation>
+        <translation>Vynucování pozice okna není doporučováno
+a v případě některých správců oken nemusí fungovat.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="152"/>
         <source>Remember window &amp;position on closing</source>
-        <translation></translation>
+        <translation>Při ukončování zapamatovat &amp;pozici okna</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="159"/>
         <source>Most suitable with sessions
 but without tab functionality.</source>
-        <translation></translation>
+        <translation>Nejpoužitelnější s relacemi,
+ale bez funkce panelů.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="188"/>
         <source>Uncheck for 1/5 of the width.</source>
-        <translation></translation>
+        <translation>Pro 1/5 šířky zrušte zaškrtnutí.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="191"/>
         <source>Remember splitter position</source>
-        <translation></translation>
+        <translation>Zapamatovat si pozici rozdělovače</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="200"/>
         <source>Do not show &amp;toolbar</source>
-        <translation></translation>
+        <translation>Nezobrazovat liš&amp;tu nástrojů</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="207"/>
         <source>If the menubar is hidden,
 a menu button appears on the toolbar.</source>
-        <translation></translation>
+        <translation>Pokud je pruh s nabídkou skrytý,
+na pruhu nástrojů se zobrazí tlačítko nabídky.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="211"/>
         <source>Do not show &amp;menubar</source>
-        <translation></translation>
+        <translation>Nezobrazovat pruh s &amp;nabídkou</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="218"/>
         <source>Hide search &amp;bar by default</source>
-        <translation></translation>
+        <translation>Ve výchozím stavu skrýt pruh vyhledávání</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="225"/>
         <source>By default, each search entry
 has a separate search history.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ve výchozím stavu má každá položka
+vyhledávání oddělenou historii.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="229"/>
         <source>Use a shared search history</source>
-        <translation type="unfinished"></translation>
+        <translation>Použít sdílenou historii hledání</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="236"/>
         <source>Always show st&amp;atus bar</source>
-        <translation></translation>
+        <translation>Vždy zobrazovat st&amp;avový pruh</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="261"/>
         <source>Show cursor position on status bar</source>
-        <translation></translation>
+        <translation>Zobrazovat ve stavovém pruhu pozici kurzoru</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="272"/>
         <location filename="../../predDialog.ui" line="282"/>
         <source>Will take effect after closing this dialog.</source>
-        <translation></translation>
+        <translation>Projeví se po zavření tohoto dialogu.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="275"/>
         <source>Tab position: </source>
-        <translation></translation>
+        <translation>Pozice panelu: </translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="286"/>
         <source>North</source>
-        <translation></translation>
+        <translation>Sever</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="291"/>
         <source>South</source>
-        <translation></translation>
+        <translation>Jih</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="296"/>
         <source>West</source>
-        <translation></translation>
+        <translation>Západ</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="301"/>
         <source>East</source>
-        <translation></translation>
+        <translation>Východ</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="327"/>
@@ -1395,17 +1399,21 @@ has a separate search history.</source>
 after the last tab is activated, and the same for Alt+Left.
 
 Tab navigation with mouse wheel is not affected.</source>
-        <translation></translation>
+        <translation>To znamená, že pro zleva doprava, Alt+šipka vpravo jde na
+první panel poté, co je aktivován poslední panel a to samé
+pro Alt+šipka vlevo.
+
+Pohyb po panelech pomocí kolečka myši ovlivněn není.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="333"/>
         <source>Tab navigation wraps &amp;around</source>
-        <translation></translation>
+        <translation>Pohyb po panelech pořád dokol&amp;a</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="353"/>
         <source>Close window on closing its last tab</source>
-        <translation></translation>
+        <translation>Při zavření posledního panelu zavřít okno</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="360"/>
@@ -1414,12 +1422,17 @@ current desktop, files will be opened in its tabs.
 
 However, some desktop environments may not
 report that they have multiple desktops.</source>
-        <translation></translation>
+        <translation>Ve výchozím stavu, pokud na stávající ploše existuje
+okno s FeatherPad, soubory budou otevřeny v
+panelech v něm.
+
+Nicméně, některé desktopová prostředí nehlásí,
+že mají vícero ploch.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="367"/>
         <source>Always open in separate windows</source>
-        <translation></translation>
+        <translation>Vždy otevírat v samostatných oknech</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="374"/>
@@ -1427,129 +1440,138 @@ report that they have multiple desktops.</source>
 desktop environment will be used instead of the Qt file dialog.
 
 Some desktop environments, like KDE and LXQt, provide files dialogs.</source>
-        <translation></translation>
+        <translation>Pokud je toto zaškrtnuto, bude namísto souborového dialogu Qt
+použit ten poskytovaný stávajícím desktopovým prostředím.
+
+Některá desktopová prostředí, jako KDE a LXQt takové poskytují.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="380"/>
         <source>Native file dialog</source>
-        <translation></translation>
+        <translation>Nativní souborový dialog</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="456"/>
         <source>Uncheck for Monospace.</source>
-        <translation></translation>
+        <translation>Pro písmo s neměnnou šířkou odškrtněte.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="459"/>
         <source>Remember &amp;font</source>
-        <translation></translation>
+        <translation>&amp;Zapamatovat písmo</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="480"/>
         <source>This covers parentheses, braces, brackets and quotes.</source>
-        <translation></translation>
+        <translation>Toto se týká kulatých, složených a hranatých závorek, dále uvozovek.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="483"/>
         <source>Auto-&amp;bracket</source>
-        <translation></translation>
+        <translation>&amp;Automatické ukončování závorek</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="490"/>
         <source>By default, a triple period is replaced with an ellipsis
 and a double hyphen with a long dash while typing,
 under proper circumstances.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ve výchozím stavu jsou v příslušných případech během
+psaní tři tečky za sebou nahrazeny výpustkou a dvojitý
+spojovník dlouhou pomlčkou.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="495"/>
         <source>Replace triple periods and double hyphens while typing</source>
-        <translation type="unfinished"></translation>
+        <translation>Nahrazovat při psaní tři tečky a dva spojovníky</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="565"/>
         <source>Never highlight syntax for files &gt; </source>
-        <translation></translation>
+        <translation>Nikdy nezvýrazňovat syntaxi pro soubory &gt; </translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="534"/>
         <source>This creates a menu button on the
 status bar for changing the syntax.</source>
-        <translation></translation>
+        <translation>Toto vytvoří tlačítko nabídky ve
+stavové liště pro změnu syntaxe.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="538"/>
         <source>Support syntax override</source>
-        <translation></translation>
+        <translation>Podporovat přebití syntaxe</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="603"/>
         <source>Show spaces, tabs and tab lines
 when the syntax is highlighted.</source>
-        <translation></translation>
+        <translation>Při zvýrazňování syntaxe zobrazovat
+mezery, tabulátory a tab čáry.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="607"/>
         <source>Show whitespaces</source>
-        <translation></translation>
+        <translation>Zobrazovat prázdné znaky</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="623"/>
         <location filename="../../predDialog.ui" line="634"/>
         <source>The vertical position lines will be drawn only if
 the editor font has a fixed pitch (like Monospace).</source>
-        <translation></translation>
+        <translation>Čáry svislé pozice budou vykreslovány pouze pokud
+písmo editoru má pevné pitch (jako Monospace).</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="627"/>
         <source>Show vertical lines starting from this position:</source>
-        <translation></translation>
+        <translation>Zobrazit svislé čáry od této pozice:</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="614"/>
         <source>Also show line and document ends</source>
-        <translation></translation>
+        <translation>Také zobrazovat konce čáry a dokumentu</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="753"/>
         <source>Date and time format:</source>
-        <translation></translation>
+        <translation>Formát data a času:</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="823"/>
         <source>Some text editors cannot open a document
 whose last line is not empty.</source>
-        <translation></translation>
+        <translation>Některé textové editory nedovedou otevřít
+dokument, jehož poslední řádek není prázdný.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="827"/>
         <source>Ensure an empty last line on saving</source>
-        <translation></translation>
+        <translation>Při ukládání zajistit, že bude (přidán) poslední prázdný řádek</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="834"/>
         <source>Remove trailing spaces on saving</source>
-        <translation></translation>
+        <translation>Při ukládání odebrat mezery na konci</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="852"/>
         <source>Inertial scrolling with mouse wheel</source>
-        <translation></translation>
+        <translation>Inerciální posouvání kolečkem myši</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="952"/>
         <source>Files</source>
-        <translation></translation>
+        <translation>Soubory</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="958"/>
         <source>File Management</source>
-        <translation></translation>
+        <translation>Správa souborů</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="1075"/>
         <source>Start with files of last window</source>
-        <translation></translation>
+        <translation>Začít soubory posledního okna</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="1117"/>
@@ -1564,42 +1586,51 @@ will be executed directly.
 If the script is not run in a terminal
 emulator, the output and error messages
 will be shown by a popup dialog.</source>
-        <translation></translation>
+        <translation>Toto může být jakýkoli spouštěcí příkaz s
+argumenty, například „xterm -hold“
+pro spuštění procesu v XTerm.
+
+Pokdu příkaz není vyplněn, soubor bude
+vykonán přímo.
+
+Pokud skript není spuštěný v emulátoru
+terminálu, výstup a chybová hlášení budou
+zobrazena ve vyskakovacím dialogu.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="1129"/>
         <source>Start with this command: </source>
-        <translation></translation>
+        <translation>Začít tímto příkazem: </translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="1148"/>
         <source>Command + Arguments</source>
-        <translation></translation>
+        <translation>Příkaz + argumenty</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="1033"/>
         <source>Show recentl&amp;y modified files</source>
-        <translation></translation>
+        <translation>Zobrazit nedávno změněné soubor&amp;y</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="1063"/>
         <source>Show recentl&amp;y opened files</source>
-        <translation></translation>
+        <translation>Zobrazit nedávno otevřené soubor&amp;y</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="1162"/>
         <source>Save changes to opened files every:</source>
-        <translation></translation>
+        <translation>Uložit změny v otevřených souborech každých:</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="1307"/>
         <source>Help</source>
-        <translation></translation>
+        <translation>Nápověda</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="163"/>
         <source>Start with side-pane mode</source>
-        <translation></translation>
+        <translation>Spustit v režimu s jedním panelem</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="340"/>
@@ -1607,12 +1638,15 @@ will be shown by a popup dialog.</source>
 tooltip and context menu of a single tab but you could not
 merge a single tabbed window into another one by tab drag-
 and-drop either.</source>
-        <translation></translation>
+        <translation>Pokud je zaškrtnuto, nejenže ztratíte informativní nástrojové
+tipy a kontextovou nabídku jediného panelu, ale také nebude
+možné sloučit okno s jedním panelem do jiného přetažením
+panelu.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="346"/>
         <source>&amp;Do not show a single tab</source>
-        <translation></translation>
+        <translation>Skrýt lištu panelů, poku&amp;d by zde byl jen jeden</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="411"/>
@@ -1622,37 +1656,37 @@ and-drop either.</source>
     <message>
         <location filename="../../predDialog.ui" line="450"/>
         <source>Text Editor</source>
-        <translation></translation>
+        <translation>Textový editor</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="466"/>
         <source>&amp;Wrap lines by default</source>
-        <translation></translation>
+        <translation>&amp;Zalamovat řádky už ve výchozím stavu</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="473"/>
         <source>Auto-&amp;indent by default</source>
-        <translation></translation>
+        <translation>Automaticky odsazovat už ve výchozím stavu</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="502"/>
         <source>Always show line &amp;numbers</source>
-        <translation></translation>
+        <translation>&amp;Vždy zobrazovat čísla řádků</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="509"/>
         <source>Highlight s&amp;yntax by default</source>
-        <translation></translation>
+        <translation>Zvýrazňovat s&amp;yntaxi už ve výchozím stavu</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="669"/>
         <source>Dark c&amp;olor scheme</source>
-        <translation></translation>
+        <translation>Tmavý m&amp;otiv vzhledu</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="704"/>
         <source>Background color value: </source>
-        <translation></translation>
+        <translation>Barevná hodnota pozadí: </translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="572"/>
@@ -1663,12 +1697,14 @@ and-drop either.</source>
         <location filename="../../predDialog.ui" line="859"/>
         <source>This is not a complete fix but
 prevents annoying scroll jumps.</source>
-        <translation></translation>
+        <translation>Toto není úplná oprava, ale
+zabraňuje otravným poskočením
+při posouvání.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="863"/>
         <source>Workaround for &amp;Qt5&apos;s scroll jump bug</source>
-        <translation></translation>
+        <translation>Obejití problému s poskakujícím posouváním v &amp;Qt5</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="1082"/>
@@ -1680,12 +1716,19 @@ executable, the file will be executed by clicking
 the Run button, that appears on the toolbar/filemenu
 when needed, or by its shortcut Ctrl+E. Then, the
 process could be killed by Ctrl+Alt+E.</source>
-        <translation></translation>
+        <translation>Toto zahrnuje pouze spustitelné soubory napsané
+ve skriptovacích jazycích jako Shell a Python.
+
+Pokud je zaškrtnuto a otevřený soubor je spustitelný,
+pak bude kliknutím na tlačítko (které se dle potřeby
+objeví v liště nástrojů/soubor) nebo klávesovou zkratkou
+Ctrl+E. Vynutit ukončení procesu je možné pomocí
+Ctrl+Alt+E.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="666"/>
         <source>Needs window reopening to take effect.</source>
-        <translation></translation>
+        <translation>Aby se projevilo, je třeba okno zavřít a znovu otevřít.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="694"/>
@@ -1698,12 +1741,19 @@ between 230 and 255; for the dark
 background, between 0 and 50.
 
 Needs window reopening to take effect.</source>
-        <translation></translation>
+        <translation>Barevná hodnota pozadí.
+255 znamená bílou, zatímco 0 černou.
+
+Pro světlé pozadí může být z rozmezí
+230 až 255, pro tmavé 0 až 50.
+
+Aby se projevilo, je třeba okno zavřít
+a otevřít znovu.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="1092"/>
         <source>Run executable scripts</source>
-        <translation></translation>
+        <translation>Spouštět vykonavatelné skripty</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="966"/>
@@ -1713,7 +1763,11 @@ opened files FeatherPad shows. The default
 is 10.
 
 Needs application restart to take effect.</source>
-        <translation></translation>
+        <translation>Maximální počet nedávno změněných nebo
+otevřených souborů, který FeatherPad zobrazí.
+Výchozí je 10.
+
+Změna se projeví až po restartu aplikace.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="745"/>
@@ -1724,33 +1778,39 @@ Takes effect after closing this dialog.
 
 Leave empty for:
 MMM dd, yyyy, hh:mm:ss</source>
-        <translation></translation>
+        <translation>Slouží pro vkládání data a času.
+
+Projeví se po zavření tohoto dialogu.
+
+Pro pro použití výchozího nevyplňujte:
+MMM dd, rrrr, hh:mm:ss</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="782"/>
         <source>Text tab size:</source>
-        <translation></translation>
+        <translation>Velikost panelu s textem:</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="789"/>
         <source> spaces</source>
-        <translation></translation>
+        <translation> mezery</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="841"/>
         <source>Thick text cursor</source>
-        <translation></translation>
+        <translation>Tlustý textový kurzor</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="848"/>
         <source>Should the mouse wheel scrolling be inertial
 if the cursor is inside the text view?</source>
-        <translation></translation>
+        <translation>Pokud se kurzor nachází v textovém pohledu,
+má být posouvání kolečkem myši inerciální?</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="870"/>
         <source>Spell Checking</source>
-        <translation type="unfinished"></translation>
+        <translation>Kontrola pravopisu</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="878"/>
@@ -1758,45 +1818,48 @@ if the cursor is inside the text view?</source>
         <source>A Hunspell dictionary has a name that ends with &quot;.dic&quot;
 and should be alongside an affix file with the same
 name but ending with &quot;.aff&quot;.</source>
-        <translation type="unfinished"></translation>
+        <translation>Hunspell slovník má název, který končí na „.dic“
+a měl by být doprovázen affix souborem stejného
+názvu ale končící na „.aff“.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="883"/>
         <source>Hunspell dictionary path:</source>
-        <translation type="unfinished"></translation>
+        <translation>Popis umístění hunspell slovníku:</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="902"/>
         <location filename="../../pref.cpp" line="1460"/>
         <source>Add dictionary...</source>
-        <translation type="unfinished"></translation>
+        <translation>Přidat slovník…</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="914"/>
         <source>If this is unchecked, spell checking
 will be started from the document start.</source>
-        <translation type="unfinished"></translation>
+        <translation>Pokud je toto odškrtnuto, kontrola
+pravopisu bude zahájena od začátku dokumentu.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="918"/>
         <source>Start spell checking from text cursor</source>
-        <translation type="unfinished"></translation>
+        <translation>Zahájit kontrolu pravopisu od pozice textového kurzoru</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="973"/>
         <source>Number of recent files: </source>
-        <translation></translation>
+        <translation>Počet nedávných řádků: </translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="1072"/>
         <source>Only if their number is not greater than 50.</source>
-        <translation></translation>
+        <translation>Pouze pokud jejich počet není vyšší než 50.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="1159"/>
         <location filename="../../predDialog.ui" line="1169"/>
         <source>Only for files that exist and can be saved.</source>
-        <translation></translation>
+        <translation>Pouze pro soubory které existují a je možné je uložit.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="1172"/>
@@ -1811,105 +1874,111 @@ be used also when the opened file is not modified.
 This can be useful under certain circumstances,
 e.g. for changing the time stamp or removing the
 trailing spaces of a text file.</source>
-        <translation></translation>
+        <translation>Pokud je toto zaškrtnuto, tlačítko / položka nabídky
+Uložit půjde použít také i když otevřený soubor nebyl
+změněn.
+
+Toto se může hodit v některých situacích, např.
+pro změnu časového razítka nebo odebrání
+mezer na konci textového souboru.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="1211"/>
         <source>Allow saving unmodified files</source>
-        <translation></translation>
+        <translation>Umožnit ukládání nezměněných souborů</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="1218"/>
         <source>Show a warning instead.</source>
-        <translation></translation>
+        <translation>Namísto toho zobrazit varování.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="1221"/>
         <source>Do not permit opening of non-text files</source>
-        <translation></translation>
+        <translation>Nepovolit otevírání netextových souborů</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="1248"/>
         <source>Shortcuts</source>
-        <translation></translation>
+        <translation>Klávesové zkratky</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="1267"/>
         <source>Action</source>
-        <translation></translation>
+        <translation>Akce</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="1272"/>
         <source>Shortcut</source>
-        <translation></translation>
+        <translation>Klávesová zkratka</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="1280"/>
         <source>Restore default shortcuts.</source>
-        <translation></translation>
+        <translation>Obnovit výchozí zkratky.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="1283"/>
         <source>Default</source>
-        <translation></translation>
+        <translation>Výchozí</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="1318"/>
         <source>Close</source>
-        <translation></translation>
+        <translation>Zavřít</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="279"/>
         <location filename="../../pref.cpp" line="1164"/>
         <source>files</source>
-        <translation></translation>
+        <translation>soubory</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="279"/>
         <location filename="../../pref.cpp" line="1164"/>
         <source>file</source>
-        <translation></translation>
+        <translation>soubor</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="332"/>
         <location filename="../../pref.cpp" line="1278"/>
         <source>Warning: Ambiguous shortcut detected!</source>
-        <translation></translation>
+        <translation>Varování: zjištěna opakující se zkratka!</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="455"/>
         <source>Application restart is needed for changes to take effect.</source>
-        <translation></translation>
+        <translation>Aby se změny projevily, je třeba aplikaci restartovat.</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="467"/>
         <source>Window reopening is needed for changes to take effect.</source>
-        <translation></translation>
+        <translation>Aby se změny projevily, je třeba okno zavřít a otevřít znovu.</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="1190"/>
         <source>&amp;Recently Opened</source>
-        <translation></translation>
+        <translation>&amp;Nedávno otevřené</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="1191"/>
         <source>Recently &amp;Modified</source>
-        <translation></translation>
+        <translation>Nedávno z&amp;měněné</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="1268"/>
         <source>The typed shortcut was not valid.</source>
-        <translation></translation>
+        <translation>Zadaná zkratka není platná.</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="1270"/>
         <source>The typed shortcut was reserved.</source>
-        <translation></translation>
+        <translation>Zadaná klávesová zkratka je vyhrazena pro něco jiného.</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="1462"/>
         <source>Hunspell Dictionary Files (*.dic)</source>
-        <translation type="unfinished"></translation>
+        <translation>Soubory hunspell slovníků (*.dic)</translation>
     </message>
 </context>
 <context>
@@ -1918,37 +1987,37 @@ trailing spaces of a text file.</source>
         <location filename="../../searchbar.cpp" line="43"/>
         <location filename="../../searchbar.cpp" line="122"/>
         <source>Search...</source>
-        <translation></translation>
+        <translation>Hledat…</translation>
     </message>
     <message>
         <location filename="../../searchbar.cpp" line="74"/>
         <source>Match Case</source>
-        <translation></translation>
+        <translation>Rozlišovat malá/VELKÁ písmena</translation>
     </message>
     <message>
         <location filename="../../searchbar.cpp" line="81"/>
         <source>Whole Word</source>
-        <translation></translation>
+        <translation>Celé slovo</translation>
     </message>
     <message>
         <location filename="../../searchbar.cpp" line="88"/>
         <source>Regular Expression</source>
-        <translation type="unfinished"></translation>
+        <translation>Regulární výraz</translation>
     </message>
     <message>
         <location filename="../../searchbar.cpp" line="120"/>
         <source>Search with regex...</source>
-        <translation type="unfinished"></translation>
+        <translation>Hledat pomocí regulárního výrazu…</translation>
     </message>
     <message>
         <location filename="../../searchbar.cpp" line="69"/>
         <source>Next</source>
-        <translation></translation>
+        <translation>Další</translation>
     </message>
     <message>
         <location filename="../../searchbar.cpp" line="70"/>
         <source>Previous</source>
-        <translation></translation>
+        <translation>Předchozí</translation>
     </message>
 </context>
 <context>
@@ -1956,34 +2025,34 @@ trailing spaces of a text file.</source>
     <message>
         <location filename="../../sessionDialog.ui" line="14"/>
         <source>Session Manager</source>
-        <translation></translation>
+        <translation>Správa relace</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="101"/>
         <location filename="../../sessionDialog.ui" line="270"/>
         <source>&amp;Remove</source>
-        <translation></translation>
+        <translation>Odeb&amp;rat</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="33"/>
         <source>&lt;b&gt;Save/Restore Session&lt;/b&gt;</source>
-        <translation></translation>
+        <translation>&lt;b&gt;Uložit/obnovit relaci&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="56"/>
         <source>Filter...</source>
-        <translation></translation>
+        <translation>Filtrovat…</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="69"/>
         <source>Open the selected session(s).</source>
-        <translation></translation>
+        <translation>Otevřít označené relace.</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="72"/>
         <location filename="../../sessionDialog.ui" line="275"/>
         <source>&amp;Open</source>
-        <translation></translation>
+        <translation>&amp;Otevřít</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="98"/>
@@ -2001,73 +2070,74 @@ trailing spaces of a text file.</source>
         <location filename="../../sessionDialog.ui" line="159"/>
         <source>By default, all files that are opened in all
 windows will be included in the saved session.</source>
-        <translation></translation>
+        <translation>Ve výchozím stavu budou do uložené relace
+zahrnuty všechny v oknech otevřené soubory.</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="163"/>
         <source>Save only from this &amp;window</source>
-        <translation></translation>
+        <translation>&amp;Uložit pouze z tohoto okna</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="180"/>
         <source>&lt;b&gt;Warning&lt;/b&gt;</source>
-        <translation></translation>
+        <translation>&lt;b&gt;Varování&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="226"/>
         <location filename="../../session.cpp" line="330"/>
         <source>&amp;Yes</source>
-        <translation></translation>
+        <translation>&amp;Ano</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="233"/>
         <source>&amp;No</source>
-        <translation></translation>
+        <translation>&amp;Ne</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="283"/>
         <source>Re&amp;name</source>
-        <translation></translation>
+        <translation>Přejme&amp;novat</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="118"/>
         <source>Remove &amp;All</source>
-        <translation></translation>
+        <translation>Odebr&amp;at vše</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="260"/>
         <source>&amp;Close</source>
-        <translation></translation>
+        <translation>&amp;Zavřít</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="135"/>
         <source>Save the current session under the given title.</source>
-        <translation></translation>
+        <translation>Uložit stávající relaci pod daným názvem.</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="138"/>
         <source>&amp;Save</source>
-        <translation></translation>
+        <translation>&amp;Uložit</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="149"/>
         <source>Type a name to save session</source>
-        <translation></translation>
+        <translation>Zadejte název pro uložení relace</translation>
     </message>
     <message>
         <location filename="../../session.cpp" line="174"/>
         <source>Nothing saved.&lt;br&gt;No file was opened.</source>
-        <translation></translation>
+        <translation>Nic neuloženo.&lt;br&gt;Nebyl otevřený žádný soubor.</translation>
     </message>
     <message>
         <location filename="../../session.cpp" line="267"/>
         <source>No file exists or can be opened.</source>
-        <translation></translation>
+        <translation>Neexistuje žádný soubor nebo nemůže být otevřen.</translation>
     </message>
     <message>
         <location filename="../../session.cpp" line="273"/>
         <source>Not all files exist or can be opened.</source>
-        <translation></translation>
+        <translation>Ne všechny soubory existují nebo nemohou být otevřeny.</translation>
     </message>
     <message>
         <location filename="../../session.cpp" line="316"/>
@@ -2077,22 +2147,22 @@ windows will be included in the saved session.</source>
     <message>
         <location filename="../../session.cpp" line="335"/>
         <source>Do you really want to remove all saved sessions?</source>
-        <translation></translation>
+        <translation>Opravdu chcete odebrat veškeré uložené relace?</translation>
     </message>
     <message>
         <location filename="../../session.cpp" line="341"/>
         <source>Do you really want to remove the selected sessions?</source>
-        <translation></translation>
+        <translation>Opravdu chcete odebrat veškeré označené relace?</translation>
     </message>
     <message>
         <location filename="../../session.cpp" line="343"/>
         <source>Do you really want to remove the selected session?</source>
-        <translation></translation>
+        <translation>Opravdu chcete označené relace odebrat?</translation>
     </message>
     <message>
         <location filename="../../session.cpp" line="348"/>
         <source>A session with the same name exists.&lt;br&gt;Do you want to overwrite it?</source>
-        <translation></translation>
+        <translation>Relace s tímto názvem už existuje.&lt;br&gt;Chcete ji přepsat?</translation>
     </message>
 </context>
 <context>
@@ -2100,7 +2170,7 @@ windows will be included in the saved session.</source>
     <message>
         <location filename="../../sidepane.cpp" line="108"/>
         <source>Filter...</source>
-        <translation></translation>
+        <translation>Filtrovat…</translation>
     </message>
 </context>
 <context>
@@ -2108,37 +2178,37 @@ windows will be included in the saved session.</source>
     <message>
         <location filename="../../spellDialog.ui" line="25"/>
         <source>Unknown word:</source>
-        <translation type="unfinished"></translation>
+        <translation>Neznámé slovo:</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="51"/>
         <source>Add To Dictionary</source>
-        <translation type="unfinished"></translation>
+        <translation>Přidat do slovníku</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="62"/>
         <source>Replace with:</source>
-        <translation type="unfinished"></translation>
+        <translation>Nahradit čím:</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="129"/>
         <source>Correct Once</source>
-        <translation type="unfinished"></translation>
+        <translation>Protentokrát opravit</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="142"/>
         <source>Correct All</source>
-        <translation type="unfinished"></translation>
+        <translation>Opravit vše</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="87"/>
         <source>Ignore Once</source>
-        <translation type="unfinished"></translation>
+        <translation>Protentokrát ignorovat</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="100"/>
         <source>Ignore All</source>
-        <translation type="unfinished"></translation>
+        <translation>Ignorovat vše</translation>
     </message>
 </context>
 <context>
@@ -2146,7 +2216,7 @@ windows will be included in the saved session.</source>
     <message>
         <location filename="../../textedit.cpp" line="138"/>
         <source>Double click to center current line</source>
-        <translation></translation>
+        <translation>Dvojklikem stávající řádek vystředíte</translation>
     </message>
 </context>
 <context>
@@ -2155,7 +2225,7 @@ windows will be included in the saved session.</source>
         <location filename="../../warningbar.h" line="78"/>
         <location filename="../../warningbar.h" line="83"/>
         <source>Close</source>
-        <translation></translation>
+        <translation>Zavřít</translation>
     </message>
 </context>
 </TS>
