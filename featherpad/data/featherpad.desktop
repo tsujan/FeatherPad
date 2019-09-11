@@ -1,6 +1,7 @@
 [Desktop Entry]
 Name=FeatherPad
 GenericName=Text Editor
+GenericName[cs]=Textový editor
 GenericName[da]=Tekstredigering
 GenericName[es]=Editor de texto
 GenericName[eo]=Tekst-Redaktilo
@@ -10,6 +11,7 @@ GenericName[pt]=Editor de texto
 GenericName[tr]=Metin Düzenleyici
 GenericName[zh_CN]=文本编辑器
 Comment=Lightweight Qt5 text editor
+Comment[cs]=Nenáročný textový editor, založený na Qt5
 Comment[da]=Letvægts Qt5-tekstredigering
 Comment[es]=Editor de texto ligero basado en Qt5
 Comment[eo]=Malpeza tekst-redaktilo bazita sur Qt5
@@ -30,5 +32,6 @@ Actions=new-window;
 
 [Desktop Action new-window]
 Name=New Window
+Name[cs]=Nové okno
 Name[de]=Neues Fenster
 Exec=featherpad --win
