@@ -505,7 +505,7 @@
     <message>
         <location filename="../../fp.ui" line="1182"/>
         <source>Check Spelling</source>
-        <translation type="unfinished"></translation>
+        <translation>Spelling controleren</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1185"/>
@@ -938,17 +938,17 @@
     <message>
         <location filename="../../fpwin.cpp" line="2350"/>
         <source>A previous crash detected!</source>
-        <translation>Vorige crash gedetecteerd!</translation>
+        <translation>Eerdere crash gedetecteerd!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2351"/>
         <source>Preferably, close all FeatherPad windows and start again!</source>
-        <translation>Sluit bij voorkeur alle FeatherPad-vensters en start opnieuw!</translation>
+        <translation>Sluit, bij voorkeur, alle FeatherPad-vensters en start opnieuw!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2358"/>
         <source>Root Instance</source>
-        <translation type="unfinished"></translation>
+        <translation>Root-instantie</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2429"/>
@@ -1069,43 +1069,43 @@
     <message>
         <location filename="../../fpwin.cpp" line="4648"/>
         <source>You need to add a Hunspell dictionary.</source>
-        <translation type="unfinished"></translation>
+        <translation>Voeg een Hunpell-woordenboek toe.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4649"/>
         <location filename="../../fpwin.cpp" line="4655"/>
         <location filename="../../fpwin.cpp" line="4664"/>
         <source>See Preferences → Text → Spell Checking!</source>
-        <translation type="unfinished"></translation>
+        <translation>Zie Voorkeuren → Tekst → Spellingcontrole</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4654"/>
         <source>The Hunspell dictionary does not exist.</source>
-        <translation type="unfinished"></translation>
+        <translation>Dit Hunspell-woordenboek is niet aanwezig.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4663"/>
         <source>The Hunspell dictionary is not accompanied by an affix file.</source>
-        <translation type="unfinished"></translation>
+        <translation>Dit Hunspell-woordenboek is niet voorzien van een affix-bestand.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4685"/>
         <location filename="../../fpwin.cpp" line="4703"/>
         <location filename="../../fpwin.cpp" line="4718"/>
         <source>No misspelling in document.</source>
-        <translation type="unfinished"></translation>
+        <translation>Geen spelfouten aangetroffen.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4687"/>
         <location filename="../../fpwin.cpp" line="4705"/>
         <location filename="../../fpwin.cpp" line="4720"/>
         <source>No misspelling from text cursor.</source>
-        <translation type="unfinished"></translation>
+        <translation>Geen spelfouten aangetroffen vanaf de cursorpositie.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4732"/>
         <source>Spell Checking</source>
-        <translation type="unfinished"></translation>
+        <translation>Spellingcontrole</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5076"/>
@@ -1182,58 +1182,58 @@
     <message>
         <location filename="../../fontDialog.ui" line="14"/>
         <source>Select Font</source>
-        <translation type="unfinished"></translation>
+        <translation>Lettertype kiezen</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="38"/>
         <source>Programming Fonts</source>
-        <translation type="unfinished"></translation>
+        <translation>Programmeerlettertypen</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="45"/>
         <location filename="../../fontDialog.ui" line="55"/>
         <source>Font:</source>
-        <translation type="unfinished"></translation>
+        <translation>Lettertype:</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="69"/>
         <source>Size:</source>
-        <translation type="unfinished"></translation>
+        <translation>Lettergrootte:</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="89"/>
         <source>Weight:</source>
-        <translation type="unfinished"></translation>
+        <translation>Dikte:</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="103"/>
         <source>Normal</source>
-        <translation type="unfinished">Normaal</translation>
+        <translation>Normaal</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="108"/>
         <source>Medium</source>
-        <translation type="unfinished"></translation>
+        <translation>Gemiddeld</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="113"/>
         <source>Bold</source>
-        <translation type="unfinished"></translation>
+        <translation>Dik</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="118"/>
         <source>Black</source>
-        <translation type="unfinished"></translation>
+        <translation>Zwart</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="126"/>
         <source>Italic</source>
-        <translation type="unfinished"></translation>
+        <translation>Cursief</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="149"/>
         <source>Preview</source>
-        <translation type="unfinished"></translation>
+        <translation>Voorbeeld</translation>
     </message>
 </context>
 <context>
@@ -1345,12 +1345,13 @@ dan verschijnt er een menuknop op de werkbalk.</translation>
         <location filename="../../predDialog.ui" line="225"/>
         <source>By default, each search entry
 has a separate search history.</source>
-        <translation type="unfinished"></translation>
+        <translation>Standaard heeft elke zoekterm
+zijn eigen geschiedenis.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="229"/>
         <source>Use a shared search history</source>
-        <translation type="unfinished"></translation>
+        <translation>Zoekgeschiedenis samenvoegen</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="236"/>
@@ -1474,12 +1475,14 @@ Sommige werkomgevingen, zoals KDE en LXQt, hebben bestandsvensters.</translation
         <source>By default, a triple period is replaced with an ellipsis
 and a double hyphen with a long dash while typing,
 under proper circumstances.</source>
-        <translation type="unfinished"></translation>
+        <translation>Standaard worden, afhankelijk van de context, drie puntjes
+vervangen door een ellips en twee streepjes door een
+gedachtestreep.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="495"/>
         <source>Replace triple periods and double hyphens while typing</source>
-        <translation type="unfinished"></translation>
+        <translation>Drie puntjes en dubbele streepjes vervangen tijdens het typen</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="565"/>
@@ -1724,7 +1727,7 @@ afgebroken via Ctrl+Alt+E.</translation>
     <message>
         <location filename="../../predDialog.ui" line="666"/>
         <source>Needs window reopening to take effect.</source>
-        <translation>De applicatie moet worden herstart om de instelling toe te passen.</translation>
+        <translation>Herstart FeatherPad om de instelling toe te passen.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="694"/>
@@ -1744,7 +1747,7 @@ Een lichte achtergrond ligt tussen de
 230 en 255; een donkere ligt tussen de
 0 en 50.
 
-De applicatie moet worden herstart om de wijziging toe te passen.</translation>
+Herstart FeatherPad om de wijziging toe te passen.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="1092"/>
@@ -1763,7 +1766,7 @@ Needs application restart to take effect.</source>
 bestanden dat FeatherPad toont. Standaard is dit
 10.
 
-De applicatie moet worden herstart om de wijziging toe te passen.</translation>
+Herstart FeatherPad om de wijziging toe te passen.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="745"/>
@@ -1806,7 +1809,7 @@ cursor zich in de tekstweergave bevindt?</translation>
     <message>
         <location filename="../../predDialog.ui" line="870"/>
         <source>Spell Checking</source>
-        <translation type="unfinished"></translation>
+        <translation>Spellingcontrole</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="878"/>
@@ -1814,29 +1817,32 @@ cursor zich in de tekstweergave bevindt?</translation>
         <source>A Hunspell dictionary has a name that ends with &quot;.dic&quot;
 and should be alongside an affix file with the same
 name but ending with &quot;.aff&quot;.</source>
-        <translation type="unfinished"></translation>
+        <translation>Een Hunspell-woordenboek draagt een naam die eindigt op &apos;.dic&apos;
+en moet worden meegeleverd met een affix-bestand met dezelfde
+naam, maar eindigend op &apos;.aff&apos;.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="883"/>
         <source>Hunspell dictionary path:</source>
-        <translation type="unfinished"></translation>
+        <translation>Hunspell-woordenboekpad:</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="902"/>
         <location filename="../../pref.cpp" line="1460"/>
         <source>Add dictionary...</source>
-        <translation type="unfinished"></translation>
+        <translation>Woordenboek toevoegen...</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="914"/>
         <source>If this is unchecked, spell checking
 will be started from the document start.</source>
-        <translation type="unfinished"></translation>
+        <translation>Als je dit uitvinkt, dan wordt spellingcontrole
+ingezet vanaf het begin van het document.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="918"/>
         <source>Start spell checking from text cursor</source>
-        <translation type="unfinished"></translation>
+        <translation>Spelling controleren vanaf cursorpositie</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="973"/>
@@ -1940,12 +1946,12 @@ achterliggende spaties te verwijderen uit een tekstbestand.</translation>
     <message>
         <location filename="../../pref.cpp" line="455"/>
         <source>Application restart is needed for changes to take effect.</source>
-        <translation>De applicatie moet worden herstart om de wijzigingen toe te passen.</translation>
+        <translation>Herstart FeatherPad om de wijzigingen toe te passen.</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="467"/>
         <source>Window reopening is needed for changes to take effect.</source>
-        <translation>De applicatie moet worden herstart om de wijzigingen toe te passen.</translation>
+        <translation>Herstart FeatherPad om de wijzigingen toe te passen.</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="1190"/>
@@ -1970,7 +1976,7 @@ achterliggende spaties te verwijderen uit een tekstbestand.</translation>
     <message>
         <location filename="../../pref.cpp" line="1462"/>
         <source>Hunspell Dictionary Files (*.dic)</source>
-        <translation type="unfinished"></translation>
+        <translation>Hunspell-woordenboekbestanden (*.dic)</translation>
     </message>
 </context>
 <context>
@@ -1994,12 +2000,12 @@ achterliggende spaties te verwijderen uit een tekstbestand.</translation>
     <message>
         <location filename="../../searchbar.cpp" line="88"/>
         <source>Regular Expression</source>
-        <translation type="unfinished"></translation>
+        <translation>Reguliere expressie</translation>
     </message>
     <message>
         <location filename="../../searchbar.cpp" line="120"/>
         <source>Search with regex...</source>
-        <translation type="unfinished"></translation>
+        <translation>Zoeken met regex...</translation>
     </message>
     <message>
         <location filename="../../searchbar.cpp" line="69"/>
@@ -2170,37 +2176,37 @@ in de opgeslagen sessie.</translation>
     <message>
         <location filename="../../spellDialog.ui" line="25"/>
         <source>Unknown word:</source>
-        <translation type="unfinished"></translation>
+        <translation>Onbekend woord:</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="51"/>
         <source>Add To Dictionary</source>
-        <translation type="unfinished"></translation>
+        <translation>Toevoegen aan woordenboek</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="62"/>
         <source>Replace with:</source>
-        <translation type="unfinished">Vervangen door:</translation>
+        <translation>Vervangen door:</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="129"/>
         <source>Correct Once</source>
-        <translation type="unfinished"></translation>
+        <translation>Eenmaal corrigeren</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="142"/>
         <source>Correct All</source>
-        <translation type="unfinished"></translation>
+        <translation>Alles corrigeren</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="87"/>
         <source>Ignore Once</source>
-        <translation type="unfinished"></translation>
+        <translation>Eenmaal negeren</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="100"/>
         <source>Ignore All</source>
-        <translation type="unfinished"></translation>
+        <translation>Alles negeren</translation>
     </message>
 </context>
 <context>
