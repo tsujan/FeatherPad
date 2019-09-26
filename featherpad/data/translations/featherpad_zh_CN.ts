@@ -1353,12 +1353,13 @@ a menu button appears on the toolbar.</source>
         <location filename="../../predDialog.ui" line="225"/>
         <source>By default, each search entry
 has a separate search history.</source>
-        <translation type="unfinished"></translation>
+        <translation>默认情况下，每个搜索条目
+有单独的搜索记录。</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="229"/>
         <source>Use a shared search history</source>
-        <translation type="unfinished"></translation>
+        <translation>使用共享的搜索记录</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="236"/>
