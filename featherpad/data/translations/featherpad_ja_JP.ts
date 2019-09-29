@@ -733,7 +733,7 @@
         <location filename="../../fp.ui" line="1191"/>
         <location filename="../../fp.ui" line="1194"/>
         <source>Save All Files</source>
-        <translation type="unfinished"></translation>
+        <translation>すべてのファイルを保存</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="100"/>
@@ -1116,7 +1116,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="5054"/>
         <source>Some files cannot be saved!</source>
-        <translation type="unfinished"></translation>
+        <translation>いくつかのファイルは保存できませんでした！</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5093"/>
