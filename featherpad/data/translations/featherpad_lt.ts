@@ -516,7 +516,7 @@
         <location filename="../../fp.ui" line="1191"/>
         <location filename="../../fp.ui" line="1194"/>
         <source>Save All Files</source>
-        <translation type="unfinished"></translation>
+        <translation>Įrašyti visus failus</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="990"/>
@@ -1116,7 +1116,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="5054"/>
         <source>Some files cannot be saved!</source>
-        <translation type="unfinished"></translation>
+        <translation>Kai kurių failų nepavyksta įrašyti!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5097"/>
