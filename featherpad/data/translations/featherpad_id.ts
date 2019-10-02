@@ -516,7 +516,7 @@
         <location filename="../../fp.ui" line="1191"/>
         <location filename="../../fp.ui" line="1194"/>
         <source>Save All Files</source>
-        <translation type="unfinished"></translation>
+        <translation>Simpan semua File</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="990"/>
@@ -1081,7 +1081,7 @@
         <location filename="../../fpwin.cpp" line="4664"/>
         <location filename="../../fpwin.cpp" line="4673"/>
         <source>See Preferences → Text → Spell Checking!</source>
-        <translation type="unfinished">Lihat Preferensi → Teks → Pengecekan Ejaan!</translation>
+        <translation type="unfinished">Lihat Pengaturan → Teks → Pengecekan Ejaan!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4663"/>
@@ -1091,7 +1091,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="4672"/>
         <source>The Hunspell dictionary is not accompanied by an affix file.</source>
-        <translation type="unfinished">Kamus Hunspell tidak disertai dengan file imbuhan.</translation>
+        <translation type="unfinished">Kamus Hunspell tidak disertai dengan file affix.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4694"/>
@@ -1115,7 +1115,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="5054"/>
         <source>Some files cannot be saved!</source>
-        <translation type="unfinished"></translation>
+        <translation>Beberapa file tidak dapat disimpan!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5097"/>
@@ -1477,7 +1477,7 @@ dalam kondisi yang tepat.</translation>
     <message>
         <location filename="../../predDialog.ui" line="495"/>
         <source>Replace triple periods and double hyphens while typing</source>
-        <translation type="unfinished"></translation>
+        <translation>Tukar tiga titik dan dua tanda hubung selagi mengetik</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="565"/>
@@ -1763,7 +1763,7 @@ if the cursor is inside the text view?</source>
     <message>
         <location filename="../../predDialog.ui" line="870"/>
         <source>Spell Checking</source>
-        <translation type="unfinished">Pemeriksaan Ejaan</translation>
+        <translation type="unfinished">Pengecekan Ejaan</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="878"/>
@@ -1771,29 +1771,32 @@ if the cursor is inside the text view?</source>
         <source>A Hunspell dictionary has a name that ends with &quot;.dic&quot;
 and should be alongside an affix file with the same
 name but ending with &quot;.aff&quot;.</source>
-        <translation type="unfinished"></translation>
+        <translation>Kamus Hunspell memiliki nama file dengan ekstensi “.dic”
+dan harus disertai dengan file affix dengan
+nama yang sama tapi dengan ekstensi “.aff”.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="883"/>
         <source>Hunspell dictionary path:</source>
-        <translation type="unfinished"></translation>
+        <translation>Folder kamus Hunspell:</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="902"/>
         <location filename="../../pref.cpp" line="1468"/>
         <source>Add dictionary...</source>
-        <translation type="unfinished"></translation>
+        <translation>Tambah kamus...</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="914"/>
         <source>If this is unchecked, spell checking
 will be started from the document start.</source>
-        <translation type="unfinished"></translation>
+        <translation>Jika ini tidak dicentang, pengecekan ejaan
+akan dimulai dari dokumen paling awal.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="918"/>
         <source>Start spell checking from text cursor</source>
-        <translation type="unfinished"></translation>
+        <translation>Mulai pengecekan ejaan dari kursor teks</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="973"/>
@@ -1917,7 +1920,7 @@ trailing spaces of a text file.</source>
     <message>
         <location filename="../../pref.cpp" line="1470"/>
         <source>Hunspell Dictionary Files (*.dic)</source>
-        <translation type="unfinished"></translation>
+        <translation>Files kamus Hunspell (*.dic)</translation>
     </message>
 </context>
 <context>
@@ -1941,12 +1944,12 @@ trailing spaces of a text file.</source>
     <message>
         <location filename="../../searchbar.cpp" line="88"/>
         <source>Regular Expression</source>
-        <translation type="unfinished"></translation>
+        <translation>Regular Expression</translation>
     </message>
     <message>
         <location filename="../../searchbar.cpp" line="120"/>
         <source>Search with regex...</source>
-        <translation type="unfinished"></translation>
+        <translation>Cari dengan regex...</translation>
     </message>
     <message>
         <location filename="../../searchbar.cpp" line="69"/>
@@ -2116,27 +2119,27 @@ windows will be included in the saved session.</source>
     <message>
         <location filename="../../spellDialog.ui" line="25"/>
         <source>Unknown word:</source>
-        <translation type="unfinished"></translation>
+        <translation>Kata tidak dikenal:</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="51"/>
         <source>Add To Dictionary</source>
-        <translation type="unfinished"></translation>
+        <translation>Tambah ke kamus</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="62"/>
         <source>Replace with:</source>
-        <translation type="unfinished"></translation>
+        <translation>Tukar dengan:</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="129"/>
         <source>Correct Once</source>
-        <translation type="unfinished"></translation>
+        <translation>Benar satu</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="142"/>
         <source>Correct All</source>
-        <translation type="unfinished"></translation>
+        <translation>Benar semua</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="87"/>
