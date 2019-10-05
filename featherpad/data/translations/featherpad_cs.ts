@@ -516,7 +516,7 @@ tento řádek (Ctrl+Shift+J)</translation>
         <location filename="../../fp.ui" line="1191"/>
         <location filename="../../fp.ui" line="1194"/>
         <source>Save All Files</source>
-        <translation type="unfinished"></translation>
+        <translation>Uložit všechny soubory</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="990"/>
@@ -1116,7 +1116,7 @@ tento řádek (Ctrl+Shift+J)</translation>
     <message>
         <location filename="../../fpwin.cpp" line="5054"/>
         <source>Some files cannot be saved!</source>
-        <translation type="unfinished"></translation>
+        <translation>Některé soubory se nepodařilo uložit!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5097"/>
