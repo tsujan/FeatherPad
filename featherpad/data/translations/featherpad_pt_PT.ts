@@ -505,7 +505,7 @@
     <message>
         <location filename="../../fp.ui" line="1183"/>
         <source>Check Spelling</source>
-        <translation>Verificar Ortografia</translation>
+        <translation>Verificar ortografia</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1186"/>
@@ -516,7 +516,7 @@
         <location filename="../../fp.ui" line="1191"/>
         <location filename="../../fp.ui" line="1194"/>
         <source>Save All Files</source>
-        <translation type="unfinished"></translation>
+        <translation>Guardar todos os ficheiros</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="990"/>
@@ -894,12 +894,12 @@
     <message>
         <location filename="../../fpwin.cpp" line="1398"/>
         <source>Open Link</source>
-        <translation>Abrir Link</translation>
+        <translation>Abrir ligação</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1411"/>
         <source>Copy Link</source>
-        <translation>Copiar Link</translation>
+        <translation>Copiar ligação</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1578"/>
@@ -939,7 +939,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="2302"/>
         <source>Non-text files or files with huge lines cannot be edited.</source>
-        <translation>Arquivos que não são de texto ou arquivos com linhas enormes não podem ser editados.</translation>
+        <translation>Ficheiros que não sejam de texto ou que tenham linhas enormes não podem ser editados.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2359"/>
@@ -1035,13 +1035,13 @@
     <message>
         <location filename="../../fpwin.cpp" line="2281"/>
         <source>Huge file(s) not opened!</source>
-        <translation>Arquivo(s) que é(são) enorme(s) não abre(m)!</translation>
+        <translation>O(s) ficheiro(s) muito grandes não conseguem ser abertos!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3150"/>
         <location filename="../../fpwin.cpp" line="3337"/>
         <source>This file has been modified elsewhere or in another way!</source>
-        <translation>Este arquivo foi modificado em outro lugar ou de outra maneira!</translation>
+        <translation>Este ficheiro foi modificado em outro lugar ou de outra maneira!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3151"/>
@@ -1075,14 +1075,14 @@
     <message>
         <location filename="../../fpwin.cpp" line="4657"/>
         <source>You need to add a Hunspell dictionary.</source>
-        <translation>Você precisa adicionar um dicionário Hunspell.</translation>
+        <translation>Tem que adicionar um dicionário Hunspell.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4658"/>
         <location filename="../../fpwin.cpp" line="4664"/>
         <location filename="../../fpwin.cpp" line="4673"/>
         <source>See Preferences → Text → Spell Checking!</source>
-        <translation>Consulte Preferências → Texto → Verificação Ortográfica!</translation>
+        <translation>Consulte Preferências → Texto → Verificação ortográfica!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4663"/>
@@ -1092,14 +1092,14 @@
     <message>
         <location filename="../../fpwin.cpp" line="4672"/>
         <source>The Hunspell dictionary is not accompanied by an affix file.</source>
-        <translation>O dicionário Hunspell não está acompanhado por um arquivo de afixação.</translation>
+        <translation>O dicionário Hunspell não está acompanhado por um ficheiro &apos;affix&apos;.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4694"/>
         <location filename="../../fpwin.cpp" line="4712"/>
         <location filename="../../fpwin.cpp" line="4727"/>
         <source>No misspelling in document.</source>
-        <translation>Nenhum erro de ortografia no documento.</translation>
+        <translation>Não existem erros ortográficos.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4696"/>
@@ -1111,12 +1111,12 @@
     <message>
         <location filename="../../fpwin.cpp" line="4741"/>
         <source>Spell Checking</source>
-        <translation>Verificação Ortográfica</translation>
+        <translation>Verificação ortográfica</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5054"/>
         <source>Some files cannot be saved!</source>
-        <translation type="unfinished"></translation>
+        <translation>Não foi possível guardar todos os ficheiros!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5097"/>
@@ -1193,58 +1193,58 @@
     <message>
         <location filename="../../fontDialog.ui" line="14"/>
         <source>Select Font</source>
-        <translation type="unfinished"></translation>
+        <translation>Selecionar tipo de letra</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="38"/>
         <source>Programming Fonts</source>
-        <translation type="unfinished"></translation>
+        <translation>Tipo de letra para programação</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="45"/>
         <location filename="../../fontDialog.ui" line="55"/>
         <source>Font:</source>
-        <translation type="unfinished"></translation>
+        <translation>Tipo de letra:</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="69"/>
         <source>Size:</source>
-        <translation type="unfinished"></translation>
+        <translation>Tamanho:</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="89"/>
         <source>Weight:</source>
-        <translation type="unfinished"></translation>
+        <translation>Espessura:</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="103"/>
         <source>Normal</source>
-        <translation type="unfinished"></translation>
+        <translation>Normal</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="108"/>
         <source>Medium</source>
-        <translation type="unfinished"></translation>
+        <translation>Média</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="113"/>
         <source>Bold</source>
-        <translation type="unfinished"></translation>
+        <translation>Negrito</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="118"/>
         <source>Black</source>
-        <translation type="unfinished"></translation>
+        <translation>Preto</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="126"/>
         <source>Italic</source>
-        <translation type="unfinished"></translation>
+        <translation>Itálico</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="149"/>
         <source>Preview</source>
-        <translation type="unfinished"></translation>
+        <translation>Pré-visualizar</translation>
     </message>
 </context>
 <context>
@@ -1317,17 +1317,18 @@ pode não funcionar com todos os gestores de janelas.</translation>
         <location filename="../../predDialog.ui" line="159"/>
         <source>Most suitable with sessions
 but without tab functionality.</source>
-        <translation></translation>
+        <translation>Adequado para sessões mas
+não pode utilizar separadores.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="188"/>
         <source>Uncheck for 1/5 of the width.</source>
-        <translation></translation>
+        <translation>Desmarque para 1/5 da largura.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="191"/>
         <source>Remember splitter position</source>
-        <translation></translation>
+        <translation>Memorizar posição do separador</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="200"/>
@@ -1355,12 +1356,13 @@ um botão de menu na barra de ferramentas.</translation>
         <location filename="../../predDialog.ui" line="225"/>
         <source>By default, each search entry
 has a separate search history.</source>
-        <translation type="unfinished"></translation>
+        <translation>Por definição, cada entrada pesquisada
+tem um histórico de pesquisa distinto.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="229"/>
         <source>Use a shared search history</source>
-        <translation type="unfinished"></translation>
+        <translation>Utilizar histórico de pesquisa partilhado</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="236"/>
@@ -1446,22 +1448,22 @@ Some desktop environments, like KDE and LXQt, provide files dialogs.</source>
     <message>
         <location filename="../../predDialog.ui" line="380"/>
         <source>Native file dialog</source>
-        <translation></translation>
+        <translation>Caixa de diálogo nativa</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="456"/>
         <source>Uncheck for Monospace.</source>
-        <translation></translation>
+        <translation>Desmarque para usar letra mono-espaçada.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="459"/>
         <source>Remember &amp;font</source>
-        <translation>Lembrar da &amp;fonte</translation>
+        <translation>Memori&amp;zar tipo de letra</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="480"/>
         <source>This covers parentheses, braces, brackets and quotes.</source>
-        <translation>Abrange parênteses, chaves, colchetes e citações.</translation>
+        <translation>Abrange parênteses, chaves, chavetas e aspas.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="483"/>
@@ -1565,7 +1567,7 @@ um ficheiro se não existir uma linha vazia no fim.</translation>
     <message>
         <location filename="../../predDialog.ui" line="1075"/>
         <source>Start with files of last window</source>
-        <translation></translation>
+        <translation>Iniciar com os ficheiros da última janela</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="1117"/>
@@ -1595,12 +1597,12 @@ will be shown by a popup dialog.</source>
     <message>
         <location filename="../../predDialog.ui" line="1033"/>
         <source>Show recentl&amp;y modified files</source>
-        <translation>Mostrar arquivos modificados &amp;recentemente</translation>
+        <translation>Mostrar ficheiros modificados &amp;recentemente</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="1063"/>
         <source>Show recentl&amp;y opened files</source>
-        <translation>Mostrar arquivos abertos &amp;recentemente</translation>
+        <translation>Mostrar ficheiros abertos &amp;recentemente</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="1162"/>
@@ -1628,7 +1630,7 @@ and-drop either.</source>
     <message>
         <location filename="../../predDialog.ui" line="346"/>
         <source>&amp;Do not show a single tab</source>
-        <translation>&amp;Não mostrar uma única guia</translation>
+        <translation>Ocultar separa&amp;dor se apenas existir um aberto</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="411"/>
@@ -1648,7 +1650,7 @@ and-drop either.</source>
     <message>
         <location filename="../../predDialog.ui" line="473"/>
         <source>Auto-&amp;indent by default</source>
-        <translation>Auto-&amp;recuo por padrão</translation>
+        <translation>Avanço automát&amp;ico por padrão</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="502"/>
@@ -1658,7 +1660,7 @@ and-drop either.</source>
     <message>
         <location filename="../../predDialog.ui" line="509"/>
         <source>Highlight s&amp;yntax by default</source>
-        <translation></translation>
+        <translation>Por definição, destacar s&amp;intaxe</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="669"/>
