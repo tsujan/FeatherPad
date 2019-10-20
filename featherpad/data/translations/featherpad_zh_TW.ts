@@ -89,17 +89,17 @@
     <message>
         <location filename="../../fp.ui" line="402"/>
         <source>To be replaced</source>
-        <translation>要替換的文字</translation>
+        <translation>要取代的文字</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="415"/>
         <source>Replace with:</source>
-        <translation>替換為：</translation>
+        <translation>取代為：</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="431"/>
         <source>Replacing text</source>
-        <translation>替換文字</translation>
+        <translation>取代文字</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="490"/>
@@ -109,7 +109,7 @@
     <message>
         <location filename="../../fp.ui" line="493"/>
         <source>New tab</source>
-        <translation></translation>
+        <translation>新分頁</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="496"/>
@@ -119,12 +119,12 @@
     <message>
         <location filename="../../fp.ui" line="501"/>
         <source>&amp;Open</source>
-        <translation></translation>
+        <translation>開啟(&amp;O)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="504"/>
         <source>Open a file</source>
-        <translation></translation>
+        <translation>開啟檔案</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="507"/>
@@ -135,12 +135,12 @@
         <location filename="../../fp.ui" line="515"/>
         <location filename="../../fpwin.cpp" line="1070"/>
         <source>&amp;Save</source>
-        <translation></translation>
+        <translation>儲存(&amp;S)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="518"/>
         <source>Save the current tab</source>
-        <translation></translation>
+        <translation>儲存目前的分頁</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="521"/>
@@ -150,12 +150,12 @@
     <message>
         <location filename="../../fp.ui" line="529"/>
         <source>&amp;Undo</source>
-        <translation></translation>
+        <translation>復原(&amp;U)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="532"/>
         <source>Undo</source>
-        <translation></translation>
+        <translation>復原</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="535"/>
@@ -165,12 +165,12 @@
     <message>
         <location filename="../../fp.ui" line="543"/>
         <source>&amp;Redo</source>
-        <translation></translation>
+        <translation>重做(&amp;R)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="546"/>
         <source>Redo</source>
-        <translation></translation>
+        <translation>重做</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="549"/>
@@ -181,7 +181,7 @@
         <location filename="../../fp.ui" line="557"/>
         <location filename="../../fp.ui" line="560"/>
         <source>Reload</source>
-        <translation></translation>
+        <translation>重新載入</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="563"/>
@@ -191,7 +191,7 @@
     <message>
         <location filename="../../fp.ui" line="568"/>
         <source>&amp;Find</source>
-        <translation></translation>
+        <translation>尋找(&amp;F)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="574"/>
@@ -221,7 +221,7 @@
     <message>
         <location filename="../../fp.ui" line="598"/>
         <source>&amp;Print</source>
-        <translation></translation>
+        <translation>列印(&amp;P)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="601"/>
