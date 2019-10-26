@@ -826,7 +826,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="1071"/>
         <source>&amp;Discard changes</source>
-        <translation>保存せず(&amp;D)</translation>
+        <translation>変更の破棄(&amp;D)</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1072"/>
@@ -836,13 +836,13 @@
     <message>
         <location filename="../../fpwin.cpp" line="1074"/>
         <source>&amp;No to all</source>
-        <translation>すべてではない(&amp;N)</translation>
+        <translation>すべて無視(&amp;N)</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1268"/>
         <location filename="../../fpwin.cpp" line="1325"/>
         <source>Unsaved</source>
-        <translation>保存せず</translation>
+        <translation>未保存</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1286"/>
