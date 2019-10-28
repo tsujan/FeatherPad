@@ -153,7 +153,7 @@
     <message>
         <location filename="../../fp.ui" line="518"/>
         <source>Save the current tab</source>
-        <translation>Сохранить текущую вкладку</translation>
+        <translation>Сохранить</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="521"/>
@@ -178,12 +178,12 @@
     <message>
         <location filename="../../fp.ui" line="543"/>
         <source>&amp;Redo</source>
-        <translation>&amp;Восстановить</translation>
+        <translation>&amp;Вернуть</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="546"/>
         <source>Redo</source>
-        <translation>Восстановить</translation>
+        <translation>Вернуть</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="549"/>
@@ -194,7 +194,7 @@
         <location filename="../../fp.ui" line="557"/>
         <location filename="../../fp.ui" line="560"/>
         <source>Reload</source>
-        <translation>Перезагрузка</translation>
+        <translation>Перезагрузить</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="563"/>
@@ -214,7 +214,7 @@
     <message>
         <location filename="../../fp.ui" line="582"/>
         <source>Show/hide replacement dock</source>
-        <translation>Показать/скрыть заменяющее прикрепление</translation>
+        <translation>Показать/скрыть панель замены</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="585"/>
@@ -299,7 +299,7 @@
     <message>
         <location filename="../../fp.ui" line="668"/>
         <source>&amp;Select All</source>
-        <translation>&amp;Выбрать все</translation>
+        <translation>&amp;Выделить всё</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="671"/>
@@ -354,7 +354,7 @@
     <message>
         <location filename="../../fp.ui" line="734"/>
         <source>&amp;Preferences</source>
-        <translation>&amp;Настройки</translation>
+        <translation>&amp;Параметры</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="737"/>
@@ -384,7 +384,7 @@
     <message>
         <location filename="../../fp.ui" line="965"/>
         <source>&amp;Jump to</source>
-        <translation>&amp;Перейти в</translation>
+        <translation>&amp;На строку</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="968"/>
@@ -429,7 +429,7 @@
     <message>
         <location filename="../../fp.ui" line="1021"/>
         <source>Close &amp;Other Tabs</source>
-        <translation>&amp;Закрыть другие вкладк</translation>
+        <translation>&amp;Закрыть другие вкладки</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1031"/>
@@ -555,7 +555,7 @@
         <location filename="../../fp.ui" line="1191"/>
         <location filename="../../fp.ui" line="1194"/>
         <source>Save All Files</source>
-        <translation type="unfinished"></translation>
+        <translation>Сохранить всё</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="990"/>
@@ -705,12 +705,12 @@
     <message>
         <location filename="../../fp.ui" line="887"/>
         <source>&amp;Japanese (ISO-2022-JP)</source>
-        <translation>&amp;Japanese (ISO-2022-JP)</translation>
+        <translation>&amp;Японская (ISO-2022-JP)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="920"/>
         <source>Ja&amp;panese (CP932)</source>
-        <translation></translation>
+        <translation>Японская (CP932)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="939"/>
@@ -1028,7 +1028,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="5060"/>
         <source>Some files cannot be saved!</source>
-        <translation type="unfinished"></translation>
+        <translation>Файлы не могут быть сохранены!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5103"/>
@@ -1194,43 +1194,43 @@
     <message>
         <location filename="../../fontDialog.ui" line="14"/>
         <source>Select Font</source>
-        <translation type="unfinished"></translation>
+        <translation>Выберите шрифт</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="38"/>
         <source>Programming Fonts</source>
-        <translation type="unfinished"></translation>
+        <translation>Только шрифты программирования</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="45"/>
         <location filename="../../fontDialog.ui" line="55"/>
         <source>Font:</source>
-        <translation type="unfinished"></translation>
+        <translation>Шрифт:</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="69"/>
         <source>Size:</source>
-        <translation type="unfinished"></translation>
+        <translation>Размер:</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="89"/>
         <source>Weight:</source>
-        <translation type="unfinished"></translation>
+        <translation>Начертания:</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="103"/>
         <source>Normal</source>
-        <translation type="unfinished"></translation>
+        <translation>Нормальный</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="108"/>
         <source>Medium</source>
-        <translation type="unfinished"></translation>
+        <translation>Полужирный</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="113"/>
         <source>Bold</source>
-        <translation type="unfinished"></translation>
+        <translation>Жирный</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="118"/>
@@ -1240,12 +1240,12 @@
     <message>
         <location filename="../../fontDialog.ui" line="126"/>
         <source>Italic</source>
-        <translation type="unfinished"></translation>
+        <translation>Курсивный</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="149"/>
         <source>Preview</source>
-        <translation type="unfinished"></translation>
+        <translation>Пример</translation>
     </message>
 </context>
 <context>
@@ -1402,12 +1402,12 @@ current desktop, files will be opened in its tabs.
 
 However, some desktop environments may not
 report that they have multiple desktops.</source>
-        <translation type="unfinished">По умолчанию, если окно FeatherPad есть на
-данном рабочем столе, файлы будут открыты
+        <translation>По умолчанию, если окно FeatherPad запущено
+на рабочем столе, новые файлы будут открыты
 во вкладках этого окна.
-Правда, некоторые окружения рабочего
-стола могут не сообщать о том, что в них
-есть несколько рабочих столов.</translation>
+
+Правда, в некоторых окружениях рабочего
+стола эта функция не работает.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="367"/>
@@ -1876,7 +1876,7 @@ Leave empty for:
 MMM dd, yyyy, hh:mm:ss</source>
         <translation>Используется для вставки даты и
 времени.
-Имеет эффект после закрытия этого
+Вступает в силу после закрытия этого
 диалога.
 Оставить пустым для:
 МММ дд, гггг, чч:мм:сс</translation>
@@ -2177,7 +2177,7 @@ windows will be included in the saved session.</source>
     <message>
         <location filename="../../spellDialog.ui" line="62"/>
         <source>Replace with:</source>
-        <translation type="unfinished">Заменить на:</translation>
+        <translation>Заменить на:</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="129"/>
