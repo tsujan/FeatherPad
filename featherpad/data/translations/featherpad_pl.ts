@@ -506,7 +506,7 @@
     <message>
         <location filename="../../fp.ui" line="1183"/>
         <source>Check Spelling</source>
-        <translation type="unfinished"></translation>
+        <translation>Sprawdzaj pisownię</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1186"/>
@@ -517,7 +517,7 @@
         <location filename="../../fp.ui" line="1191"/>
         <location filename="../../fp.ui" line="1194"/>
         <source>Save All Files</source>
-        <translation type="unfinished"></translation>
+        <translation>Zapisz wszystkie pliki</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="990"/>
@@ -1075,19 +1075,19 @@
     <message>
         <location filename="../../fpwin.cpp" line="4663"/>
         <source>You need to add a Hunspell dictionary.</source>
-        <translation type="unfinished"></translation>
+        <translation>Musisz dodać słownik Hunspell.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4664"/>
         <location filename="../../fpwin.cpp" line="4670"/>
         <location filename="../../fpwin.cpp" line="4679"/>
         <source>See Preferences → Text → Spell Checking!</source>
-        <translation type="unfinished"></translation>
+        <translation>Patrz: Preferencje → Tekst → Sprawdzanie pisowni</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4669"/>
         <source>The Hunspell dictionary does not exist.</source>
-        <translation type="unfinished"></translation>
+        <translation>Słownik Hunspell nie istnieje.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4678"/>
@@ -1099,24 +1099,24 @@
         <location filename="../../fpwin.cpp" line="4718"/>
         <location filename="../../fpwin.cpp" line="4733"/>
         <source>No misspelling in document.</source>
-        <translation type="unfinished"></translation>
+        <translation>Brak błędów w pisowni w dokumencie.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4702"/>
         <location filename="../../fpwin.cpp" line="4720"/>
         <location filename="../../fpwin.cpp" line="4735"/>
         <source>No misspelling from text cursor.</source>
-        <translation type="unfinished"></translation>
+        <translation>Brak błędów w pisowni od kursora tekstu.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4747"/>
         <source>Spell Checking</source>
-        <translation type="unfinished"></translation>
+        <translation>Sprawdzanie pisowni</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5060"/>
         <source>Some files cannot be saved!</source>
-        <translation type="unfinished"></translation>
+        <translation>Niektóre pliki nie mogły zostać zapisane!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5103"/>
@@ -1194,23 +1194,23 @@
     <message>
         <location filename="../../fontDialog.ui" line="14"/>
         <source>Select Font</source>
-        <translation type="unfinished"></translation>
+        <translation>Wybierz czcionkę</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="38"/>
         <source>Programming Fonts</source>
-        <translation type="unfinished"></translation>
+        <translation>Czcionki do programowania</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="45"/>
         <location filename="../../fontDialog.ui" line="55"/>
         <source>Font:</source>
-        <translation type="unfinished"></translation>
+        <translation>Czcionka:</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="69"/>
         <source>Size:</source>
-        <translation type="unfinished"></translation>
+        <translation>Rozmiar:</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="89"/>
@@ -1220,7 +1220,7 @@
     <message>
         <location filename="../../fontDialog.ui" line="103"/>
         <source>Normal</source>
-        <translation type="unfinished">Normalne</translation>
+        <translation>Normalny</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="108"/>
@@ -1245,7 +1245,7 @@
     <message>
         <location filename="../../fontDialog.ui" line="149"/>
         <source>Preview</source>
-        <translation type="unfinished"></translation>
+        <translation>Podgląd</translation>
     </message>
 </context>
 <context>
