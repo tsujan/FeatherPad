@@ -725,12 +725,12 @@
     <message>
         <location filename="../../fp.ui" line="1042"/>
         <source>Alt+Right</source>
-        <translation>Alt+Right</translation>
+        <translation>Alt+راست</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1053"/>
         <source>Alt+Left</source>
-        <translation>Alt+Left</translation>
+        <translation>Alt+چپ</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1061"/>
@@ -740,7 +740,7 @@
     <message>
         <location filename="../../fp.ui" line="1064"/>
         <source>Alt+Down</source>
-        <translation>Alt+Down</translation>
+        <translation>Alt+پایین</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1072"/>
@@ -750,7 +750,7 @@
     <message>
         <location filename="../../fp.ui" line="1075"/>
         <source>Alt+Up</source>
-        <translation>Alt+Up</translation>
+        <translation>Alt+بالا</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1080"/>
