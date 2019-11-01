@@ -2790,7 +2790,7 @@ bool FPwin::saveFile (bool keepSyntax)
         msgBox.setInformativeText ("<center><i>" + tr ("This may be good for readability under MS Windows.") + "</i></center>");
         msgBox.setWindowModality (Qt::WindowModal);
         QString contents;
-        int ln;
+        size_t ln;
         QTextCodec *codec;
         QByteArray encodedString;
         const char *txt;
@@ -2798,7 +2798,7 @@ bool FPwin::saveFile (bool keepSyntax)
         case QMessageBox::Yes:
             contents = textEdit->document()->toPlainText();
             contents.replace ("\n", "\r\n");
-            ln = contents.length(); // for fwrite();
+            ln = static_cast<size_t>(contents.length()); // for fwrite();
             codec = QTextCodec::codecForName (checkToEncoding().toUtf8());
             encodedString = codec->fromUnicode (contents);
             txt = encodedString.constData();
@@ -2820,7 +2820,7 @@ bool FPwin::saveFile (bool keepSyntax)
                 if (file != nullptr)
                 {
                     /* this worked correctly as I far as I tested */
-                    fwrite (txt , 2 , static_cast<size_t>(ln + 1) , file);
+                    fwrite (txt , 2 , ln + 1 , file);
                     fclose (file);
                     success = true;
                 }
