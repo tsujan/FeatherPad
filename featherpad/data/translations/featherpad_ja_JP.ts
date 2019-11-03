@@ -740,7 +740,7 @@
         <location filename="../../fp.ui" line="1200"/>
         <location filename="../../fp.ui" line="1203"/>
         <source>User Dictionary</source>
-        <translation type="unfinished"></translation>
+        <translation>ユーザー辞書</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="100"/>
