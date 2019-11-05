@@ -1289,12 +1289,12 @@
         <location filename="../../predDialog.ui" line="107"/>
         <location filename="../../predDialog.ui" line="120"/>
         <source>Window frame is excluded.</source>
-        <translation></translation>
+        <translation>已排除視窗框架。</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="87"/>
         <source>Start with this size: </source>
-        <translation></translation>
+        <translation>以這個大小啟動： </translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="100"/>
@@ -1457,7 +1457,7 @@ Some desktop environments, like KDE and LXQt, provide files dialogs.</source>
     <message>
         <location filename="../../predDialog.ui" line="456"/>
         <source>Uncheck for Monospace.</source>
-        <translation></translation>
+        <translation>取消勾選以使用等寬字型。</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="459"/>
@@ -1749,12 +1749,12 @@ MMM dd, yyyy, hh:mm:ss</source>
     <message>
         <location filename="../../predDialog.ui" line="782"/>
         <source>Text tab size:</source>
-        <translation></translation>
+        <translation>文字 tab 大小</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="789"/>
         <source> spaces</source>
-        <translation></translation>
+        <translation> 空格</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="841"/>
@@ -1821,7 +1821,7 @@ will be started from the document start.</source>
     <message>
         <location filename="../../predDialog.ui" line="1172"/>
         <source> min</source>
-        <translation></translation>
+        <translation> 分鐘</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="1203"/>
@@ -1841,7 +1841,7 @@ trailing spaces of a text file.</source>
     <message>
         <location filename="../../predDialog.ui" line="1218"/>
         <source>Show a warning instead.</source>
-        <translation></translation>
+        <translation>而是顯示警告。</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="1221"/>
@@ -1851,22 +1851,22 @@ trailing spaces of a text file.</source>
     <message>
         <location filename="../../predDialog.ui" line="1248"/>
         <source>Shortcuts</source>
-        <translation></translation>
+        <translation>快速鍵</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="1267"/>
         <source>Action</source>
-        <translation></translation>
+        <translation>動作</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="1272"/>
         <source>Shortcut</source>
-        <translation></translation>
+        <translation>快速鍵</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="1280"/>
         <source>Restore default shortcuts.</source>
-        <translation></translation>
+        <translation>還原預設快速鍵。</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="1283"/>
@@ -1909,12 +1909,12 @@ trailing spaces of a text file.</source>
     <message>
         <location filename="../../pref.cpp" line="1190"/>
         <source>&amp;Recently Opened</source>
-        <translation></translation>
+        <translation>最近開啟(&amp;R)</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="1191"/>
         <source>Recently &amp;Modified</source>
-        <translation></translation>
+        <translation>最近修改(&amp;M)</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="1266"/>
@@ -1924,7 +1924,7 @@ trailing spaces of a text file.</source>
     <message>
         <location filename="../../pref.cpp" line="1470"/>
         <source>Hunspell Dictionary Files (*.dic)</source>
-        <translation></translation>
+        <translation>Hunspell 字典檔 (*.dic)</translation>
     </message>
 </context>
 <context>
@@ -1933,17 +1933,17 @@ trailing spaces of a text file.</source>
         <location filename="../../searchbar.cpp" line="43"/>
         <location filename="../../searchbar.cpp" line="122"/>
         <source>Search...</source>
-        <translation></translation>
+        <translation>搜尋...</translation>
     </message>
     <message>
         <location filename="../../searchbar.cpp" line="74"/>
         <source>Match Case</source>
-        <translation></translation>
+        <translation>符合大小寫</translation>
     </message>
     <message>
         <location filename="../../searchbar.cpp" line="81"/>
         <source>Whole Word</source>
-        <translation></translation>
+        <translation>整個文字</translation>
     </message>
     <message>
         <location filename="../../searchbar.cpp" line="88"/>
