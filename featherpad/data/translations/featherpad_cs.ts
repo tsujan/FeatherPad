@@ -523,7 +523,7 @@ tento řádek (Ctrl+Shift+J)</translation>
         <location filename="../../fp.ui" line="1200"/>
         <location filename="../../fp.ui" line="1203"/>
         <source>User Dictionary</source>
-        <translation type="unfinished"></translation>
+        <translation>Uživatelský slovník</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="991"/>
