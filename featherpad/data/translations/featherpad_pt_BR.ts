@@ -517,13 +517,13 @@
         <location filename="../../fp.ui" line="1192"/>
         <location filename="../../fp.ui" line="1195"/>
         <source>Save All Files</source>
-        <translation type="unfinished"></translation>
+        <translation>Salvar Todos os Arquivos</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1200"/>
         <location filename="../../fp.ui" line="1203"/>
         <source>User Dictionary</source>
-        <translation type="unfinished"></translation>
+        <translation>Dicionário do Usuário</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="991"/>
@@ -1123,7 +1123,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="5080"/>
         <source>Some files cannot be saved!</source>
-        <translation type="unfinished"></translation>
+        <translation>Alguns arquivos não puderam ser salvos!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5123"/>
