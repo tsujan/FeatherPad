@@ -506,7 +506,7 @@
     <message>
         <location filename="../../fp.ui" line="1184"/>
         <source>Check Spelling</source>
-        <translation type="unfinished"></translation>
+        <translation>Vérifier l&apos;orthographe</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1187"/>
@@ -517,13 +517,13 @@
         <location filename="../../fp.ui" line="1192"/>
         <location filename="../../fp.ui" line="1195"/>
         <source>Save All Files</source>
-        <translation type="unfinished"></translation>
+        <translation>Sauvegarder tous les fichiers</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1200"/>
         <location filename="../../fp.ui" line="1203"/>
         <source>User Dictionary</source>
-        <translation type="unfinished"></translation>
+        <translation>Dictionnaire de l&apos;utilisateur</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="991"/>
@@ -981,48 +981,48 @@
     <message>
         <location filename="../../fpwin.cpp" line="4667"/>
         <source>You need to add a Hunspell dictionary.</source>
-        <translation type="unfinished"></translation>
+        <translation>Vous devez ajouter un dictionnaire Hunspell.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4668"/>
         <location filename="../../fpwin.cpp" line="4674"/>
         <location filename="../../fpwin.cpp" line="4683"/>
         <source>See Preferences → Text → Spell Checking!</source>
-        <translation type="unfinished"></translation>
+        <translation>Voir Préférences → Texte → Vérification de l&apos;orthographe !</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4673"/>
         <source>The Hunspell dictionary does not exist.</source>
-        <translation type="unfinished"></translation>
+        <translation>Le dictionnaire Hunspell n&apos;existe pas.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4682"/>
         <source>The Hunspell dictionary is not accompanied by an affix file.</source>
-        <translation type="unfinished"></translation>
+        <translation>Le dictionnaire Hunspell n&apos;est pas accompagné de son fichier affixe.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4704"/>
         <location filename="../../fpwin.cpp" line="4722"/>
         <location filename="../../fpwin.cpp" line="4737"/>
         <source>No misspelling in document.</source>
-        <translation type="unfinished"></translation>
+        <translation>Pas de fautes d&apos;orthographes dans le document.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4706"/>
         <location filename="../../fpwin.cpp" line="4724"/>
         <location filename="../../fpwin.cpp" line="4739"/>
         <source>No misspelling from text cursor.</source>
-        <translation type="unfinished"></translation>
+        <translation>Pas de fautes d&apos;orthographe depuis le curseur.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4751"/>
         <source>Spell Checking</source>
-        <translation type="unfinished"></translation>
+        <translation>Vérification de l&apos;orthographe</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5080"/>
         <source>Some files cannot be saved!</source>
-        <translation type="unfinished"></translation>
+        <translation>Un ou plusieurs fichiers ne peuvent pas être sauvegardé(s) !</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5123"/>
@@ -1202,58 +1202,58 @@
     <message>
         <location filename="../../fontDialog.ui" line="14"/>
         <source>Select Font</source>
-        <translation type="unfinished"></translation>
+        <translation>Sélectionner une police d&apos;écriture</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="38"/>
         <source>Programming Fonts</source>
-        <translation type="unfinished"></translation>
+        <translation>Polices d&apos;écriture pour la programmation</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="45"/>
         <location filename="../../fontDialog.ui" line="55"/>
         <source>Font:</source>
-        <translation type="unfinished"></translation>
+        <translation>Police d&apos;écriture :</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="69"/>
         <source>Size:</source>
-        <translation type="unfinished"></translation>
+        <translation>Taille :</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="89"/>
         <source>Weight:</source>
-        <translation type="unfinished"></translation>
+        <translation>Poids :</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="103"/>
         <source>Normal</source>
-        <translation type="unfinished">Normal</translation>
+        <translation>Écriture normale</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="108"/>
         <source>Medium</source>
-        <translation type="unfinished"></translation>
+        <translation>Moyen(ne)</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="113"/>
         <source>Bold</source>
-        <translation type="unfinished"></translation>
+        <translation>Gras</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="118"/>
         <source>Black</source>
-        <translation type="unfinished"></translation>
+        <translation>Noir</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="126"/>
         <source>Italic</source>
-        <translation type="unfinished"></translation>
+        <translation>Italique</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="149"/>
         <source>Preview</source>
-        <translation type="unfinished"></translation>
+        <translation>Aperçu</translation>
     </message>
 </context>
 <context>
@@ -1365,12 +1365,13 @@ un bouton menu apparait sur la barre d&apos;outils.</translation>
         <location filename="../../predDialog.ui" line="225"/>
         <source>By default, each search entry
 has a separate search history.</source>
-        <translation type="unfinished"></translation>
+        <translation>Par défaut chaque recherche
+a un historique différent.</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="229"/>
         <source>Use a shared search history</source>
-        <translation type="unfinished"></translation>
+        <translation>Utiliser un historique de recherche partagé</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="236"/>
@@ -1827,7 +1828,7 @@ doit-il être inertiel si le curseur se trouve dans la vue du texte ?</translati
     <message>
         <location filename="../../predDialog.ui" line="870"/>
         <source>Spell Checking</source>
-        <translation type="unfinished"></translation>
+        <translation>Vérification de l&apos;orthographe</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="878"/>
@@ -1840,13 +1841,13 @@ name but ending with &quot;.aff&quot;.</source>
     <message>
         <location filename="../../predDialog.ui" line="883"/>
         <source>Hunspell dictionary path:</source>
-        <translation type="unfinished"></translation>
+        <translation>Chemin vers le dictionnaire Hunspell :</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="902"/>
         <location filename="../../pref.cpp" line="1468"/>
         <source>Add dictionary...</source>
-        <translation type="unfinished"></translation>
+        <translation>Ajouter un dictionnaire...</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="914"/>
@@ -1857,7 +1858,7 @@ will be started from the document start.</source>
     <message>
         <location filename="../../predDialog.ui" line="918"/>
         <source>Start spell checking from text cursor</source>
-        <translation type="unfinished"></translation>
+        <translation>Démarrer la vérification de l&apos;orthographe depuis le curseur</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="973"/>
@@ -1986,7 +1987,7 @@ de fin de ligne d&apos;un fichier texte.</translation>
     <message>
         <location filename="../../pref.cpp" line="1470"/>
         <source>Hunspell Dictionary Files (*.dic)</source>
-        <translation type="unfinished"></translation>
+        <translation>Fichier(s) de dictionnaire(s) Hunspell (*.dic)</translation>
     </message>
 </context>
 <context>
@@ -2186,37 +2187,37 @@ fenêtres seront inclus dans la session sauvegardée.</translation>
     <message>
         <location filename="../../spellDialog.ui" line="25"/>
         <source>Unknown word:</source>
-        <translation type="unfinished"></translation>
+        <translation>Mot inconnu :</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="51"/>
         <source>Add To Dictionary</source>
-        <translation type="unfinished"></translation>
+        <translation>Ajouter au dictionnaire</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="62"/>
         <source>Replace with:</source>
-        <translation type="unfinished">Remplacer par :</translation>
+        <translation>Remplacer par :</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="129"/>
         <source>Correct Once</source>
-        <translation type="unfinished"></translation>
+        <translation>Corriger une fois</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="142"/>
         <source>Correct All</source>
-        <translation type="unfinished"></translation>
+        <translation>Corriger partout</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="87"/>
         <source>Ignore Once</source>
-        <translation type="unfinished"></translation>
+        <translation>Ignorer une fois</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="100"/>
         <source>Ignore All</source>
-        <translation type="unfinished"></translation>
+        <translation>Ignorer partout</translation>
     </message>
 </context>
 <context>
