@@ -56,19 +56,19 @@
         <location filename="../../fp.ui" line="189"/>
         <location filename="../../fp.ui" line="977"/>
         <source>&amp;Edit</source>
-        <translation>&amp;Bewerken</translation>
+        <translation>Be&amp;werken</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="216"/>
         <source>&amp;Options</source>
-        <translation>&amp;Opties</translation>
+        <translation>E&amp;xtra</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1290"/>
         <location filename="../../fpwin.cpp" line="2542"/>
         <location filename="../../fpwin.cpp" line="3665"/>
         <source>Encoding</source>
-        <translation>Tekenreeks</translation>
+        <translation>Tekencodering</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="279"/>
@@ -79,7 +79,7 @@
         <location filename="../../fp.ui" line="287"/>
         <location filename="../../fp.ui" line="743"/>
         <source>&amp;Help</source>
-        <translation>&amp;Hulp</translation>
+        <translation>&amp;Help</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="387"/>
@@ -523,7 +523,7 @@
         <location filename="../../fp.ui" line="1200"/>
         <location filename="../../fp.ui" line="1203"/>
         <source>User Dictionary</source>
-        <translation type="unfinished"></translation>
+        <translation>Gebruikerswoordenboek</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="991"/>
@@ -1037,7 +1037,7 @@
         <location filename="../../fpwin.cpp" line="5048"/>
         <location filename="../../fpwin.cpp" line="5056"/>
         <source>Syntax</source>
-        <translation>Syntax</translation>
+        <translation>Syntaxis</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2285"/>
@@ -1089,7 +1089,7 @@
         <location filename="../../fpwin.cpp" line="4674"/>
         <location filename="../../fpwin.cpp" line="4683"/>
         <source>See Preferences → Text → Spell Checking!</source>
-        <translation>Zie Voorkeuren → Tekst → Spellingcontrole</translation>
+        <translation>Zie Voorkeuren → Tekst → Spellingcontrole!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4673"/>
@@ -1664,7 +1664,7 @@ tabblad te verslepen.</translation>
     <message>
         <location filename="../../predDialog.ui" line="346"/>
         <source>&amp;Do not show a single tab</source>
-        <translation>Nooit een tabbla&amp;d tonen</translation>
+        <translation>Bij één tabblad de tabbla&amp;den verbergen</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="411"/>
@@ -1795,7 +1795,7 @@ Takes effect after closing this dialog.
 
 Leave empty for:
 MMM dd, yyyy, hh:mm:ss</source>
-        <translation>Wordt gebruikt voor het plakken van de datum en tijd.
+        <translation>Wordt gebruikt voor het plakken van de datum en de tijd.
 
 Wordt toegepast na sluiten van dit venster.
 
