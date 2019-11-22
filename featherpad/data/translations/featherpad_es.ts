@@ -517,13 +517,13 @@
         <location filename="../../fp.ui" line="1192"/>
         <location filename="../../fp.ui" line="1195"/>
         <source>Save All Files</source>
-        <translation type="unfinished"></translation>
+        <translation>Guardar todos los archivos</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1200"/>
         <location filename="../../fp.ui" line="1203"/>
         <source>User Dictionary</source>
-        <translation type="unfinished"></translation>
+        <translation>Diccionario de usuario</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="991"/>
@@ -1123,7 +1123,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="5080"/>
         <source>Some files cannot be saved!</source>
-        <translation type="unfinished"></translation>
+        <translation>¡Algunos archivos no se pueden guardar!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5123"/>
@@ -1829,9 +1829,8 @@ MMM dd, aaaa, hh:mm:ss</translation>
         <location filename="../../predDialog.ui" line="848"/>
         <source>Should the mouse wheel scrolling be inertial
 if the cursor is inside the text view?</source>
-        <translation>Si activa esta opción el desplazamiento con la rueda
-del ratón será inercial siempre y cuando el cursor esté
-dentro del área de texto.</translation>
+        <translation>¿Debe ser inercial el desplazamiento con la rueda
+del ratón si el cursor está dentro del área de texto?</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="870"/>
