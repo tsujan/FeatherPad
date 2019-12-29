@@ -20,7 +20,7 @@
         <location filename="../../fp.ui" line="107"/>
         <source>Select text from cursor to this line
 (Ctrl+Shift+J)</source>
-        <translation>カーソルからこの行までのテキストを選択。
+        <translation>カーソル位置からこの行までのテキストを選択
 (Ctrl+Shift+J)</translation>
     </message>
     <message>
@@ -41,7 +41,7 @@
     <message>
         <location filename="../../fp.ui" line="153"/>
         <source>Recently &amp;Modified</source>
-        <translation>最近変更されたファイル(&amp;M)</translation>
+        <translation>最近変更したファイル(&amp;M)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="189"/>
@@ -77,7 +77,7 @@
     <message>
         <location filename="../../fp.ui" line="247"/>
         <source>Ea&amp;st Asian</source>
-        <translation>東アジア(&amp;s)</translation>
+        <translation>東アジア(&amp;S)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="279"/>
@@ -198,7 +198,7 @@
         <location filename="../../fp.ui" line="558"/>
         <location filename="../../fp.ui" line="561"/>
         <source>Reload</source>
-        <translation>再読込</translation>
+        <translation>再読み込み</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="564"/>
@@ -258,7 +258,7 @@
     <message>
         <location filename="../../fp.ui" line="607"/>
         <source>Documen&amp;t Properties</source>
-        <translation>文書のプロパティ(&amp;t)</translation>
+        <translation>文書のプロパティ(&amp;T)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="610"/>
@@ -298,7 +298,7 @@
     <message>
         <location filename="../../fp.ui" line="645"/>
         <source>C&amp;opy</source>
-        <translation>コピー(&amp;o)</translation>
+        <translation>コピー(&amp;O)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="648"/>
@@ -393,107 +393,107 @@
     <message>
         <location filename="../../fp.ui" line="751"/>
         <source>&amp;About</source>
-        <translation>FeatherPadについて(&amp;A)</translation>
+        <translation>FeatherPad について(&amp;A)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="762"/>
         <source>Windows Arabic (&amp;CP1256)</source>
-        <translation>Windowsアラビア文字 &amp;CP1256</translation>
+        <translation>Windows アラビア文字 (CP1256)(&amp;C)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="770"/>
         <source>&amp;Other</source>
-        <translation>その他 (&amp;Other)</translation>
+        <translation>その他(&amp;O)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="778"/>
         <source>Enforce UTF-8</source>
-        <translation>UTF-8を強制します</translation>
+        <translation>UTF-8 を強制</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="789"/>
         <source>&amp;UTF-8</source>
-        <translation>&amp;UTF-8</translation>
+        <translation>UTF-8(&amp;U)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="800"/>
         <source>UTF-&amp;16</source>
-        <translation>UTF-&amp;16</translation>
+        <translation>UTF-16(&amp;1)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="811"/>
         <source>&amp;ISO-8859-1</source>
-        <translation>&amp;ISO-8859-1</translation>
+        <translation>ISO-8859-1(&amp;I)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="822"/>
         <source>&amp;Windows-1252</source>
-        <translation>&amp;Windows-1252</translation>
+        <translation>Windows-1252(&amp;W)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="833"/>
         <source>&amp;Cyrillic (CP1251)</source>
-        <translation>キリル文字 &amp;CP1251</translation>
+        <translation>キリル文字 (CP1251)(&amp;C)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="844"/>
         <source>Cyrillic (&amp;KOI8-U)</source>
-        <translation>キリル文字 &amp;KOI8-U</translation>
+        <translation>キリル文字 (KOI8-U)(&amp;K)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="855"/>
         <source>Cyrillic (&amp;ISO-8859-5)</source>
-        <translation>キリル文字 &amp;ISO-8859-5</translation>
+        <translation>キリル文字 (ISO-8859-5)(&amp;I)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="866"/>
         <source>&amp;Chinese (BIG5)</source>
-        <translation>中国語BIG5(&amp;C)</translation>
+        <translation>中国語 (BIG5)(&amp;C)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="877"/>
         <source>Chinese (&amp;GB18030)</source>
-        <translation>中国語 &amp;GB18030</translation>
+        <translation>中国語 (GB18030)(&amp;G)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="888"/>
         <source>&amp;Japanese (ISO-2022-JP)</source>
-        <translation>日本語 ISO-2022-&amp;JP</translation>
+        <translation>日本語 (ISO-2022-JP)(&amp;J)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="899"/>
         <source>Japanese (&amp;ISO-2022-JP-2)</source>
-        <translation>日本語 &amp;ISO-2022-JP-2</translation>
+        <translation>日本語 (ISO-2022-JP-2)(&amp;I)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="910"/>
         <source>Japanese (ISO-&amp;2022-KR)</source>
-        <translation>日本語 ISO-&amp;2022-KR</translation>
+        <translation>日本語 (ISO-2022-KR)(&amp;2)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="921"/>
         <source>Ja&amp;panese (CP932)</source>
-        <translation>日本語 CP932(&amp;p)</translation>
+        <translation>日本語 (CP932)(&amp;P)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="932"/>
         <source>Japa&amp;nese (EUC-JP)</source>
-        <translation>日本語 EUC-JP(&amp;n)</translation>
+        <translation>日本語 (EUC-JP)(&amp;N)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="940"/>
         <source>&amp;Korean (CP949)</source>
-        <translation>韓国語 CP949(&amp;K)</translation>
+        <translation>韓国語 (CP949)(&amp;K)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="948"/>
         <source>K&amp;orean (CP1361)</source>
-        <translation>韓国語 CP1361(&amp;o)</translation>
+        <translation>韓国語 (CP1361)(&amp;O)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="956"/>
         <source>Korean (&amp;EUC-KR)</source>
-        <translation>韓国語 &amp;EUC-KR</translation>
+        <translation>韓国語 (EUC-KR)(&amp;E)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="961"/>
@@ -508,7 +508,7 @@
     <message>
         <location filename="../../fp.ui" line="969"/>
         <source>Show/hide jump bar</source>
-        <translation>指定行へ移動のバーの表示/非表示</translation>
+        <translation>指定行へ移動バーの表示/非表示</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="972"/>
@@ -538,12 +538,12 @@
     <message>
         <location filename="../../fp.ui" line="1002"/>
         <source>ISO-&amp;8859-15</source>
-        <translation>ISO-&amp;8859-15</translation>
+        <translation>ISO-8859-15(&amp;8)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1007"/>
         <source>Close Ne&amp;xt Tabs</source>
-        <translation>次のタブを閉じる(&amp;x)</translation>
+        <translation>次のタブを閉じる(&amp;X)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1012"/>
@@ -558,7 +558,7 @@
     <message>
         <location filename="../../fp.ui" line="1022"/>
         <source>Close &amp;Other Tabs</source>
-        <translation>その他のタブを閉じる(&amp;O)</translation>
+        <translation>他のタブを閉じる(&amp;O)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1027"/>
@@ -568,12 +568,12 @@
     <message>
         <location filename="../../fp.ui" line="1032"/>
         <source>Copy File &amp;Path</source>
-        <translation>ファイルのパスをコピー(&amp;P)</translation>
+        <translation>ファイルパスをコピー(&amp;P)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1040"/>
         <source>Ne&amp;xt Tab</source>
-        <translation>次のタブへ(&amp;x)</translation>
+        <translation>次のタブへ(&amp;X)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1043"/>
@@ -583,7 +583,7 @@
     <message>
         <location filename="../../fp.ui" line="1051"/>
         <source>Previous Ta&amp;b</source>
-        <translation>前のタブへ(&amp;b)</translation>
+        <translation>前のタブへ(&amp;B)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1054"/>
@@ -633,12 +633,12 @@
     <message>
         <location filename="../../fp.ui" line="1097"/>
         <source>&amp;Clear</source>
-        <translation>クリア(&amp;C)</translation>
+        <translation>消去(&amp;C)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1100"/>
         <source>Clear the list of recently modified files</source>
-        <translation>最近変更されたファイルのリストをクリア</translation>
+        <translation>最近変更したファイル一覧を消去</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1105"/>
@@ -648,7 +648,7 @@
     <message>
         <location filename="../../fp.ui" line="1108"/>
         <source>Sa&amp;ve/Restore Session</source>
-        <translation>セッションの保存/復元(&amp;v)</translation>
+        <translation>セッションの保存/復元(&amp;V)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1111"/>
@@ -746,8 +746,8 @@
         <location filename="../../fpwin.cpp" line="100"/>
         <source>Calculate number of words
 (For huge texts, this may be CPU-intensive.)</source>
-        <translation>単語の数を数える
-(大きなテキストの場合、CPUを大量に消費します。)</translation>
+        <translation>単語数を数える
+(巨大なテキストでは CPU 負荷が高くなります)</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="115"/>
@@ -806,7 +806,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="822"/>
         <source>Another FeatherPad window has a modal dialog!</source>
-        <translation>別のFeatherPadウィンドウにダイアログがあります！</translation>
+        <translation>別の FeatherPad ウィンドウにモーダルダイアログがあります！</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="823"/>
@@ -856,7 +856,7 @@
         <location filename="../../fpwin.cpp" line="2591"/>
         <location filename="../../fpwin.cpp" line="3714"/>
         <source>Encoding</source>
-        <translation>コード</translation>
+        <translation>エンコーディング</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1329"/>
@@ -898,7 +898,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="1619"/>
         <source>Another process is running in this tab!</source>
-        <translation>このタブでは別のプロセスが実行されています！</translation>
+        <translation>このタブで別のプロセスが実行中です！</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1620"/>
@@ -923,17 +923,17 @@
     <message>
         <location filename="../../fpwin.cpp" line="1719"/>
         <source>Clear</source>
-        <translation>クリア</translation>
+        <translation>消去</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2325"/>
         <source>Huge file(s) not opened!</source>
-        <translation>大きなファイルは開けません！</translation>
+        <translation>大きすぎるファイルは開けません！</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2326"/>
         <source>FeatherPad does not open files larger than 100 MiB.</source>
-        <translation>FeatherPadは100 MiB以上のファイルを開けません。</translation>
+        <translation>FeatherPad は 100 MiB 以上のファイルを開けません。</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2334"/>
@@ -953,32 +953,32 @@
     <message>
         <location filename="../../fpwin.cpp" line="2344"/>
         <source>You may not have the permission to read.</source>
-        <translation>あなたは読む権限がないかもしれません。</translation>
+        <translation>おそらく読み取り権限がありません。</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2354"/>
         <source>Uneditable file(s)!</source>
-        <translation>編集できないファイル！</translation>
+        <translation>編集できないファイルです！</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2355"/>
         <source>Non-text files or files with huge lines cannot be edited.</source>
-        <translation>テキスト以外のファイルや大きなファイルは編集できません。</translation>
+        <translation>テキスト形式ではないファイルや大きすぎるファイルは編集できません。</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2412"/>
         <source>A previous crash detected!</source>
-        <translation>以前のクラッシュが検出されました！</translation>
+        <translation>以前のクラッシュを検出しました！</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2413"/>
         <source>Preferably, close all FeatherPad windows and start again!</source>
-        <translation>できたら、すべてのFeatherPadウィンドウを閉じて、再び開いてください！</translation>
+        <translation>可能でしたら、FeatherPad のウィンドウをすべて閉じて起動し直してください！</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2420"/>
         <source>Root Instance</source>
-        <translation>Root 権限 インスタンス</translation>
+        <translation>Root 権限のインスタンス</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2491"/>
@@ -1031,7 +1031,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="2839"/>
         <source>Do you want to use &lt;b&gt;MS Windows&lt;/b&gt; end-of-lines?</source>
-        <translation>&lt;b&gt;MS Windows&lt;/b&gt; の改行コード(CR LF)を使いますか？</translation>
+        <translation>&lt;b&gt;MS Windows&lt;/b&gt; の改行コード (CR LF) を使いますか？</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2840"/>
@@ -1052,7 +1052,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="2987"/>
         <source>Cannot be saved!</source>
-        <translation>保存することはできません！</translation>
+        <translation>保存できません！</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3203"/>
@@ -1064,7 +1064,7 @@
         <location filename="../../fpwin.cpp" line="3204"/>
         <location filename="../../fpwin.cpp" line="3391"/>
         <source>Please be careful about reloading or saving this document!</source>
-        <translation>この文章は再読み込みや保存には注意してください！</translation>
+        <translation>この文章の再読み込みや保存には注意してください！</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3912"/>
@@ -1081,25 +1081,25 @@
         <location filename="../../fpwin.cpp" line="4532"/>
         <location filename="../../fpwin.cpp" line="4602"/>
         <source>Copy Target Path</source>
-        <translation>コピー先のパス</translation>
+        <translation>対象のパスをコピー</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4536"/>
         <location filename="../../fpwin.cpp" line="4606"/>
         <source>Open Target Here</source>
-        <translation>ここでファイルを開く</translation>
+        <translation>対象をここで開く</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4724"/>
         <source>You need to add a Hunspell dictionary.</source>
-        <translation>Hunspell 辞書を追加して下さい。</translation>
+        <translation>Hunspell 辞書を追加してください。</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4725"/>
         <location filename="../../fpwin.cpp" line="4731"/>
         <location filename="../../fpwin.cpp" line="4740"/>
         <source>See Preferences → Text → Spell Checking!</source>
-        <translation>設定 → テキスト → スペルチェック を参照して下さい！</translation>
+        <translation>設定 → テキスト → スペルチェック を参照してください！</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4730"/>
@@ -1138,12 +1138,12 @@
     <message>
         <location filename="../../fpwin.cpp" line="5176"/>
         <source>A lightweight, tabbed, plain-text editor</source>
-        <translation>軽量なタブ機能付きのプレーンテキストエディタ</translation>
+        <translation>軽量なタブ機能付きのプレーンテキストエディター</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5177"/>
         <source>based on Qt5</source>
-        <translation>Qt5 がベース</translation>
+        <translation>Qt5 ベース</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5178"/>
@@ -1159,7 +1159,7 @@
         <location filename="../../fpwin.cpp" line="5180"/>
         <location filename="../../fpwin.cpp" line="5181"/>
         <source>About FeatherPad</source>
-        <translation>FeatherPadについて</translation>
+        <translation>FeatherPad について</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5180"/>
@@ -1169,18 +1169,18 @@
     <message>
         <location filename="../../replace.cpp" line="250"/>
         <source>No Replacement</source>
-        <translation>変換せず</translation>
+        <translation>置換なし</translation>
     </message>
     <message>
         <location filename="../../replace.cpp" line="252"/>
         <source>One Replacement</source>
-        <translation>ひとつ変換</translation>
+        <translation>1 個置換</translation>
     </message>
     <message numerus="yes">
         <location filename="../../replace.cpp" line="254"/>
         <source>%Ln Replacements</source>
         <translation>
-            <numerusform>%Ln 変換</numerusform>
+            <numerusform>%Ln 個置換</numerusform>
         </translation>
     </message>
     <message>
@@ -1209,12 +1209,12 @@
     <message>
         <location filename="../../fontDialog.ui" line="14"/>
         <source>Select Font</source>
-        <translation>フォントの選択</translation>
+        <translation>フォントを選択</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="38"/>
         <source>Programming Fonts</source>
-        <translation>プログラミングのフォント</translation>
+        <translation>プログラミング用フォント</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="45"/>
@@ -1245,7 +1245,7 @@
     <message>
         <location filename="../../fontDialog.ui" line="113"/>
         <source>Bold</source>
-        <translation>太字</translation>
+        <translation>ボールド</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="118"/>
@@ -1268,7 +1268,7 @@
     <message>
         <location filename="../../lineedit.cpp" line="34"/>
         <source>Clear text (Ctrl+K)</source>
-        <translation>テキストのクリア(Ctrl+K)</translation>
+        <translation>テキストの消去 (Ctrl+K)</translation>
     </message>
 </context>
 <context>
@@ -1291,7 +1291,7 @@
     <message>
         <location filename="../../predDialog.ui" line="75"/>
         <source>Remember window &amp;size on closing</source>
-        <translation>閉じる時にウィンドウのサイズを記憶(&amp;S)</translation>
+        <translation>閉じる時にウィンドウのサイズを記憶する(&amp;S)</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="84"/>
@@ -1299,12 +1299,12 @@
         <location filename="../../predDialog.ui" line="107"/>
         <location filename="../../predDialog.ui" line="120"/>
         <source>Window frame is excluded.</source>
-        <translation>ウィンドウ枠は除外されます。</translation>
+        <translation>ウィンドウ枠は除外します。</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="87"/>
         <source>Start with this size: </source>
-        <translation>このサイズで開始: </translation>
+        <translation>このサイズで起動: </translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="100"/>
@@ -1327,7 +1327,7 @@ and may not work with some window managers.</source>
     <message>
         <location filename="../../predDialog.ui" line="152"/>
         <source>Remember window &amp;position on closing</source>
-        <translation>閉じる時にウィンドウの位置を記憶(&amp;P)</translation>
+        <translation>閉じる時にウィンドウの位置を記憶する(&amp;P)</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="159"/>
@@ -1339,7 +1339,7 @@ but without tab functionality.</source>
     <message>
         <location filename="../../predDialog.ui" line="163"/>
         <source>Start with side-pane mode</source>
-        <translation>サイドペインを表示して開始</translation>
+        <translation>サイドペインモードで起動する</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="188"/>
@@ -1360,7 +1360,7 @@ but without tab functionality.</source>
         <location filename="../../predDialog.ui" line="207"/>
         <source>If the menubar is hidden,
 a menu button appears on the toolbar.</source>
-        <translation>メニューバーが表示されない場合は、
+        <translation>メニューバーが非表示の場合、
 ツールバーにメニューボタンが表示されます。</translation>
     </message>
     <message>
@@ -1371,13 +1371,13 @@ a menu button appears on the toolbar.</source>
     <message>
         <location filename="../../predDialog.ui" line="218"/>
         <source>Hide search &amp;bar by default</source>
-        <translation>[既定値] 検索バーを表示しない(&amp;B)</translation>
+        <translation>デフォルトで検索バーを表示しない(&amp;B)</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="225"/>
         <source>By default, each search entry
 has a separate search history.</source>
-        <translation>デフォルトでは、各検索エントリには
+        <translation>デフォルトでは、各検索エントリーには
 個別の検索履歴があります。</translation>
     </message>
     <message>
@@ -1388,12 +1388,12 @@ has a separate search history.</source>
     <message>
         <location filename="../../predDialog.ui" line="236"/>
         <source>Always show st&amp;atus bar</source>
-        <translation>常にステータスバーを表示(&amp;A)</translation>
+        <translation>常にステータスバーを表示する(&amp;A)</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="261"/>
         <source>Show cursor position on status bar</source>
-        <translation>ステータスバーにカーソル位置を表示</translation>
+        <translation>ステータスバーにカーソル位置を表示する</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="272"/>
@@ -1432,8 +1432,8 @@ has a separate search history.</source>
 after the last tab is activated, and the same for Alt+Left.
 
 Tab navigation with mouse wheel is not affected.</source>
-        <translation>つまり、折り返す場合、Alt+Rightで最初のタブに移動します。
-Alt+Leftで最後のタブがアクティブにされます。
+        <translation>最後のタブを表示している状態で Alt+Right を押すと最初のタブに移動します。
+最初のタブを表示している状態で Alt+Left を押しても同様です。
 
 マウスホイールを使用したタブナビゲーションには影響しません。</translation>
     </message>
@@ -1448,19 +1448,20 @@ Alt+Leftで最後のタブがアクティブにされます。
 tooltip and context menu of a single tab but you could not
 merge a single tabbed window into another one by tab drag-
 and-drop either.</source>
-        <translation>これがチェックされている場合、1つのタブだとタブは表示されません。
-
-1つのタブ付きウィンドウをドラッグアンドドロップすると別のウィンドウにマージできます。</translation>
+        <translation>これがチェックされている場合、タブ情報ツールチップや
+コンテキストメニューが表示されなくなり、タブが一つだ
+けのウィンドウを他のタブ付きウィンドウにドラッグアン
+ドドロップしてマージすることができなくなります。</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="346"/>
         <source>&amp;Do not show a single tab</source>
-        <translation>タブひとつのときは表示しない(&amp;D)</translation>
+        <translation>タブが単一の時は表示しない(&amp;D)</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="353"/>
         <source>Close window on closing its last tab</source>
-        <translation>最後のタブを閉じるときにウィンドウを閉じる</translation>
+        <translation>最後のタブを閉じる時にウィンドウも閉じる</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="360"/>
@@ -1469,11 +1470,11 @@ current desktop, files will be opened in its tabs.
 
 However, some desktop environments may not
 report that they have multiple desktops.</source>
-        <translation>既定: ファイルは現在のデスクトップで、
-FeatherPad のウィンドウのタブとして開かれます。
+        <translation>デフォルトでは、FeatherPad のウィンドウがデスクトップに
+存在する場合、そのウィンドウのタブでファイルを開きます。
 
-ただし、複数の（仮想）デスクトップを持つ、
-デスクトップ環境もあります。</translation>
+ただし、デスクトップ環境によっては複数の (仮想) デスクトッ
+プがあることを確認できない場合があります。</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="367"/>
@@ -1486,10 +1487,10 @@ FeatherPad のウィンドウのタブとして開かれます。
 desktop environment will be used instead of the Qt file dialog.
 
 Some desktop environments, like KDE and LXQt, provide files dialogs.</source>
-        <translation>これがチェックされている場合、Qtファイルダイアログの代わりに、
-デスクトップ環境のファイルダイアログが使用されます。
+        <translation>これがチェックされている場合、Qt のファイルダイアログの代わりに、
+現在のデスクトップ環境のファイルダイアログを使用します。
 
-KDEやLXQtのようなデスクトップ環境は、独自のファイルダイアログを提供します。</translation>
+KDE や LXQt のようなデスクトップ環境は、独自のファイルダイアログを提供します。</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="380"/>
@@ -1504,27 +1505,27 @@ KDEやLXQtのようなデスクトップ環境は、独自のファイルダイ�
     <message>
         <location filename="../../predDialog.ui" line="450"/>
         <source>Text Editor</source>
-        <translation>テキストエディタ</translation>
+        <translation>テキストエディター</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="456"/>
         <source>Uncheck for Monospace.</source>
-        <translation>チェックしないときは、フォントはMonospace になります。</translation>
+        <translation>チェックしない時は Monospace になります。</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="459"/>
         <source>Remember &amp;font</source>
-        <translation>フォントを記憶(&amp;F)</translation>
+        <translation>フォントを記憶する(&amp;F)</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="466"/>
         <source>&amp;Wrap lines by default</source>
-        <translation>[既定値] 行を折り返す(&amp;W)</translation>
+        <translation>デフォルトで行を折り返す(&amp;W)</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="473"/>
         <source>Auto-&amp;indent by default</source>
-        <translation>[既定値] 自動インデント(&amp;I)</translation>
+        <translation>デフォルトで自動的にインデントする(&amp;I)</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="480"/>
@@ -1542,23 +1543,23 @@ KDEやLXQtのようなデスクトップ環境は、独自のファイルダイ�
 and a double hyphen with a long dash while typing,
 under proper circumstances.</source>
         <translation>デフォルトでは、適切な状況の下で入力中に、
-３個のピリオド(...)が３点リーダー(…)に置き換えられ、
-２個のハイフン(--)が長いダッシュ(—)に置き換えられます。</translation>
+3個のピリオド(...)が3点リーダー(…)に置き換えられ、
+2個のハイフン(--)が長いダッシュ(—)に置き換えられます。</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="495"/>
         <source>Replace triple periods and double hyphens while typing</source>
-        <translation>入力中に３個のピリオドと２個のハイフンを置換する</translation>
+        <translation>入力中に3連続ピリオドと2連続ハイフンを置換する</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="502"/>
         <source>Always show line &amp;numbers</source>
-        <translation>常に行番号を表示(&amp;N)</translation>
+        <translation>常に行番号を表示する(&amp;N)</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="509"/>
         <source>Highlight s&amp;yntax by default</source>
-        <translation>[既定値] 構文をハイライト表示(&amp;Y)</translation>
+        <translation>デフォルトで構文をハイライト表示する(&amp;Y)</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="534"/>
@@ -1571,7 +1572,7 @@ status bar for changing the syntax.</source>
     <message>
         <location filename="../../predDialog.ui" line="538"/>
         <source>Support syntax override</source>
-        <translation>構文の上書きをサポート</translation>
+        <translation>構文の上書きをサポートする</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="565"/>
@@ -1587,26 +1588,26 @@ status bar for changing the syntax.</source>
         <location filename="../../predDialog.ui" line="603"/>
         <source>Show spaces, tabs and tab lines
 when the syntax is highlighted.</source>
-        <translation>構文がハイライト表示されているとき、
+        <translation>構文がハイライト表示されている時、
 スペース、タブ、インデントを表示します。</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="607"/>
         <source>Show whitespaces</source>
-        <translation>空白マークを表示</translation>
+        <translation>空白マークを表示する</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="614"/>
         <source>Also show line and document ends</source>
-        <translation>行末と文書の終わりマークを表示</translation>
+        <translation>行末と文書の末尾を示すマークを表示する</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="623"/>
         <location filename="../../predDialog.ui" line="634"/>
         <source>The vertical position lines will be drawn only if
 the editor font has a fixed pitch (like Monospace).</source>
-        <translation>垂直位置線を使うには、エディタのフォントは、
-等幅フォント（Monospaceなど）にします。</translation>
+        <translation>垂直位置線は、エディターのフォントが等幅フォント 
+(Monospace など) の場合にのみ表示されます。</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="627"/>
@@ -1616,7 +1617,7 @@ the editor font has a fixed pitch (like Monospace).</source>
     <message>
         <location filename="../../predDialog.ui" line="666"/>
         <source>Needs window reopening to take effect.</source>
-        <translation>ウィンドウを再度開く必要があります。</translation>
+        <translation>有効にするにはウィンドウを開き直す必要があります。</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="669"/>
@@ -1634,13 +1635,13 @@ between 230 and 255; for the dark
 background, between 0 and 50.
 
 Needs window reopening to take effect.</source>
-        <translation>背景の色の値です。
+        <translation>背景色の値です。
 255は白、0は黒になります。
 
 明るい背景は、230~255の範囲で、230が目にやさしいと思います。
 暗い背景は、0〜50の範囲で、50が目にやさしいと思います。
 
-反映させるには、ウィンドウを再度開く必要があります。</translation>
+反映させるには、ウィンドウを開き直す必要があります。</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="704"/>
@@ -1656,13 +1657,13 @@ Takes effect after closing this dialog.
 
 Leave empty for:
 MMM dd, yyyy, hh:mm:ss</source>
-        <translation>日付と時刻を貼り付けるときの形式です。
-設定を閉じるだけで有効になります。
+        <translation>日付と時刻を貼り付ける時の形式です。
+このダイアログを閉じると有効になります。
 
-指定しないときは：
+空のままにすると次のようになります:
 MMM dd, yyyy, hh:mm:ss
 
-日本で使うときの参考:
+日本人向けの参考例:
 yyyy-MM-dd hh:mm</translation>
     </message>
     <message>
@@ -1684,13 +1685,13 @@ yyyy-MM-dd hh:mm</translation>
         <location filename="../../predDialog.ui" line="823"/>
         <source>Some text editors cannot open a document
 whose last line is not empty.</source>
-        <translation>最後の行が空でないとき、
-一部のテキストエディタではドキュメントを開くことができません。</translation>
+        <translation>一部のテキストエディターは最後の行が
+空でない文書を開けません。</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="827"/>
         <source>Ensure an empty last line on saving</source>
-        <translation>保存時に最後の行が空かを確認する</translation>
+        <translation>保存時に最後の行が空かどうかを確認する</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="834"/>
@@ -1700,7 +1701,7 @@ whose last line is not empty.</source>
     <message>
         <location filename="../../predDialog.ui" line="841"/>
         <source>Thick text cursor</source>
-        <translation>太字のカーソルを使う</translation>
+        <translation>テキストカーソルを太くする</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="848"/>
@@ -1718,13 +1719,13 @@ if the cursor is inside the text view?</source>
         <location filename="../../predDialog.ui" line="859"/>
         <source>This is not a complete fix but
 prevents annoying scroll jumps.</source>
-        <translation>これは完全な修正ではありませんが、
-迷惑なスクロールジャンプを防ぎます。</translation>
+        <translation>これは完全に修正はできませんが、
+厄介なスクロールジャンプを抑えます。</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="863"/>
         <source>Workaround for &amp;Qt5&apos;s scroll jump bug</source>
-        <translation>Qt5のスクロールジャンプの不具合を回避(&amp;Q)</translation>
+        <translation>Qt5 のスクロールジャンプの不具合を回避する(&amp;Q)</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="870"/>
@@ -1750,19 +1751,19 @@ name but ending with &quot;.aff&quot;.</source>
         <location filename="../../predDialog.ui" line="902"/>
         <location filename="../../pref.cpp" line="1468"/>
         <source>Add dictionary...</source>
-        <translation>辞書の追加...</translation>
+        <translation>辞書を追加...</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="914"/>
         <source>If this is unchecked, spell checking
 will be started from the document start.</source>
-        <translation>チェックをオフにした場合、
-スペルチェックは文書の先頭から開始されます。</translation>
+        <translation>これがチェックされていない場合、
+文書の先頭からスペルチェックを行います。</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="918"/>
         <source>Start spell checking from text cursor</source>
-        <translation>テキストカーソルからスペルチェックを開始する</translation>
+        <translation>テキストカーソル位置からスペルチェックを開始する</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="952"/>
@@ -1772,7 +1773,7 @@ will be started from the document start.</source>
     <message>
         <location filename="../../predDialog.ui" line="958"/>
         <source>File Management</source>
-        <translation>ファイルの管理</translation>
+        <translation>ファイル管理</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="966"/>
@@ -1782,9 +1783,9 @@ opened files FeatherPad shows. The default
 is 10.
 
 Needs application restart to take effect.</source>
-        <translation>FeatherPadで最近変更された、または、
-開いたことのあるファイルが表示されます。
-既定値は、10個のファイルです。
+        <translation>FeatherPad に表示する、最近変更したファイル、
+または最近開いたファイルの最大数です。
+既定値は 10 です。
 
 有効にするには、アプリケーションの再起動が必要です。</translation>
     </message>
@@ -1796,12 +1797,12 @@ Needs application restart to take effect.</source>
     <message>
         <location filename="../../predDialog.ui" line="1033"/>
         <source>Show recentl&amp;y modified files</source>
-        <translation>最近変更されたファイルを表示(&amp;Y)</translation>
+        <translation>最近変更したファイルを表示する(&amp;Y)</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="1063"/>
         <source>Show recentl&amp;y opened files</source>
-        <translation>最近開いたファイルを表示(&amp;Y)</translation>
+        <translation>最近開いたファイルを表示する(&amp;Y)</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="1072"/>
@@ -1811,7 +1812,7 @@ Needs application restart to take effect.</source>
     <message>
         <location filename="../../predDialog.ui" line="1075"/>
         <source>Start with files of last window</source>
-        <translation>最後のウィンドウのファイルから開始</translation>
+        <translation>最後のウィンドウのファイルを開いて起動する</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="1082"/>
@@ -1823,19 +1824,18 @@ executable, the file will be executed by clicking
 the Run button, that appears on the toolbar/filemenu
 when needed, or by its shortcut Ctrl+E. Then, the
 process could be killed by Ctrl+Alt+E.</source>
-        <translation>実行可能なファイルは、
-シェルやPythonのようなスクリプト言語で書かれたファイルです。
+        <translation>実行可能なファイルは、シェルや Python のようなスクリプト
+言語で書かれたファイルです。
 
-これがチェックされ、開いているファイルが実行可能なファイルのときは、
-ツールバー/ファイルメニューに表示される[実行]ボタンを必要に応じて、
-またはショートカットCtrl+E を押します。
-
-プロセスはCtrl+Alt+E で終了できます。</translation>
+これがチェックされ、開いているファイルが実行可能な時、
+ツールバー/ファイルメニューに表示される [実行] ボタンを押
+すか、ショートカット Ctrl+E を押すと実行できます。また、
+Ctrl+Alt+E でプロセスを終了できます。</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="1092"/>
         <source>Run executable scripts</source>
-        <translation>実行可能なスクリプトを実行</translation>
+        <translation>実行可能なスクリプトを実行する</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="1117"/>
@@ -1850,14 +1850,13 @@ will be executed directly.
 If the script is not run in a terminal
 emulator, the output and error messages
 will be shown by a popup dialog.</source>
-        <translation>これは、XTermでプロセスを実行するための引数です。
-（例えば、 &quot;xterm -hold&quot;）
+        <translation>これは実行したいコマンドと、その引数です。
+例えば、XTerm 内でプロセスを実行するには &quot;xterm -hold&quot; のように指定します。
 
-コマンドを空のままにすると、ファイルが直接実行されます。
+コマンドを空のままにすると、ファイルを直接実行します。
 
-スクリプトが端末で実行されていない場合、
-エミュレータ、出力とエラーメッセージ、
-ポップアップダイアログで表示されます。</translation>
+スクリプトが端末エミュレーターで実行されていない場合、
+出力やエラーメッセージはポップアップダイアログで表示します。</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="1129"/>
@@ -1867,18 +1866,18 @@ will be shown by a popup dialog.</source>
     <message>
         <location filename="../../predDialog.ui" line="1148"/>
         <source>Command + Arguments</source>
-        <translation>コマンド+引数</translation>
+        <translation>コマンド + 引数</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="1159"/>
         <location filename="../../predDialog.ui" line="1169"/>
         <source>Only for files that exist and can be saved.</source>
-        <translation>実存して、保存できるファイルのみが対象。</translation>
+        <translation>実在し保存可能なファイルのみ。</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="1162"/>
         <source>Save changes to opened files every:</source>
-        <translation>開いているファイルの変更を毎回保存:</translation>
+        <translation>開いているファイルの変更を指定間隔で保存:</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="1172"/>
@@ -1893,17 +1892,18 @@ be used also when the opened file is not modified.
 This can be useful under certain circumstances,
 e.g. for changing the time stamp or removing the
 trailing spaces of a text file.</source>
-        <translation>これがチェックされている場合、Saveボタン/メニュー項目は、
-開いているファイルが変更されていない場合にも使用できます。
+        <translation>これがチェックされている場合、開いているファイルを
+変更していない場合でも、保存ボタン/メニュー項目を
+使用できます。
 
-例えば、タイムスタンプの変更や削除とか、
-テキストファイルの末尾のスペースを削除するとかなど、
-特定の状況下で有効です。</translation>
+これは例えば、ファイルのタイムスタンプを更新したい
+場合や、テキストファイルの末尾のスペースを削除した
+い場合といった、特定の条件下で役立ちます。</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="1211"/>
         <source>Allow saving unmodified files</source>
-        <translation>未修正ファイルの保存を許可</translation>
+        <translation>未変更ファイルの保存を許可する</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="1218"/>
@@ -1933,7 +1933,7 @@ trailing spaces of a text file.</source>
     <message>
         <location filename="../../predDialog.ui" line="1280"/>
         <source>Restore default shortcuts.</source>
-        <translation>デフォルトのショートカットを復元。</translation>
+        <translation>ショートカットを初期設定に戻します。</translation>
     </message>
     <message>
         <location filename="../../predDialog.ui" line="1283"/>
@@ -1966,17 +1966,17 @@ trailing spaces of a text file.</source>
         <location filename="../../pref.cpp" line="332"/>
         <location filename="../../pref.cpp" line="1283"/>
         <source>Warning: Ambiguous shortcut detected!</source>
-        <translation>警告：不明なショートカットが検出されました！</translation>
+        <translation>警告: 不正なショートカットを検出しました！</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="455"/>
         <source>Application restart is needed for changes to take effect.</source>
-        <translation>変更を有効にするには、アプリケーションを再起動します。</translation>
+        <translation>変更を有効にするには、アプリケーションの再起動が必要です。</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="467"/>
         <source>Window reopening is needed for changes to take effect.</source>
-        <translation>変更を有効にするにはウィンドウを再度開く必要があります。</translation>
+        <translation>変更を有効にするには、ウィンドウを開き直す必要があります。</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="1190"/>
@@ -1986,12 +1986,12 @@ trailing spaces of a text file.</source>
     <message>
         <location filename="../../pref.cpp" line="1191"/>
         <source>Recently &amp;Modified</source>
-        <translation>最近変更されたファイル(&amp;M)</translation>
+        <translation>最近変更したファイル(&amp;M)</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="1266"/>
         <source>The typed shortcut was reserved.</source>
-        <translation>入力されたショートカットは予約されていました。</translation>
+        <translation>入力したショートカットは予約済みでした。</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="1470"/>
@@ -2053,7 +2053,7 @@ trailing spaces of a text file.</source>
     <message>
         <location filename="../../sessionDialog.ui" line="56"/>
         <source>Filter...</source>
-        <translation>フィルター...</translation>
+        <translation>絞り込み...</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="69"/>
@@ -2092,7 +2092,7 @@ trailing spaces of a text file.</source>
     <message>
         <location filename="../../sessionDialog.ui" line="135"/>
         <source>Save the current session under the given title.</source>
-        <translation>現在のセッションを指定されたタイトルで保存します。</translation>
+        <translation>現在のセッションを指定したタイトルで保存します。</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="138"/>
@@ -2145,7 +2145,7 @@ windows will be included in the saved session.</source>
     <message>
         <location filename="../../session.cpp" line="174"/>
         <source>Nothing saved.&lt;br&gt;No file was opened.</source>
-        <translation>何も保存されていません。&lt;br&gt;ファイルが開かれていません。</translation>
+        <translation>保存しません。&lt;br&gt;ファイルを開いていません。</translation>
     </message>
     <message>
         <location filename="../../session.cpp" line="267"/>
@@ -2155,27 +2155,27 @@ windows will be included in the saved session.</source>
     <message>
         <location filename="../../session.cpp" line="273"/>
         <source>Not all files exist or can be opened.</source>
-        <translation>すべてのファイルが存在するわけではありません。</translation>
+        <translation>すべてのファイルが存在しない、または開くことができません。</translation>
     </message>
     <message>
         <location filename="../../session.cpp" line="316"/>
         <source>&amp;OK</source>
-        <translation>はい(&amp;O)</translation>
+        <translation>OK(&amp;O)</translation>
     </message>
     <message>
         <location filename="../../session.cpp" line="335"/>
         <source>Do you really want to remove all saved sessions?</source>
-        <translation>保存したすべてのセッションを本当に削除しますか？</translation>
+        <translation>本当に保存したすべてのセッションを削除しますか？</translation>
     </message>
     <message>
         <location filename="../../session.cpp" line="341"/>
         <source>Do you really want to remove the selected sessions?</source>
-        <translation>選択したセッションを本当に削除しますか？</translation>
+        <translation>本当に選択したセッションを削除しますか？</translation>
     </message>
     <message>
         <location filename="../../session.cpp" line="343"/>
         <source>Do you really want to remove the selected session?</source>
-        <translation>選択したセッションを本当に削除しますか？</translation>
+        <translation>本当に選択したセッションを削除しますか？</translation>
     </message>
     <message>
         <location filename="../../session.cpp" line="348"/>
@@ -2188,7 +2188,7 @@ windows will be included in the saved session.</source>
     <message>
         <location filename="../../sidepane.cpp" line="108"/>
         <source>Filter...</source>
-        <translation>フィルター...</translation>
+        <translation>絞り込み...</translation>
     </message>
 </context>
 <context>
@@ -2211,7 +2211,7 @@ windows will be included in the saved session.</source>
     <message>
         <location filename="../../spellDialog.ui" line="129"/>
         <source>Correct Once</source>
-        <translation>１つ置換</translation>
+        <translation>1つ置換</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="142"/>
@@ -2221,7 +2221,7 @@ windows will be included in the saved session.</source>
     <message>
         <location filename="../../spellDialog.ui" line="87"/>
         <source>Ignore Once</source>
-        <translation>１つ無視</translation>
+        <translation>1つ無視</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="100"/>
@@ -2234,7 +2234,7 @@ windows will be included in the saved session.</source>
     <message>
         <location filename="../../textedit.cpp" line="138"/>
         <source>Double click to center current line</source>
-        <translation>ダブルクリックして現在の行を中央に表示</translation>
+        <translation>ダブルクリックすると現在の行を中央に表示します</translation>
     </message>
 </context>
 <context>
