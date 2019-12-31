@@ -41,7 +41,7 @@
     <message>
         <location filename="../../fp.ui" line="153"/>
         <source>Recently &amp;Modified</source>
-        <translation>最近変更したファイル(&amp;M)</translation>
+        <translation>最近更新したファイル(&amp;M)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="189"/>
@@ -638,7 +638,7 @@
     <message>
         <location filename="../../fp.ui" line="1100"/>
         <source>Clear the list of recently modified files</source>
-        <translation>最近変更したファイル一覧を消去</translation>
+        <translation>最近更新したファイル一覧を消去</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1105"/>
@@ -828,7 +828,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="1102"/>
         <source>The document has been modified.</source>
-        <translation>文書が変更されました。</translation>
+        <translation>文書が更新されました。</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1113"/>
@@ -938,12 +938,12 @@
     <message>
         <location filename="../../fpwin.cpp" line="2336"/>
         <source>Non-text file(s) not opened!</source>
-        <translation type="unfinished"></translation>
+        <translation>テキスト以外のファイルは開けません！</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2337"/>
         <source>See Preferences → Files → Do not permit opening of non-text files</source>
-        <translation type="unfinished"></translation>
+        <translation>次の設定を確認してください: 設定 → ファイル → テキスト以外のファイルを開くことを許可しない</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2345"/>
@@ -1058,18 +1058,18 @@
         <location filename="../../fpwin.cpp" line="3205"/>
         <location filename="../../fpwin.cpp" line="3392"/>
         <source>This file has been modified elsewhere or in another way!</source>
-        <translation>このファイルは他の場所で変更されています！</translation>
+        <translation>このファイルは他の場所で更新されています！</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3206"/>
         <location filename="../../fpwin.cpp" line="3393"/>
         <source>Please be careful about reloading or saving this document!</source>
-        <translation>この文章の再読み込みや保存には注意してください！</translation>
+        <translation>この文書の再読み込みや保存には注意してください！</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3914"/>
         <source>Print Document</source>
-        <translation>文章の印刷</translation>
+        <translation>文書の印刷</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4508"/>
@@ -1432,8 +1432,8 @@ has a separate search history.</source>
 after the last tab is activated, and the same for Alt+Left.
 
 Tab navigation with mouse wheel is not affected.</source>
-        <translation>最後のタブを表示している状態で Alt+Right を押すと最初のタブに移動します。
-最初のタブを表示している状態で Alt+Left を押しても同様です。
+        <translation>最後のタブを表示している状態で Alt+Right を押すと最初のタブに移動し、
+最初のタブを表示している状態で Alt+Left を押すと最後のタブに移動します。
 
 マウスホイールを使用したタブナビゲーションには影響しません。</translation>
     </message>
@@ -1542,9 +1542,9 @@ KDE や LXQt のようなデスクトップ環境は、独自のファイルダ�
         <source>By default, a triple period is replaced with an ellipsis
 and a double hyphen with a long dash while typing,
 under proper circumstances.</source>
-        <translation>デフォルトでは、適切な状況の下で入力中に、
-3個のピリオド(...)が3点リーダー(…)に置き換えられ、
-2個のハイフン(--)が長いダッシュ(—)に置き換えられます。</translation>
+        <translation>デフォルトでは、適切な状況下での入力中に、
+3連続ピリオド (...) を3点リーダー (…) に、
+2連続ハイフン (--) を長いダッシュ (—) に置き換えます。</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="495"/>
@@ -1783,7 +1783,7 @@ opened files FeatherPad shows. The default
 is 10.
 
 Needs application restart to take effect.</source>
-        <translation>FeatherPad に表示する、最近変更したファイル、
+        <translation>FeatherPad に表示する、最近更新したファイル
 または最近開いたファイルの最大数です。
 既定値は 10 です。
 
@@ -1797,7 +1797,7 @@ Needs application restart to take effect.</source>
     <message>
         <location filename="../../prefDialog.ui" line="1033"/>
         <source>Show recentl&amp;y modified files</source>
-        <translation>最近変更したファイルを表示する(&amp;Y)</translation>
+        <translation>最近更新したファイルを表示する(&amp;Y)</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1063"/>
@@ -1903,7 +1903,7 @@ trailing spaces of a text file.</source>
     <message>
         <location filename="../../prefDialog.ui" line="1211"/>
         <source>Allow saving unmodified files</source>
-        <translation>未変更ファイルの保存を許可する</translation>
+        <translation>未更新ファイルの保存を許可する</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1218"/>
@@ -1986,7 +1986,7 @@ trailing spaces of a text file.</source>
     <message>
         <location filename="../../pref.cpp" line="1191"/>
         <source>Recently &amp;Modified</source>
-        <translation>最近変更したファイル(&amp;M)</translation>
+        <translation>最近更新したファイル(&amp;M)</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="1266"/>
