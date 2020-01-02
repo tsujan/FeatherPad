@@ -6,7 +6,7 @@
     <message>
         <location filename="../../about.ui" line="149"/>
         <source>License</source>
-        <translation type="unfinished"></translation>
+        <translation>Lisens</translation>
     </message>
 </context>
 <context>
@@ -23,62 +23,63 @@
         <location filename="../../fpwin.cpp" line="3195"/>
         <location filename="../../fpwin.cpp" line="3903"/>
         <source>Untitled</source>
-        <translation type="unfinished"></translation>
+        <translation>Uten tittel</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="71"/>
         <source>Go to line:</source>
-        <translation type="unfinished"></translation>
+        <translation>Gå til linje:</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="107"/>
         <source>Select text from cursor to this line
 (Ctrl+Shift+J)</source>
-        <translation type="unfinished"></translation>
+        <translation>Velg tekst fra markør til denne linje
+(Ctrl+Shift+J)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="111"/>
         <source>Select Text</source>
-        <translation type="unfinished"></translation>
+        <translation>Velg tekst</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="114"/>
         <source>Ctrl+Shift+J</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Shift+J</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="149"/>
         <source>&amp;File</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Fil</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="189"/>
         <location filename="../../fp.ui" line="977"/>
         <source>&amp;Edit</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Rediger</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="216"/>
         <source>&amp;Options</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Valg</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1328"/>
         <location filename="../../fpwin.cpp" line="2593"/>
         <location filename="../../fpwin.cpp" line="3716"/>
         <source>Encoding</source>
-        <translation type="unfinished"></translation>
+        <translation>Koding</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="279"/>
         <source>&amp;Search</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Søk</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="287"/>
         <location filename="../../fp.ui" line="743"/>
         <source>&amp;Help</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Hjelp</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="387"/>
