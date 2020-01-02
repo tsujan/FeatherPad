@@ -583,17 +583,17 @@
     <message>
         <location filename="../../fp.ui" line="231"/>
         <source>&amp;Western European</source>
-        <translation>&amp;Vest-europeisk</translation>
+        <translation>&amp;Vest-Europeisk</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="239"/>
         <source>&amp;East European</source>
-        <translation>&amp;Øst-europeisk</translation>
+        <translation>&amp;Øst-Europeisk</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="247"/>
         <source>Ea&amp;st Asian</source>
-        <translation>&amp;Øst-asiatisk</translation>
+        <translation>&amp;Øst-Asiatisk</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="339"/>
@@ -616,7 +616,7 @@
     <message>
         <location filename="../../fp.ui" line="762"/>
         <source>Windows Arabic (&amp;CP1256)</source>
-        <translation>Windows arabisk (&amp;CP1256)</translation>
+        <translation>Windows Arabisk (&amp;CP1256)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="770"/>
