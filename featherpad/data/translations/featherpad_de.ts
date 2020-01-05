@@ -926,12 +926,12 @@
     <message>
         <location filename="../../fpwin.cpp" line="2346"/>
         <source>Non-text file(s) not opened!</source>
-        <translation type="unfinished"></translation>
+        <translation>Nicht-Text-Datei(en) nicht geöffnet!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2347"/>
         <source>See Preferences → Files → Do not permit opening of non-text files</source>
-        <translation type="unfinished"></translation>
+        <translation>Siehe Einstellungen → Dateien → Öffnen von Nicht-Text-Dateien nicht zulassen</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2355"/>
@@ -1099,7 +1099,7 @@
         <location filename="../../fpwin.cpp" line="4738"/>
         <location filename="../../fpwin.cpp" line="4747"/>
         <source>See Preferences → Text → Spell Checking!</source>
-        <translation type="unfinished"></translation>
+        <translation>Siehe Einstellungen → Text → Rechtschreibprüfung!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4737"/>
@@ -1215,7 +1215,7 @@
     <message>
         <location filename="../../fontDialog.ui" line="38"/>
         <source>Programming Fonts</source>
-        <translation type="unfinished"></translation>
+        <translation>Programmierschriftarten</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="45"/>
