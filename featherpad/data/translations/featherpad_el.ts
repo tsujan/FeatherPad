@@ -411,7 +411,7 @@
     <message>
         <location filename="../../fp.ui" line="1092"/>
         <source>Ctrl+E</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+E</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1097"/>
