@@ -101,7 +101,12 @@ int main (int argc, char **argv)
 #elif defined(Q_OS_MAC)
     FPTranslator.load ("featherpad_" + lang, singleton.applicationDirPath() + QStringLiteral ("/../Resources/translations/"));
 #else
-    FPTranslator.load ("featherpad_" + lang, QStringLiteral (DATADIR) + "/featherpad/translations");
+    lang = QLocale::system().name();
+    if (!FPTranslator.load ("featherpad_" + lang, QStringLiteral (DATADIR) + "/featherpad/translations"))
+    {
+        lang = lang.split (QLatin1Char ('_')).first();
+        FPTranslator.load ("featherpad_" + lang, QStringLiteral (DATADIR) + "/featherpad/translations");
+    }
 #endif
     singleton.installTranslator (&FPTranslator);
 

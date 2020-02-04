@@ -5220,6 +5220,7 @@ void FPwin::helpDoc()
 #elif defined (Q_OS_MAC)
     QString helpPath (qApp->applicationDirPath() + QStringLiteral ("/../Resources/") + "/help_" + lang);
 #else
+    lang = QLocale::system().name();
     QString helpPath (QStringLiteral (DATADIR) + "/featherpad/help_" + lang);
 #endif
 
