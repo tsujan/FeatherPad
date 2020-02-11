@@ -1954,7 +1954,7 @@ trailing spaces of a text file.</source>
     <message>
         <location filename="../../prefDialog.ui" line="1315"/>
         <source>Text Color</source>
-        <translation type="unfinished"></translation>
+        <translation>文字の色</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1326"/>
@@ -1974,7 +1974,7 @@ trailing spaces of a text file.</source>
     <message>
         <location filename="../../pref.cpp" line="99"/>
         <source>Double click a color to change it.</source>
-        <translation type="unfinished"></translation>
+        <translation>色をダブルクリックして変更します。</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="286"/>
@@ -1997,17 +1997,17 @@ trailing spaces of a text file.</source>
     <message>
         <location filename="../../pref.cpp" line="372"/>
         <source>Functions, URLs,…</source>
-        <translation type="unfinished"></translation>
+        <translation>関数, URL, …</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="373"/>
         <source>Built-in Functions</source>
-        <translation type="unfinished"></translation>
+        <translation>組み込み関数</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="374"/>
         <source>Comments</source>
-        <translation type="unfinished"></translation>
+        <translation>コメント</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="375"/>
@@ -2017,17 +2017,17 @@ trailing spaces of a text file.</source>
     <message>
         <location filename="../../pref.cpp" line="376"/>
         <source>Types</source>
-        <translation type="unfinished"></translation>
+        <translation>タイプ</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="377"/>
         <source>Key Words</source>
-        <translation type="unfinished"></translation>
+        <translation>キーワード</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="378"/>
         <source>Numbers</source>
-        <translation type="unfinished"></translation>
+        <translation>数値</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="379"/>
