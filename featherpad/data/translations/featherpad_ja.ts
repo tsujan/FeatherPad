@@ -1944,12 +1944,12 @@ trailing spaces of a text file.</source>
     <message>
         <location filename="../../prefDialog.ui" line="1294"/>
         <source>Syntax Colors</source>
-        <translation type="unfinished"></translation>
+        <translation>構文の色</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1310"/>
         <source>Element</source>
-        <translation type="unfinished"></translation>
+        <translation>要素</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1315"/>
@@ -1959,7 +1959,7 @@ trailing spaces of a text file.</source>
     <message>
         <location filename="../../prefDialog.ui" line="1326"/>
         <source>Restore default syntax colors.</source>
-        <translation type="unfinished"></translation>
+        <translation>構文の色を初期設定に戻します。</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1347"/>
@@ -1974,7 +1974,7 @@ trailing spaces of a text file.</source>
     <message>
         <location filename="../../pref.cpp" line="99"/>
         <source>Double click a color to change it.</source>
-        <translation>色をダブルクリックして変更します。</translation>
+        <translation>変更する色をダブルクリックしてください。</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="286"/>
@@ -2012,7 +2012,7 @@ trailing spaces of a text file.</source>
     <message>
         <location filename="../../pref.cpp" line="375"/>
         <source>Quotations</source>
-        <translation type="unfinished"></translation>
+        <translation>引用</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="376"/>
@@ -2032,22 +2032,22 @@ trailing spaces of a text file.</source>
     <message>
         <location filename="../../pref.cpp" line="379"/>
         <source>Regular Expressions, Code Blocks,…</source>
-        <translation type="unfinished"></translation>
+        <translation>正規表現, コードブロック,…</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="380"/>
         <source>Document Blocks, XML/HTML Elements,…</source>
-        <translation type="unfinished"></translation>
+        <translation>ドキュメントブロック, XML/HTML 要素,…</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="381"/>
         <source>Markdown Headings, CSS Values,…</source>
-        <translation type="unfinished"></translation>
+        <translation>マークダウンの見出し, CSS の値,…</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="382"/>
         <source>Extra Elements</source>
-        <translation type="unfinished"></translation>
+        <translation>その他の要素</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="518"/>
@@ -2082,7 +2082,7 @@ trailing spaces of a text file.</source>
     <message>
         <location filename="../../pref.cpp" line="1643"/>
         <source>Select Syntax Color</source>
-        <translation type="unfinished"></translation>
+        <translation>構文の色を選択</translation>
     </message>
 </context>
 <context>
