@@ -926,12 +926,12 @@
     <message>
         <location filename="../../fpwin.cpp" line="2339"/>
         <source>Non-text file(s) not opened!</source>
-        <translation type="unfinished"></translation>
+        <translation>No se abren archivos que no son de texto.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2340"/>
         <source>See Preferences → Files → Do not permit opening of non-text files</source>
-        <translation type="unfinished"></translation>
+        <translation>Vea Preferencias ▸ Archivos ▸ No permitir apertura de archivos que no sean de texto</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2348"/>
@@ -1133,7 +1133,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="5135"/>
         <source>Some files cannot be saved!</source>
-        <translation>¡Algunos archivos no se pueden guardar!</translation>
+        <translation>¡Algunos archivos no pueden guardarse!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5178"/>
@@ -1930,7 +1930,7 @@ los espacios finales de un archivo de texto.</translation>
     <message>
         <location filename="../../prefDialog.ui" line="1221"/>
         <source>Do not permit opening of non-text files</source>
-        <translation>No permitir abrir archivos que no sean de texto</translation>
+        <translation>No permitir apertura de archivos que no sean de texto</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1248"/>
@@ -1961,22 +1961,22 @@ los espacios finales de un archivo de texto.</translation>
     <message>
         <location filename="../../prefDialog.ui" line="1294"/>
         <source>Syntax Colors</source>
-        <translation type="unfinished"></translation>
+        <translation>Colores de sintaxis</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1310"/>
         <source>Element</source>
-        <translation type="unfinished"></translation>
+        <translation>Elemento</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1315"/>
         <source>Text Color</source>
-        <translation type="unfinished"></translation>
+        <translation>Color de texto</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1326"/>
         <source>Restore default syntax colors.</source>
-        <translation type="unfinished"></translation>
+        <translation>Restaurar colores de sintaxis predeterminados.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1358"/>
@@ -1986,7 +1986,7 @@ los espacios finales de un archivo de texto.</translation>
     <message>
         <location filename="../../pref.cpp" line="99"/>
         <source>Double click a color to change it.</source>
-        <translation type="unfinished"></translation>
+        <translation>Pulse dos veces en un color para cambiarlo.</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="286"/>
@@ -2009,57 +2009,57 @@ los espacios finales de un archivo de texto.</translation>
     <message>
         <location filename="../../pref.cpp" line="372"/>
         <source>Functions, URLs,…</source>
-        <translation type="unfinished"></translation>
+        <translation>Funciones, URL, …</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="373"/>
         <source>Built-in Functions</source>
-        <translation type="unfinished"></translation>
+        <translation>Funciones integradas</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="374"/>
         <source>Comments</source>
-        <translation type="unfinished"></translation>
+        <translation>Comentarios</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="375"/>
         <source>Quotations</source>
-        <translation type="unfinished"></translation>
+        <translation>Citas</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="376"/>
         <source>Types</source>
-        <translation type="unfinished"></translation>
+        <translation>Tipos</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="377"/>
         <source>Key Words</source>
-        <translation type="unfinished"></translation>
+        <translation>Palabras clave</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="378"/>
         <source>Numbers</source>
-        <translation type="unfinished"></translation>
+        <translation>Números</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="379"/>
         <source>Regular Expressions, Code Blocks,…</source>
-        <translation type="unfinished"></translation>
+        <translation>Expresiones regulares, bloques de código, …</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="380"/>
         <source>Document Blocks, XML/HTML Elements,…</source>
-        <translation type="unfinished"></translation>
+        <translation>Bloques de documentos, elementos XML/HTML, …</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="381"/>
         <source>Markdown Headings, CSS Values,…</source>
-        <translation type="unfinished"></translation>
+        <translation>Títulos de Markdown, valores de CSS, …</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="382"/>
         <source>Extra Elements</source>
-        <translation type="unfinished"></translation>
+        <translation>Elementos adicionales</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="518"/>
@@ -2094,7 +2094,7 @@ los espacios finales de un archivo de texto.</translation>
     <message>
         <location filename="../../pref.cpp" line="1643"/>
         <source>Select Syntax Color</source>
-        <translation type="unfinished"></translation>
+        <translation>Seleccionar color de sintaxis</translation>
     </message>
 </context>
 <context>
@@ -2108,7 +2108,7 @@ los espacios finales de un archivo de texto.</translation>
     <message>
         <location filename="../../searchbar.cpp" line="74"/>
         <source>Match Case</source>
-        <translation>Tener en cuenta mayúsculas y minúsculas</translation>
+        <translation>Distinguir mayúsculas de minúsculas</translation>
     </message>
     <message>
         <location filename="../../searchbar.cpp" line="81"/>
