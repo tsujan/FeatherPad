@@ -543,7 +543,7 @@
     <message>
         <location filename="../../fp.ui" line="1012"/>
         <source>Close &amp;Previous Tabs</source>
-        <translation>Fechar  Abas &amp;Anteriores</translation>
+        <translation>Fechar Abas &amp;Anteriores</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1040"/>
@@ -926,12 +926,12 @@
     <message>
         <location filename="../../fpwin.cpp" line="2340"/>
         <source>Non-text file(s) not opened!</source>
-        <translation type="unfinished"></translation>
+        <translation>Arquivo(s) sem texto não foram abertos!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2341"/>
         <source>See Preferences → Files → Do not permit opening of non-text files</source>
-        <translation type="unfinished"></translation>
+        <translation>Veja em Preferências → Arquivos → Não permitir a abertura de arquivos que não forem de texto</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2349"/>
@@ -1740,15 +1740,14 @@ executable, the file will be executed by clicking
 the Run button, that appears on the toolbar/filemenu
 when needed, or by its shortcut Ctrl+E. Then, the
 process could be killed by Ctrl+Alt+E.</source>
-        <translation>Isso inclui apenas arquivos executáveis escritos
-em linguagens de script, como Shell e Python.
+        <translation>Isto inclui apenas arquivos executáveis escritos
+em linguagens de script como Shell e Python.
 
-Se estiver marcado e o arquivo aberto for
-executável, o arquivo será executado clicando
-no botão Executar, que aparece no menu arquivo
-da barra de ferramentas  quando necessário,
-ou pelo atalho Ctrl+E. Então, o processo pode
-ser interrompido por Ctrl+Alt+E.</translation>
+Se a opção estiver marcada e o arquivo aberto é
+executável, ele será executado clicando no
+botão Rodar, que aparece na barra de ferramentas/menu
+arquivos quando necessário, ou pelo atalho Ctrl+E. Do
+mesmo modo, o processo poderia ser morto por Ctrl+Alt+E.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="666"/>
@@ -1949,22 +1948,22 @@ espaços à direita de um arquivo de texto.</translation>
     <message>
         <location filename="../../prefDialog.ui" line="1294"/>
         <source>Syntax Colors</source>
-        <translation type="unfinished"></translation>
+        <translation>Cores de Sintaxe</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1310"/>
         <source>Element</source>
-        <translation type="unfinished"></translation>
+        <translation>Elemento</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1315"/>
         <source>Text Color</source>
-        <translation type="unfinished"></translation>
+        <translation>Cor do Texto</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1326"/>
         <source>Restore default syntax colors.</source>
-        <translation type="unfinished"></translation>
+        <translation>Restaurar o padrão de cores de sintaxe.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1358"/>
@@ -1974,7 +1973,7 @@ espaços à direita de um arquivo de texto.</translation>
     <message>
         <location filename="../../pref.cpp" line="99"/>
         <source>Double click a color to change it.</source>
-        <translation type="unfinished"></translation>
+        <translation>Dê um clique duplo em uma cor para mudá-la.</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="286"/>
@@ -1997,57 +1996,57 @@ espaços à direita de um arquivo de texto.</translation>
     <message>
         <location filename="../../pref.cpp" line="372"/>
         <source>Functions, URLs,…</source>
-        <translation type="unfinished"></translation>
+        <translation>Funções, URLs,…</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="373"/>
         <source>Built-in Functions</source>
-        <translation type="unfinished"></translation>
+        <translation>Funções Embutidas</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="374"/>
         <source>Comments</source>
-        <translation type="unfinished"></translation>
+        <translation>Comentários</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="375"/>
         <source>Quotations</source>
-        <translation type="unfinished"></translation>
+        <translation>Citações</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="376"/>
         <source>Types</source>
-        <translation type="unfinished"></translation>
+        <translation>Tipos</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="377"/>
         <source>Key Words</source>
-        <translation type="unfinished"></translation>
+        <translation>Palavras-chave</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="378"/>
         <source>Numbers</source>
-        <translation type="unfinished"></translation>
+        <translation>Números</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="379"/>
         <source>Regular Expressions, Code Blocks,…</source>
-        <translation type="unfinished"></translation>
+        <translation>Expressões Regulares, Blocos de Código,…</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="380"/>
         <source>Document Blocks, XML/HTML Elements,…</source>
-        <translation type="unfinished"></translation>
+        <translation>Blocos de Documento, Elementos XML/HTML,…</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="381"/>
         <source>Markdown Headings, CSS Values,…</source>
-        <translation type="unfinished"></translation>
+        <translation>Cabeçalhos de Markdown, Valores CSS,…</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="382"/>
         <source>Extra Elements</source>
-        <translation type="unfinished"></translation>
+        <translation>Elementos Extras</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="518"/>
@@ -2077,12 +2076,12 @@ espaços à direita de um arquivo de texto.</translation>
     <message>
         <location filename="../../pref.cpp" line="1571"/>
         <source>Hunspell Dictionary Files (*.dic)</source>
-        <translation>Arquivos de Dicionário Hunspell  (*.dic)</translation>
+        <translation>Arquivos de Dicionário Hunspell (*.dic)</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="1643"/>
         <source>Select Syntax Color</source>
-        <translation type="unfinished"></translation>
+        <translation>Selecionar Cor de Sintaxe</translation>
     </message>
 </context>
 <context>
