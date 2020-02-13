@@ -926,12 +926,12 @@ tento řádek (Ctrl+Shift+J)</translation>
     <message>
         <location filename="../../fpwin.cpp" line="2339"/>
         <source>Non-text file(s) not opened!</source>
-        <translation type="unfinished"></translation>
+        <translation>Soubory, neobsahující text, neotevřeny!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2340"/>
         <source>See Preferences → Files → Do not permit opening of non-text files</source>
-        <translation type="unfinished"></translation>
+        <translation>Viz předvolby → Soubory → Neumožňovat otevírat jiné, než textové soubory</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2348"/>
@@ -1956,22 +1956,22 @@ mezer na konci textového souboru.</translation>
     <message>
         <location filename="../../prefDialog.ui" line="1294"/>
         <source>Syntax Colors</source>
-        <translation type="unfinished"></translation>
+        <translation>Barvy syntaxe</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1310"/>
         <source>Element</source>
-        <translation type="unfinished"></translation>
+        <translation>Prvek</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1315"/>
         <source>Text Color</source>
-        <translation type="unfinished"></translation>
+        <translation>Barva textu</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1326"/>
         <source>Restore default syntax colors.</source>
-        <translation type="unfinished"></translation>
+        <translation>Vrátit barvy syntaxe na výchozí hodnoty.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1358"/>
@@ -1981,7 +1981,7 @@ mezer na konci textového souboru.</translation>
     <message>
         <location filename="../../pref.cpp" line="99"/>
         <source>Double click a color to change it.</source>
-        <translation type="unfinished"></translation>
+        <translation>Barvu změníte dvojklikem na ní.</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="286"/>
@@ -2004,57 +2004,57 @@ mezer na konci textového souboru.</translation>
     <message>
         <location filename="../../pref.cpp" line="372"/>
         <source>Functions, URLs,…</source>
-        <translation type="unfinished"></translation>
+        <translation>Funkce, URL adresy, …</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="373"/>
         <source>Built-in Functions</source>
-        <translation type="unfinished"></translation>
+        <translation>Vestavěné funkce</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="374"/>
         <source>Comments</source>
-        <translation type="unfinished"></translation>
+        <translation>Komentáře</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="375"/>
         <source>Quotations</source>
-        <translation type="unfinished"></translation>
+        <translation>Citace</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="376"/>
         <source>Types</source>
-        <translation type="unfinished"></translation>
+        <translation>Typy</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="377"/>
         <source>Key Words</source>
-        <translation type="unfinished"></translation>
+        <translation>Klíčová slova</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="378"/>
         <source>Numbers</source>
-        <translation type="unfinished"></translation>
+        <translation>Číslice</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="379"/>
         <source>Regular Expressions, Code Blocks,…</source>
-        <translation type="unfinished"></translation>
+        <translation>Regulární výrazy, bloky kódu, …</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="380"/>
         <source>Document Blocks, XML/HTML Elements,…</source>
-        <translation type="unfinished"></translation>
+        <translation>Bloky dokumentu, XML/HTML prvky, …</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="381"/>
         <source>Markdown Headings, CSS Values,…</source>
-        <translation type="unfinished"></translation>
+        <translation>Záhlaví markdown, CSS hodnoty, …</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="382"/>
         <source>Extra Elements</source>
-        <translation type="unfinished"></translation>
+        <translation>Další prvky</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="518"/>
@@ -2089,7 +2089,7 @@ mezer na konci textového souboru.</translation>
     <message>
         <location filename="../../pref.cpp" line="1643"/>
         <source>Select Syntax Color</source>
-        <translation type="unfinished"></translation>
+        <translation>Vybrat barvu syntaxe</translation>
     </message>
 </context>
 <context>
