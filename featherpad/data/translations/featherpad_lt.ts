@@ -926,12 +926,12 @@
     <message>
         <location filename="../../fpwin.cpp" line="2340"/>
         <source>Non-text file(s) not opened!</source>
-        <translation type="unfinished"></translation>
+        <translation>Netekstiniai failai neatveriami!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2341"/>
         <source>See Preferences → Files → Do not permit opening of non-text files</source>
-        <translation type="unfinished"></translation>
+        <translation>Žiūrėkite Nuostatos → Failai → Neleisti atverti netekstinius failus</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2349"/>
@@ -1952,22 +1952,22 @@ pvz., laiko žymos keitimui arba tekstinio failo galinių tarpų
     <message>
         <location filename="../../prefDialog.ui" line="1294"/>
         <source>Syntax Colors</source>
-        <translation type="unfinished"></translation>
+        <translation>Sintaksės spalvos</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1310"/>
         <source>Element</source>
-        <translation type="unfinished"></translation>
+        <translation>Elementas</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1315"/>
         <source>Text Color</source>
-        <translation type="unfinished"></translation>
+        <translation>Teksto spalva</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1326"/>
         <source>Restore default syntax colors.</source>
-        <translation type="unfinished"></translation>
+        <translation>Atkurti numatytąsias sintaksės spalvas.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1358"/>
@@ -1977,7 +1977,7 @@ pvz., laiko žymos keitimui arba tekstinio failo galinių tarpų
     <message>
         <location filename="../../pref.cpp" line="99"/>
         <source>Double click a color to change it.</source>
-        <translation type="unfinished"></translation>
+        <translation>Spustelėkite du kartus ant spalvos norėdami ją pakeisti.</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="286"/>
@@ -2000,57 +2000,57 @@ pvz., laiko žymos keitimui arba tekstinio failo galinių tarpų
     <message>
         <location filename="../../pref.cpp" line="372"/>
         <source>Functions, URLs,…</source>
-        <translation type="unfinished"></translation>
+        <translation>Funkcijos, URL,…</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="373"/>
         <source>Built-in Functions</source>
-        <translation type="unfinished"></translation>
+        <translation>Įtaisytosios funkcijos</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="374"/>
         <source>Comments</source>
-        <translation type="unfinished"></translation>
+        <translation>Komentarai</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="375"/>
         <source>Quotations</source>
-        <translation type="unfinished"></translation>
+        <translation>Citatos</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="376"/>
         <source>Types</source>
-        <translation type="unfinished"></translation>
+        <translation>Tipai</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="377"/>
         <source>Key Words</source>
-        <translation type="unfinished"></translation>
+        <translation>Raktažodžiai</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="378"/>
         <source>Numbers</source>
-        <translation type="unfinished"></translation>
+        <translation>Skaičiai</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="379"/>
         <source>Regular Expressions, Code Blocks,…</source>
-        <translation type="unfinished"></translation>
+        <translation>Reguliarieji reiškiniai, kodo blokai,…</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="380"/>
         <source>Document Blocks, XML/HTML Elements,…</source>
-        <translation type="unfinished"></translation>
+        <translation>Dokumento blokai, XML/HTML elementai,…</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="381"/>
         <source>Markdown Headings, CSS Values,…</source>
-        <translation type="unfinished"></translation>
+        <translation>Ženklinimo antraštės, CSS reikšmės,…</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="382"/>
         <source>Extra Elements</source>
-        <translation type="unfinished"></translation>
+        <translation>Papildomi elementai</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="518"/>
@@ -2085,7 +2085,7 @@ pvz., laiko žymos keitimui arba tekstinio failo galinių tarpų
     <message>
         <location filename="../../pref.cpp" line="1643"/>
         <source>Select Syntax Color</source>
-        <translation type="unfinished"></translation>
+        <translation>Pasirinkti sintaksės spalvą</translation>
     </message>
 </context>
 <context>
