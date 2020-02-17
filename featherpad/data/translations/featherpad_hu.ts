@@ -6,7 +6,7 @@
     <message>
         <location filename="../../about.ui" line="153"/>
         <source>License</source>
-        <translation type="unfinished"></translation>
+        <translation>Licensz</translation>
     </message>
 </context>
 <context>
@@ -23,67 +23,68 @@
         <location filename="../../fpwin.cpp" line="3199"/>
         <location filename="../../fpwin.cpp" line="3902"/>
         <source>Untitled</source>
-        <translation type="unfinished"></translation>
+        <translation>Névtelen</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="71"/>
         <source>Go to line:</source>
-        <translation type="unfinished"></translation>
+        <translation>Ugrás sorra:</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="107"/>
         <source>Select text from cursor to this line
 (Ctrl+Shift+J)</source>
-        <translation type="unfinished"></translation>
+        <translation>Szöveg kijelölése a kurzortól eddig a sorig
+(Ctrl+Shift+J)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="111"/>
         <source>Select Text</source>
-        <translation type="unfinished"></translation>
+        <translation>Szöveg kijelölése</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="114"/>
         <source>Ctrl+Shift+J</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Shift+J</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="149"/>
         <source>&amp;File</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Fájl</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="189"/>
         <location filename="../../fp.ui" line="977"/>
         <source>&amp;Edit</source>
-        <translation type="unfinished"></translation>
+        <translation>Sz&amp;erkesztés</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="216"/>
         <source>&amp;Options</source>
-        <translation type="unfinished"></translation>
+        <translation>Es&amp;zközök</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1338"/>
         <location filename="../../fpwin.cpp" line="2597"/>
         <location filename="../../fpwin.cpp" line="3715"/>
         <source>Encoding</source>
-        <translation type="unfinished"></translation>
+        <translation>Kódolás</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="279"/>
         <source>&amp;Search</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Keresés</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="287"/>
         <location filename="../../fp.ui" line="743"/>
         <source>&amp;Help</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Súgó</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="387"/>
         <source>Find:</source>
-        <translation type="unfinished"></translation>
+        <translation>Keresés:</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="403"/>
@@ -93,73 +94,73 @@
     <message>
         <location filename="../../fp.ui" line="416"/>
         <source>Replace with:</source>
-        <translation type="unfinished"></translation>
+        <translation>Csere ezzel:</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="432"/>
         <source>Replacing text</source>
-        <translation type="unfinished"></translation>
+        <translation>Szöveg cseréje</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="491"/>
         <source>&amp;New</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Új</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="494"/>
         <source>New tab</source>
-        <translation type="unfinished"></translation>
+        <translation>Új lap</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="497"/>
         <source>Ctrl+N</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+N</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="502"/>
         <source>&amp;Open</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Megnyitás</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="505"/>
         <source>Open a file</source>
-        <translation type="unfinished"></translation>
+        <translation>Fájl megnyitása</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="508"/>
         <source>Ctrl+O</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+O</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="516"/>
         <location filename="../../fpwin.cpp" line="1122"/>
         <source>&amp;Save</source>
-        <translation type="unfinished"></translation>
+        <translation>Menté&amp;s</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="519"/>
         <source>Save the current tab</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktuális lap mentése</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="522"/>
         <source>Ctrl+S</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+S</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="530"/>
         <source>&amp;Undo</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">&amp;Visszavonás</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="533"/>
         <source>Undo</source>
-        <translation type="unfinished"></translation>
+        <translation>Visszavonás</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="536"/>
         <source>Ctrl+Z</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Z</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="544"/>
@@ -169,370 +170,370 @@
     <message>
         <location filename="../../fp.ui" line="547"/>
         <source>Redo</source>
-        <translation type="unfinished"></translation>
+        <translation>Mégis</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="550"/>
         <source>Ctrl+Shift+Z</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Shift+Z</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="558"/>
         <location filename="../../fp.ui" line="561"/>
         <source>Reload</source>
-        <translation type="unfinished"></translation>
+        <translation>Újratöltés</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="564"/>
         <source>Ctrl+Shift+R</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Shift+R</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="569"/>
         <source>&amp;Find</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">&amp;Keresés</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="575"/>
         <source>Ctrl+F</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+F</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="583"/>
         <source>Show/hide replacement dock</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Csere panel megjelenítése/elrejtése</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="586"/>
         <source>Ctrl+R</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+R</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="591"/>
         <source>Save &amp;As</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Me&amp;ntés másként</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="594"/>
         <source>Ctrl+Shift+S</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Shift+S</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="599"/>
         <source>&amp;Print</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Nyomtatás</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="602"/>
         <source>Ctrl+P</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+P</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="607"/>
         <source>Documen&amp;t Properties</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">&amp;Dokumentum tulajdonságai</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="610"/>
         <source>Ctrl+Shift+D</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Shift+D</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="615"/>
         <source>&amp;Close</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Bezárás</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="618"/>
         <source>Ctrl+Shift+Q</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Shift+Q</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="623"/>
         <source>&amp;Quit</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">&amp;Kilépés</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="626"/>
         <source>Ctrl+Q</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Q</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="634"/>
         <source>&amp;Cut</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Kivágás</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="637"/>
         <source>Ctrl+X</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+X</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="645"/>
         <source>C&amp;opy</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Másolás</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="648"/>
         <source>Ctrl+C</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+C</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="653"/>
         <source>&amp;Paste</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Beillesztés</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="656"/>
         <source>Ctrl+V</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+V</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="664"/>
         <source>&amp;Delete</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Törlés</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="669"/>
         <source>&amp;Select All</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Összes kijelölése</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="672"/>
         <source>Ctrl+A</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+A</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="677"/>
         <source>&amp;Font</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">&amp;Betűtípus</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="685"/>
         <source>&amp;Line Numbers</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">&amp;Sorszámok</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="688"/>
         <source>Ctrl+L</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+L</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="699"/>
         <source>&amp;Wrap Lines</source>
-        <translation type="unfinished"></translation>
+        <translation>Sortö&amp;rés</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="702"/>
         <source>Ctrl+W</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+W</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="713"/>
         <source>&amp;Auto-Indentation</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">&amp;Automatikus behúzás</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="716"/>
         <source>Ctrl+I</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+I</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="727"/>
         <source>&amp;Syntax Highlighting</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Szinta&amp;xis kiemelés</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="730"/>
         <source>Ctrl+Shift+H</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Shift+H</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="735"/>
         <source>&amp;Preferences</source>
-        <translation type="unfinished"></translation>
+        <translation>Beá&amp;llítások</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="738"/>
         <source>Ctrl+Shift+P</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Shift+P</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="746"/>
         <source>Ctrl+H</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+H</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="751"/>
         <source>&amp;About</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Névjegy</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="778"/>
         <source>Enforce UTF-8</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">UTF-8 kényszerítése</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="961"/>
         <source>Save with &amp;Encoding</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Mentés &amp;kódolással</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="966"/>
         <source>&amp;Jump to</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">&amp;Ugrás</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="969"/>
         <source>Show/hide jump bar</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Ugrás panel megjelenítése/elrejtése</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="972"/>
         <source>Ctrl+J</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+J</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="980"/>
         <source>Edit text</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Szöveg szerkesztése</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="983"/>
         <source>Ctrl+Shift+E</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Shift+E</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1086"/>
         <source>&amp;Run</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">&amp;Futtatás</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1092"/>
         <source>Ctrl+E</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+E</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1097"/>
         <source>&amp;Clear</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">&amp;Tisztítás</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1100"/>
         <source>Clear the list of recently modified files</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Legutóbb módosított fájlok listájának törlése</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1105"/>
         <source>Save/Restore Session</source>
-        <translation type="unfinished"></translation>
+        <translation>Munkamenet mentése/visszaállítása</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1108"/>
         <source>Sa&amp;ve/Restore Session</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Munkamenet men&amp;tése/visszaállítása</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1111"/>
         <source>Ctrl+M</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+M</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1116"/>
         <source>Side-Pane</source>
-        <translation type="unfinished"></translation>
+        <translation>Oldalsáv</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1119"/>
         <source>Ctrl+Alt+P</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Alt+P</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1124"/>
         <source>Paste Date and Time</source>
-        <translation type="unfinished"></translation>
+        <translation>Dátum és idő beillesztése</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1127"/>
         <source>Ctrl+Shift+V</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Shift+V</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1132"/>
         <location filename="../../fp.ui" line="1135"/>
         <source>To Upper Case</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Nagybetűvé</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1138"/>
         <source>Ctrl+Shift+U</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Shift+U</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1143"/>
         <location filename="../../fp.ui" line="1146"/>
         <source>To Lower Case</source>
-        <translation type="unfinished"></translation>
+        <translation>Kisbetűvé</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1149"/>
         <source>Ctrl+Shift+L</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Shift+L</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1157"/>
         <location filename="../../fp.ui" line="1160"/>
         <source>Last Active Tab</source>
-        <translation type="unfinished"></translation>
+        <translation>Utolsó aktív lap</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1163"/>
         <source>F1</source>
-        <translation type="unfinished"></translation>
+        <translation>F1</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1168"/>
         <location filename="../../fp.ui" line="1171"/>
         <source>Sort Lines</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Sorok rendezése</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1176"/>
         <location filename="../../fp.ui" line="1179"/>
         <source>Sort Lines Reversely</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Sorok rendezése fordítva</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1184"/>
         <source>Check Spelling</source>
-        <translation type="unfinished"></translation>
+        <translation>Helyesírás-ellenőrzés</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1187"/>
         <source>F2</source>
-        <translation type="unfinished"></translation>
+        <translation>F2</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1192"/>
         <location filename="../../fp.ui" line="1195"/>
         <source>Save All Files</source>
-        <translation type="unfinished"></translation>
+        <translation>Minden fájl mentése</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1200"/>
         <location filename="../../fp.ui" line="1203"/>
         <source>User Dictionary</source>
-        <translation type="unfinished"></translation>
+        <translation>Felhasználói szótár</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="991"/>
         <source>&amp;Detach Tab</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Lap le&amp;választása</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="994"/>
         <source>Ctrl+T</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+T</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1007"/>
