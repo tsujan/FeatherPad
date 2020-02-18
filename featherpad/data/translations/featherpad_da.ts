@@ -926,12 +926,12 @@
     <message>
         <location filename="../../fpwin.cpp" line="2340"/>
         <source>Non-text file(s) not opened!</source>
-        <translation type="unfinished"></translation>
+        <translation>Fil(er) som ikke er tekst blev ikke åbnet!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2341"/>
         <source>See Preferences → Files → Do not permit opening of non-text files</source>
-        <translation type="unfinished"></translation>
+        <translation>Se Præferencer → Filer → Tillad ikke åbning af filer som ikke er tekst</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2349"/>
@@ -1920,7 +1920,7 @@ efterstillede mellemrum i en tekstfil.</translation>
     <message>
         <location filename="../../prefDialog.ui" line="1221"/>
         <source>Do not permit opening of non-text files</source>
-        <translation>Tilladt ikke åbning af filer som ikke er tekstfiler</translation>
+        <translation>Tillad ikke åbning af filer som ikke er tekst</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1248"/>
@@ -1951,22 +1951,22 @@ efterstillede mellemrum i en tekstfil.</translation>
     <message>
         <location filename="../../prefDialog.ui" line="1294"/>
         <source>Syntax Colors</source>
-        <translation type="unfinished"></translation>
+        <translation>Syntaksfarver</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1310"/>
         <source>Element</source>
-        <translation type="unfinished"></translation>
+        <translation>Element</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1315"/>
         <source>Text Color</source>
-        <translation type="unfinished"></translation>
+        <translation>Tekstfarve</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1326"/>
         <source>Restore default syntax colors.</source>
-        <translation type="unfinished"></translation>
+        <translation>Gendan standardsyntaksfarver.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1358"/>
@@ -1976,7 +1976,7 @@ efterstillede mellemrum i en tekstfil.</translation>
     <message>
         <location filename="../../pref.cpp" line="99"/>
         <source>Double click a color to change it.</source>
-        <translation type="unfinished"></translation>
+        <translation>Dobbeltklik på en farve for at ændre den.</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="286"/>
@@ -1999,57 +1999,57 @@ efterstillede mellemrum i en tekstfil.</translation>
     <message>
         <location filename="../../pref.cpp" line="372"/>
         <source>Functions, URLs,…</source>
-        <translation type="unfinished"></translation>
+        <translation>Funktioner, URL&apos;er …</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="373"/>
         <source>Built-in Functions</source>
-        <translation type="unfinished"></translation>
+        <translation>Indbyggede funktioner</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="374"/>
         <source>Comments</source>
-        <translation type="unfinished"></translation>
+        <translation>Kommentarer</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="375"/>
         <source>Quotations</source>
-        <translation type="unfinished"></translation>
+        <translation>Citater</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="376"/>
         <source>Types</source>
-        <translation type="unfinished"></translation>
+        <translation>Typer</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="377"/>
         <source>Key Words</source>
-        <translation type="unfinished"></translation>
+        <translation>Nøgleord</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="378"/>
         <source>Numbers</source>
-        <translation type="unfinished"></translation>
+        <translation>Tal</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="379"/>
         <source>Regular Expressions, Code Blocks,…</source>
-        <translation type="unfinished"></translation>
+        <translation>Regulære udtryk, kodeblokke …</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="380"/>
         <source>Document Blocks, XML/HTML Elements,…</source>
-        <translation type="unfinished"></translation>
+        <translation>Dokumentblokke, XML-/HTML-elementer …</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="381"/>
         <source>Markdown Headings, CSS Values,…</source>
-        <translation type="unfinished"></translation>
+        <translation>Markdown-headings, CSS-værdier …</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="382"/>
         <source>Extra Elements</source>
-        <translation type="unfinished"></translation>
+        <translation>Ekstra elementer</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="518"/>
@@ -2084,7 +2084,7 @@ efterstillede mellemrum i en tekstfil.</translation>
     <message>
         <location filename="../../pref.cpp" line="1643"/>
         <source>Select Syntax Color</source>
-        <translation type="unfinished"></translation>
+        <translation>Vælg syntaksfarve</translation>
     </message>
 </context>
 <context>
