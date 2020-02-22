@@ -61,7 +61,7 @@
     <message>
         <location filename="../../fp.ui" line="216"/>
         <source>&amp;Options</source>
-        <translation>Es&amp;zközök</translation>
+        <translation>&amp;Opciók</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1338"/>
@@ -231,7 +231,7 @@
     <message>
         <location filename="../../fp.ui" line="607"/>
         <source>Documen&amp;t Properties</source>
-        <translation type="unfinished">&amp;Dokumentum tulajdonságai</translation>
+        <translation>&amp;Dokumentumtulajdonságok</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="610"/>
@@ -341,7 +341,7 @@
     <message>
         <location filename="../../fp.ui" line="727"/>
         <source>&amp;Syntax Highlighting</source>
-        <translation type="unfinished">Szinta&amp;xis kiemelés</translation>
+        <translation>Szinta&amp;xiskiemelés</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="730"/>
@@ -421,12 +421,12 @@
     <message>
         <location filename="../../fp.ui" line="1100"/>
         <source>Clear the list of recently modified files</source>
-        <translation type="unfinished">Legutóbb módosított fájlok listájának törlése</translation>
+        <translation>Nemrég módosított fájlok listájának törlése</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1105"/>
         <source>Save/Restore Session</source>
-        <translation>Munkamenet mentése/visszaállítása</translation>
+        <translation>Munkamenet mentése/betöltése</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1108"/>
@@ -538,22 +538,22 @@
     <message>
         <location filename="../../fp.ui" line="1007"/>
         <source>Close Ne&amp;xt Tabs</source>
-        <translation type="unfinished">Lapok be&amp;zárása ettől jobbra</translation>
+        <translation>Lapok be&amp;zárása ettől jobbra</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1012"/>
         <source>Close &amp;Previous Tabs</source>
-        <translation type="unfinished">Lapok &amp;bezárása ettől balra</translation>
+        <translation>Lapok &amp;bezárása ettől balra</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1040"/>
         <source>Ne&amp;xt Tab</source>
-        <translation type="unfinished">&amp;Következő lap</translation>
+        <translation>&amp;Következő lap</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1051"/>
         <source>Previous Ta&amp;b</source>
-        <translation type="unfinished">&amp;Előző lap</translation>
+        <translation>&amp;Előző lap</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1089"/>
@@ -563,37 +563,37 @@
     <message>
         <location filename="../../fp.ui" line="1017"/>
         <source>Close &amp;All Tabs</source>
-        <translation type="unfinished">&amp;Összes lap bezárása</translation>
+        <translation>&amp;Összes lap bezárása</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="153"/>
         <source>Recently &amp;Modified</source>
-        <translation type="unfinished">Le&amp;gutóbb módosított</translation>
+        <translation>Nemré&amp;g módosított</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="220"/>
         <source>&amp;Encoding</source>
-        <translation type="unfinished">&amp;Kódolás</translation>
+        <translation>&amp;Kódolás</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="224"/>
         <source>&amp;Unicode</source>
-        <translation type="unfinished">&amp;Unicode</translation>
+        <translation>&amp;Unicode</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="231"/>
         <source>&amp;Western European</source>
-        <translation type="unfinished">&amp;Nyugat-Európai</translation>
+        <translation>&amp;Nyugat-Európai</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="239"/>
         <source>&amp;East European</source>
-        <translation type="unfinished">&amp;Kelet-Európai</translation>
+        <translation>&amp;Kelet-Európai</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="247"/>
         <source>Ea&amp;st Asian</source>
-        <translation type="unfinished">K&amp;elet-Ázsiai</translation>
+        <translation>K&amp;elet-Ázsiai</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="339"/>
@@ -606,22 +606,22 @@
     <message>
         <location filename="../../fp.ui" line="572"/>
         <source>Focus/hide search bar</source>
-        <translation type="unfinished"></translation>
+        <translation>Ugrás a keresősávra/keresősáv elrejtése</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="580"/>
         <source>&amp;Replace</source>
-        <translation type="unfinished">&amp;Csere</translation>
+        <translation>&amp;Csere</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="762"/>
         <source>Windows Arabic (&amp;CP1256)</source>
-        <translation type="unfinished">Windows Arab (&amp;CP1256)</translation>
+        <translation>Windows Arab (&amp;CP1256)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="770"/>
         <source>&amp;Other</source>
-        <translation type="unfinished">&amp;Egyéb</translation>
+        <translation>&amp;Egyéb</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="789"/>
@@ -656,72 +656,72 @@
     <message>
         <location filename="../../fp.ui" line="855"/>
         <source>Cyrillic (&amp;ISO-8859-5)</source>
-        <translation type="unfinished">Cirill (&amp;ISO-8859-5)</translation>
+        <translation>Cirill (&amp;ISO-8859-5)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="866"/>
         <source>&amp;Chinese (BIG5)</source>
-        <translation type="unfinished">&amp;Kínai (BIG5)</translation>
+        <translation>&amp;Kínai (BIG5)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="877"/>
         <source>Chinese (&amp;GB18030)</source>
-        <translation type="unfinished">Kínai (&amp;GB18030)</translation>
+        <translation>Kínai (&amp;GB18030)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="888"/>
         <source>&amp;Japanese (ISO-2022-JP)</source>
-        <translation type="unfinished">&amp;Japán (ISO-2022-JP)</translation>
+        <translation>&amp;Japán (ISO-2022-JP)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="899"/>
         <source>Japanese (&amp;ISO-2022-JP-2)</source>
-        <translation type="unfinished">Japán (&amp;ISO-2022-JP-2)</translation>
+        <translation>Japán (&amp;ISO-2022-JP-2)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="910"/>
         <source>Japanese (ISO-&amp;2022-KR)</source>
-        <translation type="unfinished">Japán (ISO-&amp;2022-KR)</translation>
+        <translation>Japán (ISO-&amp;2022-KR)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="921"/>
         <source>Ja&amp;panese (CP932)</source>
-        <translation type="unfinished">Ja&amp;pán (CP932)</translation>
+        <translation>Ja&amp;pán (CP932)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="932"/>
         <source>Japa&amp;nese (EUC-JP)</source>
-        <translation type="unfinished">Japá&amp;n (EUC-JP)</translation>
+        <translation>Japá&amp;n (EUC-JP)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="940"/>
         <source>&amp;Korean (CP949)</source>
-        <translation type="unfinished">&amp;Koreai (CP949)</translation>
+        <translation>&amp;Koreai (CP949)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="948"/>
         <source>K&amp;orean (CP1361)</source>
-        <translation type="unfinished">K&amp;oreai (CP1361)</translation>
+        <translation>K&amp;oreai (CP1361)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="956"/>
         <source>Korean (&amp;EUC-KR)</source>
-        <translation type="unfinished">Koreai (&amp;EUC-KR)</translation>
+        <translation>Koreai (&amp;EUC-KR)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1002"/>
         <source>ISO-&amp;8859-15</source>
-        <translation type="unfinished">ISO-&amp;8859-15</translation>
+        <translation>ISO-&amp;8859-15</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1022"/>
         <source>Close &amp;Other Tabs</source>
-        <translation type="unfinished">&amp;Többi lap bezárása</translation>
+        <translation>&amp;Többi lap bezárása</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1027"/>
         <source>&amp;Copy File Name</source>
-        <translation type="unfinished">&amp;Fájlnév másolása</translation>
+        <translation>&amp;Fájlnév másolása</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1032"/>
@@ -767,8 +767,8 @@
         <location filename="../../fpwin.cpp" line="100"/>
         <source>Calculate number of words
 (For huge texts, this may be CPU-intensive.)</source>
-        <translation type="unfinished">Szavak számának kiszámítása
-(Óriási szövegeknél ez leterhelheti a processzort.)</translation>
+        <translation>Szavak számának kiszámítása
+(Óriási szövegeknél ez processzor-igényes lehet.)</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="115"/>
@@ -788,7 +788,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="549"/>
         <source>&amp;Recently Opened</source>
-        <translation type="unfinished">&amp;Legutóbb megnyitott</translation>
+        <translation>&amp;Nemrég megnyitott</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1724"/>
@@ -803,7 +803,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="833"/>
         <source>Please attend to that window or just close its dialog!</source>
-        <translation type="unfinished"></translation>
+        <translation>Látogasson el arra az ablakra, vagy csak zárja be a párbeszédablakát!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1112"/>
@@ -829,7 +829,7 @@
         <location filename="../../fpwin.cpp" line="1320"/>
         <location filename="../../fpwin.cpp" line="1377"/>
         <source>Unsaved</source>
-        <translation type="unfinished">Mentetlen</translation>
+        <translation>Nincs mentve</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1339"/>
@@ -849,7 +849,7 @@
         <location filename="../../fpwin.cpp" line="3720"/>
         <location filename="../../fpwin.cpp" line="3734"/>
         <source>Sel. Chars</source>
-        <translation type="unfinished"></translation>
+        <translation>Kijelölt karakterek</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1341"/>
@@ -871,7 +871,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="832"/>
         <source>Another FeatherPad window has a modal dialog!</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Egy másik FeatherPad ablaknak már van egy párbeszédablaka!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="669"/>
@@ -926,7 +926,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="2340"/>
         <source>Non-text file(s) not opened!</source>
-        <translation type="unfinished">A nem szöveges fájlok nem lesznek megnyitva!</translation>
+        <translation>A nem szöveges fájlok nem lettek megnyitva!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2341"/>
@@ -1024,7 +1024,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="2846"/>
         <source>This may be good for readability under MS Windows.</source>
-        <translation type="unfinished">Ez jó lehet ha MS Windowson is meg akarja nyitni.</translation>
+        <translation>Ez jó lehet, ha MS Windowson is meg szeretné nyitni.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2993"/>
@@ -1052,13 +1052,13 @@
     <message>
         <location filename="../../fpwin.cpp" line="2331"/>
         <source>Huge file(s) not opened!</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">A nagy fájl(ok) nem lett(ek) megnyitva!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3209"/>
         <location filename="../../fpwin.cpp" line="3396"/>
         <source>This file has been modified elsewhere or in another way!</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Ezt a fájlt máshol vagy máshogy módosították!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3210"/>
@@ -1123,7 +1123,7 @@
         <location filename="../../fpwin.cpp" line="4780"/>
         <location filename="../../fpwin.cpp" line="4795"/>
         <source>No misspelling from text cursor.</source>
-        <translation type="unfinished">Nincs elírás a kijelölt szövegből.</translation>
+        <translation>Nincs elírás a kijelölt szövegben.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4807"/>
@@ -1148,7 +1148,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="5176"/>
         <source>based on Qt5</source>
-        <translation type="unfinished">a Qt5-ön alapulva</translation>
+        <translation>amely a Qt5-ön alapul</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5177"/>
@@ -1187,7 +1187,7 @@
     <message>
         <location filename="../../syntax.cpp" line="273"/>
         <source>The size limit for syntax highlighting is exceeded.</source>
-        <translation type="unfinished">A szintaxis kiemelés méretkorlátja túllépve.</translation>
+        <translation type="unfinished">A szintaxiskiemelés méretkorlátja túllépve.</translation>
     </message>
 </context>
 <context>
@@ -1236,22 +1236,22 @@
     <message>
         <location filename="../../fontDialog.ui" line="103"/>
         <source>Normal</source>
-        <translation type="unfinished"></translation>
+        <translation>Normál</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="108"/>
         <source>Medium</source>
-        <translation type="unfinished"></translation>
+        <translation>Közepes</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="113"/>
         <source>Bold</source>
-        <translation type="unfinished"></translation>
+        <translation>Félkövér</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="118"/>
         <source>Black</source>
-        <translation type="unfinished"></translation>
+        <translation>Kövér</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="126"/>
@@ -1322,8 +1322,8 @@
         <location filename="../../prefDialog.ui" line="148"/>
         <source>Enforcing a window position is not recommended
 and may not work with some window managers.</source>
-        <translation type="unfinished">Ablakpozíció kényszerítése nem ajánlott
-én lehet, hogy néhány ablakkezelővel nem működik együtt.</translation>
+        <translation>Ablakpozíció kényszerítése nem ajánlott
+és lehet, hogy néhány ablakkezelővel nem működik együtt.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="152"/>
@@ -1334,7 +1334,7 @@ and may not work with some window managers.</source>
         <location filename="../../prefDialog.ui" line="159"/>
         <source>Most suitable with sessions
 but without tab functionality.</source>
-        <translation type="unfinished">Legalkalmasabb munkamenetekhez
+        <translation>Legalkalmasabb munkamenetekkel
 de lapok nélkül.</translation>
     </message>
     <message>
@@ -1394,7 +1394,7 @@ has a separate search history.</source>
         <location filename="../../prefDialog.ui" line="272"/>
         <location filename="../../prefDialog.ui" line="282"/>
         <source>Will take effect after closing this dialog.</source>
-        <translation type="unfinished"></translation>
+        <translation>A párbeszédpanel bezárása után lép érvénybe.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="275"/>
@@ -1414,12 +1414,12 @@ has a separate search history.</source>
     <message>
         <location filename="../../prefDialog.ui" line="296"/>
         <source>West</source>
-        <translation type="unfinished">Bal</translation>
+        <translation type="unfinished">Balra</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="301"/>
         <source>East</source>
-        <translation type="unfinished">Jobb</translation>
+        <translation type="unfinished">Jobbra</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="327"/>
@@ -1432,7 +1432,7 @@ Tab navigation with mouse wheel is not affected.</source>
     <message>
         <location filename="../../prefDialog.ui" line="333"/>
         <source>Tab navigation wraps &amp;around</source>
-        <translation type="unfinished"></translation>
+        <translation>Lapok körbejárás&amp;a</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="353"/>
@@ -1479,12 +1479,12 @@ Some desktop environments, like KDE and LXQt, provide files dialogs.</source>
     <message>
         <location filename="../../prefDialog.ui" line="480"/>
         <source>This covers parentheses, braces, brackets and quotes.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ez bezárja a zárójeleket, és az idézőjeleket.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="483"/>
         <source>Auto-&amp;bracket</source>
-        <translation type="unfinished"></translation>
+        <translation>A&amp;utomatikus zárójelkiegészítés</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="490"/>
@@ -1501,7 +1501,7 @@ under proper circumstances.</source>
     <message>
         <location filename="../../prefDialog.ui" line="565"/>
         <source>Never highlight syntax for files &gt; </source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Ne legyen kiemelés azoknál a fájloknál, amelyek nagyobbak mint </translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="534"/>
@@ -1512,7 +1512,7 @@ status bar for changing the syntax.</source>
     <message>
         <location filename="../../prefDialog.ui" line="538"/>
         <source>Support syntax override</source>
-        <translation type="unfinished"></translation>
+        <translation>Szintaxisfelülbírálás támogatása</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="603"/>
@@ -1523,7 +1523,7 @@ when the syntax is highlighted.</source>
     <message>
         <location filename="../../prefDialog.ui" line="607"/>
         <source>Show whitespaces</source>
-        <translation type="unfinished"></translation>
+        <translation>Szóközök, soremelések, behúzások megjelenítése</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="623"/>
@@ -1545,7 +1545,7 @@ the editor font has a fixed pitch (like Monospace).</source>
     <message>
         <location filename="../../prefDialog.ui" line="753"/>
         <source>Date and time format:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Dátum és idő formátuma:</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="823"/>
@@ -1561,12 +1561,12 @@ whose last line is not empty.</source>
     <message>
         <location filename="../../prefDialog.ui" line="834"/>
         <source>Remove trailing spaces on saving</source>
-        <translation type="unfinished"></translation>
+        <translation>Sorvégi szóközök eltávolítása mentéskor</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="852"/>
         <source>Inertial scrolling with mouse wheel</source>
-        <translation type="unfinished"></translation>
+        <translation>Tehetetlenségi görgetés egérkerékkel</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="952"/>
@@ -1581,7 +1581,7 @@ whose last line is not empty.</source>
     <message>
         <location filename="../../prefDialog.ui" line="1075"/>
         <source>Start with files of last window</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Indulás az utolsó ablak fájljaival</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1117"/>
@@ -1611,7 +1611,7 @@ will be shown by a popup dialog.</source>
     <message>
         <location filename="../../prefDialog.ui" line="1033"/>
         <source>Show recentl&amp;y modified files</source>
-        <translation>Leg&amp;utóbb módosított fájlok megjelenítése</translation>
+        <translation>Nemré&amp;g módosított fájlok megjelenítése</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1063"/>
@@ -1664,7 +1664,7 @@ and-drop either.</source>
     <message>
         <location filename="../../prefDialog.ui" line="473"/>
         <source>Auto-&amp;indent by default</source>
-        <translation type="unfinished"></translation>
+        <translation>Automat&amp;ikus behúzás</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="502"/>
@@ -1674,12 +1674,12 @@ and-drop either.</source>
     <message>
         <location filename="../../prefDialog.ui" line="509"/>
         <source>Highlight s&amp;yntax by default</source>
-        <translation type="unfinished"></translation>
+        <translation>Szinta&amp;xiskiemelés</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="669"/>
         <source>Dark c&amp;olor scheme</source>
-        <translation type="unfinished">Sö&amp;tét téma</translation>
+        <translation>Sö&amp;tét téma</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="704"/>
@@ -1695,12 +1695,13 @@ and-drop either.</source>
         <location filename="../../prefDialog.ui" line="859"/>
         <source>This is not a complete fix but
 prevents annoying scroll jumps.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ez nem egy teljes javítás, de
+megakadályozza a bosszantó ugrásokat görgetésnél.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="863"/>
         <source>Workaround for &amp;Qt5&apos;s scroll jump bug</source>
-        <translation type="unfinished"></translation>
+        <translation>A &amp;Qt5 görgetés ugrálásának javítása</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1082"/>
@@ -1717,7 +1718,7 @@ process could be killed by Ctrl+Alt+E.</source>
     <message>
         <location filename="../../prefDialog.ui" line="666"/>
         <source>Needs window reopening to take effect.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">A beállítás érvényesítéséhez újra meg kell nyitni az ablakot.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="694"/>
@@ -1730,7 +1731,14 @@ between 230 and 255; for the dark
 background, between 0 and 50.
 
 Needs window reopening to take effect.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">háttér színértéke.
+255 a fehér, 0 pedig a fekete.
+
+A világos háttérnél ez lehet
+230 és 255 között; a sötét
+háttér esetén 0 és 50 között.
+
+Az érvényesítéshez újra meg kell nyitni az ablakot.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1092"/>
@@ -1745,7 +1753,11 @@ opened files FeatherPad shows. The default
 is 10.
 
 Needs application restart to take effect.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">A nemrég módosított vagy megnyitott fájlok maximális száma
+amit FeatherPad mutat. Az alapértelmezett
+10.
+
+Az érvényesítéshez újra kell indítani az alkalmazást.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="745"/>
@@ -1756,12 +1768,17 @@ Takes effect after closing this dialog.
 
 Leave empty for:
 MMM dd, yyyy, hh:mm:ss</source>
-        <translation type="unfinished"></translation>
+        <translation>A dátum és az idő beillesztésére szolgál.
+
+A párbeszédpanel bezárása után lép érvénybe.
+
+Hagyja üresen ha ezt szerené:
+MMM dd, yyyy, hh:mm:ss</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="782"/>
         <source>Text tab size:</source>
-        <translation type="unfinished">Bekezdésméret:</translation>
+        <translation>Behúzásméret:</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="789"/>
@@ -1790,12 +1807,14 @@ if the cursor is inside the text view?</source>
         <source>A Hunspell dictionary has a name that ends with &quot;.dic&quot;
 and should be alongside an affix file with the same
 name but ending with &quot;.aff&quot;.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">A Hunspell szótárfájlnak &quot;.dic&quot;-re kell végződnie
+és kell mellette lennie egy affix fájlnak aminek ugyanaz a neve
+csak &quot;.aff&quot;-ra végződik.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="883"/>
         <source>Hunspell dictionary path:</source>
-        <translation type="unfinished"></translation>
+        <translation>A Hunspell szótár útvonala:</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="902"/>
@@ -1817,7 +1836,7 @@ will be started from the document start.</source>
     <message>
         <location filename="../../prefDialog.ui" line="973"/>
         <source>Number of recent files: </source>
-        <translation type="unfinished"></translation>
+        <translation>A legutóbbi fájlok száma: </translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1072"/>
@@ -1833,7 +1852,7 @@ will be started from the document start.</source>
     <message>
         <location filename="../../prefDialog.ui" line="1172"/>
         <source> min</source>
-        <translation> perc</translation>
+        <translation> percben</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1203"/>
@@ -1843,7 +1862,10 @@ be used also when the opened file is not modified.
 This can be useful under certain circumstances,
 e.g. for changing the time stamp or removing the
 trailing spaces of a text file.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ha  ez be van jelölve, a Mentés gomb/menüelem
+akkor is használható marad, ha a megnyitott fájl nem lett módosítva.
+
+Ez néhány körülmény között hasznos lehet: pl. az időbélyeg megváltoztatásához, vagy a záró szóközök levágásához.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1211"/>
@@ -1853,12 +1875,12 @@ trailing spaces of a text file.</source>
     <message>
         <location filename="../../prefDialog.ui" line="1218"/>
         <source>Show a warning instead.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ehelyett jelenjen meg egy figyelmeztetés.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1221"/>
         <source>Do not permit opening of non-text files</source>
-        <translation type="unfinished"></translation>
+        <translation>Nem szöveges fájlok megnyitásának letiltása</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1248"/>
@@ -1914,13 +1936,13 @@ trailing spaces of a text file.</source>
     <message>
         <location filename="../../pref.cpp" line="99"/>
         <source>Double click a color to change it.</source>
-        <translation type="unfinished">Dupla kattintás egy színre a módosításához.</translation>
+        <translation>Dupla kattintás a módosításhoz.</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="286"/>
         <location filename="../../pref.cpp" line="1265"/>
         <source>files</source>
-        <translation>fájlok</translation>
+        <translation>fájl</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="286"/>
@@ -1932,7 +1954,7 @@ trailing spaces of a text file.</source>
         <location filename="../../pref.cpp" line="339"/>
         <location filename="../../pref.cpp" line="1384"/>
         <source>Warning: Ambiguous shortcut detected!</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Figyelmeztetés: Nem egyértelmű gyorsbillentyű található!</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="372"/>
@@ -1952,7 +1974,7 @@ trailing spaces of a text file.</source>
     <message>
         <location filename="../../pref.cpp" line="375"/>
         <source>Quotations</source>
-        <translation type="unfinished"></translation>
+        <translation>Idézőjelek</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="376"/>
@@ -1962,7 +1984,7 @@ trailing spaces of a text file.</source>
     <message>
         <location filename="../../pref.cpp" line="377"/>
         <source>Key Words</source>
-        <translation type="unfinished"></translation>
+        <translation>Kulcsszavak</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="378"/>
@@ -1972,57 +1994,57 @@ trailing spaces of a text file.</source>
     <message>
         <location filename="../../pref.cpp" line="379"/>
         <source>Regular Expressions, Code Blocks,…</source>
-        <translation type="unfinished"></translation>
+        <translation>Reguláris kifejezések, Kódblokkok,...</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="380"/>
         <source>Document Blocks, XML/HTML Elements,…</source>
-        <translation type="unfinished"></translation>
+        <translation>Dokumentumblokkok, XML/HTML Elemek,...</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="381"/>
         <source>Markdown Headings, CSS Values,…</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Jelölt címsorok, CSS értékek,…</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="382"/>
         <source>Extra Elements</source>
-        <translation type="unfinished"></translation>
+        <translation>Extra elemek</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="518"/>
         <source>Application restart is needed for changes to take effect.</source>
-        <translation type="unfinished"></translation>
+        <translation>Az érvényesítéshez újra meg kell nyitni az ablakot.</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="530"/>
         <source>Window reopening is needed for changes to take effect.</source>
-        <translation type="unfinished"></translation>
+        <translation>Az érvényesítéshez újra meg kell nyitni az ablakot.</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="1291"/>
         <source>&amp;Recently Opened</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Nemrég megnyitott</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="1292"/>
         <source>Recently &amp;Modified</source>
-        <translation type="unfinished"></translation>
+        <translation>Nemré&amp;g módosított</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="1367"/>
         <source>The typed shortcut was reserved.</source>
-        <translation type="unfinished"></translation>
+        <translation>A </translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="1571"/>
         <source>Hunspell Dictionary Files (*.dic)</source>
-        <translation type="unfinished"></translation>
+        <translation>Hunspell szótárfájlok (*.dic)</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="1643"/>
         <source>Select Syntax Color</source>
-        <translation type="unfinished"></translation>
+        <translation>Kiemelőszín kiválasztása</translation>
     </message>
 </context>
 <context>
@@ -2036,7 +2058,7 @@ trailing spaces of a text file.</source>
     <message>
         <location filename="../../searchbar.cpp" line="74"/>
         <source>Match Case</source>
-        <translation type="unfinished"></translation>
+        <translation>Egyezés</translation>
     </message>
     <message>
         <location filename="../../searchbar.cpp" line="81"/>
@@ -2046,12 +2068,12 @@ trailing spaces of a text file.</source>
     <message>
         <location filename="../../searchbar.cpp" line="88"/>
         <source>Regular Expression</source>
-        <translation type="unfinished"></translation>
+        <translation>Reguláris kifejezés</translation>
     </message>
     <message>
         <location filename="../../searchbar.cpp" line="120"/>
         <source>Search with regex...</source>
-        <translation type="unfinished"></translation>
+        <translation>Keresés reguláris kifejezéssel...</translation>
     </message>
     <message>
         <location filename="../../searchbar.cpp" line="69"/>
@@ -2069,40 +2091,40 @@ trailing spaces of a text file.</source>
     <message>
         <location filename="../../sessionDialog.ui" line="14"/>
         <source>Session Manager</source>
-        <translation type="unfinished"></translation>
+        <translation>Munkamenet-kezelő</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="101"/>
         <location filename="../../sessionDialog.ui" line="270"/>
         <source>&amp;Remove</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Törlés</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="33"/>
         <source>&lt;b&gt;Save/Restore Session&lt;/b&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;Munkamenet mentése/betöltése&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="56"/>
         <source>Filter...</source>
-        <translation type="unfinished"></translation>
+        <translation>Keresés...</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="69"/>
         <source>Open the selected session(s).</source>
-        <translation type="unfinished"></translation>
+        <translation>Kiválasztott munkamenet(ek) megnyitása.</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="72"/>
         <location filename="../../sessionDialog.ui" line="275"/>
         <source>&amp;Open</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;megnyitás</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="98"/>
         <location filename="../../sessionDialog.ui" line="108"/>
         <source>Del</source>
-        <translation type="unfinished"></translation>
+        <translation>Törlés</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="115"/>
@@ -2114,98 +2136,99 @@ trailing spaces of a text file.</source>
         <location filename="../../sessionDialog.ui" line="159"/>
         <source>By default, all files that are opened in all
 windows will be included in the saved session.</source>
-        <translation type="unfinished"></translation>
+        <translation>Alapértelmezés szerint az összes ablakban megnyitott
+összes fájl el lesz mentve a munkamenetbe.</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="163"/>
         <source>Save only from this &amp;window</source>
-        <translation type="unfinished"></translation>
+        <translation>Mentés csak ebből az a&amp;blakból</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="180"/>
         <source>&lt;b&gt;Warning&lt;/b&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;Figyelmeztetés&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="226"/>
         <location filename="../../session.cpp" line="330"/>
         <source>&amp;Yes</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Igen</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="233"/>
         <source>&amp;No</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Nem</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="283"/>
         <source>Re&amp;name</source>
-        <translation type="unfinished"></translation>
+        <translation>Á&amp;tnevezés</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="118"/>
         <source>Remove &amp;All</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Összes törlése</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="260"/>
         <source>&amp;Close</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Bezárás</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="135"/>
         <source>Save the current session under the given title.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Munkamenet mentése az adott név alatt.</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="138"/>
         <source>&amp;Save</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Mentés</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="149"/>
         <source>Type a name to save session</source>
-        <translation type="unfinished"></translation>
+        <translation>Adjon nevet a munkamenetnek</translation>
     </message>
     <message>
         <location filename="../../session.cpp" line="174"/>
         <source>Nothing saved.&lt;br&gt;No file was opened.</source>
-        <translation type="unfinished"></translation>
+        <translation>Nem lehet menteni.&lt;br&gt;Nincs megnyitott fájl.</translation>
     </message>
     <message>
         <location filename="../../session.cpp" line="267"/>
         <source>No file exists or can be opened.</source>
-        <translation type="unfinished"></translation>
+        <translation>Nem létezik a fájl, vagy nem nyitható meg.</translation>
     </message>
     <message>
         <location filename="../../session.cpp" line="273"/>
         <source>Not all files exist or can be opened.</source>
-        <translation type="unfinished"></translation>
+        <translation>Nem minden fájl létezik, vagy nyitható meg.</translation>
     </message>
     <message>
         <location filename="../../session.cpp" line="316"/>
         <source>&amp;OK</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;OK</translation>
     </message>
     <message>
         <location filename="../../session.cpp" line="335"/>
         <source>Do you really want to remove all saved sessions?</source>
-        <translation type="unfinished"></translation>
+        <translation>Biztosan törölni szeretné az összes munkamenetet?</translation>
     </message>
     <message>
         <location filename="../../session.cpp" line="341"/>
         <source>Do you really want to remove the selected sessions?</source>
-        <translation type="unfinished"></translation>
+        <translation>Biztosan törölni szeretné a kijelölt munkameneteket?</translation>
     </message>
     <message>
         <location filename="../../session.cpp" line="343"/>
         <source>Do you really want to remove the selected session?</source>
-        <translation type="unfinished"></translation>
+        <translation>Biztosan törölni szeretné a kijelölt munkamenetet?</translation>
     </message>
     <message>
         <location filename="../../session.cpp" line="348"/>
         <source>A session with the same name exists.&lt;br&gt;Do you want to overwrite it?</source>
-        <translation type="unfinished"></translation>
+        <translation>Létezik egy azonos nevű munkamenet.&lt;br&gt;Felülírja?</translation>
     </message>
 </context>
 <context>
@@ -2213,7 +2236,7 @@ windows will be included in the saved session.</source>
     <message>
         <location filename="../../sidepane.cpp" line="108"/>
         <source>Filter...</source>
-        <translation type="unfinished"></translation>
+        <translation>Szűrrő</translation>
     </message>
 </context>
 <context>
@@ -2221,12 +2244,12 @@ windows will be included in the saved session.</source>
     <message>
         <location filename="../../spellDialog.ui" line="25"/>
         <source>Unknown word:</source>
-        <translation type="unfinished"></translation>
+        <translation>Ismeretlen szó:</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="51"/>
         <source>Add To Dictionary</source>
-        <translation type="unfinished"></translation>
+        <translation>Hozzáadás szótárhoz</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="62"/>
@@ -2241,7 +2264,7 @@ windows will be included in the saved session.</source>
     <message>
         <location filename="../../spellDialog.ui" line="142"/>
         <source>Correct All</source>
-        <translation type="unfinished"></translation>
+        <translation>Összes javítása</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="87"/>
@@ -2251,7 +2274,7 @@ windows will be included in the saved session.</source>
     <message>
         <location filename="../../spellDialog.ui" line="100"/>
         <source>Ignore All</source>
-        <translation type="unfinished"></translation>
+        <translation>Összes mellőzése</translation>
     </message>
 </context>
 <context>
