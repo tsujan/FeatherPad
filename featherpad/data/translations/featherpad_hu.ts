@@ -99,7 +99,7 @@
     <message>
         <location filename="../../fp.ui" line="432"/>
         <source>Replacing text</source>
-        <translation>Szöveg cseréje</translation>
+        <translation>Szöveg</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="491"/>
@@ -1169,18 +1169,19 @@
     <message>
         <location filename="../../replace.cpp" line="250"/>
         <source>No Replacement</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Nincs csere</translation>
     </message>
     <message>
         <location filename="../../replace.cpp" line="252"/>
         <source>One Replacement</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Egy csere</translation>
     </message>
     <message numerus="yes">
         <location filename="../../replace.cpp" line="254"/>
         <source>%Ln Replacements</source>
         <translation type="unfinished">
-            <numerusform></numerusform>
+            <numerusform>%Ln csere</numerusform>
+            <numerusform>%Ln csere</numerusform>
         </translation>
     </message>
     <message>
@@ -2230,7 +2231,7 @@ windows will be included in the saved session.</source>
     <message>
         <location filename="../../spellDialog.ui" line="62"/>
         <source>Replace with:</source>
-        <translation type="unfinished"></translation>
+        <translation>Csere ezzel:</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="129"/>
