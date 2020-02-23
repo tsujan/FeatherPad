@@ -1803,7 +1803,7 @@ Leave empty for:
 MMM dd, yyyy, hh:mm:ss</source>
         <translation>Usado para colar a data e hora.
 
-Entra em vigor depois de fechar este diálogo.
+Entrará em vigor depois de fechar este diálogo.
 
 Deixar em branco para:
 DD de MM de AAAA | hh:mm:ss</translation>
