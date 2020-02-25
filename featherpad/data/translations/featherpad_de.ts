@@ -966,7 +966,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="2426"/>
         <source>Root Instance</source>
-        <translation>Wurzelinstanz</translation>
+        <translation>Instanz mit Administratorrechten</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2497"/>
