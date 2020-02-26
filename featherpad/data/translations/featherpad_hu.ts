@@ -61,7 +61,7 @@
     <message>
         <location filename="../../fp.ui" line="216"/>
         <source>&amp;Options</source>
-        <translation>&amp;Opciók</translation>
+        <translation>&amp;Beállítások</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1338"/>
@@ -601,7 +601,7 @@
         <location filename="../../replace.cpp" line="62"/>
         <location filename="../../replace.cpp" line="115"/>
         <source>Rep&amp;lacement</source>
-        <translation type="unfinished">Cs&amp;ere</translation>
+        <translation>Csere</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="572"/>
@@ -1335,17 +1335,17 @@ and may not work with some window managers.</source>
         <source>Most suitable with sessions
 but without tab functionality.</source>
         <translation>Legalkalmasabb munkamenetekkel
-de lapok nélkül.</translation>
+de lapfunkciók nélkül.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="188"/>
         <source>Uncheck for 1/5 of the width.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Törölje a jelölést a szélesség 1/5-éhez.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="191"/>
         <source>Remember splitter position</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Elválasztó helyzetének megjegyzése</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="200"/>
@@ -1373,7 +1373,8 @@ a menü gomb megjelenik az eszköztáron.</translation>
         <location filename="../../prefDialog.ui" line="225"/>
         <source>By default, each search entry
 has a separate search history.</source>
-        <translation type="unfinished"></translation>
+        <translation>Alapértelmezés szerint minden keresési bejegyzésnek
+külön keresési előzményei vannak.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="229"/>
@@ -1427,7 +1428,10 @@ has a separate search history.</source>
 after the last tab is activated, and the same for Alt+Left.
 
 Tab navigation with mouse wheel is not affected.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Ez azt jelenti, hogy az utolsó lap esetén az Alt+Jobbra az első lapra lép
+az utolsó lap után, és ugyanez igaz fordítva is.
+
+A lapok egérkerékkel történő váltását ez nem érinti.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="333"/>
@@ -1446,7 +1450,11 @@ current desktop, files will be opened in its tabs.
 
 However, some desktop environments may not
 report that they have multiple desktops.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Alapértelmezés szerint, ha van egy FeatherPad ablak a
+az aktuális asztalon, a fájlok a lapjain lesznek megnyitva.
+
+Néhány asztali környezet azonban nem
+jelenti, hogy több asztaluk van.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="367"/>
@@ -1459,12 +1467,15 @@ report that they have multiple desktops.</source>
 desktop environment will be used instead of the Qt file dialog.
 
 Some desktop environments, like KDE and LXQt, provide files dialogs.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Ha ez be van jelölve, akkor a Qt fájl-párbeszédpanel helyett az
+aktuális asztali környezet által biztosított fájl-párbeszédpanel kerül felhasználásra.
+
+Néhány asztali környezet, például a KDE és az LXQt, biztosít fájl-párbeszédpanelt.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="380"/>
         <source>Native file dialog</source>
-        <translation type="unfinished"></translation>
+        <translation>Alapértelmezett fájl-párbeszédpanel</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="456"/>
@@ -1491,12 +1502,14 @@ Some desktop environments, like KDE and LXQt, provide files dialogs.</source>
         <source>By default, a triple period is replaced with an ellipsis
 and a double hyphen with a long dash while typing,
 under proper circumstances.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Alapértelmezés szerint a három pont helyébe hármaspont kerül
+és a dupla kötőjelet hosszú kötőjel váltja fel gépelés közben,
+a megfelelő körülmények között.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="495"/>
         <source>Replace triple periods and double hyphens while typing</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Három pont és a dupla kötőjel lecserélése gépelés közben</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="565"/>
@@ -1507,7 +1520,8 @@ under proper circumstances.</source>
         <location filename="../../prefDialog.ui" line="534"/>
         <source>This creates a menu button on the
 status bar for changing the syntax.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Ez létrehoz egy menügombot az
+állapotsoron a szintaxis megváltoztatásához.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="538"/>
@@ -1518,12 +1532,13 @@ status bar for changing the syntax.</source>
         <location filename="../../prefDialog.ui" line="603"/>
         <source>Show spaces, tabs and tab lines
 when the syntax is highlighted.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Szóközök, behúzások, behúzásvonalak megjelenítése
+amikor a szintaxiskiemelés be van kapcsolva.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="607"/>
         <source>Show whitespaces</source>
-        <translation>Szóközök, soremelések, behúzások megjelenítése</translation>
+        <translation>Szóközök, behúzások megjelenítése</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="623"/>
@@ -1540,7 +1555,7 @@ the editor font has a fixed pitch (like Monospace).</source>
     <message>
         <location filename="../../prefDialog.ui" line="614"/>
         <source>Also show line and document ends</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Sorvégek és dokumentumvég megjelenítése</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="753"/>
@@ -1551,12 +1566,13 @@ the editor font has a fixed pitch (like Monospace).</source>
         <location filename="../../prefDialog.ui" line="823"/>
         <source>Some text editors cannot open a document
 whose last line is not empty.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Néhány szövegszerkesztő nem tud megnyitni olyan dokumentumot
+amelynek az utolsó sora nem üres.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="827"/>
         <source>Ensure an empty last line on saving</source>
-        <translation type="unfinished"></translation>
+        <translation>Az utolsó sor üres legyen mentéskor</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="834"/>
@@ -1794,7 +1810,8 @@ MMM dd, yyyy, hh:mm:ss</translation>
         <location filename="../../prefDialog.ui" line="848"/>
         <source>Should the mouse wheel scrolling be inertial
 if the cursor is inside the text view?</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Az egérgörgetés fokozatosan lassuljon,
+ha a szöveg felett görget?</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="870"/>
@@ -1826,12 +1843,13 @@ csak &quot;.aff&quot;-ra végződik.</translation>
         <location filename="../../prefDialog.ui" line="914"/>
         <source>If this is unchecked, spell checking
 will be started from the document start.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Ha ez nincs bejelölve, a helyesírás-ellenőrzés
+a dokumentum kezdetétől indul.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="918"/>
         <source>Start spell checking from text cursor</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Helyesírás-ellenőrzés a szövegkurzortól</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="973"/>
@@ -1841,13 +1859,13 @@ will be started from the document start.</source>
     <message>
         <location filename="../../prefDialog.ui" line="1072"/>
         <source>Only if their number is not greater than 50.</source>
-        <translation type="unfinished"></translation>
+        <translation>Csak, ha a számuk nem több 50-nél.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1159"/>
         <location filename="../../prefDialog.ui" line="1169"/>
         <source>Only for files that exist and can be saved.</source>
-        <translation type="unfinished"></translation>
+        <translation>Csak létező és menthető fájlok esetén.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1172"/>
@@ -2259,7 +2277,7 @@ windows will be included in the saved session.</source>
     <message>
         <location filename="../../spellDialog.ui" line="129"/>
         <source>Correct Once</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Javítás egyszer</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="142"/>
@@ -2269,7 +2287,7 @@ windows will be included in the saved session.</source>
     <message>
         <location filename="../../spellDialog.ui" line="87"/>
         <source>Ignore Once</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Mellőzés egyszer</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="100"/>
