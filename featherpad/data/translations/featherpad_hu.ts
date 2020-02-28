@@ -84,22 +84,22 @@
     <message>
         <location filename="../../fp.ui" line="387"/>
         <source>Find:</source>
-        <translation>Keresés:</translation>
+        <translation>Ezt:</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="403"/>
         <source>To be replaced</source>
-        <translation>Lecserélésre</translation>
+        <translation>Lecserélni</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="416"/>
         <source>Replace with:</source>
-        <translation>Csere ezzel:</translation>
+        <translation>Erre:</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="432"/>
         <source>Replacing text</source>
-        <translation>Szöveg</translation>
+        <translation>Erre a szövegre</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="491"/>
@@ -1479,7 +1479,7 @@ Néhány asztali környezet, például a KDE és az LXQt, biztosít fájl-párbe
     <message>
         <location filename="../../prefDialog.ui" line="456"/>
         <source>Uncheck for Monospace.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Ne jelölje be, ha a Monospace-t szeretné.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="459"/>
@@ -1544,12 +1544,13 @@ amikor a szintaxiskiemelés be van kapcsolva.</translation>
         <location filename="../../prefDialog.ui" line="634"/>
         <source>The vertical position lines will be drawn only if
 the editor font has a fixed pitch (like Monospace).</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">A függőleges vonalakat csak akkor lehet megjeleníteni, ha
+a betűtípus rögzített szélességű (pl. Monospace).</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="627"/>
         <source>Show vertical lines starting from this position:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Függőleges vonalak megjelenítése innentől:</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="614"/>
@@ -1654,7 +1655,8 @@ will be shown by a popup dialog.</source>
 tooltip and context menu of a single tab but you could not
 merge a single tabbed window into another one by tab drag-
 and-drop either.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Ha ez be van jelölve, egy lapnál nem lehet elérni a lap menüjét,
+és nem lehet a lapot áttenni másik ablakba.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="346"/>
@@ -1787,7 +1789,7 @@ MMM dd, yyyy, hh:mm:ss</source>
 
 A párbeszédpanel bezárása után lép érvénybe.
 
-Hagyja üresen ha ezt szerené:
+Hagyja üresen ha ezt szeretné:
 MMM dd, yyyy, hh:mm:ss</translation>
     </message>
     <message>
