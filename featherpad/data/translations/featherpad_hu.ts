@@ -104,7 +104,7 @@
     <message>
         <location filename="../../fp.ui" line="491"/>
         <source>&amp;New</source>
-        <translation>&amp;Új</translation>
+        <translation>Ú&amp;j</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="494"/>
@@ -221,7 +221,7 @@
     <message>
         <location filename="../../fp.ui" line="599"/>
         <source>&amp;Print</source>
-        <translation>&amp;Nyomtatás</translation>
+        <translation>N&amp;yomtatás</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="602"/>
@@ -231,7 +231,7 @@
     <message>
         <location filename="../../fp.ui" line="607"/>
         <source>Documen&amp;t Properties</source>
-        <translation>&amp;Dokumentumtulajdonságok</translation>
+        <translation>Dokument&amp;umtulajdonságok</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="610"/>
@@ -251,7 +251,7 @@
     <message>
         <location filename="../../fp.ui" line="623"/>
         <source>&amp;Quit</source>
-        <translation type="unfinished">&amp;Kilépés</translation>
+        <translation>&amp;Kilépés</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="626"/>
@@ -271,7 +271,7 @@
     <message>
         <location filename="../../fp.ui" line="645"/>
         <source>C&amp;opy</source>
-        <translation>&amp;Másolás</translation>
+        <translation>Má&amp;solás</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="648"/>
@@ -376,12 +376,12 @@
     <message>
         <location filename="../../fp.ui" line="961"/>
         <source>Save with &amp;Encoding</source>
-        <translation type="unfinished">Mentés &amp;kódolással</translation>
+        <translation>Mentés kó&amp;dolással</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="966"/>
         <source>&amp;Jump to</source>
-        <translation type="unfinished">&amp;Ugrás</translation>
+        <translation>&amp;Ugrás</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="969"/>
@@ -406,7 +406,7 @@
     <message>
         <location filename="../../fp.ui" line="1086"/>
         <source>&amp;Run</source>
-        <translation type="unfinished">&amp;Futtatás</translation>
+        <translation>&amp;Futtatás</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1092"/>
@@ -416,7 +416,7 @@
     <message>
         <location filename="../../fp.ui" line="1097"/>
         <source>&amp;Clear</source>
-        <translation type="unfinished">&amp;Tisztítás</translation>
+        <translation>&amp;Tisztítás</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1100"/>
@@ -431,7 +431,7 @@
     <message>
         <location filename="../../fp.ui" line="1108"/>
         <source>Sa&amp;ve/Restore Session</source>
-        <translation type="unfinished">Munkamenet men&amp;tése/visszaállítása</translation>
+        <translation>Munk&amp;amenet mentése/visszaállítása</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1111"/>
@@ -528,7 +528,7 @@
     <message>
         <location filename="../../fp.ui" line="991"/>
         <source>&amp;Detach Tab</source>
-        <translation type="unfinished">Lap le&amp;választása</translation>
+        <translation>Lap le&amp;választása</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="994"/>
@@ -563,12 +563,12 @@
     <message>
         <location filename="../../fp.ui" line="1017"/>
         <source>Close &amp;All Tabs</source>
-        <translation>&amp;Összes lap bezárása</translation>
+        <translation>Ö&amp;sszes lap bezárása</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="153"/>
         <source>Recently &amp;Modified</source>
-        <translation>Nemré&amp;g módosított</translation>
+        <translation>Nem&amp;rég módosított</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="220"/>
@@ -696,7 +696,7 @@
     <message>
         <location filename="../../fp.ui" line="940"/>
         <source>&amp;Korean (CP949)</source>
-        <translation>&amp;Koreai (CP949)</translation>
+        <translation>Ko&amp;reai (CP949)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="948"/>
@@ -741,7 +741,7 @@
     <message>
         <location filename="../../fp.ui" line="1062"/>
         <source>&amp;First Tab</source>
-        <translation type="unfinished">&amp;Első lap</translation>
+        <translation>Első la&amp;p</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1065"/>
@@ -751,7 +751,7 @@
     <message>
         <location filename="../../fp.ui" line="1073"/>
         <source>&amp;Last Tab</source>
-        <translation type="unfinished">&amp;Utolsó lap</translation>
+        <translation>Utolsó &amp;lap</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1076"/>
@@ -788,7 +788,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="549"/>
         <source>&amp;Recently Opened</source>
-        <translation>&amp;Nemrég megnyitott</translation>
+        <translation>Nem&amp;rég megnyitott</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1724"/>
@@ -823,7 +823,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="1126"/>
         <source>&amp;No to all</source>
-        <translation type="unfinished">&amp;Nem az összesnek</translation>
+        <translation>&amp;Nem az összeset</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1320"/>
@@ -1632,7 +1632,7 @@ will be shown by a popup dialog.</source>
     <message>
         <location filename="../../prefDialog.ui" line="1063"/>
         <source>Show recentl&amp;y opened files</source>
-        <translation>Legu&amp;tóbb megnyitott fájlok megjelenítése</translation>
+        <translation>Ne&amp;mrég megnyitott fájlok megjelenítése</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1162"/>
@@ -1676,12 +1676,12 @@ and-drop either.</source>
     <message>
         <location filename="../../prefDialog.ui" line="466"/>
         <source>&amp;Wrap lines by default</source>
-        <translation>&amp;Sortörés alapértelmezés szerint</translation>
+        <translation>&amp;Sortörés alapértelmezetten</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="473"/>
         <source>Auto-&amp;indent by default</source>
-        <translation>Automat&amp;ikus behúzás</translation>
+        <translation>Automat&amp;ikus behúzás alapértelmezetten</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="502"/>
@@ -1691,7 +1691,7 @@ and-drop either.</source>
     <message>
         <location filename="../../prefDialog.ui" line="509"/>
         <source>Highlight s&amp;yntax by default</source>
-        <translation>Szinta&amp;xiskiemelés</translation>
+        <translation>Szinta&amp;xiskiemelés alapértelmezetten</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="669"/>
@@ -1748,7 +1748,7 @@ between 230 and 255; for the dark
 background, between 0 and 50.
 
 Needs window reopening to take effect.</source>
-        <translation type="unfinished">háttér színértéke.
+        <translation type="unfinished">A háttérszín értéke.
 255 a fehér, 0 pedig a fekete.
 
 A világos háttérnél ez lehet
@@ -1881,7 +1881,7 @@ be used also when the opened file is not modified.
 This can be useful under certain circumstances,
 e.g. for changing the time stamp or removing the
 trailing spaces of a text file.</source>
-        <translation>Ha  ez be van jelölve, a Mentés gomb/menüelem
+        <translation>Ha ez be van jelölve, a Mentés gomb/menüelem
 akkor is használható marad, ha a megnyitott fájl nem lett módosítva.
 
 Ez néhány körülmény között hasznos lehet: pl. az időbélyeg megváltoztatásához, vagy a záró szóközök levágásához.</translation>
@@ -1960,7 +1960,7 @@ Ez néhány körülmény között hasznos lehet: pl. az időbélyeg megváltozta
     <message>
         <location filename="../../pref.cpp" line="99"/>
         <source>Double click a color to change it.</source>
-        <translation>Dupla kattintás a módosításhoz.</translation>
+        <translation>Dupla kattintás a színre a módosításhoz.</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="286"/>
@@ -2018,12 +2018,12 @@ Ez néhány körülmény között hasznos lehet: pl. az időbélyeg megváltozta
     <message>
         <location filename="../../pref.cpp" line="379"/>
         <source>Regular Expressions, Code Blocks,…</source>
-        <translation>Reguláris kifejezések, Kódblokkok,...</translation>
+        <translation>Reguláris kifejezések, Kódblokkok,…</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="380"/>
         <source>Document Blocks, XML/HTML Elements,…</source>
-        <translation>Dokumentumblokkok, XML/HTML Elemek,...</translation>
+        <translation>Dokumentumblokkok, XML/HTML Elemek,…</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="381"/>
@@ -2048,12 +2048,12 @@ Ez néhány körülmény között hasznos lehet: pl. az időbélyeg megváltozta
     <message>
         <location filename="../../pref.cpp" line="1303"/>
         <source>&amp;Recently Opened</source>
-        <translation>&amp;Nemrég megnyitott</translation>
+        <translation>Nem&amp;rég megnyitott</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="1304"/>
         <source>Recently &amp;Modified</source>
-        <translation>Nemré&amp;g módosított</translation>
+        <translation>Nem&amp;rég módosított</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="1379"/>
@@ -2142,7 +2142,7 @@ Ez néhány körülmény között hasznos lehet: pl. az időbélyeg megváltozta
         <location filename="../../sessionDialog.ui" line="72"/>
         <location filename="../../sessionDialog.ui" line="275"/>
         <source>&amp;Open</source>
-        <translation>&amp;megnyitás</translation>
+        <translation>&amp;Megnyitás</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="98"/>
