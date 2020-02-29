@@ -1099,7 +1099,7 @@
         <location filename="../../fpwin.cpp" line="4730"/>
         <location filename="../../fpwin.cpp" line="4739"/>
         <source>See Preferences → Text → Spell Checking!</source>
-        <translation>Se Innstillinger → Tekst → Stavekontroll</translation>
+        <translation>Se Innstillinger → Tekst → Stavekontroll!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4729"/>
@@ -1949,27 +1949,27 @@ mellomrom i en tekstfil.</translation>
     <message>
         <location filename="../../prefDialog.ui" line="1294"/>
         <source>Syntax Colors</source>
-        <translation type="unfinished"></translation>
+        <translation>Syntaksfarger</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1310"/>
         <source>Element</source>
-        <translation type="unfinished"></translation>
+        <translation>Element</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1315"/>
         <source>Text Color</source>
-        <translation type="unfinished"></translation>
+        <translation>Tekstfarge</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1328"/>
         <source>Whitespace color value:</source>
-        <translation type="unfinished"></translation>
+        <translation>Fargeverdi for hvitt:</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1356"/>
         <source>Restore default syntax colors.</source>
-        <translation type="unfinished"></translation>
+        <translation>Gjenopprett standard syntaksfarger.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1388"/>
@@ -1979,7 +1979,7 @@ mellomrom i en tekstfil.</translation>
     <message>
         <location filename="../../pref.cpp" line="99"/>
         <source>Double click a color to change it.</source>
-        <translation type="unfinished"></translation>
+        <translation>Dobbeltklikk på en farge for å forandre den.</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="286"/>
@@ -2002,57 +2002,57 @@ mellomrom i en tekstfil.</translation>
     <message>
         <location filename="../../pref.cpp" line="372"/>
         <source>Functions, URLs,…</source>
-        <translation type="unfinished"></translation>
+        <translation>Funksjoner, URLer …</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="373"/>
         <source>Built-in Functions</source>
-        <translation type="unfinished"></translation>
+        <translation>Innebygde funksjoner</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="374"/>
         <source>Comments</source>
-        <translation type="unfinished"></translation>
+        <translation>Kommentarer</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="375"/>
         <source>Quotations</source>
-        <translation type="unfinished"></translation>
+        <translation>Sitater</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="376"/>
         <source>Types</source>
-        <translation type="unfinished"></translation>
+        <translation>Typer</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="377"/>
         <source>Key Words</source>
-        <translation type="unfinished"></translation>
+        <translation>Nøkkelord</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="378"/>
         <source>Numbers</source>
-        <translation type="unfinished"></translation>
+        <translation>Tall</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="379"/>
         <source>Regular Expressions, Code Blocks,…</source>
-        <translation type="unfinished"></translation>
+        <translation>Regelmessige uttrykk (Regex), kodeblokker …</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="380"/>
         <source>Document Blocks, XML/HTML Elements,…</source>
-        <translation type="unfinished"></translation>
+        <translation>Dokumentblokker, XML/HTML-elementer …</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="381"/>
         <source>Markdown Headings, CSS Values,…</source>
-        <translation type="unfinished"></translation>
+        <translation>Markdown-overskrifter, CSS-verdier …</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="382"/>
         <source>Extra Elements</source>
-        <translation type="unfinished"></translation>
+        <translation>Ekstra elementer</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="523"/>
@@ -2087,7 +2087,7 @@ mellomrom i en tekstfil.</translation>
     <message>
         <location filename="../../pref.cpp" line="1660"/>
         <source>Select Syntax Color</source>
-        <translation type="unfinished"></translation>
+        <translation>Velg syntaksfarge</translation>
     </message>
 </context>
 <context>
