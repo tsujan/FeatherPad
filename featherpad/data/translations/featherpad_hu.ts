@@ -89,7 +89,7 @@
     <message>
         <location filename="../../fp.ui" line="403"/>
         <source>To be replaced</source>
-        <translation>Lecserélni</translation>
+        <translation>lecserélni</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="416"/>
@@ -99,7 +99,7 @@
     <message>
         <location filename="../../fp.ui" line="432"/>
         <source>Replacing text</source>
-        <translation>Erre a szövegre</translation>
+        <translation>a szövegre</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="491"/>
@@ -2082,7 +2082,7 @@ Ez néhány körülmény között hasznos lehet: pl. az időbélyeg megváltozta
     <message>
         <location filename="../../searchbar.cpp" line="74"/>
         <source>Match Case</source>
-        <translation>Egyezés</translation>
+        <translation>Nagybetűérzékeny</translation>
     </message>
     <message>
         <location filename="../../searchbar.cpp" line="81"/>
