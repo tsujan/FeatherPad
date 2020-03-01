@@ -1735,7 +1735,7 @@ trailing spaces of a text file.</source>
     <message>
         <location filename="../../prefDialog.ui" line="1328"/>
         <source>Whitespace color value:</source>
-        <translation type="unfinished"></translation>
+        <translation>Значение цвета пробелов:</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1356"/>
