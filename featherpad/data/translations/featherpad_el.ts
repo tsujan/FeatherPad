@@ -416,7 +416,7 @@
     <message>
         <location filename="../../fp.ui" line="1097"/>
         <source>&amp;Clear</source>
-        <translation type="unfinished"></translation>
+        <translation>Κα&amp;θαρισμός</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1100"/>
@@ -2269,7 +2269,7 @@ windows will be included in the saved session.</source>
         <location filename="../../warningbar.h" line="78"/>
         <location filename="../../warningbar.h" line="83"/>
         <source>Close</source>
-        <translation type="unfinished"></translation>
+        <translation>Κλείσιμο</translation>
     </message>
 </context>
 </TS>
