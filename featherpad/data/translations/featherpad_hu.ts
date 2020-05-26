@@ -538,12 +538,12 @@
     <message>
         <location filename="../../fp.ui" line="1007"/>
         <source>Close Ne&amp;xt Tabs</source>
-        <translation>Lapok be&amp;zárása ettől jobbra</translation>
+        <translation>Következő lapok be&amp;zárása</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1012"/>
         <source>Close &amp;Previous Tabs</source>
-        <translation>Lapok &amp;bezárása ettől balra</translation>
+        <translation>Előző lapok &amp;bezárása</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1040"/>
@@ -601,7 +601,7 @@
         <location filename="../../replace.cpp" line="62"/>
         <location filename="../../replace.cpp" line="115"/>
         <source>Rep&amp;lacement</source>
-        <translation>Csere</translation>
+        <translation type="unfinished">&amp;Csere</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="572"/>
@@ -2278,7 +2278,7 @@ windows will be included in the saved session.</source>
     <message>
         <location filename="../../sidepane.cpp" line="108"/>
         <source>Filter...</source>
-        <translation>Keresés...</translation>
+        <translation>Szűrő...</translation>
     </message>
 </context>
 <context>
