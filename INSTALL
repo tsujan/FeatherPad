@@ -10,6 +10,7 @@ To compile FeatherPad from its source, first install build dependencies. In Debi
  * libqt5svg5-dev (for hard-coded SVG icons)
  * libhunspell-dev (for spell checking)
  * qttools5-dev-tools (for localization)
+ * libqt5x11extras5-dev (ubuntu 20.04)
 
 In Arch-based systems, the required package are:
 
