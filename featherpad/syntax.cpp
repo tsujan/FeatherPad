@@ -114,7 +114,7 @@ void FPwin::setProgLang (TextEdit *textEdit)
                  || baseName == "mimeinfo.cache" || baseName == "mimeapps.list" || baseName.endsWith ("-mimeapps.list")
                  || fname.endsWith (".pls", Qt::CaseInsensitive))
              progLan = "config";
-        else if (fname.endsWith (".js"))
+        else if (fname.endsWith (".js") || fname.endsWith (".hx"))
             progLan = "javascript";
         else if (fname.endsWith (".qml"))
             progLan = "qml";
