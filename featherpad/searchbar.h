@@ -78,6 +78,7 @@ public:
     bool matchRegex() const;
 
     void updateShortcuts (bool disable);
+    void requestForSearch(QString text);
 
 signals:
     void searchFlagChanged();

@@ -249,6 +249,7 @@ signals:
     void updateRect (const QRect &rect, int dy);
     void zoomedOut (TextEdit *textEdit); // needed for reformatting text
     void updateBracketMatching();
+    void triggerHighlight(QString text);
 
 public slots:
     void copy();

@@ -1921,6 +1921,10 @@ void TextEdit::onSelectionChanged()
     {
         prevAnchor = cur.anchor();
         prevPos = cur.position();
+
+        if (qApp->keyboardModifiers() & Qt::ControlModifier) {
+			emit triggerHighlight(cur.selectedText());
+        }
     }
 }
 /*************************/

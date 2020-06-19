@@ -39,6 +39,9 @@ TabPage::TabPage (int bgColorValue,
 
     connect (searchBar_, &SearchBar::find, this, &TabPage::find);
     connect (searchBar_, &SearchBar::searchFlagChanged, this, &TabPage::searchFlagChanged);
+
+    connect (textEdit_, &TextEdit::triggerHighlight, searchBar_, &SearchBar::requestForSearch);
+
 }
 /*************************/
 void TabPage::setSearchBarVisible (bool visible)

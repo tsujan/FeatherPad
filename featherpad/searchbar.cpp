@@ -269,4 +269,9 @@ void SearchBar::updateShortcuts (bool disable)
     }
 }
 
+void SearchBar::requestForSearch(QString text)
+{
+	lineEdit_->setText(text);
+}
+
 }
