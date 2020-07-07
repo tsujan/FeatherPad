@@ -621,7 +621,7 @@
     <message>
         <location filename="../../fp.ui" line="770"/>
         <source>&amp;Other</source>
-        <translation>기타</translation>
+        <translation>기타(&amp;O)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="789"/>
@@ -901,7 +901,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="1463"/>
         <source>Copy Link</source>
-        <translation기링크 복사</translation>
+        <translation>링크 복사</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1633"/>
@@ -931,7 +931,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="2365"/>
         <source>See Preferences → Files → Do not permit opening of non-text files</source>
-        <translation>속성 → 파일 → 텍스트가 아닌 파일을 열지 않기 항목을 확인하세요.</translation>
+        <translation>속성 → 파일 → 텍스트가 아닌 파일을 열지 않기 항목을 확인하세요</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2373"/>
@@ -956,12 +956,12 @@
     <message>
         <location filename="../../fpwin.cpp" line="2442"/>
         <source>A previous crash detected!</source>
-        <translation type="unfinished"></translation>
+        <translation>이전의 충돌이 감지되었습니다!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2443"/>
         <source>Preferably, close all FeatherPad windows and start again!</source>
-        <translation type="unfinished"></translation>
+        <translation>모든 FeatherPad 윈도우를 닫고 다시 시작할 것을 권장합니다!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2450"/>
@@ -1019,12 +1019,12 @@
     <message>
         <location filename="../../fpwin.cpp" line="2869"/>
         <source>Do you want to use &lt;b&gt;MS Windows&lt;/b&gt; end-of-lines?</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;MS Windows&lt;/b&gt;의 EOL(end-of-lines)를 사용하시겠습니까?</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2870"/>
         <source>This may be good for readability under MS Windows.</source>
-        <translation type="unfinished"></translation>
+        <translation>MS Windows에서의 가독성이 더 높아질 것입니다.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3017"/>
@@ -1058,13 +1058,13 @@
         <location filename="../../fpwin.cpp" line="3229"/>
         <location filename="../../fpwin.cpp" line="3416"/>
         <source>This file has been modified elsewhere or in another way!</source>
-        <translation type="unfinished"></translation>
+        <translation>이 파일은 다른 곳이나 다른 방법으로 수정되었습니다!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3230"/>
         <location filename="../../fpwin.cpp" line="3417"/>
         <source>Please be careful about reloading or saving this document!</source>
-        <translation type="unfinished">이 문서를 다시 불러오거나 저장합니다!</translation>
+        <translation>이 문서를 다시 불러오거나 저장합니다!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3938"/>
@@ -1075,19 +1075,19 @@
         <location filename="../../fpwin.cpp" line="4538"/>
         <location filename="../../fpwin.cpp" line="4606"/>
         <source>%1 Pages</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 페이지</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4564"/>
         <location filename="../../fpwin.cpp" line="4634"/>
         <source>Copy Target Path</source>
-        <translation type="unfinished"></translation>
+        <translation>복사 대상 경로</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4568"/>
         <location filename="../../fpwin.cpp" line="4638"/>
         <source>Open Target Here</source>
-        <translation type="unfinished"></translation>
+        <translation>이 경로에 열기</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4756"/>
@@ -1099,7 +1099,7 @@
         <location filename="../../fpwin.cpp" line="4763"/>
         <location filename="../../fpwin.cpp" line="4772"/>
         <source>See Preferences → Text → Spell Checking!</source>
-        <translation type="unfinished"></translation>
+        <translation>속성 → 텍스트 → 맞춤법 검사를 확인하세요!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4762"/>
@@ -1116,14 +1116,14 @@
         <location filename="../../fpwin.cpp" line="4811"/>
         <location filename="../../fpwin.cpp" line="4826"/>
         <source>No misspelling in document.</source>
-        <translation type="unfinished"></translation>
+        <translation>이 문서에 잘못된 표현이 없습니다.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4795"/>
         <location filename="../../fpwin.cpp" line="4813"/>
         <location filename="../../fpwin.cpp" line="4828"/>
         <source>No misspelling from text cursor.</source>
-        <translation type="unfinished"></translation>
+        <translation>이 커서의 위치에 잘못된 표현이 없습니다.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4841"/>
@@ -1148,7 +1148,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="5219"/>
         <source>based on Qt5</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Qt5 기반</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5220"/>
@@ -1169,18 +1169,18 @@
     <message>
         <location filename="../../replace.cpp" line="252"/>
         <source>No Replacement</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">바꾸지 않기</translation>
     </message>
     <message>
         <location filename="../../replace.cpp" line="254"/>
         <source>One Replacement</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">이번 한 번만 바꾸기</translation>
     </message>
     <message numerus="yes">
         <location filename="../../replace.cpp" line="256"/>
         <source>%Ln Replacements</source>
-        <translation>
-            <numerusform></numerusform>
+        <translation type="unfinished">
+            <numerusform>%Ln회 바꾸기</numerusform>
         </translation>
     </message>
     <message>
@@ -1195,13 +1195,15 @@
         <location filename="../../filedialog.h" line="48"/>
         <source>Ctrl+H</source>
         <comment>Toggle showing hidden files</comment>
-        <translation>숨겨진 파일 표시 전환</translation>
+        <translatorcomment>숨겨진 파일 표시 전환</translatorcomment>
+        <translation></translation>
     </message>
     <message>
         <location filename="../../filedialog.h" line="49"/>
         <source>Alt+.</source>
         <comment>Toggle showing hidden files</comment>
-        <translation>숨겨진 파일 표시 전환</translation>
+        <translatorcomment>숨겨진 파일 표시 전환</translatorcomment>
+        <translation></translation>
     </message>
 </context>
 <context>
@@ -1225,7 +1227,7 @@
     <message>
         <location filename="../../fontDialog.ui" line="69"/>
         <source>Size:</source>
-        <translation>크기</translation>
+        <translation>크기:</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="89"/>
@@ -1268,7 +1270,7 @@
     <message>
         <location filename="../../lineedit.cpp" line="34"/>
         <source>Clear text (Ctrl+K)</source>
-        <translation type="unfinished"></translation>
+        <translation>텍스트 지우기 (Ctrl+K)</translation>
     </message>
 </context>
 <context>
@@ -1276,17 +1278,17 @@
     <message>
         <location filename="../../prefDialog.ui" line="14"/>
         <source>Preferences</source>
-        <translation type="unfinished"></translation>
+        <translation>속성</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="30"/>
         <source>Window</source>
-        <translation type="unfinished"></translation>
+        <translation>윈도우</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="69"/>
         <source>Window Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>윈도우 설정</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="75"/>
@@ -1347,7 +1349,7 @@ but without tab functionality.</source>
     <message>
         <location filename="../../prefDialog.ui" line="200"/>
         <source>Do not show &amp;toolbar</source>
-        <translation type="unfinished"></translation>
+        <translation>도구바를 표시하지 않음(&amp;T)</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="207"/>
@@ -1358,7 +1360,7 @@ a menu button appears on the toolbar.</source>
     <message>
         <location filename="../../prefDialog.ui" line="211"/>
         <source>Do not show &amp;menubar</source>
-        <translation type="unfinished"></translation>
+        <translation>메뉴바를 표시하지 않음(&amp;M)</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="218"/>
@@ -1400,22 +1402,22 @@ has a separate search history.</source>
     <message>
         <location filename="../../prefDialog.ui" line="286"/>
         <source>North</source>
-        <translation type="unfinished"></translation>
+        <translation>북</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="291"/>
         <source>South</source>
-        <translation type="unfinished"></translation>
+        <translation>남</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="296"/>
         <source>West</source>
-        <translation type="unfinished"></translation>
+        <translation>서</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="301"/>
         <source>East</source>
-        <translation type="unfinished"></translation>
+        <translation>동</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="327"/>
@@ -1608,17 +1610,17 @@ will be shown by a popup dialog.</source>
     <message>
         <location filename="../../prefDialog.ui" line="1140"/>
         <source>Start with this command: </source>
-        <translation type="unfinished"></translation>
+        <translation>이 명령으로 시작: </translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1159"/>
         <source>Command + Arguments</source>
-        <translation type="unfinished"></translation>
+        <translation>명령 + 인수</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1044"/>
         <source>Show recentl&amp;y modified files</source>
-        <translation type="unfinished"></translation>
+        <translation>최근 수정된 파일 표시하기(&amp;Y)</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1074"/>
@@ -1628,12 +1630,12 @@ will be shown by a popup dialog.</source>
     <message>
         <location filename="../../prefDialog.ui" line="1173"/>
         <source>Save changes to opened files every:</source>
-        <translation type="unfinished"></translation>
+        <translation>열려 있는 파일을 자동으로 저장:</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1388"/>
         <source>Help</source>
-        <translation type="unfinished"></translation>
+        <translation>도움말</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="163"/>
@@ -1656,12 +1658,12 @@ and-drop either.</source>
     <message>
         <location filename="../../prefDialog.ui" line="411"/>
         <source>Text</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">텍스트</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="450"/>
         <source>Text Editor</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">텍스트 편집기</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="466"/>
@@ -1696,7 +1698,7 @@ and-drop either.</source>
     <message>
         <location filename="../../prefDialog.ui" line="583"/>
         <source> MiB</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="870"/>
@@ -1808,7 +1810,7 @@ name but ending with &quot;.aff&quot;.</source>
         <location filename="../../prefDialog.ui" line="913"/>
         <location filename="../../pref.cpp" line="1616"/>
         <source>Add dictionary...</source>
-        <translation type="unfinished"></translation>
+        <translation>사전에 추가...</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="925"/>
@@ -1880,12 +1882,12 @@ trailing spaces of a text file.</source>
     <message>
         <location filename="../../prefDialog.ui" line="1283"/>
         <source>Shortcut</source>
-        <translation기>바로가기</translation>
+        <translation>바로가기</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1291"/>
         <source>Restore default shortcuts.</source>
-        <translation>기본 바로가기 복원</translation>
+        <translation>기본 바로가기 복원.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1294"/>
@@ -1921,18 +1923,18 @@ trailing spaces of a text file.</source>
     <message>
         <location filename="../../prefDialog.ui" line="1399"/>
         <source>Close</source>
-        <translation type="unfinished"></translation>
+        <translation>닫기</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="99"/>
         <source>Double click a color to change it.</source>
-        <translation type="unfinished"></translation>
+        <translation>색을 더블 클릭하여 변경.</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="289"/>
         <location filename="../../pref.cpp" line="1312"/>
         <source>files</source>
-        <translation type="unfinished"></translation>
+        <translation>파일</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="289"/>
@@ -2115,13 +2117,13 @@ trailing spaces of a text file.</source>
         <location filename="../../sessionDialog.ui" line="98"/>
         <location filename="../../sessionDialog.ui" line="108"/>
         <source>Del</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="115"/>
         <location filename="../../sessionDialog.ui" line="125"/>
         <source>Ctrl+Del</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="159"/>
@@ -2132,38 +2134,38 @@ windows will be included in the saved session.</source>
     <message>
         <location filename="../../sessionDialog.ui" line="163"/>
         <source>Save only from this &amp;window</source>
-        <translation type="unfinished"></translation>
+        <translation>이 윈도우에만 적용(&amp;W)</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="180"/>
         <source>&lt;b&gt;Warning&lt;/b&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;경고&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="226"/>
         <location filename="../../session.cpp" line="330"/>
         <source>&amp;Yes</source>
-        <translation type="unfinished"></translation>
+        <translation>예(&amp;Y)</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="233"/>
         <source>&amp;No</source>
-        <translation type="unfinished"></translation>
+        <translation>아니오(&amp;N)</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="283"/>
         <source>Re&amp;name</source>
-        <translation type="unfinished"></translation>
+        <translation>이름 바꾸기(&amp;N)</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="118"/>
         <source>Remove &amp;All</source>
-        <translation type="unfinished"></translation>
+        <translation>모두 삭제(&amp;A)</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="260"/>
         <source>&amp;Close</source>
-        <translation type="unfinished"></translation>
+        <translation>닫기(&amp;C)</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="135"/>
@@ -2173,12 +2175,12 @@ windows will be included in the saved session.</source>
     <message>
         <location filename="../../sessionDialog.ui" line="138"/>
         <source>&amp;Save</source>
-        <translation type="unfinished"></translation>
+        <translation>저장(*&amp;S)</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="149"/>
         <source>Type a name to save session</source>
-        <translation type="unfinished"></translation>
+        <translation>저장할 세션의 이름을 입력하세요</translation>
     </message>
     <message>
         <location filename="../../session.cpp" line="174"/>
@@ -2198,27 +2200,27 @@ windows will be included in the saved session.</source>
     <message>
         <location filename="../../session.cpp" line="316"/>
         <source>&amp;OK</source>
-        <translation type="unfinished"></translation>
+        <translation>확인(&amp;O)</translation>
     </message>
     <message>
         <location filename="../../session.cpp" line="335"/>
         <source>Do you really want to remove all saved sessions?</source>
-        <translation type="unfinished"></translation>
+        <translation>모든 저장된 세션을 지우겠습니까?</translation>
     </message>
     <message>
         <location filename="../../session.cpp" line="341"/>
         <source>Do you really want to remove the selected sessions?</source>
-        <translation type="unfinished"></translation>
+        <translation>선택된 세션을 지우겠습니까?</translation>
     </message>
     <message>
         <location filename="../../session.cpp" line="343"/>
         <source>Do you really want to remove the selected session?</source>
-        <translation type="unfinished"></translation>
+        <translation>선택된 세션을 지우겠습니까?</translation>
     </message>
     <message>
         <location filename="../../session.cpp" line="348"/>
         <source>A session with the same name exists.&lt;br&gt;Do you want to overwrite it?</source>
-        <translation type="unfinished"></translation>
+        <translation>같은 세션 이름이 존재합니다.&lt;br&gt;덮어 쓰시겠습니까?</translation>
     </message>
 </context>
 <context>
@@ -2226,7 +2228,7 @@ windows will be included in the saved session.</source>
     <message>
         <location filename="../../sidepane.cpp" line="108"/>
         <source>Filter...</source>
-        <translation type="unfinished"></translation>
+        <translation>필터...</translation>
     </message>
 </context>
 <context>
@@ -2234,37 +2236,39 @@ windows will be included in the saved session.</source>
     <message>
         <location filename="../../spellDialog.ui" line="25"/>
         <source>Unknown word:</source>
-        <translation type="unfinished"></translation>
+        <translation>알 수 없는 단어:</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="51"/>
         <source>Add To Dictionary</source>
-        <translation type="unfinished"></translation>
+        <translation>디렉토리에 추가</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="62"/>
         <source>Replace with:</source>
-        <translation type="unfinished"></translation>
+        <translation>대체할 단어:</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="129"/>
         <source>Correct Once</source>
-        <translation type="unfinished"></translation>
+        <translatorcomment>직역을 하기 보단, 관습적으로 이용하는 표현(한글 2020 참조)을 사용하였습니다.</translatorcomment>
+        <translation>바꾸기</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="142"/>
         <source>Correct All</source>
-        <translation type="unfinished"></translation>
+        <translatorcomment>직역을 하기 보단, 관습적으로 이용하는 표현(한글 2020 참조)을 사용하였습니다.</translatorcomment>
+        <translation>모두 바꾸기</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="87"/>
         <source>Ignore Once</source>
-        <translation type="unfinished"></translation>
+        <translation>지나가기</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="100"/>
         <source>Ignore All</source>
-        <translation>모두 무시하기</translation>
+        <translation>모두 지나가기</translation>
     </message>
 </context>
 <context>
@@ -2272,7 +2276,8 @@ windows will be included in the saved session.</source>
     <message>
         <location filename="../../textedit.cpp" line="151"/>
         <source>Double click to center current line</source>
-        <translation type="unfinished"></translation>
+        <translatorcomment>정확한 표현인지 의심됨.</translatorcomment>
+        <translation type="unfinished">현재 줄을 가운데로 이동하기 위해 더블 클릭</translation>
     </message>
 </context>
 <context>
