@@ -132,7 +132,6 @@ void Config::readConfig()
     if (noToolbar_ && noMenubar_)
     { // we don't want to hide all actions
         noToolbar_ = false;
-        noMenubar_ = true;
     }
 
     if (settings.value ("hideSearchbar").toBool())
