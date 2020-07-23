@@ -462,7 +462,7 @@
         <location filename="../../fp.ui" line="1132"/>
         <location filename="../../fp.ui" line="1135"/>
         <source>To Upper Case</source>
-        <translation>Nagybetűvé</translation>
+        <translation>Nagybetűssé</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1138"/>
@@ -473,7 +473,7 @@
         <location filename="../../fp.ui" line="1143"/>
         <location filename="../../fp.ui" line="1146"/>
         <source>To Lower Case</source>
-        <translation>Kisbetűvé</translation>
+        <translation>Kisbetűssé</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1149"/>
@@ -601,7 +601,7 @@
         <location filename="../../replace.cpp" line="62"/>
         <location filename="../../replace.cpp" line="115"/>
         <source>Rep&amp;lacement</source>
-        <translation type="unfinished">&amp;Csere</translation>
+        <translation>&amp;Csere</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="572"/>
@@ -1514,12 +1514,13 @@ a megfelelő körülmények között.</translation>
         <location filename="../../prefDialog.ui" line="509"/>
         <source>Highlight case-sensitive and whole matches
 of the selected text.</source>
-        <translation type="unfinished"></translation>
+        <translation>A kijelölt szöveg nagybetűérzékeny és teljes
+egyezéseinek kiemelése.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="513"/>
         <source>Selection highlighting</source>
-        <translation type="unfinished"></translation>
+        <translation>Kijelölés kiemelése</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="576"/>
@@ -1973,12 +1974,12 @@ Ez néhány körülmény között hasznos lehet: pl. az időbélyeg megváltozta
     <message>
         <location filename="../../prefDialog.ui" line="1339"/>
         <source>Whitespace color value:</source>
-        <translation>Nem láthatő karakterek színértéke:</translation>
+        <translation>Nem látható karakterek színértéke:</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1367"/>
         <source>Restore default syntax colors.</source>
-        <translation>Alapértelmezett kiemelőszínek visszaállítása</translation>
+        <translation>Alapértelmezett kiemelőszínek visszaállítása.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1399"/>
