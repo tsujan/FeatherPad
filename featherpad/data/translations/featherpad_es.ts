@@ -931,12 +931,12 @@
     <message>
         <location filename="../../fpwin.cpp" line="2391"/>
         <source>Non-text file(s) not opened!</source>
-        <translation>No se abren archivos que no son de texto.</translation>
+        <translation>No se abren archivos que no son de texto!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2392"/>
         <source>See Preferences → Files → Do not permit opening of non-text files</source>
-        <translation>Vea Preferencias&#xa0;▸ Archivos&#xa0;▸ No permitir apertura de archivos que no sean de texto</translation>
+        <translation>Vea Preferencias ▸ Archivos ▸ No permitir apertura de archivos que no sean de texto</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2400"/>

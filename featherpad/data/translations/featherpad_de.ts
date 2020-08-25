@@ -1642,10 +1642,10 @@ If the script is not run in a terminal
 emulator, the output and error messages
 will be shown by a popup dialog.</source>
         <translation>Das kann ein beliebiger Startbefehl mit
-Argumenten sein, zum Beispiel;  &quot;xterm -hold&quot;
+Argumenten sein, zum Beispiel; &quot;xterm -hold&quot;
 um den Prozess in XTerm laufen zu lassen.
 
-Wenn der Befehlt leer gelassen wird, wird die Datei
+Wenn der Befehl leer gelassen wird, wird die Datei
 direkt ausgeführt.
 
 Wenn das Script nicht in einem Terminalemulator
@@ -2283,7 +2283,7 @@ in die gespeicherte Sitzung eingeschlossen.</translation>
     <message>
         <location filename="../../session.cpp" line="267"/>
         <source>No file exists or can be opened.</source>
-        <translation>Die Datei existiert nicht  oder kann nicht geöffnet werden.</translation>
+        <translation>Die Datei existiert nicht oder kann nicht geöffnet werden.</translation>
     </message>
     <message>
         <location filename="../../session.cpp" line="273"/>

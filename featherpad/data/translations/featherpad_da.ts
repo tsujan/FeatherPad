@@ -773,7 +773,7 @@
         <source>Calculate number of words
 (For huge texts, this may be CPU-intensive.)</source>
         <translation>Udregn antal ord
-(dette kan være CPU-intensivt, når der er meget tekst).</translation>
+(dette kan være CPU-intensivt, når der er meget tekst.)</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="116"/>

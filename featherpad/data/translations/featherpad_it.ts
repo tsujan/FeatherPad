@@ -506,7 +506,7 @@ linea (Ctrl + Shift + J)</translation>
     <message>
         <location filename="../../fp.ui" line="1186"/>
         <source>Check Spelling</source>
-        <translation type="unfinished"></translation>
+        <translation>Controllo ortografico</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1189"/>
@@ -517,18 +517,18 @@ linea (Ctrl + Shift + J)</translation>
         <location filename="../../fp.ui" line="1194"/>
         <location filename="../../fp.ui" line="1197"/>
         <source>Save All Files</source>
-        <translation type="unfinished"></translation>
+        <translation>Salva tutti file</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1202"/>
         <location filename="../../fp.ui" line="1205"/>
         <source>User Dictionary</source>
-        <translation type="unfinished"></translation>
+        <translation>Dizionario utente</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1210"/>
         <source>Text Tabs to Spaces</source>
-        <translation type="unfinished"></translation>
+        <translation>Sostituisci Tab con spazi</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="993"/>
@@ -931,12 +931,12 @@ linea (Ctrl + Shift + J)</translation>
     <message>
         <location filename="../../fpwin.cpp" line="2391"/>
         <source>Non-text file(s) not opened!</source>
-        <translation type="unfinished"></translation>
+        <translation>Non aperto un file non di testo!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2392"/>
         <source>See Preferences → Files → Do not permit opening of non-text files</source>
-        <translation type="unfinished"></translation>
+        <translation>Vedi Preferenze → File → Non permettere l&apos;apertura di file non di testo</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2400"/>
@@ -1062,7 +1062,7 @@ linea (Ctrl + Shift + J)</translation>
     <message>
         <location filename="../../fpwin.cpp" line="3082"/>
         <source>Text tabs are converted to spaces.</source>
-        <translation type="unfinished"></translation>
+        <translation>I tab sono stati sostituiti da spazi.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3272"/>
@@ -1102,48 +1102,48 @@ linea (Ctrl + Shift + J)</translation>
     <message>
         <location filename="../../fpwin.cpp" line="4800"/>
         <source>You need to add a Hunspell dictionary.</source>
-        <translation type="unfinished"></translation>
+        <translation>Neccessità di un dizionario Hunspell.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4801"/>
         <location filename="../../fpwin.cpp" line="4807"/>
         <location filename="../../fpwin.cpp" line="4816"/>
         <source>See Preferences → Text → Spell Checking!</source>
-        <translation type="unfinished"></translation>
+        <translation>Vedi → Preferenze → Testo → Controllo ortografico!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4806"/>
         <source>The Hunspell dictionary does not exist.</source>
-        <translation type="unfinished"></translation>
+        <translation>Il dizionario Hunspell non esiste.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4815"/>
         <source>The Hunspell dictionary is not accompanied by an affix file.</source>
-        <translation type="unfinished"></translation>
+        <translation>Il dizionario Hunspell non è affiancato da un file affix.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4837"/>
         <location filename="../../fpwin.cpp" line="4855"/>
         <location filename="../../fpwin.cpp" line="4870"/>
         <source>No misspelling in document.</source>
-        <translation type="unfinished"></translation>
+        <translation>Nessun sbaglio ortografico nel documento.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4839"/>
         <location filename="../../fpwin.cpp" line="4857"/>
         <location filename="../../fpwin.cpp" line="4872"/>
         <source>No misspelling from text cursor.</source>
-        <translation type="unfinished"></translation>
+        <translation>Nessun sbaglio ortografico dalla posizione del cursore.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4885"/>
         <source>Spell Checking</source>
-        <translation type="unfinished"></translation>
+        <translation>Controllo ortografico</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5219"/>
         <source>Some files cannot be saved!</source>
-        <translation type="unfinished"></translation>
+        <translation>Alcuni file non si possono salvare!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5266"/>
@@ -1197,7 +1197,7 @@ linea (Ctrl + Shift + J)</translation>
     <message>
         <location filename="../../replace.cpp" line="253"/>
         <source>The first 1000 replacements are highlighted.</source>
-        <translation type="unfinished"></translation>
+        <translation>Le prime 1000 sostituzioni sono evidenziate.</translation>
     </message>
     <message>
         <location filename="../../syntax.cpp" line="273"/>
@@ -1225,58 +1225,58 @@ linea (Ctrl + Shift + J)</translation>
     <message>
         <location filename="../../fontDialog.ui" line="14"/>
         <source>Select Font</source>
-        <translation type="unfinished"></translation>
+        <translation>Seleziona carattere</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="38"/>
         <source>Programming Fonts</source>
-        <translation type="unfinished"></translation>
+        <translation>Caratteri di programmazione</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="45"/>
         <location filename="../../fontDialog.ui" line="55"/>
         <source>Font:</source>
-        <translation type="unfinished"></translation>
+        <translation>Carattere:</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="69"/>
         <source>Size:</source>
-        <translation type="unfinished"></translation>
+        <translation>Dimensione:</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="89"/>
         <source>Weight:</source>
-        <translation type="unfinished"></translation>
+        <translation>Peso:</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="103"/>
         <source>Normal</source>
-        <translation type="unfinished">Normale</translation>
+        <translation>Normale</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="108"/>
         <source>Medium</source>
-        <translation type="unfinished"></translation>
+        <translation>Media</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="113"/>
         <source>Bold</source>
-        <translation type="unfinished"></translation>
+        <translation>Grassetto</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="118"/>
         <source>Black</source>
-        <translation type="unfinished"></translation>
+        <translation>Nero</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="126"/>
         <source>Italic</source>
-        <translation type="unfinished"></translation>
+        <translation>Corsivo</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="149"/>
         <source>Preview</source>
-        <translation type="unfinished"></translation>
+        <translation>Anteprima</translation>
     </message>
 </context>
 <context>
@@ -1537,12 +1537,12 @@ of the selected text.</source>
     <message>
         <location filename="../../prefDialog.ui" line="513"/>
         <source>Selection highlighting</source>
-        <translation type="unfinished"></translation>
+        <translation>Evidenzia selezione</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="576"/>
         <source>Never highlight syntax for files &gt; </source>
-        <translation>Non evidenziare mai la sintassi per i file&amp;gt; </translation>
+        <translation>Non evidenziare mai la sintassi per i file &gt; </translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="545"/>
@@ -1601,7 +1601,7 @@ un documento la cui ultima riga non è vuota.</translation>
     <message>
         <location filename="../../prefDialog.ui" line="838"/>
         <source>Ensure an empty last line on saving</source>
-        <translation>Imponi un&amp;#39;ultima riga vuota al salvataggio</translation>
+        <translation>Imponi un ultima riga vuota al salvataggio</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="845"/>
@@ -1865,7 +1865,7 @@ della visualizzazione del testo?</translation>
     <message>
         <location filename="../../prefDialog.ui" line="881"/>
         <source>Spell Checking</source>
-        <translation type="unfinished"></translation>
+        <translation>Controllo ortografico</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="889"/>
@@ -1873,29 +1873,32 @@ della visualizzazione del testo?</translation>
         <source>A Hunspell dictionary has a name that ends with &quot;.dic&quot;
 and should be alongside an affix file with the same
 name but ending with &quot;.aff&quot;.</source>
-        <translation type="unfinished"></translation>
+        <translation>Un dizionario Hunspell ha un nome che termina con &quot;.dic&quot;
+e dovrebbe essere accompagnato da un affix con lo stesso
+nome ma che termina con &quot;.aff&quot;.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="894"/>
         <source>Hunspell dictionary path:</source>
-        <translation type="unfinished"></translation>
+        <translation>Percorso al dizionario Hunspell:</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="913"/>
         <location filename="../../pref.cpp" line="1639"/>
         <source>Add dictionary...</source>
-        <translation type="unfinished"></translation>
+        <translation>Aggiungi dizionario...</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="925"/>
         <source>If this is unchecked, spell checking
 will be started from the document start.</source>
-        <translation type="unfinished"></translation>
+        <translation>Se non spuntato, il controllo ortografico 
+parte dall&apos;inizio del documento.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="929"/>
         <source>Start spell checking from text cursor</source>
-        <translation type="unfinished"></translation>
+        <translation>Inizia controllo ortografico dalla posizione del cursore</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="984"/>
@@ -1945,7 +1948,7 @@ modificare la data o rimuovere spazi  vuoti.</translation>
     <message>
         <location filename="../../prefDialog.ui" line="1232"/>
         <source>Do not permit opening of non-text files</source>
-        <translation>Non consentire l&amp;#39;apertura di file non di testo</translation>
+        <translation>Non consentire l&apos;apertura di file non di testo</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1239"/>
@@ -1956,7 +1959,7 @@ be opened if they are pasted into FeatherPad.</source>
     <message>
         <location filename="../../prefDialog.ui" line="1243"/>
         <source>Paste paths instead of files</source>
-        <translation type="unfinished"></translation>
+        <translation>Incolla percorsi invece di file</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1270"/>
@@ -1987,27 +1990,27 @@ be opened if they are pasted into FeatherPad.</source>
     <message>
         <location filename="../../prefDialog.ui" line="1316"/>
         <source>Syntax Colors</source>
-        <translation type="unfinished"></translation>
+        <translation>Colori sintassi</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1332"/>
         <source>Element</source>
-        <translation type="unfinished"></translation>
+        <translation>Elemento</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1337"/>
         <source>Text Color</source>
-        <translation type="unfinished"></translation>
+        <translation>Colore testo</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1350"/>
         <source>Whitespace color value:</source>
-        <translation type="unfinished"></translation>
+        <translation>Valore del colore spazio bianco:</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1375"/>
         <source>Restore default syntax colors.</source>
-        <translation type="unfinished"></translation>
+        <translation>Reimposta colori sintassi predefiniti.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1410"/>
@@ -2017,7 +2020,7 @@ be opened if they are pasted into FeatherPad.</source>
     <message>
         <location filename="../../pref.cpp" line="99"/>
         <source>Double click a color to change it.</source>
-        <translation type="unfinished"></translation>
+        <translation>Doppio clic su un colore per modificarlo.</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="292"/>
@@ -2040,57 +2043,57 @@ be opened if they are pasted into FeatherPad.</source>
     <message>
         <location filename="../../pref.cpp" line="378"/>
         <source>Functions, URLs,…</source>
-        <translation type="unfinished"></translation>
+        <translation>Funzioni, URL,…</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="379"/>
         <source>Built-in Functions</source>
-        <translation type="unfinished"></translation>
+        <translation>Funzioni integrate</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="380"/>
         <source>Comments</source>
-        <translation type="unfinished"></translation>
+        <translation>Commenti</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="381"/>
         <source>Quotations</source>
-        <translation type="unfinished"></translation>
+        <translation>Citazioni</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="382"/>
         <source>Types</source>
-        <translation type="unfinished"></translation>
+        <translation>Tipi</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="383"/>
         <source>Key Words</source>
-        <translation type="unfinished"></translation>
+        <translation>Parole chiavi</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="384"/>
         <source>Numbers</source>
-        <translation type="unfinished"></translation>
+        <translation>Numeri</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="385"/>
         <source>Regular Expressions, Code Blocks,…</source>
-        <translation type="unfinished"></translation>
+        <translation>Espressioni regolari, Blocchi di codice,…</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="386"/>
         <source>Document Blocks, XML/HTML Elements,…</source>
-        <translation type="unfinished"></translation>
+        <translation>Document Blocks, XML/Elementi HTML,…</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="387"/>
         <source>Markdown Headings, CSS Values,…</source>
-        <translation type="unfinished"></translation>
+        <translation>Testate Markdown, Valori CSS,…</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="388"/>
         <source>Extra Elements</source>
-        <translation type="unfinished"></translation>
+        <translation>Elementi extra</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="543"/>
@@ -2120,13 +2123,13 @@ be opened if they are pasted into FeatherPad.</source>
     <message>
         <location filename="../../pref.cpp" line="1641"/>
         <source>Hunspell Dictionary Files (*.dic)</source>
-        <translation type="unfinished"></translation>
+        <translation>File dizionario Hunspell (*.dic)</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="437"/>
         <location filename="../../pref.cpp" line="1719"/>
         <source>Select Syntax Color</source>
-        <translation type="unfinished"></translation>
+        <translation>Selezione colore sintassi</translation>
     </message>
 </context>
 <context>
@@ -2327,37 +2330,37 @@ inclusi nella sessione salvata.</translation>
     <message>
         <location filename="../../spellDialog.ui" line="25"/>
         <source>Unknown word:</source>
-        <translation type="unfinished"></translation>
+        <translation>Parola sconosciuta:</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="51"/>
         <source>Add To Dictionary</source>
-        <translation type="unfinished"></translation>
+        <translation>Aggiungi al dizionario</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="62"/>
         <source>Replace with:</source>
-        <translation type="unfinished">Sostituire con:</translation>
+        <translation>Sostituire con:</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="129"/>
         <source>Correct Once</source>
-        <translation type="unfinished"></translation>
+        <translation>Correggi una volta</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="142"/>
         <source>Correct All</source>
-        <translation type="unfinished"></translation>
+        <translation>Correggi tutti</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="87"/>
         <source>Ignore Once</source>
-        <translation type="unfinished"></translation>
+        <translation>Ignora una volta</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="100"/>
         <source>Ignore All</source>
-        <translation type="unfinished"></translation>
+        <translation>Ignora tutti</translation>
     </message>
 </context>
 <context>
