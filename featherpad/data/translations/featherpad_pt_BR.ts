@@ -73,18 +73,18 @@
     <message>
         <location filename="../../fp.ui" line="281"/>
         <source>&amp;Search</source>
-        <translation>&amp;Pesquisar</translation>
+        <translation>&amp;Pesquisa</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="289"/>
         <location filename="../../fp.ui" line="745"/>
         <source>&amp;Help</source>
-        <translation>&amp;Ajuda</translation>
+        <translation>A&amp;juda</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="389"/>
         <source>Find:</source>
-        <translation>Encontrar:</translation>
+        <translation>Pesquisar:</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="405"/>
@@ -99,7 +99,7 @@
     <message>
         <location filename="../../fp.ui" line="434"/>
         <source>Replacing text</source>
-        <translation>Substituir texto</translation>
+        <translation>Texto substituível</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="493"/>
@@ -191,7 +191,7 @@
     <message>
         <location filename="../../fp.ui" line="571"/>
         <source>&amp;Find</source>
-        <translation>&amp;Encontrar</translation>
+        <translation>P&amp;esquisar</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="577"/>
@@ -341,7 +341,7 @@
     <message>
         <location filename="../../fp.ui" line="729"/>
         <source>&amp;Syntax Highlighting</source>
-        <translation>&amp;Realce de Sintaxe</translation>
+        <translation>&amp;Destaque de Sintaxe</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="732"/>
@@ -381,7 +381,7 @@
     <message>
         <location filename="../../fp.ui" line="968"/>
         <source>&amp;Jump to</source>
-        <translation>&amp;Saltar para</translation>
+        <translation>&amp;Pular para</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="971"/>
@@ -528,7 +528,7 @@
     <message>
         <location filename="../../fp.ui" line="1210"/>
         <source>Text Tabs to Spaces</source>
-        <translation type="unfinished"></translation>
+        <translation>Tabulações de Texto para Espaços</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="993"/>
@@ -1062,7 +1062,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="3082"/>
         <source>Text tabs are converted to spaces.</source>
-        <translation type="unfinished"></translation>
+        <translation>As tabulações de texto são convertidas em espaços.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3272"/>
@@ -1197,7 +1197,7 @@
     <message>
         <location filename="../../replace.cpp" line="253"/>
         <source>The first 1000 replacements are highlighted.</source>
-        <translation type="unfinished"></translation>
+        <translation>As primeiras 1000 substituições são destacadas.</translation>
     </message>
     <message>
         <location filename="../../syntax.cpp" line="273"/>
@@ -1530,12 +1530,13 @@ em circunstâncias apropriadas.</translation>
         <location filename="../../prefDialog.ui" line="509"/>
         <source>Highlight case-sensitive and whole matches
 of the selected text.</source>
-        <translation type="unfinished"></translation>
+        <translation>Destaque as correspondências com distinção entre
+maiúsculas e minúsculas e inteiras do texto selecionado.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="513"/>
         <source>Selection highlighting</source>
-        <translation type="unfinished"></translation>
+        <translation>Destaque de seleção</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="576"/>
@@ -1949,12 +1950,13 @@ espaços à direita de um arquivo de texto.</translation>
         <location filename="../../prefDialog.ui" line="1239"/>
         <source>By default, when files are copied, they will
 be opened if they are pasted into FeatherPad.</source>
-        <translation type="unfinished"></translation>
+        <translation>Por padrão, quando os arquivos são copiados,
+eles serão abertos se forem colados no FeatherPad.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1243"/>
         <source>Paste paths instead of files</source>
-        <translation type="unfinished"></translation>
+        <translation>Colar endereços em vez de arquivos</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1270"/>
@@ -2000,7 +2002,7 @@ be opened if they are pasted into FeatherPad.</source>
     <message>
         <location filename="../../prefDialog.ui" line="1350"/>
         <source>Whitespace color value:</source>
-        <translation type="unfinished"></translation>
+        <translation>Valor da cor do espaço em branco:</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1375"/>
@@ -2016,7 +2018,8 @@ be opened if they are pasted into FeatherPad.</source>
         <location filename="../../pref.cpp" line="94"/>
         <source>Press a modifier key to clear a shortcut
 in the editing mode.</source>
-        <translation type="unfinished"></translation>
+        <translation>Pressione uma tecla modificadora para
+limpar um atalho no modo de edição.</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="100"/>
