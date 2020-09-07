@@ -6,7 +6,7 @@
     <message>
         <location filename="../../about.ui" line="157"/>
         <source>License</source>
-        <translation>Licensz</translation>
+        <translation>Licenc</translation>
     </message>
 </context>
 <context>
@@ -528,7 +528,7 @@
     <message>
         <location filename="../../fp.ui" line="1210"/>
         <source>Text Tabs to Spaces</source>
-        <translation type="unfinished"></translation>
+        <translation>Behúzások átalakítása szóközökké</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="993"/>
@@ -1062,7 +1062,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="3082"/>
         <source>Text tabs are converted to spaces.</source>
-        <translation type="unfinished"></translation>
+        <translation>A behúzások átalakítva szóközökké.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3272"/>
@@ -1196,7 +1196,7 @@
     <message>
         <location filename="../../replace.cpp" line="253"/>
         <source>The first 1000 replacements are highlighted.</source>
-        <translation type="unfinished"></translation>
+        <translation>Az első 1000 csere van kiemelve.</translation>
     </message>
     <message>
         <location filename="../../syntax.cpp" line="273"/>
@@ -1949,12 +1949,13 @@ Ez néhány körülmény között hasznos lehet: pl. az időbélyeg megváltozta
         <location filename="../../prefDialog.ui" line="1239"/>
         <source>By default, when files are copied, they will
 be opened if they are pasted into FeatherPad.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Alapértelmezés szerint a fájlok másolásakor
+megnyílnak, ha be vannak illesztve a FeatherPad-be.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1243"/>
         <source>Paste paths instead of files</source>
-        <translation type="unfinished"></translation>
+        <translation>Útvonalak beillesztése fájlok helyett</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1270"/>
