@@ -1,0 +1,223 @@
+*************************
+*   Arrastar e soltar   *
+*************************
+
+Os arquivos podem ser arrastados e soltos nas janelas do FeatherPad.
+
+Além disso, as abas podem ser arrastadas de uma janela e soltas em outra janela ou fora de todas as janelas do FeatherPad. No primeiro caso, a aba solta aparecerá após a aba ativa anteriormente; no segundo caso, uma nova janela contendo a aba solta será criada, ou seja, a aba será desanexada.
+
+NOTA: Arrastar e soltar abas é habilitado apenas no X11 porque, pelo menos, Wayland tem um sério problema relacionado ao arrastar e soltar.
+
+************
+*   Abas   *
+************
+
+As abas podem ser reordenadas ou desanexadas com o mouse.
+
+Se houver mais de uma aba, cada uma terá um menu do botão direito para fechar suas abas direita ou esquerda. Com mais de uma aba, também é possível desanexar a aba ativa clicando no item relacionado no menu Arquivo ou com Ctrl+T.
+
+Se um arquivo for aberto em uma aba, o menu do botão direito dessa aba também conterá dois itens para copiar o nome e o caminho do arquivo.
+
+Para maior conforto dos usuários, clicar duas vezes em uma área vazia da barra de abas cria uma nova aba.
+
+*********************************
+*   Gerenciamento de arquivos   *
+*********************************
+
+Se houver uma janela FeatherPad na área de trabalho virtual ou viewport atual, de forma que mais da metade de sua largura e altura fiquem visíveis, os arquivos serão abertos como novas abas nela; caso contrário, uma nova janela será criada. Além disso, quando a janela na área de trabalho/viewport atual tem um diálogo modal, outra janela é criada.
+
+Dessa forma, o FeatherPad reconhece áreas de trabalho virtuais na maioria dos ambientes de desktop Linux. No entanto, existem exceções (como ambientes não X11 ou Enlightenment).
+
+Os arquivos são sempre abertos após a aba ativa, a menos que ela esteja vazia; nesse caso, o primeiro arquivo será aberto nela. Se um único arquivo for aberto, sua aba será ativada, mas no caso de vários arquivos, a aba ativa não será alterada.
+
+Se um arquivo for aberto várias vezes, sua segunda (terceira,...) instância não será editável por padrão e terá um fundo amarelo claro ou vermelho escuro, dependendo se o esquema de cores padrão ou escuro é usado. Para torná-lo editável, clique no botão 'Editar' recém-criado na barra de ferramentas ou no menu 'Editar'. Depois disso, esses dois botões desaparecerão novamente.
+
+Se o arquivo aberto for um link simbólico (symlink), o menu de contexto de sua aba terá dois itens extras para copiar seu caminho de destino e abrir seu destino dentro da janela atual.
+
+Arquivos de script executáveis ​​podem ser executados de dentro do FeatherPad se a opção correspondente estiver habilitada na caixa de diálogo Preferências. Em seguida, também um botão Executar aparecerá na barra de ferramentas e no menu Arquivo sempre que necessário. Se nenhum comando de terminal for usado para executá-los, sua saída e mensagens de erro serão mostradas por uma caixa de diálogo pop-up.
+
+O FeatherPad lembra os arquivos recentemente modificados ou abertos, dependendo da opção habilitada na caixa de diálogo Preferências. Ele também pode abrir os arquivos da última janela na inicialização de uma sessão. No entanto, possui um gerenciador de sessão mais avançado, que oferece ao usuário opções para salvar uma sessão e restaurar ou remover sessões salvas a qualquer momento e sem limite.
+
+****************************************
+*   Sessões e modo de painel lateral   *
+****************************************
+
+As sessões podem ser salvas e abertas usando a caixa de diálogo Gerenciador de Sessão. Conforme mencionado acima, não há limite para o número de sessões armazenadas. Cada sessão pode ter qualquer nome e consistir em qualquer número de arquivos. Todos os arquivos de uma sessão são abertos na janela atual do FeatherPad e suas posições de cursor são lembradas.
+
+O FeatherPad também tem um modo de painel lateral, que pode ser ativado temporariamente ou na inicialização. É mais adequado para trabalhar com sessões porque sua lista de arquivos é ordenada alfabeticamente e pode ser filtrada. Cada item do painel tem um menu ativado pelo botão direito, que contém itens de menu para vários trabalhos quando há mais de uma página. Os itens também podem ser removidos clicando com o botão do meio sem serem selecionados.
+
+O modo de painel lateral não tem recursos fornecidos por abas - por exemplo, a barra de abas de arrastar e soltar está ausente - e, inversamente, por exemplo, as abas não são classificadas e não podem ser filtradas - mas os modos de painel lateral e barra de abas podem ser usados ​​alternadamente por meio do item de menu Painel lateral ou seu atalho e também clicando com o botão do meio em um espaço vazio dentro da barra de abas ou painel lateral.
+
+********************
+*   Codificações   *
+********************
+
+O FeatherPad tenta adivinhar as codificações ao abrir arquivos. Embora muitas vezes os acerte, não existe uma maneira exata para isso. Portanto, existem algumas codificações no menu Opções. Se você escolher um, o texto pode ser salvo com ele usando o item "Salvar com Codificação" no menu Arquivo. Por padrão, todos os textos são salvos com UTF-8, que abrange todos os alfabetos.
+
+Normalmente, você não precisa se preocupar com as codificações; hoje em dia, UTF-8 é o padrão e é usado em qualquer lugar.
+
+*********************************
+*   Linguagens de programação   *
+*********************************
+
+A linguagem de programação de um arquivo é detectada com base em seu tipo ou nome do MIME e sua sintaxe será realçada se o realce de sintaxe estiver habilitado e for compatível com o idioma em questão.
+
+Se um texto não possui linguagem de programação ou sua sintaxe não é suportada, apenas seus hiperlinks/URLs serão destacados e será possível abri-los clicando com o botão direito sobre eles e ativando o item de menu relacionado ou pressionando a tecla Control, movendo o cursor sobre eles e clicando neles enquanto o cursor é como uma mão apontando.
+
+Se a opção "Preferências → Texto → Suporte a substituição de sintaxe" estiver habilitada e marcada, um botão de idioma será adicionado à barra de status para substituir a sintaxe original ou a falta dela. Recarregar um documento restaura sua sintaxe original.
+
+Também há opções na caixa de diálogo Preferências para mostrar espaços em branco (espaços, tabulações), extremidades de linha e documento e linhas de posição vertical quando o realce de sintaxe está habilitado (por padrão ou temporariamente).
+
+As cores de realce de sintaxe podem ser personalizadas em "Preferências → Cores de sintaxe". Cada cor de sintaxe pode ter significados diferentes em linguagens de programação diferentes, mas apenas os significados mais importantes são mencionados. O valor da cor dos espaços em branco pode ser alterado no mesmo lugar.
+
+**********************************
+*   Pesquisando e substituindo   *
+**********************************
+
+No FeatherPad, a pesquisa e a substituição são feitas por widgets separados para que o usuário possa pesquisar uma string e substituir por outra. Além disso, um widget de substituição separado remove o perigo de uma substituição não intencional.
+
+Para remover os destaques amarelos após terminar uma pesquisa, você pode
+
+* Clique no ícone 'Limpar' da entrada de pesquisa, ou
+* Pressione Ctrl+K enquanto a entrada de pesquisa está em foco, ou
+* Esvazie a entrada de pesquisa e pressione Enter ou F3 nela, ou
+* Oculte a barra de pesquisa focalizando-a e pressionando Ctrl+F.
+
+Cada entrada de pesquisa possui um histórico de pesquisa que pode ser mostrado como uma lista pop-up clicando em sua seta ou pressionando Ctrl+Cima/Baixo quando estiver em foco. O item superior mostra o texto pesquisado mais recentemente. Quando a entrada está em foco, as teclas de seta para cima e para baixo podem ser usadas para selecionar os itens do histórico sem mostrar a lista pop-up.
+
+A janela encaixada 'Substituir' respeita as configurações para 'Corresponder maiúsculas e minúsculas', 'Palavra inteira' e 'Expressão regular' na barra de pesquisa (no último caso, o texto correspondente deve ser uma expressão regular, enquanto o texto de substituição é sempre um string comum). Ele pode ser desanexado e reconectado à janela principal na parte superior ou inferior. Para remover os realces verdes após substituir o texto, você pode ocultar/fechar a janela encaixada 'Substituir' ou fazer como no caso de remover realces de pesquisa amarelos (sem fechar o encaixe).
+
+***************************
+*   Destaque de seleção   *
+***************************
+
+Se "Preferências → Texto → Destaque de seleção" estiver marcado, todas as correspondências com distinção entre maiúsculas e minúsculas e todas as correspondências do texto selecionado serão destacadas por uma cor azul claro (ou azul escuro quando o esquema de cores escuro é usado). O texto selecionado não precisa ser uma string inteira, mas as correspondências destacadas são sempre strings inteiras.
+
+O realce de seleção pode ser usado para localizar strings inteiras próximas rapidamente. É separado do realce de pesquisa (amarelo) e pode ser usado ao lado dele.
+
+***************************
+*   Indo para uma linha   *
+***************************
+
+A barra de salto pode ser exibida clicando em seu item na barra de ferramentas ou no menu Pesquisar. O salto acontecerá após pressionar Enter enquanto a caixa de rotação Jump estiver ativa. Se a caixa de seleção ao lado dela estiver marcada, todo o texto entre o cursor de texto e a linha de destino será selecionado.
+
+***********************
+*   Barra de status   *
+***********************
+
+A barra de status não apenas mostra informações sobre o arquivo aberto, mas também pode conter outros widgets quando certas propriedades são ativadas na caixa de diálogo Preferências. Você também pode ocultá-lo na caixa de diálogo Preferências e, nesse caso, o item "Propriedades do documento" aparecerá no menu Arquivo e poderá exibi-lo temporariamente.
+
+***********************
+*   Rolagem da roda   *
+***********************
+
+Para uma rolagem rápida da roda do mouse, coloque o cursor na barra de rolagem. Se estiver dentro da visualização de texto, a velocidade de rolagem da roda será normal. Se, além disso, a tecla Shift for pressionada, o texto rolará uma linha por volta da roda.
+
+A rolagem "inercial" pode ser habilitada na seção Texto da caixa de diálogo Preferências. Isso cria uma espécie de inércia com rolagem de roda quando o cursor está dentro da janela de texto.
+
+**************************
+*   Tabulação de texto   *
+**************************
+
+O texto (de várias linhas selecionado) pode ser tabulado pela tecla Tab e destabulado por Shift+Tab.
+
+Se Ctrl+Tab for usado, a tabulação será feita por 4 espaços em vez de uma tabulação (o número de espaços pode ser alterado na caixa de diálogo Preferências). Isso às vezes é chamado de "Tabulação flexível".
+
+No FeatherPad, as tabulações "fixa" e "flexível" não são mutuamente exclusivas porque alguns textos podem precisar de uma e de outra.
+
+Com Ctrl+Meta+Tab, o texto será tabulado em 2 espaços, enquanto Shift+Meta+Tab é para destabular 2 espaços o máximo possível.
+
+Todas as tabulações de texto de um documento podem ser convertidas em espaços (tabs flexíveis) usando o item de menu "Tabulações de texto para espaços" no menu do botão direito ou no menu "Editar". Essa conversão é feita com base no valor de Preferências → Texto → Tamanho da tabulação de Texto, que é 4 por padrão. O documento precisa ser salvo após a conversão.
+
+***************************
+*   Colchete Automático   *
+***************************
+
+Com o "Colchete Automático" habilitado nas Preferências, se um parêntese esquerdo, chave, colchete ou aspas duplas forem digitados, um parêntese direito, chave, colchete ou aspas duplas serão respectivamente inseridos depois dele e o cursor será movido entre eles, desde que o próximo caractere não seja uma letra ou número. (Embora aspas duplas não sejam um colchete e tenham sinais idênticos à esquerda e à direita, estão incluídas aqui.)
+
+Além disso, se qualquer parte do texto for selecionada do início ao fim, digitar um parêntese esquerdo, colchete, etc. adicionará um direito após o final da seleção, de modo que a seleção será colocada entre parênteses, colchetes, etc.
+
+Para conveniência do usuário, se Enter/Return for pressionado após uma seleção de texto ser automaticamente colocada entre parênteses "(...)" ou chaves "{...}", o texto entre chaves será colocado abaixo da chave esquerda e acima do direto.
+
+O mesmo vale para textos RTL (da direita para a esquerda), mas com a direita e a esquerda invertidas.
+
+*****************************
+*   Reticências e Em Dash   *
+*****************************
+
+Com a opção correspondente habilitada em Preferências e nas devidas circunstâncias, um ponto triplo é substituído por reticências e um hífen duplo por um travessão (travessão longo) enquanto o usuário está digitando.
+
+As circunstâncias adequadas dependem da tecla pressionada e, talvez, do que vem antes desses personagens. Por exemplo, no caso de um período triplo, a tecla Espaço ou Enter/Return deve ser pressionada e o período triplo não deve seguir um ponto. Os hifens duplos não são substituídos nas linguagens de programação porque podem ter significados especiais.
+
+Algumas outras strings também podem ser substituídas apropriadamente em linguagens de não programação, por exemplo, "->" e "> =".
+
+*******************************
+*   Verificação ortográfica   *
+*******************************
+
+Para correção ortográfica, um dicionário Hunspell deve ser adicionado primeiro a Preferências → Texto → Caminho do dicionário Hunspell (um dicionário Hunspell tem o sufixo ".dic" e deve ser acompanhado por um arquivo afixo com o sufixo ".aff"). A verificação ortográfica pode ser feita por F2, mas o atalho pode ser personalizado.
+
+Se "Ignorar tudo" for clicado, todas as ocorrências da palavra serão ignoradas durante a verificação atual. Se você souber que a palavra está correta, clique em "Adicionar ao dicionário" e ela será salva para todos os cheques. Se "Corrigir tudo" for clicado, outras instâncias da palavra serão corrigidas da mesma maneira quando alcançadas durante a verificação atual.
+
+**************************
+*   Atalhos do teclado   *
+**************************
+
+Para alterar um atalho personalizável, clique duas vezes nele e pressione o atalho escolhido dentro do editor de atalhos da caixa de diálogo Preferências. Para limpar um atalho, use uma tecla modificadora (como Shift). Para cancelar, pressione a tecla Esc antes que o atalho perca o foco.
+
+Todos os atalhos, exceto os extras abaixo, podem ser encontrados em menus ou como dicas de ferramentas e muitos deles podem ser personalizados na caixa de diálogo Preferências.
+
+Atalhos extras úteis (ocultos):
+=====================================
+
+Janela:
+*********
+F11                       Tela Cheia (desfazer)
+Ctrl+Shift+W              Redimensionar janela para tamanho fixo (700x500 por padrão, mas pode ser definido em Preferências)
+
+Zoom:
+*******
+Ctrl+=                    Ampliar (também Ctrl++ ou Ctrl + roda do mouse)
+Ctrl+-                    Diminuir zoom (também Ctrl + roda do mouse)
+Ctrl+0                    Redefinir zoom
+
+Executando um processo:
+*************************
+Ctrl+E                    Executar o arquivo executável aberto nesta aba (somente se habilitado em Preferências)
+Ctrl+Alt+E                Sair (matar) o processo acima imediatamente
+
+Rolando:
+***********
+Shift+roda do mouse       Rolar para cima/para baixo em uma linha delimitada com a roda do mouse
+Ctrl+Up/Down              Rolar para cima/para baixo em uma linha quebrada sem mover o cursor de texto
+
+Movendo o cursor do texto:
+****************************
+Home                      Ir para o início da linha mais identação 
+End                       Ir para o fim da linha
+Ctrl+Home                 Ir para o início do texto
+Ctrl+End                  Ir para o final do texto
+Direita/Esquerda          Move o cursor um caractere para a direita/esquerda
+Ctrl+Direita/Esquerda     Move o cursor uma palavra para a direita/esquerda
+Cima/Baixo                Ir para a mesma posição na linha quebrada anterior/seguinte
+Shift+Cima/Baixo          Ir para a mesma posição na linha quebrada anterior/seguinte enquanto seleciona o texto
+Meta+Cima/Baixo           Ir para a mesma posição na linha anterior/próxima (real)
+Meta+Shift+Cima/Baixo     Ir para a mesma posição na linha anterior/próxima (real) enquanto seleciona o texto
+
+Tabulação de texto:
+*********************
+Tab                       Tabulação de texto comum (seu comprimento pode ser alterado em Preferências)
+Shift+Tab                 Tabulação Reversa (o reverso de Tab)
+Ctrl+Tab                  Tabulação de texto com 4 espaços (pode ser alterado em Preferências)
+Ctrl+Meta+Tab             Tabulação de texto com 2 espaços
+Shift+Meta+Tab            Tabulação Reversa com 2 espaços, na medida do possível
+
+Edição de texto:
+******************
+Insert                    Alternar modo de substituição
+Backspace                 Excluir à esquerda do cursor de texto
+Delete                    Excluir à direita do cursor de texto (o oposto de Backspace)
+Ctrl+K                    Excluir até o final da linha (quando o editor está em foco)
+Ctrl+Shift+Cima/Baixo     Mover a linha atual ou as linhas selecionadas para cima/baixo
+Shift+Enter               Inserir nova linha com o prefixo não-letra da linha atual
+                          (para escrever comentários de código ou listas facilmente, por exemplo)
