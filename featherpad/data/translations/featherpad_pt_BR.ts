@@ -1898,7 +1898,7 @@ será iniciado a partir do início do documento.</translation>
     <message>
         <location filename="../../prefDialog.ui" line="984"/>
         <source>Number of recent files: </source>
-        <translation></translation>
+        <translation>Número de arquivos recentes: </translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1083"/>
@@ -1966,7 +1966,7 @@ eles serão abertos se forem colados no FeatherPad.</translation>
     <message>
         <location filename="../../prefDialog.ui" line="1289"/>
         <source>Action</source>
-        <translation></translation>
+        <translation>Ação</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1294"/>
@@ -1982,7 +1982,7 @@ eles serão abertos se forem colados no FeatherPad.</translation>
         <location filename="../../prefDialog.ui" line="1305"/>
         <location filename="../../prefDialog.ui" line="1378"/>
         <source>Default</source>
-        <translation></translation>
+        <translation>Padrão</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1316"/>
@@ -2030,13 +2030,13 @@ limpar um atalho no modo de edição.</translation>
         <location filename="../../pref.cpp" line="293"/>
         <location filename="../../pref.cpp" line="1336"/>
         <source>files</source>
-        <translation></translation>
+        <translation>arquivos</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="293"/>
         <location filename="../../pref.cpp" line="1336"/>
         <source>file</source>
-        <translation></translation>
+        <translation>arquivo</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="346"/>
