@@ -528,7 +528,7 @@ tento řádek (Ctrl+Shift+J)</translation>
     <message>
         <location filename="../../fp.ui" line="1210"/>
         <source>Text Tabs to Spaces</source>
-        <translation type="unfinished"></translation>
+        <translation>Tabulátory textu na mezery</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="993"/>
@@ -823,7 +823,7 @@ tento řádek (Ctrl+Shift+J)</translation>
     <message>
         <location filename="../../fpwin.cpp" line="1129"/>
         <source>&amp;Cancel</source>
-        <translation>&amp;Storno</translation>
+        <translation>&amp;Zrušit</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1131"/>
