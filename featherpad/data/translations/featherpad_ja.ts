@@ -745,7 +745,7 @@
     <message>
         <location filename="../../fp.ui" line="1210"/>
         <source>Text Tabs to Spaces</source>
-        <translation type="unfinished"></translation>
+        <translation>テキストのタブをスペースに</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="101"/>
@@ -1062,7 +1062,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="3082"/>
         <source>Text tabs are converted to spaces.</source>
-        <translation type="unfinished"></translation>
+        <translation>テキストのタブはスペースに変換されます。</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3272"/>
@@ -1202,7 +1202,7 @@
     <message>
         <location filename="../../replace.cpp" line="253"/>
         <source>The first 1000 replacements are highlighted.</source>
-        <translation type="unfinished"></translation>
+        <translation>最初の1000個の置換がハイライトされます。</translation>
     </message>
     <message>
         <location filename="../../syntax.cpp" line="273"/>
@@ -1581,12 +1581,12 @@ under proper circumstances.</source>
         <location filename="../../prefDialog.ui" line="509"/>
         <source>Highlight case-sensitive and whole matches
 of the selected text.</source>
-        <translation type="unfinished"></translation>
+        <translation>選択したテキストの大文字小文字を区別して完全一致をハイライトします。</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="513"/>
         <source>Selection highlighting</source>
-        <translation type="unfinished"></translation>
+        <translation>選択ハイライト表示</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="520"/>
@@ -1939,12 +1939,13 @@ trailing spaces of a text file.</source>
         <location filename="../../prefDialog.ui" line="1228"/>
         <source>By default, when files are copied, they will
 be opened if they are pasted into FeatherPad.</source>
-        <translation type="unfinished"></translation>
+        <translation>デフォルトでは、ファイルをコピーして、
+FeatherPad に貼り付ける場合はそのファイルを開きます。</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1232"/>
         <source>Paste paths instead of files</source>
-        <translation type="unfinished"></translation>
+        <translation>ファイルではなくパスを貼り付ける</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1259"/>
@@ -1991,7 +1992,7 @@ be opened if they are pasted into FeatherPad.</source>
     <message>
         <location filename="../../prefDialog.ui" line="1339"/>
         <source>Whitespace color value:</source>
-        <translation type="unfinished"></translation>
+        <translation>ホワイトスペースの色の値:</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1369"/>
@@ -2023,7 +2024,8 @@ be opened if they are pasted into FeatherPad.</source>
         <location filename="../../pref.cpp" line="95"/>
         <source>Press a modifier key to clear a shortcut
 in the editing mode.</source>
-        <translation type="unfinished"></translation>
+        <translation>ショートカットをクリアするには、編集モードで
+修飾キー（訳注: Alt,Ctrl,Shift のみ）を押します。</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="101"/>
