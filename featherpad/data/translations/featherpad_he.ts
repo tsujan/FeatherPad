@@ -34,7 +34,8 @@
         <location filename="../../fp.ui" line="107"/>
         <source>Select text from cursor to this line
 (Ctrl+Shift+J)</source>
-        <translation type="unfinished"></translation>
+        <translation>לבחור את הטקסט מהסמן לשורה הזאת
+(Ctrl+Shift+J)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="111"/>
@@ -67,7 +68,7 @@
         <location filename="../../fpwin.cpp" line="2648"/>
         <location filename="../../fpwin.cpp" line="3780"/>
         <source>Encoding</source>
-        <translation type="unfinished"></translation>
+        <translation>קידוד</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="281"/>
@@ -98,7 +99,7 @@
     <message>
         <location filename="../../fp.ui" line="434"/>
         <source>Replacing text</source>
-        <translation type="unfinished"></translation>
+        <translation>טקסט מחליף</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="493"/>
@@ -190,7 +191,7 @@
     <message>
         <location filename="../../fp.ui" line="571"/>
         <source>&amp;Find</source>
-        <translation>&amp;מציאה</translation>
+        <translation>&amp;איתור</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="577"/>
@@ -200,12 +201,12 @@
     <message>
         <location filename="../../fp.ui" line="585"/>
         <source>Show/hide replacement dock</source>
-        <translation type="unfinished"></translation>
+        <translation>הצגת/הסתרת מעגן החלפה</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="588"/>
         <source>Ctrl+R</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+R</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="593"/>
@@ -215,37 +216,37 @@
     <message>
         <location filename="../../fp.ui" line="596"/>
         <source>Ctrl+Shift+S</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Shift+S</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="601"/>
         <source>&amp;Print</source>
-        <translation type="unfinished"></translation>
+        <translation>ה&amp;דפסה</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="604"/>
         <source>Ctrl+P</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+P</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="609"/>
         <source>Documen&amp;t Properties</source>
-        <translation type="unfinished"></translation>
+        <translation>מ&amp;אפייני המסמך</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="612"/>
         <source>Ctrl+Shift+D</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Shift+D</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="617"/>
         <source>&amp;Close</source>
-        <translation type="unfinished">&amp;סגירה</translation>
+        <translation>&amp;סגירה</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="620"/>
         <source>Ctrl+Shift+Q</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Shift+Q</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="625"/>
@@ -255,7 +256,7 @@
     <message>
         <location filename="../../fp.ui" line="628"/>
         <source>Ctrl+Q</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Q</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="636"/>
@@ -265,7 +266,7 @@
     <message>
         <location filename="../../fp.ui" line="639"/>
         <source>Ctrl+X</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+X</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="647"/>
@@ -285,7 +286,7 @@
     <message>
         <location filename="../../fp.ui" line="658"/>
         <source>Ctrl+V</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+V</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="666"/>
@@ -295,7 +296,7 @@
     <message>
         <location filename="../../fp.ui" line="671"/>
         <source>&amp;Select All</source>
-        <translation type="unfinished"></translation>
+        <translation>לבחור ה&amp;כול</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="674"/>
@@ -310,52 +311,52 @@
     <message>
         <location filename="../../fp.ui" line="687"/>
         <source>&amp;Line Numbers</source>
-        <translation type="unfinished"></translation>
+        <translation>מ&amp;ספרי שורות</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="690"/>
         <source>Ctrl+L</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+L</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="701"/>
         <source>&amp;Wrap Lines</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;גלישת שורות</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="704"/>
         <source>Ctrl+W</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+W</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="715"/>
         <source>&amp;Auto-Indentation</source>
-        <translation type="unfinished"></translation>
+        <translation>ה&amp;זחה אוטומטית</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="718"/>
         <source>Ctrl+I</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+I</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="729"/>
         <source>&amp;Syntax Highlighting</source>
-        <translation type="unfinished"></translation>
+        <translation>ה&amp;דגשת תחביר</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="732"/>
         <source>Ctrl+Shift+H</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Shift+H</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="737"/>
         <source>&amp;Preferences</source>
-        <translation type="unfinished"></translation>
+        <translation>ה&amp;עדפות</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="740"/>
         <source>Ctrl+Shift+P</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Shift+P</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="748"/>
@@ -365,47 +366,47 @@
     <message>
         <location filename="../../fp.ui" line="753"/>
         <source>&amp;About</source>
-        <translation type="unfinished"></translation>
+        <translation>על &amp;אודות</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="780"/>
         <source>Enforce UTF-8</source>
-        <translation type="unfinished"></translation>
+        <translation>אילוץ UTF-8</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="963"/>
         <source>Save with &amp;Encoding</source>
-        <translation type="unfinished"></translation>
+        <translation>שמירה עם &amp;קידוד</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="968"/>
         <source>&amp;Jump to</source>
-        <translation type="unfinished"></translation>
+        <translation>ק&amp;פיצה אל</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="971"/>
         <source>Show/hide jump bar</source>
-        <translation type="unfinished"></translation>
+        <translation>הצגת/הסתרת לוח קפיצה</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="974"/>
         <source>Ctrl+J</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+J</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="982"/>
         <source>Edit text</source>
-        <translation type="unfinished"></translation>
+        <translation>עריכת טקסט</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="985"/>
         <source>Ctrl+Shift+E</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Shift+E</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1088"/>
         <source>&amp;Run</source>
-        <translation type="unfinished"></translation>
+        <translation>ה&amp;רצה</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1094"/>
@@ -415,92 +416,92 @@
     <message>
         <location filename="../../fp.ui" line="1099"/>
         <source>&amp;Clear</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;פינוי</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1102"/>
         <source>Clear the list of recently modified files</source>
-        <translation type="unfinished"></translation>
+        <translation>לפנות את רשימת הקבצים שנערכו לאחרונה</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1107"/>
         <source>Save/Restore Session</source>
-        <translation type="unfinished"></translation>
+        <translation>שמירת/שחזור הפעלה</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1110"/>
         <source>Sa&amp;ve/Restore Session</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;שמירת/שחזור הפעלה</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1113"/>
         <source>Ctrl+M</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+M</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1118"/>
         <source>Side-Pane</source>
-        <translation type="unfinished"></translation>
+        <translation>לוח צד</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1121"/>
         <source>Ctrl+Alt+P</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Alt+P</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1126"/>
         <source>Paste Date and Time</source>
-        <translation type="unfinished"></translation>
+        <translation>הדבקת התאריך והשעה</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1129"/>
         <source>Ctrl+Shift+V</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Shift+V</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1134"/>
         <location filename="../../fp.ui" line="1137"/>
         <source>To Upper Case</source>
-        <translation type="unfinished"></translation>
+        <translation>לאותיות גדולות</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1140"/>
         <source>Ctrl+Shift+U</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Shift+U</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1145"/>
         <location filename="../../fp.ui" line="1148"/>
         <source>To Lower Case</source>
-        <translation type="unfinished"></translation>
+        <translation>לאותיות קטנות</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1151"/>
         <source>Ctrl+Shift+L</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Shift+L</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1159"/>
         <location filename="../../fp.ui" line="1162"/>
         <source>Last Active Tab</source>
-        <translation type="unfinished"></translation>
+        <translation>הלשונית הפעילה האחרונה</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1165"/>
         <source>F1</source>
-        <translation type="unfinished"></translation>
+        <translation>F1</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1170"/>
         <location filename="../../fp.ui" line="1173"/>
         <source>Sort Lines</source>
-        <translation type="unfinished"></translation>
+        <translation>סידור לעשות</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1178"/>
         <location filename="../../fp.ui" line="1181"/>
         <source>Sort Lines Reversely</source>
-        <translation type="unfinished"></translation>
+        <translation>סידור שורות הפוך</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1186"/>
@@ -510,44 +511,44 @@
     <message>
         <location filename="../../fp.ui" line="1189"/>
         <source>F2</source>
-        <translation type="unfinished"></translation>
+        <translation>F2</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1194"/>
         <location filename="../../fp.ui" line="1197"/>
         <source>Save All Files</source>
-        <translation type="unfinished"></translation>
+        <translation>לשמור את כל הקבצים</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1202"/>
         <location filename="../../fp.ui" line="1205"/>
         <source>User Dictionary</source>
-        <translation type="unfinished"></translation>
+        <translation>מילון משתמש</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1210"/>
         <source>Text Tabs to Spaces</source>
-        <translation type="unfinished"></translation>
+        <translation>טאבים בטקסט לרווחים</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="993"/>
         <source>&amp;Detach Tab</source>
-        <translation type="unfinished"></translation>
+        <translation>ה&amp;פרדת לשונית</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="996"/>
         <source>Ctrl+T</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+T</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1009"/>
         <source>Close Ne&amp;xt Tabs</source>
-        <translation type="unfinished"></translation>
+        <translation>סגירת הלשוניות ה&amp;באות</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1014"/>
         <source>Close &amp;Previous Tabs</source>
-        <translation type="unfinished"></translation>
+        <translation>סגירת הלשוניות ה&amp;קודמות</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1042"/>
@@ -557,32 +558,32 @@
     <message>
         <location filename="../../fp.ui" line="1053"/>
         <source>Previous Ta&amp;b</source>
-        <translation type="unfinished"></translation>
+        <translation>הלשונית הקו&amp;דמת</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1091"/>
         <source>Execute</source>
-        <translation type="unfinished"></translation>
+        <translation>הפעלה</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1019"/>
         <source>Close &amp;All Tabs</source>
-        <translation type="unfinished"></translation>
+        <translation>סגירת &amp;כל הלשוניות</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="153"/>
         <source>Recently &amp;Modified</source>
-        <translation type="unfinished"></translation>
+        <translation>נ&amp;ערכו לאחרונה</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="222"/>
         <source>&amp;Encoding</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;קידוד</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="226"/>
         <source>&amp;Unicode</source>
-        <translation type="unfinished"></translation>
+        <translation>יו&amp;ניקוד</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="233"/>
@@ -2067,13 +2068,13 @@ in the editing mode.</source>
     <message>
         <location filename="../../pref.cpp" line="1635"/>
         <source>Hunspell Dictionary Files (*.dic)</source>
-        <translation type="unfinished"></translation>
+        <translation>קובצי מילון Hunspell‏ (‎*.dic)</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="440"/>
         <location filename="../../pref.cpp" line="1721"/>
         <source>Select Syntax Color</source>
-        <translation type="unfinished"></translation>
+        <translation>בחירת צבע תחביר</translation>
     </message>
 </context>
 <context>
@@ -2087,22 +2088,22 @@ in the editing mode.</source>
     <message>
         <location filename="../../searchbar.cpp" line="74"/>
         <source>Match Case</source>
-        <translation type="unfinished"></translation>
+        <translation>התאמת רישיות</translation>
     </message>
     <message>
         <location filename="../../searchbar.cpp" line="81"/>
         <source>Whole Word</source>
-        <translation type="unfinished"></translation>
+        <translation>מילה שלמה</translation>
     </message>
     <message>
         <location filename="../../searchbar.cpp" line="88"/>
         <source>Regular Expression</source>
-        <translation type="unfinished"></translation>
+        <translation>ביטוי רגולרי</translation>
     </message>
     <message>
         <location filename="../../searchbar.cpp" line="120"/>
         <source>Search with regex...</source>
-        <translation type="unfinished"></translation>
+        <translation>חיפוש עם ביטוי רגולרי…</translation>
     </message>
     <message>
         <location filename="../../searchbar.cpp" line="69"/>
@@ -2120,7 +2121,7 @@ in the editing mode.</source>
     <message>
         <location filename="../../sessionDialog.ui" line="14"/>
         <source>Session Manager</source>
-        <translation type="unfinished"></translation>
+        <translation>מנהל הפעלות</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="101"/>
@@ -2131,17 +2132,17 @@ in the editing mode.</source>
     <message>
         <location filename="../../sessionDialog.ui" line="33"/>
         <source>&lt;b&gt;Save/Restore Session&lt;/b&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;שמירת/שחזור הפעלה&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="56"/>
         <source>Filter...</source>
-        <translation type="unfinished"></translation>
+        <translation>סינון…</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="69"/>
         <source>Open the selected session(s).</source>
-        <translation type="unfinished"></translation>
+        <translation>פתיחת ההפעלות הנבחרות.</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="72"/>
@@ -2153,13 +2154,13 @@ in the editing mode.</source>
         <location filename="../../sessionDialog.ui" line="98"/>
         <location filename="../../sessionDialog.ui" line="108"/>
         <source>Del</source>
-        <translation type="unfinished"></translation>
+        <translation>Del</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="115"/>
         <location filename="../../sessionDialog.ui" line="125"/>
         <source>Ctrl+Del</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Del</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="159"/>
@@ -2282,22 +2283,22 @@ windows will be included in the saved session.</source>
     <message>
         <location filename="../../spellDialog.ui" line="62"/>
         <source>Replace with:</source>
-        <translation type="unfinished"></translation>
+        <translation>להחליף עם:</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="129"/>
         <source>Correct Once</source>
-        <translation type="unfinished"></translation>
+        <translation>לתקן פעם אחת</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="142"/>
         <source>Correct All</source>
-        <translation type="unfinished"></translation>
+        <translation>לתקן הכול</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="87"/>
         <source>Ignore Once</source>
-        <translation type="unfinished"></translation>
+        <translation>להתעלם פעם אחת</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="100"/>
@@ -2310,7 +2311,7 @@ windows will be included in the saved session.</source>
     <message>
         <location filename="../../textedit.cpp" line="148"/>
         <source>Double click to center current line</source>
-        <translation type="unfinished"></translation>
+        <translation>לחיצה כפולה ממרכזת את השורה הנוכחית</translation>
     </message>
 </context>
 </TS>
