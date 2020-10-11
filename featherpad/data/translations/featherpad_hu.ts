@@ -657,7 +657,7 @@
     <message>
         <location filename="../../fp.ui" line="836"/>
         <source>&amp;Cyrillic (CP1251)</source>
-        <translation>&amp;Cirill(CP1251)</translation>
+        <translation>&amp;Cirill (CP1251)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="847"/>
@@ -1119,7 +1119,7 @@
         <location filename="../../fpwin.cpp" line="4700"/>
         <location filename="../../fpwin.cpp" line="4782"/>
         <source>Open Containing Folder</source>
-        <translation type="unfinished"></translation>
+        <translation>Tartalmazó mappa megnyitása</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4891"/>
@@ -2018,12 +2018,12 @@ megnyílnak, ha be vannak illesztve a FeatherPad-be.</translation>
         <location filename="../../prefDialog.ui" line="1369"/>
         <location filename="../../prefDialog.ui" line="1379"/>
         <source>Has effect only if line numbers are shown.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Csak akkor van hatása, ha a sorszámok meg vannak jelenítve.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1372"/>
         <source>Current line highlight value:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Jelenlegi sor kiemelésének értéke:</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1404"/>
@@ -2039,7 +2039,8 @@ megnyílnak, ha be vannak illesztve a FeatherPad-be.</translation>
         <location filename="../../pref.cpp" line="95"/>
         <source>Press a modifier key to clear a shortcut
 in the editing mode.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Nyomjon egy módosítóbillentyűt, hogy
+törölje a kombinációt.</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="101"/>
