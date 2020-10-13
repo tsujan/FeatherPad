@@ -421,12 +421,12 @@
     <message>
         <location filename="../../fp.ui" line="1103"/>
         <source>Clear the list of recently modified files</source>
-        <translation type="unfinished"></translation>
+        <translation>Καθάρισε τη λίστα των πρόσφατων τροποποιημένων αρχείων</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1108"/>
         <source>Save/Restore Session</source>
-        <translation type="unfinished"></translation>
+        <translation>Αποθήκευση/Ανάκτηση Συνεδρίας</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1111"/>
@@ -451,7 +451,7 @@
     <message>
         <location filename="../../fp.ui" line="1127"/>
         <source>Paste Date and Time</source>
-        <translation type="unfinished"></translation>
+        <translation>Επικόλληση ημερομηνίας και ώρας</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1130"/>
@@ -462,7 +462,7 @@
         <location filename="../../fp.ui" line="1135"/>
         <location filename="../../fp.ui" line="1138"/>
         <source>To Upper Case</source>
-        <translation type="unfinished"></translation>
+        <translation>Σε κεφαλαία</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1141"/>
@@ -473,7 +473,7 @@
         <location filename="../../fp.ui" line="1146"/>
         <location filename="../../fp.ui" line="1149"/>
         <source>To Lower Case</source>
-        <translation type="unfinished"></translation>
+        <translation>Σε μικρά</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1152"/>
@@ -490,7 +490,7 @@
         <location filename="../../fp.ui" line="1168"/>
         <location filename="../../fp.ui" line="1171"/>
         <source>Last Active Tab</source>
-        <translation type="unfinished"></translation>
+        <translation>Τελευταία ενεργή καρτέλα</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1174"/>
@@ -501,18 +501,18 @@
         <location filename="../../fp.ui" line="1179"/>
         <location filename="../../fp.ui" line="1182"/>
         <source>Sort Lines</source>
-        <translation type="unfinished"></translation>
+        <translation>Ταξινόμηση γραμμών</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1187"/>
         <location filename="../../fp.ui" line="1190"/>
         <source>Sort Lines Reversely</source>
-        <translation type="unfinished"></translation>
+        <translation>Ταξινόμηση γραμμών ανάστροφα</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1195"/>
         <source>Check Spelling</source>
-        <translation type="unfinished"></translation>
+        <translation>Έλεγχος ορθογραφίας</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1198"/>
@@ -523,13 +523,13 @@
         <location filename="../../fp.ui" line="1203"/>
         <location filename="../../fp.ui" line="1206"/>
         <source>Save All Files</source>
-        <translation type="unfinished"></translation>
+        <translation>Αποθήκευση όλων των αρχείων</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1211"/>
         <location filename="../../fp.ui" line="1214"/>
         <source>User Dictionary</source>
-        <translation type="unfinished"></translation>
+        <translation>Λεξικό χρήστη</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1219"/>
@@ -612,7 +612,7 @@
         <location filename="../../replace.cpp" line="62"/>
         <location filename="../../replace.cpp" line="114"/>
         <source>Replacement</source>
-        <translation type="unfinished"></translation>
+        <translation>Αντικατάσταση</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="575"/>
