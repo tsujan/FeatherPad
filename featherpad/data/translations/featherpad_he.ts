@@ -594,17 +594,17 @@
     <message>
         <location filename="../../fp.ui" line="234"/>
         <source>&amp;Western European</source>
-        <translation type="unfinished"></translation>
+        <translation>מ&amp;ערב אירופי</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="242"/>
         <source>&amp;East European</source>
-        <translation type="unfinished"></translation>
+        <translation>מ&amp;זרח אירופי</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="250"/>
         <source>Ea&amp;st Asian</source>
-        <translation type="unfinished"></translation>
+        <translation>מז&amp;רח אסיאתי</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="342"/>
@@ -612,12 +612,12 @@
         <location filename="../../replace.cpp" line="62"/>
         <location filename="../../replace.cpp" line="114"/>
         <source>Replacement</source>
-        <translation type="unfinished"></translation>
+        <translation>החלפה</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="575"/>
         <source>Focus/hide search bar</source>
-        <translation type="unfinished"></translation>
+        <translation>התמקדות/הסתרת סרגל חיפוש</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="583"/>
@@ -627,97 +627,97 @@
     <message>
         <location filename="../../fp.ui" line="765"/>
         <source>Windows Arabic (&amp;CP1256)</source>
-        <translation type="unfinished"></translation>
+        <translation>ער&amp;בית ב־Windows‏ (CP1256)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="773"/>
         <source>&amp;Other</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;אחר</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="792"/>
         <source>&amp;UTF-8</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;UTF-8</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="803"/>
         <source>UTF-&amp;16</source>
-        <translation type="unfinished"></translation>
+        <translation>UTF-&amp;16</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="814"/>
         <source>&amp;ISO-8859-1</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;ISO-8859-1</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="825"/>
         <source>&amp;Windows-1252</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Windows-1252</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="836"/>
         <source>&amp;Cyrillic (CP1251)</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;קירילי (CP1251)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="847"/>
         <source>Cyrillic (&amp;KOI8-U)</source>
-        <translation type="unfinished"></translation>
+        <translation>קירילי (&amp;KOI8-U)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="858"/>
         <source>Cyrillic (&amp;ISO-8859-5)</source>
-        <translation>קירילית (&amp;ISO-8859-5)</translation>
+        <translation>קירילי (&amp;ISO-8859-5)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="869"/>
         <source>&amp;Chinese (BIG5)</source>
-        <translation>&amp;סינית (BIG5)</translation>
+        <translation>&amp;סיני (BIG5)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="880"/>
         <source>Chinese (&amp;GB18030)</source>
-        <translation>סינית (&amp;GB18030)</translation>
+        <translation>סיני (&amp;GB18030)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="891"/>
         <source>&amp;Japanese (ISO-2022-JP)</source>
-        <translation>&amp;יפנית (ISO-2022-JP)</translation>
+        <translation>&amp;יפני (ISO-2022-JP)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="902"/>
         <source>Japanese (&amp;ISO-2022-JP-2)</source>
-        <translation>יפנית (&amp;ISO-2022-JP-2)</translation>
+        <translation>יפני (&amp;ISO-2022-JP-2)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="913"/>
         <source>Japanese (ISO-&amp;2022-KR)</source>
-        <translation>יפנית (ISO-&amp;2022-KR)</translation>
+        <translation>יפני (ISO-&amp;2022-KR)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="924"/>
         <source>Ja&amp;panese (CP932)</source>
-        <translation>יפנית (CP932)</translation>
+        <translation>יפני (CP932)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="935"/>
         <source>Japa&amp;nese (EUC-JP)</source>
-        <translation>יפ&amp;נית (EUC-JP)</translation>
+        <translation>יפ&amp;ני (EUC-JP)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="943"/>
         <source>&amp;Korean (CP949)</source>
-        <translation>&amp;קוריאנית (CP949)</translation>
+        <translation>&amp;קוריאני (CP949)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="951"/>
         <source>K&amp;orean (CP1361)</source>
-        <translation>ק&amp;וריאנית (CP1361)</translation>
+        <translation>ק&amp;וריאני (CP1361)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="959"/>
         <source>Korean (&amp;EUC-KR)</source>
-        <translation>קוריאנית (&amp;EUC-KR)</translation>
+        <translation>קוריאני (&amp;EUC-KR)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1005"/>
@@ -742,12 +742,12 @@
     <message>
         <location filename="../../fp.ui" line="1046"/>
         <source>Alt+Right</source>
-        <translation type="unfinished"></translation>
+        <translation>Alt+ימינה</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1057"/>
         <source>Alt+Left</source>
-        <translation type="unfinished"></translation>
+        <translation>Alt+שמאלה</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1065"/>
@@ -757,17 +757,17 @@
     <message>
         <location filename="../../fp.ui" line="1068"/>
         <source>Alt+Down</source>
-        <translation type="unfinished"></translation>
+        <translation>Alt+למטה</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1076"/>
         <source>&amp;Last Tab</source>
-        <translation type="unfinished"></translation>
+        <translation>לשונית א&amp;חרונה</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1079"/>
         <source>Alt+Up</source>
-        <translation type="unfinished"></translation>
+        <translation>Alt+למעלה</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1084"/>
@@ -778,27 +778,28 @@
         <location filename="../../fpwin.cpp" line="101"/>
         <source>Calculate number of words
 (For huge texts, this may be CPU-intensive.)</source>
-        <translation type="unfinished"></translation>
+        <translation>לחשב מספר מילים
+(לקטעי טקסט ארוכים, עלול לחנוק את המעבד.)</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="116"/>
         <source>Next</source>
-        <translation>אחורה</translation>
+        <translation>הבא</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="117"/>
         <source>Previous</source>
-        <translation>אחורה</translation>
+        <translation>הקודם</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="118"/>
         <source>Replace all</source>
-        <translation type="unfinished"></translation>
+        <translation>להחליף הכול</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="555"/>
         <source>&amp;Recently Opened</source>
-        <translation type="unfinished"></translation>
+        <translation>נפתחו ל&amp;אחרונה</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1788"/>
@@ -808,7 +809,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="1124"/>
         <source>Save changes?</source>
-        <translation type="unfinished"></translation>
+        <translation>לשמור שינויים?</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="839"/>
@@ -2294,7 +2295,7 @@ windows will be included in the saved session.</source>
     <message>
         <location filename="../../spellDialog.ui" line="51"/>
         <source>Add To Dictionary</source>
-        <translation type="unfinished"></translation>
+        <translation>הוספה למילון</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="62"/>
