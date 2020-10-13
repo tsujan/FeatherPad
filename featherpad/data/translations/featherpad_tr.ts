@@ -518,7 +518,7 @@
     <message>
         <location filename="../../fp.ui" line="1195"/>
         <source>Check Spelling</source>
-        <translation type="unfinished"></translation>
+        <translation>İmla Denetimi Yap</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1198"/>
@@ -529,13 +529,13 @@
         <location filename="../../fp.ui" line="1203"/>
         <location filename="../../fp.ui" line="1206"/>
         <source>Save All Files</source>
-        <translation type="unfinished"></translation>
+        <translation>Tüm Dosyaları Kaydet</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1211"/>
         <location filename="../../fp.ui" line="1214"/>
         <source>User Dictionary</source>
-        <translation type="unfinished"></translation>
+        <translation>Kullanıcı Sözlüğü</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1219"/>
@@ -944,12 +944,12 @@
     <message>
         <location filename="../../fpwin.cpp" line="2408"/>
         <source>Non-text file(s) not opened!</source>
-        <translation type="unfinished"></translation>
+        <translation>Metin olmayan dosya(lar) açılmadı!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2409"/>
         <source>See Preferences → Files → Do not permit opening of non-text files</source>
-        <translation type="unfinished"></translation>
+        <translation>Tercihler → Dosyalar → Metin olmayan dosyaların açılmasına izin verme bölümüne bakın</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2417"/>
@@ -1077,7 +1077,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="3101"/>
         <source>Text tabs are converted to spaces.</source>
-        <translation type="unfinished"></translation>
+        <translation>Metin sekmeleri boşluklara dönüştürülür.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3209"/>
@@ -1128,36 +1128,36 @@
         <location filename="../../fpwin.cpp" line="4716"/>
         <location filename="../../fpwin.cpp" line="4799"/>
         <source>Open Containing Folder</source>
-        <translation type="unfinished"></translation>
+        <translation>Dosyayı içeren dizini açın</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4908"/>
         <source>You need to add a Hunspell dictionary.</source>
-        <translation type="unfinished"></translation>
+        <translation>Hunspell sözlüğü eklemeniz gerekiyor.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4909"/>
         <location filename="../../fpwin.cpp" line="4915"/>
         <location filename="../../fpwin.cpp" line="4924"/>
         <source>See Preferences → Text → Spell Checking!</source>
-        <translation type="unfinished"></translation>
+        <translation>Tercihler → Metin → İmla Denetimi&apos;ne bakın!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4914"/>
         <source>The Hunspell dictionary does not exist.</source>
-        <translation type="unfinished"></translation>
+        <translation>Hunspell sözlüğü mevcut değil.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4923"/>
         <source>The Hunspell dictionary is not accompanied by an affix file.</source>
-        <translation type="unfinished"></translation>
+        <translation>Hunspell sözlüğüne bir ek dosyası eşlik etmez.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4945"/>
         <location filename="../../fpwin.cpp" line="4963"/>
         <location filename="../../fpwin.cpp" line="4978"/>
         <source>No misspelling in document.</source>
-        <translation type="unfinished"></translation>
+        <translation>Belgede yazım hatası yok.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4947"/>
@@ -1169,12 +1169,12 @@
     <message>
         <location filename="../../fpwin.cpp" line="4993"/>
         <source>Spell Checking</source>
-        <translation type="unfinished"></translation>
+        <translation>İmla Denetimi</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5328"/>
         <source>Some files cannot be saved!</source>
-        <translation type="unfinished"></translation>
+        <translation>Bazı dosyalar kaydedilemez!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5375"/>
@@ -1232,7 +1232,7 @@
     <message>
         <location filename="../../replace.cpp" line="251"/>
         <source>The first 1000 replacements are highlighted.</source>
-        <translation type="unfinished"></translation>
+        <translation>İlk 1000 değiştirme vurgulanmıştır.</translation>
     </message>
     <message>
         <location filename="../../syntax.cpp" line="273"/>
@@ -1262,58 +1262,58 @@
     <message>
         <location filename="../../fontDialog.ui" line="14"/>
         <source>Select Font</source>
-        <translation type="unfinished"></translation>
+        <translation>Yazıtipi Seç</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="38"/>
         <source>Programming Fonts</source>
-        <translation type="unfinished"></translation>
+        <translation>Programlama Yazıtipleri</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="45"/>
         <location filename="../../fontDialog.ui" line="55"/>
         <source>Font:</source>
-        <translation type="unfinished"></translation>
+        <translation>Yazıtipi:</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="69"/>
         <source>Size:</source>
-        <translation type="unfinished"></translation>
+        <translation>Boyut:</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="89"/>
         <source>Weight:</source>
-        <translation type="unfinished"></translation>
+        <translation>Ağırlık:</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="103"/>
         <source>Normal</source>
-        <translation type="unfinished"></translation>
+        <translation>Normal</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="108"/>
         <source>Medium</source>
-        <translation type="unfinished"></translation>
+        <translation>Orta</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="113"/>
         <source>Bold</source>
-        <translation type="unfinished"></translation>
+        <translation>Koyu</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="118"/>
         <source>Black</source>
-        <translation type="unfinished"></translation>
+        <translation>Siyah</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="126"/>
         <source>Italic</source>
-        <translation type="unfinished"></translation>
+        <translation>Yatık</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="149"/>
         <source>Preview</source>
-        <translation type="unfinished"></translation>
+        <translation>Önizleme</translation>
     </message>
 </context>
 <context>
@@ -1374,7 +1374,8 @@
         <location filename="../../prefDialog.ui" line="148"/>
         <source>Enforcing a window position is not recommended
 and may not work with some window managers.</source>
-        <translation type="unfinished">Bir pencere pozisyonunu uygulama önerilmez ve bazı pencere yöneticileriyle çalışmayabilir.</translation>
+        <translation>Bir pencere konumunu zorlamak önerilmez
+ve bazı pencere yöneticileriyle çalışmayabilir.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="152"/>
@@ -1424,12 +1425,13 @@ bir menü düğmesi görüntülenir.</translation>
         <location filename="../../prefDialog.ui" line="225"/>
         <source>By default, each search entry
 has a separate search history.</source>
-        <translation type="unfinished"></translation>
+        <translation>Varsayılan olarak, her arama girişi
+ayrı bir arama geçmişine sahiptir.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="229"/>
         <source>Use a shared search history</source>
-        <translation type="unfinished"></translation>
+        <translation>Paylaşılan bir arama geçmişi kullanın</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="236"/>
@@ -1569,7 +1571,7 @@ of the selected text.</source>
     <message>
         <location filename="../../prefDialog.ui" line="513"/>
         <source>Selection highlighting</source>
-        <translation type="unfinished"></translation>
+        <translation>Seçim vurgulama</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="576"/>
@@ -1884,7 +1886,7 @@ kaydırmada atalet özelliği olsun mu?</translation>
     <message>
         <location filename="../../prefDialog.ui" line="870"/>
         <source>Spell Checking</source>
-        <translation type="unfinished"></translation>
+        <translation>İmla Denetimi</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="878"/>
@@ -1897,13 +1899,13 @@ name but ending with &quot;.aff&quot;.</source>
     <message>
         <location filename="../../prefDialog.ui" line="883"/>
         <source>Hunspell dictionary path:</source>
-        <translation type="unfinished"></translation>
+        <translation>Hunspell sözlük yolu:</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="902"/>
         <location filename="../../pref.cpp" line="1633"/>
         <source>Add dictionary...</source>
-        <translation type="unfinished"></translation>
+        <translation>Sözlük ekle...</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="914"/>
@@ -1914,7 +1916,7 @@ will be started from the document start.</source>
     <message>
         <location filename="../../prefDialog.ui" line="918"/>
         <source>Start spell checking from text cursor</source>
-        <translation type="unfinished"></translation>
+        <translation>İmla denetimini metin imlecinden başlat</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="973"/>
@@ -1970,12 +1972,13 @@ güncellemek veya dosya sonundaki boşlukları kırpmak için.</translation>
         <location filename="../../prefDialog.ui" line="1228"/>
         <source>By default, when files are copied, they will
 be opened if they are pasted into FeatherPad.</source>
-        <translation type="unfinished"></translation>
+        <translation>Varsayılan olarak, dosyalar kopyalandığında
+FeatherPad&apos;e yapıştırılırsa açılabilir.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1232"/>
         <source>Paste paths instead of files</source>
-        <translation type="unfinished"></translation>
+        <translation>Dosyalar yerine yolları yapıştırın</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1259"/>
@@ -2007,22 +2010,22 @@ be opened if they are pasted into FeatherPad.</source>
     <message>
         <location filename="../../prefDialog.ui" line="1305"/>
         <source>Syntax Colors</source>
-        <translation type="unfinished"></translation>
+        <translation>Sözdizimi Renkleri</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1321"/>
         <source>Element</source>
-        <translation type="unfinished"></translation>
+        <translation>Öge</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1326"/>
         <source>Text Color</source>
-        <translation type="unfinished"></translation>
+        <translation>Metin Rengi</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1339"/>
         <source>Whitespace color value:</source>
-        <translation type="unfinished"></translation>
+        <translation>Boşluk rengi değeri:</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1369"/>
