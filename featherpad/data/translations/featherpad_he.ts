@@ -734,7 +734,7 @@
     <message>
         <location filename="../../fp.ui" line="1030"/>
         <source>&amp;Copy File Name</source>
-        <translation type="unfinished"></translation>
+        <translation>ה&amp;עתקת שם קובץ</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1035"/>
@@ -816,17 +816,17 @@
     <message>
         <location filename="../../fpwin.cpp" line="838"/>
         <source>Please attend to that window or just close its dialog!</source>
-        <translation type="unfinished"></translation>
+        <translation>נא להתייחס לחלון הזה או פשוט לסגור את תיבת הדו־שיח שלו!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1127"/>
         <source>The document has been modified.</source>
-        <translation type="unfinished"></translation>
+        <translation>המסמך נערך.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1138"/>
         <source>&amp;Discard changes</source>
-        <translation type="unfinished"></translation>
+        <translation>הת&amp;עלמות מהשינויים</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1139"/>
@@ -836,7 +836,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="1141"/>
         <source>&amp;No to all</source>
-        <translation type="unfinished"></translation>
+        <translation>לא לה&amp;כול</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1339"/>
@@ -862,7 +862,7 @@
         <location filename="../../fpwin.cpp" line="3854"/>
         <location filename="../../fpwin.cpp" line="3868"/>
         <source>Sel. Chars</source>
-        <translation type="unfinished"></translation>
+        <translation>תווים נבחרים</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1360"/>
@@ -879,7 +879,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="1778"/>
         <source>Script File</source>
-        <translation type="unfinished"></translation>
+        <translation>קובץ סקריפט</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="837"/>
@@ -890,7 +890,7 @@
         <location filename="../../fpwin.cpp" line="674"/>
         <location filename="../../fpwin.cpp" line="3895"/>
         <source>Position:</source>
-        <translation type="unfinished"></translation>
+        <translation>מיקום:</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="721"/>
@@ -909,7 +909,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="1486"/>
         <source>Open Link</source>
-        <translation type="unfinished"></translation>
+        <translation>פתיחת קישור</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1499"/>
@@ -919,7 +919,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="1672"/>
         <source>Only one process is allowed per tab.</source>
-        <translation type="unfinished"></translation>
+        <translation>מותר רק תהליך אחד לכל לשונית.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1774"/>
@@ -929,7 +929,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="1790"/>
         <source>Clear</source>
-        <translation type="unfinished"></translation>
+        <translation>פינוי</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2394"/>
