@@ -1077,7 +1077,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="3203"/>
         <source>The selected text was too long.</source>
-        <translation type="unfinished"></translation>
+        <translation>選択したテキストが長すぎます。</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3204"/>
