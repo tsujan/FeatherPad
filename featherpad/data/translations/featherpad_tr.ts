@@ -542,7 +542,7 @@
     <message>
         <location filename="../../fp.ui" line="1219"/>
         <source>Text Tabs to Spaces</source>
-        <translation type="unfinished"></translation>
+        <translation>Boşluklara Metin Sekmeleri</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="994"/>
@@ -1086,12 +1086,12 @@
     <message>
         <location filename="../../fpwin.cpp" line="3221"/>
         <source>The selected text was too long.</source>
-        <translation type="unfinished"></translation>
+        <translation>Seçili metin çok uzundu.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3222"/>
         <source>It is not fully processed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Tam olarak işlenmemiş.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3360"/>
@@ -1559,12 +1559,14 @@ KDE ve LXQt gibi bazı masaüstlerinin kendi dosya diyaloğu vardır.</translati
         <source>By default, a triple period is replaced with an ellipsis
 and a double hyphen with a long dash while typing,
 under proper circumstances.</source>
-        <translation type="unfinished"></translation>
+        <translation>Varsayılan olarak, uygun koşullar altında, yazarken 
+üçlü nokta üç nokta ve çift kısa çizgi ile uzun bir 
+çizgi ile değiştirilir.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="495"/>
         <source>Replace triple periods and double hyphens while typing</source>
-        <translation type="unfinished"></translation>
+        <translation>Yazarken üçlü noktaları ve çift kısa çizgileri değiştir</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="509"/>
