@@ -701,7 +701,7 @@
         <location filename="../../fp.ui" line="1157"/>
         <location filename="../../fp.ui" line="1160"/>
         <source>To Start Case</source>
-        <translation type="unfinished"></translation>
+        <translation>大文字で始める</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1168"/>
@@ -1082,7 +1082,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="3228"/>
         <source>It is not fully processed.</source>
-        <translation type="unfinished"></translation>
+        <translation>完全には処理されていません。</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3366"/>
@@ -1123,7 +1123,7 @@
         <location filename="../../fpwin.cpp" line="4749"/>
         <location filename="../../fpwin.cpp" line="4834"/>
         <source>Open Containing Folder</source>
-        <translation type="unfinished"></translation>
+        <translation>このファイルのあるフォルダを開く</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4943"/>
@@ -2018,12 +2018,12 @@ FeatherPad に貼り付ける場合はそのファイルを開きます。</tran
         <location filename="../../prefDialog.ui" line="1369"/>
         <location filename="../../prefDialog.ui" line="1379"/>
         <source>Has effect only if line numbers are shown.</source>
-        <translation type="unfinished"></translation>
+        <translation>行番号が表示されている場合のみ効果があります。</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1372"/>
         <source>Current line highlight value:</source>
-        <translation type="unfinished"></translation>
+        <translation>現在行の強調表示の値:</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1404"/>
