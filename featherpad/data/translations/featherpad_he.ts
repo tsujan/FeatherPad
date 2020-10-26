@@ -739,7 +739,7 @@
     <message>
         <location filename="../../fp.ui" line="1035"/>
         <source>Copy File &amp;Path</source>
-        <translation type="unfinished"></translation>
+        <translation>העתקת ה&amp;נתיב לקובץ</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1046"/>
@@ -842,7 +842,7 @@
         <location filename="../../fpwin.cpp" line="1353"/>
         <location filename="../../fpwin.cpp" line="1411"/>
         <source>Unsaved</source>
-        <translation type="unfinished"></translation>
+        <translation>לא נשמר</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1372"/>
@@ -874,7 +874,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="1691"/>
         <source>Another process is running in this tab!</source>
-        <translation type="unfinished"></translation>
+        <translation>תהליך אחר פועל בלשונית הזו!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1797"/>
@@ -904,7 +904,7 @@
         <location filename="../../fpwin.cpp" line="2455"/>
         <location filename="../../fpwin.cpp" line="5132"/>
         <source>The file does not exist.</source>
-        <translation type="unfinished"></translation>
+        <translation>קובץ זה אינו קיים.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1500"/>
@@ -914,7 +914,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="1513"/>
         <source>Copy Link</source>
-        <translation type="unfinished"></translation>
+        <translation>העתקת קישור</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1692"/>
@@ -949,17 +949,17 @@
     <message>
         <location filename="../../fpwin.cpp" line="2430"/>
         <source>Some file(s) could not be opened!</source>
-        <translation type="unfinished"></translation>
+        <translation>לא ניתן לפתוח מספר קבצים!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2431"/>
         <source>You may not have the permission to read.</source>
-        <translation type="unfinished"></translation>
+        <translation>ייתכן ואין לך הרשאה לקריאה.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2441"/>
         <source>Uneditable file(s)!</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">קובץ/ים שלא ניתן/ים לעריכה!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2442"/>
@@ -969,7 +969,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="2496"/>
         <source>A previous crash detected!</source>
-        <translation type="unfinished"></translation>
+        <translation>זוהתה התרסקות קודמת!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2497"/>
