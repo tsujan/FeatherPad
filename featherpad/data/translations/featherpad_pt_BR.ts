@@ -464,7 +464,7 @@
         <location filename="../../fp.ui" line="1135"/>
         <location filename="../../fp.ui" line="1138"/>
         <source>To Upper Case</source>
-        <translation>Para Maiúsculas</translation>
+        <translation>Para MAIÚSCULAS</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1141"/>
@@ -475,7 +475,7 @@
         <location filename="../../fp.ui" line="1146"/>
         <location filename="../../fp.ui" line="1149"/>
         <source>To Lower Case</source>
-        <translation>Para Minúsculas</translation>
+        <translation>Para minúsculas</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1152"/>
@@ -486,7 +486,7 @@
         <location filename="../../fp.ui" line="1157"/>
         <location filename="../../fp.ui" line="1160"/>
         <source>To Start Case</source>
-        <translation type="unfinished"></translation>
+        <translation>Para Primeira Letra Em Maiúscula</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1168"/>
@@ -1077,12 +1077,12 @@
     <message>
         <location filename="../../fpwin.cpp" line="3219"/>
         <source>The selected text was too long.</source>
-        <translation type="unfinished"></translation>
+        <translation>O texto selecionado era muito longo.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3220"/>
         <source>It is not fully processed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Não foi totalmente processado.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3358"/>
@@ -1123,7 +1123,7 @@
         <location filename="../../fpwin.cpp" line="4741"/>
         <location filename="../../fpwin.cpp" line="4826"/>
         <source>Open Containing Folder</source>
-        <translation type="unfinished"></translation>
+        <translation>Abrir Pasta de Conteúdo</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4935"/>
@@ -2023,12 +2023,12 @@ eles serão abertos se forem colados no FeatherPad.</translation>
         <location filename="../../prefDialog.ui" line="1369"/>
         <location filename="../../prefDialog.ui" line="1379"/>
         <source>Has effect only if line numbers are shown.</source>
-        <translation type="unfinished"></translation>
+        <translation>Tem efeito apenas se os números de linha estão sendo exibidos.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1372"/>
         <source>Current line highlight value:</source>
-        <translation type="unfinished"></translation>
+        <translation>Valor de destaque da linha atual:</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1404"/>
