@@ -1630,7 +1630,7 @@ whose last line is not empty.</source>
     <message>
         <location filename="../../prefDialog.ui" line="1075"/>
         <source>Start with files of last window</source>
-        <translation type="unfinished"></translation>
+        <translation>התחלה עם הקבצים של החלון האחרון</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1117"/>
@@ -1650,12 +1650,12 @@ will be shown by a popup dialog.</source>
     <message>
         <location filename="../../prefDialog.ui" line="1129"/>
         <source>Start with this command: </source>
-        <translation type="unfinished"></translation>
+        <translation>להתחיל עם הפקודה שלהלן: </translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1148"/>
         <source>Command + Arguments</source>
-        <translation type="unfinished"></translation>
+        <translation>פקודה + ארגומנטים</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1033"/>
@@ -1670,7 +1670,7 @@ will be shown by a popup dialog.</source>
     <message>
         <location filename="../../prefDialog.ui" line="1162"/>
         <source>Save changes to opened files every:</source>
-        <translation type="unfinished"></translation>
+        <translation>שמירת השינויים בקבצים הפתוחים בכול:</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1428"/>
@@ -1693,7 +1693,7 @@ and-drop either.</source>
     <message>
         <location filename="../../prefDialog.ui" line="346"/>
         <source>&amp;Do not show a single tab</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;לא להציג לשונית יחידה</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="411"/>
@@ -1728,7 +1728,7 @@ and-drop either.</source>
     <message>
         <location filename="../../prefDialog.ui" line="680"/>
         <source>Dark c&amp;olor scheme</source>
-        <translation type="unfinished"></translation>
+        <translation>ערכת &amp;צבעים כהה</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="715"/>
@@ -1902,12 +1902,13 @@ trailing spaces of a text file.</source>
         <location filename="../../prefDialog.ui" line="1228"/>
         <source>By default, when files are copied, they will
 be opened if they are pasted into FeatherPad.</source>
-        <translation type="unfinished"></translation>
+        <translation>כברירת המחדל, כאשר קבצים יועתקו, הם
+ייפתחו אם הם יודבקו לתוך FeatherPad.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1232"/>
         <source>Paste paths instead of files</source>
-        <translation type="unfinished"></translation>
+        <translation>הדבקת נתיבים במקום קבצים</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1259"/>
@@ -1917,7 +1918,7 @@ be opened if they are pasted into FeatherPad.</source>
     <message>
         <location filename="../../prefDialog.ui" line="1278"/>
         <source>Action</source>
-        <translation type="unfinished"></translation>
+        <translation>פעולה</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1283"/>
@@ -1927,14 +1928,14 @@ be opened if they are pasted into FeatherPad.</source>
     <message>
         <location filename="../../prefDialog.ui" line="1291"/>
         <source>Restore default shortcuts.</source>
-        <translation type="unfinished"></translation>
+        <translation>שחזור קיצורי ברירת המחדל.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1294"/>
         <location filename="../../prefDialog.ui" line="1382"/>
         <location filename="../../prefDialog.ui" line="1407"/>
         <source>Default</source>
-        <translation type="unfinished"></translation>
+        <translation>ברירת מחדל</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1305"/>
@@ -1944,7 +1945,7 @@ be opened if they are pasted into FeatherPad.</source>
     <message>
         <location filename="../../prefDialog.ui" line="1321"/>
         <source>Element</source>
-        <translation type="unfinished"></translation>
+        <translation>אלמנט</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1326"/>
@@ -2059,17 +2060,17 @@ in the editing mode.</source>
     <message>
         <location filename="../../pref.cpp" line="389"/>
         <source>Extra Elements</source>
-        <translation type="unfinished"></translation>
+        <translation>אלמנטים נוספים</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="550"/>
         <source>Application restart is needed for changes to take effect.</source>
-        <translation type="unfinished"></translation>
+        <translation>הפעלת היישום מחדש נחוצה כדי להכניס השינויים לתוקף.</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="568"/>
         <source>Window reopening is needed for changes to take effect.</source>
-        <translation type="unfinished"></translation>
+        <translation>פתיחת החלון מחדש נחוצה כדי להכניס את השינויים לתוקף.</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="1355"/>
@@ -2192,12 +2193,12 @@ windows will be included in the saved session.</source>
     <message>
         <location filename="../../sessionDialog.ui" line="163"/>
         <source>Save only from this &amp;window</source>
-        <translation type="unfinished"></translation>
+        <translation>שמירה רק מה&amp;חלון הזה</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="180"/>
         <source>&lt;b&gt;Warning&lt;/b&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;אזהרה&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="226"/>
@@ -2218,7 +2219,7 @@ windows will be included in the saved session.</source>
     <message>
         <location filename="../../sessionDialog.ui" line="118"/>
         <source>Remove &amp;All</source>
-        <translation type="unfinished"></translation>
+        <translation>להסיר &amp;הכול</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="260"/>
@@ -2228,7 +2229,7 @@ windows will be included in the saved session.</source>
     <message>
         <location filename="../../sessionDialog.ui" line="135"/>
         <source>Save the current session under the given title.</source>
-        <translation type="unfinished"></translation>
+        <translation>שמירת ההפעלה הנוכחית תחת השם הנתון.</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="138"/>
@@ -2238,22 +2239,22 @@ windows will be included in the saved session.</source>
     <message>
         <location filename="../../sessionDialog.ui" line="149"/>
         <source>Type a name to save session</source>
-        <translation type="unfinished"></translation>
+        <translation>נא לתת שם להפעלה</translation>
     </message>
     <message>
         <location filename="../../session.cpp" line="179"/>
         <source>Nothing saved.&lt;br&gt;No file was opened.</source>
-        <translation type="unfinished"></translation>
+        <translation>לא נבחר דבר.&lt;br&gt;לא נפתחו קבצים כלל.</translation>
     </message>
     <message>
         <location filename="../../session.cpp" line="275"/>
         <source>No file exists or can be opened.</source>
-        <translation type="unfinished"></translation>
+        <translation>אין קובץ קיים או ניתן לפתיחה.</translation>
     </message>
     <message>
         <location filename="../../session.cpp" line="281"/>
         <source>Not all files exist or can be opened.</source>
-        <translation type="unfinished"></translation>
+        <translation>לא כל הקבצים קיימים או ניתנים לפתיחה.</translation>
     </message>
     <message>
         <location filename="../../session.cpp" line="324"/>
@@ -2263,22 +2264,22 @@ windows will be included in the saved session.</source>
     <message>
         <location filename="../../session.cpp" line="343"/>
         <source>Do you really want to remove all saved sessions?</source>
-        <translation type="unfinished"></translation>
+        <translation>האם אכן ברצונך להסיר את כל ההפעלות השמורות?</translation>
     </message>
     <message>
         <location filename="../../session.cpp" line="349"/>
         <source>Do you really want to remove the selected sessions?</source>
-        <translation type="unfinished"></translation>
+        <translation>האם אכן ברצונך להסיר את ההפעלות הנבחרות?</translation>
     </message>
     <message>
         <location filename="../../session.cpp" line="351"/>
         <source>Do you really want to remove the selected session?</source>
-        <translation type="unfinished"></translation>
+        <translation>האם אכן ברצונך להסיר את ההפעלה שנבחרה?</translation>
     </message>
     <message>
         <location filename="../../session.cpp" line="356"/>
         <source>A session with the same name exists.&lt;br&gt;Do you want to overwrite it?</source>
-        <translation type="unfinished"></translation>
+        <translation>קיימת הפעלה עם שם זהה.&lt;br&gt;האם ברצונך לדרוס אותה?</translation>
     </message>
 </context>
 <context>
@@ -2294,7 +2295,7 @@ windows will be included in the saved session.</source>
     <message>
         <location filename="../../spellDialog.ui" line="25"/>
         <source>Unknown word:</source>
-        <translation type="unfinished"></translation>
+        <translation>מילה לא מוכרת:</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="51"/>
