@@ -934,12 +934,12 @@
     <message>
         <location filename="../../fpwin.cpp" line="2421"/>
         <source>Non-text file(s) not opened!</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Les fichiers non texte ne sont pas ouverts!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2422"/>
         <source>See Preferences → Files → Do not permit opening of non-text files</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Voir Préférences → Fichiers → Ne pas autoriser l&apos;ouverture de fichiers non texte</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2430"/>
@@ -979,12 +979,12 @@
     <message>
         <location filename="../../fpwin.cpp" line="3219"/>
         <source>The selected text was too long.</source>
-        <translation type="unfinished"></translation>
+        <translation>Le texte sélectionné était trop long.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3220"/>
         <source>It is not fully processed.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Ce n&apos;est pas entièrement traité.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3358"/>
@@ -1020,7 +1020,7 @@
         <location filename="../../fpwin.cpp" line="4741"/>
         <location filename="../../fpwin.cpp" line="4826"/>
         <source>Open Containing Folder</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Ouvrir dossier contenant</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4935"/>
@@ -1223,7 +1223,7 @@
     <message>
         <location filename="../../replace.cpp" line="251"/>
         <source>The first 1000 replacements are highlighted.</source>
-        <translation type="unfinished"></translation>
+        <translation>Les 1000 premiers remplacements sont surlignés.</translation>
     </message>
     <message>
         <location filename="../../syntax.cpp" line="273"/>
@@ -1559,12 +1559,13 @@ dans les cas appropriés.</translation>
         <location filename="../../prefDialog.ui" line="509"/>
         <source>Highlight case-sensitive and whole matches
 of the selected text.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Mettez en évidence les correspondances sensibles à la casse et entières
+du texte sélectionné.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="513"/>
         <source>Selection highlighting</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Mettre en évidence la sélection</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="576"/>
@@ -1886,7 +1887,9 @@ doit-il être inertiel si le curseur se trouve dans la vue du texte ?</translati
         <source>A Hunspell dictionary has a name that ends with &quot;.dic&quot;
 and should be alongside an affix file with the same
 name but ending with &quot;.aff&quot;.</source>
-        <translation type="unfinished"></translation>
+        <translation>Un dictionnaire Hunspell a un nom qui se termine par &quot;.dic&quot;
+et devrait être à côté d&apos;un fichier d&apos;affixe avec le même
+nom mais se terminant par &quot;.aff&quot;.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="883"/>
@@ -1903,7 +1906,8 @@ name but ending with &quot;.aff&quot;.</source>
         <location filename="../../prefDialog.ui" line="914"/>
         <source>If this is unchecked, spell checking
 will be started from the document start.</source>
-        <translation type="unfinished"></translation>
+        <translation>Si cette case n&apos;est pas cochée, la vérification orthographique
+démarrera au début du document.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="918"/>
@@ -1965,12 +1969,13 @@ de fin de ligne d&apos;un fichier texte.</translation>
         <location filename="../../prefDialog.ui" line="1228"/>
         <source>By default, when files are copied, they will
 be opened if they are pasted into FeatherPad.</source>
-        <translation type="unfinished"></translation>
+        <translation>Par défaut, lorsque les fichiers sont copiés, ils
+seront ouverts s&apos;ils sont collés dans FeatherPad.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1232"/>
         <source>Paste paths instead of files</source>
-        <translation type="unfinished"></translation>
+        <translation>Coller le chemin plutôt que le fichier</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1259"/>
@@ -2002,38 +2007,38 @@ be opened if they are pasted into FeatherPad.</source>
     <message>
         <location filename="../../prefDialog.ui" line="1305"/>
         <source>Syntax Colors</source>
-        <translation type="unfinished"></translation>
+        <translation>Couleurs de la syntaxe</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1321"/>
         <source>Element</source>
-        <translation type="unfinished"></translation>
+        <translation>Élément</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1326"/>
         <source>Text Color</source>
-        <translation type="unfinished"></translation>
+        <translation>Couleur du texte</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1339"/>
         <source>Whitespace color value:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Valeur de couleur des espaces blancs :</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1369"/>
         <location filename="../../prefDialog.ui" line="1379"/>
         <source>Has effect only if line numbers are shown.</source>
-        <translation type="unfinished"></translation>
+        <translation>N&apos;a d&apos;effet que si les numéros de ligne sont affichés.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1372"/>
         <source>Current line highlight value:</source>
-        <translation type="unfinished"></translation>
+        <translation>Valeur de surbrillance de la ligne actuelle :</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1404"/>
         <source>Restore default syntax colors.</source>
-        <translation type="unfinished"></translation>
+        <translation>Restaurez les couleurs de syntaxe par défaut.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1439"/>
@@ -2044,12 +2049,13 @@ be opened if they are pasted into FeatherPad.</source>
         <location filename="../../pref.cpp" line="95"/>
         <source>Press a modifier key to clear a shortcut
 in the editing mode.</source>
-        <translation type="unfinished"></translation>
+        <translation>Appuyez sur une touche de modification pour effacer un raccourci
+en mode édition.</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="101"/>
         <source>Double click a color to change it.</source>
-        <translation type="unfinished"></translation>
+        <translation>Double-cliquer sur une couleur pour la modifier.</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="293"/>
@@ -2072,57 +2078,57 @@ in the editing mode.</source>
     <message>
         <location filename="../../pref.cpp" line="379"/>
         <source>Functions, URLs,…</source>
-        <translation type="unfinished"></translation>
+        <translation>Fonctions, URL,…</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="380"/>
         <source>Built-in Functions</source>
-        <translation type="unfinished"></translation>
+        <translation>Fonctions intégrées</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="381"/>
         <source>Comments</source>
-        <translation type="unfinished"></translation>
+        <translation>Commenter</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="382"/>
         <source>Quotations</source>
-        <translation type="unfinished"></translation>
+        <translation>Citations</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="383"/>
         <source>Types</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Types</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="384"/>
         <source>Key Words</source>
-        <translation type="unfinished"></translation>
+        <translation>Mots clés</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="385"/>
         <source>Numbers</source>
-        <translation type="unfinished"></translation>
+        <translation>Nombres</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="386"/>
         <source>Regular Expressions, Code Blocks,…</source>
-        <translation type="unfinished"></translation>
+        <translation>Expressions régulières, blocs de code,…</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="387"/>
         <source>Document Blocks, XML/HTML Elements,…</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Blocs de document, éléments XML/HTML,…</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="388"/>
         <source>Markdown Headings, CSS Values,…</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Noter les en-têtes, les valeurs CSS,…</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="389"/>
         <source>Extra Elements</source>
-        <translation type="unfinished"></translation>
+        <translation>Éléments supplémentaires</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="550"/>
@@ -2158,7 +2164,7 @@ in the editing mode.</source>
         <location filename="../../pref.cpp" line="440"/>
         <location filename="../../pref.cpp" line="1721"/>
         <source>Select Syntax Color</source>
-        <translation type="unfinished"></translation>
+        <translation>Sélectionnez la couleur de la syntaxe</translation>
     </message>
 </context>
 <context>
