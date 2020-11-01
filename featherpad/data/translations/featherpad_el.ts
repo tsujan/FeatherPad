@@ -6,7 +6,7 @@
     <message>
         <location filename="../../about.ui" line="159"/>
         <source>License</source>
-        <translation>Άδεια</translation>
+        <translation>Άδεια χρήσης</translation>
     </message>
 </context>
 <context>
@@ -433,22 +433,22 @@
     <message>
         <location filename="../../fp.ui" line="1111"/>
         <source>Sa&amp;ve/Restore Session</source>
-        <translation type="unfinished"></translation>
+        <translation>Απο&amp;θήκευση/επαναφορά συνεδρίας</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1114"/>
         <source>Ctrl+M</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+M</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1119"/>
         <source>Side-Pane</source>
-        <translation type="unfinished"></translation>
+        <translation>Πλευρικός πίνακας</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1122"/>
         <source>Ctrl+Alt+P</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Alt+P</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1127"/>
@@ -458,7 +458,7 @@
     <message>
         <location filename="../../fp.ui" line="1130"/>
         <source>Ctrl+Shift+V</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Shift+V</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1135"/>
@@ -469,7 +469,7 @@
     <message>
         <location filename="../../fp.ui" line="1141"/>
         <source>Ctrl+Shift+U</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Shift+U</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1146"/>
@@ -480,7 +480,7 @@
     <message>
         <location filename="../../fp.ui" line="1152"/>
         <source>Ctrl+Shift+L</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Shift+L</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1157"/>
@@ -497,7 +497,7 @@
     <message>
         <location filename="../../fp.ui" line="1174"/>
         <source>F1</source>
-        <translation type="unfinished"></translation>
+        <translation>F1</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1179"/>
@@ -519,7 +519,7 @@
     <message>
         <location filename="../../fp.ui" line="1198"/>
         <source>F2</source>
-        <translation type="unfinished"></translation>
+        <translation>F2</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1203"/>
@@ -536,77 +536,77 @@
     <message>
         <location filename="../../fp.ui" line="1219"/>
         <source>Text Tabs to Spaces</source>
-        <translation type="unfinished"></translation>
+        <translation>Στηλοθέτες κειμένου σε διαστήματα</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="994"/>
         <source>&amp;Detach Tab</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Αποκόλληση καρτέλας</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="997"/>
         <source>Ctrl+T</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+T</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1010"/>
         <source>Close Ne&amp;xt Tabs</source>
-        <translation type="unfinished"></translation>
+        <translation>Κλείσιμο των &amp;επόμενων καρτελών</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1015"/>
         <source>Close &amp;Previous Tabs</source>
-        <translation type="unfinished"></translation>
+        <translation>Κλείσιμο των &amp;προηγούμενων καρτελών</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1043"/>
         <source>Ne&amp;xt Tab</source>
-        <translation type="unfinished"></translation>
+        <translation>Επό&amp;μενη καρτέλα</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1054"/>
         <source>Previous Ta&amp;b</source>
-        <translation type="unfinished"></translation>
+        <translation>Προη&amp;γούμενη καρτέλα</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1092"/>
         <source>Execute</source>
-        <translation type="unfinished"></translation>
+        <translation>Εκτέλεση</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1020"/>
         <source>Close &amp;All Tabs</source>
-        <translation type="unfinished"></translation>
+        <translation>Κλείσιμο ό&amp;λων των καρτελών</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="153"/>
         <source>Recently &amp;Modified</source>
-        <translation type="unfinished"></translation>
+        <translation>Πρόσφατα &amp;τροποποιημένων</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="223"/>
         <source>&amp;Encoding</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Κωδικοποίηση</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="227"/>
         <source>&amp;Unicode</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Unicode</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="234"/>
         <source>&amp;Western European</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Δυτικής Ευρώπης</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="242"/>
         <source>&amp;East European</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Ανατολικής Ευρώπης</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="250"/>
         <source>Ea&amp;st Asian</source>
-        <translation type="unfinished"></translation>
+        <translation>Ανατολικής Α&amp;σίας</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="342"/>
@@ -619,17 +619,17 @@
     <message>
         <location filename="../../fp.ui" line="575"/>
         <source>Focus/hide search bar</source>
-        <translation type="unfinished"></translation>
+        <translation>Εστίαση/απόκρυψη ράβδου αναζήτησης</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="583"/>
         <source>&amp;Replace</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Αντικατάσταση</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="765"/>
         <source>Windows Arabic (&amp;CP1256)</source>
-        <translation type="unfinished"></translation>
+        <translation>Αραβικά Windows (&amp;CP1256)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="773"/>
