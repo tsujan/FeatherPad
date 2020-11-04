@@ -843,7 +843,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="1141"/>
         <source>The document has been modified.</source>
-        <translation>文書が更新されました。</translation>
+        <translation>文書が変更されています。</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1152"/>
