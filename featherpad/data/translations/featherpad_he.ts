@@ -486,7 +486,7 @@
         <location filename="../../fp.ui" line="1157"/>
         <location filename="../../fp.ui" line="1160"/>
         <source>To Start Case</source>
-        <translation type="unfinished"></translation>
+        <translation>לגודל התחלתי</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1168"/>
@@ -884,7 +884,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="853"/>
         <source>Another FeatherPad window has a modal dialog!</source>
-        <translation type="unfinished"></translation>
+        <translation>בחלון אחר של FeatherPad נפתחה תיבת דו־שיח חוסמת!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="691"/>
@@ -924,7 +924,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="1800"/>
         <source>Script Output</source>
-        <translation type="unfinished"></translation>
+        <translation>פלט סקריפט</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1816"/>
@@ -934,17 +934,17 @@
     <message>
         <location filename="../../fpwin.cpp" line="2423"/>
         <source>FeatherPad does not open files larger than 100 MiB.</source>
-        <translation type="unfinished"></translation>
+        <translation>FeatherPad אינו פותח קבצים בגודל של מעל ‎100 MiB.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2431"/>
         <source>Non-text file(s) not opened!</source>
-        <translation type="unfinished"></translation>
+        <translation>קבצים שאינם טקסט לא נפתחו!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2432"/>
         <source>See Preferences → Files → Do not permit opening of non-text files</source>
-        <translation type="unfinished"></translation>
+        <translation>יש לעיין בהעדפות ← קבצים ← לא להרשות פתיחת קבצים שאינם טקסט</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2440"/>
@@ -959,7 +959,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="2451"/>
         <source>Uneditable file(s)!</source>
-        <translation type="unfinished">קובץ/ים שלא ניתן/ים לעריכה!</translation>
+        <translation>קבצים שאינם פתוחים לעריכה!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2452"/>
@@ -991,23 +991,23 @@
     <message>
         <location filename="../../fpwin.cpp" line="2592"/>
         <source>All Files (*);;.%1 Files (*.%1)</source>
-        <translation>כל הקבצים (*);;.%1 קבצים (*.%1)</translation>
+        <translation>כל הקבצים (*);;קובצי ‎.%1 ‏(‎*.%1)</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2596"/>
         <source>Open file...</source>
-        <translation>פתיחת קובץ...</translation>
+        <translation>פתיחת קובץ…</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2755"/>
         <source>.%1 Files (*.%1);;All Files (*)</source>
-        <translation type="unfinished"></translation>
+        <translation>קובצי ‎.%1‏ (‎*.%1);;כל הקבצים (*)</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2802"/>
         <location filename="../../fpwin.cpp" line="2834"/>
         <source>Save as...</source>
-        <translation>שמירה בשם...</translation>
+        <translation>שמירה בשם…</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2864"/>
@@ -1756,7 +1756,7 @@ and-drop either.</source>
     <message>
         <location filename="../../prefDialog.ui" line="583"/>
         <source> MiB</source>
-        <translation type="unfinished"></translation>
+        <translation> MiB</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1082"/>
@@ -1958,7 +1958,7 @@ be opened if they are pasted into FeatherPad.</source>
     <message>
         <location filename="../../prefDialog.ui" line="1305"/>
         <source>Syntax Colors</source>
-        <translation type="unfinished"></translation>
+        <translation>צבעי תחביר</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1321"/>
@@ -2028,7 +2028,7 @@ in the editing mode.</source>
     <message>
         <location filename="../../pref.cpp" line="379"/>
         <source>Functions, URLs,…</source>
-        <translation>פונקציות, כתובות URL,…</translation>
+        <translation>פונקציות, כתובות, …</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="380"/>
@@ -2093,12 +2093,12 @@ in the editing mode.</source>
     <message>
         <location filename="../../pref.cpp" line="1355"/>
         <source>&amp;Recently Opened</source>
-        <translation type="unfinished">נפתחו ל&amp;אחרונה</translation>
+        <translation>נפתחו ל&amp;אחרונה</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="1356"/>
         <source>Recently &amp;Modified</source>
-        <translation type="unfinished">נ&amp;ערכו לאחרונה</translation>
+        <translation>נ&amp;ערכו לאחרונה</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="1431"/>
@@ -2305,7 +2305,7 @@ windows will be included in the saved session.</source>
     <message>
         <location filename="../../sidepane.cpp" line="128"/>
         <source>Filter...</source>
-        <translation type="unfinished">סינון…</translation>
+        <translation>סינון…</translation>
     </message>
 </context>
 <context>
