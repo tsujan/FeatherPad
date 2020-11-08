@@ -1685,9 +1685,9 @@ emulator, the output and error messages
 will be shown by a popup dialog.</source>
         <translation>Ez bármilyen parancs lehet bármilyen
 kapcsolóval, például az &quot;xterm -hold&quot;
-a folyamatot aXTermben futtatja.
+a folyamatot az XTermben futtatja.
 
-Ha nincs parancs,  közvetlenül a fájl
+Ha nincs parancs, közvetlenül a fájl
 lesz futtatva.
 
 Ha a szkript nem terminálban fut,
@@ -1811,7 +1811,7 @@ megnyomásával lehet megszakítani.</translation>
     <message>
         <location filename="../../prefDialog.ui" line="677"/>
         <source>Needs window reopening to take effect.</source>
-        <translation>A beállítás érvényesítéséhez újra meg kell nyitni az ablakot.</translation>
+        <translation>Az érvényesítéshez újra meg kell nyitni az ablakot.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="705"/>
@@ -2045,7 +2045,7 @@ megnyílnak, ha be vannak illesztve a FeatherPad-be.</translation>
     <message>
         <location filename="../../prefDialog.ui" line="1372"/>
         <source>Current line highlight value:</source>
-        <translation type="unfinished">Jelenlegi sor kiemelésének értéke:</translation>
+        <translation>Aktuális sor kiemelésének értéke:</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1404"/>
