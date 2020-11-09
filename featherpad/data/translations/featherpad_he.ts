@@ -964,7 +964,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="2476"/>
         <source>Non-text files or files with huge lines cannot be edited.</source>
-        <translation type="unfinished"></translation>
+        <translation>אי אפשר לערוך קבצים שאינם טקסט או קבצים עם שורות ארוכות במיוחד.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2532"/>
@@ -974,12 +974,12 @@
     <message>
         <location filename="../../fpwin.cpp" line="2533"/>
         <source>Preferably, close all FeatherPad windows and start again!</source>
-        <translation type="unfinished"></translation>
+        <translation>עדיף לסגור את החלונות של FeatherPad ולהתחיל שוב!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2540"/>
         <source>Root Instance</source>
-        <translation type="unfinished"></translation>
+        <translation>עותק משתמש על</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2611"/>
@@ -1012,22 +1012,22 @@
     <message>
         <location filename="../../fpwin.cpp" line="2888"/>
         <source>Keep encoding and save as...</source>
-        <translation type="unfinished"></translation>
+        <translation>לשמר את הקידוד ולשמור בשם…</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3155"/>
         <source>Saving as root.</source>
-        <translation type="unfinished"></translation>
+        <translation>מתבצעת שמירה כמשתמש על.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3156"/>
         <source>Waiting for authentication...</source>
-        <translation type="unfinished"></translation>
+        <translation>בהמתנה לאימות…</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3265"/>
         <source>&quot;pkexec&quot; is not found. Please install Polkit!</source>
-        <translation type="unfinished"></translation>
+        <translation>„pkexec” לא נמצא. נא להתקין את Polkit!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2963"/>
@@ -1047,12 +1047,12 @@
     <message>
         <location filename="../../fpwin.cpp" line="2966"/>
         <source>Do you want to use &lt;b&gt;MS Windows&lt;/b&gt; end-of-lines?</source>
-        <translation type="unfinished"></translation>
+        <translation>להשתמש בסיומות שורה בסגנון &lt;b&gt;MS Windows&lt;/b&gt;?</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2967"/>
         <source>This may be good for readability under MS Windows.</source>
-        <translation type="unfinished"></translation>
+        <translation>עשוי להקל על הקריאה עם MS Windows.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3085"/>
@@ -1060,7 +1060,7 @@
         <location filename="../../fpwin.cpp" line="3264"/>
         <location filename="../../fpwin.cpp" line="3274"/>
         <source>Cannot be saved!</source>
-        <translation type="unfinished"></translation>
+        <translation>אי אפשר לשמור!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="417"/>
@@ -1080,173 +1080,175 @@
         <location filename="../../fpwin.cpp" line="5625"/>
         <location filename="../../fpwin.cpp" line="5633"/>
         <source>Syntax</source>
-        <translation type="unfinished"></translation>
+        <translation>תחביר</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2446"/>
         <source>Huge file(s) not opened!</source>
-        <translation type="unfinished"></translation>
+        <translation>קובצי ענק לא נפתחו!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3412"/>
         <source>Text tabs are converted to spaces.</source>
-        <translation type="unfinished"></translation>
+        <translation>טאבים בטקסט מומרים לרווחים.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3520"/>
         <source>The selected text was too long.</source>
-        <translation type="unfinished"></translation>
+        <translation>הטקסט הנבחר היה ארוך מדי.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3521"/>
         <source>It is not fully processed.</source>
-        <translation type="unfinished"></translation>
+        <translation>הוא לא עובד במלואו.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3659"/>
         <location filename="../../fpwin.cpp" line="3850"/>
         <source>This file has been modified elsewhere or in another way!</source>
-        <translation type="unfinished"></translation>
+        <translation>הקובץ נערך במקום אחר או בדרך אחרת!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3660"/>
         <location filename="../../fpwin.cpp" line="3851"/>
         <source>Please be careful about reloading or saving this document!</source>
-        <translation type="unfinished"></translation>
+        <translation>נא להיזהר ברענון או שמירת המסמך הזה!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4370"/>
         <source>Print Document</source>
-        <translation type="unfinished"></translation>
+        <translation>הדפסת המסמך</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4995"/>
         <location filename="../../fpwin.cpp" line="5074"/>
         <source>%1 Pages</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 דפים</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5022"/>
         <location filename="../../fpwin.cpp" line="5106"/>
         <source>Copy Target Path</source>
-        <translation type="unfinished"></translation>
+        <translation>העתקת נתיב היעד</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5026"/>
         <location filename="../../fpwin.cpp" line="5110"/>
         <source>Open Target Here</source>
-        <translation type="unfinished"></translation>
+        <translation>לפתוח את היעד כאן</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5044"/>
         <location filename="../../fpwin.cpp" line="5129"/>
         <source>Open Containing Folder</source>
-        <translation type="unfinished"></translation>
+        <translation>לפתוח את התיקייה המכילה</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5238"/>
         <source>You need to add a Hunspell dictionary.</source>
-        <translation type="unfinished"></translation>
+        <translation>עליך להוסיף מילון Hunspell.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5239"/>
         <location filename="../../fpwin.cpp" line="5245"/>
         <location filename="../../fpwin.cpp" line="5254"/>
         <source>See Preferences → Text → Spell Checking!</source>
-        <translation type="unfinished"></translation>
+        <translation>מוטב לגשת אל העדפות ← טקסט ← בדיקת איות!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5244"/>
         <source>The Hunspell dictionary does not exist.</source>
-        <translation type="unfinished"></translation>
+        <translation>מילון Hunspell לא קיים.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5253"/>
         <source>The Hunspell dictionary is not accompanied by an affix file.</source>
-        <translation type="unfinished"></translation>
+        <translation>מילון ה־Hunspell לא מלווה בקובץ מוספית.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5275"/>
         <location filename="../../fpwin.cpp" line="5293"/>
         <location filename="../../fpwin.cpp" line="5308"/>
         <source>No misspelling in document.</source>
-        <translation type="unfinished"></translation>
+        <translation>אין שגיאות איות במסמך.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5277"/>
         <location filename="../../fpwin.cpp" line="5295"/>
         <location filename="../../fpwin.cpp" line="5310"/>
         <source>No misspelling from text cursor.</source>
-        <translation type="unfinished"></translation>
+        <translation>אין שגיאות איות בסמן הטקסט.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5323"/>
         <source>Spell Checking</source>
-        <translation type="unfinished"></translation>
+        <translation>בדיקת איות</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5657"/>
         <source>Some files cannot be saved!</source>
-        <translation type="unfinished"></translation>
+        <translation>לא ניתן לשמור חלק מהקבצים!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5704"/>
         <source>Translators</source>
-        <translation type="unfinished"></translation>
+        <translation>מתרגמים</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5700"/>
         <source>A lightweight, tabbed, plain-text editor</source>
-        <translation type="unfinished"></translation>
+        <translation>עורך טקסט פשוט, קליל ומסודר בלשוניות</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5701"/>
         <source>based on Qt</source>
-        <translation type="unfinished"></translation>
+        <translation>מבוסס על Qt</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5702"/>
         <source>Author</source>
-        <translation></translation>
+        <translation>יוצר</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5703"/>
         <source>aka.</source>
-        <translation type="unfinished"></translation>
+        <translation>ידוע גם בתור</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5704"/>
         <location filename="../../fpwin.cpp" line="5705"/>
         <source>About FeatherPad</source>
-        <translation type="unfinished"></translation>
+        <translation>על אודות FeatherPad</translation>
     </message>
     <message>
         <location filename="../../replace.cpp" line="243"/>
         <source>No Replacement</source>
-        <translation type="unfinished"></translation>
+        <translation>אין החלפה</translation>
     </message>
     <message>
         <location filename="../../replace.cpp" line="245"/>
         <source>One Replacement</source>
-        <translation type="unfinished"></translation>
+        <translation>החלפה אחת</translation>
     </message>
     <message numerus="yes">
         <location filename="../../replace.cpp" line="247"/>
         <source>%Ln Replacements</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>החלפה אחת</numerusform>
+            <numerusform>%Ln החלפות</numerusform>
+            <numerusform>%Ln החלפות</numerusform>
+            <numerusform>%Ln החלפות</numerusform>
         </translation>
     </message>
     <message>
         <location filename="../../replace.cpp" line="251"/>
         <source>The first 1000 replacements are highlighted.</source>
-        <translation type="unfinished"></translation>
+        <translation>1000 ההחלפות הראשונות מודגשות.</translation>
     </message>
     <message>
         <location filename="../../syntax.cpp" line="273"/>
         <source>The size limit for syntax highlighting is exceeded.</source>
-        <translation type="unfinished"></translation>
+        <translation>חרגת ממגבלת גודל הדגשת התחביר.</translation>
     </message>
 </context>
 <context>
@@ -1261,7 +1263,7 @@
         <location filename="../../filedialog.h" line="49"/>
         <source>Alt+.</source>
         <comment>Toggle showing hidden files</comment>
-        <translation>Alt+.</translation>
+        <translation>Alt+.‎</translation>
     </message>
 </context>
 <context>
@@ -1274,7 +1276,7 @@
     <message>
         <location filename="../../fontDialog.ui" line="38"/>
         <source>Programming Fonts</source>
-        <translation type="unfinished"></translation>
+        <translation>גופני פיתוח</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="45"/>
@@ -1328,7 +1330,7 @@
     <message>
         <location filename="../../lineedit.cpp" line="34"/>
         <source>Clear text (Ctrl+K)</source>
-        <translation type="unfinished"></translation>
+        <translation>לפנות את הטקסט (Ctrl+K)</translation>
     </message>
 </context>
 <context>
@@ -1336,7 +1338,7 @@
     <message>
         <location filename="../../prefDialog.ui" line="14"/>
         <source>Preferences</source>
-        <translation type="unfinished"></translation>
+        <translation>העדפות</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="30"/>
@@ -1346,12 +1348,12 @@
     <message>
         <location filename="../../prefDialog.ui" line="69"/>
         <source>Window Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>הגדרות חלון</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="75"/>
         <source>Remember window &amp;size on closing</source>
-        <translation type="unfinished"></translation>
+        <translation>לשמור את &amp;גודל החלון עם הסגירה</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="84"/>
@@ -1359,23 +1361,23 @@
         <location filename="../../prefDialog.ui" line="107"/>
         <location filename="../../prefDialog.ui" line="120"/>
         <source>Window frame is excluded.</source>
-        <translation type="unfinished"></translation>
+        <translation>מסגרת החלון לא כלולה.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="87"/>
         <source>Start with this size: </source>
-        <translation type="unfinished"></translation>
+        <translation>להתחיל בגודל הזה: </translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="100"/>
         <location filename="../../prefDialog.ui" line="123"/>
         <source> px</source>
-        <translation type="unfinished"></translation>
+        <translation> פיקסלים</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="110"/>
         <source>×</source>
-        <translation type="unfinished"></translation>
+        <translation>×</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="148"/>
@@ -1444,7 +1446,7 @@ has a separate search history.</source>
     <message>
         <location filename="../../prefDialog.ui" line="261"/>
         <source>Show cursor position on status bar</source>
-        <translation type="unfinished"></translation>
+        <translation>להציג את מיקום הסמן בסרגל המצב</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="272"/>
@@ -1455,7 +1457,7 @@ has a separate search history.</source>
     <message>
         <location filename="../../prefDialog.ui" line="275"/>
         <source>Tab position: </source>
-        <translation type="unfinished"></translation>
+        <translation>מיקום הלשוניות: </translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="286"/>
@@ -1470,12 +1472,12 @@ has a separate search history.</source>
     <message>
         <location filename="../../prefDialog.ui" line="296"/>
         <source>West</source>
-        <translation type="unfinished"></translation>
+        <translation>מערב</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="301"/>
         <source>East</source>
-        <translation type="unfinished"></translation>
+        <translation>מזרח</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="327"/>
@@ -1507,7 +1509,7 @@ report that they have multiple desktops.</source>
     <message>
         <location filename="../../prefDialog.ui" line="367"/>
         <source>Always open in separate windows</source>
-        <translation type="unfinished"></translation>
+        <translation>תמיד לפתוח בחלונות נפרדים</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="374"/>
@@ -1530,17 +1532,17 @@ Some desktop environments, like KDE and LXQt, provide files dialogs.</source>
     <message>
         <location filename="../../prefDialog.ui" line="459"/>
         <source>Remember &amp;font</source>
-        <translation type="unfinished"></translation>
+        <translation>ל&amp;זכור את הגופן</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="480"/>
         <source>This covers parentheses, braces, brackets and quotes.</source>
-        <translation type="unfinished"></translation>
+        <translation>כולל סוגריים רגילים, מסולסלים, מרובעים וציטטות.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="483"/>
         <source>Auto-&amp;bracket</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;סגירה אוטומטית</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="490"/>
@@ -1973,23 +1975,23 @@ be opened if they are pasted into FeatherPad.</source>
     <message>
         <location filename="../../prefDialog.ui" line="1339"/>
         <source>Whitespace color value:</source>
-        <translation type="unfinished"></translation>
+        <translation>ערך צבע רווח:</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1369"/>
         <location filename="../../prefDialog.ui" line="1379"/>
         <source>Has effect only if line numbers are shown.</source>
-        <translation type="unfinished"></translation>
+        <translation>תקף רק אם מופיעים מספרי שורות.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1372"/>
         <source>Current line highlight value:</source>
-        <translation type="unfinished"></translation>
+        <translation>ערך הדגשת השורה הנוכחית:</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1404"/>
         <source>Restore default syntax colors.</source>
-        <translation type="unfinished"></translation>
+        <translation>שחזור צבעי התחביר כבררת מחדל.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1439"/>
@@ -2033,17 +2035,17 @@ in the editing mode.</source>
     <message>
         <location filename="../../pref.cpp" line="380"/>
         <source>Built-in Functions</source>
-        <translation type="unfinished"></translation>
+        <translation>פונקציות מובנות</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="381"/>
         <source>Comments</source>
-        <translation type="unfinished"></translation>
+        <translation>הערות</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="382"/>
         <source>Quotations</source>
-        <translation type="unfinished"></translation>
+        <translation>ציטוטים</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="383"/>
@@ -2063,17 +2065,17 @@ in the editing mode.</source>
     <message>
         <location filename="../../pref.cpp" line="386"/>
         <source>Regular Expressions, Code Blocks,…</source>
-        <translation type="unfinished"></translation>
+        <translation>ביטויים רגולריים, מקטעי קוד, …</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="387"/>
         <source>Document Blocks, XML/HTML Elements,…</source>
-        <translation type="unfinished"></translation>
+        <translation>מקטעי מסמך, רכיבי XML/HTML, …</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="388"/>
         <source>Markdown Headings, CSS Values,…</source>
-        <translation type="unfinished"></translation>
+        <translation>כותרות Markdown, ערכי CSS, …</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="389"/>
@@ -2103,7 +2105,7 @@ in the editing mode.</source>
     <message>
         <location filename="../../pref.cpp" line="1431"/>
         <source>The typed shortcut was reserved.</source>
-        <translation type="unfinished"></translation>
+        <translation>קיצור הדרך שהוקלד נשמר.</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="1635"/>
