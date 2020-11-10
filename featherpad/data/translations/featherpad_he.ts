@@ -1381,12 +1381,13 @@
         <location filename="../../prefDialog.ui" line="148"/>
         <source>Enforcing a window position is not recommended
 and may not work with some window managers.</source>
-        <translation type="unfinished"></translation>
+        <translation>לא מומלץ לקבע מיקום חלון וזה גם עלול
+לא לעבוד בחלק ממנהלי החלונות.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="152"/>
         <source>Remember window &amp;position on closing</source>
-        <translation type="unfinished"></translation>
+        <translation>ל&amp;זכור את מיקום החלון בעתה סגירה</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="159"/>
