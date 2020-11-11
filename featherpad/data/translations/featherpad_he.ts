@@ -1236,6 +1236,8 @@
         <translation>
             <numerusform>החלפה אחת</numerusform>
             <numerusform>%Ln החלפות</numerusform>
+            <numerusform>%Ln החלפות</numerusform>
+            <numerusform>%Ln החלפות</numerusform>
         </translation>
     </message>
     <message>
@@ -1393,54 +1395,57 @@ and may not work with some window managers.</source>
         <location filename="../../prefDialog.ui" line="159"/>
         <source>Most suitable with sessions
 but without tab functionality.</source>
-        <translation type="unfinished"></translation>
+        <translation>הכי מתאים להפעלות אבל
+בלי תכונות דפדוף בלשוניות.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="188"/>
         <source>Uncheck for 1/5 of the width.</source>
-        <translation type="unfinished"></translation>
+        <translation>לבטל סימון בשביל 1/5 מהרוחב.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="191"/>
         <source>Remember splitter position</source>
-        <translation type="unfinished"></translation>
+        <translation>לזכור את מיקום המפריד</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="200"/>
         <source>Do not show &amp;toolbar</source>
-        <translation type="unfinished"></translation>
+        <translation>לא להציג &amp;סרגל כלים</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="207"/>
         <source>If the menubar is hidden,
 a menu button appears on the toolbar.</source>
-        <translation type="unfinished"></translation>
+        <translation>אם סרגל התפריטים מוסתר,
+מופיע כפתור תפריט על סרגל הכלים.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="211"/>
         <source>Do not show &amp;menubar</source>
-        <translation type="unfinished"></translation>
+        <translation>לא להציג את &amp;סרגל התפריטים</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="218"/>
         <source>Hide search &amp;bar by default</source>
-        <translation type="unfinished"></translation>
+        <translation>להסתיר את סרגל החיפוש כ&amp;בררת מחדל</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="225"/>
         <source>By default, each search entry
 has a separate search history.</source>
-        <translation type="unfinished"></translation>
+        <translation>כבררת מחדל, לכל רשומת חיפוש
+יש היסטוריית חיפוש נפרדת.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="229"/>
         <source>Use a shared search history</source>
-        <translation type="unfinished"></translation>
+        <translation>להשתמש בהיסטוריית חיפוש שיתופית</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="236"/>
         <source>Always show st&amp;atus bar</source>
-        <translation type="unfinished"></translation>
+        <translation>תמיד להציג סרגל מ&amp;צב</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="261"/>
@@ -1451,7 +1456,7 @@ has a separate search history.</source>
         <location filename="../../prefDialog.ui" line="272"/>
         <location filename="../../prefDialog.ui" line="282"/>
         <source>Will take effect after closing this dialog.</source>
-        <translation type="unfinished"></translation>
+        <translation>השינוי יחול לאחר סגירת תיבת הדו־שיח.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="275"/>
@@ -1484,17 +1489,20 @@ has a separate search history.</source>
 after the last tab is activated, and the same for Alt+Left.
 
 Tab navigation with mouse wheel is not affected.</source>
-        <translation type="unfinished"></translation>
+        <translation>משמעות הדבר היא ש־Alt+שמאלה יקפיץ ללשונית הראשונה
+לאחר הפעלת הלשונית האחרונה ואותו דבר ל־Alt+ימינה.
+
+ניווט בלשוניות עם גלגלת העכבר לא ישתנה.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="333"/>
         <source>Tab navigation wraps &amp;around</source>
-        <translation type="unfinished"></translation>
+        <translation>ניווט בין לשוניות &amp;גולש בחזרה</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="353"/>
         <source>Close window on closing its last tab</source>
-        <translation type="unfinished"></translation>
+        <translation>לסגור את החלון עם סגירת הלשונית האחרונה בו</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="360"/>
@@ -1569,29 +1577,31 @@ of the selected text.</source>
     <message>
         <location filename="../../prefDialog.ui" line="576"/>
         <source>Never highlight syntax for files &gt; </source>
-        <translation type="unfinished"></translation>
+        <translation>אף פעם לא להדגיש תחביר לקבצים &gt; </translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="545"/>
         <source>This creates a menu button on the
 status bar for changing the syntax.</source>
-        <translation type="unfinished"></translation>
+        <translation>יוצר כפתור תפריט בסרגל
+המצב לשינוי התחביר.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="549"/>
         <source>Support syntax override</source>
-        <translation type="unfinished"></translation>
+        <translation>תמיכה בדריסת תחביר</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="614"/>
         <source>Show spaces, tabs and tab lines
 when the syntax is highlighted.</source>
-        <translation type="unfinished"></translation>
+        <translation>להציג רווחים, טאבים ושורות טאב
+כאשר מופעלת הדגשת תחביר.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="618"/>
         <source>Show whitespaces</source>
-        <translation type="unfinished"></translation>
+        <translation>להציג רווחים</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="634"/>
@@ -1603,38 +1613,39 @@ the editor font has a fixed pitch (like Monospace).</source>
     <message>
         <location filename="../../prefDialog.ui" line="638"/>
         <source>Show vertical lines starting from this position:</source>
-        <translation type="unfinished"></translation>
+        <translation>להציג שורות אנכיות החל מהמיקום הזה:</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="625"/>
         <source>Also show line and document ends</source>
-        <translation type="unfinished"></translation>
+        <translation>להציג גם סיומות שורה ומסמך</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="764"/>
         <source>Date and time format:</source>
-        <translation type="unfinished"></translation>
+        <translation>תצורת תאריך ושעה:</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="834"/>
         <source>Some text editors cannot open a document
 whose last line is not empty.</source>
-        <translation type="unfinished"></translation>
+        <translation>חלק מעורכי הטקסט לא יכולים לפתוח
+מסמך שהשורה האחרונה שלו אינה ריקה.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="838"/>
         <source>Ensure an empty last line on saving</source>
-        <translation type="unfinished"></translation>
+        <translation>לוודא שיש שורה ריקה בסוף עם השמירה</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="845"/>
         <source>Remove trailing spaces on saving</source>
-        <translation type="unfinished"></translation>
+        <translation>להסיר רווח מהסוף בעת שמירה</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="863"/>
         <source>Inertial scrolling with mouse wheel</source>
-        <translation type="unfinished"></translation>
+        <translation>גלילה מתמידה עם גלגלת העכבר</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="952"/>
@@ -1644,7 +1655,7 @@ whose last line is not empty.</source>
     <message>
         <location filename="../../prefDialog.ui" line="958"/>
         <source>File Management</source>
-        <translation type="unfinished"></translation>
+        <translation>ניהול קבצים</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1075"/>
@@ -1679,7 +1690,7 @@ will be shown by a popup dialog.</source>
     <message>
         <location filename="../../prefDialog.ui" line="1033"/>
         <source>Show recentl&amp;y modified files</source>
-        <translation type="unfinished"></translation>
+        <translation>להציג את הקבצים שנערכו ל&amp;אחרונה</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1063"/>
@@ -1699,7 +1710,7 @@ will be shown by a popup dialog.</source>
     <message>
         <location filename="../../prefDialog.ui" line="163"/>
         <source>Start with side-pane mode</source>
-        <translation type="unfinished"></translation>
+        <translation>להתחיל במצב סרגל צד</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="340"/>
@@ -1727,7 +1738,7 @@ and-drop either.</source>
     <message>
         <location filename="../../prefDialog.ui" line="466"/>
         <source>&amp;Wrap lines by default</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;גלישת שורות כבררת מחדל</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="473"/>
@@ -1839,7 +1850,7 @@ if the cursor is inside the text view?</source>
     <message>
         <location filename="../../prefDialog.ui" line="870"/>
         <source>Spell Checking</source>
-        <translation type="unfinished">בדיקת איות</translation>
+        <translation>בדיקת איות</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="878"/>
@@ -2207,7 +2218,8 @@ in the editing mode.</source>
         <location filename="../../sessionDialog.ui" line="159"/>
         <source>By default, all files that are opened in all
 windows will be included in the saved session.</source>
-        <translation type="unfinished"></translation>
+        <translation>כבררת המחדל כל הקבצים שפתוחים בכל
+החלונות יכללו בהפעלה השמורה.</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="163"/>
