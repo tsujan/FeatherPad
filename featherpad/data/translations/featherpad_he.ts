@@ -1511,7 +1511,11 @@ current desktop, files will be opened in its tabs.
 
 However, some desktop environments may not
 report that they have multiple desktops.</source>
-        <translation type="unfinished"></translation>
+        <translation>כבררת מחדל, אם קיים חלון FeatherPad בשולחן
+העבודה הנוכחי, הקבצים ייפתחו אצלו בלשוניות.
+
+עם זאת, חלק מסביבות שולחן העבודה עשויות
+שלא לדווח שהן מחזיקות מספר שולחנות עבודה.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="367"/>
@@ -1524,17 +1528,20 @@ report that they have multiple desktops.</source>
 desktop environment will be used instead of the Qt file dialog.
 
 Some desktop environments, like KDE and LXQt, provide files dialogs.</source>
-        <translation type="unfinished"></translation>
+        <translation>אם אפשרות זו מסומנת, תיבת דו־שיח הקובץ שמסופקת על ידי סביבת
+שולחן העבודה הנוכחית תהיה בשימוש במקום תיבת הדו־שיח של Qt.
+
+חלק מסביבות העבודה כגון KDE ו־LXQt מספקות תיבות דו שיח לבחירת קבצים.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="380"/>
         <source>Native file dialog</source>
-        <translation type="unfinished"></translation>
+        <translation>תיבת דו־שיח קבצים טבעית</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="456"/>
         <source>Uncheck for Monospace.</source>
-        <translation type="unfinished"></translation>
+        <translation>לבטל סימון לרוחב אחיד.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="459"/>
@@ -1556,23 +1563,26 @@ Some desktop environments, like KDE and LXQt, provide files dialogs.</source>
         <source>By default, a triple period is replaced with an ellipsis
 and a double hyphen with a long dash while typing,
 under proper circumstances.</source>
-        <translation type="unfinished"></translation>
+        <translation>כבררת מחדל, שלוש נקודות יוחלפו בסימן השמטה
+ומינוס כפול יוחלף במינוס ארוך בזמן ההקלדה,
+תחת תנאים מתאימים.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="495"/>
         <source>Replace triple periods and double hyphens while typing</source>
-        <translation type="unfinished"></translation>
+        <translation>החלפת שלוש נקודות ומינוסים כפולים בזמן ההקלדה</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="509"/>
         <source>Highlight case-sensitive and whole matches
 of the selected text.</source>
-        <translation type="unfinished"></translation>
+        <translation>להדגיש התאמות תלויות רישיות ומלאות
+של הטקסט הנבחר.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="513"/>
         <source>Selection highlighting</source>
-        <translation type="unfinished"></translation>
+        <translation>הדגשת בחירה</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="576"/>
@@ -1608,7 +1618,8 @@ when the syntax is highlighted.</source>
         <location filename="../../prefDialog.ui" line="645"/>
         <source>The vertical position lines will be drawn only if
 the editor font has a fixed pitch (like Monospace).</source>
-        <translation type="unfinished"></translation>
+        <translation>קווי המיקום האנכי יצוירו רק עם אותיות גופן העורך הן
+באותו הרוחב (כגון רוחב אחיד).</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="638"/>
@@ -1695,7 +1706,7 @@ will be shown by a popup dialog.</source>
     <message>
         <location filename="../../prefDialog.ui" line="1063"/>
         <source>Show recentl&amp;y opened files</source>
-        <translation type="unfinished"></translation>
+        <translation>להציג קבצים שנפתחו ל&amp;אחרונה</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1162"/>
@@ -1743,17 +1754,17 @@ and-drop either.</source>
     <message>
         <location filename="../../prefDialog.ui" line="473"/>
         <source>Auto-&amp;indent by default</source>
-        <translation type="unfinished"></translation>
+        <translation>לה&amp;זיח אוטומטית כבררת מחדל</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="502"/>
         <source>Always show line &amp;numbers</source>
-        <translation type="unfinished"></translation>
+        <translation>תמיד להציג מ&amp;ספרי שורות</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="520"/>
         <source>Highlight s&amp;yntax by default</source>
-        <translation type="unfinished"></translation>
+        <translation>ה&amp;דגשת תחביר כבררת מחדל</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="680"/>
@@ -1763,7 +1774,7 @@ and-drop either.</source>
     <message>
         <location filename="../../prefDialog.ui" line="715"/>
         <source>Background color value: </source>
-        <translation type="unfinished"></translation>
+        <translation>ערך צבע רקע: </translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="583"/>
@@ -1803,7 +1814,7 @@ Needs window reopening to take effect.</source>
     <message>
         <location filename="../../prefDialog.ui" line="1092"/>
         <source>Run executable scripts</source>
-        <translation type="unfinished"></translation>
+        <translation>הרצת סקריפטים שניתן להריץ</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="966"/>
@@ -1813,7 +1824,11 @@ opened files FeatherPad shows. The default
 is 10.
 
 Needs application restart to take effect.</source>
-        <translation type="unfinished"></translation>
+        <translation>הכמות המרבית של קבצים שנערכו או נפתחו לאחרונה
+ש־FeatherPad מציג. בררת המחדל היא 10.
+
+צריך להפעיל את היישומון מחדש כדי שהשינויים
+ייכנסו לתוקף.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="756"/>
@@ -1824,28 +1839,34 @@ Takes effect after closing this dialog.
 
 Leave empty for:
 MMM dd, yyyy, hh:mm:ss</source>
-        <translation type="unfinished"></translation>
+        <translation>משמש להדבקת התאריך והשעה.
+
+חל לאחר סגירת תיבת הדו־שיח.
+
+יש להשאיר ריק כדי לקבל:
+MMM dd, yyyy, hh:mm:ss</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="793"/>
         <source>Text tab size:</source>
-        <translation type="unfinished"></translation>
+        <translation>גודל טאב טקסט:</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="800"/>
         <source> spaces</source>
-        <translation type="unfinished"></translation>
+        <translation> רווחים</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="852"/>
         <source>Thick text cursor</source>
-        <translation type="unfinished"></translation>
+        <translation>סמן טקסט עבה</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="859"/>
         <source>Should the mouse wheel scrolling be inertial
 if the cursor is inside the text view?</source>
-        <translation type="unfinished"></translation>
+        <translation>האם גלילת העכבר צריכה להיות מתמדת
+אם הסמן בתוך תצוגת הטקסט?</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="870"/>
@@ -1858,18 +1879,19 @@ if the cursor is inside the text view?</source>
         <source>A Hunspell dictionary has a name that ends with &quot;.dic&quot;
 and should be alongside an affix file with the same
 name but ending with &quot;.aff&quot;.</source>
-        <translation type="unfinished"></translation>
+        <translation>שם של מילון Hunspell מסתיים ב־ „‎.dic” ואמור להיות לצד
+קובץ מוספית עם אותו השם אך עם הסיומת „‎.aff”.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="883"/>
         <source>Hunspell dictionary path:</source>
-        <translation type="unfinished"></translation>
+        <translation>נתיב מילון Hunspell:</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="902"/>
         <location filename="../../pref.cpp" line="1633"/>
         <source>Add dictionary...</source>
-        <translation type="unfinished"></translation>
+        <translation>הוספת מילון…</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="914"/>
@@ -1880,28 +1902,28 @@ will be started from the document start.</source>
     <message>
         <location filename="../../prefDialog.ui" line="918"/>
         <source>Start spell checking from text cursor</source>
-        <translation type="unfinished"></translation>
+        <translation>להתחיל בדיקת איות מסמן הטקסט</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="973"/>
         <source>Number of recent files: </source>
-        <translation type="unfinished"></translation>
+        <translation>מספר הקבצים האחרונים: </translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1072"/>
         <source>Only if their number is not greater than 50.</source>
-        <translation type="unfinished"></translation>
+        <translation>רק אם המספר שלהם אינו עולה על 50.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1159"/>
         <location filename="../../prefDialog.ui" line="1169"/>
         <source>Only for files that exist and can be saved.</source>
-        <translation type="unfinished"></translation>
+        <translation>רק עבור קבצים שקיימים וניתן לשמור אותם.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1172"/>
         <source> min</source>
-        <translation type="unfinished"></translation>
+        <translation> דקות</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1203"/>
@@ -1916,17 +1938,17 @@ trailing spaces of a text file.</source>
     <message>
         <location filename="../../prefDialog.ui" line="1211"/>
         <source>Allow saving unmodified files</source>
-        <translation type="unfinished"></translation>
+        <translation>לאפשר שמירת קבצים שלא השתנו</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1218"/>
         <source>Show a warning instead.</source>
-        <translation type="unfinished"></translation>
+        <translation>להציג אזהרה במקום.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1221"/>
         <source>Do not permit opening of non-text files</source>
-        <translation type="unfinished"></translation>
+        <translation>לא לאפשר פתיחת קבצים שאינם טקסט</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1228"/>
@@ -2012,18 +2034,19 @@ be opened if they are pasted into FeatherPad.</source>
         <location filename="../../pref.cpp" line="95"/>
         <source>Press a modifier key to clear a shortcut
 in the editing mode.</source>
-        <translation type="unfinished"></translation>
+        <translation>יש ללחוץ על מקש החלפה כדי לפנות קיצור דרך
+במצב העריכה.</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="101"/>
         <source>Double click a color to change it.</source>
-        <translation type="unfinished"></translation>
+        <translation>יש ללחוץ על צבע לחיצה כפולה כדי לשנות אותו.</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="293"/>
         <location filename="../../pref.cpp" line="1329"/>
         <source>files</source>
-        <translation type="unfinished"></translation>
+        <translation>קבצים</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="293"/>
@@ -2035,7 +2058,7 @@ in the editing mode.</source>
         <location filename="../../pref.cpp" line="346"/>
         <location filename="../../pref.cpp" line="1448"/>
         <source>Warning: Ambiguous shortcut detected!</source>
-        <translation type="unfinished"></translation>
+        <translation>אזהרה: התגלה קיצור דרך דו־משמעי!</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="379"/>
