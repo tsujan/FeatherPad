@@ -979,7 +979,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="2592"/>
         <source>Root Instance</source>
-        <translation>Rendszergazdaként</translation>
+        <translation>Root példány</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2663"/>
@@ -1017,17 +1017,17 @@
     <message>
         <location filename="../../fpwin.cpp" line="3238"/>
         <source>Saving as root.</source>
-        <translation type="unfinished"></translation>
+        <translation>Mentés rootként.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3239"/>
         <source>Waiting for authentication...</source>
-        <translation type="unfinished"></translation>
+        <translation>Várakozás hitelesítésre...</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3357"/>
         <source>&quot;pkexec&quot; is not found. Please install Polkit!</source>
-        <translation type="unfinished"></translation>
+        <translation>A &quot;pkexec&quot; nem található. Telepítse a Polkit programot!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3044"/>
@@ -1095,12 +1095,12 @@
     <message>
         <location filename="../../fpwin.cpp" line="3618"/>
         <source>The selected text was too long.</source>
-        <translation type="unfinished"></translation>
+        <translation>A kijelölt szöveg túl hosszú volt.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3619"/>
         <source>It is not fully processed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Nincs teljesen feldolgozva.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3757"/>
@@ -1981,8 +1981,8 @@ Ez néhány körülmény között hasznos lehet: pl. az időbélyeg megváltozta
         <location filename="../../prefDialog.ui" line="1228"/>
         <source>By default, when files are copied, they will
 be opened if they are pasted into FeatherPad.</source>
-        <translation type="unfinished">Alapértelmezés szerint a fájlok másolásakor
-megnyílnak, ha be vannak illesztve a FeatherPad-be.</translation>
+        <translation>Alapértelmezés szerint a fájlok másoláskor
+megnyílnak, ha be vannak illesztve a FeatherPadbe.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1232"/>
@@ -2061,7 +2061,7 @@ megnyílnak, ha be vannak illesztve a FeatherPad-be.</translation>
         <location filename="../../pref.cpp" line="95"/>
         <source>Press a modifier key to clear a shortcut
 in the editing mode.</source>
-        <translation type="unfinished">Nyomjon egy módosítóbillentyűt, hogy
+        <translation>Nyomjon egy módosítóbillentyűt, hogy
 törölje a kombinációt.</translation>
     </message>
     <message>
