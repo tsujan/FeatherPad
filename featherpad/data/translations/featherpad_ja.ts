@@ -1031,17 +1031,17 @@
     <message>
         <location filename="../../fpwin.cpp" line="3239"/>
         <source>Saving as root.</source>
-        <translation type="unfinished"></translation>
+        <translation>root として保存します。</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3240"/>
         <source>Waiting for authentication...</source>
-        <translation type="unfinished"></translation>
+        <translation>認証を待っています...</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3358"/>
         <source>&quot;pkexec&quot; is not found. Please install Polkit!</source>
-        <translation type="unfinished"></translation>
+        <translation>&quot;pkexec&quot; が見つかりません。Polkit をインストールして下さい！</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3045"/>
