@@ -1017,12 +1017,12 @@ linea (Ctrl + Shift + J)</translation>
     <message>
         <location filename="../../fpwin.cpp" line="3239"/>
         <source>Saving as root.</source>
-        <translation type="unfinished"></translation>
+        <translation>Salvando come amministratore.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3240"/>
         <source>Waiting for authentication...</source>
-        <translation type="unfinished"></translation>
+        <translation>In attesa di autenticazione...</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3358"/>
@@ -1095,12 +1095,12 @@ linea (Ctrl + Shift + J)</translation>
     <message>
         <location filename="../../fpwin.cpp" line="3619"/>
         <source>The selected text was too long.</source>
-        <translation type="unfinished"></translation>
+        <translation>Il testo selezionato era troppo lungo.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3620"/>
         <source>It is not fully processed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Non è processato completamente.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3758"/>
