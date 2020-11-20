@@ -1686,7 +1686,16 @@ will be executed directly.
 If the script is not run in a terminal
 emulator, the output and error messages
 will be shown by a popup dialog.</source>
-        <translation type="unfinished"></translation>
+        <translation>זאת יכולה להיות כל פקודת הפעלה עם
+משתנים, למשל, „xterm -hold” להרצת
+התהליך בתוך XTerm.
+
+אם הפקודה נשארת ריקה, הקובץ יופעל
+ישירות.
+
+אם הסקריפט לא מופעל בהדמיית מסוף,
+הפלט והודעות השגיאה יופיעו בחלונית
+דו־שיח קופצת.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1129"/>
@@ -1729,7 +1738,9 @@ will be shown by a popup dialog.</source>
 tooltip and context menu of a single tab but you could not
 merge a single tabbed window into another one by tab drag-
 and-drop either.</source>
-        <translation type="unfinished"></translation>
+        <translation>אם אפשרות זו מסומנת, לא רק שהעצות המפורטות ותפריט
+ההקשר ללשונית יחידה ילכו לאיבוד אך גם לא יתאפשר לך
+למזג חלון אחד עם לשוניות לתוך חלון אחר בגרירה והשלכה.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="346"/>
@@ -1791,7 +1802,14 @@ executable, the file will be executed by clicking
 the Run button, that appears on the toolbar/filemenu
 when needed, or by its shortcut Ctrl+E. Then, the
 process could be killed by Ctrl+Alt+E.</source>
-        <translation type="unfinished"></translation>
+        <translation>כולל רק קובצי הפעלה שנכתבו בשפות סקריפטים כגון
+Shell ו־Python.
+
+אם האפשרות מסומנת וניתן להפעיל את הקובץ שנפתח,
+הקובץ יופעל בלחיצה על כפתור ההרצה שמופיע בסרגל
+הכלים/תפריט הקובץ בעת הצורך או עם קיצור הדרך
+Ctrl+E. לאחר מכן, ניתן להרוד את התהליך בעזרת
+Ctrl+Alt+E.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="677"/>
@@ -1809,7 +1827,14 @@ between 230 and 255; for the dark
 background, between 0 and 50.
 
 Needs window reopening to take effect.</source>
-        <translation type="unfinished"></translation>
+        <translation>ערך הצבע של הרקע.
+255 זה לבן בעוד 0 זה שחור.
+
+לרקע בהיר, זה יכול להיות בין 230
+ל־255, לרקע כהה בין 0 ל־50.
+
+יש לפתוח את החלון מחדש כדי להחיל את
+השינויים.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1092"/>
@@ -1897,7 +1922,8 @@ name but ending with &quot;.aff&quot;.</source>
         <location filename="../../prefDialog.ui" line="914"/>
         <source>If this is unchecked, spell checking
 will be started from the document start.</source>
-        <translation type="unfinished"></translation>
+        <translation>אם האפשרות הזאת אינה מסומנת, בדיקת איות
+תחל עם פתיחת המסמך.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="918"/>
@@ -1933,7 +1959,11 @@ be used also when the opened file is not modified.
 This can be useful under certain circumstances,
 e.g. for changing the time stamp or removing the
 trailing spaces of a text file.</source>
-        <translation type="unfinished"></translation>
+        <translation>אם אפשרות זו מסומנת, הכפתור/הפריט בתפריט שמירה
+יכול לשמש גם כאשר הקבצים שנפתחו לא נערכו.
+
+עשוי להיות שימושי במקרים מסוימים, למשל לטובת שינוי
+חותמת הזמן או הסרת הרווחים ההתחלתיים בקובץ טקסט.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1211"/>
