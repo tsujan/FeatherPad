@@ -1117,7 +1117,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="4426"/>
         <source>Printing in progress...</source>
-        <translation type="unfinished"></translation>
+        <translation>印刷中です...</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4477"/>
@@ -1629,7 +1629,7 @@ of the selected text.</source>
     <message>
         <location filename="../../prefDialog.ui" line="513"/>
         <source>Selection highlighting</source>
-        <translation>選択ハイライト表示</translation>
+        <translation>選択ハイライト表示する</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="520"/>
