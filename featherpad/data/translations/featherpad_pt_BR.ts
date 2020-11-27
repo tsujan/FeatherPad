@@ -1017,17 +1017,17 @@
     <message>
         <location filename="../../fpwin.cpp" line="3241"/>
         <source>Saving as root.</source>
-        <translation type="unfinished"></translation>
+        <translation>Salvando como root.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3242"/>
         <source>Waiting for authentication...</source>
-        <translation type="unfinished"></translation>
+        <translation>Aguardando autenticação...</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3360"/>
         <source>&quot;pkexec&quot; is not found. Please install Polkit!</source>
-        <translation type="unfinished"></translation>
+        <translation>&quot;pkexec&quot; não foi encontrado. Por favor, instale o Polkit!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3047"/>
@@ -1117,7 +1117,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="4426"/>
         <source>Printing in progress...</source>
-        <translation type="unfinished"></translation>
+        <translation>Impressão em andamento...</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4477"/>
