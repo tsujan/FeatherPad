@@ -486,7 +486,7 @@
         <location filename="../../fp.ui" line="1157"/>
         <location filename="../../fp.ui" line="1160"/>
         <source>To Start Case</source>
-        <translation type="unfinished"></translation>
+        <translation>Paversti pirmąsias žodžių raides didžiosiomis</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1168"/>
@@ -536,7 +536,7 @@
     <message>
         <location filename="../../fp.ui" line="1219"/>
         <source>Text Tabs to Spaces</source>
-        <translation type="unfinished"></translation>
+        <translation>Paversti tabuliavimo ženklus tarpais</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="994"/>
@@ -1017,17 +1017,17 @@
     <message>
         <location filename="../../fpwin.cpp" line="3241"/>
         <source>Saving as root.</source>
-        <translation type="unfinished"></translation>
+        <translation>Įrašoma pagrindinio naudotojo (root) teisėmis.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3242"/>
         <source>Waiting for authentication...</source>
-        <translation type="unfinished"></translation>
+        <translation>Laukiama tapatybės nustatymo...</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3360"/>
         <source>&quot;pkexec&quot; is not found. Please install Polkit!</source>
-        <translation type="unfinished"></translation>
+        <translation>„pkexec“ nerasta. Įsidiekite Polkit!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3047"/>
@@ -1090,17 +1090,17 @@
     <message>
         <location filename="../../fpwin.cpp" line="3513"/>
         <source>Text tabs are converted to spaces.</source>
-        <translation type="unfinished"></translation>
+        <translation>Tabuliavimo ženklai yra paversti tarpais.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3621"/>
         <source>The selected text was too long.</source>
-        <translation type="unfinished"></translation>
+        <translation>Pažymėtas tekstas buvo per ilgas.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3622"/>
         <source>It is not fully processed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Jis nėra pilnai apdorotas.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3760"/>
@@ -1117,7 +1117,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="4426"/>
         <source>Printing in progress...</source>
-        <translation type="unfinished"></translation>
+        <translation>Vyksta spausdinimas...</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4477"/>
@@ -1146,7 +1146,7 @@
         <location filename="../../fpwin.cpp" line="5158"/>
         <location filename="../../fpwin.cpp" line="5243"/>
         <source>Open Containing Folder</source>
-        <translation type="unfinished"></translation>
+        <translation>Atverti vidinį aplanką</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5352"/>
@@ -1247,7 +1247,7 @@
     <message>
         <location filename="../../replace.cpp" line="251"/>
         <source>The first 1000 replacements are highlighted.</source>
-        <translation type="unfinished"></translation>
+        <translation>Pirmieji 1000 pakeitimų yra paryškinti.</translation>
     </message>
     <message>
         <location filename="../../syntax.cpp" line="277"/>
