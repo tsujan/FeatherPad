@@ -1027,7 +1027,7 @@ linea (Ctrl + Shift + J)</translation>
     <message>
         <location filename="../../fpwin.cpp" line="3360"/>
         <source>&quot;pkexec&quot; is not found. Please install Polkit!</source>
-        <translation type="unfinished"></translation>
+        <translation>Non è stato trovato &quot;pkexec&quot;. Per favore installare Polkit!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3047"/>
@@ -1117,7 +1117,7 @@ linea (Ctrl + Shift + J)</translation>
     <message>
         <location filename="../../fpwin.cpp" line="4426"/>
         <source>Printing in progress...</source>
-        <translation type="unfinished"></translation>
+        <translation>Stampa in corso...</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4477"/>
