@@ -2136,7 +2136,7 @@ in the editing mode.</source>
     <message>
         <location filename="../../pref.cpp" line="387"/>
         <source>Document Blocks, XML/HTML Elements,…</source>
-        <translation>ドキュメントブロック, XML/HTML 要素,…</translation>
+        <translation>文書ブロック, XML/HTML 要素,…</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="388"/>
