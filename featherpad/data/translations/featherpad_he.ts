@@ -1117,7 +1117,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="4426"/>
         <source>Printing in progress...</source>
-        <translation type="unfinished"></translation>
+        <translation>מתבצעת הדפסה…</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4477"/>
