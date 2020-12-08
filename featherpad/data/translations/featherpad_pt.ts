@@ -486,7 +486,7 @@
         <location filename="../../fp.ui" line="1157"/>
         <location filename="../../fp.ui" line="1160"/>
         <source>To Start Case</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Para iniciar o processo</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1168"/>
@@ -749,7 +749,7 @@
     <message>
         <location filename="../../fp.ui" line="1057"/>
         <source>Alt+Left</source>
-        <translation>Alt+Left</translation>
+        <translation>Alt+Esquerda</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1065"/>
@@ -1017,12 +1017,12 @@
     <message>
         <location filename="../../fpwin.cpp" line="3252"/>
         <source>Saving as root.</source>
-        <translation type="unfinished"></translation>
+        <translation>Guardar como root.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3253"/>
         <source>Waiting for authentication...</source>
-        <translation type="unfinished"></translation>
+        <translation>À espera de autenticação...</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3376"/>
@@ -1386,7 +1386,7 @@
         <location filename="../../prefDialog.ui" line="148"/>
         <source>Enforcing a window position is not recommended
 and may not work with some window managers.</source>
-        <translation>Não deve  forçar a posição de janelas e esta opção
+        <translation>Não deve forçar a posição de janelas e esta opção
 pode não funcionar com todos os gestores de janelas.</translation>
     </message>
     <message>
@@ -1492,15 +1492,15 @@ tem um histórico de pesquisa distinto.</translation>
 after the last tab is activated, and the same for Alt+Left.
 
 Tab navigation with mouse wheel is not affected.</source>
-        <translation>This means that, for LTR, Alt+Right goes to the first tab
-after the last tab is activated, and the same for Alt+Left.
+        <translation>Isto significa que, para LTR, Alt+Direita vai para o primeiro separador
+depois de ativado o último separador, e o mesmo para Alt+Esquerda.
 
-Tab navigation with mouse wheel is not affected.</translation>
+A navegação por separadores com roda de rato não é afetada.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="333"/>
         <source>Tab navigation wraps &amp;around</source>
-        <translation>Tab navigation wraps &amp;around</translation>
+        <translation>A navegação por separadores à volt&amp;a</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="353"/>
@@ -1514,11 +1514,11 @@ current desktop, files will be opened in its tabs.
 
 However, some desktop environments may not
 report that they have multiple desktops.</source>
-        <translation>By default, if a FeatherPad window exists on the
-current desktop, files will be opened in its tabs.
+        <translation>Por predefinição, se existir uma janela FeatherPad no
+ambiente de trabalho atual, os ficheiros serão abertos nos seus separadores.
 
-However, some desktop environments may not
-report that they have multiple desktops.</translation>
+No entanto, alguns ambientes de trabalho poderão não
+relatar que têm vários ambientes de trabalho.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="367"/>
@@ -1531,10 +1531,10 @@ report that they have multiple desktops.</translation>
 desktop environment will be used instead of the Qt file dialog.
 
 Some desktop environments, like KDE and LXQt, provide files dialogs.</source>
-        <translation>If this is checked, the file dialog provided by the current
-desktop environment will be used instead of the Qt file dialog.
+        <translation>Se selecionada, a janela do ficheiro fornecida pelo atual
+ambiente de trabalho será usado em vez da janela do ficheiro Qt.
 
-Some desktop environments, like KDE and LXQt, provide files dialogs.</translation>
+Alguns ambientes de trabalho, como KDE e LXQt, fornecem janelas de ficheiros.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="380"/>
@@ -1559,7 +1559,7 @@ Some desktop environments, like KDE and LXQt, provide files dialogs.</translatio
     <message>
         <location filename="../../prefDialog.ui" line="483"/>
         <source>Auto-&amp;bracket</source>
-        <translation>Auto-&amp;bracket</translation>
+        <translation>&amp;Parênteses automático</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="490"/>
@@ -1599,14 +1599,14 @@ de estado para alterar a sintaxe.</translation>
     <message>
         <location filename="../../prefDialog.ui" line="549"/>
         <source>Support syntax override</source>
-        <translation>Support syntax override</translation>
+        <translation>Suportar substituição de sintaxe</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="614"/>
         <source>Show spaces, tabs and tab lines
 when the syntax is highlighted.</source>
-        <translation>Show spaces, tabs and tab lines
-when the syntax is highlighted.</translation>
+        <translation>Mostrar espaços, separadores e linhas de separadores
+quando a sintaxe é realçada.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="618"/>
