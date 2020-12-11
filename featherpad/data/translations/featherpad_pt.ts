@@ -486,7 +486,7 @@
         <location filename="../../fp.ui" line="1157"/>
         <location filename="../../fp.ui" line="1160"/>
         <source>To Start Case</source>
-        <translation type="unfinished">Para iniciar o processo</translation>
+        <translation>Para iniciar em maiúscula</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1168"/>
@@ -979,7 +979,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="2606"/>
         <source>Root Instance</source>
-        <translation>Instância raiz</translation>
+        <translation>Instância root</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2677"/>
@@ -1027,7 +1027,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="3376"/>
         <source>&quot;pkexec&quot; is not found. Please install Polkit!</source>
-        <translation type="unfinished"></translation>
+        <translation>&quot;pkexec&quot; não foi encontrado. Instale o Polkit!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3058"/>
@@ -1090,17 +1090,17 @@
     <message>
         <location filename="../../fpwin.cpp" line="3529"/>
         <source>Text tabs are converted to spaces.</source>
-        <translation type="unfinished"></translation>
+        <translation>Os separadores de texto são convertidas em espaços.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3637"/>
         <source>The selected text was too long.</source>
-        <translation type="unfinished"></translation>
+        <translation>O texto selecionado era muito comprido.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3638"/>
         <source>It is not fully processed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Não foi totalmente processado.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3777"/>
@@ -1117,7 +1117,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="4443"/>
         <source>Printing in progress...</source>
-        <translation type="unfinished"></translation>
+        <translation>Impressão em andamento...</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4494"/>
@@ -1146,7 +1146,7 @@
         <location filename="../../fpwin.cpp" line="5191"/>
         <location filename="../../fpwin.cpp" line="5276"/>
         <source>Open Containing Folder</source>
-        <translation type="unfinished"></translation>
+        <translation>Abrir pasta de conteúdo</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5385"/>
@@ -1246,7 +1246,7 @@
     <message>
         <location filename="../../replace.cpp" line="251"/>
         <source>The first 1000 replacements are highlighted.</source>
-        <translation type="unfinished"></translation>
+        <translation>As primeiras 1000 substituições são destacadas.</translation>
     </message>
     <message>
         <location filename="../../syntax.cpp" line="278"/>
@@ -1386,8 +1386,8 @@
         <location filename="../../prefDialog.ui" line="148"/>
         <source>Enforcing a window position is not recommended
 and may not work with some window managers.</source>
-        <translation>Não deve forçar a posição de janelas e esta opção
-pode não funcionar com todos os gestores de janelas.</translation>
+        <translation>Não é recomendada a imposição de uma posição de janela
+e pode não funcionar com alguns gestores de janelas.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="152"/>
@@ -1492,15 +1492,15 @@ tem um histórico de pesquisa distinto.</translation>
 after the last tab is activated, and the same for Alt+Left.
 
 Tab navigation with mouse wheel is not affected.</source>
-        <translation>Isto significa que, para LTR, Alt+Direita vai para o primeiro separador
-depois de ativado o último separador, e o mesmo para Alt+Esquerda.
+        <translation>Isso significa que, para LTR, Alt+Direita vai para o primeiro separador
+depois que o último separador é ativado e o mesmo para Alt+Esquerda.
 
-A navegação por separadores com roda de rato não é afetada.</translation>
+A navegação de separadores com a roda do rato não é afetada.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="333"/>
         <source>Tab navigation wraps &amp;around</source>
-        <translation>A navegação por separadores à volt&amp;a</translation>
+        <translation>A navegação por &amp;separadores envolve</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="353"/>
@@ -1514,11 +1514,11 @@ current desktop, files will be opened in its tabs.
 
 However, some desktop environments may not
 report that they have multiple desktops.</source>
-        <translation>Por predefinição, se existir uma janela FeatherPad no
-ambiente de trabalho atual, os ficheiros serão abertos nos seus separadores.
+        <translation>Por padrão, se houver uma janela do FeatherPad na
+área de trabalho atual, os ficheiros serão abertos em separadores.
 
-No entanto, alguns ambientes de trabalho poderão não
-relatar que têm vários ambientes de trabalho.</translation>
+No entanto, alguns ambientes de trabalho podem não
+relatar que possuem várias áreas de trabalho.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="367"/>
@@ -1531,10 +1531,10 @@ relatar que têm vários ambientes de trabalho.</translation>
 desktop environment will be used instead of the Qt file dialog.
 
 Some desktop environments, like KDE and LXQt, provide files dialogs.</source>
-        <translation>Se selecionada, a janela do ficheiro fornecida pelo atual
-ambiente de trabalho será usado em vez da janela do ficheiro Qt.
+        <translation>Se esta opção estiver marcada, a caixa de diálogo de ficheiro fornecida pelo ambiente de trabalho atual
+será usada em vez da caixa de diálogo do ficheiro Qt.
 
-Alguns ambientes de trabalho, como KDE e LXQt, fornecem janelas de ficheiros.</translation>
+Alguns ambientes de trabalho, como o KDE e o LXQt, fornecem caixas de diálogo de ficheiros.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="380"/>
@@ -1566,23 +1566,26 @@ Alguns ambientes de trabalho, como KDE e LXQt, fornecem janelas de ficheiros.</t
         <source>By default, a triple period is replaced with an ellipsis
 and a double hyphen with a long dash while typing,
 under proper circumstances.</source>
-        <translation type="unfinished"></translation>
+        <translation>Por padrão, um ponto triplo é substituído por reticências
+e um hífen duplo com um traço longo durante a escrita,
+sob circunstâncias adequadas.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="495"/>
         <source>Replace triple periods and double hyphens while typing</source>
-        <translation type="unfinished"></translation>
+        <translation>Substitua pontos triplos e hifens duplos ao escrever</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="509"/>
         <source>Highlight case-sensitive and whole matches
 of the selected text.</source>
-        <translation type="unfinished"></translation>
+        <translation>Destaque maiúsculas e minúsculas e todas as correspondências
+do texto selecionado.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="513"/>
         <source>Selection highlighting</source>
-        <translation type="unfinished"></translation>
+        <translation>Destaque de seleção</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="576"/>
@@ -1605,8 +1608,8 @@ de estado para alterar a sintaxe.</translation>
         <location filename="../../prefDialog.ui" line="614"/>
         <source>Show spaces, tabs and tab lines
 when the syntax is highlighted.</source>
-        <translation>Mostrar espaços, separadores e linhas de separadores
-quando a sintaxe é realçada.</translation>
+        <translation>Mostrar espaços, separadores e linhas de
+separadores quando a sintaxe é realçada.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="618"/>
@@ -1618,8 +1621,8 @@ quando a sintaxe é realçada.</translation>
         <location filename="../../prefDialog.ui" line="645"/>
         <source>The vertical position lines will be drawn only if
 the editor font has a fixed pitch (like Monospace).</source>
-        <translation>The vertical position lines will be drawn only if
-the editor font has a fixed pitch (like Monospace).</translation>
+        <translation>As linhas de posição vertical só serão desenhadas se
+a fonte do editor tem um tom fixo (como Monospace).</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="638"/>
@@ -1629,7 +1632,7 @@ the editor font has a fixed pitch (like Monospace).</translation>
     <message>
         <location filename="../../prefDialog.ui" line="625"/>
         <source>Also show line and document ends</source>
-        <translation>Also show line and document ends</translation>
+        <translation>Também mostra as extremidades da linha e do documento</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="764"/>
@@ -1651,12 +1654,12 @@ um ficheiro se não existir uma linha vazia no fim.</translation>
     <message>
         <location filename="../../prefDialog.ui" line="845"/>
         <source>Remove trailing spaces on saving</source>
-        <translation>Remove trailing spaces on saving</translation>
+        <translation>Remover espaços à direita ao guardar</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="863"/>
         <source>Inertial scrolling with mouse wheel</source>
-        <translation>Inertial scrolling with mouse wheel</translation>
+        <translation>Inercial com roda do rato</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="952"/>
@@ -1686,16 +1689,16 @@ will be executed directly.
 If the script is not run in a terminal
 emulator, the output and error messages
 will be shown by a popup dialog.</source>
-        <translation>This can be any starting command with
-arguments, for example, &quot;xterm -hold&quot;
-for running the process in XTerm.
+        <translation>Isto pode ser qualquer comando inicial com
+argumentos, por exemplo, &quot;xterm -hold&quot;
+para executar o processo no XTerm.
 
-If the command is left empty, the file
-will be executed directly.
+Se o comando for deixado vazio, o ficheiro
+será executado diretamente.
 
-If the script is not run in a terminal
-emulator, the output and error messages
-will be shown by a popup dialog.</translation>
+Se o script não for executado num emulador
+de terminal, as mensagens de saída e de erro
+serão apresentadas por uma janela.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1129"/>
@@ -1730,7 +1733,7 @@ will be shown by a popup dialog.</translation>
     <message>
         <location filename="../../prefDialog.ui" line="163"/>
         <source>Start with side-pane mode</source>
-        <translation>Start with side-pane mode</translation>
+        <translation>Iniciar com o modo de painel lateral</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="340"/>
@@ -1738,10 +1741,10 @@ will be shown by a popup dialog.</translation>
 tooltip and context menu of a single tab but you could not
 merge a single tabbed window into another one by tab drag-
 and-drop either.</source>
-        <translation>If this is checked, not only you will lose the informative
-tooltip and context menu of a single tab but you could not
-merge a single tabbed window into another one by tab drag-
-and-drop either.</translation>
+        <translation>Se isto estiver marcado, não apenas perderá a dica de
+ferramenta informativa e o menu de contexto de um único separador,
+mas também não conseguirá unir uma única janela com separadores
+em outro, arrastando e soltando o separador.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="346"/>
@@ -1803,14 +1806,14 @@ executable, the file will be executed by clicking
 the Run button, that appears on the toolbar/filemenu
 when needed, or by its shortcut Ctrl+E. Then, the
 process could be killed by Ctrl+Alt+E.</source>
-        <translation>This only includes executable files written
-in script languages like Shell and Python.
+        <translation>Isto inclui apenas ficheiros executáveis escritos
+em linguagens de script como Shell e Python.
 
-If it is checked and the opened file is
-executable, the file will be executed by clicking
-the Run button, that appears on the toolbar/filemenu
-when needed, or by its shortcut Ctrl+E. Then, the
-process could be killed by Ctrl+Alt+E.</translation>
+Se a opção estiver marcada e o ficheiro aberto é
+executável, o mesmo será executado ao clicar no
+botão Executar, que aparece na barra de ferramentas/menu
+de ficheiros quando necessário, ou pelo atalho Ctrl+E. Do
+mesmo modo, o processo poderia ser terminado por Ctrl+Alt+E.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="677"/>
@@ -1828,14 +1831,13 @@ between 230 and 255; for the dark
 background, between 0 and 50.
 
 Needs window reopening to take effect.</source>
-        <translation>The color value of the background.
-255 means white while 0 means black.
+        <translation>O valor da cor do fundo.
+255 significa branco, enquanto 0 significa preto.
 
-For the light background, it can be
-between 230 and 255; for the dark
-background, between 0 and 50.
+Para o fundo claro, pode ser entre 230 e 255;
+para o fundo escuro, entre 0 e 50.
 
-Needs window reopening to take effect.</translation>
+Necessário reabrir a janela para entrar em vigor.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1092"/>
@@ -1850,11 +1852,11 @@ opened files FeatherPad shows. The default
 is 10.
 
 Needs application restart to take effect.</source>
-        <translation>The maximum number of recently modified or
-opened files FeatherPad shows. The default
-is 10.
+        <translation>O número máximo de ficheirosos recentemente
+modificados ou abertos apresentados pelo FeatherPad.
+O padrão é 10.
 
-Needs application restart to take effect.</translation>
+Necessita de reiniciar a aplicação para entrar em vigor.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="756"/>
@@ -1865,12 +1867,12 @@ Takes effect after closing this dialog.
 
 Leave empty for:
 MMM dd, yyyy, hh:mm:ss</source>
-        <translation>Used for pasting the date and time.
+        <translation>Usado para colar a data e hora.
 
-Takes effect after closing this dialog.
+Entrará em vigor depois de fechar este diálogo.
 
-Leave empty for:
-MMM dd, yyyy, hh:mm:ss</translation>
+Deixar em branco para:
+dd, MMM, aaaa, hh:mm:ss</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="793"/>
@@ -1885,14 +1887,14 @@ MMM dd, yyyy, hh:mm:ss</translation>
     <message>
         <location filename="../../prefDialog.ui" line="852"/>
         <source>Thick text cursor</source>
-        <translation>Thick text cursor</translation>
+        <translation>Cursor de texto espesso</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="859"/>
         <source>Should the mouse wheel scrolling be inertial
 if the cursor is inside the text view?</source>
-        <translation>Should the mouse wheel scrolling be inertial
-if the cursor is inside the text view?</translation>
+        <translation>A roda do rato deve ser inercial
+se o cursor estiver dentro da visualização de texto?</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="870"/>
@@ -1940,13 +1942,13 @@ será iniciada a partir do início do documento.</translation>
     <message>
         <location filename="../../prefDialog.ui" line="1072"/>
         <source>Only if their number is not greater than 50.</source>
-        <translation>Only if their number is not greater than 50.</translation>
+        <translation>Apenas se o seu número não for superior a 50.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1159"/>
         <location filename="../../prefDialog.ui" line="1169"/>
         <source>Only for files that exist and can be saved.</source>
-        <translation>Only for files that exist and can be saved.</translation>
+        <translation>Apenas para ficheiros que existem e que podem ser guardados.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1172"/>
@@ -1961,12 +1963,12 @@ be used also when the opened file is not modified.
 This can be useful under certain circumstances,
 e.g. for changing the time stamp or removing the
 trailing spaces of a text file.</source>
-        <translation>If this is checked, the Save button/menu-item could
-be used also when the opened file is not modified.
+        <translation>Se estiver marcado, o botão/item de menu Guardar pode
+ser usado também quando o ficheiro aberto não for modificado.
 
-This can be useful under certain circumstances,
-e.g. for changing the time stamp or removing the
-trailing spaces of a text file.</translation>
+Isso pode ser útil em certas circunstâncias,
+p. ex. para alterar o carimbo de data/hora ou remover o
+espaços à direita de um ficheiro de texto.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1211"/>
@@ -1987,12 +1989,13 @@ trailing spaces of a text file.</translation>
         <location filename="../../prefDialog.ui" line="1228"/>
         <source>By default, when files are copied, they will
 be opened if they are pasted into FeatherPad.</source>
-        <translation type="unfinished"></translation>
+        <translation>Por padrão, quando os ficheiros são copiados,
+eles serão abertos se forem colados no FeatherPad.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1232"/>
         <source>Paste paths instead of files</source>
-        <translation type="unfinished"></translation>
+        <translation>Colar endereços em vez de ficheiros</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1259"/>
@@ -2024,38 +2027,38 @@ be opened if they are pasted into FeatherPad.</source>
     <message>
         <location filename="../../prefDialog.ui" line="1305"/>
         <source>Syntax Colors</source>
-        <translation type="unfinished"></translation>
+        <translation>Cores de sintaxe</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1321"/>
         <source>Element</source>
-        <translation type="unfinished"></translation>
+        <translation>Elemento</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1326"/>
         <source>Text Color</source>
-        <translation type="unfinished"></translation>
+        <translation>Cor do texto</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1339"/>
         <source>Whitespace color value:</source>
-        <translation type="unfinished"></translation>
+        <translation>Valor da cor do espaço em branco:</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1369"/>
         <location filename="../../prefDialog.ui" line="1379"/>
         <source>Has effect only if line numbers are shown.</source>
-        <translation type="unfinished"></translation>
+        <translation>Tem efeito apenas se os números de linha forem mostrados.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1372"/>
         <source>Current line highlight value:</source>
-        <translation type="unfinished"></translation>
+        <translation>Valor de destaque da linha atual:</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1404"/>
         <source>Restore default syntax colors.</source>
-        <translation type="unfinished"></translation>
+        <translation>Restaurar as cores de sintaxe predefinidas.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1439"/>
@@ -2066,12 +2069,13 @@ be opened if they are pasted into FeatherPad.</source>
         <location filename="../../pref.cpp" line="104"/>
         <source>Press a modifier key to clear a shortcut
 in the editing mode.</source>
-        <translation type="unfinished"></translation>
+        <translation>Prima uma tecla modificadora para limpar um atalho
+no modo de edição.</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="110"/>
         <source>Double click a color to change it.</source>
-        <translation type="unfinished"></translation>
+        <translation>Faça duplo clique numa cor para a alterar.</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="302"/>
@@ -2094,57 +2098,57 @@ in the editing mode.</source>
     <message>
         <location filename="../../pref.cpp" line="388"/>
         <source>Functions, URLs,…</source>
-        <translation type="unfinished"></translation>
+        <translation>Funcões, URLs,…</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="389"/>
         <source>Built-in Functions</source>
-        <translation type="unfinished"></translation>
+        <translation>Funções integradas</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="390"/>
         <source>Comments</source>
-        <translation type="unfinished"></translation>
+        <translation>Comentários</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="391"/>
         <source>Quotations</source>
-        <translation type="unfinished"></translation>
+        <translation>Citações</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="392"/>
         <source>Types</source>
-        <translation type="unfinished"></translation>
+        <translation>Tipos</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="393"/>
         <source>Key Words</source>
-        <translation type="unfinished"></translation>
+        <translation>Palavras chave</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="394"/>
         <source>Numbers</source>
-        <translation type="unfinished"></translation>
+        <translation>Números</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="395"/>
         <source>Regular Expressions, Code Blocks,…</source>
-        <translation type="unfinished"></translation>
+        <translation>Expressões regulares, Blocos de código,…</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="396"/>
         <source>Document Blocks, XML/HTML Elements,…</source>
-        <translation type="unfinished"></translation>
+        <translation>Blocos de documento, Elementos XML/HTML,…</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="397"/>
         <source>Markdown Headings, CSS Values,…</source>
-        <translation type="unfinished"></translation>
+        <translation>Cabeçalhos de Markdown, Valores CSS,…</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="398"/>
         <source>Extra Elements</source>
-        <translation type="unfinished"></translation>
+        <translation>Elementos extra</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="559"/>
@@ -2180,7 +2184,7 @@ in the editing mode.</source>
         <location filename="../../pref.cpp" line="449"/>
         <location filename="../../pref.cpp" line="1730"/>
         <source>Select Syntax Color</source>
-        <translation type="unfinished"></translation>
+        <translation>Selecione a cor da sintaxe</translation>
     </message>
 </context>
 <context>
@@ -2199,7 +2203,7 @@ in the editing mode.</source>
     <message>
         <location filename="../../searchbar.cpp" line="121"/>
         <source>Whole Word</source>
-        <translation>Whole Word</translation>
+        <translation>Palavra inteira</translation>
     </message>
     <message>
         <location filename="../../searchbar.cpp" line="128"/>
@@ -2339,12 +2343,12 @@ abertos serão incluídos na sessão guardada.</translation>
     <message>
         <location filename="../../session.cpp" line="279"/>
         <source>Not all files exist or can be opened.</source>
-        <translation>Nem todos os ficheiros existem ou não puderam ser abertos.</translation>
+        <translation>Nem todos os ficheiros existem ou podem ser abertos.</translation>
     </message>
     <message>
         <location filename="../../session.cpp" line="314"/>
         <source>&amp;OK</source>
-        <translation>&amp;OK</translation>
+        <translation>&amp;Aceitar</translation>
     </message>
     <message>
         <location filename="../../session.cpp" line="333"/>
