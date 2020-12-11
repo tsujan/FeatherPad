@@ -492,7 +492,7 @@
         <location filename="../../fp.ui" line="1157"/>
         <location filename="../../fp.ui" line="1160"/>
         <source>To Start Case</source>
-        <translation type="unfinished"></translation>
+        <translation>Başlatmak İçin</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1168"/>
@@ -1026,17 +1026,17 @@
     <message>
         <location filename="../../fpwin.cpp" line="3252"/>
         <source>Saving as root.</source>
-        <translation type="unfinished"></translation>
+        <translation>Yönetici olarak kaydediliyor.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3253"/>
         <source>Waiting for authentication...</source>
-        <translation type="unfinished"></translation>
+        <translation>Kimlik doğrulama için bekleniyor...</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3376"/>
         <source>&quot;pkexec&quot; is not found. Please install Polkit!</source>
-        <translation type="unfinished"></translation>
+        <translation>&quot;pkexec&quot; bulunamadı. Lütfen Polkit&apos;i kurun!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3058"/>
@@ -1126,7 +1126,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="4443"/>
         <source>Printing in progress...</source>
-        <translation type="unfinished"></translation>
+        <translation>Yazdırma devam ediyor ...</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4494"/>
@@ -1191,7 +1191,7 @@
         <location filename="../../fpwin.cpp" line="5442"/>
         <location filename="../../fpwin.cpp" line="5457"/>
         <source>No misspelling from text cursor.</source>
-        <translation type="unfinished"></translation>
+        <translation>Metin imlecinden yanlış yazım yok.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5470"/>
@@ -1253,6 +1253,7 @@
         <source>%Ln Replacements</source>
         <translatorcomment>Reminder: Must be singular for enumerated items as in &quot;7 file&quot; but NOT &quot;7 files&quot;</translatorcomment>
         <translation>
+            <numerusform>%Ln Değişiklik</numerusform>
             <numerusform>%Ln Değişiklik</numerusform>
         </translation>
     </message>
@@ -1595,7 +1596,8 @@ under proper circumstances.</source>
         <location filename="../../prefDialog.ui" line="509"/>
         <source>Highlight case-sensitive and whole matches
 of the selected text.</source>
-        <translation type="unfinished"></translation>
+        <translation>Seçili metnin büyük/küçük harfe duyarlı
+ ve tam eşleşmelerini vurgulayın.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="513"/>
@@ -1923,7 +1925,9 @@ kaydırmada atalet özelliği olsun mu?</translation>
         <source>A Hunspell dictionary has a name that ends with &quot;.dic&quot;
 and should be alongside an affix file with the same
 name but ending with &quot;.aff&quot;.</source>
-        <translation type="unfinished"></translation>
+        <translation>Hunspell sözlüğünün &quot;.dic&quot; ile biten bir eki vardır 
+ve aynı ada sahip ancak &quot;.aff&quot; ile biten bir ek 
+dosyası da yanında yer almalıdır.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="883"/>
@@ -1940,7 +1944,8 @@ name but ending with &quot;.aff&quot;.</source>
         <location filename="../../prefDialog.ui" line="914"/>
         <source>If this is unchecked, spell checking
 will be started from the document start.</source>
-        <translation type="unfinished"></translation>
+        <translation>Bu işaretlenmemişse, yazım denetimi
+ belge başlangıcından başlayacaktır.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="918"/>
@@ -2060,17 +2065,17 @@ FeatherPad&apos;e yapıştırılırsa açılabilir.</translation>
         <location filename="../../prefDialog.ui" line="1369"/>
         <location filename="../../prefDialog.ui" line="1379"/>
         <source>Has effect only if line numbers are shown.</source>
-        <translation type="unfinished"></translation>
+        <translation>Yalnızca satır numaraları gösteriliyorsa etkilidir.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1372"/>
         <source>Current line highlight value:</source>
-        <translation type="unfinished"></translation>
+        <translation>Mevcut satır vurgulama değeri:</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1404"/>
         <source>Restore default syntax colors.</source>
-        <translation type="unfinished"></translation>
+        <translation>Varsayılan sözdizimi renklerini geri yükleyin.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1439"/>
@@ -2081,12 +2086,13 @@ FeatherPad&apos;e yapıştırılırsa açılabilir.</translation>
         <location filename="../../pref.cpp" line="104"/>
         <source>Press a modifier key to clear a shortcut
 in the editing mode.</source>
-        <translation type="unfinished"></translation>
+        <translation>Düzenleme modunda bir kısayolu 
+temizlemek için değiştirici tuşa basın.</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="110"/>
         <source>Double click a color to change it.</source>
-        <translation type="unfinished"></translation>
+        <translation>Değiştirmek için bir renge çift tıklayın.</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="302"/>
@@ -2110,57 +2116,57 @@ in the editing mode.</source>
     <message>
         <location filename="../../pref.cpp" line="388"/>
         <source>Functions, URLs,…</source>
-        <translation type="unfinished"></translation>
+        <translation>İşlevler, URL&apos;ler,…</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="389"/>
         <source>Built-in Functions</source>
-        <translation type="unfinished"></translation>
+        <translation>Yerleşik İşlevler</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="390"/>
         <source>Comments</source>
-        <translation type="unfinished"></translation>
+        <translation>Yorumlar</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="391"/>
         <source>Quotations</source>
-        <translation type="unfinished"></translation>
+        <translation>Alıntılar</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="392"/>
         <source>Types</source>
-        <translation type="unfinished"></translation>
+        <translation>Türler</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="393"/>
         <source>Key Words</source>
-        <translation type="unfinished"></translation>
+        <translation>Anahtar Kelimeler</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="394"/>
         <source>Numbers</source>
-        <translation type="unfinished"></translation>
+        <translation>Rakamlar</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="395"/>
         <source>Regular Expressions, Code Blocks,…</source>
-        <translation type="unfinished"></translation>
+        <translation>Düzenli İfadeler, Kod Blokları,…</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="396"/>
         <source>Document Blocks, XML/HTML Elements,…</source>
-        <translation type="unfinished"></translation>
+        <translation>Belge Blokları, XML / HTML Öğeleri,…</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="397"/>
         <source>Markdown Headings, CSS Values,…</source>
-        <translation type="unfinished"></translation>
+        <translation>Markdown Başlıkları, CSS Değerleri,…</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="398"/>
         <source>Extra Elements</source>
-        <translation type="unfinished"></translation>
+        <translation>Ekstra Elemanlar</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="559"/>
@@ -2190,13 +2196,13 @@ in the editing mode.</source>
     <message>
         <location filename="../../pref.cpp" line="1644"/>
         <source>Hunspell Dictionary Files (*.dic)</source>
-        <translation type="unfinished"></translation>
+        <translation>Hunspell Sözlük Dosyaları (* .dic)</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="449"/>
         <location filename="../../pref.cpp" line="1730"/>
         <source>Select Syntax Color</source>
-        <translation type="unfinished"></translation>
+        <translation>Sözdizimi Rengini Seçin</translation>
     </message>
 </context>
 <context>
@@ -2220,12 +2226,12 @@ in the editing mode.</source>
     <message>
         <location filename="../../searchbar.cpp" line="128"/>
         <source>Regular Expression</source>
-        <translation type="unfinished"></translation>
+        <translation>Düzenli İfadeler</translation>
     </message>
     <message>
         <location filename="../../searchbar.cpp" line="160"/>
         <source>Search with regex...</source>
-        <translation type="unfinished"></translation>
+        <translation>regex ile ara ...</translation>
     </message>
     <message>
         <location filename="../../searchbar.cpp" line="109"/>
@@ -2396,37 +2402,37 @@ dosyalar kaydedilen oturuma dahil edilir.</translation>
     <message>
         <location filename="../../spellDialog.ui" line="25"/>
         <source>Unknown word:</source>
-        <translation type="unfinished"></translation>
+        <translation>Bilinmeyen kelime:</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="51"/>
         <source>Add To Dictionary</source>
-        <translation type="unfinished"></translation>
+        <translation>Sözlüğe Ekle</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="62"/>
         <source>Replace with:</source>
-        <translation type="unfinished">Değiştir:</translation>
+        <translation>Değiştir:</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="129"/>
         <source>Correct Once</source>
-        <translation type="unfinished"></translation>
+        <translation>Bir Kez Düzelt</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="142"/>
         <source>Correct All</source>
-        <translation type="unfinished"></translation>
+        <translation>Tümünü Düzelt</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="87"/>
         <source>Ignore Once</source>
-        <translation type="unfinished"></translation>
+        <translation>Bir Kez Yoksay</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="100"/>
         <source>Ignore All</source>
-        <translation type="unfinished"></translation>
+        <translation>Hepsini Yoksay</translation>
     </message>
 </context>
 <context>
