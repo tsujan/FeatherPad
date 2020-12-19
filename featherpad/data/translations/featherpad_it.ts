@@ -1127,7 +1127,7 @@ linea (Ctrl + Shift + J)</translation>
     <message>
         <location filename="../../fpwin.cpp" line="4498"/>
         <source>Printing completed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Stampa completata.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5140"/>
@@ -2053,7 +2053,7 @@ be opened if they are pasted into FeatherPad.</source>
         <location filename="../../prefDialog.ui" line="1369"/>
         <location filename="../../prefDialog.ui" line="1379"/>
         <source>Has effect only if line numbers are shown.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ha effetto solo se attiva la visualizzazione numero righe.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1372"/>
@@ -2074,7 +2074,8 @@ be opened if they are pasted into FeatherPad.</source>
         <location filename="../../pref.cpp" line="104"/>
         <source>Press a modifier key to clear a shortcut
 in the editing mode.</source>
-        <translation type="unfinished"></translation>
+        <translation>Premere un tasto modificatore 
+per rimuovere una scorciatoia.</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="110"/>
