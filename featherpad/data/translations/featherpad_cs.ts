@@ -486,7 +486,7 @@ tento řádek (Ctrl+Shift+J)</translation>
         <location filename="../../fp.ui" line="1157"/>
         <location filename="../../fp.ui" line="1160"/>
         <source>To Start Case</source>
-        <translation type="unfinished"></translation>
+        <translation>Po úvodní velikost</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1168"/>
@@ -1017,17 +1017,17 @@ tento řádek (Ctrl+Shift+J)</translation>
     <message>
         <location filename="../../fpwin.cpp" line="3249"/>
         <source>Saving as root.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ukládání s právy správce systému.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3250"/>
         <source>Waiting for authentication...</source>
-        <translation type="unfinished"></translation>
+        <translation>Čekání na ověření se…</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3370"/>
         <source>&quot;pkexec&quot; is not found. Please install Polkit!</source>
-        <translation type="unfinished"></translation>
+        <translation>„pkexec“ nenalezeno. Nainstalujte Polkit!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3058"/>
@@ -1090,17 +1090,17 @@ tento řádek (Ctrl+Shift+J)</translation>
     <message>
         <location filename="../../fpwin.cpp" line="3525"/>
         <source>Text tabs are converted to spaces.</source>
-        <translation type="unfinished"></translation>
+        <translation>Tabulátory jsou převedeny na mezery.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3633"/>
         <source>The selected text was too long.</source>
-        <translation type="unfinished"></translation>
+        <translation>Označený text je příliš dlouhý.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3634"/>
         <source>It is not fully processed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Není zcela zpracováno.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3773"/>
@@ -1117,7 +1117,7 @@ tento řádek (Ctrl+Shift+J)</translation>
     <message>
         <location filename="../../fpwin.cpp" line="4441"/>
         <source>Printing in progress...</source>
-        <translation type="unfinished"></translation>
+        <translation>Tiskne se…</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4492"/>
@@ -1127,7 +1127,7 @@ tento řádek (Ctrl+Shift+J)</translation>
     <message>
         <location filename="../../fpwin.cpp" line="4498"/>
         <source>Printing completed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Tisk dokončen.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5140"/>
@@ -1151,7 +1151,7 @@ tento řádek (Ctrl+Shift+J)</translation>
         <location filename="../../fpwin.cpp" line="5189"/>
         <location filename="../../fpwin.cpp" line="5274"/>
         <source>Open Containing Folder</source>
-        <translation type="unfinished"></translation>
+        <translation>Otevřít složku, ve které se nachází</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5383"/>
@@ -1252,7 +1252,7 @@ tento řádek (Ctrl+Shift+J)</translation>
     <message>
         <location filename="../../replace.cpp" line="251"/>
         <source>The first 1000 replacements are highlighted.</source>
-        <translation type="unfinished"></translation>
+        <translation>Je zvýrazněno prvních 1000 nahrazení.</translation>
     </message>
     <message>
         <location filename="../../syntax.cpp" line="278"/>
@@ -1587,12 +1587,13 @@ spojovník dlouhou pomlčkou.</translation>
         <location filename="../../prefDialog.ui" line="509"/>
         <source>Highlight case-sensitive and whole matches
 of the selected text.</source>
-        <translation type="unfinished"></translation>
+        <translation>Zvýraznit shody ve velikosti písmen a úplné shody
+označeného textu.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="513"/>
         <source>Selection highlighting</source>
-        <translation type="unfinished"></translation>
+        <translation>Zvýrazňování výběru</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="576"/>
@@ -1998,12 +1999,13 @@ mezer na konci textového souboru.</translation>
         <location filename="../../prefDialog.ui" line="1228"/>
         <source>By default, when files are copied, they will
 be opened if they are pasted into FeatherPad.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ve výchozím stavu, když jsou soubory kopírovány
+budou otevřeny pokud byly vloženy do FeatherPad.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1232"/>
         <source>Paste paths instead of files</source>
-        <translation type="unfinished"></translation>
+        <translation>Vkládat popisy umístění namísto souborů</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1259"/>
@@ -2050,18 +2052,18 @@ be opened if they are pasted into FeatherPad.</source>
     <message>
         <location filename="../../prefDialog.ui" line="1339"/>
         <source>Whitespace color value:</source>
-        <translation type="unfinished"></translation>
+        <translation>Hodnota barvy prázdného znaku:</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1369"/>
         <location filename="../../prefDialog.ui" line="1379"/>
         <source>Has effect only if line numbers are shown.</source>
-        <translation type="unfinished"></translation>
+        <translation>Má efekt pouze pokud jsou zobrazeny čísla řádků.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1372"/>
         <source>Current line highlight value:</source>
-        <translation type="unfinished"></translation>
+        <translation>Stávající hodnota zvýraznění řádku:</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1404"/>
@@ -2077,7 +2079,8 @@ be opened if they are pasted into FeatherPad.</source>
         <location filename="../../pref.cpp" line="104"/>
         <source>Press a modifier key to clear a shortcut
 in the editing mode.</source>
-        <translation type="unfinished"></translation>
+        <translation>Pro vyčištění zkratky stiskněte klávesu
+modifikátor v režimu úpravy.</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="110"/>
