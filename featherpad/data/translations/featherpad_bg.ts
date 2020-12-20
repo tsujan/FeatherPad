@@ -1126,7 +1126,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="4498"/>
         <source>Printing completed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Принтирането е завършено.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5140"/>
