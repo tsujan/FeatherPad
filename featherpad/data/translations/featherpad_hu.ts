@@ -486,7 +486,7 @@
         <location filename="../../fp.ui" line="1157"/>
         <location filename="../../fp.ui" line="1160"/>
         <source>To Start Case</source>
-        <translation type="unfinished"></translation>
+        <translation>Az első betű nagybetű</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1168"/>
@@ -1117,7 +1117,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="4443"/>
         <source>Printing in progress...</source>
-        <translation type="unfinished"></translation>
+        <translation>Nyomtatás folyamatban...</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4494"/>
@@ -1127,7 +1127,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="4500"/>
         <source>Printing completed.</source>
-        <translation type="unfinished"></translation>
+        <translation>A nyomtatás kész.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5142"/>
@@ -1212,7 +1212,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="5853"/>
         <source>based on Qt</source>
-        <translation>amely a Qt-ön alapul</translation>
+        <translation>amely a Qt-n alapul</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5854"/>
@@ -1244,6 +1244,7 @@
         <location filename="../../replace.cpp" line="247"/>
         <source>%Ln Replacements</source>
         <translation>
+            <numerusform>%Ln csere</numerusform>
             <numerusform>%Ln csere</numerusform>
         </translation>
     </message>
@@ -2050,7 +2051,7 @@ megnyílnak, ha be vannak illesztve a FeatherPadbe.</translation>
         <location filename="../../prefDialog.ui" line="1369"/>
         <location filename="../../prefDialog.ui" line="1379"/>
         <source>Has effect only if line numbers are shown.</source>
-        <translation type="unfinished">Csak akkor van hatása, ha a sorszámok meg vannak jelenítve.</translation>
+        <translation>Csak akkor van hatása, ha a sorszámok meg vannak jelenítve.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1372"/>
