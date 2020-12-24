@@ -536,7 +536,7 @@
     <message>
         <location filename="../../fp.ui" line="1219"/>
         <source>Text Tabs to Spaces</source>
-        <translation type="unfinished"></translation>
+        <translation>Text-Tabulatoren zu Leerzeichen</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="994"/>
@@ -1017,12 +1017,12 @@
     <message>
         <location filename="../../fpwin.cpp" line="3258"/>
         <source>Saving as root.</source>
-        <translation type="unfinished"></translation>
+        <translation>Als root speichern.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3259"/>
         <source>Waiting for authentication...</source>
-        <translation type="unfinished"></translation>
+        <translation>Warten auf Authentifizierung ...</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3379"/>
@@ -1090,12 +1090,12 @@
     <message>
         <location filename="../../fpwin.cpp" line="3534"/>
         <source>Text tabs are converted to spaces.</source>
-        <translation type="unfinished"></translation>
+        <translation>Text-Tabulatoren werden in Leerzeichen umgewandelt.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3642"/>
         <source>The selected text was too long.</source>
-        <translation type="unfinished"></translation>
+        <translation>Der ausgewählte Text war zu lang.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3643"/>
@@ -1117,7 +1117,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="4450"/>
         <source>Printing in progress...</source>
-        <translation type="unfinished"></translation>
+        <translation>Druckvorgang läuft ...</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4501"/>
@@ -1127,7 +1127,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="4507"/>
         <source>Printing completed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Druckvorgang abgeschlossen.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5149"/>
@@ -1151,7 +1151,7 @@
         <location filename="../../fpwin.cpp" line="5198"/>
         <location filename="../../fpwin.cpp" line="5283"/>
         <source>Open Containing Folder</source>
-        <translation type="unfinished"></translation>
+        <translation>Enthaltenden Ordner öffnen</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5392"/>
@@ -1251,7 +1251,7 @@
     <message>
         <location filename="../../replace.cpp" line="251"/>
         <source>The first 1000 replacements are highlighted.</source>
-        <translation type="unfinished"></translation>
+        <translation>Die ersten 1000 Ersetzungen sind hervorgehoben.</translation>
     </message>
     <message>
         <location filename="../../syntax.cpp" line="278"/>
@@ -2183,13 +2183,13 @@ in the editing mode.</source>
     <message>
         <location filename="../../pref.cpp" line="1644"/>
         <source>Hunspell Dictionary Files (*.dic)</source>
-        <translation>Hunspell Wörterbuchdateien (*.dic)</translation>
+        <translation>Hunspell-Wörterbuchdateien (*.dic)</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="449"/>
         <location filename="../../pref.cpp" line="1730"/>
         <source>Select Syntax Color</source>
-        <translation type="unfinished"></translation>
+        <translation>Syntaxfarbe auswählen</translation>
     </message>
 </context>
 <context>
@@ -2252,7 +2252,7 @@ in the editing mode.</source>
     <message>
         <location filename="../../sessionDialog.ui" line="56"/>
         <source>Filter...</source>
-        <translation>Filter...</translation>
+        <translation>Filter ...</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="69"/>
@@ -2381,7 +2381,7 @@ in die gespeicherte Sitzung eingeschlossen.</translation>
     <message>
         <location filename="../../sidepane.cpp" line="193"/>
         <source>Filter...</source>
-        <translation>Filter...</translation>
+        <translation>Filter ...</translation>
     </message>
 </context>
 <context>
@@ -2409,7 +2409,7 @@ in die gespeicherte Sitzung eingeschlossen.</translation>
     <message>
         <location filename="../../spellDialog.ui" line="142"/>
         <source>Correct All</source>
-        <translation>Alle ändern</translation>
+        <translation>Alle korrigieren</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="87"/>
@@ -2419,7 +2419,7 @@ in die gespeicherte Sitzung eingeschlossen.</translation>
     <message>
         <location filename="../../spellDialog.ui" line="100"/>
         <source>Ignore All</source>
-        <translation>Immer ignorieren</translation>
+        <translation>Alle ignorieren</translation>
     </message>
 </context>
 <context>
