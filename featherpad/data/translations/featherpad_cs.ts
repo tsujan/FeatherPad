@@ -1042,7 +1042,7 @@ tento řádek (Ctrl+Shift+J)</translation>
     <message>
         <location filename="../../fpwin.cpp" line="3069"/>
         <source>Cancel</source>
-        <translation>Storno</translation>
+        <translation>Zrušit</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3070"/>
@@ -1818,7 +1818,7 @@ process could be killed by Ctrl+Alt+E.</source>
 ve skriptovacích jazycích jako Shell a Python.
 
 Pokud je zaškrtnuto a otevřený soubor je spustitelný,
-pak bude kliknutím na tlačítko (které se dle potřeby
+pak bude spuštěn klepnutím na tlačítko (které se dle potřeby
 objeví v liště nástrojů/soubor) nebo klávesovou zkratkou
 Ctrl+E. Vynutit ukončení procesu je možné pomocí
 Ctrl+Alt+E.</translation>
@@ -2085,7 +2085,7 @@ modifikátor v režimu úpravy.</translation>
     <message>
         <location filename="../../pref.cpp" line="110"/>
         <source>Double click a color to change it.</source>
-        <translation>Barvu změníte dvojklikem na ní.</translation>
+        <translation>Barvu změníte dvojklepnutím na ni.</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="302"/>
@@ -2432,7 +2432,7 @@ zahrnuty všechny v oknech otevřené soubory.</translation>
     <message>
         <location filename="../../textedit.cpp" line="178"/>
         <source>Double click to center current line</source>
-        <translation>Dvojklikem stávající řádek vystředíte</translation>
+        <translation>Dvojklepnutím stávající řádek vystředíte</translation>
     </message>
 </context>
 </TS>
