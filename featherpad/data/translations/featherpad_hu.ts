@@ -486,7 +486,7 @@
         <location filename="../../fp.ui" line="1157"/>
         <location filename="../../fp.ui" line="1160"/>
         <source>To Start Case</source>
-        <translation>Az első betű nagybetű</translation>
+        <translation>A szó első betűje nagybetű</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1168"/>
