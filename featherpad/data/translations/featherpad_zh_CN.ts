@@ -486,7 +486,7 @@
         <location filename="../../fp.ui" line="1157"/>
         <location filename="../../fp.ui" line="1160"/>
         <source>To Start Case</source>
-        <translation type="unfinished"></translation>
+        <translation>到开始选项</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1168"/>
@@ -536,7 +536,7 @@
     <message>
         <location filename="../../fp.ui" line="1219"/>
         <source>Text Tabs to Spaces</source>
-        <translation type="unfinished"></translation>
+        <translation>文本选项到空格</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="994"/>
@@ -939,12 +939,12 @@
     <message>
         <location filename="../../fpwin.cpp" line="2519"/>
         <source>Non-text file(s) not opened!</source>
-        <translation type="unfinished"></translation>
+        <translation>空文本文件没有打开！</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2520"/>
         <source>See Preferences → Files → Do not permit opening of non-text files</source>
-        <translation type="unfinished"></translation>
+        <translation>查看 属性 → 文件 → 不允许打开空的文本文件</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2529"/>
@@ -1017,17 +1017,17 @@
     <message>
         <location filename="../../fpwin.cpp" line="3258"/>
         <source>Saving as root.</source>
-        <translation type="unfinished"></translation>
+        <translation>以root的方式保存。</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3259"/>
         <source>Waiting for authentication...</source>
-        <translation type="unfinished"></translation>
+        <translation>等待授权…</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3379"/>
         <source>&quot;pkexec&quot; is not found. Please install Polkit!</source>
-        <translation type="unfinished"></translation>
+        <translation>&quot;pkexec&quot; 没有找到。请安装 Polkit！</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3067"/>
@@ -1090,17 +1090,17 @@
     <message>
         <location filename="../../fpwin.cpp" line="3534"/>
         <source>Text tabs are converted to spaces.</source>
-        <translation type="unfinished"></translation>
+        <translation>文本选项被转换成空格。</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3642"/>
         <source>The selected text was too long.</source>
-        <translation type="unfinished"></translation>
+        <translation>选择的文本太长。</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3643"/>
         <source>It is not fully processed.</source>
-        <translation type="unfinished"></translation>
+        <translation>还未处理完毕。</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3782"/>
@@ -1117,7 +1117,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="4450"/>
         <source>Printing in progress...</source>
-        <translation type="unfinished"></translation>
+        <translation>正在打印...</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4501"/>
@@ -1127,7 +1127,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="4507"/>
         <source>Printing completed.</source>
-        <translation type="unfinished"></translation>
+        <translation>打印完成。</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5149"/>
@@ -1151,7 +1151,7 @@
         <location filename="../../fpwin.cpp" line="5198"/>
         <location filename="../../fpwin.cpp" line="5283"/>
         <source>Open Containing Folder</source>
-        <translation type="unfinished"></translation>
+        <translation>打开包含文件夹</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5392"/>
@@ -1197,7 +1197,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="5816"/>
         <source>Some files cannot be saved!</source>
-        <translation>某些文件无法保存</translation>
+        <translation>某些文件无法保存！</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5863"/>
@@ -1250,7 +1250,7 @@
     <message>
         <location filename="../../replace.cpp" line="251"/>
         <source>The first 1000 replacements are highlighted.</source>
-        <translation type="unfinished"></translation>
+        <translation>前1000个替换项高亮。</translation>
     </message>
     <message>
         <location filename="../../syntax.cpp" line="278"/>
@@ -1289,17 +1289,17 @@
         <location filename="../../fontDialog.ui" line="45"/>
         <location filename="../../fontDialog.ui" line="55"/>
         <source>Font:</source>
-        <translation>字体</translation>
+        <translation>字体：</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="69"/>
         <source>Size:</source>
-        <translation>大小</translation>
+        <translation>大小：</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="89"/>
         <source>Weight:</source>
-        <translation>粗细</translation>
+        <translation>粗细：</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="103"/>
@@ -1577,12 +1577,13 @@ under proper circumstances.</source>
         <location filename="../../prefDialog.ui" line="509"/>
         <source>Highlight case-sensitive and whole matches
 of the selected text.</source>
-        <translation type="unfinished"></translation>
+        <translation>高亮区分大小写并整体匹配
+所选文本中。</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="513"/>
         <source>Selection highlighting</source>
-        <translation type="unfinished"></translation>
+        <translation>高亮选中</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="576"/>
@@ -1965,12 +1966,12 @@ trailing spaces of a text file.</source>
         <location filename="../../prefDialog.ui" line="1228"/>
         <source>By default, when files are copied, they will
 be opened if they are pasted into FeatherPad.</source>
-        <translation type="unfinished"></translation>
+        <translation>一般情况下，被复制的文件粘贴进 FeatherPad ，这些文件会被打开。</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1232"/>
         <source>Paste paths instead of files</source>
-        <translation type="unfinished"></translation>
+        <translation>粘贴路径而不是文件</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1259"/>
@@ -2002,38 +2003,38 @@ be opened if they are pasted into FeatherPad.</source>
     <message>
         <location filename="../../prefDialog.ui" line="1305"/>
         <source>Syntax Colors</source>
-        <translation type="unfinished"></translation>
+        <translation>语法颜色</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1321"/>
         <source>Element</source>
-        <translation type="unfinished"></translation>
+        <translation>元素</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1326"/>
         <source>Text Color</source>
-        <translation type="unfinished"></translation>
+        <translation>文本颜色</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1339"/>
         <source>Whitespace color value:</source>
-        <translation type="unfinished"></translation>
+        <translation>空格颜色值：</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1369"/>
         <location filename="../../prefDialog.ui" line="1379"/>
         <source>Has effect only if line numbers are shown.</source>
-        <translation type="unfinished"></translation>
+        <translation>仅在显示行号时有效。</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1372"/>
         <source>Current line highlight value:</source>
-        <translation type="unfinished"></translation>
+        <translation>当前行高亮值：</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1404"/>
         <source>Restore default syntax colors.</source>
-        <translation type="unfinished"></translation>
+        <translation>恢复默认语法颜色。</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1439"/>
@@ -2044,12 +2045,12 @@ be opened if they are pasted into FeatherPad.</source>
         <location filename="../../pref.cpp" line="104"/>
         <source>Press a modifier key to clear a shortcut
 in the editing mode.</source>
-        <translation type="unfinished"></translation>
+        <translation>在编辑模式下，按修饰键清除快捷方式。</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="110"/>
         <source>Double click a color to change it.</source>
-        <translation type="unfinished"></translation>
+        <translation>双击一个颜色来修改它。</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="302"/>
@@ -2072,57 +2073,57 @@ in the editing mode.</source>
     <message>
         <location filename="../../pref.cpp" line="388"/>
         <source>Functions, URLs,…</source>
-        <translation type="unfinished"></translation>
+        <translation>方法，链接，…</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="389"/>
         <source>Built-in Functions</source>
-        <translation type="unfinished"></translation>
+        <translation>内建功能</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="390"/>
         <source>Comments</source>
-        <translation type="unfinished"></translation>
+        <translation>评论</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="391"/>
         <source>Quotations</source>
-        <translation type="unfinished"></translation>
+        <translation>报价单</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="392"/>
         <source>Types</source>
-        <translation type="unfinished"></translation>
+        <translation>类型</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="393"/>
         <source>Key Words</source>
-        <translation type="unfinished"></translation>
+        <translation>关键字</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="394"/>
         <source>Numbers</source>
-        <translation type="unfinished"></translation>
+        <translation>数字</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="395"/>
         <source>Regular Expressions, Code Blocks,…</source>
-        <translation type="unfinished"></translation>
+        <translation>正则表达式，代码块等…</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="396"/>
         <source>Document Blocks, XML/HTML Elements,…</source>
-        <translation type="unfinished"></translation>
+        <translation>文档块，XML / HTML元素，…</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="397"/>
         <source>Markdown Headings, CSS Values,…</source>
-        <translation type="unfinished"></translation>
+        <translation>Markdown 标题, CSS 值,…</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="398"/>
         <source>Extra Elements</source>
-        <translation type="unfinished"></translation>
+        <translation>扩展元素</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="559"/>
@@ -2158,7 +2159,7 @@ in the editing mode.</source>
         <location filename="../../pref.cpp" line="449"/>
         <location filename="../../pref.cpp" line="1730"/>
         <source>Select Syntax Color</source>
-        <translation type="unfinished"></translation>
+        <translation>选中的语法颜色</translation>
     </message>
 </context>
 <context>
