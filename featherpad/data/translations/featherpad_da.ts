@@ -486,7 +486,7 @@
         <location filename="../../fp.ui" line="1157"/>
         <location filename="../../fp.ui" line="1160"/>
         <source>To Start Case</source>
-        <translation type="unfinished"></translation>
+        <translation>Til stort begyndelsesbogstav</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1168"/>
@@ -536,7 +536,7 @@
     <message>
         <location filename="../../fp.ui" line="1219"/>
         <source>Text Tabs to Spaces</source>
-        <translation type="unfinished"></translation>
+        <translation>Tekstens tabulatorer til mellemrum</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="994"/>
@@ -1017,17 +1017,17 @@
     <message>
         <location filename="../../fpwin.cpp" line="3258"/>
         <source>Saving as root.</source>
-        <translation type="unfinished"></translation>
+        <translation>Gemmer som root.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3259"/>
         <source>Waiting for authentication...</source>
-        <translation type="unfinished"></translation>
+        <translation>Venter på godkendelse ...</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3379"/>
         <source>&quot;pkexec&quot; is not found. Please install Polkit!</source>
-        <translation type="unfinished"></translation>
+        <translation>&quot;pkexec&quot; blev ikke fundet. Installer venligst Polkit!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3067"/>
@@ -1090,17 +1090,17 @@
     <message>
         <location filename="../../fpwin.cpp" line="3534"/>
         <source>Text tabs are converted to spaces.</source>
-        <translation type="unfinished"></translation>
+        <translation>Tekstens tabulatorer konverteres til mellemrum.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3642"/>
         <source>The selected text was too long.</source>
-        <translation type="unfinished"></translation>
+        <translation>Den valgte tekst er for lang.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3643"/>
         <source>It is not fully processed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Den er ikke behandlet færdigt.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3782"/>
@@ -1117,7 +1117,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="4450"/>
         <source>Printing in progress...</source>
-        <translation type="unfinished"></translation>
+        <translation>Igangværende udskrivning ...</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4501"/>
@@ -1127,7 +1127,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="4507"/>
         <source>Printing completed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Udskrivning udført.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5149"/>
@@ -1151,7 +1151,7 @@
         <location filename="../../fpwin.cpp" line="5198"/>
         <location filename="../../fpwin.cpp" line="5283"/>
         <source>Open Containing Folder</source>
-        <translation type="unfinished"></translation>
+        <translation>Åbn indeholdende mappe</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5392"/>
@@ -1251,7 +1251,7 @@
     <message>
         <location filename="../../replace.cpp" line="251"/>
         <source>The first 1000 replacements are highlighted.</source>
-        <translation type="unfinished"></translation>
+        <translation>De første 1000 erstatninger er fremhævet.</translation>
     </message>
     <message>
         <location filename="../../syntax.cpp" line="278"/>
@@ -1584,12 +1584,13 @@ under de rette omstændigheder.</translation>
         <location filename="../../prefDialog.ui" line="509"/>
         <source>Highlight case-sensitive and whole matches
 of the selected text.</source>
-        <translation type="unfinished"></translation>
+        <translation>Fremhæv versalfølsomme og hele resultater
+i den valgte tekst.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="513"/>
         <source>Selection highlighting</source>
-        <translation type="unfinished"></translation>
+        <translation>Fremhævning af markering</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="576"/>
@@ -1994,12 +1995,13 @@ efterstillede mellemrum i en tekstfil.</translation>
         <location filename="../../prefDialog.ui" line="1228"/>
         <source>By default, when files are copied, they will
 be opened if they are pasted into FeatherPad.</source>
-        <translation type="unfinished"></translation>
+        <translation>Som standard når filer kopieres, så
+åbnes de hvis indsættes i FeatherPad.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1232"/>
         <source>Paste paths instead of files</source>
-        <translation type="unfinished"></translation>
+        <translation>Indsæt stier frem for filer</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1259"/>
@@ -2046,18 +2048,18 @@ be opened if they are pasted into FeatherPad.</source>
     <message>
         <location filename="../../prefDialog.ui" line="1339"/>
         <source>Whitespace color value:</source>
-        <translation type="unfinished"></translation>
+        <translation>Farveværdi for blanktegn:</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1369"/>
         <location filename="../../prefDialog.ui" line="1379"/>
         <source>Has effect only if line numbers are shown.</source>
-        <translation type="unfinished"></translation>
+        <translation>Bruges kun hvis der vises linjenumre.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1372"/>
         <source>Current line highlight value:</source>
-        <translation type="unfinished"></translation>
+        <translation>Fremhævningsværdi for nuværende linje:</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1404"/>
@@ -2073,7 +2075,8 @@ be opened if they are pasted into FeatherPad.</source>
         <location filename="../../pref.cpp" line="104"/>
         <source>Press a modifier key to clear a shortcut
 in the editing mode.</source>
-        <translation type="unfinished"></translation>
+        <translation>Tryk på en ændringstast for at rydde en genvej
+i redigeringstilstanden.</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="110"/>
