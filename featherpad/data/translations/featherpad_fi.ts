@@ -6,7 +6,7 @@
     <message>
         <location filename="../../about.ui" line="161"/>
         <source>License</source>
-        <translation type="unfinished"></translation>
+        <translation>Lisenssi</translation>
     </message>
 </context>
 <context>
@@ -25,12 +25,12 @@
         <location filename="../../fpwin.cpp" line="4737"/>
         <location filename="../../fpwin.cpp" line="4997"/>
         <source>Untitled</source>
-        <translation type="unfinished"></translation>
+        <translation>Nimetön</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="71"/>
         <source>Go to line:</source>
-        <translation type="unfinished"></translation>
+        <translation>Siirry riville:</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="107"/>
@@ -41,7 +41,7 @@
     <message>
         <location filename="../../fp.ui" line="111"/>
         <source>Select Text</source>
-        <translation type="unfinished"></translation>
+        <translation>Valitse teksti</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="114"/>
@@ -51,36 +51,36 @@
     <message>
         <location filename="../../fp.ui" line="149"/>
         <source>&amp;File</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Tiedosto</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="189"/>
         <location filename="../../fp.ui" line="980"/>
         <source>&amp;Edit</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Muokkaa</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="219"/>
         <source>&amp;Options</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Asetukset</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1429"/>
         <location filename="../../fpwin.cpp" line="2761"/>
         <location filename="../../fpwin.cpp" line="4266"/>
         <source>Encoding</source>
-        <translation type="unfinished"></translation>
+        <translation>Koodaus</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="282"/>
         <source>&amp;Search</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Haku</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="290"/>
         <location filename="../../fp.ui" line="746"/>
         <source>&amp;Help</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Ohje</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="390"/>
@@ -105,12 +105,12 @@
     <message>
         <location filename="../../fp.ui" line="494"/>
         <source>&amp;New</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Uusi</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="497"/>
         <source>New tab</source>
-        <translation type="unfinished"></translation>
+        <translation>Uusi välilehti</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="500"/>
@@ -120,12 +120,12 @@
     <message>
         <location filename="../../fp.ui" line="505"/>
         <source>&amp;Open</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Avaa</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="508"/>
         <source>Open a file</source>
-        <translation type="unfinished"></translation>
+        <translation>Avaa tiedosto</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="511"/>
@@ -136,12 +136,12 @@
         <location filename="../../fp.ui" line="519"/>
         <location filename="../../fpwin.cpp" line="1204"/>
         <source>&amp;Save</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Tallenna</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="522"/>
         <source>Save the current tab</source>
-        <translation type="unfinished"></translation>
+        <translation>Tallenna nykyinen välilehti</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="525"/>
@@ -151,7 +151,7 @@
     <message>
         <location filename="../../fp.ui" line="533"/>
         <source>&amp;Undo</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Kumoa</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="536"/>
@@ -212,7 +212,7 @@
     <message>
         <location filename="../../fp.ui" line="594"/>
         <source>Save &amp;As</source>
-        <translation type="unfinished"></translation>
+        <translation>Tallenna &amp;nimellä</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="597"/>
@@ -222,7 +222,7 @@
     <message>
         <location filename="../../fp.ui" line="602"/>
         <source>&amp;Print</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Tulosta</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="605"/>
@@ -292,7 +292,7 @@
     <message>
         <location filename="../../fp.ui" line="667"/>
         <source>&amp;Delete</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Poista</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="672"/>
