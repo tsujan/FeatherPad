@@ -1127,7 +1127,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="4480"/>
         <source>Printing completed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Spausdinimas užbaigtas.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5122"/>
