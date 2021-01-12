@@ -1697,7 +1697,7 @@ the editor font has a fixed pitch (like Monospace).</source>
     <message>
         <location filename="../../prefDialog.ui" line="677"/>
         <source>Needs window reopening to take effect.</source>
-        <translation>有効にするにはウィンドウを開き直す必要があります。</translation>
+        <translation>有効にするにはウィンドウを開き直して下さい。</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="680"/>
@@ -1721,7 +1721,7 @@ Needs window reopening to take effect.</source>
 明るい背景は、230~255の範囲で、230が目にやさしいと思います。
 暗い背景は、0〜50の範囲で、50が目にやさしいと思います。
 
-反映させるには、ウィンドウを開き直す必要があります。</translation>
+反映させるには、ウィンドウを開き直して下さい。</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="715"/>
@@ -1855,7 +1855,7 @@ Needs application restart to take effect.</source>
 または最近開いたファイルの最大数です。
 既定値は 10 です。
 
-有効にするには、アプリケーションの再起動が必要です。</translation>
+有効にするには、アプリケーションを再起動して下さい。</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="973"/>
@@ -2156,12 +2156,12 @@ in the editing mode.</source>
     <message>
         <location filename="../../pref.cpp" line="559"/>
         <source>Application restart is needed for changes to take effect.</source>
-        <translation>変更を有効にするには、アプリケーションの再起動が必要です。</translation>
+        <translation>変更を有効にするには、アプリケーションを再起動して下さい。</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="577"/>
         <source>Window reopening is needed for changes to take effect.</source>
-        <translation>変更を有効にするには、ウィンドウを開き直す必要があります。</translation>
+        <translation>変更を有効にするには、ウィンドウを開き直して下さい。</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="1364"/>
