@@ -1127,7 +1127,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="4480"/>
         <source>Printing completed.</source>
-        <translation type="unfinished"></translation>
+        <translation>ההדפסה הושלמה.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5122"/>
@@ -1245,6 +1245,8 @@
         <source>%Ln Replacements</source>
         <translation>
             <numerusform>החלפה אחת</numerusform>
+            <numerusform>שתי החלפות</numerusform>
+            <numerusform>%Ln החלפות</numerusform>
             <numerusform>%Ln החלפות</numerusform>
         </translation>
     </message>
