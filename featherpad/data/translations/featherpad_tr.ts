@@ -58,7 +58,7 @@
         <location filename="../../fp.ui" line="189"/>
         <location filename="../../fp.ui" line="980"/>
         <source>&amp;Edit</source>
-        <translation>Düz&amp;enle</translation>
+        <translation>&amp;Düzenle</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="219"/>
@@ -1136,7 +1136,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="4480"/>
         <source>Printing completed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Baskı tamamlandı.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5122"/>
