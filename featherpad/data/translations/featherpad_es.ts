@@ -536,7 +536,7 @@
     <message>
         <location filename="../../fp.ui" line="1219"/>
         <source>Text Tabs to Spaces</source>
-        <translation type="unfinished"></translation>
+        <translation>Pestañas de texto a espacios</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="994"/>
@@ -1017,17 +1017,17 @@
     <message>
         <location filename="../../fpwin.cpp" line="3233"/>
         <source>Saving as root.</source>
-        <translation type="unfinished"></translation>
+        <translation>Guardar como root (raíz).</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3234"/>
         <source>Waiting for authentication...</source>
-        <translation type="unfinished"></translation>
+        <translation>Esperando por autenticación...</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3354"/>
         <source>&quot;pkexec&quot; is not found. Please install Polkit!</source>
-        <translation type="unfinished"></translation>
+        <translation>&quot;pkexec&quot; no se ha encontrado. ¡Por favor instala Polkit!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3042"/>
@@ -1095,12 +1095,12 @@
     <message>
         <location filename="../../fpwin.cpp" line="3617"/>
         <source>The selected text was too long.</source>
-        <translation type="unfinished"></translation>
+        <translation>El texto seleccionado era demasiado largo.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3618"/>
         <source>It is not fully processed.</source>
-        <translation type="unfinished"></translation>
+        <translation>No ha sido procesado completamente.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3757"/>
@@ -1117,7 +1117,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="4425"/>
         <source>Printing in progress...</source>
-        <translation type="unfinished"></translation>
+        <translation>Impresión en progreso...</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4476"/>
@@ -1127,7 +1127,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="4482"/>
         <source>Printing completed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Impresión completada.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5124"/>
@@ -1151,7 +1151,7 @@
         <location filename="../../fpwin.cpp" line="5173"/>
         <location filename="../../fpwin.cpp" line="5258"/>
         <source>Open Containing Folder</source>
-        <translation type="unfinished"></translation>
+        <translation>Abrir carpeta contenedora</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5367"/>
@@ -1251,7 +1251,7 @@
     <message>
         <location filename="../../replace.cpp" line="251"/>
         <source>The first 1000 replacements are highlighted.</source>
-        <translation type="unfinished"></translation>
+        <translation>Los primeros 1000 reemplazamientos son enfocados.</translation>
     </message>
     <message>
         <location filename="../../syntax.cpp" line="284"/>
@@ -1593,7 +1593,7 @@ of the selected text.</source>
     <message>
         <location filename="../../prefDialog.ui" line="513"/>
         <source>Selection highlighting</source>
-        <translation type="unfinished"></translation>
+        <translation>Enfocar selección</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="576"/>
@@ -2004,12 +2004,13 @@ los espacios finales de un archivo de texto.</translation>
         <location filename="../../prefDialog.ui" line="1228"/>
         <source>By default, when files are copied, they will
 be opened if they are pasted into FeatherPad.</source>
-        <translation type="unfinished"></translation>
+        <translation>Por defecto, cuando los archivos son copiados,
+se abrirán si se pegan dentro de FeatherPad.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1232"/>
         <source>Paste paths instead of files</source>
-        <translation type="unfinished"></translation>
+        <translation>Pegar rutas en lugar de archivos</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1259"/>
@@ -2062,12 +2063,12 @@ be opened if they are pasted into FeatherPad.</source>
         <location filename="../../prefDialog.ui" line="1369"/>
         <location filename="../../prefDialog.ui" line="1379"/>
         <source>Has effect only if line numbers are shown.</source>
-        <translation type="unfinished"></translation>
+        <translation>Sólo tiene efecto si se muestran el número de líneas.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1372"/>
         <source>Current line highlight value:</source>
-        <translation type="unfinished"></translation>
+        <translation>Valor de enfoque de la línea actual:</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1404"/>
