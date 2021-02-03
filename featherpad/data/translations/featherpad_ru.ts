@@ -524,7 +524,7 @@
         <location filename="../../fp.ui" line="1157"/>
         <location filename="../../fp.ui" line="1160"/>
         <source>To Start Case</source>
-        <translation type="unfinished"></translation>
+        <translation>Начать случай</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1168"/>
@@ -574,7 +574,7 @@
     <message>
         <location filename="../../fp.ui" line="1219"/>
         <source>Text Tabs to Spaces</source>
-        <translation type="unfinished"></translation>
+        <translation>Табуляции перевести в пробелы</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="994"/>
@@ -972,17 +972,17 @@
     <message>
         <location filename="../../fpwin.cpp" line="3233"/>
         <source>Saving as root.</source>
-        <translation type="unfinished"></translation>
+        <translation>Сохранить как root.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3234"/>
         <source>Waiting for authentication...</source>
-        <translation type="unfinished"></translation>
+        <translation>Ожидание аутентификации ...</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3354"/>
         <source>&quot;pkexec&quot; is not found. Please install Polkit!</source>
-        <translation type="unfinished"></translation>
+        <translation>&quot;pkexec&quot; не найден. Пожалуйста, установите Polkit!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3042"/>
@@ -1002,17 +1002,17 @@
     <message>
         <location filename="../../fpwin.cpp" line="3509"/>
         <source>Text tabs are converted to spaces.</source>
-        <translation type="unfinished"></translation>
+        <translation>Табуляции переведены в пробелы.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3617"/>
         <source>The selected text was too long.</source>
-        <translation type="unfinished"></translation>
+        <translation>Выбранный текст слишком большой.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3618"/>
         <source>It is not fully processed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Он не полностью переработан.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3757"/>
@@ -1029,12 +1029,12 @@
     <message>
         <location filename="../../fpwin.cpp" line="4425"/>
         <source>Printing in progress...</source>
-        <translation type="unfinished"></translation>
+        <translation>Идет печать ...</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4482"/>
         <source>Printing completed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Печать завершена.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5124"/>
@@ -1058,7 +1058,7 @@
         <location filename="../../fpwin.cpp" line="5173"/>
         <location filename="../../fpwin.cpp" line="5258"/>
         <source>Open Containing Folder</source>
-        <translation type="unfinished"></translation>
+        <translation>Открыть содержащую папку</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5367"/>
@@ -1252,7 +1252,7 @@
     <message>
         <location filename="../../replace.cpp" line="251"/>
         <source>The first 1000 replacements are highlighted.</source>
-        <translation type="unfinished"></translation>
+        <translation>Выделены первые 1000 замен.</translation>
     </message>
     <message>
         <location filename="../../syntax.cpp" line="284"/>
@@ -1552,12 +1552,13 @@ under proper circumstances.</source>
         <location filename="../../prefDialog.ui" line="509"/>
         <source>Highlight case-sensitive and whole matches
 of the selected text.</source>
-        <translation type="unfinished"></translation>
+        <translation>Выделение совпадений с учетом регистра и целых совпадений
+выделенного текста.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="513"/>
         <source>Selection highlighting</source>
-        <translation type="unfinished"></translation>
+        <translation>Выделение выделений</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="545"/>
@@ -1775,12 +1776,13 @@ trailing spaces of a text file.</source>
         <location filename="../../prefDialog.ui" line="1228"/>
         <source>By default, when files are copied, they will
 be opened if they are pasted into FeatherPad.</source>
-        <translation type="unfinished"></translation>
+        <translation>По умолчанию при копировании файлов они будут
+открываться, если они вставлены в FeatherPad.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1232"/>
         <source>Paste paths instead of files</source>
-        <translation type="unfinished"></translation>
+        <translation>Вставте пути вместо файлов</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1259"/>
@@ -1833,12 +1835,12 @@ be opened if they are pasted into FeatherPad.</source>
         <location filename="../../prefDialog.ui" line="1369"/>
         <location filename="../../prefDialog.ui" line="1379"/>
         <source>Has effect only if line numbers are shown.</source>
-        <translation type="unfinished"></translation>
+        <translation>Действует только при отображении номеров строк.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1372"/>
         <source>Current line highlight value:</source>
-        <translation type="unfinished"></translation>
+        <translation>Текущие выделение в строки:</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1404"/>
@@ -2076,7 +2078,8 @@ if the cursor is inside the text view?</source>
         <location filename="../../pref.cpp" line="104"/>
         <source>Press a modifier key to clear a shortcut
 in the editing mode.</source>
-        <translation type="unfinished"></translation>
+        <translation>Используйте клавишу-модификатор, чтобы очистить
+комбинацию клавиш в режиме редактирования.</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="110"/>
