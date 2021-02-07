@@ -486,7 +486,7 @@ linea (Ctrl + Shift + J)</translation>
         <location filename="../../fp.ui" line="1157"/>
         <location filename="../../fp.ui" line="1160"/>
         <source>To Start Case</source>
-        <translation type="unfinished"></translation>
+        <translation>Prime Lettere Maiuscole</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1168"/>
@@ -1442,12 +1442,13 @@ un pulsante di menu sulla barra degli strumenti.</translation>
         <location filename="../../prefDialog.ui" line="225"/>
         <source>By default, each search entry
 has a separate search history.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Predefinito ogni ricerca ha
+una propria cronologia di ricerca.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="229"/>
         <source>Use a shared search history</source>
-        <translation type="unfinished"></translation>
+        <translation>Usa cronologia condivisa per la ricerca</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="236"/>
@@ -2058,7 +2059,7 @@ be opened if they are pasted into FeatherPad.</source>
     <message>
         <location filename="../../prefDialog.ui" line="1372"/>
         <source>Current line highlight value:</source>
-        <translation type="unfinished"></translation>
+        <translation>Valore attuale di evidenziamento riga:</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1404"/>
