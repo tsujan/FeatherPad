@@ -934,7 +934,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="2539"/>
         <source>Non-text file(s) not opened!</source>
-        <translation type="unfinished">Les fichiers non texte ne sont pas ouverts!</translation>
+        <translation>Les fichiers non texte ne sont pas ouverts !</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2540"/>
@@ -969,17 +969,17 @@
     <message>
         <location filename="../../fpwin.cpp" line="3282"/>
         <source>Saving as root.</source>
-        <translation type="unfinished"></translation>
+        <translation>Enregistrer en tant que root.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3283"/>
         <source>Waiting for authentication...</source>
-        <translation type="unfinished"></translation>
+        <translation>En attente d&apos;authentification ...</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3403"/>
         <source>&quot;pkexec&quot; is not found. Please install Polkit!</source>
-        <translation type="unfinished"></translation>
+        <translation>&quot;pkexec&quot; est introuvable. Veuillez installer Polkit !</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3093"/>
@@ -989,7 +989,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="3558"/>
         <source>Text tabs are converted to spaces.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Les tabulations sont converties en espaces</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3666"/>
@@ -1016,12 +1016,12 @@
     <message>
         <location filename="../../fpwin.cpp" line="4474"/>
         <source>Printing in progress...</source>
-        <translation type="unfinished"></translation>
+        <translation>Impression en cours...</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4531"/>
         <source>Printing completed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Impression terminée.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5195"/>
@@ -1045,13 +1045,13 @@
         <location filename="../../fpwin.cpp" line="5249"/>
         <location filename="../../fpwin.cpp" line="5360"/>
         <source>Copy Final Target Path</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Copier le chemin final de la cible</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5253"/>
         <location filename="../../fpwin.cpp" line="5364"/>
         <source>Open Final Target Here</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Ouvrir le chemin final de la cible</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5270"/>
@@ -1599,13 +1599,13 @@ dans les cas appropriés.</translation>
         <location filename="../../prefDialog.ui" line="509"/>
         <source>Highlight case-sensitive and whole matches
 of the selected text.</source>
-        <translation type="unfinished">Mettez en évidence les correspondances sensibles à la casse et entières
+        <translation type="unfinished">Mettre en évidence les correspondances sensibles à la casse et entières
 du texte sélectionné.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="513"/>
         <source>Selection highlighting</source>
-        <translation type="unfinished">Mettre en évidence la sélection</translation>
+        <translation>Mettre en évidence la sélection</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="576"/>
@@ -2062,7 +2062,7 @@ seront ouverts s&apos;ils sont collés dans FeatherPad.</translation>
     <message>
         <location filename="../../prefDialog.ui" line="1339"/>
         <source>Whitespace color value:</source>
-        <translation type="unfinished">Valeur de couleur des espaces blancs :</translation>
+        <translation>Valeur de couleur des espaces blancs :</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1369"/>
@@ -2163,7 +2163,7 @@ en mode édition.</translation>
     <message>
         <location filename="../../pref.cpp" line="397"/>
         <source>Markdown Headings, CSS Values,…</source>
-        <translation type="unfinished">Noter les en-têtes, les valeurs CSS,…</translation>
+        <translation>Noter les en-têtes, les valeurs CSS,…</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="398"/>
