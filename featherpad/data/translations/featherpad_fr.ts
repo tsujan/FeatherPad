@@ -32,7 +32,7 @@
         <source>Select text from cursor to this line
 (Ctrl+Shift+J)</source>
         <translation>Sélectionner le texte depuis le curseur jusqu&apos;à cette ligne
-(Ctrl+MAJ+J)</translation>
+(Ctrl+Shift+J)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="111"/>
@@ -42,7 +42,7 @@
     <message>
         <location filename="../../fp.ui" line="114"/>
         <source>Ctrl+Shift+J</source>
-        <translation>Ctrl+Maj+J</translation>
+        <translation>Ctrl+Shift+J</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="149"/>
@@ -70,13 +70,13 @@
     <message>
         <location filename="../../fp.ui" line="282"/>
         <source>&amp;Search</source>
-        <translation>&amp;Chercher</translation>
+        <translation>Chercher</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="290"/>
         <location filename="../../fp.ui" line="746"/>
         <source>&amp;Help</source>
-        <translation>&amp;Aide</translation>
+        <translation>Aide</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="390"/>
@@ -132,7 +132,7 @@
         <location filename="../../fp.ui" line="519"/>
         <location filename="../../fpwin.cpp" line="1241"/>
         <source>&amp;Save</source>
-        <translation>&amp;Enregistrer</translation>
+        <translation>Enregi&amp;strer</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="522"/>
@@ -147,7 +147,7 @@
     <message>
         <location filename="../../fp.ui" line="533"/>
         <source>&amp;Undo</source>
-        <translation>&amp;Annuler</translation>
+        <translation>Ann&amp;uler</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="536"/>
@@ -172,7 +172,7 @@
     <message>
         <location filename="../../fp.ui" line="553"/>
         <source>Ctrl+Shift+Z</source>
-        <translation>Ctrl+MAJ+Z</translation>
+        <translation>Ctrl+Shift+Z</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="561"/>
@@ -183,12 +183,12 @@
     <message>
         <location filename="../../fp.ui" line="567"/>
         <source>Ctrl+Shift+R</source>
-        <translation>Ctrl+MAJ+R</translation>
+        <translation>Ctrl+Shift+R</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="572"/>
         <source>&amp;Find</source>
-        <translation>&amp;Trouver</translation>
+        <translation>Trouver</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="578"/>
@@ -208,17 +208,17 @@
     <message>
         <location filename="../../fp.ui" line="594"/>
         <source>Save &amp;As</source>
-        <translation>Enregistrer s&amp;ous</translation>
+        <translation>Enregistrer sous</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="597"/>
         <source>Ctrl+Shift+S</source>
-        <translation>Ctrl+MAJ+S</translation>
+        <translation>Ctrl+Shift+S</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="602"/>
         <source>&amp;Print</source>
-        <translation>&amp;Imprimer</translation>
+        <translation>Im&amp;primer</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="605"/>
@@ -228,22 +228,22 @@
     <message>
         <location filename="../../fp.ui" line="610"/>
         <source>Documen&amp;t Properties</source>
-        <translation>&amp;Propriétés du document</translation>
+        <translation>Proprié&amp;tés du document</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="613"/>
         <source>Ctrl+Shift+D</source>
-        <translation>Ctrl+MAJ+D</translation>
+        <translation>Ctrl+Shift+D</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="618"/>
         <source>&amp;Close</source>
-        <translation>&amp;Fermer</translation>
+        <translation>Fermer</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="621"/>
         <source>Ctrl+Shift+Q</source>
-        <translation>Ctrl+MAJ+Q</translation>
+        <translation>Ctrl+Shift+Q</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="626"/>
@@ -293,7 +293,7 @@
     <message>
         <location filename="../../fp.ui" line="672"/>
         <source>&amp;Select All</source>
-        <translation>&amp;Tout sélectionner</translation>
+        <translation>Tout &amp;sélectionner</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="675"/>
@@ -308,7 +308,7 @@
     <message>
         <location filename="../../fp.ui" line="688"/>
         <source>&amp;Line Numbers</source>
-        <translation>&amp;Numéros de ligne</translation>
+        <translation>Numéros de &amp;ligne</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="691"/>
@@ -343,7 +343,7 @@
     <message>
         <location filename="../../fp.ui" line="733"/>
         <source>Ctrl+Shift+H</source>
-        <translation>Ctrl+MAJ+H</translation>
+        <translation>Ctrl+Shift+H</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="738"/>
@@ -353,7 +353,7 @@
     <message>
         <location filename="../../fp.ui" line="741"/>
         <source>Ctrl+Shift+P</source>
-        <translation>Ctrl+MAJ+P</translation>
+        <translation>Ctrl+Shift+P</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="749"/>
@@ -398,12 +398,12 @@
     <message>
         <location filename="../../fp.ui" line="986"/>
         <source>Ctrl+Shift+E</source>
-        <translation>Ctrl+MAJ+E</translation>
+        <translation>Ctrl+Shift+E</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1068"/>
         <source>Alt+Down</source>
-        <translation>Alt+Bas</translation>
+        <translation>Alt+Down</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1089"/>
@@ -458,7 +458,7 @@
     <message>
         <location filename="../../fp.ui" line="1130"/>
         <source>Ctrl+Shift+V</source>
-        <translation>Ctrl+MAJ+V</translation>
+        <translation>Ctrl+Shift+V</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1135"/>
@@ -469,7 +469,7 @@
     <message>
         <location filename="../../fp.ui" line="1141"/>
         <source>Ctrl+Shift+U</source>
-        <translation>Ctrl+MAJ+U</translation>
+        <translation>Ctrl+Shift+U</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1146"/>
@@ -480,7 +480,7 @@
     <message>
         <location filename="../../fp.ui" line="1152"/>
         <source>Ctrl+Shift+L</source>
-        <translation>Ctrl+MAJ+L</translation>
+        <translation>Ctrl+Shift+L</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1157"/>
@@ -536,7 +536,7 @@
     <message>
         <location filename="../../fp.ui" line="1219"/>
         <source>Text Tabs to Spaces</source>
-        <translation type="unfinished"></translation>
+        <translation>Tabulations en espaces</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="994"/>
@@ -769,7 +769,7 @@
     <message>
         <location filename="../../fp.ui" line="1079"/>
         <source>Alt+Up</source>
-        <translation>Alt+Haut</translation>
+        <translation>Alt+Up</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1084"/>
@@ -939,7 +939,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="2540"/>
         <source>See Preferences → Files → Do not permit opening of non-text files</source>
-        <translation type="unfinished">Voir Préférences → Fichiers → Ne pas autoriser l&apos;ouverture de fichiers non texte</translation>
+        <translation>Voir Préférences → Fichiers → Ne pas autoriser l&apos;ouverture de fichiers non texte</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2549"/>
@@ -989,7 +989,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="3558"/>
         <source>Text tabs are converted to spaces.</source>
-        <translation type="unfinished">Les tabulations sont converties en espaces</translation>
+        <translation>Les tabulations sont converties en espaces.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3666"/>
@@ -999,7 +999,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="3667"/>
         <source>It is not fully processed.</source>
-        <translation type="unfinished">Ce n&apos;est pas entièrement traité.</translation>
+        <translation>Ce n&apos;est pas entièrement traité.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3806"/>
@@ -1045,19 +1045,19 @@
         <location filename="../../fpwin.cpp" line="5249"/>
         <location filename="../../fpwin.cpp" line="5360"/>
         <source>Copy Final Target Path</source>
-        <translation type="unfinished">Copier le chemin final de la cible</translation>
+        <translation>Copier le chemin final de la cible</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5253"/>
         <location filename="../../fpwin.cpp" line="5364"/>
         <source>Open Final Target Here</source>
-        <translation type="unfinished">Ouvrir le chemin final de la cible</translation>
+        <translation>Ouvrir le chemin final de la cible</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5270"/>
         <location filename="../../fpwin.cpp" line="5382"/>
         <source>Open Containing Folder</source>
-        <translation type="unfinished">Ouvrir dossier contenant</translation>
+        <translation>Ouvrir dossier contenant</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5491"/>
@@ -1599,7 +1599,7 @@ dans les cas appropriés.</translation>
         <location filename="../../prefDialog.ui" line="509"/>
         <source>Highlight case-sensitive and whole matches
 of the selected text.</source>
-        <translation type="unfinished">Mettre en évidence les correspondances sensibles à la casse et entières
+        <translation>Mettre en évidence les correspondances sensibles à la casse et entières
 du texte sélectionné.</translation>
     </message>
     <message>
@@ -2138,7 +2138,7 @@ en mode édition.</translation>
     <message>
         <location filename="../../pref.cpp" line="392"/>
         <source>Types</source>
-        <translation type="unfinished">Types</translation>
+        <translation>Types</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="393"/>
@@ -2158,7 +2158,7 @@ en mode édition.</translation>
     <message>
         <location filename="../../pref.cpp" line="396"/>
         <source>Document Blocks, XML/HTML Elements,…</source>
-        <translation type="unfinished">Blocs de document, éléments XML/HTML,…</translation>
+        <translation>Blocs de document, éléments XML/HTML,…</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="397"/>
@@ -2257,7 +2257,7 @@ en mode édition.</translation>
         <location filename="../../sessionDialog.ui" line="101"/>
         <location filename="../../sessionDialog.ui" line="270"/>
         <source>&amp;Remove</source>
-        <translation>&amp;Supprimer</translation>
+        <translation>Supp&amp;rimer</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="33"/>
@@ -2284,13 +2284,13 @@ en mode édition.</translation>
         <location filename="../../sessionDialog.ui" line="98"/>
         <location filename="../../sessionDialog.ui" line="108"/>
         <source>Del</source>
-        <translation>Suppr</translation>
+        <translation>Del</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="115"/>
         <location filename="../../sessionDialog.ui" line="125"/>
         <source>Ctrl+Del</source>
-        <translation>Ctrl+Suppr</translation>
+        <translation>Ctrl+Del</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="159"/>
@@ -2328,7 +2328,7 @@ fenêtres seront inclus dans la session sauvegardée.</translation>
     <message>
         <location filename="../../sessionDialog.ui" line="118"/>
         <source>Remove &amp;All</source>
-        <translation>&amp;Tout supprimer</translation>
+        <translation>Tout supprimer</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="260"/>
