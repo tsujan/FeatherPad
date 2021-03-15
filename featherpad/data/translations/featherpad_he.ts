@@ -1258,6 +1258,8 @@
         <translation>
             <numerusform>החלפה אחת</numerusform>
             <numerusform>%Ln החלפות</numerusform>
+            <numerusform>%Ln החלפות</numerusform>
+            <numerusform>%Ln החלפות</numerusform>
         </translation>
     </message>
     <message>
