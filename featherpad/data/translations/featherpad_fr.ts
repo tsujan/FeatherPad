@@ -536,7 +536,7 @@
     <message>
         <location filename="../../fp.ui" line="1219"/>
         <source>Text Tabs to Spaces</source>
-        <translation type="unfinished"></translation>
+        <translation>Tabulations en espaces</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="994"/>
@@ -939,7 +939,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="2540"/>
         <source>See Preferences → Files → Do not permit opening of non-text files</source>
-        <translation type="unfinished">Voir Préférences → Fichiers → Ne pas autoriser l&apos;ouverture de fichiers non texte</translation>
+        <translation>Voir Préférences → Fichiers → Ne pas autoriser l&apos;ouverture de fichiers non texte</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2549"/>
@@ -989,7 +989,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="3558"/>
         <source>Text tabs are converted to spaces.</source>
-        <translation type="unfinished">Les tabulations sont converties en espaces</translation>
+        <translation>Les tabulations sont converties en espaces.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3666"/>
@@ -999,7 +999,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="3667"/>
         <source>It is not fully processed.</source>
-        <translation type="unfinished">Ce n&apos;est pas entièrement traité.</translation>
+        <translation>Ce n&apos;est pas entièrement traité.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3806"/>
@@ -1045,19 +1045,19 @@
         <location filename="../../fpwin.cpp" line="5249"/>
         <location filename="../../fpwin.cpp" line="5360"/>
         <source>Copy Final Target Path</source>
-        <translation type="unfinished">Copier le chemin final de la cible</translation>
+        <translation>Copier le chemin final de la cible</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5253"/>
         <location filename="../../fpwin.cpp" line="5364"/>
         <source>Open Final Target Here</source>
-        <translation type="unfinished">Ouvrir le chemin final de la cible</translation>
+        <translation>Ouvrir le chemin final de la cible</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5270"/>
         <location filename="../../fpwin.cpp" line="5382"/>
         <source>Open Containing Folder</source>
-        <translation type="unfinished">Ouvrir dossier contenant</translation>
+        <translation>Ouvrir dossier contenant</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5491"/>
@@ -1483,7 +1483,7 @@ a un historique différent.</translation>
     <message>
         <location filename="../../prefDialog.ui" line="275"/>
         <source>Tab position: </source>
-        <translation>Emplacement des onglets: </translation>
+        <translation>Emplacement des onglets : </translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="286"/>
@@ -1599,7 +1599,7 @@ dans les cas appropriés.</translation>
         <location filename="../../prefDialog.ui" line="509"/>
         <source>Highlight case-sensitive and whole matches
 of the selected text.</source>
-        <translation type="unfinished">Mettre en évidence les correspondances sensibles à la casse et entières
+        <translation>Mettre en évidence les correspondances sensibles à la casse et entières
 du texte sélectionné.</translation>
     </message>
     <message>
@@ -1723,7 +1723,7 @@ seront affichés dans une boîte de dialogue popup.</translation>
     <message>
         <location filename="../../prefDialog.ui" line="1129"/>
         <source>Start with this command: </source>
-        <translation>Lancer avec la commande: </translation>
+        <translation>Lancer avec la commande : </translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1148"/>
@@ -1809,7 +1809,7 @@ une autre en glissant-déposant un onglet.</translation>
     <message>
         <location filename="../../prefDialog.ui" line="715"/>
         <source>Background color value: </source>
-        <translation>Valeur de la couleur d&apos;arrière-plan: </translation>
+        <translation>Valeur de la couleur d&apos;arrière-plan : </translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="583"/>
@@ -1891,7 +1891,7 @@ MMM dd, yyyy, hh:mm:ss</source>
 
 Prendra effet après la fermeture de cette fenêtre.
 
-Laisser vide pour:
+Laisser vide pour :
 MMM jj, aaaa, hh:mm:ss</translation>
     </message>
     <message>
@@ -1957,7 +1957,7 @@ démarrera au début du document.</translation>
     <message>
         <location filename="../../prefDialog.ui" line="973"/>
         <source>Number of recent files: </source>
-        <translation>Nombre de fichiers récents: </translation>
+        <translation>Nombre de fichiers récents : </translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1072"/>
@@ -2113,7 +2113,7 @@ en mode édition.</translation>
         <location filename="../../pref.cpp" line="355"/>
         <location filename="../../pref.cpp" line="1457"/>
         <source>Warning: Ambiguous shortcut detected!</source>
-        <translation>Attention: raccourci ambigu détecté !</translation>
+        <translation>Attention : raccourci ambigu détecté !</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="388"/>
@@ -2138,7 +2138,7 @@ en mode édition.</translation>
     <message>
         <location filename="../../pref.cpp" line="392"/>
         <source>Types</source>
-        <translation type="unfinished">Types</translation>
+        <translation>Types</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="393"/>
@@ -2158,7 +2158,7 @@ en mode édition.</translation>
     <message>
         <location filename="../../pref.cpp" line="396"/>
         <source>Document Blocks, XML/HTML Elements,…</source>
-        <translation type="unfinished">Blocs de document, éléments XML/HTML,…</translation>
+        <translation>Blocs de document, éléments XML/HTML,…</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="397"/>
@@ -2284,7 +2284,7 @@ en mode édition.</translation>
         <location filename="../../sessionDialog.ui" line="98"/>
         <location filename="../../sessionDialog.ui" line="108"/>
         <source>Del</source>
-        <translation>Suppr</translation>
+        <translation>Del</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="115"/>
