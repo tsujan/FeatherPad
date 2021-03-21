@@ -1151,13 +1151,13 @@
         <location filename="../../fpwin.cpp" line="5249"/>
         <location filename="../../fpwin.cpp" line="5360"/>
         <source>Copy Final Target Path</source>
-        <translation type="unfinished"></translation>
+        <translation>复制最终目标路径</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5253"/>
         <location filename="../../fpwin.cpp" line="5364"/>
         <source>Open Final Target Here</source>
-        <translation type="unfinished"></translation>
+        <translation>在此处打开最终目标</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5270"/>
