@@ -486,7 +486,7 @@
         <location filename="../../fp.ui" line="1157"/>
         <location filename="../../fp.ui" line="1160"/>
         <source>To Start Case</source>
-        <translation type="unfinished"></translation>
+        <translation>Première lettre en majuscule</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1168"/>
@@ -1855,7 +1855,7 @@ Needs window reopening to take effect.</source>
 255 pour le blanc et 0 pour le noir.
 
 Pour les arrière-plans clairs, elle peut être
-comprise entre 230 et 255; pour les arrière-plans
+comprise entre 230 et 255 ; pour les arrière-plans
 sombres, entre 0 et 50.
 
 Nécessite la réouverture de la fenêtre pour être activé.</translation>
