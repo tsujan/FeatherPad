@@ -1271,6 +1271,7 @@
         <translatorcomment>Reminder: Must be singular for enumerated items as in &quot;7 file&quot; but NOT &quot;7 files&quot;</translatorcomment>
         <translation>
             <numerusform>%Ln Değişiklik</numerusform>
+            <numerusform>%Ln Değişiklik</numerusform>
         </translation>
     </message>
     <message>
