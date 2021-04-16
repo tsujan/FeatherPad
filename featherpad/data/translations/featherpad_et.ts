@@ -6,7 +6,7 @@
     <message>
         <location filename="../../about.ui" line="165"/>
         <source>License</source>
-        <translation type="unfinished"></translation>
+        <translation>Litsents</translation>
     </message>
 </context>
 <context>
@@ -25,12 +25,12 @@
         <location filename="../../fpwin.cpp" line="4797"/>
         <location filename="../../fpwin.cpp" line="5068"/>
         <source>Untitled</source>
-        <translation type="unfinished"></translation>
+        <translation>Nimetu</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="71"/>
         <source>Go to line:</source>
-        <translation type="unfinished"></translation>
+        <translation>Suundu reale:</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="107"/>
