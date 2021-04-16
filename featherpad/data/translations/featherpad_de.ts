@@ -486,7 +486,7 @@
         <location filename="../../fp.ui" line="1157"/>
         <location filename="../../fp.ui" line="1160"/>
         <source>To Start Case</source>
-        <translation type="unfinished"></translation>
+        <translation>Zur Anfangsgröße</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1168"/>
@@ -536,7 +536,7 @@
     <message>
         <location filename="../../fp.ui" line="1219"/>
         <source>Text Tabs to Spaces</source>
-        <translation>Text-Tabulatoren zu Leerzeichen</translation>
+        <translation>Tabs in Leerzeichen</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="994"/>
@@ -1027,7 +1027,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="3403"/>
         <source>&quot;pkexec&quot; is not found. Please install Polkit!</source>
-        <translation type="unfinished"></translation>
+        <translation>&quot;pkexec&quot; wurde nicht gefunden. Bitte installiert Polkit!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3091"/>
@@ -1100,7 +1100,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="3667"/>
         <source>It is not fully processed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Es ist nicht vollständig verarbeitet.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3806"/>
@@ -1151,13 +1151,13 @@
         <location filename="../../fpwin.cpp" line="5249"/>
         <location filename="../../fpwin.cpp" line="5360"/>
         <source>Copy Final Target Path</source>
-        <translation type="unfinished"></translation>
+        <translation>Kopiere Endzielpfad</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5253"/>
         <location filename="../../fpwin.cpp" line="5364"/>
         <source>Open Final Target Here</source>
-        <translation type="unfinished"></translation>
+        <translation>Öffne Endzielpfad</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5270"/>
@@ -1598,12 +1598,13 @@ wenn Sie unter bestimmten Umständen tippen.</translation>
         <location filename="../../prefDialog.ui" line="509"/>
         <source>Highlight case-sensitive and whole matches
 of the selected text.</source>
-        <translation type="unfinished"></translation>
+        <translation>Markiere Größen-abhängige und Volltreffer
+vom ausgewählten Text.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="513"/>
         <source>Selection highlighting</source>
-        <translation type="unfinished"></translation>
+        <translation>Auswahlmarkierung</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="576"/>
