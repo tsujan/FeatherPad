@@ -36,168 +36,169 @@
         <location filename="../../fp.ui" line="107"/>
         <source>Select text from cursor to this line
 (Ctrl+Shift+J)</source>
-        <translation type="unfinished"></translation>
+        <translation>Vali tekst alates kursorist kuni selle reani
+(Ctrl+Shift+J)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="111"/>
         <source>Select Text</source>
-        <translation type="unfinished"></translation>
+        <translation>Vali tekst</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="114"/>
         <source>Ctrl+Shift+J</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Shift+J</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="149"/>
         <source>&amp;File</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Fail</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="189"/>
         <location filename="../../fp.ui" line="980"/>
         <source>&amp;Edit</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Muuda</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="219"/>
         <source>&amp;Options</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Eelistused</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1466"/>
         <location filename="../../fpwin.cpp" line="2812"/>
         <location filename="../../fpwin.cpp" line="4317"/>
         <source>Encoding</source>
-        <translation type="unfinished"></translation>
+        <translation>Kodeerimine</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="282"/>
         <source>&amp;Search</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Otsi</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="290"/>
         <location filename="../../fp.ui" line="746"/>
         <source>&amp;Help</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Abiteave</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="390"/>
         <source>Find:</source>
-        <translation type="unfinished"></translation>
+        <translation>Otsi:</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="406"/>
         <source>To be replaced</source>
-        <translation type="unfinished"></translation>
+        <translation>Sisu, mida kavatsed asendada</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="419"/>
         <source>Replace with:</source>
-        <translation type="unfinished"></translation>
+        <translation>Asenda:</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="435"/>
         <source>Replacing text</source>
-        <translation type="unfinished"></translation>
+        <translation>Asenda selle sisuga</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="494"/>
         <source>&amp;New</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Uus</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="497"/>
         <source>New tab</source>
-        <translation type="unfinished"></translation>
+        <translation>Uus kaart</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="500"/>
         <source>Ctrl+N</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+N</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="505"/>
         <source>&amp;Open</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Ava</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="508"/>
         <source>Open a file</source>
-        <translation type="unfinished"></translation>
+        <translation>Ava fail</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="511"/>
         <source>Ctrl+O</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+O</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="519"/>
         <location filename="../../fpwin.cpp" line="1241"/>
         <source>&amp;Save</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Salvesta</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="522"/>
         <source>Save the current tab</source>
-        <translation type="unfinished"></translation>
+        <translation>Salvesta praegune kaart</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="525"/>
         <source>Ctrl+S</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+S</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="533"/>
         <source>&amp;Undo</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Võta tagasi</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="536"/>
         <source>Undo</source>
-        <translation type="unfinished"></translation>
+        <translation>Võta viimane tegevus tagasi</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="539"/>
         <source>Ctrl+Z</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Z</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="547"/>
         <source>&amp;Redo</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Tee uuesti</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="550"/>
         <source>Redo</source>
-        <translation type="unfinished"></translation>
+        <translation>Korda viimast tegevust uuesti</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="553"/>
         <source>Ctrl+Shift+Z</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Shift+Z</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="561"/>
         <location filename="../../fp.ui" line="564"/>
         <source>Reload</source>
-        <translation type="unfinished"></translation>
+        <translation>Laadi uuesti</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="567"/>
         <source>Ctrl+Shift+R</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Shift+R</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="572"/>
         <source>&amp;Find</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Otsi</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="578"/>
         <source>Ctrl+F</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+F</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="586"/>
@@ -212,162 +213,162 @@
     <message>
         <location filename="../../fp.ui" line="594"/>
         <source>Save &amp;As</source>
-        <translation type="unfinished"></translation>
+        <translation>Salvesta &amp;kui</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="597"/>
         <source>Ctrl+Shift+S</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Shift+S</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="602"/>
         <source>&amp;Print</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Trüki</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="605"/>
         <source>Ctrl+P</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+P</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="610"/>
         <source>Documen&amp;t Properties</source>
-        <translation type="unfinished"></translation>
+        <translation>Dokumendi &amp;omadused</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="613"/>
         <source>Ctrl+Shift+D</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Shift+D</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="618"/>
         <source>&amp;Close</source>
-        <translation type="unfinished"></translation>
+        <translation>Sul&amp;ge</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="621"/>
         <source>Ctrl+Shift+Q</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Shift+Q</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="626"/>
         <source>&amp;Quit</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Välju</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="629"/>
         <source>Ctrl+Q</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Q</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="637"/>
         <source>&amp;Cut</source>
-        <translation type="unfinished"></translation>
+        <translation>L&amp;õika</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="640"/>
         <source>Ctrl+X</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+X</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="648"/>
         <source>C&amp;opy</source>
-        <translation type="unfinished"></translation>
+        <translation>K&amp;opeeri</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="651"/>
         <source>Ctrl+C</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+C</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="656"/>
         <source>&amp;Paste</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Aseta</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="659"/>
         <source>Ctrl+V</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+V</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="667"/>
         <source>&amp;Delete</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Kustuta</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="672"/>
         <source>&amp;Select All</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Vali kõik</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="675"/>
         <source>Ctrl+A</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+A</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="680"/>
         <source>&amp;Font</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Font</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="688"/>
         <source>&amp;Line Numbers</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Reanumbrid</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="691"/>
         <source>Ctrl+L</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+L</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="702"/>
         <source>&amp;Wrap Lines</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Murra ridu</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="705"/>
         <source>Ctrl+W</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+W</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="716"/>
         <source>&amp;Auto-Indentation</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Automaatsed taandread</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="719"/>
         <source>Ctrl+I</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+I</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="730"/>
         <source>&amp;Syntax Highlighting</source>
-        <translation type="unfinished"></translation>
+        <translation>Tõsta &amp;süntaks esile</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="733"/>
         <source>Ctrl+Shift+H</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Shift+H</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="738"/>
         <source>&amp;Preferences</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Seadistused</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="741"/>
         <source>Ctrl+Shift+P</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Shift+P</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="749"/>
         <source>Ctrl+H</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+H</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="754"/>
         <source>&amp;About</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Rakenduse teave</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="781"/>
@@ -397,7 +398,7 @@
     <message>
         <location filename="../../fp.ui" line="983"/>
         <source>Edit text</source>
-        <translation type="unfinished"></translation>
+        <translation>Muuda teksti</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="986"/>
@@ -422,7 +423,7 @@
     <message>
         <location filename="../../fp.ui" line="1103"/>
         <source>Clear the list of recently modified files</source>
-        <translation type="unfinished"></translation>
+        <translation>Tühjenda hiljuti muudetud failide loend</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1108"/>
@@ -442,89 +443,89 @@
     <message>
         <location filename="../../fp.ui" line="1119"/>
         <source>Side-Pane</source>
-        <translation type="unfinished"></translation>
+        <translation>Külgpaneel</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1122"/>
         <source>Ctrl+Alt+P</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Alt+P</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1127"/>
         <source>Paste Date and Time</source>
-        <translation type="unfinished"></translation>
+        <translation>Aseta kuupäev ja kellaaeg</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1130"/>
         <source>Ctrl+Shift+V</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Shift+V</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1135"/>
         <location filename="../../fp.ui" line="1138"/>
         <source>To Upper Case</source>
-        <translation type="unfinished"></translation>
+        <translation>Muuda suurtähtedeks</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1141"/>
         <source>Ctrl+Shift+U</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Shift+U</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1146"/>
         <location filename="../../fp.ui" line="1149"/>
         <source>To Lower Case</source>
-        <translation type="unfinished"></translation>
+        <translation>Muuda väiketähtedeks</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1152"/>
         <source>Ctrl+Shift+L</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Shift+L</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1157"/>
         <location filename="../../fp.ui" line="1160"/>
         <source>To Start Case</source>
-        <translation type="unfinished"></translation>
+        <translation>Muuda esimesed tähed suureks</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1168"/>
         <location filename="../../fp.ui" line="1171"/>
         <source>Last Active Tab</source>
-        <translation type="unfinished"></translation>
+        <translation>Viimati kasutatud kaart</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1174"/>
         <source>F1</source>
-        <translation type="unfinished"></translation>
+        <translation>F1</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1179"/>
         <location filename="../../fp.ui" line="1182"/>
         <source>Sort Lines</source>
-        <translation type="unfinished"></translation>
+        <translation>Sorteeri read</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1187"/>
         <location filename="../../fp.ui" line="1190"/>
         <source>Sort Lines Reversely</source>
-        <translation type="unfinished"></translation>
+        <translation>Sorteeri read tagurpidi</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1195"/>
         <source>Check Spelling</source>
-        <translation type="unfinished"></translation>
+        <translation>Kontrolli õigekirja</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1198"/>
         <source>F2</source>
-        <translation type="unfinished"></translation>
+        <translation>F2</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1203"/>
         <location filename="../../fp.ui" line="1206"/>
         <source>Save All Files</source>
-        <translation type="unfinished"></translation>
+        <translation>Salvesta kõik failid</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1211"/>
@@ -535,7 +536,7 @@
     <message>
         <location filename="../../fp.ui" line="1219"/>
         <source>Text Tabs to Spaces</source>
-        <translation type="unfinished"></translation>
+        <translation>Muuda tabulaatorisammud tühikuteks</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="994"/>
@@ -957,7 +958,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="2560"/>
         <source>Uneditable file(s)!</source>
-        <translation type="unfinished"></translation>
+        <translation>Faili või faile ei saa muuta!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2561"/>
