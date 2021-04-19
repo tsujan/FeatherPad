@@ -904,27 +904,27 @@
         <location filename="../../fpwin.cpp" line="2574"/>
         <location filename="../../fpwin.cpp" line="5695"/>
         <source>The file does not exist.</source>
-        <translation type="unfinished"></translation>
+        <translation>Faili pole olemas.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1598"/>
         <source>Open Link</source>
-        <translation type="unfinished"></translation>
+        <translation>Ava link</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1611"/>
         <source>Copy Link</source>
-        <translation type="unfinished"></translation>
+        <translation>Kopeeri link</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1786"/>
         <source>Only one process is allowed per tab.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ühe kaardi kohta on võimalik vaid üks protsess.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1889"/>
         <source>Script Output</source>
-        <translation type="unfinished"></translation>
+        <translation>Skripti väljund</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1905"/>
@@ -934,7 +934,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="2531"/>
         <source>FeatherPad does not open files larger than 100 MiB.</source>
-        <translation type="unfinished"></translation>
+        <translation>FeatherPad ei ava 100 megabaidist suuremaid faile.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2539"/>
@@ -949,12 +949,12 @@
     <message>
         <location filename="../../fpwin.cpp" line="2549"/>
         <source>Some file(s) could not be opened!</source>
-        <translation type="unfinished"></translation>
+        <translation>Mõni(ed) fail(id) jäid avamata!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2550"/>
         <source>You may not have the permission to read.</source>
-        <translation type="unfinished"></translation>
+        <translation>Sul ilmselt puuduvad õigused seda faili lugeda.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2560"/>
@@ -969,12 +969,12 @@
     <message>
         <location filename="../../fpwin.cpp" line="2625"/>
         <source>A previous crash detected!</source>
-        <translation type="unfinished"></translation>
+        <translation>Tuvastasin rakenduse varasema kokkujooksmise!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2626"/>
         <source>Preferably, close all FeatherPad windows and start again!</source>
-        <translation type="unfinished"></translation>
+        <translation>Soovitame, et sulge kõik FeatherPad&apos;i aknad ja alusta uuesti!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2634"/>
@@ -986,73 +986,73 @@
         <location filename="../../fpwin.cpp" line="2879"/>
         <location filename="../../fpwin.cpp" line="2907"/>
         <source>All Files (*)</source>
-        <translation type="unfinished"></translation>
+        <translation>Kõik failid (*)</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2711"/>
         <source>All Files (*);;.%1 Files (*.%1)</source>
-        <translation type="unfinished"></translation>
+        <translation>Kõik failid (*) (*);;.%1 faili (*.%1)</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2715"/>
         <source>Open file...</source>
-        <translation type="unfinished"></translation>
+        <translation>Ava fail...</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2885"/>
         <source>.%1 Files (*.%1);;All Files (*)</source>
-        <translation type="unfinished"></translation>
+        <translation>.%1 faili (*.%1);;kõik failid (*)</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2936"/>
         <location filename="../../fpwin.cpp" line="2974"/>
         <source>Save as...</source>
-        <translation type="unfinished"></translation>
+        <translation>Salvesta kui...</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3010"/>
         <source>Keep encoding and save as...</source>
-        <translation type="unfinished"></translation>
+        <translation>Jäta kodeering samaks ja salvesta kui...</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3282"/>
         <source>Saving as root.</source>
-        <translation type="unfinished"></translation>
+        <translation>Salvestan juurkasutajana.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3283"/>
         <source>Waiting for authentication...</source>
-        <translation type="unfinished"></translation>
+        <translation>Ootan autentimist...</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3403"/>
         <source>&quot;pkexec&quot; is not found. Please install Polkit!</source>
-        <translation type="unfinished"></translation>
+        <translation>Tarvikut „pkexec“ ei leidu. Palun paigalda Polkit!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3091"/>
         <source>Yes</source>
-        <translation type="unfinished"></translation>
+        <translation>Jah</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3092"/>
         <source>No</source>
-        <translation type="unfinished"></translation>
+        <translation>Ei</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3093"/>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>Tühista</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3094"/>
         <source>Do you want to use &lt;b&gt;MS Windows&lt;/b&gt; end-of-lines?</source>
-        <translation type="unfinished"></translation>
+        <translation>Kas sa soovid kasutada &lt;b&gt;MS Windows&apos;ile&lt;/b&gt; omaseid rea lõpumärke?</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3095"/>
         <source>This may be good for readability under MS Windows.</source>
-        <translation type="unfinished"></translation>
+        <translation>Failide loetavuse mõttes Windows operatsioonisüsteemis on see hea mõte.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3211"/>
@@ -1060,7 +1060,7 @@
         <location filename="../../fpwin.cpp" line="3402"/>
         <location filename="../../fpwin.cpp" line="3414"/>
         <source>Cannot be saved!</source>
-        <translation type="unfinished"></translation>
+        <translation>Salvestamine ei õnnestu!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="436"/>
@@ -1069,7 +1069,7 @@
         <location filename="../../fpwin.cpp" line="5066"/>
         <location filename="../../fpwin.cpp" line="6100"/>
         <source>Help</source>
-        <translation type="unfinished"></translation>
+        <translation>Abiteave</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3455"/>
@@ -1080,22 +1080,22 @@
         <location filename="../../fpwin.cpp" line="5887"/>
         <location filename="../../fpwin.cpp" line="5895"/>
         <source>Syntax</source>
-        <translation type="unfinished"></translation>
+        <translation>Süntaks</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2530"/>
         <source>Huge file(s) not opened!</source>
-        <translation type="unfinished"></translation>
+        <translation>Suur(ed) fail(id) on avamata!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3558"/>
         <source>Text tabs are converted to spaces.</source>
-        <translation type="unfinished"></translation>
+        <translation>Teksti asuvad tabulaatorisammud on muudetud nüüd tühikuteks.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3666"/>
         <source>The selected text was too long.</source>
-        <translation type="unfinished"></translation>
+        <translation>Valitud tekst oli liiga pikk.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3667"/>
@@ -1117,23 +1117,23 @@
     <message>
         <location filename="../../fpwin.cpp" line="4474"/>
         <source>Printing in progress...</source>
-        <translation type="unfinished"></translation>
+        <translation>Trükkimine on töös...</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4525"/>
         <source>Print Document</source>
-        <translation type="unfinished"></translation>
+        <translation>Trüki see dokument</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4531"/>
         <source>Printing completed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Trükkimine on valmis.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5195"/>
         <location filename="../../fpwin.cpp" line="5300"/>
         <source>%1 Pages</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 lehte</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5226"/>
@@ -1229,18 +1229,18 @@
     <message>
         <location filename="../../fpwin.cpp" line="5964"/>
         <source>Author</source>
-        <translation type="unfinished"></translation>
+        <translation>Autor</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5965"/>
         <source>aka.</source>
-        <translation type="unfinished"></translation>
+        <translation>tuntud ka kui</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5966"/>
         <location filename="../../fpwin.cpp" line="5967"/>
         <source>About FeatherPad</source>
-        <translation type="unfinished"></translation>
+        <translation>Teave FeatherPad&apos;i kohta</translation>
     </message>
     <message>
         <location filename="../../replace.cpp" line="243"/>
@@ -1277,13 +1277,13 @@
         <location filename="../../filedialog.h" line="48"/>
         <source>Ctrl+H</source>
         <comment>Toggle showing hidden files</comment>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+H</translation>
     </message>
     <message>
         <location filename="../../filedialog.h" line="49"/>
         <source>Alt+.</source>
         <comment>Toggle showing hidden files</comment>
-        <translation type="unfinished"></translation>
+        <translation>Alt+.</translation>
     </message>
 </context>
 <context>
@@ -1291,58 +1291,58 @@
     <message>
         <location filename="../../fontDialog.ui" line="14"/>
         <source>Select Font</source>
-        <translation type="unfinished"></translation>
+        <translation>Vali kirjatüüp</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="38"/>
         <source>Programming Fonts</source>
-        <translation type="unfinished"></translation>
+        <translation>Fikseeritud laiusega fondid</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="45"/>
         <location filename="../../fontDialog.ui" line="55"/>
         <source>Font:</source>
-        <translation type="unfinished"></translation>
+        <translation>Font:</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="69"/>
         <source>Size:</source>
-        <translation type="unfinished"></translation>
+        <translation>Suurus:</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="89"/>
         <source>Weight:</source>
-        <translation type="unfinished"></translation>
+        <translation>Tüüp:</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="103"/>
         <source>Normal</source>
-        <translation type="unfinished"></translation>
+        <translation>Tavaline</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="108"/>
         <source>Medium</source>
-        <translation type="unfinished"></translation>
+        <translation>Keskmine</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="113"/>
         <source>Bold</source>
-        <translation type="unfinished"></translation>
+        <translation>Paks</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="118"/>
         <source>Black</source>
-        <translation type="unfinished"></translation>
+        <translation>Ülipaks</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="126"/>
         <source>Italic</source>
-        <translation type="unfinished"></translation>
+        <translation>Kaldkiri</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="149"/>
         <source>Preview</source>
-        <translation type="unfinished"></translation>
+        <translation>Eelvaade</translation>
     </message>
 </context>
 <context>
