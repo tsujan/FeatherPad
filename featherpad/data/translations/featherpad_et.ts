@@ -890,14 +890,14 @@
         <location filename="../../fpwin.cpp" line="718"/>
         <location filename="../../fpwin.cpp" line="4363"/>
         <source>Position:</source>
-        <translation type="unfinished"></translation>
+        <translation>Asukoht:</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="766"/>
         <location filename="../../fpwin.cpp" line="4381"/>
         <location filename="../../fpwin.cpp" line="4401"/>
         <source>Normal</source>
-        <translation type="unfinished">Tavaline</translation>
+        <translation>Tavaline</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1229"/>
@@ -929,7 +929,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="1905"/>
         <source>Clear</source>
-        <translation type="unfinished"></translation>
+        <translation>Kustuta</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2531"/>
@@ -939,12 +939,12 @@
     <message>
         <location filename="../../fpwin.cpp" line="2539"/>
         <source>Non-text file(s) not opened!</source>
-        <translation type="unfinished"></translation>
+        <translation>Mitte-tekstifail(id) jäi(d) avamata!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2540"/>
         <source>See Preferences → Files → Do not permit opening of non-text files</source>
-        <translation type="unfinished"></translation>
+        <translation>Tee vajalik muudatus siin: Seadistused → Failid → Ära luba avada mitte-tekstifaile</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2549"/>
@@ -964,7 +964,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="2561"/>
         <source>Non-text files or files with huge lines cannot be edited.</source>
-        <translation type="unfinished"></translation>
+        <translation>Sa ei saa muuta faile, mis pole tekstifailid või milles on tohutu arv ridu.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2625"/>
@@ -1106,13 +1106,13 @@
         <location filename="../../fpwin.cpp" line="3806"/>
         <location filename="../../fpwin.cpp" line="3998"/>
         <source>This file has been modified elsewhere or in another way!</source>
-        <translation type="unfinished"></translation>
+        <translation>Seda faili on mingil muul viisil muudetud!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3807"/>
         <location filename="../../fpwin.cpp" line="3999"/>
         <source>Please be careful about reloading or saving this document!</source>
-        <translation type="unfinished"></translation>
+        <translation>Palun ole selle dokumendi laadimisel ja salvestamisel ettevaatlik!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4474"/>
@@ -1168,53 +1168,53 @@
     <message>
         <location filename="../../fpwin.cpp" line="5491"/>
         <source>You need to add a Hunspell dictionary.</source>
-        <translation type="unfinished"></translation>
+        <translation>Sa pead lisama Hunspelli-põhise sõnastiku.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5492"/>
         <location filename="../../fpwin.cpp" line="5499"/>
         <location filename="../../fpwin.cpp" line="5509"/>
         <source>See Preferences → Text → Spell Checking!</source>
-        <translation type="unfinished"></translation>
+        <translation>Tee vajalik muudatus siin: Seadistused → Tekst → Õigekiri!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5498"/>
         <source>The Hunspell dictionary does not exist.</source>
-        <translation type="unfinished"></translation>
+        <translation>Hunspelli-põhist sõnastikku ei leidu.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5508"/>
         <source>The Hunspell dictionary is not accompanied by an affix file.</source>
-        <translation type="unfinished"></translation>
+        <translation>Hunspell&apos;i sõnastikul puudub liidete fail.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5531"/>
         <location filename="../../fpwin.cpp" line="5549"/>
         <location filename="../../fpwin.cpp" line="5564"/>
         <source>No misspelling in document.</source>
-        <translation type="unfinished"></translation>
+        <translation>Dokumendis ei leidu õigekirjavigu.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5533"/>
         <location filename="../../fpwin.cpp" line="5551"/>
         <location filename="../../fpwin.cpp" line="5566"/>
         <source>No misspelling from text cursor.</source>
-        <translation type="unfinished"></translation>
+        <translation>Alates kursori asukohast ei leidu õigekirjavigu.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5582"/>
         <source>Spell Checking</source>
-        <translation type="unfinished"></translation>
+        <translation>Õigekorjakontroll</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5919"/>
         <source>Some files cannot be saved!</source>
-        <translation type="unfinished"></translation>
+        <translation>Mõne faili salvestamine ei õnnestu!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5966"/>
         <source>Translators</source>
-        <translation type="unfinished"></translation>
+        <translation>Tõlkijad</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5962"/>
@@ -1358,22 +1358,22 @@
     <message>
         <location filename="../../prefDialog.ui" line="14"/>
         <source>Preferences</source>
-        <translation type="unfinished"></translation>
+        <translation>Eelistused</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="30"/>
         <source>Window</source>
-        <translation type="unfinished"></translation>
+        <translation>Rakenduse aken</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="69"/>
         <source>Window Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Akna seadistused</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="75"/>
         <source>Remember window &amp;size on closing</source>
-        <translation type="unfinished"></translation>
+        <translation>Sulgemisel jäta meelde akna &amp;suurus</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="84"/>
@@ -1381,123 +1381,127 @@
         <location filename="../../prefDialog.ui" line="107"/>
         <location filename="../../prefDialog.ui" line="120"/>
         <source>Window frame is excluded.</source>
-        <translation type="unfinished"></translation>
+        <translation>Välja arvatud aknaraam.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="87"/>
         <source>Start with this size: </source>
-        <translation type="unfinished"></translation>
+        <translation>Alusta sellise suurusega: </translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="100"/>
         <location filename="../../prefDialog.ui" line="123"/>
         <source> px</source>
-        <translation type="unfinished"></translation>
+        <translation> pikslit</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="110"/>
         <source>×</source>
-        <translation type="unfinished"></translation>
+        <translation>×</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="148"/>
         <source>Enforcing a window position is not recommended
 and may not work with some window managers.</source>
-        <translation type="unfinished"></translation>
+        <translation>Akna asukoha meeldejätmine ei ole soovitatud
+ning see ka ei pruugi toimida mõnde aknahaldurite puhul.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="152"/>
         <source>Remember window &amp;position on closing</source>
-        <translation type="unfinished"></translation>
+        <translation>Sulgemisel jäta meelde akna &amp;asukoht</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="159"/>
         <source>Most suitable with sessions
 but without tab functionality.</source>
-        <translation type="unfinished"></translation>
+        <translation>Sobib liideseks siis, kui pruugid sessioone
+ilma kaarte kasutamata.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="188"/>
         <source>Uncheck for 1/5 of the width.</source>
-        <translation type="unfinished"></translation>
+        <translation>Eemalda valik, kui soovid eraldusjoont viiendikule laiusest.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="191"/>
         <source>Remember splitter position</source>
-        <translation type="unfinished"></translation>
+        <translation>Jäta meelde eraldusjoone asukoht</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="200"/>
         <source>Do not show &amp;toolbar</source>
-        <translation type="unfinished"></translation>
+        <translation>Ära näita &amp;tööriistariba</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="207"/>
         <source>If the menubar is hidden,
 a menu button appears on the toolbar.</source>
-        <translation type="unfinished"></translation>
+        <translation>Peidetud menüüriba puhul
+tekib tööriistaribale menüü nupp.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="211"/>
         <source>Do not show &amp;menubar</source>
-        <translation type="unfinished"></translation>
+        <translation>Ära näita &amp;menüüriba</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="218"/>
         <source>Hide search &amp;bar by default</source>
-        <translation type="unfinished"></translation>
+        <translation>Vaikimisi peida &amp;otsinguriba</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="225"/>
         <source>By default, each search entry
 has a separate search history.</source>
-        <translation type="unfinished"></translation>
+        <translation>Vaikimisi me kasutame
+eraldi otsinguajalugu.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="229"/>
         <source>Use a shared search history</source>
-        <translation type="unfinished"></translation>
+        <translation>Kasuta jagatud otsinguajalugu</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="236"/>
         <source>Always show st&amp;atus bar</source>
-        <translation type="unfinished"></translation>
+        <translation>Alati näita ole&amp;kuriba</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="261"/>
         <source>Show cursor position on status bar</source>
-        <translation type="unfinished"></translation>
+        <translation>Olekuribal näita kursori asukohta</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="272"/>
         <location filename="../../prefDialog.ui" line="282"/>
         <source>Will take effect after closing this dialog.</source>
-        <translation type="unfinished"></translation>
+        <translation>Muutus jõustub seadistuste akna sulgemisel.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="275"/>
         <source>Tab position: </source>
-        <translation type="unfinished"></translation>
+        <translation>Kaartide asukoht: </translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="286"/>
         <source>North</source>
-        <translation type="unfinished"></translation>
+        <translation>Põhjas</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="291"/>
         <source>South</source>
-        <translation type="unfinished"></translation>
+        <translation>Lõunas</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="296"/>
         <source>West</source>
-        <translation type="unfinished"></translation>
+        <translation>Läänes</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="301"/>
         <source>East</source>
-        <translation type="unfinished"></translation>
+        <translation>Idas</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="327"/>
@@ -1505,17 +1509,20 @@ has a separate search history.</source>
 after the last tab is activated, and the same for Alt+Left.
 
 Tab navigation with mouse wheel is not affected.</source>
-        <translation type="unfinished"></translation>
+        <translation>See tähendab, et liikudes vasakult paremale, Alt+Right vajutamisel peale viimast
+kaarti jõuad sa esimese kaarti juurde ning sarnaselt käitub ka Alt+Left vajutamine.
+
+See valik ei mõjuta hiireratta kasutamist kaartide vahetamisel.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="333"/>
         <source>Tab navigation wraps &amp;around</source>
-        <translation type="unfinished"></translation>
+        <translation>Liigu kaartidel ringir&amp;atast</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="353"/>
         <source>Close window on closing its last tab</source>
-        <translation type="unfinished"></translation>
+        <translation>Viimase kaardi sulgemisel sulge ka aken</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="360"/>
@@ -1524,12 +1531,16 @@ current desktop, files will be opened in its tabs.
 
 However, some desktop environments may not
 report that they have multiple desktops.</source>
-        <translation type="unfinished"></translation>
+        <translation>Kui FeatherPad&apos;i aken on kasutataval töölaual olemas,
+siis vaikimisi avame uued failid kaartidena.
+
+Aga pead arvestama, et mõned mitme töölauaga
+keskonnad et jaga rakenduste akende kohta täpset teavet.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="367"/>
         <source>Always open in separate windows</source>
-        <translation type="unfinished"></translation>
+        <translation>Kaartide asemel ava altati eraldi aknad</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="374"/>
@@ -1537,22 +1548,26 @@ report that they have multiple desktops.</source>
 desktop environment will be used instead of the Qt file dialog.
 
 Some desktop environments, like KDE and LXQt, provide files dialogs.</source>
-        <translation type="unfinished"></translation>
+        <translation>Kui see valik on kasutusel, siis kasutame Qt standardse faili avamise
+vaate asemel töölauakeskkonnale omast vaadet.
+
+See funktsionaalsus toimib sellistes töölauakeskkondades, kus
+eraldi faili avamise vaade on olemas (näiteks KDE ja LXQt).</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="380"/>
         <source>Native file dialog</source>
-        <translation type="unfinished"></translation>
+        <translation>Kasuta keskkonnale omast failivaliku akent</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="456"/>
         <source>Uncheck for Monospace.</source>
-        <translation type="unfinished"></translation>
+        <translation>Süsteemse fikseeritud laiusega fondi kasutamiseks lülita see valik välja.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="459"/>
         <source>Remember &amp;font</source>
-        <translation type="unfinished"></translation>
+        <translation>Jäta kasutatud &amp;font meelde</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="480"/>
