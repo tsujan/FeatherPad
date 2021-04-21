@@ -1163,7 +1163,7 @@
         <location filename="../../fpwin.cpp" line="5270"/>
         <location filename="../../fpwin.cpp" line="5382"/>
         <source>Open Containing Folder</source>
-        <translation type="unfinished"></translation>
+        <translation>Ava asukoha kaust failihalduris</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5491"/>
@@ -1245,30 +1245,30 @@
     <message>
         <location filename="../../replace.cpp" line="243"/>
         <source>No Replacement</source>
-        <translation type="unfinished"></translation>
+        <translation>Pole midagi asendada</translation>
     </message>
     <message>
         <location filename="../../replace.cpp" line="245"/>
         <source>One Replacement</source>
-        <translation type="unfinished"></translation>
+        <translation>Üks asendus</translation>
     </message>
     <message numerus="yes">
         <location filename="../../replace.cpp" line="247"/>
         <source>%Ln Replacements</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%Ln asendus</numerusform>
+            <numerusform>%Ln asendust</numerusform>
         </translation>
     </message>
     <message>
         <location filename="../../replace.cpp" line="251"/>
         <source>The first 1000 replacements are highlighted.</source>
-        <translation type="unfinished"></translation>
+        <translation>1000 esimest asendust on esile tõstetud.</translation>
     </message>
     <message>
         <location filename="../../syntax.cpp" line="288"/>
         <source>The size limit for syntax highlighting is exceeded.</source>
-        <translation type="unfinished"></translation>
+        <translation>Faili suuruse ülempiir esiletõstmisel on ületatud.</translation>
     </message>
 </context>
 <context>
@@ -1622,24 +1622,26 @@ status bar for changing the syntax.</source>
         <location filename="../../prefDialog.ui" line="614"/>
         <source>Show spaces, tabs and tab lines
 when the syntax is highlighted.</source>
-        <translation type="unfinished"></translation>
+        <translation>Süntaksi esiletõstmisel näita tühikuid, 
+tabulaatoreid ja tabulaatorijooni.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="618"/>
         <source>Show whitespaces</source>
-        <translation type="unfinished"></translation>
+        <translation>Näita tühikumärke</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="634"/>
         <location filename="../../prefDialog.ui" line="645"/>
         <source>The vertical position lines will be drawn only if
 the editor font has a fixed pitch (like Monospace).</source>
-        <translation type="unfinished"></translation>
+        <translation>Püstist piirjoont saame kuvada vaid siis, kui sa oled kasutatavaks 
+kirjatüübiks määranud fikseeritud laiusega fondi (nagu näiteks Monospace).</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="638"/>
         <source>Show vertical lines starting from this position:</source>
-        <translation type="unfinished"></translation>
+        <translation>Alates sellest veerust joonista püstjoon:</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="625"/>
@@ -1649,18 +1651,19 @@ the editor font has a fixed pitch (like Monospace).</source>
     <message>
         <location filename="../../prefDialog.ui" line="764"/>
         <source>Date and time format:</source>
-        <translation type="unfinished"></translation>
+        <translation>Kuupäeva ja aja vorming:</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="834"/>
         <source>Some text editors cannot open a document
 whose last line is not empty.</source>
-        <translation type="unfinished"></translation>
+        <translation>Mõned tekstiredaktorid ei suuda avada faili,
+kui selle viimane rida pole tühi.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="838"/>
         <source>Ensure an empty last line on saving</source>
-        <translation type="unfinished"></translation>
+        <translation>Salvestamisel taga, et viimane rida failis oleks tühi</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="845"/>
@@ -1680,7 +1683,7 @@ whose last line is not empty.</source>
     <message>
         <location filename="../../prefDialog.ui" line="958"/>
         <source>File Management</source>
-        <translation type="unfinished"></translation>
+        <translation>Failide haldus</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1075"/>
@@ -1730,12 +1733,12 @@ will be shown by a popup dialog.</source>
     <message>
         <location filename="../../prefDialog.ui" line="1428"/>
         <source>Help</source>
-        <translation type="unfinished">Abiteave</translation>
+        <translation>Abiteave</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="163"/>
         <source>Start with side-pane mode</source>
-        <translation type="unfinished"></translation>
+        <translation>Töö alustamisel ava külgpaneel</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="340"/>
@@ -1743,12 +1746,14 @@ will be shown by a popup dialog.</source>
 tooltip and context menu of a single tab but you could not
 merge a single tabbed window into another one by tab drag-
 and-drop either.</source>
-        <translation type="unfinished"></translation>
+        <translation>Selle valiku puhul sa ei saa kasutada üksiku kaardi
+kohtspikrit ja kontekstimenüüd ning pruukida lohistamist
+kahes aknas asuvate kaartide sisu liitmiseks.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="346"/>
         <source>&amp;Do not show a single tab</source>
-        <translation type="unfinished"></translation>
+        <translation>Ära näita &amp;üksikut kaarti</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="411"/>
@@ -2030,7 +2035,7 @@ be opened if they are pasted into FeatherPad.</source>
     <message>
         <location filename="../../prefDialog.ui" line="1439"/>
         <source>Close</source>
-        <translation type="unfinished">Sulge</translation>
+        <translation>Sulge</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="104"/>
@@ -2129,12 +2134,12 @@ in the editing mode.</source>
     <message>
         <location filename="../../pref.cpp" line="1364"/>
         <source>&amp;Recently Opened</source>
-        <translation type="unfinished">&amp;Hiljuti avatud</translation>
+        <translation>&amp;Hiljuti avatud</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="1365"/>
         <source>Recently &amp;Modified</source>
-        <translation type="unfinished">Hiljuti &amp;muudetud failid</translation>
+        <translation>Hiljuti &amp;muudetud failid</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="1440"/>
@@ -2184,12 +2189,12 @@ in the editing mode.</source>
     <message>
         <location filename="../../searchbar.cpp" line="120"/>
         <source>Next</source>
-        <translation type="unfinished">Järgmine</translation>
+        <translation>Järgmine</translation>
     </message>
     <message>
         <location filename="../../searchbar.cpp" line="121"/>
         <source>Previous</source>
-        <translation type="unfinished">Eelmine</translation>
+        <translation>Eelmine</translation>
     </message>
 </context>
 <context>
@@ -2224,7 +2229,7 @@ in the editing mode.</source>
         <location filename="../../sessionDialog.ui" line="72"/>
         <location filename="../../sessionDialog.ui" line="275"/>
         <source>&amp;Open</source>
-        <translation type="unfinished">&amp;Ava</translation>
+        <translation>&amp;Ava</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="98"/>
@@ -2278,7 +2283,7 @@ windows will be included in the saved session.</source>
     <message>
         <location filename="../../sessionDialog.ui" line="260"/>
         <source>&amp;Close</source>
-        <translation type="unfinished">Sul&amp;ge</translation>
+        <translation>Sul&amp;ge</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="135"/>
@@ -2288,7 +2293,7 @@ windows will be included in the saved session.</source>
     <message>
         <location filename="../../sessionDialog.ui" line="138"/>
         <source>&amp;Save</source>
-        <translation type="unfinished">&amp;Salvesta</translation>
+        <translation>&amp;Salvesta</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="149"/>
@@ -2359,7 +2364,7 @@ windows will be included in the saved session.</source>
     <message>
         <location filename="../../spellDialog.ui" line="62"/>
         <source>Replace with:</source>
-        <translation type="unfinished">Asenda:</translation>
+        <translation>Asenda:</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="129"/>
