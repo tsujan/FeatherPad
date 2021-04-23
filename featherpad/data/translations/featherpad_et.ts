@@ -1204,7 +1204,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="5582"/>
         <source>Spell Checking</source>
-        <translation>Õigekorjakontroll</translation>
+        <translation>Õigekirjakontroll</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5919"/>
@@ -1219,12 +1219,12 @@
     <message>
         <location filename="../../fpwin.cpp" line="5962"/>
         <source>A lightweight, tabbed, plain-text editor</source>
-        <translation type="unfinished"></translation>
+        <translation>Lihtne kaarte kasutav tekstiredaktor,</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5963"/>
         <source>based on Qt</source>
-        <translation type="unfinished"></translation>
+        <translation>mis kasutab Qt-teeke</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5964"/>
@@ -1595,28 +1595,30 @@ under proper circumstances.</source>
         <location filename="../../prefDialog.ui" line="509"/>
         <source>Highlight case-sensitive and whole matches
 of the selected text.</source>
-        <translation type="unfinished"></translation>
+        <translation>Tõsta esile tõstutundliku ja täissõna 
+otsingu tulemused.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="513"/>
         <source>Selection highlighting</source>
-        <translation type="unfinished"></translation>
+        <translation>Tõsta valik esile</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="576"/>
         <source>Never highlight syntax for files &gt; </source>
-        <translation type="unfinished"></translation>
+        <translation>Ära tõsta süntaksit esile, kui fail on suurem kui </translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="545"/>
         <source>This creates a menu button on the
 status bar for changing the syntax.</source>
-        <translation type="unfinished"></translation>
+        <translation>Selle valiku alusel kuvame staatuseribale
+nupu süntaksivaliku muutmiseks.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="549"/>
         <source>Support syntax override</source>
-        <translation type="unfinished"></translation>
+        <translation>Luba teise süntaksi valimist</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="614"/>
@@ -1646,7 +1648,7 @@ kirjatüübiks määranud fikseeritud laiusega fondi (nagu näiteks Monospace).<
     <message>
         <location filename="../../prefDialog.ui" line="625"/>
         <source>Also show line and document ends</source>
-        <translation type="unfinished"></translation>
+        <translation>Näita rea ja faili lõpumärke</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="764"/>
@@ -1668,7 +1670,7 @@ kui selle viimane rida pole tühi.</translation>
     <message>
         <location filename="../../prefDialog.ui" line="845"/>
         <source>Remove trailing spaces on saving</source>
-        <translation type="unfinished"></translation>
+        <translation>Eemalda salvestamisel lõpust tühi ruum</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="863"/>
@@ -1678,7 +1680,7 @@ kui selle viimane rida pole tühi.</translation>
     <message>
         <location filename="../../prefDialog.ui" line="952"/>
         <source>Files</source>
-        <translation type="unfinished"></translation>
+        <translation>Failid</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="958"/>
@@ -1688,7 +1690,7 @@ kui selle viimane rida pole tühi.</translation>
     <message>
         <location filename="../../prefDialog.ui" line="1075"/>
         <source>Start with files of last window</source>
-        <translation type="unfinished"></translation>
+        <translation>Rakenduse avamisel ava viimati kasutusel olnud failid</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1117"/>
@@ -1703,17 +1705,27 @@ will be executed directly.
 If the script is not run in a terminal
 emulator, the output and error messages
 will be shown by a popup dialog.</source>
-        <translation type="unfinished"></translation>
+        <translation>Selleks võib olla mis iganes käsk,
+kuhu saad lisada argumente, näiteks
+„xterm -hold“, mis võimaldab protsesse
+käivitada XTerm&apos;i alt.
+
+Kui käsk on jäetud tühjaks, siis käivitame
+otseselt faili sisu.
+
+Kui sa skripti ei käivita terminaliemulaatoris,
+siis näitame standardväljundit ja veaväljundit
+hüpikakendes.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1129"/>
         <source>Start with this command: </source>
-        <translation type="unfinished"></translation>
+        <translation>Alusta selle käsuga: </translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1148"/>
         <source>Command + Arguments</source>
-        <translation type="unfinished"></translation>
+        <translation>Käsk + argumendid</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1033"/>
@@ -1815,7 +1827,7 @@ process could be killed by Ctrl+Alt+E.</source>
     <message>
         <location filename="../../prefDialog.ui" line="677"/>
         <source>Needs window reopening to take effect.</source>
-        <translation type="unfinished"></translation>
+        <translation>Selle muudatuse jõustamiseks pead rakenduse akna uuesti avama.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="705"/>
@@ -1828,12 +1840,20 @@ between 230 and 255; for the dark
 background, between 0 and 50.
 
 Needs window reopening to take effect.</source>
-        <translation type="unfinished"></translation>
+        <translation>Taustavärvi väärtus.
+255 tähistab valget ja 0 musta.
+
+Heleda tausta jaoks sobib
+230 kuni 255 vahemik ja tumeda
+tausta jaoks sobib 0 kuni 50 vahemik.
+
+Selle muudatuse jõustamiseks pead 
+rakenduse akna uuesti avama.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1092"/>
         <source>Run executable scripts</source>
-        <translation type="unfinished"></translation>
+        <translation>Käivita skriptifaile</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="966"/>
@@ -1843,7 +1863,12 @@ opened files FeatherPad shows. The default
 is 10.
 
 Needs application restart to take effect.</source>
-        <translation type="unfinished"></translation>
+        <translation>Hiljuti avatud või muudetud failide
+arv, mida FeatherPad meelde jätab.
+Vaikimisi väärtus on 10.
+
+Selle muudatuse jõustamiseks pead rakenduse 
+uuesti käivitama.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="756"/>
@@ -1859,17 +1884,17 @@ MMM dd, yyyy, hh:mm:ss</source>
     <message>
         <location filename="../../prefDialog.ui" line="793"/>
         <source>Text tab size:</source>
-        <translation type="unfinished"></translation>
+        <translation>Tekstipõhise tabulaatori samm:</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="800"/>
         <source> spaces</source>
-        <translation type="unfinished"></translation>
+        <translation> tühikut</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="852"/>
         <source>Thick text cursor</source>
-        <translation type="unfinished"></translation>
+        <translation>Kasuta toekat tekstikursorit</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="859"/>
@@ -1880,7 +1905,7 @@ if the cursor is inside the text view?</source>
     <message>
         <location filename="../../prefDialog.ui" line="870"/>
         <source>Spell Checking</source>
-        <translation type="unfinished"></translation>
+        <translation>Õigekirjakontroll</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="878"/>
@@ -1888,18 +1913,20 @@ if the cursor is inside the text view?</source>
         <source>A Hunspell dictionary has a name that ends with &quot;.dic&quot;
 and should be alongside an affix file with the same
 name but ending with &quot;.aff&quot;.</source>
-        <translation type="unfinished"></translation>
+        <translation>Hunspelli standardit järgiv sõnastik asub .dic lõpuga
+failis ning tema kõrval peab olema sama nimega ja
+.aff laiendiga affiksifail.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="883"/>
         <source>Hunspell dictionary path:</source>
-        <translation type="unfinished"></translation>
+        <translation>Hunspelli sõnastiku asukoht:</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="902"/>
         <location filename="../../pref.cpp" line="1642"/>
         <source>Add dictionary...</source>
-        <translation type="unfinished"></translation>
+        <translation>Lisa sõnastik...</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="914"/>
@@ -2164,27 +2191,27 @@ in the editing mode.</source>
         <location filename="../../searchbar.cpp" line="94"/>
         <location filename="../../searchbar.cpp" line="173"/>
         <source>Search...</source>
-        <translation type="unfinished"></translation>
+        <translation>Otsi...</translation>
     </message>
     <message>
         <location filename="../../searchbar.cpp" line="125"/>
         <source>Match Case</source>
-        <translation type="unfinished"></translation>
+        <translation>Otsi tõstutundlikult</translation>
     </message>
     <message>
         <location filename="../../searchbar.cpp" line="132"/>
         <source>Whole Word</source>
-        <translation type="unfinished"></translation>
+        <translation>Otsi tervet sõna</translation>
     </message>
     <message>
         <location filename="../../searchbar.cpp" line="139"/>
         <source>Regular Expression</source>
-        <translation type="unfinished"></translation>
+        <translation>Regulaaravaldis</translation>
     </message>
     <message>
         <location filename="../../searchbar.cpp" line="171"/>
         <source>Search with regex...</source>
-        <translation type="unfinished"></translation>
+        <translation>Otsi regulaaravaldise alusel...</translation>
     </message>
     <message>
         <location filename="../../searchbar.cpp" line="120"/>
