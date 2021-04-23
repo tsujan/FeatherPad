@@ -979,7 +979,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="2634"/>
         <source>Root Instance</source>
-        <translation type="unfinished"></translation>
+        <translation>Rakenduse kasutamine juurkasutaja õigustes</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2706"/>
@@ -1100,7 +1100,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="3667"/>
         <source>It is not fully processed.</source>
-        <translation type="unfinished"></translation>
+        <translation>See ei ole täielikult töödeldud.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3806"/>
@@ -1350,7 +1350,7 @@
     <message>
         <location filename="../../lineedit.cpp" line="34"/>
         <source>Clear text (Ctrl+K)</source>
-        <translation type="unfinished"></translation>
+        <translation>Kustuta tekst (Ctrl+K)</translation>
     </message>
 </context>
 <context>
@@ -1589,7 +1589,7 @@ under proper circumstances.</source>
     <message>
         <location filename="../../prefDialog.ui" line="495"/>
         <source>Replace triple periods and double hyphens while typing</source>
-        <translation type="unfinished"></translation>
+        <translation>Asenda kolm punkti ja kaks kriipsu vastava tähemärgiga</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="509"/>
@@ -1730,17 +1730,17 @@ hüpikakendes.</translation>
     <message>
         <location filename="../../prefDialog.ui" line="1033"/>
         <source>Show recentl&amp;y modified files</source>
-        <translation type="unfinished"></translation>
+        <translation>Näita &amp;hiljuti muudetud faile</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1063"/>
         <source>Show recentl&amp;y opened files</source>
-        <translation type="unfinished"></translation>
+        <translation>Näita &amp;hiljuti &amp;avatud faile</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1162"/>
         <source>Save changes to opened files every:</source>
-        <translation type="unfinished"></translation>
+        <translation>Salvesta muudetud faile sellise sagedusega:</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1428"/>
@@ -1770,47 +1770,47 @@ kahes aknas asuvate kaartide sisu liitmiseks.</translation>
     <message>
         <location filename="../../prefDialog.ui" line="411"/>
         <source>Text</source>
-        <translation type="unfinished"></translation>
+        <translation>Tekst</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="450"/>
         <source>Text Editor</source>
-        <translation type="unfinished"></translation>
+        <translation>Tekstide muutmine</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="466"/>
         <source>&amp;Wrap lines by default</source>
-        <translation type="unfinished"></translation>
+        <translation>Vaikimisi kasuta &amp;reamurdmist</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="473"/>
         <source>Auto-&amp;indent by default</source>
-        <translation type="unfinished"></translation>
+        <translation>Vaikimisi kasuta &amp;taandridu</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="502"/>
         <source>Always show line &amp;numbers</source>
-        <translation type="unfinished"></translation>
+        <translation>Alati näita &amp;reanumbreid</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="520"/>
         <source>Highlight s&amp;yntax by default</source>
-        <translation type="unfinished"></translation>
+        <translation>Vaikimisi kasuta s&amp;üntaksi esiletõstmist</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="680"/>
         <source>Dark c&amp;olor scheme</source>
-        <translation type="unfinished"></translation>
+        <translation>Kasuta &amp;tumedat värviteemat</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="715"/>
         <source>Background color value: </source>
-        <translation type="unfinished"></translation>
+        <translation>Taustavärvi väärtus: </translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="583"/>
         <source> MiB</source>
-        <translation type="unfinished"></translation>
+        <translation> MiB</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1082"/>
@@ -1864,11 +1864,11 @@ is 10.
 
 Needs application restart to take effect.</source>
         <translation>Hiljuti avatud või muudetud failide
-arv, mida FeatherPad meelde jätab.
+arv, mille FeatherPad meelde jätab.
 Vaikimisi väärtus on 10.
 
-Selle muudatuse jõustamiseks pead rakenduse 
-uuesti käivitama.</translation>
+Selle muudatuse jõustamiseks pead
+rakenduse uuesti käivitama.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="756"/>
@@ -1932,33 +1932,34 @@ failis ning tema kõrval peab olema sama nimega ja
         <location filename="../../prefDialog.ui" line="914"/>
         <source>If this is unchecked, spell checking
 will be started from the document start.</source>
-        <translation type="unfinished"></translation>
+        <translation>Kui see valik pole kasutusel, siis alustame
+õigekirjakontrolli dokumendi algusest.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="918"/>
         <source>Start spell checking from text cursor</source>
-        <translation type="unfinished"></translation>
+        <translation>Alusta õigekirjakontrolli alates kursorist</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="973"/>
         <source>Number of recent files: </source>
-        <translation type="unfinished"></translation>
+        <translation>Hiljutiste failide arv: </translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1072"/>
         <source>Only if their number is not greater than 50.</source>
-        <translation type="unfinished"></translation>
+        <translation>Kehtib vaid siis, kui neid on alla 50.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1159"/>
         <location filename="../../prefDialog.ui" line="1169"/>
         <source>Only for files that exist and can be saved.</source>
-        <translation type="unfinished"></translation>
+        <translation>Kehtib vaid failide puhul, mis on olemas ja salvestatavad.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1172"/>
         <source> min</source>
-        <translation type="unfinished"></translation>
+        <translation> min</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1203"/>
@@ -1973,91 +1974,92 @@ trailing spaces of a text file.</source>
     <message>
         <location filename="../../prefDialog.ui" line="1211"/>
         <source>Allow saving unmodified files</source>
-        <translation type="unfinished"></translation>
+        <translation>Luba muutmata failide salvestamist</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1218"/>
         <source>Show a warning instead.</source>
-        <translation type="unfinished"></translation>
+        <translation>Selle asemel näita hoiatust.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1221"/>
         <source>Do not permit opening of non-text files</source>
-        <translation type="unfinished"></translation>
+        <translation>Ära luba selliste failide avamist, mis pole tekstifailid</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1228"/>
         <source>By default, when files are copied, they will
 be opened if they are pasted into FeatherPad.</source>
-        <translation type="unfinished"></translation>
+        <translation>Vaikimisi FeatherPad faili asetamisel
+avab selle kopeeritud faili.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1232"/>
         <source>Paste paths instead of files</source>
-        <translation type="unfinished"></translation>
+        <translation>Aseta faili sisu asemel tema asukoht ja nimi</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1259"/>
         <source>Shortcuts</source>
-        <translation type="unfinished"></translation>
+        <translation>Kiirklahvid</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1278"/>
         <source>Action</source>
-        <translation type="unfinished"></translation>
+        <translation>Tegevus</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1283"/>
         <source>Shortcut</source>
-        <translation type="unfinished"></translation>
+        <translation>Kiirklahv</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1291"/>
         <source>Restore default shortcuts.</source>
-        <translation type="unfinished"></translation>
+        <translation>Taasta vaikimisi määratud kiirklahvid.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1294"/>
         <location filename="../../prefDialog.ui" line="1382"/>
         <location filename="../../prefDialog.ui" line="1407"/>
         <source>Default</source>
-        <translation type="unfinished"></translation>
+        <translation>Vaikimisi</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1305"/>
         <source>Syntax Colors</source>
-        <translation type="unfinished"></translation>
+        <translation>Süntaksi värvid</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1321"/>
         <source>Element</source>
-        <translation type="unfinished"></translation>
+        <translation>Element</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1326"/>
         <source>Text Color</source>
-        <translation type="unfinished"></translation>
+        <translation>Teksti värv</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1339"/>
         <source>Whitespace color value:</source>
-        <translation type="unfinished"></translation>
+        <translation>Tühikumärkide värv:</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1369"/>
         <location filename="../../prefDialog.ui" line="1379"/>
         <source>Has effect only if line numbers are shown.</source>
-        <translation type="unfinished"></translation>
+        <translation>Toimib vaid siis, kui reanumbrite kuvamine on kasutusel.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1372"/>
         <source>Current line highlight value:</source>
-        <translation type="unfinished"></translation>
+        <translation>Fookuses oleva rea esiletõstmine:</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1404"/>
         <source>Restore default syntax colors.</source>
-        <translation type="unfinished"></translation>
+        <translation>Taasta vaikimisi seadistatud süntaksivärvid.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1439"/>
@@ -2073,19 +2075,19 @@ in the editing mode.</source>
     <message>
         <location filename="../../pref.cpp" line="110"/>
         <source>Double click a color to change it.</source>
-        <translation type="unfinished"></translation>
+        <translation>Värvi muutmiseks tee topeltklõps.</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="302"/>
         <location filename="../../pref.cpp" line="1338"/>
         <source>files</source>
-        <translation type="unfinished"></translation>
+        <translation>failid</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="302"/>
         <location filename="../../pref.cpp" line="1338"/>
         <source>file</source>
-        <translation type="unfinished"></translation>
+        <translation>fail</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="355"/>
