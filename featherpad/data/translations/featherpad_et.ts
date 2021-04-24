@@ -1572,19 +1572,21 @@ eraldi faili avamise vaade on olemas (näiteks KDE ja LXQt).</translation>
     <message>
         <location filename="../../prefDialog.ui" line="480"/>
         <source>This covers parentheses, braces, brackets and quotes.</source>
-        <translation type="unfinished"></translation>
+        <translation>Siia hulka kuuluvad ümarsulud, loogelised sulud, nurksulud ja jutumärgid.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="483"/>
         <source>Auto-&amp;bracket</source>
-        <translation type="unfinished"></translation>
+        <translation>Lisa sulud automaatselt</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="490"/>
         <source>By default, a triple period is replaced with an ellipsis
 and a double hyphen with a long dash while typing,
 under proper circumstances.</source>
-        <translation type="unfinished"></translation>
+        <translation>Kui kõik klapib, siis vaikimisi asendame
+kolm punkti (...) mõttepunktiga (...) ja 
+kaks sidekriipsu (--) mõttekriipsuga (—).</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="495"/>
@@ -1879,7 +1881,12 @@ Takes effect after closing this dialog.
 
 Leave empty for:
 MMM dd, yyyy, hh:mm:ss</source>
-        <translation type="unfinished"></translation>
+        <translation>Seda väärtust kasutame kuupäeva ja kellaaja asetamisel.
+
+Muutus hakkab kehtima selle vaate sulgemisel.
+
+Kui väärtus on tühi, siis kehtib järgnev vorming:
+MMM dd, yyyy, hh:mm:ss</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="793"/>
@@ -2070,7 +2077,8 @@ avab selle kopeeritud faili.</translation>
         <location filename="../../pref.cpp" line="104"/>
         <source>Press a modifier key to clear a shortcut
 in the editing mode.</source>
-        <translation type="unfinished"></translation>
+        <translation>Muutmisvaates vajuta kiirklahvi
+kustutamiseks muuteklahvi.</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="110"/>
@@ -2093,62 +2101,62 @@ in the editing mode.</source>
         <location filename="../../pref.cpp" line="355"/>
         <location filename="../../pref.cpp" line="1457"/>
         <source>Warning: Ambiguous shortcut detected!</source>
-        <translation type="unfinished"></translation>
+        <translation>Hoiatus: sama kombinatsioon on kasutusel mitmel kiirklahvil!</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="388"/>
         <source>Functions, URLs,…</source>
-        <translation type="unfinished"></translation>
+        <translation>Funktsioonid, URLid,…</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="389"/>
         <source>Built-in Functions</source>
-        <translation type="unfinished"></translation>
+        <translation>Funktsioonid antud keeles</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="390"/>
         <source>Comments</source>
-        <translation type="unfinished"></translation>
+        <translation>Kommentaarid</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="391"/>
         <source>Quotations</source>
-        <translation type="unfinished"></translation>
+        <translation>Tsitaadid</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="392"/>
         <source>Types</source>
-        <translation type="unfinished"></translation>
+        <translation>Andmetüübid</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="393"/>
         <source>Key Words</source>
-        <translation type="unfinished"></translation>
+        <translation>Võtmesõnad</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="394"/>
         <source>Numbers</source>
-        <translation type="unfinished"></translation>
+        <translation>Arvud</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="395"/>
         <source>Regular Expressions, Code Blocks,…</source>
-        <translation type="unfinished"></translation>
+        <translation>Regulaaravaldised, koodiblokid, …</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="396"/>
         <source>Document Blocks, XML/HTML Elements,…</source>
-        <translation type="unfinished"></translation>
+        <translation>Dokumendiblokid, XML&apos;i ja HTML&apos;i elemendid, …</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="397"/>
         <source>Markdown Headings, CSS Values,…</source>
-        <translation type="unfinished"></translation>
+        <translation>Pealkirjad Markdown-märgistuses, CSS väärtused, …</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="398"/>
         <source>Extra Elements</source>
-        <translation type="unfinished"></translation>
+        <translation>Muud elemendid</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="559"/>
@@ -2173,18 +2181,18 @@ in the editing mode.</source>
     <message>
         <location filename="../../pref.cpp" line="1440"/>
         <source>The typed shortcut was reserved.</source>
-        <translation type="unfinished"></translation>
+        <translation>Sisestatud kiirklahv on reserveeritud muuks kasutuseks.</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="1644"/>
         <source>Hunspell Dictionary Files (*.dic)</source>
-        <translation type="unfinished"></translation>
+        <translation>Hunspell&apos;i sõnastikufailid (*.dic)</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="449"/>
         <location filename="../../pref.cpp" line="1730"/>
         <source>Select Syntax Color</source>
-        <translation type="unfinished"></translation>
+        <translation>Vali süntaksivärv</translation>
     </message>
 </context>
 <context>
@@ -2231,28 +2239,28 @@ in the editing mode.</source>
     <message>
         <location filename="../../sessionDialog.ui" line="14"/>
         <source>Session Manager</source>
-        <translation type="unfinished"></translation>
+        <translation>Sessioonihaldur</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="101"/>
         <location filename="../../sessionDialog.ui" line="270"/>
         <source>&amp;Remove</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Kustuta</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="33"/>
         <source>&lt;b&gt;Save/Restore Session&lt;/b&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;Salvesta või taasta sessioon&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="56"/>
         <source>Filter...</source>
-        <translation type="unfinished"></translation>
+        <translation>Sõelu...</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="69"/>
         <source>Open the selected session(s).</source>
-        <translation type="unfinished"></translation>
+        <translation>Ava valitud sessioon(id).</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="72"/>
@@ -2264,50 +2272,51 @@ in the editing mode.</source>
         <location filename="../../sessionDialog.ui" line="98"/>
         <location filename="../../sessionDialog.ui" line="108"/>
         <source>Del</source>
-        <translation type="unfinished"></translation>
+        <translation>Del</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="115"/>
         <location filename="../../sessionDialog.ui" line="125"/>
         <source>Ctrl+Del</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Del</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="159"/>
         <source>By default, all files that are opened in all
 windows will be included in the saved session.</source>
-        <translation type="unfinished"></translation>
+        <translation>Vaikimisi kuuluvad salvestatud sessiooni
+kõik failid kõikides avatud akendes.</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="163"/>
         <source>Save only from this &amp;window</source>
-        <translation type="unfinished"></translation>
+        <translation>Salvesta vaid sellest &amp;aknast</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="180"/>
         <source>&lt;b&gt;Warning&lt;/b&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;Hoiatus&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="226"/>
         <location filename="../../session.cpp" line="328"/>
         <source>&amp;Yes</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Jah</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="233"/>
         <source>&amp;No</source>
-        <translation type="unfinished"></translation>
+        <translation>6Ei</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="283"/>
         <source>Re&amp;name</source>
-        <translation type="unfinished"></translation>
+        <translation>Muuda &amp;nime</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="118"/>
         <source>Remove &amp;All</source>
-        <translation type="unfinished"></translation>
+        <translation>Kustuta k&amp;õik</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="260"/>
@@ -2317,7 +2326,7 @@ windows will be included in the saved session.</source>
     <message>
         <location filename="../../sessionDialog.ui" line="135"/>
         <source>Save the current session under the given title.</source>
-        <translation type="unfinished"></translation>
+        <translation>Salvesta praegune sessioon valitud nimega.</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="138"/>
@@ -2327,47 +2336,47 @@ windows will be included in the saved session.</source>
     <message>
         <location filename="../../sessionDialog.ui" line="149"/>
         <source>Type a name to save session</source>
-        <translation type="unfinished"></translation>
+        <translation>Salvestamiseks sisesta sesiooni nimi</translation>
     </message>
     <message>
         <location filename="../../session.cpp" line="179"/>
         <source>Nothing saved.&lt;br&gt;No file was opened.</source>
-        <translation type="unfinished"></translation>
+        <translation>Me ei salvestanud midagi.&lt;br&gt;Ühtegi faili polnud avatud.</translation>
     </message>
     <message>
         <location filename="../../session.cpp" line="277"/>
         <source>No file exists or can be opened.</source>
-        <translation type="unfinished"></translation>
+        <translation>Faile ei leidu või ei õnnestu avada.</translation>
     </message>
     <message>
         <location filename="../../session.cpp" line="279"/>
         <source>Not all files exist or can be opened.</source>
-        <translation type="unfinished"></translation>
+        <translation>Kõiki faile ei leidu või ei õnnestu avada.</translation>
     </message>
     <message>
         <location filename="../../session.cpp" line="314"/>
         <source>&amp;OK</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Sobib</translation>
     </message>
     <message>
         <location filename="../../session.cpp" line="333"/>
         <source>Do you really want to remove all saved sessions?</source>
-        <translation type="unfinished"></translation>
+        <translation>Kas sa kindlasti soovid kustutada kõik sessioonid?</translation>
     </message>
     <message>
         <location filename="../../session.cpp" line="339"/>
         <source>Do you really want to remove the selected sessions?</source>
-        <translation type="unfinished"></translation>
+        <translation>Kas sa kindlasti soovid kustutada kõik valitud sessioonid?</translation>
     </message>
     <message>
         <location filename="../../session.cpp" line="341"/>
         <source>Do you really want to remove the selected session?</source>
-        <translation type="unfinished"></translation>
+        <translation>Kas sa kindlasti soovid kustutada valitud sessiooni?</translation>
     </message>
     <message>
         <location filename="../../session.cpp" line="346"/>
         <source>A session with the same name exists.&lt;br&gt;Do you want to overwrite it?</source>
-        <translation type="unfinished"></translation>
+        <translation>Sellise nimega sessioon on juba olemas.&lt;br&gt;Kas sa soovid selle asendada?</translation>
     </message>
 </context>
 <context>
