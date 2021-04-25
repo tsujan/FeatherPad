@@ -1139,25 +1139,25 @@
         <location filename="../../fpwin.cpp" line="5226"/>
         <location filename="../../fpwin.cpp" line="5336"/>
         <source>Copy Target Path</source>
-        <translation type="unfinished"></translation>
+        <translation>Kopeeri sihtkausta asukoht</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5230"/>
         <location filename="../../fpwin.cpp" line="5340"/>
         <source>Open Target Here</source>
-        <translation type="unfinished"></translation>
+        <translation>Ava asukoht siin</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5249"/>
         <location filename="../../fpwin.cpp" line="5360"/>
         <source>Copy Final Target Path</source>
-        <translation type="unfinished"></translation>
+        <translation>Kopeeri lõpliku sihtkausta asukoht</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5253"/>
         <location filename="../../fpwin.cpp" line="5364"/>
         <source>Open Final Target Here</source>
-        <translation type="unfinished"></translation>
+        <translation>Ava lõplik asukoht siin</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5270"/>
@@ -2161,12 +2161,12 @@ kustutamiseks muuteklahvi.</translation>
     <message>
         <location filename="../../pref.cpp" line="559"/>
         <source>Application restart is needed for changes to take effect.</source>
-        <translation type="unfinished"></translation>
+        <translation>Selle muudatuse jõustamiseks pead rakenduse uuesti käivitama.</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="577"/>
         <source>Window reopening is needed for changes to take effect.</source>
-        <translation type="unfinished"></translation>
+        <translation>Selle muudatuse jõustamiseks pead rakenduse akna uuesti avama.</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="1364"/>
@@ -2255,7 +2255,7 @@ kustutamiseks muuteklahvi.</translation>
     <message>
         <location filename="../../sessionDialog.ui" line="56"/>
         <source>Filter...</source>
-        <translation>Sõelu...</translation>
+        <translation>Otsi...</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="69"/>
@@ -2384,7 +2384,7 @@ kõik failid kõikides avatud akendes.</translation>
     <message>
         <location filename="../../sidepane.cpp" line="196"/>
         <source>Filter...</source>
-        <translation type="unfinished"></translation>
+        <translation>Otsi...</translation>
     </message>
 </context>
 <context>
@@ -2392,12 +2392,12 @@ kõik failid kõikides avatud akendes.</translation>
     <message>
         <location filename="../../spellDialog.ui" line="25"/>
         <source>Unknown word:</source>
-        <translation type="unfinished"></translation>
+        <translation>Tundmatu sõna:</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="51"/>
         <source>Add To Dictionary</source>
-        <translation type="unfinished"></translation>
+        <translation>Lisa sõnastikku</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="62"/>
@@ -2407,22 +2407,22 @@ kõik failid kõikides avatud akendes.</translation>
     <message>
         <location filename="../../spellDialog.ui" line="129"/>
         <source>Correct Once</source>
-        <translation type="unfinished"></translation>
+        <translation>Paranda üks kord</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="142"/>
         <source>Correct All</source>
-        <translation type="unfinished"></translation>
+        <translation>Paranda alati</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="87"/>
         <source>Ignore Once</source>
-        <translation type="unfinished"></translation>
+        <translation>Eira üks kord</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="100"/>
         <source>Ignore All</source>
-        <translation type="unfinished"></translation>
+        <translation>Eira alati</translation>
     </message>
 </context>
 <context>
@@ -2430,7 +2430,7 @@ kõik failid kõikides avatud akendes.</translation>
     <message>
         <location filename="../../textedit.cpp" line="147"/>
         <source>Double click to center current line</source>
-        <translation type="unfinished"></translation>
+        <translation>Rea joondamiseks keskele topeltklõpsa</translation>
     </message>
 </context>
 </TS>
