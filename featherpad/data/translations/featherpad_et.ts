@@ -1577,7 +1577,7 @@ eraldi faili avamise vaade on olemas (näiteks KDE ja LXQt).</translation>
     <message>
         <location filename="../../prefDialog.ui" line="483"/>
         <source>Auto-&amp;bracket</source>
-        <translation>Lisa sulud automaatselt</translation>
+        <translation>Lisa sulud &amp;automaatselt</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="490"/>
@@ -1677,7 +1677,7 @@ kui selle viimane rida pole tühi.</translation>
     <message>
         <location filename="../../prefDialog.ui" line="863"/>
         <source>Inertial scrolling with mouse wheel</source>
-        <translation type="unfinished"></translation>
+        <translation>Luba hiirerattaga inertsiaalne rullimine</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="952"/>
@@ -1824,7 +1824,14 @@ executable, the file will be executed by clicking
 the Run button, that appears on the toolbar/filemenu
 when needed, or by its shortcut Ctrl+E. Then, the
 process could be killed by Ctrl+Alt+E.</source>
-        <translation type="unfinished"></translation>
+        <translation>Siia hulka kuuluvad vaid käsufailid, mis on
+kirjutatud mõnes kestakeeles või Pythonis.
+
+Kui see valik on kasutusel ja avatud fail on
+käivitatav, siis menüüsse ja tööriistaribale 
+ilmuvast Käivita nupust saad ta tööle panna.
+Samuti võid käivitamiseks kasutada Ctrl+E kiirklahvi.
+Skripti töö saad lõpetada Ctrl+Alt+E kiirklahviga.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="677"/>
@@ -1907,7 +1914,8 @@ MMM dd, yyyy, hh:mm:ss</translation>
         <location filename="../../prefDialog.ui" line="859"/>
         <source>Should the mouse wheel scrolling be inertial
 if the cursor is inside the text view?</source>
-        <translation type="unfinished"></translation>
+        <translation>Kui kursor asub tekstivaate sees, kas siis
+hiireratta rullimine peaks olema inertsiaalne?</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="870"/>
@@ -1976,7 +1984,13 @@ be used also when the opened file is not modified.
 This can be useful under certain circumstances,
 e.g. for changing the time stamp or removing the
 trailing spaces of a text file.</source>
-        <translation type="unfinished"></translation>
+        <translation>Kui see valik on kasutusel, kas siis saad menüüs ja
+tööriistaribal leiduvat Salvesta nuppu kasutada kui
+fail pole muutunud.
+
+Seda võib vaja olla mõnel erijuhul - näiteks kui soovid
+faili ajatemplit muuta või eemaldada failiridade
+lõpust tühikuid.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1211"/>
@@ -2306,7 +2320,7 @@ kõik failid kõikides avatud akendes.</translation>
     <message>
         <location filename="../../sessionDialog.ui" line="233"/>
         <source>&amp;No</source>
-        <translation>6Ei</translation>
+        <translation>&amp;Ei</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="283"/>
