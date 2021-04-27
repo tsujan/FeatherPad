@@ -1219,7 +1219,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="5962"/>
         <source>A lightweight, tabbed, plain-text editor</source>
-        <translation>Lihtne kaarte kasutav tekstiredaktor,</translation>
+        <translation>Lihtne kaartide-põhine tekstiredaktor,</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5963"/>
@@ -1240,7 +1240,7 @@
         <location filename="../../fpwin.cpp" line="5966"/>
         <location filename="../../fpwin.cpp" line="5967"/>
         <source>About FeatherPad</source>
-        <translation>Teave FeatherPad&apos;i kohta</translation>
+        <translation>FeatherPad&apos;i teave</translation>
     </message>
     <message>
         <location filename="../../replace.cpp" line="243"/>
@@ -1540,7 +1540,7 @@ keskonnad et jaga rakenduste akende kohta täpset teavet.</translation>
     <message>
         <location filename="../../prefDialog.ui" line="367"/>
         <source>Always open in separate windows</source>
-        <translation>Kaartide asemel ava altati eraldi aknad</translation>
+        <translation>Kaartide asemel ava alati eraldi aknad</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="374"/>
