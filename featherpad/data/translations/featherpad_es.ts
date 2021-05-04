@@ -293,7 +293,7 @@
     <message>
         <location filename="../../fp.ui" line="667"/>
         <source>&amp;Delete</source>
-        <translation>&amp;Borrar</translation>
+        <translation>&amp;Eliminar</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="672"/>
@@ -464,7 +464,7 @@
         <location filename="../../fp.ui" line="1135"/>
         <location filename="../../fp.ui" line="1138"/>
         <source>To Upper Case</source>
-        <translation>Cambiar a mayúsculas el texto seleccionado</translation>
+        <translation>Cambiar a mayúsculas</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1141"/>
@@ -475,7 +475,7 @@
         <location filename="../../fp.ui" line="1146"/>
         <location filename="../../fp.ui" line="1149"/>
         <source>To Lower Case</source>
-        <translation>Cambiar a minúsculas el texto seleccionado</translation>
+        <translation>Cambiar a minúsculas</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1152"/>
@@ -536,7 +536,7 @@
     <message>
         <location filename="../../fp.ui" line="1219"/>
         <source>Text Tabs to Spaces</source>
-        <translation>Pestañas de texto a espacios</translation>
+        <translation>Tabulaciones de texto a espacios</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="994"/>
@@ -586,7 +586,7 @@
     <message>
         <location filename="../../fp.ui" line="223"/>
         <source>&amp;Encoding</source>
-        <translation>Codificación</translation>
+        <translation>&amp;Codificación</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="227"/>
@@ -619,7 +619,7 @@
     <message>
         <location filename="../../fp.ui" line="575"/>
         <source>Focus/hide search bar</source>
-        <translation>Muestra/Oculta la barra de búsqueda</translation>
+        <translation>Enfocar/ocultar la barra de búsqueda</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="583"/>
@@ -821,7 +821,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="1231"/>
         <source>The document has been modified.</source>
-        <translation>El documento ha sido modificado.</translation>
+        <translation>Se ha modificado el documento.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1242"/>
@@ -862,7 +862,7 @@
         <location filename="../../fpwin.cpp" line="4322"/>
         <location filename="../../fpwin.cpp" line="4336"/>
         <source>Sel. Chars</source>
-        <translation>Caracteres Sleccionados</translation>
+        <translation>Cteres. seleccionados</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1469"/>
@@ -939,7 +939,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="2539"/>
         <source>Non-text file(s) not opened!</source>
-        <translation>No se abren archivos que no son de texto!</translation>
+        <translation>No se abren archivos que no son de texto.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2540"/>
