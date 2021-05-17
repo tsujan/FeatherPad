@@ -1449,12 +1449,13 @@ tekib tööriistaribale menüü nupp.</translation>
         <location filename="../../prefDialog.ui" line="218"/>
         <source>Menubar accelerators are activated by Alt
 and may interfere with customized shortcuts.</source>
-        <translation type="unfinished"></translation>
+        <translation>Menüüriba kiirklahvide käivitajaks on Alt klahv
+ja see võib segada sinu loodud kiirklahvide tööd.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="222"/>
         <source>Disable menubar accelerators</source>
-        <translation type="unfinished"></translation>
+        <translation>Ära kasuta menüüriba kiirklahve</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="229"/>
