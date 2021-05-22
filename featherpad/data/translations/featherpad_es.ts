@@ -486,7 +486,7 @@
         <location filename="../../fp.ui" line="1157"/>
         <location filename="../../fp.ui" line="1160"/>
         <source>To Start Case</source>
-        <translation type="unfinished"></translation>
+        <translation>Mayúsculas iniciales anglosajonas</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1168"/>
@@ -1090,7 +1090,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="3570"/>
         <source>Text tabs are converted to spaces.</source>
-        <translation type="unfinished"></translation>
+        <translation>Los tabuladores en el texto se convierten en espacios.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3672"/>
@@ -1151,13 +1151,13 @@
         <location filename="../../fpwin.cpp" line="5256"/>
         <location filename="../../fpwin.cpp" line="5367"/>
         <source>Copy Final Target Path</source>
-        <translation type="unfinished"></translation>
+        <translation>Copiar ruta de destino final</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5260"/>
         <location filename="../../fpwin.cpp" line="5371"/>
         <source>Open Final Target Here</source>
-        <translation type="unfinished"></translation>
+        <translation>Abrir destino final aquí</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5277"/>
@@ -1422,7 +1422,7 @@ sin la funcion de pestañas activa.</translation>
     <message>
         <location filename="../../prefDialog.ui" line="188"/>
         <source>Uncheck for 1/5 of the width.</source>
-        <translation>Si desactiva esta opción se establecera un tamaño de 1/5 del ancho.</translation>
+        <translation>Desmarque para fijar 1⁄5 de la anchura.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="191"/>
@@ -1450,12 +1450,13 @@ menú aparecerá en la barra de herramientas.</translation>
         <location filename="../../prefDialog.ui" line="218"/>
         <source>Menubar accelerators are activated by Alt
 and may interfere with customized shortcuts.</source>
-        <translation type="unfinished"></translation>
+        <translation>Los aceleradores de la barra de menús se activan con Alt
+mas podrían interferir con atajos de teclado personalizados.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="222"/>
         <source>Disable menubar accelerators</source>
-        <translation type="unfinished"></translation>
+        <translation>Desactivar aceleradores de barra de menús</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="229"/>
@@ -1611,7 +1612,8 @@ escribe y solo bajo las circunstancias apropiadas.</translation>
         <location filename="../../prefDialog.ui" line="520"/>
         <source>Highlight case-sensitive and whole matches
 of the selected text.</source>
-        <translation type="unfinished"></translation>
+        <translation>Resalte las correspondencias con distinción de
+mayúsculas y minúsculas y enteras del texto seleccionado.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="524"/>
@@ -2080,7 +2082,7 @@ se abrirán si se pegan dentro de FeatherPad.</translation>
     <message>
         <location filename="../../prefDialog.ui" line="1350"/>
         <source>Whitespace color value:</source>
-        <translation type="unfinished"></translation>
+        <translation>Valor de color de espacio en blanco:</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1380"/>
@@ -2107,7 +2109,8 @@ se abrirán si se pegan dentro de FeatherPad.</translation>
         <location filename="../../pref.cpp" line="104"/>
         <source>Press a modifier key to clear a shortcut
 in the editing mode.</source>
-        <translation type="unfinished"></translation>
+        <translation>Presione una tecla modificadora para limpiar
+un atajo en el modo de edición.</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="110"/>
