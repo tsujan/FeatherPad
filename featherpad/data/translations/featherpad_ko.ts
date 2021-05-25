@@ -443,7 +443,7 @@
     <message>
         <location filename="../../fp.ui" line="1119"/>
         <source>Side-Pane</source>
-        <translation type="unfinished"></translation>
+        <translation>측면 창</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1122"/>
@@ -536,7 +536,7 @@
     <message>
         <location filename="../../fp.ui" line="1219"/>
         <source>Text Tabs to Spaces</source>
-        <translation type="unfinished"></translation>
+        <translation>공백에 텍스트 탭</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="994"/>
@@ -836,7 +836,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="1257"/>
         <source>&amp;No to all</source>
-        <translation type="unfinished"></translation>
+        <translation>모두 아니요(&amp;N)</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1460"/>
@@ -979,7 +979,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="2646"/>
         <source>Root Instance</source>
-        <translation type="unfinished"></translation>
+        <translation>루트 인스턴스</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2718"/>
@@ -1017,17 +1017,17 @@
     <message>
         <location filename="../../fpwin.cpp" line="3294"/>
         <source>Saving as root.</source>
-        <translation type="unfinished"></translation>
+        <translation>루트로 저장중입니다.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3295"/>
         <source>Waiting for authentication...</source>
-        <translation type="unfinished"></translation>
+        <translation>인증을 기다리는 중...</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3415"/>
         <source>&quot;pkexec&quot; is not found. Please install Polkit!</source>
-        <translation type="unfinished"></translation>
+        <translation>&quot;pkexec&quot;을 찾을 수 없습니다. Polkit를 설치하십시오!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3103"/>
@@ -1090,17 +1090,17 @@
     <message>
         <location filename="../../fpwin.cpp" line="3570"/>
         <source>Text tabs are converted to spaces.</source>
-        <translation type="unfinished"></translation>
+        <translation>텍스트 탭 공간으로 변환됩니다.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3672"/>
         <source>The selected text was too long.</source>
-        <translation type="unfinished"></translation>
+        <translation>선택한 텍스트가 너무 깁니다.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3673"/>
         <source>It is not fully processed.</source>
-        <translation type="unfinished"></translation>
+        <translation>완전히 처리되지 않았습니다.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3812"/>
@@ -1117,7 +1117,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="4481"/>
         <source>Printing in progress...</source>
-        <translation type="unfinished"></translation>
+        <translation>진행 중인 인쇄...</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4532"/>
@@ -1127,7 +1127,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="4538"/>
         <source>Printing completed.</source>
-        <translation type="unfinished"></translation>
+        <translation>인쇄가 완료되었습니다.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5202"/>
@@ -1151,24 +1151,24 @@
         <location filename="../../fpwin.cpp" line="5256"/>
         <location filename="../../fpwin.cpp" line="5367"/>
         <source>Copy Final Target Path</source>
-        <translation type="unfinished"></translation>
+        <translation>최종 대상 경로 복사</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5260"/>
         <location filename="../../fpwin.cpp" line="5371"/>
         <source>Open Final Target Here</source>
-        <translation type="unfinished"></translation>
+        <translation>여기에서 최종 대상 열기</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5277"/>
         <location filename="../../fpwin.cpp" line="5389"/>
         <source>Open Containing Folder</source>
-        <translation type="unfinished"></translation>
+        <translation>포함하는 폴더 열기</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5498"/>
         <source>You need to add a Hunspell dictionary.</source>
-        <translation type="unfinished"></translation>
+        <translation>Hunspell 사전을 추가해야 합니다.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5499"/>
@@ -1180,12 +1180,12 @@
     <message>
         <location filename="../../fpwin.cpp" line="5505"/>
         <source>The Hunspell dictionary does not exist.</source>
-        <translation type="unfinished"></translation>
+        <translation>Hunspell 사전이 없습니다.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5515"/>
         <source>The Hunspell dictionary is not accompanied by an affix file.</source>
-        <translation type="unfinished"></translation>
+        <translation>Hunspell 사전은 접미사 파일파일이 동반되지 않습니다.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5538"/>
@@ -1224,7 +1224,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="5970"/>
         <source>based on Qt</source>
-        <translation type="unfinished">Qt 기반</translation>
+        <translation>Qt에 기반함</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5971"/>
@@ -1234,7 +1234,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="5972"/>
         <source>aka.</source>
-        <translation type="unfinished"></translation>
+        <translation>일명.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5973"/>
@@ -1245,24 +1245,24 @@
     <message>
         <location filename="../../replace.cpp" line="243"/>
         <source>No Replacement</source>
-        <translation type="unfinished">바꾸지 않기</translation>
+        <translation>교체 없음</translation>
     </message>
     <message>
         <location filename="../../replace.cpp" line="245"/>
         <source>One Replacement</source>
-        <translation type="unfinished">이번 한 번만 바꾸기</translation>
+        <translation>한번 교체</translation>
     </message>
     <message numerus="yes">
         <location filename="../../replace.cpp" line="247"/>
         <source>%Ln Replacements</source>
-        <translation type="unfinished">
-            <numerusform>%Ln회 바꾸기</numerusform>
+        <translation>
+            <numerusform>%Ln회 교체</numerusform>
         </translation>
     </message>
     <message>
         <location filename="../../replace.cpp" line="251"/>
         <source>The first 1000 replacements are highlighted.</source>
-        <translation type="unfinished"></translation>
+        <translation>처음 1000개의 교체가 강조표시됩니다.</translation>
     </message>
     <message>
         <location filename="../../syntax.cpp" line="294"/>
@@ -1750,12 +1750,12 @@ and-drop either.</source>
     <message>
         <location filename="../../prefDialog.ui" line="422"/>
         <source>Text</source>
-        <translation type="unfinished">텍스트</translation>
+        <translation>텍스트</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="461"/>
         <source>Text Editor</source>
-        <translation type="unfinished">텍스트 편집기</translation>
+        <translation>텍스트 편집기</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="477"/>
@@ -2387,7 +2387,7 @@ windows will be included in the saved session.</source>
         <location filename="../../textedit.cpp" line="147"/>
         <source>Double click to center current line</source>
         <translatorcomment>정확한 표현인지 의심됨.</translatorcomment>
-        <translation type="unfinished">현재 줄을 가운데로 이동하기 위해 더블 클릭</translation>
+        <translation>현재 줄을 중심으로 두 번 클릭</translation>
     </message>
 </context>
 </TS>
