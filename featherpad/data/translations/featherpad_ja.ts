@@ -1458,7 +1458,7 @@ and may interfere with customized shortcuts.</source>
     <message>
         <location filename="../../prefDialog.ui" line="222"/>
         <source>Disable menubar accelerators</source>
-        <translation type="unfinished"></translation>
+        <translation>メニューバーのアクセラレーターを無効にする</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="229"/>
