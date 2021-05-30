@@ -1449,12 +1449,13 @@ dan verschijnt er een menuknop op de werkbalk.</translation>
         <location filename="../../prefDialog.ui" line="218"/>
         <source>Menubar accelerators are activated by Alt
 and may interfere with customized shortcuts.</source>
-        <translation type="unfinished"></translation>
+        <translation>Menubalksneltoetsen kunnen worden geactiveerd
+met Alt en kunnen botsen met aangepaste sneltoetsen.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="222"/>
         <source>Disable menubar accelerators</source>
-        <translation type="unfinished"></translation>
+        <translation>Menubalksneltoetsen uitschakelen</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="229"/>
