@@ -108,6 +108,7 @@ endif()
 
 set(featherpad_RESOURCES data/fp.qrc)
 set(DESKTOP_FILE data/featherpad.desktop)
+set(METAINFO_FILE data/featherpad.metainfo.xml)
 set(ICON_FILE data/featherpad.svg)
 set(HELP_FILE data/help)
 file(GLOB HELP_TR_FILES data/help_*)
@@ -172,6 +173,7 @@ elseif(UNIX)
 
   install(TARGETS featherpad RUNTIME DESTINATION ${CMAKE_INSTALL_PREFIX}/bin)
   install(FILES ${DESKTOP_FILE} DESTINATION "${CMAKE_INSTALL_PREFIX}/share/applications")
+  install(FILES ${METAINFO_FILE} DESTINATION "${CMAKE_INSTALL_PREFIX}/share/metainfo")
   install(FILES ${ICON_FILE} DESTINATION "${CMAKE_INSTALL_PREFIX}/share/icons/hicolor/scalable/apps")
   install(FILES ${HELP_FILE} DESTINATION "${CMAKE_INSTALL_PREFIX}/share/featherpad")
   # also install translated help files

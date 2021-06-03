@@ -140,6 +140,9 @@ unix:!haiku:!macx {
   desktop.path = $$DATADIR/applications
   desktop.files += ./data/$${TARGET}.desktop
 
+  metainfo.path = $$DATADIR/metainfo
+  metainfo.files += ./data/$${TARGET}.metainfo.xml
+
   iconsvg.path = $$DATADIR/icons/hicolor/scalable/apps
   iconsvg.files += ./data/$${TARGET}.svg
 
@@ -150,7 +153,7 @@ unix:!haiku:!macx {
   trans.path = $$DATADIR/featherpad
   trans.files += data/translations/translations
 
-  INSTALLS += target slink desktop iconsvg help trans
+  INSTALLS += target slink desktop metainfo iconsvg help trans
 }
 else:haiku {
   isEmpty(PREFIX) {
