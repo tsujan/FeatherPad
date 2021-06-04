@@ -1464,12 +1464,13 @@ bir menü düğmesi görüntülenir.</translation>
         <location filename="../../prefDialog.ui" line="218"/>
         <source>Menubar accelerators are activated by Alt
 and may interfere with customized shortcuts.</source>
-        <translation type="unfinished"></translation>
+        <translation>Menü çubuğu hızlandırıcıları Alt tarafından etkinleştirilir
+ve özelleştirilmiş kısayollara müdahale edebilir.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="222"/>
         <source>Disable menubar accelerators</source>
-        <translation type="unfinished"></translation>
+        <translation>Menü çubuğu hızlandırıcılarını devre dışı bırak</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="229"/>
