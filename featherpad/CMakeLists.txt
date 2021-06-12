@@ -56,7 +56,7 @@ endif()
 
 if(HAIKU)
   add_definitions(-DDATADIR="${CMAKE_INSTALL_PREFIX}/data")
-elseif(UNIX)
+elseif(UNIX OR OS2)
   add_definitions(-DDATADIR="${CMAKE_INSTALL_PREFIX}/share")
 endif()
 
