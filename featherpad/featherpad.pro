@@ -98,7 +98,7 @@ RESOURCES += data/fp.qrc
 contains(WITHOUT_X11, YES) {
   message("Compiling without X11...")
 }
-else:unix:!macx:!haiku {
+else:unix:!macx:!haiku:!os2 {
   QT += x11extras
   SOURCES += x11.cpp
   HEADERS += x11.h
@@ -118,8 +118,20 @@ unix {
     QMAKE_EXTRA_COMPILERS += updateqm
   }
 }
-
-unix:!haiku:!macx {
+os2 {
+  LIBS += -lhunspell-1.7_dll
+  RC_ICONS = data/featherpad_os2.ico
+  #TRANSLATIONS
+  exists($$[QT_INSTALL_BINS]/lrelease.exe) {
+    TRANSLATIONS = $$system("find data/translations/ -name 'featherpad_*.ts'")
+    updateqm.input = TRANSLATIONS
+    updateqm.output = data/translations/translations/${QMAKE_FILE_BASE}.qm
+    updateqm.commands = $$[QT_INSTALL_BINS]/lrelease ${QMAKE_FILE_IN} -qm data/translations/translations/${QMAKE_FILE_BASE}.qm
+    updateqm.CONFIG += no_link target_predeps
+    QMAKE_EXTRA_COMPILERS += updateqm
+  }
+}
+unix:!haiku:!macx:!os2 {
   #VARIABLES
   isEmpty(PREFIX) {
     PREFIX = /usr
@@ -196,4 +208,31 @@ else:macx{
   trans.files += data/translations/translations
 
   INSTALLS += target help trans
+}
+else:os2 {
+  #VARIABLES
+  
+  isEmpty(PREFIX) {
+    PREFIX = /@unixroot/usr
+  }
+  BINDIR = $$PREFIX/bin
+  DATADIR =$$PREFIX/share
+
+  DEFINES += DATADIR=\\\"$$DATADIR\\\" PKGDATADIR=\\\"$$PKGDATADIR\\\"
+
+  #MAKE INSTALL
+
+  target.path =$$BINDIR
+
+  iconsvg.path = $$DATADIR/icons/hicolor/scalable/apps
+  iconsvg.files += ./data/$${TARGET}.svg
+
+  help.path = $$DATADIR/featherpad
+  help.files += ./data/help
+  help.files += ./data/help_*
+
+  trans.path = $$DATADIR/featherpad
+  trans.files += data/translations/translations
+
+  INSTALLS += target iconsvg help trans
 }

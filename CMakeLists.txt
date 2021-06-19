@@ -11,15 +11,14 @@ if(CMAKE_INSTALL_PREFIX_INITIALIZED_TO_DEFAULT)
   elseif(UNIX)
     set(CMAKE_INSTALL_PREFIX "/usr")
   elseif(OS2)
-    set(CMAKE_INSTALL_PREFIX "/@unixroot/usr/local")
-    add_definitions(-g)
-    set(CMAKE_LDFLAGS="$(CMAKE_LDFLAGS) -g")
+    set(CMAKE_INSTALL_PREFIX "/@unixroot/usr/")
   endif()
 endif()
 
 option(WITHOUT_X11 "Compiling without X11..." OFF)
+# OS/2 never has X11
 if (OS2)
-        option(WITHOUT_X11 "Compiling without X11..." ON)
+  option(WITHOUT_X11 "Compiling without X11..." ON)
 endif()
 
 add_subdirectory(featherpad)

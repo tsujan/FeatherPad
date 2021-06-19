@@ -16,6 +16,11 @@ find_package(HUNSPELL "${HUNSPELL_MINIMUM_VERSION}" REQUIRED)
 # optional localization
 find_package(Qt5LinguistTools QUIET)
 
+# OS/2 needs an additional lib
+if(OS2)
+  set(CMAKE_EXE_LINKER_FLAGS  "${CMAKE_EXE_LINKER_FLAGS} -lcx")
+endif()
+
 # X11 for Linux/Unix
 if(NOT WITHOUT_X11 AND UNIX AND NOT APPLE AND NOT HAIKU)
   find_package(Qt5X11Extras "${QT_MINIMUM_VERSION}" REQUIRED)
@@ -109,7 +114,13 @@ endif()
 set(featherpad_RESOURCES data/fp.qrc)
 set(DESKTOP_FILE data/featherpad.desktop)
 set(METAINFO_FILE data/featherpad.metainfo.xml)
-set(ICON_FILE data/featherpad.svg)
+if(NOT OS2)
+  set(ICON_FILE data/featherpad.svg)
+else()
+  enable_language(RC)
+  set_source_files_properties(featherpad.rc PROPERTIES LANGUAGE RC)
+  set(featherpad_SRCS ${featherpad_SRCS} featherpad.rc)
+endif()
 set(HELP_FILE data/help)
 file(GLOB HELP_TR_FILES data/help_*)
 
@@ -128,7 +139,7 @@ if(Qt5LinguistTools_FOUND)
     install(FILES ${QM_FILES} DESTINATION "${CMAKE_INSTALL_PREFIX}/translations")
   elseif(APPLE)
     SET_SOURCE_FILES_PROPERTIES(${QM_FILES} PROPERTIES MACOSX_PACKAGE_LOCATION Resources/translations)
-  elseif(UNIX)
+  elseif(UNIX OR OS2)
     install(FILES ${QM_FILES} DESTINATION "${CMAKE_INSTALL_PREFIX}/share/featherpad/translations")
   endif()
 else(Qt5LinguistTools_FOUND)
@@ -180,4 +191,12 @@ elseif(UNIX)
   install(FILES ${HELP_TR_FILES} DESTINATION "${CMAKE_INSTALL_PREFIX}/share/featherpad")
   # install symlink
   install(FILES ${CMAKE_CURRENT_BINARY_DIR}/fpad DESTINATION ${CMAKE_INSTALL_PREFIX}/bin)
+elseif(OS2)
+  SET_TARGET_PROPERTIES(featherpad PROPERTIES
+  	OS2_DEF_EXEType "WINDOWAPI"
+  )
+  install(TARGETS featherpad RUNTIME DESTINATION ${CMAKE_INSTALL_PREFIX}/bin)
+  install(FILES ${HELP_FILE} DESTINATION "${CMAKE_INSTALL_PREFIX}/share/featherpad")
+  # also install translated help files
+  install(FILES ${HELP_TR_FILES} DESTINATION "${CMAKE_INSTALL_PREFIX}/share/featherpad")
 endif()
