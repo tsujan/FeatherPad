@@ -544,6 +544,12 @@ Highlighter::Highlighter (QTextDocument *parent, const QString& lang,
             rule.format = keywordFormat;
             highlightingRules.append (rule);
 
+            /* projects (may be overridden by CMAKE keywords below it) */
+            keywordFormat.setForeground (Blue);
+            rule.pattern.setPattern ("(?<=^|\\(|\\s)[A-Za-z0-9_]+(_BINARY_DIR|_SOURCE_DIR|_VERSION|_VERSION_MAJOR|_VERSION_MINOR|_VERSION_PATCH|_VERSION_TWEAK|_SOVERSION)(?!(\\.|-|@|#|\\$))\\b");
+            rule.format = keywordFormat;
+            highlightingRules.append (rule);
+
             /*
                previously, the first six patterns were started with:
                ((^\\s*|[\\(\\);&`\\|{}!=^]+\\s*|(?<=~|\\.)+\\s+)((if|then|elif|elseif|else|fi|while|do|done|esac)\\s+)*)
@@ -569,12 +575,6 @@ Highlighter::Highlighter (QTextDocument *parent, const QString& lang,
             rule.format = keywordFormat;
             highlightingRules.append (rule);
             keywordFormat.setFontItalic (false);
-
-            /* projects */
-            keywordFormat.setForeground (Blue);
-            rule.pattern.setPattern ("(?<=^|\\(|\\s)[A-Za-z0-9_]+(_BINARY_DIR|_SOURCE_DIR|_VERSION|_VERSION_MAJOR|_VERSION_MINOR|_VERSION_PATCH|_VERSION_TWEAK|_SOVERSION)(?!(\\.|-|@|#|\\$))\\b");
-            rule.format = keywordFormat;
-            highlightingRules.append (rule);
 
             keywordFormat.setForeground (DarkMagenta);
             rule.pattern.setPattern ("(?<=^|\\(|\\s)(AND|OR|NOT)(?=$|\\s)");
@@ -1823,8 +1823,21 @@ bool Highlighter::isEscapedQuote (const QString &text, const int pos, bool isSta
     }
     else if (progLan == "go")
     {
-        if (text.at (pos) == '`' || isStartQuote)
+        if (text.at (pos) == '`')
             return false;
+        if (isStartQuote)
+        {
+            if (text.at (pos) == '\"'
+                && pos > 0 && pos < text.length() - 1
+                && text.at (pos + 1) == '\''
+                && (text.at (pos - 1) == '\''
+                    || (pos > 1 && text.at (pos - 2) == '\'' && text.at (pos - 1) == '\\')))
+            {
+                return true; // '"' or '\"'
+            }
+            else
+                return false;
+        }
         return isEscapedChar (text, pos);
     }
 
