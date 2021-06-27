@@ -18,7 +18,8 @@ find_package(Qt5LinguistTools QUIET)
 
 # OS/2 needs an additional lib and tune the processor
 if(OS2)
-  set(CMAKE_EXE_LINKER_FLAGS  "${CMAKE_EXE_LINKER_FLAGS} -lcx -mtune ${CMAKE_SYSTEM_PROCESSOR} -march ${CMAKE_SYSTEM_PROCESSOR}")
+  #add_definitions(-mtune=${CMAKE_SYSTEM_PROCESSOR} -march=${CMAKE_SYSTEM_PROCESSOR})
+  set(CMAKE_EXE_LINKER_FLAGS  "${CMAKE_EXE_LINKER_FLAGS} -lcx")
 endif()
 
 # X11 for Linux/Unix
@@ -118,8 +119,8 @@ if(NOT OS2)
   set(ICON_FILE data/featherpad.svg)
 else()
   enable_language(RC)
-  set_source_files_properties(featherpad.rc PROPERTIES LANGUAGE RC)
-  set(featherpad_SRCS ${featherpad_SRCS} featherpad.rc)
+  set_source_files_properties(data/featherpad.rc PROPERTIES LANGUAGE RC)
+  set(featherpad_SRCS ${featherpad_SRCS} data/featherpad.rc)
 endif()
 set(HELP_FILE data/help)
 file(GLOB HELP_TR_FILES data/help_*)

@@ -695,7 +695,7 @@ void FPwin::applyConfigOnStarting()
         config.setReservedShortcuts (reserved);
         config.readShortcuts();
     }
-    
+
     QHash<QString, QString> ca = config.customShortcutActions();
     QHash<QString, QString>::const_iterator it = ca.constBegin();
     while (it != ca.constEnd())
