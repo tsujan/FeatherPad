@@ -566,7 +566,7 @@
     <message>
         <location filename="../../fp.ui" line="1054"/>
         <source>Previous Ta&amp;b</source>
-        <translation>&amp;Vorherige Registekarte</translation>
+        <translation>&amp;Vorherige Registerkarte</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1092"/>
@@ -2453,7 +2453,7 @@ in die gespeicherte Sitzung eingeschlossen.</translation>
     <message>
         <location filename="../../textedit.cpp" line="147"/>
         <source>Double click to center current line</source>
-        <translation>Doppel-Klick um die aktuelle Zeile zu zentrieren</translation>
+        <translation>Doppel-Klick, um die aktuelle Zeile zu zentrieren</translation>
     </message>
 </context>
 </TS>
