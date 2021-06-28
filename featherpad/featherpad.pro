@@ -120,7 +120,7 @@ unix {
 }
 os2 {
   LIBS += -lhunspell-1.7_dll
-  RC_ICONS = data/featherpad_os2.ico
+  RC_FILE = data/featherpad_os2.rc
   #TRANSLATIONS
   exists($$[QT_INSTALL_BINS]/lrelease.exe) {
     TRANSLATIONS = $$system("find data/translations/ -name 'featherpad_*.ts'")
@@ -224,9 +224,6 @@ else:os2 {
 
   target.path =$$BINDIR
 
-  iconsvg.path = $$DATADIR/icons/hicolor/scalable/apps
-  iconsvg.files += ./data/$${TARGET}.svg
-
   help.path = $$DATADIR/featherpad
   help.files += ./data/help
   help.files += ./data/help_*
@@ -234,5 +231,5 @@ else:os2 {
   trans.path = $$DATADIR/featherpad
   trans.files += data/translations/translations
 
-  INSTALLS += target iconsvg help trans
+  INSTALLS += target help trans
 }
