@@ -11,11 +11,12 @@ The application clipboard will work, though.
 any output on the command line. If you want to see the help or version strings
 on the command line, you have to redirect the output, e.g. 'featherpad -h | tee'.
 
-* The Qt5 port seems to have trouble to recognize OS/2 native path names 
-like c:\config.sys, when called by application parameter, e.g. by WPS object.
+* The Qt5 port seems to have trouble to recognize OS/2 native path names beginning
+with a drive name like c:\config.sys, when called by application parameter, 
+e.g. by WPS object.
 If you prepend 'file:' to the file name, e.g. 'featherpad file:c:\config.sys', 
 FeatherPad will accept the file.
-If you use Unix style path names like '/@unixroot/config.sys', the recognition
+If you use path names like '\config.sys' not beginning with a drive name, the recognition
 will work as expected.
 
 ## Miscellanea
