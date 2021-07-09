@@ -19,7 +19,7 @@ If you use Unix style path names like '/@unixroot/config.sys', the recognition
 will work as expected.
 
 ## Miscellanea
-* This port was made by Jochen Schäfer. You find OS/2 binaries on my Github repository
-(https://github.com/josch1710/FeatherPad).
+* This port was made by Jochen Schäfer (os2@joschs-robotics.de). You find OS/2 binaries
+ on my Github repository (https://github.com/josch1710/FeatherPad/releases).
 * The application icon was made by the great David Graser from the original.
 
