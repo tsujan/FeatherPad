@@ -1151,13 +1151,13 @@
         <location filename="../../fpwin.cpp" line="5256"/>
         <location filename="../../fpwin.cpp" line="5367"/>
         <source>Copy Final Target Path</source>
-        <translation type="unfinished"></translation>
+        <translation>Kopijuoti galutinį paskirties kelią</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5260"/>
         <location filename="../../fpwin.cpp" line="5371"/>
         <source>Open Final Target Here</source>
-        <translation type="unfinished"></translation>
+        <translation>Atverti galutinę paskirtį čia</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5277"/>
@@ -1450,12 +1450,13 @@ meniu mygtukas yra rodomas įrankių juostoje.</translation>
         <location filename="../../prefDialog.ui" line="218"/>
         <source>Menubar accelerators are activated by Alt
 and may interfere with customized shortcuts.</source>
-        <translation type="unfinished"></translation>
+        <translation>Meniu juostos prieigos klavišai yra aktyvuojami Alt klavišu
+ir gali trukdyti spartiesiems klavišams.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="222"/>
         <source>Disable menubar accelerators</source>
-        <translation type="unfinished"></translation>
+        <translation>Išjungti meniu juostos prieigos klavišus</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="229"/>
@@ -1608,12 +1609,13 @@ ilguoju brūkšniu.</translation>
         <location filename="../../prefDialog.ui" line="520"/>
         <source>Highlight case-sensitive and whole matches
 of the selected text.</source>
-        <translation type="unfinished"></translation>
+        <translation>Paryškinti tam tikro raidžių dydžio ir
+ištisus pažymėto teksto atitikmenis.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="524"/>
         <source>Selection highlighting</source>
-        <translation type="unfinished"></translation>
+        <translation>Žymėjimų paryškinimas</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="587"/>
@@ -2018,12 +2020,13 @@ pvz., laiko žymos keitimui arba tekstinio failo galinių tarpų
         <location filename="../../prefDialog.ui" line="1239"/>
         <source>By default, when files are copied, they will
 be opened if they are pasted into FeatherPad.</source>
-        <translation type="unfinished"></translation>
+        <translation>Pagal numatymą, nukopijavus failus ir juos įdėjus į
+FeatherPad, jie bus atveriami.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1243"/>
         <source>Paste paths instead of files</source>
-        <translation type="unfinished"></translation>
+        <translation>Įdėti kelius, vietoj failų</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1270"/>
@@ -2070,18 +2073,18 @@ be opened if they are pasted into FeatherPad.</source>
     <message>
         <location filename="../../prefDialog.ui" line="1350"/>
         <source>Whitespace color value:</source>
-        <translation type="unfinished"></translation>
+        <translation>Tarpų spalvos reikšmė:</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1380"/>
         <location filename="../../prefDialog.ui" line="1390"/>
         <source>Has effect only if line numbers are shown.</source>
-        <translation type="unfinished"></translation>
+        <translation>Veikia tik tuomet, jei yra rodomi eilučių numeriai.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1383"/>
         <source>Current line highlight value:</source>
-        <translation type="unfinished"></translation>
+        <translation>Dabartinės eilutės paryškinimo reikšmė:</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1415"/>
@@ -2097,7 +2100,8 @@ be opened if they are pasted into FeatherPad.</source>
         <location filename="../../pref.cpp" line="104"/>
         <source>Press a modifier key to clear a shortcut
 in the editing mode.</source>
-        <translation type="unfinished"></translation>
+        <translation>Norėdami taisymo veiksenoje išvalyti spartųjį klavišą,
+paspauskite modifikatoriaus klavišą.</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="110"/>
