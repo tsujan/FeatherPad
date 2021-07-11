@@ -20,14 +20,20 @@ FeatherPad (by Pedram Pourang, a.k.a. Tsu Jan <tsujan2000@gmail.com>) is a light
   * Spell checking with Hunspell;
   * Printing;
   * Text zooming;
-  * Appropriate but non-interrupting prompts;
-  * Haiku OS support (by [khallebal at GitHub](https://github.com/khallebal));
-  * macOS support (by [Pavel Shlyak](https://github.com/shlyakpavel)); and
+  * Appropriate but non-interrupting prompts; and
   * Other features that can be found in its settings, on its menus or when it is actually used.
 
 Please see [INSTALL](INSTALL) for instructions on compilation, installation and translation!
 
 FeatherPad was written in GTK+ at first, then ported to Qt with more features. Its homepage is <https://github.com/tsujan/FeatherPad>.
+
+## Credits
+
+Haiku OS support is added by [khallebal at GitHub](https://github.com/khallebal).
+
+macOS support is added by [Pavel Shlyak](https://github.com/shlyakpavel).
+
+OS/2 support is added by [josch1710 at GitHub](https://github.com/josch1710).
 
 ## Screenshots
 

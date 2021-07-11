@@ -40,10 +40,11 @@ bool Highlighter::isEscapedRegex (const QString &text, const int pos)
         return true;
     }
 
-    /* escape "<.../>", "</...>" and the single-line comment sign ("//")
+    /* escape "<.../>", "</...>", the single-line comment sign
+       and the start multiline comment sign
        FIXME: In this way and with what follows, "/>/g" isn't highlighted. */
     if ((text.length() > pos + 1 && ((progLan == "javascript" && text.at (pos + 1) == '>')
-                                     || text.at (pos + 1) == '/'))
+                                     || text.at (pos + 1) == '/' || text.at (pos + 1) == '*'))
         || (pos > 0 && progLan == "javascript" && text.at (pos - 1) == '<'))
     {
         return true;
@@ -276,7 +277,7 @@ bool Highlighter::isInsideRegex (const QString &text, const int index)
             setFormat (pos, nxtPos - pos + match.capturedLength(), regexFormat);
         }
 
-        if (index <= nxtPos) // they may be equal, as when "//" is at the end of "/...//"
+        if (index <= nxtPos) // they may be equal, as in "/...//" or "/.../*"
         {
             if (N % 2 == 0) res = true;
             else res = false;
@@ -367,7 +368,6 @@ void Highlighter::multiLineRegex(const QString &text, const int index)
         while (isEscapedRegexEndSign (text, indx, endIndex))
             endIndex = text.indexOf (endExp, endIndex + 1, &endMatch);
 
-        int badIndex = -1;
         int len;
         if (endIndex == -1)
         {
@@ -378,28 +378,10 @@ void Highlighter::multiLineRegex(const QString &text, const int index)
         {
             len = endIndex - startIndex
                   + endMatch.capturedLength();
-            /* a multi-line comment start sign may have become invalid */
-            if (!commentStartExpression.pattern().isEmpty())
-            {
-                QRegularExpression commentExp ("^" + commentStartExpression.pattern());
-                if (text.mid (endIndex).indexOf (commentExp) == 0)
-                {
-                    badIndex = endIndex + endMatch.capturedLength();
-                    setFormat (badIndex, text.length() - badIndex, neutralFormat);
-                    setCurrentBlockState (0); // restore the neutral state
-                }
-            }
         }
         setFormat (startIndex, len, regexFormat);
 
         startIndex = text.indexOf (startExp, startIndex + len, &startMatch);
-
-        if (badIndex >= 0)
-        { // reformat from here, as in highlightBlock()
-            singleLineComment (text, badIndex);
-            multiLineQuote (text, badIndex); // always returns false
-            multiLineComment (text, badIndex, commentStartExpression, commentEndExpression, commentState, commentFormat);
-        }
 
         /* skip comments and quotations again */
         fi = format (startIndex);

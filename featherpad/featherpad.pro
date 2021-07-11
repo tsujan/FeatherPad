@@ -131,6 +131,7 @@ os2 {
     QMAKE_EXTRA_COMPILERS += updateqm
   }
 }
+
 unix:!haiku:!macx:!os2 {
   #VARIABLES
   isEmpty(PREFIX) {
@@ -211,7 +212,7 @@ else:macx{
 }
 else:os2 {
   #VARIABLES
-  
+
   isEmpty(PREFIX) {
     PREFIX = /@unixroot/usr
   }
