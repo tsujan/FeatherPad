@@ -274,13 +274,13 @@ QStringList FPsingleton::processInfo (const QString& message,
         {
             QString realPath = path;
 #ifdef __OS2__
-						// We try to match, whether the filepath begins with a driverletter + ':'
-						// QUrl mistakes that for a scheme.
-						QRegularExpression re("^[A-Za-z]:");
-						if (path.indexOf(re, 0, nullptr) != -1)
-						{
-							realPath.prepend("file:");
-						}
+            // We try to match, whether the filepath begins with a driverletter + ':'
+            // QUrl mistakes that for a scheme.
+            QRegularExpression re("^[A-Za-z]:");
+            if (path.indexOf(re, 0, nullptr) != -1)
+            {
+              realPath.prepend("file:");
+            }
 #endif
             QString scheme = QUrl (realPath).scheme();
             if (scheme == "file")
