@@ -1,4 +1,4 @@
-# FeatherPad for OS/2
+# FeatherPad for OS/2 (by JoSch1710)
 
 ## Clipboard
 The Qt5 port doesn't support the system clipboard, yet 
