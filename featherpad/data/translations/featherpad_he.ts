@@ -1449,12 +1449,13 @@ a menu button appears on the toolbar.</source>
         <location filename="../../prefDialog.ui" line="218"/>
         <source>Menubar accelerators are activated by Alt
 and may interfere with customized shortcuts.</source>
-        <translation type="unfinished"></translation>
+        <translation>את מקשי ההאצה של סרגל התפריטים אפשר להפעיל עם Alt
+והם עשויים להפריע למקשי קיצור שהותאמו אישית.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="222"/>
         <source>Disable menubar accelerators</source>
-        <translation type="unfinished"></translation>
+        <translation>השבתת מקשי האצה של סרגל תפריטים</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="229"/>
