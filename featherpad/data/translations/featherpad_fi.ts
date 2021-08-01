@@ -46,7 +46,7 @@
     <message>
         <location filename="../../fp.ui" line="114"/>
         <source>Ctrl+Shift+J</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Shift+J</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="149"/>
@@ -85,7 +85,7 @@
     <message>
         <location filename="../../fp.ui" line="390"/>
         <source>Find:</source>
-        <translation type="unfinished"></translation>
+        <translation>Etsi:</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="406"/>
@@ -95,7 +95,7 @@
     <message>
         <location filename="../../fp.ui" line="419"/>
         <source>Replace with:</source>
-        <translation type="unfinished"></translation>
+        <translation>Korvaa:</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="435"/>
@@ -115,7 +115,7 @@
     <message>
         <location filename="../../fp.ui" line="500"/>
         <source>Ctrl+N</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+N</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="505"/>
@@ -130,7 +130,7 @@
     <message>
         <location filename="../../fp.ui" line="511"/>
         <source>Ctrl+O</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+O</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="519"/>
@@ -146,7 +146,7 @@
     <message>
         <location filename="../../fp.ui" line="525"/>
         <source>Ctrl+S</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+S</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="533"/>
@@ -156,48 +156,48 @@
     <message>
         <location filename="../../fp.ui" line="536"/>
         <source>Undo</source>
-        <translation type="unfinished"></translation>
+        <translation>Kumoa</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="539"/>
         <source>Ctrl+Z</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Z</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="547"/>
         <source>&amp;Redo</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Tee uudelleen</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="550"/>
         <source>Redo</source>
-        <translation type="unfinished"></translation>
+        <translation>Tee uudelleen</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="553"/>
         <source>Ctrl+Shift+Z</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Shift+Z</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="561"/>
         <location filename="../../fp.ui" line="564"/>
         <source>Reload</source>
-        <translation type="unfinished"></translation>
+        <translation>Lataa uudelleen</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="567"/>
         <source>Ctrl+Shift+R</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Shift+R</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="572"/>
         <source>&amp;Find</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Etsi</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="578"/>
         <source>Ctrl+F</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+F</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="586"/>
@@ -207,7 +207,7 @@
     <message>
         <location filename="../../fp.ui" line="589"/>
         <source>Ctrl+R</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+R</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="594"/>
@@ -217,7 +217,7 @@
     <message>
         <location filename="../../fp.ui" line="597"/>
         <source>Ctrl+Shift+S</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Shift+S</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="602"/>
@@ -227,7 +227,7 @@
     <message>
         <location filename="../../fp.ui" line="605"/>
         <source>Ctrl+P</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+P</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="610"/>
@@ -237,57 +237,57 @@
     <message>
         <location filename="../../fp.ui" line="613"/>
         <source>Ctrl+Shift+D</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Shift+D</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="618"/>
         <source>&amp;Close</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Sulje</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="621"/>
         <source>Ctrl+Shift+Q</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Shift+Q</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="626"/>
         <source>&amp;Quit</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Lopeta</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="629"/>
         <source>Ctrl+Q</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Q</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="637"/>
         <source>&amp;Cut</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Leikkaa</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="640"/>
         <source>Ctrl+X</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+X</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="648"/>
         <source>C&amp;opy</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Kopioi</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="651"/>
         <source>Ctrl+C</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+C</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="656"/>
         <source>&amp;Paste</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Liitä</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="659"/>
         <source>Ctrl+V</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+V</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="667"/>
@@ -297,27 +297,27 @@
     <message>
         <location filename="../../fp.ui" line="672"/>
         <source>&amp;Select All</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Valitse kaikki</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="675"/>
         <source>Ctrl+A</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+A</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="680"/>
         <source>&amp;Font</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Fontti</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="688"/>
         <source>&amp;Line Numbers</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Rivinumero</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="691"/>
         <source>Ctrl+L</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+L</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="702"/>
@@ -327,7 +327,7 @@
     <message>
         <location filename="../../fp.ui" line="705"/>
         <source>Ctrl+W</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+W</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="716"/>
@@ -337,7 +337,7 @@
     <message>
         <location filename="../../fp.ui" line="719"/>
         <source>Ctrl+I</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+I</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="730"/>
@@ -347,27 +347,27 @@
     <message>
         <location filename="../../fp.ui" line="733"/>
         <source>Ctrl+Shift+H</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Shift+H</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="738"/>
         <source>&amp;Preferences</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Asetukset</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="741"/>
         <source>Ctrl+Shift+P</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Shift+P</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="749"/>
         <source>Ctrl+H</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+H</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="754"/>
         <source>&amp;About</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Tietoja</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="781"/>
@@ -392,7 +392,7 @@
     <message>
         <location filename="../../fp.ui" line="975"/>
         <source>Ctrl+J</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+J</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="983"/>
@@ -402,17 +402,17 @@
     <message>
         <location filename="../../fp.ui" line="986"/>
         <source>Ctrl+Shift+E</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Shift+E</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1089"/>
         <source>&amp;Run</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Suorita</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1095"/>
         <source>Ctrl+E</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+E</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1100"/>
@@ -437,7 +437,7 @@
     <message>
         <location filename="../../fp.ui" line="1114"/>
         <source>Ctrl+M</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+M</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1119"/>
@@ -447,7 +447,7 @@
     <message>
         <location filename="../../fp.ui" line="1122"/>
         <source>Ctrl+Alt+P</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Alt+P</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1127"/>
@@ -457,7 +457,7 @@
     <message>
         <location filename="../../fp.ui" line="1130"/>
         <source>Ctrl+Shift+V</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Shift+V</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1135"/>
@@ -468,7 +468,7 @@
     <message>
         <location filename="../../fp.ui" line="1141"/>
         <source>Ctrl+Shift+U</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Shift+U</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1146"/>
@@ -479,7 +479,7 @@
     <message>
         <location filename="../../fp.ui" line="1152"/>
         <source>Ctrl+Shift+L</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Shift+L</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1157"/>
@@ -496,7 +496,7 @@
     <message>
         <location filename="../../fp.ui" line="1174"/>
         <source>F1</source>
-        <translation type="unfinished"></translation>
+        <translation>F1</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1179"/>
@@ -518,13 +518,13 @@
     <message>
         <location filename="../../fp.ui" line="1198"/>
         <source>F2</source>
-        <translation type="unfinished"></translation>
+        <translation>F2</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1203"/>
         <location filename="../../fp.ui" line="1206"/>
         <source>Save All Files</source>
-        <translation type="unfinished"></translation>
+        <translation>Tallenna kaikki tiedostot</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1211"/>
@@ -545,7 +545,7 @@
     <message>
         <location filename="../../fp.ui" line="997"/>
         <source>Ctrl+T</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+T</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1010"/>
@@ -560,12 +560,12 @@
     <message>
         <location filename="../../fp.ui" line="1043"/>
         <source>Ne&amp;xt Tab</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Seuraava välilehti</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1054"/>
         <source>Previous Ta&amp;b</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Edellinen välilehti</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1092"/>
@@ -623,7 +623,7 @@
     <message>
         <location filename="../../fp.ui" line="583"/>
         <source>&amp;Replace</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Korvaa</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="765"/>
@@ -633,27 +633,27 @@
     <message>
         <location filename="../../fp.ui" line="773"/>
         <source>&amp;Other</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Muu</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="792"/>
         <source>&amp;UTF-8</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;UTF-8</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="803"/>
         <source>UTF-&amp;16</source>
-        <translation type="unfinished"></translation>
+        <translation>UTF-&amp;16</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="814"/>
         <source>&amp;ISO-8859-1</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;ISO-8859-1</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="825"/>
         <source>&amp;Windows-1252</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Windows-1252</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="836"/>
@@ -2218,7 +2218,7 @@ in the editing mode.</source>
         <location filename="../../sessionDialog.ui" line="72"/>
         <location filename="../../sessionDialog.ui" line="275"/>
         <source>&amp;Open</source>
-        <translation type="unfinished">&amp;Avaa</translation>
+        <translation>&amp;Avaa</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="98"/>
@@ -2252,7 +2252,7 @@ windows will be included in the saved session.</source>
         <location filename="../../sessionDialog.ui" line="226"/>
         <location filename="../../session.cpp" line="328"/>
         <source>&amp;Yes</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Kyllä</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="233"/>
@@ -2272,7 +2272,7 @@ windows will be included in the saved session.</source>
     <message>
         <location filename="../../sessionDialog.ui" line="260"/>
         <source>&amp;Close</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Sulje</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="135"/>
@@ -2282,7 +2282,7 @@ windows will be included in the saved session.</source>
     <message>
         <location filename="../../sessionDialog.ui" line="138"/>
         <source>&amp;Save</source>
-        <translation type="unfinished">&amp;Tallenna</translation>
+        <translation>&amp;Tallenna</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="149"/>
@@ -2307,7 +2307,7 @@ windows will be included in the saved session.</source>
     <message>
         <location filename="../../session.cpp" line="314"/>
         <source>&amp;OK</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;OK</translation>
     </message>
     <message>
         <location filename="../../session.cpp" line="333"/>
@@ -2353,7 +2353,7 @@ windows will be included in the saved session.</source>
     <message>
         <location filename="../../spellDialog.ui" line="62"/>
         <source>Replace with:</source>
-        <translation type="unfinished"></translation>
+        <translation>Korvaa:</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="129"/>
