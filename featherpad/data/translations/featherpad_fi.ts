@@ -2224,13 +2224,13 @@ in the editing mode.</source>
         <location filename="../../sessionDialog.ui" line="98"/>
         <location filename="../../sessionDialog.ui" line="108"/>
         <source>Del</source>
-        <translation type="unfinished"></translation>
+        <translation>Del</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="115"/>
         <location filename="../../sessionDialog.ui" line="125"/>
         <source>Ctrl+Del</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Del</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="159"/>
