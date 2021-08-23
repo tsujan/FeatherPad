@@ -1058,13 +1058,13 @@
         <location filename="../../fpwin.cpp" line="5248"/>
         <location filename="../../fpwin.cpp" line="5359"/>
         <source>Copy Final Target Path</source>
-        <translation type="unfinished"></translation>
+        <translation>Копировать путь цели назначения</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5252"/>
         <location filename="../../fpwin.cpp" line="5363"/>
         <source>Open Final Target Here</source>
-        <translation type="unfinished"></translation>
+        <translation>Открыть цель назначения здесь</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5269"/>
@@ -1619,12 +1619,13 @@ the editor font has a fixed pitch (like Monospace).</source>
         <location filename="../../prefDialog.ui" line="218"/>
         <source>Menubar accelerators are activated by Alt
 and may interfere with customized shortcuts.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ускорители панели меню активируются с помощью Alt
+и могут конфликтовать с настраиваемыми ярлыками.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="222"/>
         <source>Disable menubar accelerators</source>
-        <translation type="unfinished"></translation>
+        <translation>Отключить ускорители панели меню</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="775"/>
