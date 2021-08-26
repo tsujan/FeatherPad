@@ -6,7 +6,7 @@
     <message>
         <location filename="../../about.ui" line="165"/>
         <source>License</source>
-        <translation type="unfinished"></translation>
+        <translation>Ліцензія</translation>
     </message>
 </context>
 <context>
@@ -25,419 +25,420 @@
         <location filename="../../fpwin.cpp" line="4807"/>
         <location filename="../../fpwin.cpp" line="5066"/>
         <source>Untitled</source>
-        <translation type="unfinished"></translation>
+        <translation>Новий</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="71"/>
         <source>Go to line:</source>
-        <translation type="unfinished"></translation>
+        <translation>Перейти до рядка:</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="107"/>
         <source>Select text from cursor to this line
 (Ctrl+Shift+J)</source>
-        <translation type="unfinished"></translation>
+        <translation>Вибрати текст від курсору до цього рядка
+(Ctrl+Shift+J)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="111"/>
         <source>Select Text</source>
-        <translation type="unfinished"></translation>
+        <translation>Вибрати текст</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="114"/>
         <source>Ctrl+Shift+J</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Shift+J</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="149"/>
         <source>&amp;File</source>
-        <translation type="unfinished"></translation>
+        <translation>Файл</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="189"/>
         <location filename="../../fp.ui" line="980"/>
         <source>&amp;Edit</source>
-        <translation type="unfinished"></translation>
+        <translation>Редагування</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="219"/>
         <source>&amp;Options</source>
-        <translation type="unfinished"></translation>
+        <translation>Знаряддя</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1481"/>
         <location filename="../../fpwin.cpp" line="2827"/>
         <location filename="../../fpwin.cpp" line="4326"/>
         <source>Encoding</source>
-        <translation type="unfinished"></translation>
+        <translation>Кодування</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="282"/>
         <source>&amp;Search</source>
-        <translation type="unfinished"></translation>
+        <translation>Пошук</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="290"/>
         <location filename="../../fp.ui" line="746"/>
         <source>&amp;Help</source>
-        <translation type="unfinished"></translation>
+        <translation>Допомога</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="390"/>
         <source>Find:</source>
-        <translation type="unfinished"></translation>
+        <translation>Знайти:</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="406"/>
         <source>To be replaced</source>
-        <translation type="unfinished"></translation>
+        <translation>Що підлягає заміні</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="419"/>
         <source>Replace with:</source>
-        <translation type="unfinished"></translation>
+        <translation>Замінити на:</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="435"/>
         <source>Replacing text</source>
-        <translation type="unfinished"></translation>
+        <translation>Текст для заміни</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="494"/>
         <source>&amp;New</source>
-        <translation type="unfinished"></translation>
+        <translation>Новий</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="497"/>
         <source>New tab</source>
-        <translation type="unfinished"></translation>
+        <translation>Новий вкладка</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="500"/>
         <source>Ctrl+N</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+N</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="505"/>
         <source>&amp;Open</source>
-        <translation type="unfinished"></translation>
+        <translation>Відкрити</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="508"/>
         <source>Open a file</source>
-        <translation type="unfinished"></translation>
+        <translation>Відкрити файл</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="511"/>
         <source>Ctrl+O</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+O</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="519"/>
         <location filename="../../fpwin.cpp" line="1256"/>
         <source>&amp;Save</source>
-        <translation type="unfinished"></translation>
+        <translation>Зберегти</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="522"/>
         <source>Save the current tab</source>
-        <translation type="unfinished"></translation>
+        <translation>Зберегти поточну вкладку</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="525"/>
         <source>Ctrl+S</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+S</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="533"/>
         <source>&amp;Undo</source>
-        <translation type="unfinished"></translation>
+        <translation>Повернути</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="536"/>
         <source>Undo</source>
-        <translation type="unfinished"></translation>
+        <translation>Повернути</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="539"/>
         <source>Ctrl+Z</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Z</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="547"/>
         <source>&amp;Redo</source>
-        <translation type="unfinished"></translation>
+        <translation>Повторити</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="550"/>
         <source>Redo</source>
-        <translation type="unfinished"></translation>
+        <translation>Повторити</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="553"/>
         <source>Ctrl+Shift+Z</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Shift+Z</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="561"/>
         <location filename="../../fp.ui" line="564"/>
         <source>Reload</source>
-        <translation type="unfinished"></translation>
+        <translation>Відновити</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="567"/>
         <source>Ctrl+Shift+R</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Shift+R</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="572"/>
         <source>&amp;Find</source>
-        <translation type="unfinished"></translation>
+        <translation>Пошук</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="578"/>
         <source>Ctrl+F</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+F</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="586"/>
         <source>Show/hide replacement dock</source>
-        <translation type="unfinished"></translation>
+        <translation>Відкрити/сховати панель заміни</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="589"/>
         <source>Ctrl+R</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+R</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="594"/>
         <source>Save &amp;As</source>
-        <translation type="unfinished"></translation>
+        <translation>Зберегти як</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="597"/>
         <source>Ctrl+Shift+S</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Shift+S</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="602"/>
         <source>&amp;Print</source>
-        <translation type="unfinished"></translation>
+        <translation>Друк</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="605"/>
         <source>Ctrl+P</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+P</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="610"/>
         <source>Documen&amp;t Properties</source>
-        <translation type="unfinished"></translation>
+        <translation>Властивості документу</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="613"/>
         <source>Ctrl+Shift+D</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Shift+D</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="618"/>
         <source>&amp;Close</source>
-        <translation type="unfinished"></translation>
+        <translation>Закрити</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="621"/>
         <source>Ctrl+Shift+Q</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Shift+Q</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="626"/>
         <source>&amp;Quit</source>
-        <translation type="unfinished"></translation>
+        <translation>Вийти</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="629"/>
         <source>Ctrl+Q</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Q</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="637"/>
         <source>&amp;Cut</source>
-        <translation type="unfinished"></translation>
+        <translation>Вирізати</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="640"/>
         <source>Ctrl+X</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+X</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="648"/>
         <source>C&amp;opy</source>
-        <translation type="unfinished"></translation>
+        <translation>Скопіювати</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="651"/>
         <source>Ctrl+C</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+C</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="656"/>
         <source>&amp;Paste</source>
-        <translation type="unfinished"></translation>
+        <translation>Вставити</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="659"/>
         <source>Ctrl+V</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+V</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="667"/>
         <source>&amp;Delete</source>
-        <translation type="unfinished"></translation>
+        <translation>Видалити</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="672"/>
         <source>&amp;Select All</source>
-        <translation type="unfinished"></translation>
+        <translation>Виділити все</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="675"/>
         <source>Ctrl+A</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+A</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="680"/>
         <source>&amp;Font</source>
-        <translation type="unfinished"></translation>
+        <translation>Шрифт</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="688"/>
         <source>&amp;Line Numbers</source>
-        <translation type="unfinished"></translation>
+        <translation>Нумерація рядків</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="691"/>
         <source>Ctrl+L</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+L</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="702"/>
         <source>&amp;Wrap Lines</source>
-        <translation type="unfinished"></translation>
+        <translation>Перенесення рядків</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="705"/>
         <source>Ctrl+W</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+W</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="716"/>
         <source>&amp;Auto-Indentation</source>
-        <translation type="unfinished"></translation>
+        <translation>Автовідступи</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="719"/>
         <source>Ctrl+I</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+I</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="730"/>
         <source>&amp;Syntax Highlighting</source>
-        <translation type="unfinished"></translation>
+        <translation>Підсвічування правопису</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="733"/>
         <source>Ctrl+Shift+H</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Shift+H</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="738"/>
         <source>&amp;Preferences</source>
-        <translation type="unfinished"></translation>
+        <translation>Налаштування</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="741"/>
         <source>Ctrl+Shift+P</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Shift+P</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="749"/>
         <source>Ctrl+H</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+H</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="754"/>
         <source>&amp;About</source>
-        <translation type="unfinished"></translation>
+        <translation>Про додаток</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="781"/>
         <source>Enforce UTF-8</source>
-        <translation type="unfinished"></translation>
+        <translation>Примусово UTF-8</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="964"/>
         <source>Save with &amp;Encoding</source>
-        <translation type="unfinished"></translation>
+        <translation>Зберегти з кодуванням</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="969"/>
         <source>&amp;Jump to</source>
-        <translation type="unfinished"></translation>
+        <translation>Перехід до</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="972"/>
         <source>Show/hide jump bar</source>
-        <translation type="unfinished"></translation>
+        <translation>Відкрити/сховати панель переходу</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="975"/>
         <source>Ctrl+J</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+J</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="983"/>
         <source>Edit text</source>
-        <translation type="unfinished"></translation>
+        <translation>Редагувати текст</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="986"/>
         <source>Ctrl+Shift+E</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Shift+E</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1089"/>
         <source>&amp;Run</source>
-        <translation type="unfinished"></translation>
+        <translation>Запуск</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1095"/>
         <source>Ctrl+E</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+E</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1100"/>
         <source>&amp;Clear</source>
-        <translation type="unfinished"></translation>
+        <translation>Очистити</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1103"/>
         <source>Clear the list of recently modified files</source>
-        <translation type="unfinished"></translation>
+        <translation>Очищення списку нещодавно змінених файлів</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1108"/>
         <source>Save/Restore Session</source>
-        <translation type="unfinished"></translation>
+        <translation>Збереження/відновлення сесії</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1111"/>
         <source>Sa&amp;ve/Restore Session</source>
-        <translation type="unfinished"></translation>
+        <translation>Збереження/відновлення сесії</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1114"/>
         <source>Ctrl+M</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+M</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1119"/>
@@ -447,165 +448,165 @@
     <message>
         <location filename="../../fp.ui" line="1122"/>
         <source>Ctrl+Alt+P</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Alt+P</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1127"/>
         <source>Paste Date and Time</source>
-        <translation type="unfinished"></translation>
+        <translation>Додати дату та час</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1130"/>
         <source>Ctrl+Shift+V</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Shift+V</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1135"/>
         <location filename="../../fp.ui" line="1138"/>
         <source>To Upper Case</source>
-        <translation type="unfinished"></translation>
+        <translation>До верхнього регістру</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1141"/>
         <source>Ctrl+Shift+U</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Shift+U</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1146"/>
         <location filename="../../fp.ui" line="1149"/>
         <source>To Lower Case</source>
-        <translation type="unfinished"></translation>
+        <translation>До нижнього регістру</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1152"/>
         <source>Ctrl+Shift+L</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Shift+L</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1157"/>
         <location filename="../../fp.ui" line="1160"/>
         <source>To Start Case</source>
-        <translation type="unfinished"></translation>
+        <translation>До початкового регістру</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1168"/>
         <location filename="../../fp.ui" line="1171"/>
         <source>Last Active Tab</source>
-        <translation type="unfinished"></translation>
+        <translation>Остання активна вкладка</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1174"/>
         <source>F1</source>
-        <translation type="unfinished"></translation>
+        <translation>F1</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1179"/>
         <location filename="../../fp.ui" line="1182"/>
         <source>Sort Lines</source>
-        <translation type="unfinished"></translation>
+        <translation>Сортування рядків</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1187"/>
         <location filename="../../fp.ui" line="1190"/>
         <source>Sort Lines Reversely</source>
-        <translation type="unfinished"></translation>
+        <translation>Сортування рядків навпаки</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1195"/>
         <source>Check Spelling</source>
-        <translation type="unfinished"></translation>
+        <translation>Перевірка правопису</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1198"/>
         <source>F2</source>
-        <translation type="unfinished"></translation>
+        <translation>F2</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1203"/>
         <location filename="../../fp.ui" line="1206"/>
         <source>Save All Files</source>
-        <translation type="unfinished"></translation>
+        <translation>Зберегти всі файли</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1211"/>
         <location filename="../../fp.ui" line="1214"/>
         <source>User Dictionary</source>
-        <translation type="unfinished"></translation>
+        <translation>Користувацький словник</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1219"/>
         <source>Text Tabs to Spaces</source>
-        <translation type="unfinished"></translation>
+        <translation>Зміна табуляторів на пробіли</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="994"/>
         <source>&amp;Detach Tab</source>
-        <translation type="unfinished"></translation>
+        <translation>Від&apos;єднати вкладку</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="997"/>
         <source>Ctrl+T</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+T</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1010"/>
         <source>Close Ne&amp;xt Tabs</source>
-        <translation type="unfinished"></translation>
+        <translation>Закрити наступні вкладки</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1015"/>
         <source>Close &amp;Previous Tabs</source>
-        <translation type="unfinished"></translation>
+        <translation>Закрити попередні вкладки</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1043"/>
         <source>Ne&amp;xt Tab</source>
-        <translation type="unfinished"></translation>
+        <translation>Наступна вкладка</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1054"/>
         <source>Previous Ta&amp;b</source>
-        <translation type="unfinished"></translation>
+        <translation>Попередній файл</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1092"/>
         <source>Execute</source>
-        <translation type="unfinished"></translation>
+        <translation>Виконати</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1020"/>
         <source>Close &amp;All Tabs</source>
-        <translation type="unfinished"></translation>
+        <translation>Закрити всі вкладки</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="153"/>
         <source>Recently &amp;Modified</source>
-        <translation type="unfinished"></translation>
+        <translation>Нещодавно змінені файли</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="223"/>
         <source>&amp;Encoding</source>
-        <translation type="unfinished"></translation>
+        <translation>Кодування</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="227"/>
         <source>&amp;Unicode</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Unicode</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="234"/>
         <source>&amp;Western European</source>
-        <translation type="unfinished"></translation>
+        <translation>Західна Європа (&amp;Western European)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="242"/>
         <source>&amp;East European</source>
-        <translation type="unfinished"></translation>
+        <translation>Східна Європа (&amp;East European)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="250"/>
         <source>Ea&amp;st Asian</source>
-        <translation type="unfinished"></translation>
+        <translation>Східна Азія (Ea&amp;st Asian)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="342"/>
@@ -613,22 +614,22 @@
         <location filename="../../replace.cpp" line="61"/>
         <location filename="../../replace.cpp" line="113"/>
         <source>Replacement</source>
-        <translation type="unfinished"></translation>
+        <translation>Заміна</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="575"/>
         <source>Focus/hide search bar</source>
-        <translation type="unfinished"></translation>
+        <translation>Відкрити/сховати панель пошуку</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="583"/>
         <source>&amp;Replace</source>
-        <translation type="unfinished"></translation>
+        <translation>Замінити</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="765"/>
         <source>Windows Arabic (&amp;CP1256)</source>
-        <translation type="unfinished"></translation>
+        <translation>Арабська Windows (&amp;CP1256)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="773"/>
@@ -638,163 +639,164 @@
     <message>
         <location filename="../../fp.ui" line="792"/>
         <source>&amp;UTF-8</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;UTF-8</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="803"/>
         <source>UTF-&amp;16</source>
-        <translation type="unfinished"></translation>
+        <translation>UTF-&amp;16</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="814"/>
         <source>&amp;ISO-8859-1</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;ISO-8859-1</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="825"/>
         <source>&amp;Windows-1252</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Windows-1252</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="836"/>
         <source>&amp;Cyrillic (CP1251)</source>
-        <translation type="unfinished"></translation>
+        <translation>Кирилиця (&amp;CP1251)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="847"/>
         <source>Cyrillic (&amp;KOI8-U)</source>
-        <translation type="unfinished"></translation>
+        <translation>Кирилиця (&amp;KOI8-U)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="858"/>
         <source>Cyrillic (&amp;ISO-8859-5)</source>
-        <translation type="unfinished"></translation>
+        <translation>Кирилиця (&amp;ISO-8859-5)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="869"/>
         <source>&amp;Chinese (BIG5)</source>
-        <translation type="unfinished"></translation>
+        <translation>Китайська (BIG5)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="880"/>
         <source>Chinese (&amp;GB18030)</source>
-        <translation type="unfinished"></translation>
+        <translation>Китайська (&amp;GB18030)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="891"/>
         <source>&amp;Japanese (ISO-2022-JP)</source>
-        <translation type="unfinished"></translation>
+        <translation>Японська (ISO-2022-&amp;JP)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="902"/>
         <source>Japanese (&amp;ISO-2022-JP-2)</source>
-        <translation type="unfinished"></translation>
+        <translation>Японська (&amp;ISO-2022-JP-2)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="913"/>
         <source>Japanese (ISO-&amp;2022-KR)</source>
-        <translation type="unfinished"></translation>
+        <translation>Японська (ISO-&amp;2022-KR)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="924"/>
         <source>Ja&amp;panese (CP932)</source>
-        <translation type="unfinished"></translation>
+        <translation>Японська (CP932)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="935"/>
         <source>Japa&amp;nese (EUC-JP)</source>
-        <translation type="unfinished"></translation>
+        <translation>Японська (EUC-JP)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="943"/>
         <source>&amp;Korean (CP949)</source>
-        <translation type="unfinished"></translation>
+        <translation>Корейська (CP949)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="951"/>
         <source>K&amp;orean (CP1361)</source>
-        <translation type="unfinished"></translation>
+        <translation>Корейська (CP1361)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="959"/>
         <source>Korean (&amp;EUC-KR)</source>
-        <translation type="unfinished"></translation>
+        <translation>Корейська (&amp;EUC-KR)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1005"/>
         <source>ISO-&amp;8859-15</source>
-        <translation type="unfinished"></translation>
+        <translation>ISO-&amp;8859-15</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1025"/>
         <source>Close &amp;Other Tabs</source>
-        <translation type="unfinished"></translation>
+        <translation>Закрити інші вкладки</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1030"/>
         <source>&amp;Copy File Name</source>
-        <translation type="unfinished"></translation>
+        <translation>Копіювати ім&apos;я файла</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1035"/>
         <source>Copy File &amp;Path</source>
-        <translation type="unfinished"></translation>
+        <translation>Копіювати шлях до файла</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1046"/>
         <source>Alt+Right</source>
-        <translation type="unfinished"></translation>
+        <translation>Alt+Right</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1057"/>
         <source>Alt+Left</source>
-        <translation type="unfinished"></translation>
+        <translation>Alt+Left</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1065"/>
         <source>&amp;First Tab</source>
-        <translation type="unfinished"></translation>
+        <translation>Перша вкладка</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1068"/>
         <source>Alt+Down</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Alt+Down</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1076"/>
         <source>&amp;Last Tab</source>
-        <translation type="unfinished"></translation>
+        <translation>Остання вкладка</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1079"/>
         <source>Alt+Up</source>
-        <translation type="unfinished"></translation>
+        <translation>Alt+Up</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1084"/>
         <source>Menu</source>
-        <translation type="unfinished"></translation>
+        <translation>Меню</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="97"/>
         <source>Calculate number of words
 (For huge texts, this may be CPU-intensive.)</source>
-        <translation type="unfinished"></translation>
+        <translation>Підрахувати кількість слів
+(Для великих текстів це може зайняти багато часу)</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="112"/>
         <source>Next</source>
-        <translation type="unfinished"></translation>
+        <translation>Наступний</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="113"/>
         <source>Previous</source>
-        <translation type="unfinished"></translation>
+        <translation>Попередній</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="114"/>
         <source>Replace all</source>
-        <translation type="unfinished"></translation>
+        <translation>Замінити всі</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="593"/>
@@ -804,12 +806,12 @@
     <message>
         <location filename="../../fpwin.cpp" line="1917"/>
         <source>Close</source>
-        <translation type="unfinished"></translation>
+        <translation>Закрити</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1242"/>
         <source>Save changes?</source>
-        <translation type="unfinished"></translation>
+        <translation>Зберегти зміни?</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="894"/>
@@ -872,7 +874,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="1800"/>
         <source>Another process is running in this tab!</source>
-        <translation type="unfinished"></translation>
+        <translation>Інший процес запущений у цій вкладці!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1908"/>
@@ -917,7 +919,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="1801"/>
         <source>Only one process is allowed per tab.</source>
-        <translation type="unfinished"></translation>
+        <translation>Тільки один процес дозволений у вкладці.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1904"/>
@@ -1010,7 +1012,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="3025"/>
         <source>Keep encoding and save as...</source>
-        <translation type="unfinished"></translation>
+        <translation>Залишити існуюче кодування за зберегти як...</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3297"/>
@@ -1088,7 +1090,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="3573"/>
         <source>Text tabs are converted to spaces.</source>
-        <translation type="unfinished"></translation>
+        <translation>Текстові табулятори змінені на пробіли.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3675"/>
@@ -1202,12 +1204,12 @@
     <message>
         <location filename="../../fpwin.cpp" line="5581"/>
         <source>Spell Checking</source>
-        <translation type="unfinished"></translation>
+        <translation>Перевірка правопису</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5918"/>
         <source>Some files cannot be saved!</source>
-        <translation type="unfinished"></translation>
+        <translation>Деякі файли неможливо зберегти!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5965"/>
@@ -1217,17 +1219,17 @@
     <message>
         <location filename="../../fpwin.cpp" line="5961"/>
         <source>A lightweight, tabbed, plain-text editor</source>
-        <translation type="unfinished"></translation>
+        <translation>Легкий текстовий редактор з вкладками</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5962"/>
         <source>based on Qt</source>
-        <translation type="unfinished"></translation>
+        <translation>заснований на Qt</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5963"/>
         <source>Author</source>
-        <translation type="unfinished"></translation>
+        <translation>Автор</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5964"/>
@@ -1238,34 +1240,36 @@
         <location filename="../../fpwin.cpp" line="5965"/>
         <location filename="../../fpwin.cpp" line="5966"/>
         <source>About FeatherPad</source>
-        <translation type="unfinished"></translation>
+        <translation>Про FeatherPad</translation>
     </message>
     <message>
         <location filename="../../replace.cpp" line="242"/>
         <source>No Replacement</source>
-        <translation type="unfinished"></translation>
+        <translation>Без заміни</translation>
     </message>
     <message>
         <location filename="../../replace.cpp" line="244"/>
         <source>One Replacement</source>
-        <translation type="unfinished"></translation>
+        <translation>Одна заміна</translation>
     </message>
     <message numerus="yes">
         <location filename="../../replace.cpp" line="246"/>
         <source>%Ln Replacements</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%Ln заміна</numerusform>
+            <numerusform>%Ln заміни</numerusform>
+            <numerusform>%Ln замін</numerusform>
         </translation>
     </message>
     <message>
         <location filename="../../replace.cpp" line="250"/>
         <source>The first 1000 replacements are highlighted.</source>
-        <translation type="unfinished"></translation>
+        <translation>Перші 1000 замін буде підсвічено.</translation>
     </message>
     <message>
         <location filename="../../syntax.cpp" line="298"/>
         <source>The size limit for syntax highlighting is exceeded.</source>
-        <translation type="unfinished"></translation>
+        <translation>Обмеження розміру підсвічування синтаксису перевищено.</translation>
     </message>
 </context>
 <context>
@@ -1274,13 +1278,13 @@
         <location filename="../../filedialog.h" line="48"/>
         <source>Ctrl+H</source>
         <comment>Toggle showing hidden files</comment>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+H</translation>
     </message>
     <message>
         <location filename="../../filedialog.h" line="49"/>
         <source>Alt+.</source>
         <comment>Toggle showing hidden files</comment>
-        <translation type="unfinished"></translation>
+        <translation>Alt+.</translation>
     </message>
 </context>
 <context>
@@ -1288,58 +1292,58 @@
     <message>
         <location filename="../../fontDialog.ui" line="14"/>
         <source>Select Font</source>
-        <translation type="unfinished"></translation>
+        <translation>Вибір шрифту</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="38"/>
         <source>Programming Fonts</source>
-        <translation type="unfinished"></translation>
+        <translation>Індивідуальні шрифти</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="45"/>
         <location filename="../../fontDialog.ui" line="55"/>
         <source>Font:</source>
-        <translation type="unfinished"></translation>
+        <translation>Шрифт:</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="69"/>
         <source>Size:</source>
-        <translation type="unfinished"></translation>
+        <translation>Розмір:</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="89"/>
         <source>Weight:</source>
-        <translation type="unfinished"></translation>
+        <translation>Насиченість:</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="103"/>
         <source>Normal</source>
-        <translation type="unfinished"></translation>
+        <translation>Нормальний</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="108"/>
         <source>Medium</source>
-        <translation type="unfinished"></translation>
+        <translation>Напівжирний</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="113"/>
         <source>Bold</source>
-        <translation type="unfinished"></translation>
+        <translation>Жирний</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="118"/>
         <source>Black</source>
-        <translation type="unfinished"></translation>
+        <translation>Наджирний</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="126"/>
         <source>Italic</source>
-        <translation type="unfinished"></translation>
+        <translation>Курсив</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="149"/>
         <source>Preview</source>
-        <translation type="unfinished"></translation>
+        <translation>Перегляд</translation>
     </message>
 </context>
 <context>
@@ -1347,7 +1351,7 @@
     <message>
         <location filename="../../lineedit.cpp" line="34"/>
         <source>Clear text (Ctrl+K)</source>
-        <translation type="unfinished"></translation>
+        <translation>Очистити текст (Ctrl+K)</translation>
     </message>
 </context>
 <context>
@@ -1355,22 +1359,22 @@
     <message>
         <location filename="../../prefDialog.ui" line="14"/>
         <source>Preferences</source>
-        <translation type="unfinished"></translation>
+        <translation>Налаштування</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="30"/>
         <source>Window</source>
-        <translation type="unfinished"></translation>
+        <translation>Вікно</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="69"/>
         <source>Window Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Оформлення вікна</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="75"/>
         <source>Remember window &amp;size on closing</source>
-        <translation type="unfinished"></translation>
+        <translation>Пам&apos;ятати розмір вікна при закритті</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="84"/>
@@ -1378,23 +1382,23 @@
         <location filename="../../prefDialog.ui" line="107"/>
         <location filename="../../prefDialog.ui" line="120"/>
         <source>Window frame is excluded.</source>
-        <translation type="unfinished"></translation>
+        <translation>Рамка вікна вимкнена.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="87"/>
         <source>Start with this size: </source>
-        <translation type="unfinished"></translation>
+        <translation>Розпочинати з розміром: </translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="100"/>
         <location filename="../../prefDialog.ui" line="123"/>
         <source> px</source>
-        <translation type="unfinished"></translation>
+        <translation> px</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="110"/>
         <source>×</source>
-        <translation type="unfinished"></translation>
+        <translation>×</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="148"/>
@@ -1405,7 +1409,7 @@ and may not work with some window managers.</source>
     <message>
         <location filename="../../prefDialog.ui" line="152"/>
         <source>Remember window &amp;position on closing</source>
-        <translation type="unfinished"></translation>
+        <translation>Пам&apos;ятати розташування вікна при закритті</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="159"/>
@@ -1421,12 +1425,12 @@ but without tab functionality.</source>
     <message>
         <location filename="../../prefDialog.ui" line="191"/>
         <source>Remember splitter position</source>
-        <translation type="unfinished"></translation>
+        <translation>Пам&apos;ятати розташування розділювача</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="200"/>
         <source>Do not show &amp;toolbar</source>
-        <translation type="unfinished"></translation>
+        <translation>Не відображати панель інструментів</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="207"/>
@@ -1437,7 +1441,7 @@ a menu button appears on the toolbar.</source>
     <message>
         <location filename="../../prefDialog.ui" line="211"/>
         <source>Do not show &amp;menubar</source>
-        <translation type="unfinished"></translation>
+        <translation>Не відображати панель меню</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="218"/>
@@ -1453,7 +1457,7 @@ and may interfere with customized shortcuts.</source>
     <message>
         <location filename="../../prefDialog.ui" line="229"/>
         <source>Hide search &amp;bar by default</source>
-        <translation type="unfinished"></translation>
+        <translation>Приховати панель пошуку за замовчанням</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="236"/>
@@ -1464,28 +1468,28 @@ has a separate search history.</source>
     <message>
         <location filename="../../prefDialog.ui" line="240"/>
         <source>Use a shared search history</source>
-        <translation type="unfinished"></translation>
+        <translation>Використання спільної історії пошуку</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="247"/>
         <source>Always show st&amp;atus bar</source>
-        <translation type="unfinished"></translation>
+        <translation>Завжди відображати панель статусу</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="272"/>
         <source>Show cursor position on status bar</source>
-        <translation type="unfinished"></translation>
+        <translation>Відображати позицію курсору у панелі статусу</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="283"/>
         <location filename="../../prefDialog.ui" line="293"/>
         <source>Will take effect after closing this dialog.</source>
-        <translation type="unfinished"></translation>
+        <translation>Зміни наберуть чинності після закриття діалогу.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="286"/>
         <source>Tab position: </source>
-        <translation type="unfinished"></translation>
+        <translation>Розташування вкладки: </translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="297"/>
@@ -1523,7 +1527,7 @@ Tab navigation with mouse wheel is not affected.</source>
     <message>
         <location filename="../../prefDialog.ui" line="364"/>
         <source>Close window on closing its last tab</source>
-        <translation type="unfinished"></translation>
+        <translation>Закрити вікно при закритті останньої вкладки</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="371"/>
@@ -1741,7 +1745,7 @@ and-drop either.</source>
     <message>
         <location filename="../../prefDialog.ui" line="357"/>
         <source>&amp;Do not show a single tab</source>
-        <translation type="unfinished"></translation>
+        <translation>Не показувати єдину вкладку</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="422"/>
@@ -1756,7 +1760,7 @@ and-drop either.</source>
     <message>
         <location filename="../../prefDialog.ui" line="477"/>
         <source>&amp;Wrap lines by default</source>
-        <translation type="unfinished"></translation>
+        <translation>Перенесення рядків за замовченням</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="484"/>
@@ -1821,7 +1825,7 @@ Needs window reopening to take effect.</source>
     <message>
         <location filename="../../prefDialog.ui" line="1103"/>
         <source>Run executable scripts</source>
-        <translation type="unfinished"></translation>
+        <translation>Запустити виконуваний скрипт</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="977"/>
@@ -1831,7 +1835,11 @@ opened files FeatherPad shows. The default
 is 10.
 
 Needs application restart to take effect.</source>
-        <translation type="unfinished"></translation>
+        <translation>Максимальна кількість нещодавно змінених або
+відкритих файлів, які показує FeatherPad. 
+За замовчуванням 10.
+
+Потрібен перезапуск програми для набрання чинності.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="767"/>
@@ -1847,7 +1855,7 @@ MMM dd, yyyy, hh:mm:ss</source>
     <message>
         <location filename="../../prefDialog.ui" line="804"/>
         <source>Text tab size:</source>
-        <translation type="unfinished"></translation>
+        <translation>Розмір текстової табуляції:</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="811"/>
@@ -2223,13 +2231,13 @@ in the editing mode.</source>
         <location filename="../../sessionDialog.ui" line="98"/>
         <location filename="../../sessionDialog.ui" line="108"/>
         <source>Del</source>
-        <translation type="unfinished"></translation>
+        <translation>Del</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="115"/>
         <location filename="../../sessionDialog.ui" line="125"/>
         <source>Ctrl+Del</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Del</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="159"/>
@@ -2271,62 +2279,62 @@ windows will be included in the saved session.</source>
     <message>
         <location filename="../../sessionDialog.ui" line="260"/>
         <source>&amp;Close</source>
-        <translation type="unfinished"></translation>
+        <translation>Закрити</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="135"/>
         <source>Save the current session under the given title.</source>
-        <translation type="unfinished"></translation>
+        <translation>Зберегти поточну сесію з цією назвою.</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="138"/>
         <source>&amp;Save</source>
-        <translation type="unfinished"></translation>
+        <translation>Зберегти</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="149"/>
         <source>Type a name to save session</source>
-        <translation type="unfinished"></translation>
+        <translation>Введіть назву для збереження сесії</translation>
     </message>
     <message>
         <location filename="../../session.cpp" line="179"/>
         <source>Nothing saved.&lt;br&gt;No file was opened.</source>
-        <translation type="unfinished"></translation>
+        <translation>Сесія не збережена.&lt;br&gt;Жодного файлу не відкрито.</translation>
     </message>
     <message>
         <location filename="../../session.cpp" line="277"/>
         <source>No file exists or can be opened.</source>
-        <translation type="unfinished"></translation>
+        <translation>Файл не існує або його не можна відкрити.</translation>
     </message>
     <message>
         <location filename="../../session.cpp" line="279"/>
         <source>Not all files exist or can be opened.</source>
-        <translation type="unfinished"></translation>
+        <translation>Не всі файл існують або їх не можна відкрити.</translation>
     </message>
     <message>
         <location filename="../../session.cpp" line="314"/>
         <source>&amp;OK</source>
-        <translation type="unfinished"></translation>
+        <translation>Гаразд</translation>
     </message>
     <message>
         <location filename="../../session.cpp" line="333"/>
         <source>Do you really want to remove all saved sessions?</source>
-        <translation type="unfinished"></translation>
+        <translation>Ви справді бажаєте видалити всі збережені сесії?</translation>
     </message>
     <message>
         <location filename="../../session.cpp" line="339"/>
         <source>Do you really want to remove the selected sessions?</source>
-        <translation type="unfinished"></translation>
+        <translation>Ви справді бажаєте видалити обрану сесію?</translation>
     </message>
     <message>
         <location filename="../../session.cpp" line="341"/>
         <source>Do you really want to remove the selected session?</source>
-        <translation type="unfinished"></translation>
+        <translation>Ви справді бажаєте видалити всі обрані сесії?</translation>
     </message>
     <message>
         <location filename="../../session.cpp" line="346"/>
         <source>A session with the same name exists.&lt;br&gt;Do you want to overwrite it?</source>
-        <translation type="unfinished"></translation>
+        <translation>Сесія з цим ім&apos;ям вже існує.&lt;br&gt;Бажаєте замінити?</translation>
     </message>
 </context>
 <context>
@@ -2334,7 +2342,7 @@ windows will be included in the saved session.</source>
     <message>
         <location filename="../../sidepane.cpp" line="196"/>
         <source>Filter...</source>
-        <translation type="unfinished"></translation>
+        <translation>Фільтр...</translation>
     </message>
 </context>
 <context>
@@ -2342,37 +2350,37 @@ windows will be included in the saved session.</source>
     <message>
         <location filename="../../spellDialog.ui" line="25"/>
         <source>Unknown word:</source>
-        <translation type="unfinished"></translation>
+        <translation>Невідоме слово:</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="51"/>
         <source>Add To Dictionary</source>
-        <translation type="unfinished"></translation>
+        <translation>Додати до словника</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="62"/>
         <source>Replace with:</source>
-        <translation type="unfinished"></translation>
+        <translation>Замінити на:</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="129"/>
         <source>Correct Once</source>
-        <translation type="unfinished"></translation>
+        <translation>Виправити</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="142"/>
         <source>Correct All</source>
-        <translation type="unfinished"></translation>
+        <translation>Виправити всі</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="87"/>
         <source>Ignore Once</source>
-        <translation type="unfinished"></translation>
+        <translation>Пропустити</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="100"/>
         <source>Ignore All</source>
-        <translation type="unfinished"></translation>
+        <translation>Пропустити всі</translation>
     </message>
 </context>
 <context>
