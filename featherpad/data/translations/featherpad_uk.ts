@@ -1297,7 +1297,7 @@
     <message>
         <location filename="../../fontDialog.ui" line="38"/>
         <source>Programming Fonts</source>
-        <translation>Шрифти для програмування</translation>
+        <translation>Програмування шрифтів</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="45"/>
