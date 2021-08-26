@@ -1574,7 +1574,7 @@ Some desktop environments, like KDE and LXQt, provide files dialogs.</source>
     <message>
         <location filename="../../prefDialog.ui" line="467"/>
         <source>Uncheck for Monospace.</source>
-        <translation>Зняти для Monospace.</translation>
+        <translation>Прибрати позначку, щоб застосувати Monospace.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="470"/>
