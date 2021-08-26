@@ -1451,7 +1451,7 @@ a menu button appears on the toolbar.</source>
         <source>Menubar accelerators are activated by Alt
 and may interfere with customized shortcuts.</source>
         <translation>Прискорювачі панелі меню активуються клавішею
-Alt і можуть перекривати налаштовані ярлики.</translation>
+Alt і можуть перекривати налаштовані комбінації клавіш.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="222"/>
@@ -1574,12 +1574,12 @@ Some desktop environments, like KDE and LXQt, provide files dialogs.</source>
     <message>
         <location filename="../../prefDialog.ui" line="467"/>
         <source>Uncheck for Monospace.</source>
-        <translation type="unfinished"></translation>
+        <translation>Зняти для Monospace.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="470"/>
         <source>Remember &amp;font</source>
-        <translation type="unfinished"></translation>
+        <translation>Пам&apos;ятати шрифт</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="491"/>
@@ -1589,7 +1589,7 @@ Some desktop environments, like KDE and LXQt, provide files dialogs.</source>
     <message>
         <location filename="../../prefDialog.ui" line="494"/>
         <source>Auto-&amp;bracket</source>
-        <translation type="unfinished"></translation>
+        <translation>Авто-дужки</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="501"/>
@@ -1612,34 +1612,36 @@ of the selected text.</source>
     <message>
         <location filename="../../prefDialog.ui" line="524"/>
         <source>Selection highlighting</source>
-        <translation type="unfinished"></translation>
+        <translation>Підсвічування вибору</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="587"/>
         <source>Never highlight syntax for files &gt; </source>
-        <translation type="unfinished"></translation>
+        <translation>Не підсвічувати синтаксис для файлів &gt; </translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="556"/>
         <source>This creates a menu button on the
 status bar for changing the syntax.</source>
-        <translation type="unfinished"></translation>
+        <translation>Цим створюється кнопка меню
+у панелі стану для зміни синтаксису.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="560"/>
         <source>Support syntax override</source>
-        <translation type="unfinished"></translation>
+        <translation>Підтримка синтаксичних замін</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="625"/>
         <source>Show spaces, tabs and tab lines
 when the syntax is highlighted.</source>
-        <translation type="unfinished"></translation>
+        <translation>Показувати пробіли, табуляцію та перенесення рядків
+коли діє підсвічування синтаксису.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="629"/>
         <source>Show whitespaces</source>
-        <translation type="unfinished"></translation>
+        <translation>Показувати пробіли</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="645"/>
@@ -1661,7 +1663,7 @@ the editor font has a fixed pitch (like Monospace).</source>
     <message>
         <location filename="../../prefDialog.ui" line="775"/>
         <source>Date and time format:</source>
-        <translation type="unfinished"></translation>
+        <translation>Формат дати й часу:</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="845"/>
@@ -1682,22 +1684,22 @@ whose last line is not empty.</source>
     <message>
         <location filename="../../prefDialog.ui" line="874"/>
         <source>Inertial scrolling with mouse wheel</source>
-        <translation type="unfinished"></translation>
+        <translation>Плавна прокрутка колесом миші</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="963"/>
         <source>Files</source>
-        <translation type="unfinished"></translation>
+        <translation>Файли</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="969"/>
         <source>File Management</source>
-        <translation type="unfinished"></translation>
+        <translation>Управління файлами</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1086"/>
         <source>Start with files of last window</source>
-        <translation type="unfinished"></translation>
+        <translation>Починати з файлами з останнього вікна</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1128"/>
@@ -1717,37 +1719,37 @@ will be shown by a popup dialog.</source>
     <message>
         <location filename="../../prefDialog.ui" line="1140"/>
         <source>Start with this command: </source>
-        <translation type="unfinished"></translation>
+        <translation>Починати з команди: </translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1159"/>
         <source>Command + Arguments</source>
-        <translation type="unfinished"></translation>
+        <translation>Команда та аргументи</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1044"/>
         <source>Show recentl&amp;y modified files</source>
-        <translation type="unfinished"></translation>
+        <translation>Показувати останні змінені файли</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1074"/>
         <source>Show recentl&amp;y opened files</source>
-        <translation type="unfinished"></translation>
+        <translation>Показати отанні відкриті файли</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1173"/>
         <source>Save changes to opened files every:</source>
-        <translation type="unfinished"></translation>
+        <translation>Зберігати зміни у відкритих файлах кожні:</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1439"/>
         <source>Help</source>
-        <translation type="unfinished"></translation>
+        <translation>Допомога</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="163"/>
         <source>Start with side-pane mode</source>
-        <translation type="unfinished"></translation>
+        <translation>Починати з боковою панеллю</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="351"/>
@@ -1765,12 +1767,12 @@ and-drop either.</source>
     <message>
         <location filename="../../prefDialog.ui" line="422"/>
         <source>Text</source>
-        <translation type="unfinished"></translation>
+        <translation>Текст</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="461"/>
         <source>Text Editor</source>
-        <translation type="unfinished"></translation>
+        <translation>Текстовий редактор</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="477"/>
@@ -1780,17 +1782,17 @@ and-drop either.</source>
     <message>
         <location filename="../../prefDialog.ui" line="484"/>
         <source>Auto-&amp;indent by default</source>
-        <translation type="unfinished"></translation>
+        <translation>Автовідступ за замовчуванням</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="513"/>
         <source>Always show line &amp;numbers</source>
-        <translation type="unfinished"></translation>
+        <translation>Завжди показувати нумерацію рядків</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="531"/>
         <source>Highlight s&amp;yntax by default</source>
-        <translation type="unfinished"></translation>
+        <translation>Підсвічування синтаксису за замовчуванням</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="691"/>
@@ -1800,7 +1802,7 @@ and-drop either.</source>
     <message>
         <location filename="../../prefDialog.ui" line="726"/>
         <source>Background color value: </source>
-        <translation type="unfinished"></translation>
+        <translation>Колір тла: </translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="594"/>
@@ -1822,7 +1824,7 @@ process could be killed by Ctrl+Alt+E.</source>
     <message>
         <location filename="../../prefDialog.ui" line="688"/>
         <source>Needs window reopening to take effect.</source>
-        <translation type="unfinished"></translation>
+        <translation>Для застосування змін необхідно перезапустити вікно.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="716"/>
@@ -1875,23 +1877,24 @@ MMM dd, yyyy, hh:mm:ss</source>
     <message>
         <location filename="../../prefDialog.ui" line="811"/>
         <source> spaces</source>
-        <translation type="unfinished"></translation>
+        <translation> пробіли</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="863"/>
         <source>Thick text cursor</source>
-        <translation type="unfinished"></translation>
+        <translation>Товстий курсор</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="870"/>
         <source>Should the mouse wheel scrolling be inertial
 if the cursor is inside the text view?</source>
-        <translation type="unfinished"></translation>
+        <translation>Чи має бути плавною прокрутка колесом миші
+коли курсор знаходиться всередині текстового подання?</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="881"/>
         <source>Spell Checking</source>
-        <translation type="unfinished"></translation>
+        <translation>Перевірка правопису</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="889"/>
@@ -1910,23 +1913,24 @@ name but ending with &quot;.aff&quot;.</source>
         <location filename="../../prefDialog.ui" line="913"/>
         <location filename="../../pref.cpp" line="1648"/>
         <source>Add dictionary...</source>
-        <translation type="unfinished"></translation>
+        <translation>Додати словник...</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="925"/>
         <source>If this is unchecked, spell checking
 will be started from the document start.</source>
-        <translation type="unfinished"></translation>
+        <translation>Коли не вибрано, перевірку правопису
+буде розпочато від початку документу.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="929"/>
         <source>Start spell checking from text cursor</source>
-        <translation type="unfinished"></translation>
+        <translation>Почати перевірку правопису від курсора</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="984"/>
         <source>Number of recent files: </source>
-        <translation type="unfinished"></translation>
+        <translation>Кількість нещодавніх файлів: </translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1083"/>
@@ -1937,7 +1941,7 @@ will be started from the document start.</source>
         <location filename="../../prefDialog.ui" line="1170"/>
         <location filename="../../prefDialog.ui" line="1180"/>
         <source>Only for files that exist and can be saved.</source>
-        <translation type="unfinished"></translation>
+        <translation>Тільки для файлів, які існують та можуть бути збережені.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1183"/>
@@ -1957,17 +1961,17 @@ trailing spaces of a text file.</source>
     <message>
         <location filename="../../prefDialog.ui" line="1222"/>
         <source>Allow saving unmodified files</source>
-        <translation type="unfinished"></translation>
+        <translation>Дозволити збереження незмінених файлів</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1229"/>
         <source>Show a warning instead.</source>
-        <translation type="unfinished"></translation>
+        <translation>Натомість показувати попередження.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1232"/>
         <source>Do not permit opening of non-text files</source>
-        <translation type="unfinished"></translation>
+        <translation>Не дозволено відкривати нетекстові файли</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1239"/>
@@ -1983,70 +1987,70 @@ be opened if they are pasted into FeatherPad.</source>
     <message>
         <location filename="../../prefDialog.ui" line="1270"/>
         <source>Shortcuts</source>
-        <translation type="unfinished"></translation>
+        <translation>Комбінації клавіш</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1289"/>
         <source>Action</source>
-        <translation type="unfinished"></translation>
+        <translation>Дія</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1294"/>
         <source>Shortcut</source>
-        <translation type="unfinished"></translation>
+        <translation>Комбінація клавіш</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1302"/>
         <source>Restore default shortcuts.</source>
-        <translation type="unfinished"></translation>
+        <translation>Відновити стандартні комбінації клавіш.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1305"/>
         <location filename="../../prefDialog.ui" line="1393"/>
         <location filename="../../prefDialog.ui" line="1418"/>
         <source>Default</source>
-        <translation type="unfinished"></translation>
+        <translation>Стандартні комбінації</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1316"/>
         <source>Syntax Colors</source>
-        <translation type="unfinished"></translation>
+        <translation>Кольори синтаксису</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1332"/>
         <source>Element</source>
-        <translation type="unfinished"></translation>
+        <translation>Елемент</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1337"/>
         <source>Text Color</source>
-        <translation type="unfinished"></translation>
+        <translation>Колір тексту</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1350"/>
         <source>Whitespace color value:</source>
-        <translation type="unfinished"></translation>
+        <translation>Колір пробілу:</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1380"/>
         <location filename="../../prefDialog.ui" line="1390"/>
         <source>Has effect only if line numbers are shown.</source>
-        <translation type="unfinished"></translation>
+        <translation>Діє лише за умови показу номерів рядків.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1383"/>
         <source>Current line highlight value:</source>
-        <translation type="unfinished"></translation>
+        <translation>Колір підсвічування поточного рядка:</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1415"/>
         <source>Restore default syntax colors.</source>
-        <translation type="unfinished"></translation>
+        <translation>Відновити стандартні кольори.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1450"/>
         <source>Close</source>
-        <translation type="unfinished"></translation>
+        <translation>Закрити</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="104"/>
@@ -2057,45 +2061,45 @@ in the editing mode.</source>
     <message>
         <location filename="../../pref.cpp" line="110"/>
         <source>Double click a color to change it.</source>
-        <translation type="unfinished"></translation>
+        <translation>Двічі клацніть колір, щоб змінити його.</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="306"/>
         <location filename="../../pref.cpp" line="1344"/>
         <source>files</source>
-        <translation type="unfinished"></translation>
+        <translation>файли</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="306"/>
         <location filename="../../pref.cpp" line="1344"/>
         <source>file</source>
-        <translation type="unfinished"></translation>
+        <translation>файл</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="359"/>
         <location filename="../../pref.cpp" line="1463"/>
         <source>Warning: Ambiguous shortcut detected!</source>
-        <translation type="unfinished"></translation>
+        <translation>Попередження: виявлено подвійну комбінацію клавіш!</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="392"/>
         <source>Functions, URLs,…</source>
-        <translation type="unfinished"></translation>
+        <translation>Функції, URL-адреси,…</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="393"/>
         <source>Built-in Functions</source>
-        <translation type="unfinished"></translation>
+        <translation>Вбудовані функції</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="394"/>
         <source>Comments</source>
-        <translation type="unfinished"></translation>
+        <translation>Коментарі</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="395"/>
         <source>Quotations</source>
-        <translation type="unfinished"></translation>
+        <translation>Цитати</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="396"/>
@@ -2105,27 +2109,27 @@ in the editing mode.</source>
     <message>
         <location filename="../../pref.cpp" line="397"/>
         <source>Key Words</source>
-        <translation type="unfinished"></translation>
+        <translation>Ключові слова</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="398"/>
         <source>Numbers</source>
-        <translation type="unfinished"></translation>
+        <translation>Цифри</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="399"/>
         <source>Regular Expressions, Code Blocks,…</source>
-        <translation type="unfinished"></translation>
+        <translation>Регулярні вирази, кодові блоки,…</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="400"/>
         <source>Document Blocks, XML/HTML Elements,…</source>
-        <translation type="unfinished"></translation>
+        <translation>Блоки документів, XML/HTML елементи,…</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="401"/>
         <source>Markdown Headings, CSS Values,…</source>
-        <translation type="unfinished"></translation>
+        <translation>Промарковані заголовки, CSS Values,…</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="402"/>
@@ -2155,7 +2159,7 @@ in the editing mode.</source>
     <message>
         <location filename="../../pref.cpp" line="1446"/>
         <source>The typed shortcut was reserved.</source>
-        <translation type="unfinished"></translation>
+        <translation>Набрану комбінацію клавіш зарезервовано.</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="1650"/>
