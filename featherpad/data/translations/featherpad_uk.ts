@@ -1297,7 +1297,7 @@
     <message>
         <location filename="../../fontDialog.ui" line="38"/>
         <source>Programming Fonts</source>
-        <translation>Програмування шрифтів</translation>
+        <translation>Власні шрифти</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="45"/>
@@ -1814,7 +1814,7 @@ and-drop either.</source>
     <message>
         <location filename="../../prefDialog.ui" line="691"/>
         <source>Dark c&amp;olor scheme</source>
-        <translation type="unfinished"></translation>
+        <translation>Темно-кольоровий план</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="726"/>
@@ -1824,7 +1824,7 @@ and-drop either.</source>
     <message>
         <location filename="../../prefDialog.ui" line="594"/>
         <source> MiB</source>
-        <translation type="unfinished"></translation>
+        <translation> МіБ</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1093"/>
@@ -1841,7 +1841,7 @@ process could be killed by Ctrl+Alt+E.</source>
     <message>
         <location filename="../../prefDialog.ui" line="688"/>
         <source>Needs window reopening to take effect.</source>
-        <translation>Для застосування змін необхідно перезапустити вікно.</translation>
+        <translation>Для набрання чинності обов&apos;язковий перезапуск вікна.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="716"/>
@@ -1854,7 +1854,14 @@ between 230 and 255; for the dark
 background, between 0 and 50.
 
 Needs window reopening to take effect.</source>
-        <translation type="unfinished"></translation>
+        <translation>Числове значення кольору тла.
+255 означає білий, 0 - чорний.
+
+Для світлого тла може приймати
+значення між 230 та 255
+для темного тла - між 0 та 50. 
+
+Для набрання чинності обов&apos;язковий перезапуск вікна.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1103"/>
@@ -1873,7 +1880,7 @@ Needs application restart to take effect.</source>
 відкритих файлів, які показує FeatherPad. 
 За замовчуванням 10.
 
-Потрібен перезапуск програми для набрання чинності.</translation>
+Для набрання чинності обовязковий перезапуск програми.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="767"/>
@@ -1884,7 +1891,12 @@ Takes effect after closing this dialog.
 
 Leave empty for:
 MMM dd, yyyy, hh:mm:ss</source>
-        <translation type="unfinished"></translation>
+        <translation>Використовується для вставлення дати та часу.
+
+Набирає чинності після закриття діалогового вікна.
+
+Залиште пустим для формату:
+груд. 31, 1999, 23:59:59</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="804"/>
@@ -1919,12 +1931,14 @@ if the cursor is inside the text view?</source>
         <source>A Hunspell dictionary has a name that ends with &quot;.dic&quot;
 and should be alongside an affix file with the same
 name but ending with &quot;.aff&quot;.</source>
-        <translation type="unfinished"></translation>
+        <translation>Словник Hunspell має ім&apos;я файла із розширенням
+&quot;.dic&quot; та має бути поряд з файлом-афіксом з тим
+самим ім&apos;ям, але має розширення &quot;.aff&quot;.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="894"/>
         <source>Hunspell dictionary path:</source>
-        <translation type="unfinished"></translation>
+        <translation>Шлях до словника Hunspell:</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="913"/>
@@ -1952,7 +1966,7 @@ will be started from the document start.</source>
     <message>
         <location filename="../../prefDialog.ui" line="1083"/>
         <source>Only if their number is not greater than 50.</source>
-        <translation type="unfinished"></translation>
+        <translation>Тільки якщо їх кількість не перевищує 50.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1170"/>
@@ -2151,17 +2165,17 @@ in the editing mode.</source>
     <message>
         <location filename="../../pref.cpp" line="402"/>
         <source>Extra Elements</source>
-        <translation type="unfinished"></translation>
+        <translation>Додаткові елементи</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="563"/>
         <source>Application restart is needed for changes to take effect.</source>
-        <translation type="unfinished"></translation>
+        <translation>Для набрання чинності потрібен перезапуск програми.</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="582"/>
         <source>Window reopening is needed for changes to take effect.</source>
-        <translation type="unfinished"></translation>
+        <translation>Для набрання чинності потрібен перезапуск вікна.</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="1370"/>
@@ -2234,34 +2248,34 @@ in the editing mode.</source>
     <message>
         <location filename="../../sessionDialog.ui" line="14"/>
         <source>Session Manager</source>
-        <translation type="unfinished"></translation>
+        <translation>Менеджер сеансів</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="101"/>
         <location filename="../../sessionDialog.ui" line="270"/>
         <source>&amp;Remove</source>
-        <translation type="unfinished"></translation>
+        <translation>Видалити</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="33"/>
         <source>&lt;b&gt;Save/Restore Session&lt;/b&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;Зберегти/відновити сеанс&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="56"/>
         <source>Filter...</source>
-        <translation type="unfinished"></translation>
+        <translation>Фільтр...</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="69"/>
         <source>Open the selected session(s).</source>
-        <translation type="unfinished"></translation>
+        <translation>Відкрити вибраний сеанс(и).</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="72"/>
         <location filename="../../sessionDialog.ui" line="275"/>
         <source>&amp;Open</source>
-        <translation type="unfinished"></translation>
+        <translation>Відкрити</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="98"/>
@@ -2289,28 +2303,28 @@ windows will be included in the saved session.</source>
     <message>
         <location filename="../../sessionDialog.ui" line="180"/>
         <source>&lt;b&gt;Warning&lt;/b&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;Попередження&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="226"/>
         <location filename="../../session.cpp" line="328"/>
         <source>&amp;Yes</source>
-        <translation type="unfinished"></translation>
+        <translation>Так</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="233"/>
         <source>&amp;No</source>
-        <translation type="unfinished"></translation>
+        <translation>Ні</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="283"/>
         <source>Re&amp;name</source>
-        <translation type="unfinished"></translation>
+        <translation>Перейменувати</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="118"/>
         <source>Remove &amp;All</source>
-        <translation type="unfinished"></translation>
+        <translation>Видалити все</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="260"/>
