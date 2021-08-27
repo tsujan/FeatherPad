@@ -333,7 +333,7 @@
     <message>
         <location filename="../../fp.ui" line="716"/>
         <source>&amp;Auto-Indentation</source>
-        <translation>&amp;Автовідступи</translation>
+        <translation>&amp;Автоабзацування</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="719"/>
@@ -1579,35 +1579,38 @@ Some desktop environments, like KDE and LXQt, provide files dialogs.</source>
     <message>
         <location filename="../../prefDialog.ui" line="470"/>
         <source>Remember &amp;font</source>
-        <translation>Пам&apos;ятати шрифт</translation>
+        <translation>Запам&apos;ятати шр&amp;ифт</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="491"/>
         <source>This covers parentheses, braces, brackets and quotes.</source>
-        <translation type="unfinished"></translation>
+        <translation>Це охоплює круглі, фігурні й квадратні дужки та лапки.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="494"/>
         <source>Auto-&amp;bracket</source>
-        <translation>Авто-дужки</translation>
+        <translation>Авт&amp;одужки</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="501"/>
         <source>By default, a triple period is replaced with an ellipsis
 and a double hyphen with a long dash while typing,
 under proper circumstances.</source>
-        <translation type="unfinished"></translation>
+        <translation>Усталено трикрапка замінюється на еліпсис,
+а подвійний дефіс на довге тире під час введення тексту,
+за належних обставин.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="506"/>
         <source>Replace triple periods and double hyphens while typing</source>
-        <translation type="unfinished"></translation>
+        <translation>Замінювати трикрапки та подвійні дефіси під час введення тексту</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="520"/>
         <source>Highlight case-sensitive and whole matches
 of the selected text.</source>
-        <translation type="unfinished"></translation>
+        <translation>Виділяти чутливі до регістру і точні
+збіги вибраного тексту.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="524"/>
@@ -1624,19 +1627,19 @@ of the selected text.</source>
         <source>This creates a menu button on the
 status bar for changing the syntax.</source>
         <translation>Цим створюється кнопка меню
-у панелі стану для зміни синтаксису.</translation>
+на панелі стану для зміни синтаксису.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="560"/>
         <source>Support syntax override</source>
-        <translation>Підтримка синтаксичних замін</translation>
+        <translation>Підтримка заміни синтаксису</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="625"/>
         <source>Show spaces, tabs and tab lines
 when the syntax is highlighted.</source>
-        <translation>Показувати пробіли, табуляцію та перенесення рядків
-коли діє підсвічування синтаксису.</translation>
+        <translation>Показувати пробіли, табуляцію та перенесення
+рядків, якщо увімкнено підсвічування синтаксису.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="629"/>
@@ -1648,17 +1651,18 @@ when the syntax is highlighted.</source>
         <location filename="../../prefDialog.ui" line="656"/>
         <source>The vertical position lines will be drawn only if
 the editor font has a fixed pitch (like Monospace).</source>
-        <translation type="unfinished"></translation>
+        <translation>Вертикальні лінії позиціювання будуть проведені лише якщо
+шрифт редактора має фіксовану висоту (як-от Monospace).</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="649"/>
         <source>Show vertical lines starting from this position:</source>
-        <translation type="unfinished"></translation>
+        <translation>Показувати вертикальні лінії, починаючи з цієї позиції:</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="636"/>
         <source>Also show line and document ends</source>
-        <translation type="unfinished"></translation>
+        <translation>Також показувати лінії закінчення рядків і документів</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="775"/>
@@ -1669,22 +1673,23 @@ the editor font has a fixed pitch (like Monospace).</source>
         <location filename="../../prefDialog.ui" line="845"/>
         <source>Some text editors cannot open a document
 whose last line is not empty.</source>
-        <translation type="unfinished"></translation>
+        <translation>Деякі текстові редактори не можуть відкрити
+документ останній рядок якого не порожній.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="849"/>
         <source>Ensure an empty last line on saving</source>
-        <translation type="unfinished"></translation>
+        <translation>Перевіряти чи не порожній останній рядок під час збереження</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="856"/>
         <source>Remove trailing spaces on saving</source>
-        <translation type="unfinished"></translation>
+        <translation>Вилучати кінцеві пробіли під час збереження</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="874"/>
         <source>Inertial scrolling with mouse wheel</source>
-        <translation>Плавна прокрутка колесом миші</translation>
+        <translation>Плавне прокручування колесом миші</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="963"/>
@@ -1694,7 +1699,7 @@ whose last line is not empty.</source>
     <message>
         <location filename="../../prefDialog.ui" line="969"/>
         <source>File Management</source>
-        <translation>Управління файлами</translation>
+        <translation>Керування файлами</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1086"/>
@@ -1714,7 +1719,16 @@ will be executed directly.
 If the script is not run in a terminal
 emulator, the output and error messages
 will be shown by a popup dialog.</source>
-        <translation type="unfinished"></translation>
+        <translation>Це може бути будь-яка команда запуску
+з аргументами, наприклад, «xterm-hold»
+для запуску процесу в XTerm.
+
+Якщо команда залишається порожньою,
+файл буде запущено безпосередньо.
+
+Якщо скрипт не запускається емуляторі
+терміналу, вихідні та повідомлення про
+помилки буде показано у спливному вікні.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1140"/>
@@ -1734,7 +1748,7 @@ will be shown by a popup dialog.</source>
     <message>
         <location filename="../../prefDialog.ui" line="1074"/>
         <source>Show recentl&amp;y opened files</source>
-        <translation>Показати отанні відкриті файли</translation>
+        <translation>Показати останн&amp;і відкриті файли</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1173"/>
@@ -1757,12 +1771,15 @@ will be shown by a popup dialog.</source>
 tooltip and context menu of a single tab but you could not
 merge a single tabbed window into another one by tab drag-
 and-drop either.</source>
-        <translation type="unfinished"></translation>
+        <translation>Якщо цю опцію вибрано, ви не лише втратите інформативні
+підказки та контекстне меню однієї вкладки, але й не зможете
+об’єднати одне вікно з вкладками з іншим перетягуванням
+вкладки.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="357"/>
         <source>&amp;Do not show a single tab</source>
-        <translation>Не показувати єдину вкладку</translation>
+        <translation>&amp;Не показувати єдину вкладку</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="422"/>
@@ -1777,22 +1794,22 @@ and-drop either.</source>
     <message>
         <location filename="../../prefDialog.ui" line="477"/>
         <source>&amp;Wrap lines by default</source>
-        <translation>Перенесення рядків за замовченням</translation>
+        <translation>&amp;Перенесення рядків за замовчуванням</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="484"/>
         <source>Auto-&amp;indent by default</source>
-        <translation>Автовідступ за замовчуванням</translation>
+        <translation>А&amp;втоабзацування за замовчуванням</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="513"/>
         <source>Always show line &amp;numbers</source>
-        <translation>Завжди показувати нумерацію рядків</translation>
+        <translation>Завжди показувати &amp;нумерацію рядків</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="531"/>
         <source>Highlight s&amp;yntax by default</source>
-        <translation>Підсвічування синтаксису за замовчуванням</translation>
+        <translation>П&amp;ідсвічування синтаксису за замовчуванням</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="691"/>
