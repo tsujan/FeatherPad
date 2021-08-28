@@ -1185,7 +1185,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="5507"/>
         <source>The Hunspell dictionary is not accompanied by an affix file.</source>
-        <translation>Словник Hunspell не супроводжується прикріпленим файлом.</translation>
+        <translation>Словник Hunspell не супроводжується додатковим файлом.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5530"/>
