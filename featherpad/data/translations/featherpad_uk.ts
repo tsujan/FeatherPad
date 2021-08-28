@@ -1814,7 +1814,7 @@ and-drop either.</source>
     <message>
         <location filename="../../prefDialog.ui" line="691"/>
         <source>Dark c&amp;olor scheme</source>
-        <translation>Темно-кольоровий план</translation>
+        <translation>Темна к&amp;олірна схема</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="726"/>
@@ -1836,7 +1836,14 @@ executable, the file will be executed by clicking
 the Run button, that appears on the toolbar/filemenu
 when needed, or by its shortcut Ctrl+E. Then, the
 process could be killed by Ctrl+Alt+E.</source>
-        <translation type="unfinished"></translation>
+        <translation>Це включає лише виконувані файли написані
+скриптовими мовами, як-от Shell і Python.
+
+Якщо позначено і відкритий файл є виконуваним,
+його буде виконано натисканням кнопки «Запустити»,
+яка з&apos;являється на панелі інструментів/меню файлів
+за потреби або за допомогою комбінації клавіш Ctrl+E. Тоді,
+процес можна вбити за допомогою Ctrl+Alt+E.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="688"/>
@@ -1855,11 +1862,11 @@ background, between 0 and 50.
 
 Needs window reopening to take effect.</source>
         <translation>Числове значення кольору тла.
-255 означає білий, 0 - чорний.
+255 означає білий, 0 — чорний.
 
 Для світлого тла може приймати
-значення між 230 та 255
-для темного тла - між 0 та 50. 
+значення між 230 та 255;
+для темного тла — між 0 та 50. 
 
 Для набрання чинності обов&apos;язковий перезапуск вікна.</translation>
     </message>
@@ -1876,11 +1883,11 @@ opened files FeatherPad shows. The default
 is 10.
 
 Needs application restart to take effect.</source>
-        <translation>Максимальна кількість нещодавно змінених або
-відкритих файлів, які показує FeatherPad. 
-За замовчуванням 10.
+        <translation>Найбільша кількість нещодавно змінених
+або відкритих файлів, які показує FeatherPad. 
+Усталено їх 10.
 
-Для набрання чинності обовязковий перезапуск програми.</translation>
+Для набрання чинності обов&apos;язковий перезапуск програми.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="767"/>
@@ -1891,12 +1898,12 @@ Takes effect after closing this dialog.
 
 Leave empty for:
 MMM dd, yyyy, hh:mm:ss</source>
-        <translation>Використовується для вставлення дати та часу.
+        <translation>Використовується для вставлення дати й часу.
 
 Набирає чинності після закриття діалогового вікна.
 
 Залиште пустим для формату:
-груд. 31, 1999, 23:59:59</translation>
+гру 31, 1999, 23:59:59</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="804"/>
@@ -1917,8 +1924,8 @@ MMM dd, yyyy, hh:mm:ss</source>
         <location filename="../../prefDialog.ui" line="870"/>
         <source>Should the mouse wheel scrolling be inertial
 if the cursor is inside the text view?</source>
-        <translation>Чи має бути плавною прокрутка колесом миші
-коли курсор знаходиться всередині текстового подання?</translation>
+        <translation>Чи має бути плавним прокручування колесом миші,
+якщо курсор знаходиться всередині текстового подання?</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="881"/>
@@ -1931,9 +1938,9 @@ if the cursor is inside the text view?</source>
         <source>A Hunspell dictionary has a name that ends with &quot;.dic&quot;
 and should be alongside an affix file with the same
 name but ending with &quot;.aff&quot;.</source>
-        <translation>Словник Hunspell має ім&apos;я файла із розширенням
-&quot;.dic&quot; та має бути поряд з файлом-афіксом з тим
-самим ім&apos;ям, але має розширення &quot;.aff&quot;.</translation>
+        <translation>Словник Hunspell має назву із розширенням
+«.dic» та має бути поряд з файлом-афіксом з тією
+ж назвою, але з розширенням «.aff».</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="894"/>
@@ -1950,7 +1957,7 @@ name but ending with &quot;.aff&quot;.</source>
         <location filename="../../prefDialog.ui" line="925"/>
         <source>If this is unchecked, spell checking
 will be started from the document start.</source>
-        <translation>Коли не вибрано, перевірку правопису
+        <translation>Якщо не вибрано, перевірку правопису
 буде розпочато від початку документу.</translation>
     </message>
     <message>
@@ -1977,7 +1984,7 @@ will be started from the document start.</source>
     <message>
         <location filename="../../prefDialog.ui" line="1183"/>
         <source> min</source>
-        <translation type="unfinished"></translation>
+        <translation> мін</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1214"/>
@@ -1987,7 +1994,12 @@ be used also when the opened file is not modified.
 This can be useful under certain circumstances,
 e.g. for changing the time stamp or removing the
 trailing spaces of a text file.</source>
-        <translation type="unfinished"></translation>
+        <translation>Якщо позначено, кнопка Зберегти/пункт меню також може
+бути використана, якщо відкритий файл не змінюється.
+
+Це може бути корисним за певних обставин,
+наприклад для зміни позначки часу або вилучення
+кінцевих пробілів текстового файлу.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1222"/>
@@ -2002,18 +2014,19 @@ trailing spaces of a text file.</source>
     <message>
         <location filename="../../prefDialog.ui" line="1232"/>
         <source>Do not permit opening of non-text files</source>
-        <translation>Не дозволено відкривати нетекстові файли</translation>
+        <translation>Не дозволяти відкривати нетекстові файли</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1239"/>
         <source>By default, when files are copied, they will
 be opened if they are pasted into FeatherPad.</source>
-        <translation type="unfinished"></translation>
+        <translation>Усталено, під час копіювання файлів, вони будуть
+відкриті, якщо вони вставлені у FeatherPad.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1243"/>
         <source>Paste paths instead of files</source>
-        <translation type="unfinished"></translation>
+        <translation>Вставляння шляхів замість файлів</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1270"/>
@@ -2087,12 +2100,13 @@ be opened if they are pasted into FeatherPad.</source>
         <location filename="../../pref.cpp" line="104"/>
         <source>Press a modifier key to clear a shortcut
 in the editing mode.</source>
-        <translation type="unfinished"></translation>
+        <translation>Натисніть клавішу-модифікатор, щоб очистити
+комбінацію клавіш у режимі редагування.</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="110"/>
         <source>Double click a color to change it.</source>
-        <translation>Двічі клацніть колір, щоб змінити його.</translation>
+        <translation>Двічі клацніть на колір, щоб змінити його.</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="306"/>
@@ -2110,7 +2124,7 @@ in the editing mode.</source>
         <location filename="../../pref.cpp" line="359"/>
         <location filename="../../pref.cpp" line="1463"/>
         <source>Warning: Ambiguous shortcut detected!</source>
-        <translation>Попередження: виявлено подвійну комбінацію клавіш!</translation>
+        <translation>Попередження: виявлено двозначну комбінацію клавіш!</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="392"/>
@@ -2135,7 +2149,7 @@ in the editing mode.</source>
     <message>
         <location filename="../../pref.cpp" line="396"/>
         <source>Types</source>
-        <translation type="unfinished"></translation>
+        <translation>Типи</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="397"/>
@@ -2155,12 +2169,12 @@ in the editing mode.</source>
     <message>
         <location filename="../../pref.cpp" line="400"/>
         <source>Document Blocks, XML/HTML Elements,…</source>
-        <translation>Блоки документів, XML/HTML елементи,…</translation>
+        <translation>Блоки документів, XML/HTML-елементи,…</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="401"/>
         <source>Markdown Headings, CSS Values,…</source>
-        <translation>Промарковані заголовки, CSS Values,…</translation>
+        <translation>Заголовки Markdown, значення CSS,…</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="402"/>
@@ -2180,28 +2194,28 @@ in the editing mode.</source>
     <message>
         <location filename="../../pref.cpp" line="1370"/>
         <source>&amp;Recently Opened</source>
-        <translation type="unfinished"></translation>
+        <translation>Нед&amp;авно відкриті</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="1371"/>
         <source>Recently &amp;Modified</source>
-        <translation type="unfinished"></translation>
+        <translation>Недавно &amp;змінені</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="1446"/>
         <source>The typed shortcut was reserved.</source>
-        <translation>Набрану комбінацію клавіш зарезервовано.</translation>
+        <translation>Введену комбінацію клавіш зарезервовано.</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="1650"/>
         <source>Hunspell Dictionary Files (*.dic)</source>
-        <translation type="unfinished"></translation>
+        <translation>Файли словника Hunspell (*.dic)</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="453"/>
         <location filename="../../pref.cpp" line="1736"/>
         <source>Select Syntax Color</source>
-        <translation type="unfinished"></translation>
+        <translation>Вибрати колір синтаксису</translation>
     </message>
 </context>
 <context>
@@ -2210,37 +2224,37 @@ in the editing mode.</source>
         <location filename="../../searchbar.cpp" line="94"/>
         <location filename="../../searchbar.cpp" line="173"/>
         <source>Search...</source>
-        <translation type="unfinished"></translation>
+        <translation>Шукати...</translation>
     </message>
     <message>
         <location filename="../../searchbar.cpp" line="125"/>
         <source>Match Case</source>
-        <translation type="unfinished"></translation>
+        <translation>Збіг регістру</translation>
     </message>
     <message>
         <location filename="../../searchbar.cpp" line="132"/>
         <source>Whole Word</source>
-        <translation type="unfinished"></translation>
+        <translation>Слово цілком</translation>
     </message>
     <message>
         <location filename="../../searchbar.cpp" line="139"/>
         <source>Regular Expression</source>
-        <translation type="unfinished"></translation>
+        <translation>Регулярний вираз</translation>
     </message>
     <message>
         <location filename="../../searchbar.cpp" line="171"/>
         <source>Search with regex...</source>
-        <translation type="unfinished"></translation>
+        <translation>Пошук за допомогою регулярного виразу...</translation>
     </message>
     <message>
         <location filename="../../searchbar.cpp" line="120"/>
         <source>Next</source>
-        <translation type="unfinished"></translation>
+        <translation>Наступне</translation>
     </message>
     <message>
         <location filename="../../searchbar.cpp" line="121"/>
         <source>Previous</source>
-        <translation type="unfinished"></translation>
+        <translation>Попереднє</translation>
     </message>
 </context>
 <context>
@@ -2254,7 +2268,7 @@ in the editing mode.</source>
         <location filename="../../sessionDialog.ui" line="101"/>
         <location filename="../../sessionDialog.ui" line="270"/>
         <source>&amp;Remove</source>
-        <translation>Видалити</translation>
+        <translation>&amp;Вилучити</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="33"/>
@@ -2275,7 +2289,7 @@ in the editing mode.</source>
         <location filename="../../sessionDialog.ui" line="72"/>
         <location filename="../../sessionDialog.ui" line="275"/>
         <source>&amp;Open</source>
-        <translation>Відкрити</translation>
+        <translation>&amp;Відкрити</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="98"/>
@@ -2293,12 +2307,13 @@ in the editing mode.</source>
         <location filename="../../sessionDialog.ui" line="159"/>
         <source>By default, all files that are opened in all
 windows will be included in the saved session.</source>
-        <translation type="unfinished"></translation>
+        <translation>Усталено усі файли, які відкрито у всіх
+вікнах будуть включені до збереженого сеансу.</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="163"/>
         <source>Save only from this &amp;window</source>
-        <translation type="unfinished"></translation>
+        <translation>Зберегти лише з цього в&amp;ікна</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="180"/>
@@ -2309,47 +2324,47 @@ windows will be included in the saved session.</source>
         <location filename="../../sessionDialog.ui" line="226"/>
         <location filename="../../session.cpp" line="328"/>
         <source>&amp;Yes</source>
-        <translation>Так</translation>
+        <translation>&amp;Так</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="233"/>
         <source>&amp;No</source>
-        <translation>Ні</translation>
+        <translation>&amp;Ні</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="283"/>
         <source>Re&amp;name</source>
-        <translation>Перейменувати</translation>
+        <translation>Пере&amp;йменувати</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="118"/>
         <source>Remove &amp;All</source>
-        <translation>Видалити все</translation>
+        <translation>Видалити в&amp;се</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="260"/>
         <source>&amp;Close</source>
-        <translation>Закрити</translation>
+        <translation>&amp;Закрити</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="135"/>
         <source>Save the current session under the given title.</source>
-        <translation>Зберегти поточну сесію з цією назвою.</translation>
+        <translation>Зберегти поточний сеанс із цією назвою.</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="138"/>
         <source>&amp;Save</source>
-        <translation>Зберегти</translation>
+        <translation>З&amp;берегти</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="149"/>
         <source>Type a name to save session</source>
-        <translation>Введіть назву для збереження сесії</translation>
+        <translation>Уведіть назву для збереження сеансу</translation>
     </message>
     <message>
         <location filename="../../session.cpp" line="179"/>
         <source>Nothing saved.&lt;br&gt;No file was opened.</source>
-        <translation>Сесія не збережена.&lt;br&gt;Жодного файлу не відкрито.</translation>
+        <translation>Сеанс не збережено.&lt;br&gt;Жодного файлу не відкрито.</translation>
     </message>
     <message>
         <location filename="../../session.cpp" line="277"/>
@@ -2359,32 +2374,32 @@ windows will be included in the saved session.</source>
     <message>
         <location filename="../../session.cpp" line="279"/>
         <source>Not all files exist or can be opened.</source>
-        <translation>Не всі файл існують або їх не можна відкрити.</translation>
+        <translation>Не всі файли існують або їх не можна відкрити.</translation>
     </message>
     <message>
         <location filename="../../session.cpp" line="314"/>
         <source>&amp;OK</source>
-        <translation>Гаразд</translation>
+        <translation>&amp;Гаразд</translation>
     </message>
     <message>
         <location filename="../../session.cpp" line="333"/>
         <source>Do you really want to remove all saved sessions?</source>
-        <translation>Ви справді бажаєте видалити всі збережені сесії?</translation>
+        <translation>Ви справді бажаєте вилучити всі збережені сеанси?</translation>
     </message>
     <message>
         <location filename="../../session.cpp" line="339"/>
         <source>Do you really want to remove the selected sessions?</source>
-        <translation>Ви справді бажаєте видалити обрану сесію?</translation>
+        <translation>Ви справді бажаєте вилучити вибраний сеанс?</translation>
     </message>
     <message>
         <location filename="../../session.cpp" line="341"/>
         <source>Do you really want to remove the selected session?</source>
-        <translation>Ви справді бажаєте видалити всі обрані сесії?</translation>
+        <translation>Ви справді бажаєте вилучити всі обрані сеанси?</translation>
     </message>
     <message>
         <location filename="../../session.cpp" line="346"/>
         <source>A session with the same name exists.&lt;br&gt;Do you want to overwrite it?</source>
-        <translation>Сесія з цим ім&apos;ям вже існує.&lt;br&gt;Бажаєте замінити?</translation>
+        <translation>Сеанс із такою назвою вже існує.&lt;br&gt;Бажаєте замінити його?</translation>
     </message>
 </context>
 <context>
@@ -2438,7 +2453,7 @@ windows will be included in the saved session.</source>
     <message>
         <location filename="../../textedit.cpp" line="147"/>
         <source>Double click to center current line</source>
-        <translation type="unfinished"></translation>
+        <translation>Центрувати поточний рядок подвійним клацанням</translation>
     </message>
 </context>
 </TS>
