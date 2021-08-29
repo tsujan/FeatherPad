@@ -1939,7 +1939,7 @@ if the cursor is inside the text view?</source>
 and should be alongside an affix file with the same
 name but ending with &quot;.aff&quot;.</source>
         <translation>Словник Hunspell має назву із розширенням
-«.dic» та має бути поряд з файлом-афіксом з тією
+«.dic» та має бути поряд з додатковим файлом з тією
 ж назвою, але з розширенням «.aff».</translation>
     </message>
     <message>
