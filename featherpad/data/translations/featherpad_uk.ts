@@ -1544,11 +1544,11 @@ current desktop, files will be opened in its tabs.
 
 However, some desktop environments may not
 report that they have multiple desktops.</source>
-        <translation>Усталено, якщо вікно FeatherPad існує на поточній стільниці,
-файли будуть відкриватися на її вкладках.
+        <translation>Типово, якщо вікно FeatherPad існує на поточній стільниці,
+файли будуть відкриватися на його вкладках.
 
 Однак деякі стільничні середовища можуть не
-повідомляте, що у них є кілька стільниць.</translation>
+повідомляти, що в них є кілька стільниць.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="378"/>
@@ -1596,7 +1596,7 @@ Some desktop environments, like KDE and LXQt, provide files dialogs.</source>
         <source>By default, a triple period is replaced with an ellipsis
 and a double hyphen with a long dash while typing,
 under proper circumstances.</source>
-        <translation>Усталено трикрапка замінюється на еліпсис,
+        <translation>Типово трикрапка замінюється на еліпсис,
 а подвійний дефіс на довге тире під час введення тексту,
 за належних обставин.</translation>
     </message>
@@ -1794,12 +1794,12 @@ and-drop either.</source>
     <message>
         <location filename="../../prefDialog.ui" line="477"/>
         <source>&amp;Wrap lines by default</source>
-        <translation>&amp;Перенесення рядків за замовчуванням</translation>
+        <translation>Типово діє &amp;перенесення рядків</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="484"/>
         <source>Auto-&amp;indent by default</source>
-        <translation>А&amp;втоабзацування за замовчуванням</translation>
+        <translation>Типово діє А&amp;втоабзацування</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="513"/>
@@ -1809,7 +1809,7 @@ and-drop either.</source>
     <message>
         <location filename="../../prefDialog.ui" line="531"/>
         <source>Highlight s&amp;yntax by default</source>
-        <translation>П&amp;ідсвічування синтаксису за замовчуванням</translation>
+        <translation>Типово діє п&amp;ідсвічування синтаксису</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="691"/>
@@ -1885,7 +1885,7 @@ is 10.
 Needs application restart to take effect.</source>
         <translation>Найбільша кількість нещодавно змінених
 або відкритих файлів, які показує FeatherPad. 
-Усталено їх 10.
+Типово 10.
 
 Для набрання чинності обов&apos;язковий перезапуск програми.</translation>
     </message>
@@ -2020,8 +2020,8 @@ trailing spaces of a text file.</source>
         <location filename="../../prefDialog.ui" line="1239"/>
         <source>By default, when files are copied, they will
 be opened if they are pasted into FeatherPad.</source>
-        <translation>Усталено, під час копіювання файлів, вони будуть
-відкриті, якщо вони вставлені у FeatherPad.</translation>
+        <translation>Типово, під час копіювання файлів, вони будуть
+відкриті, якщо їх вставлено у FeatherPad.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1243"/>
@@ -2046,14 +2046,14 @@ be opened if they are pasted into FeatherPad.</source>
     <message>
         <location filename="../../prefDialog.ui" line="1302"/>
         <source>Restore default shortcuts.</source>
-        <translation>Відновити стандартні комбінації клавіш.</translation>
+        <translation>Відновити типові комбінації клавіш.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1305"/>
         <location filename="../../prefDialog.ui" line="1393"/>
         <location filename="../../prefDialog.ui" line="1418"/>
         <source>Default</source>
-        <translation>Стандартні комбінації</translation>
+        <translation>Типові комбінації</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1316"/>
@@ -2089,7 +2089,7 @@ be opened if they are pasted into FeatherPad.</source>
     <message>
         <location filename="../../prefDialog.ui" line="1415"/>
         <source>Restore default syntax colors.</source>
-        <translation>Відновити стандартні кольори.</translation>
+        <translation>Відновити типові кольори.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1450"/>
@@ -2307,7 +2307,7 @@ in the editing mode.</source>
         <location filename="../../sessionDialog.ui" line="159"/>
         <source>By default, all files that are opened in all
 windows will be included in the saved session.</source>
-        <translation>Усталено усі файли, які відкрито у всіх
+        <translation>Типово усі файли, які відкрито у всіх
 вікнах будуть включені до збереженого сеансу.</translation>
     </message>
     <message>
