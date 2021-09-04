@@ -81,7 +81,7 @@
         <location filename="../../fp.ui" line="290"/>
         <location filename="../../fp.ui" line="746"/>
         <source>&amp;Help</source>
-        <translation>&amp;Допомога</translation>
+        <translation>&amp;Довідка</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="390"/>
@@ -1069,7 +1069,7 @@
         <location filename="../../fpwin.cpp" line="5064"/>
         <location filename="../../fpwin.cpp" line="6099"/>
         <source>Help</source>
-        <translation>Допомога</translation>
+        <translation>Довідка</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3470"/>
@@ -1758,7 +1758,7 @@ will be shown by a popup dialog.</source>
     <message>
         <location filename="../../prefDialog.ui" line="1439"/>
         <source>Help</source>
-        <translation>Допомога</translation>
+        <translation>Довідка</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="163"/>
