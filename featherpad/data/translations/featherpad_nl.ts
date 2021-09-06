@@ -1139,7 +1139,7 @@
         <location filename="../../fpwin.cpp" line="5225"/>
         <location filename="../../fpwin.cpp" line="5335"/>
         <source>Copy Target Path</source>
-        <translation>Doelpad kopiëren</translation>
+        <translation>Doellocatie kopiëren</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5229"/>
@@ -1151,7 +1151,7 @@
         <location filename="../../fpwin.cpp" line="5248"/>
         <location filename="../../fpwin.cpp" line="5359"/>
         <source>Copy Final Target Path</source>
-        <translation>Uiteindelijk doelpad kopiëren</translation>
+        <translation>Uiteindelijke doellocatie kopiëren</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5252"/>
@@ -1945,7 +1945,7 @@ naam, maar eindigend op &apos;.aff&apos;.</translation>
     <message>
         <location filename="../../prefDialog.ui" line="894"/>
         <source>Hunspell dictionary path:</source>
-        <translation>Hunspell-woordenboekpad:</translation>
+        <translation>Hunspell-woordenboeklocatie:</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="913"/>
