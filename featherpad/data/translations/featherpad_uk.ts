@@ -137,7 +137,7 @@
         <location filename="../../fp.ui" line="519"/>
         <location filename="../../fpwin.cpp" line="1256"/>
         <source>&amp;Save</source>
-        <translation>&amp;Зберегти</translation>
+        <translation>З&amp;берегти</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="522"/>
@@ -167,7 +167,7 @@
     <message>
         <location filename="../../fp.ui" line="547"/>
         <source>&amp;Redo</source>
-        <translation>&amp;Повторити</translation>
+        <translation>П&amp;овторити</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="550"/>
@@ -243,7 +243,7 @@
     <message>
         <location filename="../../fp.ui" line="618"/>
         <source>&amp;Close</source>
-        <translation>&amp;Закрити</translation>
+        <translation>Закр&amp;ити</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="621"/>
@@ -253,7 +253,7 @@
     <message>
         <location filename="../../fp.ui" line="626"/>
         <source>&amp;Quit</source>
-        <translation>&amp;Вийти</translation>
+        <translation>Вий&amp;ти</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="629"/>
@@ -541,7 +541,7 @@
     <message>
         <location filename="../../fp.ui" line="994"/>
         <source>&amp;Detach Tab</source>
-        <translation>&amp;Відокремити вкладку</translation>
+        <translation>В&amp;ідокремити вкладку</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="997"/>
@@ -581,7 +581,7 @@
     <message>
         <location filename="../../fp.ui" line="153"/>
         <source>Recently &amp;Modified</source>
-        <translation>Нещодавно &amp;змінені</translation>
+        <translation>Н&amp;едавно змінені</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="223"/>
@@ -2199,7 +2199,7 @@ in the editing mode.</source>
     <message>
         <location filename="../../pref.cpp" line="1371"/>
         <source>Recently &amp;Modified</source>
-        <translation>Недавно &amp;змінені</translation>
+        <translation>Н&amp;едавно змінені</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="1446"/>
@@ -2344,7 +2344,7 @@ windows will be included in the saved session.</source>
     <message>
         <location filename="../../sessionDialog.ui" line="260"/>
         <source>&amp;Close</source>
-        <translation>&amp;Закрити</translation>
+        <translation>Закр&amp;ити</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="135"/>
