@@ -389,7 +389,8 @@ void Highlighter::cssHighlighter (const QString &text, bool mainFormatting, cons
     QRegularExpressionMatch cssEndtMatch;
     QRegularExpression cssEndExpression ("\\}");
 
-    static const QRegularExpression cssValueStartExp ("(?<!:):(?!:)");
+    /* it's supposed that a property can only contain letters, numbers, underlines and dashes */
+    static const QRegularExpression cssValueStartExp ("(?<=^|\\{|;|\\s)[A-Za-z0-9_\\-]+\\s*:(?!:)");
     static const QRegularExpression cssValueEndExp (";|\\}");
 
     int blockStartIndex = start;
@@ -479,7 +480,7 @@ void Highlighter::cssHighlighter (const QString &text, bool mainFormatting, cons
             while (isCSSCommented (text, QList<int>() << realBlockStart << realBlockStart, valueStartIndex)
                    || isInsideAttrSelector (text, realBlockStart, valueStartIndex))
             {
-                valueStartIndex = text.indexOf (cssValueStartExp, valueStartIndex + 1, &match);
+                valueStartIndex = text.indexOf (cssValueStartExp, valueStartIndex + match.capturedLength(), &match);
             }
             if (valueStartIndex > -1 && valueStartIndex <= blockEndIndex)
                 formatAttrSelectors (text, realBlockStart, valueStartIndex);
@@ -526,7 +527,7 @@ void Highlighter::cssHighlighter (const QString &text, bool mainFormatting, cons
                     while (isCSSCommented (text, QList<int>() << valueEndIndex << valueEndIndex, valueStartIndex)
                            || isInsideAttrSelector (text, valueEndIndex, valueStartIndex))
                     {
-                        valueStartIndex = text.indexOf (cssValueStartExp, valueStartIndex + 1, &match);
+                        valueStartIndex = text.indexOf (cssValueStartExp, valueStartIndex + match.capturedLength(), &match);
                     }
                     if (valueStartIndex > -1 && valueStartIndex <= blockEndIndex)
                         formatAttrSelectors (text, valueEndIndex, valueStartIndex);
@@ -601,7 +602,7 @@ void Highlighter::cssHighlighter (const QString &text, bool mainFormatting, cons
             QTextCharFormat cssPropFormat;
             cssPropFormat.setFontItalic (true);
             cssPropFormat.setForeground (Blue);
-            static const QRegularExpression cssProp ("[A-Za-z0-9_\\-]+(?=\\s*(?<!:):(?!:))");
+            static const QRegularExpression cssProp ("(?<=^|\\{|;|\\s)[A-Za-z0-9_\\-]+(?=\\s*(?<!:):(?!:))");
             int indxTmp = text.indexOf (cssProp, realBlockStart, &match);
             while (format (indxTmp) == quoteFormat || format (indxTmp) == altQuoteFormat)
                 indxTmp = text.indexOf (cssProp, indxTmp + match.capturedLength(), &match);

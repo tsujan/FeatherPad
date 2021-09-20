@@ -235,7 +235,7 @@ private:
     bool closePages (int first, int last, bool saveFilesList = false);
     void dragEnterEvent (QDragEnterEvent *event);
     void dropEvent (QDropEvent *event);
-    void dropTab (const QString& str);
+    void dropTab (const QString& str, QObject *source);
     void changeEvent (QEvent *event);
     bool event (QEvent *event);
     QTextDocument::FindFlags getSearchFlags() const;

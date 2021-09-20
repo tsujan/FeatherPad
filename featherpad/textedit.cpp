@@ -444,6 +444,32 @@ void TextEdit::keyPressEvent (QKeyEvent *event)
 {
     keepTxtCurHPos_ = false;
 
+    /* first, deal with spacial cases of pressing Ctrl */
+    if (event->modifiers() & Qt::ControlModifier)
+    {
+        if (event->modifiers() == Qt::ControlModifier) // no other modifier is pressed
+        {
+            /* deal with hyperlinks */
+            if (event->key() == Qt::Key_Control) // no other key is pressed either
+            {
+                if (highlighter_)
+                {
+                    if (getUrl (cursorForPosition (viewport()->mapFromGlobal (QCursor::pos())).position()).isEmpty())
+                        viewport()->setCursor (Qt::IBeamCursor);
+                    else
+                        viewport()->setCursor (Qt::PointingHandCursor);
+                    QPlainTextEdit::keyPressEvent (event);
+                    return;
+                }
+            }
+        }
+        if (event->key() != Qt::Key_Control) // another modifier/key is pressed
+        {
+            if (highlighter_)
+                viewport()->setCursor (Qt::IBeamCursor);
+        }
+    }
+
     /* workarounds for copy/cut/... -- see TextEdit::copy()/cut()/... */
     if (event == QKeySequence::Copy)
     {
@@ -492,35 +518,18 @@ void TextEdit::keyPressEvent (QKeyEvent *event)
         return;
     }
 
-    /* first, deal with spacial cases of pressing Ctrl */
-    if (event->modifiers() & Qt::ControlModifier)
-    {
-        if (event->modifiers() == Qt::ControlModifier) // no other modifier is pressed
-        {
-            /* deal with hyperlinks */
-            if (event->key() == Qt::Key_Control) // no other key is pressed either
-            {
-                if (highlighter_)
-                {
-                    if (getUrl (cursorForPosition (viewport()->mapFromGlobal (QCursor::pos())).position()).isEmpty())
-                        viewport()->setCursor (Qt::IBeamCursor);
-                    else
-                        viewport()->setCursor (Qt::PointingHandCursor);
-                    QPlainTextEdit::keyPressEvent (event);
-                    return;
-                }
-            }
-        }
-        if (event->key() != Qt::Key_Control) // another modifier/key is pressed
-        {
-            if (highlighter_)
-                viewport()->setCursor (Qt::IBeamCursor);
-        }
-    }
-
     if (isReadOnly())
     {
         QPlainTextEdit::keyPressEvent (event);
+        return;
+    }
+
+    if (event == QKeySequence::Delete || event == QKeySequence::DeleteStartOfWord)
+    {
+        bool hadSelection (textCursor().hasSelection());
+        QPlainTextEdit::keyPressEvent (event);
+        if (!hadSelection)
+            emit updateBracketMatching(); // isn't emitted in another way
         return;
     }
 
@@ -1231,7 +1240,8 @@ void TextEdit::undo()
     if (getSearchedText().isEmpty()) // FPwin::hlight() won't be called
     {
         QList<QTextEdit::ExtraSelection> es;
-        es.prepend (currentLineSelection());
+        if (!currentLine_.cursor.isNull())
+            es.prepend (currentLine_);
         es.append (blueSel_);
         es.append (redSel_);
         setExtraSelections (es);
@@ -1351,35 +1361,39 @@ void TextEdit::keyReleaseEvent (QKeyEvent *event)
 /*************************/
 void TextEdit::wheelEvent (QWheelEvent *event)
 {
+    QPoint anglePoint = event->angleDelta();
     if (event->modifiers() & Qt::ControlModifier)
     {
-        float delta = event->angleDelta().y() / 120.f;
+        float delta = anglePoint.y() / 120.f;
         zooming (delta);
         return;
     }
 
-    bool horizontal (event->angleDelta().x() != 0);
+    bool horizontal (qAbs (anglePoint.x()) > qAbs (anglePoint.y()));
     if (event->modifiers() & Qt::ShiftModifier)
     { // line-by-line scrolling when Shift is pressed
-        int delta = horizontal
-                        ? event->angleDelta().x() : event->angleDelta().y();
+        int delta = horizontal ? anglePoint.x()
+                               : anglePoint.y();
+        if (qAbs (delta) >= QApplication::wheelScrollLines())
+        {
 #if (QT_VERSION >= QT_VERSION_CHECK(5,15,0))
-        QWheelEvent e (event->position(),
-                       event->globalPosition(),
+            QWheelEvent e (event->position(),
+                           event->globalPosition(),
 #else
-        QWheelEvent e (event->posF(),
-                       event->globalPosF(),
+            QWheelEvent e (event->posF(),
+                           event->globalPosF(),
 #endif
-                       event->pixelDelta(),
-                       QPoint (0, delta / QApplication::wheelScrollLines()),
-                       event->buttons(),
-                       Qt::NoModifier,
-                       event->phase(),
-                       false,
-                       event->source());
-        QCoreApplication::sendEvent (horizontal
-                                         ? horizontalScrollBar()
-                                         : verticalScrollBar(), &e);
+                           event->pixelDelta(),
+                           QPoint (0, delta / QApplication::wheelScrollLines()),
+                           event->buttons(),
+                           Qt::NoModifier,
+                           event->phase(),
+                           false,
+                           event->source());
+            QCoreApplication::sendEvent (horizontal
+                                             ? horizontalScrollBar()
+                                             : verticalScrollBar(), &e);
+        }
         return;
     }
 
@@ -1389,10 +1403,20 @@ void TextEdit::wheelEvent (QWheelEvent *event)
         && !horizontal
         && event->source() == Qt::MouseEventNotSynthesized)
     {
-        if (QScrollBar* vbar = verticalScrollBar())
+        QScrollBar *vbar = verticalScrollBar();
+        if (vbar && vbar->isVisible())
         {
-            /* always set the initial speed to 3 lines per wheel turn */
-            int delta = event->angleDelta().y() * 3 / QApplication::wheelScrollLines();
+            int delta = anglePoint.y();
+            /* with mouse, always set the initial speed to 3 lines per wheel turn;
+               with more sensitive devices, set it to one line */
+            if (qAbs (delta) >= 120)
+            {
+                if (qAbs (delta * 3) >= QApplication::wheelScrollLines())
+                    delta = delta * 3 / QApplication::wheelScrollLines();
+            }
+            else if (qAbs (delta) >= QApplication::wheelScrollLines())
+                delta = delta / QApplication::wheelScrollLines();
+
             if((delta > 0 && vbar->value() == vbar->minimum())
                || (delta < 0 && vbar->value() == vbar->maximum()))
             {
@@ -1404,12 +1428,20 @@ void TextEdit::wheelEvent (QWheelEvent *event)
             wheelEvents << QDateTime::currentMSecsSinceEpoch();
             while (wheelEvents.last() - wheelEvents.first() > 500)
                 wheelEvents.removeFirst();
-            int fps = qMax (SCROLL_FRAMES_PER_SEC / wheelEvents.size(), 5);
+            int steps = qMax (SCROLL_FRAMES_PER_SEC / wheelEvents.size(), 5)
+                        * SCROLL_DURATION / 1000;
+
+            /* wait until the angle delta reaches an acceptable value */
+            static int _delta = 0;
+            _delta += delta;
+            if (qAbs (_delta) < steps)
+                return;
 
             /* set the data for inertial scrolling */
             scrollData data;
-            data.delta = delta;
-            data.totalSteps = data.leftSteps = fps * SCROLL_DURATION / 1000;
+            data.delta = _delta;
+            _delta = 0;
+            data.totalSteps = data.leftSteps = steps;
             queuedScrollSteps_.append (data);
             if (!scrollTimer_)
             {
@@ -1417,7 +1449,8 @@ void TextEdit::wheelEvent (QWheelEvent *event)
                 scrollTimer_->setTimerType (Qt::PreciseTimer);
                 connect (scrollTimer_, &QTimer::timeout, this, &TextEdit::scrollWithInertia);
             }
-            scrollTimer_->start (1000 / SCROLL_FRAMES_PER_SEC);
+            if (!scrollTimer_->isActive())
+                scrollTimer_->start (1000 / SCROLL_FRAMES_PER_SEC);
             return;
         }
     }
@@ -1429,7 +1462,13 @@ void TextEdit::wheelEvent (QWheelEvent *event)
 /*************************/
 void TextEdit::scrollWithInertia()
 {
-    if (!verticalScrollBar()) return;
+    QScrollBar *vbar = verticalScrollBar();
+    if (!vbar || !vbar->isVisible())
+    {
+        queuedScrollSteps_.clear();
+        scrollTimer_->stop();
+        return;
+    }
 
     int totalDelta = 0;
     for (QList<scrollData>::iterator it = queuedScrollSteps_.begin(); it != queuedScrollSteps_.end(); ++it)
@@ -1451,15 +1490,18 @@ void TextEdit::scrollWithInertia()
         else break;
     }
 
-    QWheelEvent e (QPointF(),
-                   QPointF(),
-                   QPoint(),
-                   QPoint (0, totalDelta),
-                   Qt::NoButton,
-                   Qt::NoModifier,
-                   Qt::NoScrollPhase,
-                   false);
-    QCoreApplication::sendEvent (verticalScrollBar(), &e);
+    if (totalDelta != 0)
+    {
+        QWheelEvent e (QPointF(),
+                       QPointF(),
+                       QPoint(),
+                       QPoint (0, totalDelta),
+                       Qt::NoButton,
+                       Qt::NoModifier,
+                       Qt::NoScrollPhase,
+                       false);
+        QCoreApplication::sendEvent (vbar, &e);
+    }
 
     if (queuedScrollSteps_.empty())
         scrollTimer_->stop();

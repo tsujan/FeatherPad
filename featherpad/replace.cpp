@@ -30,11 +30,9 @@ void FPwin::removeGreenSel()
     for (int i = 0; i < count; ++i)
     {
         TextEdit *textEdit = qobject_cast< TabPage *>(ui->tabWidget->widget (i))->textEdit();
-        QTextEdit::ExtraSelection curLineSel;
         QList<QTextEdit::ExtraSelection> es = textEdit->extraSelections();
         if (ui->actionLineNumbers->isChecked() || ui->spinBox->isVisible())
         {
-            curLineSel = textEdit->currentLineSelection();
             if (!es.isEmpty())
                 es.removeFirst();
         }
@@ -44,7 +42,8 @@ void FPwin::removeGreenSel()
             es.removeFirst();
             --n;
         }
-        es.prepend (curLineSel);
+        if (ui->actionLineNumbers->isChecked() || ui->spinBox->isVisible())
+            es.prepend (textEdit->currentLineSelection());
         textEdit->setGreenSel (QList<QTextEdit::ExtraSelection>());
         textEdit->setExtraSelections (es);
     }

@@ -141,9 +141,11 @@ The status bar not only shows information about the opened file but can also con
 *   Wheel Scrolling   *
 ***********************
 
-For fast mouse wheel scrolling, put the cursor on the scrollbar. If it is inside the text view, the speed of wheel scrolling will be normal. If, in addition, the Shift key is pressed, the text will scroll one line per wheel turn.
+If the cursor is inside the text view, the speed of (mouse) wheel scrolling will be normal. If, in addition, the Shift key is pressed, the text will scroll one line per wheel turn.
 
 "Inertial" scrolling can be enabled in the Text section of the Preferences dialog. It creates a kind of inertia with wheel scrolling when the cursor is inside the text view.
+
+For fast wheel scrolling, put the cursor on the vertical scrollbar. Then, each step of wheel turn moves the view by one page. If the Shift key is also pressed, the view will be moved by half the page.
 
 ********************
 *   Text Tabbing   *
@@ -197,6 +199,8 @@ To change a customizable shortcut, double click it and press your chosen shortcu
 
 All shortcuts, except for the extra ones below, can be found on menus or as tooltips and many of them can be customized in the Preferences dialog.
 
+NOTE: Text editing shortcuts may be different for non-Linux OS's.
+
 Useful Extra (Hidden) Shortcuts:
 =================================
 
@@ -246,7 +250,9 @@ Text editing:
 **************
 Insert              Toggle overwrite mode
 Backspace           Delete to the left of the text cursor
+Ctrl+Backspace      Delete to the the start of the word
 Delete              Delete to the right of the text cursor (the opposite of Backspace)
+Ctrl+Delete         Delete to the end of the word (the opposite of Ctrl+Backspace)
 Ctrl+K              Delete to the end of the line (when the editor has focus)
 Ctrl+Shift+Up/Down  Move the current line or selected lines upward/downward
 Shift+Enter         Insert newline with the non-letter prefix of the current line
