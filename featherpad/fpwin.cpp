@@ -1175,7 +1175,10 @@ void FPwin::dropEvent (QDropEvent *event)
 {
     if (locked_) return;
     if (event->mimeData()->hasFormat ("application/featherpad-tab"))
-        dropTab (QString::fromUtf8 (event->mimeData()->data ("application/featherpad-tab").constData()));
+    {
+        dropTab (QString::fromUtf8 (event->mimeData()->data ("application/featherpad-tab").constData()),
+                 event->source());
+    }
     else
     {
         const QList<QUrl> urlList = event->mimeData()->urls();
@@ -4822,6 +4825,7 @@ void FPwin::detachTab()
     QList<QTextEdit::ExtraSelection> es;
     if (ln || spin)
         es.prepend (textEdit->currentLineSelection());
+    es.append (textEdit->getBlueSel());
     textEdit->setExtraSelections (es);
 
     /* at last, set all properties correctly */
@@ -4917,35 +4921,22 @@ void FPwin::detachTab()
     dropTarget->stealFocus();
 }
 /*************************/
-void FPwin::dropTab (const QString& str)
+void FPwin::dropTab (const QString& str, QObject *source)
 {
-#if (QT_VERSION >= QT_VERSION_CHECK(5,15,0))
-    QStringList list = str.split ("+", Qt::SkipEmptyParts);
-#else
-    QStringList list = str.split ("+", QString::SkipEmptyParts);
-#endif
-    if (list.count() != 2)
+    QWidget *w = qobject_cast<QWidget*>(source);
+    if (w == nullptr || str.isEmpty()) // impossible
     {
         ui->tabWidget->tabBar()->finishMouseMoveEvent();
         return;
     }
-    int index = list.at (1).toInt();
+    int index = str.toInt();
     if (index <= -1) // impossible
     {
         ui->tabWidget->tabBar()->finishMouseMoveEvent();
         return;
     }
 
-    FPsingleton *singleton = static_cast<FPsingleton*>(qApp);
-    FPwin *dragSource = nullptr;
-    for (int i = 0; i < singleton->Wins.count(); ++i)
-    {
-        if (singleton->Wins.at (i)->winId() == list.at (0).toULongLong())
-        {
-            dragSource = singleton->Wins.at (i);
-            break;
-        }
-    }
+    FPwin *dragSource = qobject_cast<FPwin*>(w->window());
     if (dragSource == this
         || dragSource == nullptr) // impossible
     {
@@ -4953,10 +4944,16 @@ void FPwin::dropTab (const QString& str)
         return;
     }
 
-    Config config = static_cast<FPsingleton*>(qApp)->getConfig();
-
     closeWarningBar();
     dragSource->closeWarningBar();
+
+    TabPage *tabPage = qobject_cast< TabPage *>(dragSource->ui->tabWidget->widget (index));
+    if (tabPage == nullptr)
+    {
+        ui->tabWidget->tabBar()->finishMouseMoveEvent();
+        return;
+    }
+    TextEdit *textEdit = tabPage->textEdit();
 
     QString tooltip = dragSource->ui->tabWidget->tabToolTip (index);
     QString tabText = dragSource->ui->tabWidget->tabText (index);
@@ -4967,13 +4964,7 @@ void FPwin::dropTab (const QString& str)
     if (dragSource->ui->actionLineNumbers->isChecked())
         ln = true;
 
-    TabPage *tabPage = qobject_cast< TabPage *>(dragSource->ui->tabWidget->widget (index));
-    if (tabPage == nullptr)
-    {
-        ui->tabWidget->tabBar()->finishMouseMoveEvent();
-        return;
-    }
-    TextEdit *textEdit = tabPage->textEdit();
+    Config config = static_cast<FPsingleton*>(qApp)->getConfig();
 
     disconnect (textEdit, &TextEdit::resized, dragSource, &FPwin::hlight);
     disconnect (textEdit, &TextEdit::updateRect, dragSource, &FPwin::hlight);
@@ -5097,6 +5088,7 @@ void FPwin::dropTab (const QString& str)
     {
         es.prepend (textEdit->currentLineSelection());
     }
+    es.append (textEdit->getBlueSel());
     textEdit->setExtraSelections (es);
 
     /* at last, set all properties correctly */

@@ -118,7 +118,7 @@ unix {
     QMAKE_EXTRA_COMPILERS += updateqm
   }
 }
-os2 {
+else:os2 {
   LIBS += -lhunspell-1.7_dll
   RC_FILE = data/featherpad_os2.rc
   #TRANSLATIONS

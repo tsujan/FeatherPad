@@ -703,7 +703,7 @@ void Config::setDfaultSyntaxColors()
         defaultLightSyntaxColors_.insert ("quote", QColor (Qt::darkGreen));
         defaultLightSyntaxColors_.insert ("type", QColor (Qt::darkMagenta));
         defaultLightSyntaxColors_.insert ("keyWord", QColor (Qt::darkBlue));
-        defaultLightSyntaxColors_.insert ("number", QColor (160, 80, 0));
+        defaultLightSyntaxColors_.insert ("number", QColor (150, 85, 0));
         defaultLightSyntaxColors_.insert ("regex", QColor (150, 0, 0));
         defaultLightSyntaxColors_.insert ("xmlElement", QColor (126, 0, 230));
         defaultLightSyntaxColors_.insert ("cssValue", QColor (0, 110, 110));
@@ -715,7 +715,7 @@ void Config::setDfaultSyntaxColors()
         defaultDarkSyntaxColors_.insert ("quote", QColor (Qt::green));
         defaultDarkSyntaxColors_.insert ("type", QColor (255, 153, 255));
         defaultDarkSyntaxColors_.insert ("keyWord", QColor (65, 154, 255));
-        defaultDarkSyntaxColors_.insert ("number", QColor (255, 200, 0));
+        defaultDarkSyntaxColors_.insert ("number", QColor (255, 205, 0));
         defaultDarkSyntaxColors_.insert ("regex", QColor (255, 160, 0));
         defaultDarkSyntaxColors_.insert ("xmlElement", QColor (255, 255, 1));
         defaultDarkSyntaxColors_.insert ("cssValue", QColor (150, 255, 0));

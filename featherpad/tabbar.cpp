@@ -41,6 +41,9 @@ TabBar::TabBar (QWidget *parent)
 /*************************/
 void TabBar::mousePressEvent (QMouseEvent *event)
 {
+    dragStarted_ = false;
+    dragStartPosition_ = QPoint();
+
     if (locked_)
     {
         event->ignore();
@@ -54,8 +57,6 @@ void TabBar::mousePressEvent (QMouseEvent *event)
         else if (event->type() == QEvent::MouseButtonDblClick && count() > 0)
             emit addEmptyTab();
     }
-
-    dragStarted_ = false;
 }
 /*************************/
 void TabBar::mouseReleaseEvent (QMouseEvent *event)
@@ -73,7 +74,7 @@ void TabBar::mouseReleaseEvent (QMouseEvent *event)
 /*************************/
 void TabBar::mouseMoveEvent (QMouseEvent *event)
 {
-    if (!dragStartPosition_.isNull()
+    if (!dragStarted_ && !dragStartPosition_.isNull()
         && (event->pos() - dragStartPosition_).manhattanLength() >= QApplication::startDragDistance())
     {
       dragStarted_ = true;
@@ -93,7 +94,7 @@ void TabBar::mouseMoveEvent (QMouseEvent *event)
 
         QPointer<QDrag> drag = new QDrag (this);
         QMimeData *mimeData = new QMimeData;
-        QByteArray array = (QString::number(window()->winId()) + "+" + QString::number(index)).toUtf8();
+        QByteArray array = QString::number (index).toUtf8();
         mimeData->setData ("application/featherpad-tab", array);
         drag->setMimeData (mimeData);
         QPixmap px = QIcon (":icons/tab.svg").pixmap (22, 22);

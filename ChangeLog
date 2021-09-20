@@ -1,16 +1,25 @@
-V0.19.0
+V1.0.1
+---------
+ * Better inertial scrolling with touchpad and sensitive devices.
+ * Scroll one page per wheel turn when the cursor is on the vertical scrollbar and half the page when Shift is also pressed.
+
+V1.0.0
 ---------
  * Don't highlight the rest of a JSON document when encountering a huge line (because the formats couldn't be determined).
  * Refactored the code of syntax highlighting.
  * Examine final targets of symlinks when detecting programming languages.
  * Added group separators to the numbers of lines, selected characters and words on the statusbar.
+ * Better property-value pairs in CSS.
  * Covered "verbatim" in LaTex.
  * Considered a probable comment after the start of a literal block in Yaml.
  * Added an option for disabling menubar accelerators.
  * Added Go syntax highlighting.
  * AppStream metadata (https://www.freedesktop.org/wiki/Distributions/AppStream/) added by Balló György (City-busz at GitHub).
  * Handled the case where the start sign of a JavaScript/QML multiline comment was inside a regex.
+ * Fixed an issue in Ruby's regex, highlighted its back quotes and added a very minimal support for its command substitution.
  * Speed up syntax highlighting by applying the main text format only inside the visible rectangle and also by remembering single quote and back quote.
+ * No need to the window system identifier with tab DND.
+ * Bumped the version to 1.0.0. FeatherPad has been stable for a long time and some users may mistake "0.X.Y" for "unstable".
 
 V0.18.0
 ---------

@@ -332,7 +332,7 @@ Highlighter::Highlighter (QTextDocument *parent, const QString& lang,
             DarkGreen = QColor (Qt::darkGreen);
             DarkMagenta = QColor (Qt::darkMagenta);
             Violet = QColor (126, 0, 230); // #7e00e6
-            Brown = QColor (160, 80, 0);
+            Brown = QColor (150, 85, 0);
             DarkYellow = QColor (100, 100, 0); // Qt::darkYellow is (180, 180, 0)
             translucent = QColor (0, 0, 0, 190);
         }
@@ -347,8 +347,8 @@ Highlighter::Highlighter (QTextDocument *parent, const QString& lang,
             Verda = QColor (150, 255, 0);
             DarkGreen = QColor (Qt::green);
             DarkMagenta = QColor (255, 153, 255);
-            Violet = QColor (255, 255, 0); // == DarkYellow == Qt::yellow
-            Brown = QColor (255, 200, 0);
+            Violet = QColor (255, 255, 1); // near Qt::yellow (= DarkYellow)
+            Brown = QColor (255, 205, 0);
             DarkYellow = QColor (Qt::yellow);
             translucent = QColor (255, 255, 255, 190);
         }
@@ -892,6 +892,12 @@ Highlighter::Highlighter (QTextDocument *parent, const QString& lang,
         }
         else if (progLan == "ruby")
         {
+            /* numbers */
+            shFormat.setForeground (Brown);
+            rule.pattern.setPattern ("(?<![a-zA-Z0-9_@$%])\\d+(\\.\\d+)?(?=[^\\d]|$)");
+            rule.format = shFormat;
+            highlightingRules.append (rule);
+
             /* built-in functions */
             shFormat.setFontWeight (QFont::Bold);
             shFormat.setForeground (Magenta);
@@ -1415,7 +1421,7 @@ Highlighter::Highlighter (QTextDocument *parent, const QString& lang,
 
         /* definitions (starting with @) */
         scssFormat.setForeground (Brown);
-        rule.pattern.setPattern ("\\s*@[A-Za-z-]+\\s+|;\\s*@[A-Za-z-]+\\s+");
+        rule.pattern.setPattern ("@[A-Za-z_-]+\\b");
         rule.format = scssFormat;
         highlightingRules.append (rule);
 
@@ -1939,6 +1945,14 @@ bool Highlighter::isEscapedQuote (const QString &text, const int pos, bool isSta
         return true;
     }
 
+    if (progLan == "ruby" && text.at (pos) == quoteMark.pattern().at (0))
+    { // a minimal support for command substitution "#{...}"
+        QRegularExpressionMatch match;
+        int index = text.lastIndexOf (QRegularExpression ("#\\{[^\\}]*"), pos, &match);
+        if (index > -1 && index < pos && index + match.capturedLength() > pos)
+            return true;
+    }
+
     return false;
 }
 /*************************/
@@ -1948,10 +1962,10 @@ bool Highlighter::isEscapedQuote (const QString &text, const int pos, bool isSta
 bool Highlighter::isQuoted (const QString &text, const int index,
                             bool skipCommandSign, const int start)
 {
-    if (progLan == "perl") return isPerlQuoted (text, index);
+    if (progLan == "perl" || progLan == "ruby")
+        return isPerlQuoted (text, index);
     if (progLan == "javascript" || progLan == "qml")
         return isJSQuoted (text, index);
-    if (progLan == "ruby") return isRubyQuoted (text, index);
 
     if (index < 0 || start < 0 || index < start)
         return false;
@@ -2137,7 +2151,7 @@ bool Highlighter::isPerlQuoted (const QString &text, const int index)
                 && (isEscapedQuote (text, nxtPos, true, false) || isInsideRegex (text, nxtPos))))
         {
             if (res)
-            { // -> isEscapedPerlRegex()
+            { // -> isEscapedRegex()
                 pos = qMax (pos, 0);
                 if (text.at (nxtPos) == quoteMark.pattern().at (0))
                     setFormat (pos, nxtPos - pos + 1, quoteFormat);
@@ -2150,7 +2164,7 @@ bool Highlighter::isPerlQuoted (const QString &text, const int index)
         }
 
         if (N % 2 == 0)
-        { // -> isEscapedPerlRegex()
+        { // -> isEscapedRegex()
             if (TextBlockData *data = static_cast<TextBlockData *>(currentBlock().userData()))
                 data->insertLastFormattedQuote (nxtPos + 1);
             pos = qMax (pos, 0);
@@ -2823,7 +2837,7 @@ bool Highlighter::textEndsWithBackSlash (const QString &text)
 // Sometimes (with multi-language docs), formatting should be started from "start".
 bool Highlighter::multiLineQuote (const QString &text, const int start, int comState)
 {
-    if (progLan == "perl")
+    if (progLan == "perl" || progLan == "ruby")
     {
         multiLinePerlQuote (text);
         return false;
@@ -3100,7 +3114,7 @@ bool Highlighter::multiLineQuote (const QString &text, const int start, int comS
     return rehighlightNextBlock;
 }
 /*************************/
-// Perl's multiline quote highlighting comes here to support backquotes.
+// Perl's (and Ruby's) multiline quote highlighting comes here to support backquotes.
 // Also see isPerlQuoted().
 void Highlighter::multiLinePerlQuote (const QString &text)
 {
@@ -4016,7 +4030,7 @@ void Highlighter::highlightBlock (const QString &text)
 
     bool rehighlightNextBlock = false;
     int oldOpenNests = 0; QSet<int> oldOpenQuotes; // to be used in SH_CmndSubstVar() (and perl, ruby and css)
-    bool oldProperty = false; // to be used with perl, pascal and java
+    bool oldProperty = false; // to be used with perl, ruby, pascal and java
     QString oldLabel; // to be used with perl, ruby and LaTeX
     if (TextBlockData *oldData = static_cast<TextBlockData *>(currentBlockUserData()))
     {
@@ -4202,8 +4216,10 @@ void Highlighter::highlightBlock (const QString &text)
                                                   commentStartExpression, commentEndExpression,
                                                   commentState, commentFormat);
 
-    /* only javascript, qml, perl and ruby*/
+    /* only javascript, qml, perl and ruby */
     multiLineRegex (text, 0);
+    /* "Property" is used for knowing about backquotes, "label" is used
+       for delimiter strings and "OpenNests" for paired delimiters. */
     if ((progLan == "perl" || progLan == "ruby") && currentBlockState() == data->lastState())
         rehighlightNextBlock |= (data->labelInfo() != oldLabel || data->getProperty() != oldProperty
                                  || data->openNests() != oldOpenNests);

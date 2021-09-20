@@ -259,7 +259,6 @@ private:
                     bool &insideValue, QString &braces);
 
     /* Ruby */
-    bool isRubyQuoted (const QString &text, const int index);
     bool isEscapedRubyRegex (const QString &text, const int pos);
     int findRubyDelimiter (const QString &text, const int index,
                            const QRegularExpression &delimExp, int &capturedLength) const;

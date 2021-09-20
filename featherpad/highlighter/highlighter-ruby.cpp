@@ -24,107 +24,6 @@ namespace FeatherPad {
 /* we include "%", "%Q", "%q", "%W", "%w", "%x" ans "%s" here to have a simpler code */
 static const QRegularExpression rubyRegex ("/|%(Q|q|W|w|x|r|s)?\\s*[^\\w\\}\\)\\]>\\s]");
 
-bool Highlighter::isRubyQuoted (const QString &text, const int index)
-{
-    if (index < 0) return false;
-
-    int pos = -1;
-
-    if (format (index) == quoteFormat || format (index) == altQuoteFormat)
-        return true;
-    if (TextBlockData *data = static_cast<TextBlockData *>(currentBlock().userData()))
-    {
-        pos = data->lastFormattedQuote() - 1;
-        if (index <= pos) return false;
-    }
-
-    bool res = false;
-    int N;
-    QRegularExpression quoteExpression = mixedQuoteBackquote;
-    if (pos == -1)
-    {
-        int prevState = previousBlockState();
-        if (prevState != doubleQuoteState && prevState != singleQuoteState)
-            N = 0;
-        else
-        {
-            N = 1;
-            res = true;
-            if (prevState == doubleQuoteState)
-                quoteExpression = quoteMark;
-            else
-                quoteExpression = singleQuoteMark;
-        }
-    }
-    else N = 0; // a new search from the last position
-
-    int nxtPos;
-    while ((nxtPos = text.indexOf (quoteExpression, pos + 1)) >= 0)
-    {
-        /* skip formatted comments */
-        if (format (nxtPos) == commentFormat || format (nxtPos) == urlFormat
-            || (N % 2 == 0 && isMLCommented (text, nxtPos, commentState)))
-        {
-            pos = nxtPos;
-            continue;
-        }
-
-        ++N;
-        if ((N % 2 == 0 // an escaped end quote...
-             && isEscapedQuote (text, nxtPos, false))
-            || (N % 2 != 0 // ... or an escaped start quote
-                && isInsideRubyRegex (text, nxtPos)))
-        {
-            if (res)
-            {
-                pos = qMax (pos, 0);
-                if (text.at (nxtPos) == quoteMark.pattern().at (0))
-                    setFormat (pos, nxtPos - pos + 1, quoteFormat);
-                else
-                    setFormat (pos, nxtPos - pos + 1, altQuoteFormat);
-            }
-            --N;
-            pos = nxtPos;
-            continue;
-        }
-
-        if (N % 2 == 0)
-        {
-            if (TextBlockData *data = static_cast<TextBlockData *>(currentBlock().userData()))
-                data->insertLastFormattedQuote (nxtPos + 1);
-            pos = qMax (pos, 0);
-            if (text.at (nxtPos) == quoteMark.pattern().at (0))
-                setFormat (pos, nxtPos - pos + 1, quoteFormat);
-            else
-                setFormat (pos, nxtPos - pos + 1, altQuoteFormat);
-        }
-
-        if (index < nxtPos)
-        {
-            if (N % 2 == 0) res = true;
-            else res = false;
-            break;
-        }
-
-        /* "pos" might be negative next time */
-        if (N % 2 == 0) res = false;
-        else res = true;
-
-        if (N % 2 != 0)
-        {
-            if (text.at (nxtPos) == quoteMark.pattern().at (0))
-                quoteExpression = quoteMark;
-            else
-                quoteExpression = singleQuoteMark;
-        }
-        else
-            quoteExpression = mixedQuoteBackquote;
-        pos = nxtPos;
-    }
-
-    return res;
-}
-/*************************/
 // This is only for the start.
 bool Highlighter::isEscapedRubyRegex (const QString &text, const int pos)
 {
@@ -136,6 +35,41 @@ bool Highlighter::isEscapedRubyRegex (const QString &text, const int pos)
     }
     if (text.at (pos) == '/' && isEscapedChar (text, pos))
         return true;
+
+    QChar ch;
+    int i = pos - 1;
+    if (i > -1)
+    {
+        ch = text.at (i);
+        if (ch.isLetterOrNumber() || ch == '_')
+            return true;
+    }
+
+    while (i >= 0 && (text.at (i) == ' ' || text.at (i) == '\t'))
+        --i;
+    if (i > -1)
+    {
+        ch = text.at (i);
+        if (ch == ')' || ch == ']' || ch == '}')
+            return true;
+        bool isString (false);
+        if (ch.isNumber())
+        { // check if this is really a number
+            --i;
+            while (i >= 0 && text.at (i).isNumber())
+                --i;
+            if (i == -1 || (!text.at (i).isLetter() && text.at (i) != '_'))
+                return true;
+            isString = true;
+        }
+        /* as with Kate */
+        if ((isString || ch.isLetter() || ch == '_')
+            && pos + 1 < text.length() && text.at (pos + 1).isSpace())
+        {
+            return true;
+        }
+    }
+
     return false;
 }
 /*************************/
