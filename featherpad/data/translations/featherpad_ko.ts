@@ -464,7 +464,7 @@
         <location filename="../../fp.ui" line="1135"/>
         <location filename="../../fp.ui" line="1138"/>
         <source>To Upper Case</source>
-        <translation>대문자로 바꾸기</translation>
+        <translation>대문자로</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1141"/>
@@ -475,7 +475,7 @@
         <location filename="../../fp.ui" line="1146"/>
         <location filename="../../fp.ui" line="1149"/>
         <source>To Lower Case</source>
-        <translation>소문자로 바꾸기</translation>
+        <translation>소문자로</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1152"/>
@@ -1267,7 +1267,7 @@
     <message>
         <location filename="../../syntax.cpp" line="298"/>
         <source>The size limit for syntax highlighting is exceeded.</source>
-        <translation type="unfinished"></translation>
+        <translation>구문 강조 표시의 크기 제한을 초과했습니다.</translation>
     </message>
 </context>
 <context>
@@ -1374,7 +1374,7 @@
     <message>
         <location filename="../../prefDialog.ui" line="75"/>
         <source>Remember window &amp;size on closing</source>
-        <translation type="unfinished"></translation>
+        <translation>닫을 때 창 크기 기억(&amp;S)</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="84"/>
@@ -1382,50 +1382,52 @@
         <location filename="../../prefDialog.ui" line="107"/>
         <location filename="../../prefDialog.ui" line="120"/>
         <source>Window frame is excluded.</source>
-        <translation type="unfinished"></translation>
+        <translation>창 프레임은 제외됩니다.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="87"/>
         <source>Start with this size: </source>
-        <translation type="unfinished"></translation>
+        <translation>이 크기로 시작: </translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="100"/>
         <location filename="../../prefDialog.ui" line="123"/>
         <source> px</source>
-        <translation type="unfinished"></translation>
+        <translation> 픽셀</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="110"/>
         <source>×</source>
-        <translation type="unfinished"></translation>
+        <translation>×</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="148"/>
         <source>Enforcing a window position is not recommended
 and may not work with some window managers.</source>
-        <translation type="unfinished"></translation>
+        <translation>창 위치를 적용하는 것은 권장되지 않으며 
+일부 창 관리자에서는 작동하지 않을 수 있습니다.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="152"/>
         <source>Remember window &amp;position on closing</source>
-        <translation type="unfinished"></translation>
+        <translation>닫을 때 창 위치 기억(&amp;P)</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="159"/>
         <source>Most suitable with sessions
 but without tab functionality.</source>
-        <translation type="unfinished"></translation>
+        <translation>세션에 가장 적합하지만
+탭 기능은 없습니다.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="188"/>
         <source>Uncheck for 1/5 of the width.</source>
-        <translation type="unfinished"></translation>
+        <translation>너비의 1/5을 선택 취소합니다.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="191"/>
         <source>Remember splitter position</source>
-        <translation type="unfinished"></translation>
+        <translation>스플리터 위치 기억</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="200"/>
@@ -1436,7 +1438,8 @@ but without tab functionality.</source>
         <location filename="../../prefDialog.ui" line="207"/>
         <source>If the menubar is hidden,
 a menu button appears on the toolbar.</source>
-        <translation type="unfinished"></translation>
+        <translation>메뉴 표시줄이 숨겨져 있으면,
+도구 모음에 메뉴 버튼이 나타납니다.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="211"/>
@@ -1447,49 +1450,51 @@ a menu button appears on the toolbar.</source>
         <location filename="../../prefDialog.ui" line="218"/>
         <source>Menubar accelerators are activated by Alt
 and may interfere with customized shortcuts.</source>
-        <translation type="unfinished"></translation>
+        <translation>메뉴 모음 가속기는 Alt에 의해 활성화되며
+사용자 정의 단축키를 방해할 수 있습니다.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="222"/>
         <source>Disable menubar accelerators</source>
-        <translation type="unfinished"></translation>
+        <translation>메뉴 모음 가속기 비활성화</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="229"/>
         <source>Hide search &amp;bar by default</source>
-        <translation type="unfinished"></translation>
+        <translation>기본적으로 검색창 숨김(&amp;B)</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="236"/>
         <source>By default, each search entry
 has a separate search history.</source>
-        <translation type="unfinished"></translation>
+        <translation>기본적으로 각 검색 항목에는
+별도의 검색 기록이 있습니다.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="240"/>
         <source>Use a shared search history</source>
-        <translation type="unfinished"></translation>
+        <translation>공유 검색 기록 사용</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="247"/>
         <source>Always show st&amp;atus bar</source>
-        <translation type="unfinished"></translation>
+        <translation>항상 상태 표시줄 표시(&amp;A)</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="272"/>
         <source>Show cursor position on status bar</source>
-        <translation type="unfinished"></translation>
+        <translation>상태 표시줄에 커서 위치 표시</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="283"/>
         <location filename="../../prefDialog.ui" line="293"/>
         <source>Will take effect after closing this dialog.</source>
-        <translation type="unfinished"></translation>
+        <translation>이 대화 상자를 닫은 후에 적용됩니다.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="286"/>
         <source>Tab position: </source>
-        <translation type="unfinished"></translation>
+        <translation>탭 위치: </translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="297"/>
@@ -1517,17 +1522,21 @@ has a separate search history.</source>
 after the last tab is activated, and the same for Alt+Left.
 
 Tab navigation with mouse wheel is not affected.</source>
-        <translation type="unfinished"></translation>
+        <translation>즉, LTR의 경우 Alt+Right는 마지막 탭이 활성화된 후
+첫 번째 탭으로 이동하고, Alt+Left의 경우에도
+동일합니다.
+
+마우스 휠을 사용한 탭 탐색은 영향을 받지 않습니다.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="344"/>
         <source>Tab navigation wraps &amp;around</source>
-        <translation type="unfinished"></translation>
+        <translation>탭 탐색 둘러보기(&amp;A)</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="364"/>
         <source>Close window on closing its last tab</source>
-        <translation type="unfinished"></translation>
+        <translation>마지막 탭을 닫을 때 창 닫기</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="371"/>
@@ -1536,12 +1545,16 @@ current desktop, files will be opened in its tabs.
 
 However, some desktop environments may not
 report that they have multiple desktops.</source>
-        <translation type="unfinished"></translation>
+        <translation>기본적으로 현재 바탕화면에 FeatherPad 창이 
+있으면 해당 탭에서 파일이 열립니다.
+
+그러나 일부 데스크탑 환경은 여러 바탕화면이 
+있다고 보고하지 않을 수 있습니다.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="378"/>
         <source>Always open in separate windows</source>
-        <translation type="unfinished"></translation>
+        <translation>항상 별도의 창에서 열기</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="385"/>
@@ -1549,104 +1562,114 @@ report that they have multiple desktops.</source>
 desktop environment will be used instead of the Qt file dialog.
 
 Some desktop environments, like KDE and LXQt, provide files dialogs.</source>
-        <translation type="unfinished"></translation>
+        <translation>이 옵션을 선택하면, 현재 데스크탑 환경에서 제공하는 
+파일 대화 상자가 Qt 파일 대화 상자 대신 사용됩니다.
+
+KDE 및 LXQt와 같은 일부 데스크톱 환경에서는 
+파일 대화상자를 제공합니다.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="391"/>
         <source>Native file dialog</source>
-        <translation type="unfinished"></translation>
+        <translation>기본 파일 대화상자</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="467"/>
         <source>Uncheck for Monospace.</source>
-        <translation type="unfinished"></translation>
+        <translation>고정 너비의 선택을 취소합니다.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="470"/>
         <source>Remember &amp;font</source>
-        <translation type="unfinished"></translation>
+        <translation>글꼴 기억(&amp;F)</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="491"/>
         <source>This covers parentheses, braces, brackets and quotes.</source>
-        <translation type="unfinished"></translation>
+        <translation>여기에는 괄호, 중괄호, 대괄호 및 따옴표가 포함됩니다.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="494"/>
         <source>Auto-&amp;bracket</source>
-        <translation type="unfinished"></translation>
+        <translation>자동 대괄호(&amp;B)</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="501"/>
         <source>By default, a triple period is replaced with an ellipsis
 and a double hyphen with a long dash while typing,
 under proper circumstances.</source>
-        <translation type="unfinished"></translation>
+        <translation>기본적으로 적절한 상황에서 입력하는 동안
+세 개의 마침표는 줄임표로, 이중 하이픈은
+긴 대시로 바뀝니다.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="506"/>
         <source>Replace triple periods and double hyphens while typing</source>
-        <translation type="unfinished"></translation>
+        <translation>입력하는 동안 세 개의 마침표와 이중 하이픈 바꾸기</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="520"/>
         <source>Highlight case-sensitive and whole matches
 of the selected text.</source>
-        <translation type="unfinished"></translation>
+        <translation>선택한 텍스트의 대소문자 구분 및 전체 일치를
+강조 표시합니다.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="524"/>
         <source>Selection highlighting</source>
-        <translation type="unfinished"></translation>
+        <translation>선택 강조 표시</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="587"/>
         <source>Never highlight syntax for files &gt; </source>
-        <translation type="unfinished"></translation>
+        <translation>파일 구문을 강조 표시하지 않음 &gt; </translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="556"/>
         <source>This creates a menu button on the
 status bar for changing the syntax.</source>
-        <translation type="unfinished"></translation>
+        <translation>이렇게 하면 구문을 변경하기 위한
+상태 표시줄에 메뉴 버튼이 만들어집니다.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="560"/>
         <source>Support syntax override</source>
-        <translation type="unfinished"></translation>
+        <translation>구문 재정의 지원</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="625"/>
         <source>Show spaces, tabs and tab lines
 when the syntax is highlighted.</source>
-        <translation type="unfinished"></translation>
+        <translation>구문이 강조 표시되면 공백,
+탭 및 탭 줄을 표시합니다.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="629"/>
         <source>Show whitespaces</source>
-        <translation type="unfinished"></translation>
+        <translation>공백 표시</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="645"/>
         <location filename="../../prefDialog.ui" line="656"/>
         <source>The vertical position lines will be drawn only if
 the editor font has a fixed pitch (like Monospace).</source>
-        <translation type="unfinished"></translation>
+        <translation>편집기 글꼴에 고정된 피치가 있는 경우에만
+(예: 고정 너비)수직 위치선이 그려집니다.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="649"/>
         <source>Show vertical lines starting from this position:</source>
-        <translation type="unfinished"></translation>
+        <translation>이 위치에서 시작하는 수직선 표시:</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="636"/>
         <source>Also show line and document ends</source>
-        <translation type="unfinished"></translation>
+        <translation>줄과 문서 끝도 표시</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="775"/>
         <source>Date and time format:</source>
-        <translation type="unfinished"></translation>
+        <translation>날짜 및 시간 형식:</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="845"/>
@@ -1657,17 +1680,17 @@ whose last line is not empty.</source>
     <message>
         <location filename="../../prefDialog.ui" line="849"/>
         <source>Ensure an empty last line on saving</source>
-        <translation type="unfinished"></translation>
+        <translation>저장할 때 빈 마지막 줄 확인</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="856"/>
         <source>Remove trailing spaces on saving</source>
-        <translation type="unfinished"></translation>
+        <translation>저장할 때 후행 공백 제거</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="874"/>
         <source>Inertial scrolling with mouse wheel</source>
-        <translation type="unfinished"></translation>
+        <translation>마우스 휠을 사용한 관성 스크롤</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="963"/>
