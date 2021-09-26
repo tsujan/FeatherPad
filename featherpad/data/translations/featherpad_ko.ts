@@ -6,7 +6,7 @@
     <message>
         <location filename="../../about.ui" line="167"/>
         <source>License</source>
-        <translation>라이센스</translation>
+        <translation>라이선스</translation>
     </message>
 </context>
 <context>
@@ -1675,7 +1675,8 @@ the editor font has a fixed pitch (like Monospace).</source>
         <location filename="../../prefDialog.ui" line="845"/>
         <source>Some text editors cannot open a document
 whose last line is not empty.</source>
-        <translation type="unfinished"></translation>
+        <translation>일부 텍스트 편집기는 마지막 줄이 비어 있지
+않은 문서를 열 수 없습니다.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="849"/>
@@ -1705,7 +1706,7 @@ whose last line is not empty.</source>
     <message>
         <location filename="../../prefDialog.ui" line="1086"/>
         <source>Start with files of last window</source>
-        <translation type="unfinished"></translation>
+        <translation>마지막 창의 파일로 시작</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1128"/>
@@ -1720,7 +1721,15 @@ will be executed directly.
 If the script is not run in a terminal
 emulator, the output and error messages
 will be shown by a popup dialog.</source>
-        <translation type="unfinished"></translation>
+        <translation>이 명령은 인수가 있는 시작 명령일 수
+있습니다(예: XTerm에서 프로세스를
+실행하기 위한 &quot;xterm -hold&quot;).
+
+명령을 비워 두면 파일이 직접 실행됩니다.
+
+스크립트가 터미널 에뮬레이터에서
+실행되지 않으면 출력 및 오류 메시지가
+팝업 대화상자에 표시됩니다.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1140"/>
@@ -1755,7 +1764,7 @@ will be shown by a popup dialog.</source>
     <message>
         <location filename="../../prefDialog.ui" line="163"/>
         <source>Start with side-pane mode</source>
-        <translation type="unfinished"></translation>
+        <translation>사이드 창 모드로 시작</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="351"/>
@@ -1763,12 +1772,14 @@ will be shown by a popup dialog.</source>
 tooltip and context menu of a single tab but you could not
 merge a single tabbed window into another one by tab drag-
 and-drop either.</source>
-        <translation type="unfinished"></translation>
+        <translation>이 옵션을 선택하면 단일 탭의 유용한 툴팁과 컨텍스트 메뉴가
+손실될 뿐만 아니라 탭 끌어서 놓기로 단일 탭 창을 다른 창으로
+병합할 수 없습니다.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="357"/>
         <source>&amp;Do not show a single tab</source>
-        <translation type="unfinished"></translation>
+        <translation>단일 탭 표시 안 함(&amp;D)</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="422"/>
@@ -1783,32 +1794,32 @@ and-drop either.</source>
     <message>
         <location filename="../../prefDialog.ui" line="477"/>
         <source>&amp;Wrap lines by default</source>
-        <translation type="unfinished"></translation>
+        <translation>기본적으로 줄 바꿈(&amp;W)</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="484"/>
         <source>Auto-&amp;indent by default</source>
-        <translation type="unfinished"></translation>
+        <translation>기본적으로 자동 들여쓰기(&amp;I)</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="513"/>
         <source>Always show line &amp;numbers</source>
-        <translation type="unfinished"></translation>
+        <translation>항상 줄 번호 표시(&amp;N)</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="531"/>
         <source>Highlight s&amp;yntax by default</source>
-        <translation type="unfinished"></translation>
+        <translation>기본적으로 구문 강조 표시(&amp;Y)</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="691"/>
         <source>Dark c&amp;olor scheme</source>
-        <translation type="unfinished"></translation>
+        <translation>어두운 색상 구성표(&amp;O)</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="726"/>
         <source>Background color value: </source>
-        <translation type="unfinished"></translation>
+        <translation>배경 색상 값: </translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="594"/>
@@ -1825,12 +1836,18 @@ executable, the file will be executed by clicking
 the Run button, that appears on the toolbar/filemenu
 when needed, or by its shortcut Ctrl+E. Then, the
 process could be killed by Ctrl+Alt+E.</source>
-        <translation type="unfinished"></translation>
+        <translation>여기에는 Shell 및 Python과 같은 스크립트 언어로
+작성된 실행 파일만 포함됩니다.
+
+선택되어 있고 열린 파일이 실행 가능한 경우,
+필요할 때 도구 모음/파일 메뉴에 나타나는 실행 버튼을
+클릭하거나 단축키 Ctrl+E를 사용하여 파일을 실행합니다.
+그런 다음 Ctrl+Alt+E로 프로세스를 종료할 수 있습니다.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="688"/>
         <source>Needs window reopening to take effect.</source>
-        <translation type="unfinished"></translation>
+        <translation>적용하려면 창을 다시 열어야 합니다.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="716"/>
@@ -1843,12 +1860,18 @@ between 230 and 255; for the dark
 background, between 0 and 50.
 
 Needs window reopening to take effect.</source>
-        <translation type="unfinished"></translation>
+        <translation>배경의 색상 값입니다.
+255는 흰색, 0은 검정색을 의미합니다.
+
+밝은 배경의 경우, 230에서 255 사이, 
+어두운 배경의 경우, 0에서 50 사이입니다.
+
+적용하려면 창을 다시 열어야 합니다.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1103"/>
         <source>Run executable scripts</source>
-        <translation type="unfinished"></translation>
+        <translation>실행 가능한 스크립트 실행</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="977"/>
@@ -1858,7 +1881,10 @@ opened files FeatherPad shows. The default
 is 10.
 
 Needs application restart to take effect.</source>
-        <translation type="unfinished"></translation>
+        <translation>FeatherPad가 최근에 수정하거나 연 파일의
+최대 수입니다. 기본값은 10입니다.
+
+적용하려면 프로그램을 다시 시작해야 합니다.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="767"/>
@@ -1869,28 +1895,34 @@ Takes effect after closing this dialog.
 
 Leave empty for:
 MMM dd, yyyy, hh:mm:ss</source>
-        <translation type="unfinished"></translation>
+        <translation>날짜와 시간을 붙여넣을 때 사용합니다.
+
+이 대화상자를 닫은 후에 적용됩니다.
+
+다음 항목은 비워 둡니다:
+MMM dd, yyyy, hh:mm:ss</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="804"/>
         <source>Text tab size:</source>
-        <translation type="unfinished"></translation>
+        <translation>텍스트 탭 크기:</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="811"/>
         <source> spaces</source>
-        <translation type="unfinished"></translation>
+        <translation> 공백</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="863"/>
         <source>Thick text cursor</source>
-        <translation type="unfinished"></translation>
+        <translation>굵은 텍스트 커서</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="870"/>
         <source>Should the mouse wheel scrolling be inertial
 if the cursor is inside the text view?</source>
-        <translation type="unfinished"></translation>
+        <translation>커서가 텍스트 보기 안에 있는 경우,
+마우스 휠 스크롤이 관성이어야 합니까?</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="881"/>
@@ -1903,12 +1935,14 @@ if the cursor is inside the text view?</source>
         <source>A Hunspell dictionary has a name that ends with &quot;.dic&quot;
 and should be alongside an affix file with the same
 name but ending with &quot;.aff&quot;.</source>
-        <translation type="unfinished"></translation>
+        <translation>Hunspell 사전에는 &quot;.dic&quot;로 끝나는 이름이 있으며
+이름은 같지만 &quot;.aff&quot;로 끝나는 접미사 파일과 함께
+있어야 합니다.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="894"/>
         <source>Hunspell dictionary path:</source>
-        <translation type="unfinished"></translation>
+        <translation>Hunspell 사전 경로:</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="913"/>
@@ -1920,33 +1954,34 @@ name but ending with &quot;.aff&quot;.</source>
         <location filename="../../prefDialog.ui" line="925"/>
         <source>If this is unchecked, spell checking
 will be started from the document start.</source>
-        <translation type="unfinished"></translation>
+        <translation>이 옵션을 선택하지 않으면,
+문서 시작부터 맞춤법 검사가 시작됩니다.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="929"/>
         <source>Start spell checking from text cursor</source>
-        <translation type="unfinished"></translation>
+        <translation>텍스트 커서에서 맞춤법 검사 시작</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="984"/>
         <source>Number of recent files: </source>
-        <translation type="unfinished"></translation>
+        <translation>최근 파일 수: </translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1083"/>
         <source>Only if their number is not greater than 50.</source>
-        <translation type="unfinished"></translation>
+        <translation>50보다 크지 않은 경우에만 가능합니다.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1170"/>
         <location filename="../../prefDialog.ui" line="1180"/>
         <source>Only for files that exist and can be saved.</source>
-        <translation type="unfinished"></translation>
+        <translation>존재하며 저장할 수 있는 파일에만 해당됩니다.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1183"/>
         <source> min</source>
-        <translation type="unfinished"></translation>
+        <translation> 분</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1214"/>
@@ -1956,17 +1991,22 @@ be used also when the opened file is not modified.
 This can be useful under certain circumstances,
 e.g. for changing the time stamp or removing the
 trailing spaces of a text file.</source>
-        <translation type="unfinished"></translation>
+        <translation>이 옵션을 선택하면 열려 있는 파일을 수정하지 않은
+상태에서도 저장 버튼/메뉴 항목을 사용할 수 있습니다.
+
+이 기능은 타임스탬프를 변경하거나
+텍스트 파일의 후행 공백을 제거하는 등의
+특정 상황에서 유용할 수 있습니다.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1222"/>
         <source>Allow saving unmodified files</source>
-        <translation type="unfinished"></translation>
+        <translation>수정되지 않은 파일 저장 허용</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1229"/>
         <source>Show a warning instead.</source>
-        <translation type="unfinished"></translation>
+        <translation>대신 경고를 표시합니다.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1232"/>
@@ -1977,12 +2017,13 @@ trailing spaces of a text file.</source>
         <location filename="../../prefDialog.ui" line="1239"/>
         <source>By default, when files are copied, they will
 be opened if they are pasted into FeatherPad.</source>
-        <translation type="unfinished"></translation>
+        <translation>기본적으로 파일을 복사할 때 FeatherPad에
+붙여넣으면 파일이 열립니다.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1243"/>
         <source>Paste paths instead of files</source>
-        <translation type="unfinished"></translation>
+        <translation>파일 대신 경로 붙여넣기</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1270"/>
@@ -1992,7 +2033,7 @@ be opened if they are pasted into FeatherPad.</source>
     <message>
         <location filename="../../prefDialog.ui" line="1289"/>
         <source>Action</source>
-        <translation type="unfinished"></translation>
+        <translation>동작</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1294"/>
@@ -2019,33 +2060,33 @@ be opened if they are pasted into FeatherPad.</source>
     <message>
         <location filename="../../prefDialog.ui" line="1332"/>
         <source>Element</source>
-        <translation type="unfinished"></translation>
+        <translation>요소</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1337"/>
         <source>Text Color</source>
-        <translation type="unfinished"></translation>
+        <translation>텍스트 색상</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1350"/>
         <source>Whitespace color value:</source>
-        <translation type="unfinished"></translation>
+        <translation>공백 색상 값:</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1380"/>
         <location filename="../../prefDialog.ui" line="1390"/>
         <source>Has effect only if line numbers are shown.</source>
-        <translation type="unfinished"></translation>
+        <translation>행 번호가 표시된 경우에만 효과가 있습니다.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1383"/>
         <source>Current line highlight value:</source>
-        <translation type="unfinished"></translation>
+        <translation>현재 줄 강조 표시 값:</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1415"/>
         <source>Restore default syntax colors.</source>
-        <translation type="unfinished"></translation>
+        <translation>기본 구문 색상을 복원합니다.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1450"/>
@@ -2056,7 +2097,8 @@ be opened if they are pasted into FeatherPad.</source>
         <location filename="../../pref.cpp" line="104"/>
         <source>Press a modifier key to clear a shortcut
 in the editing mode.</source>
-        <translation type="unfinished"></translation>
+        <translation>편집 모드에서 단축키를 지우려면
+수정자 키를 누르십시오.</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="110"/>
@@ -2073,48 +2115,48 @@ in the editing mode.</source>
         <location filename="../../pref.cpp" line="306"/>
         <location filename="../../pref.cpp" line="1344"/>
         <source>file</source>
-        <translation type="unfinished"></translation>
+        <translation>파일</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="359"/>
         <location filename="../../pref.cpp" line="1463"/>
         <source>Warning: Ambiguous shortcut detected!</source>
-        <translation type="unfinished"></translation>
+        <translation>경고: 모호한 단축키가 감지되었습니다!</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="392"/>
         <source>Functions, URLs,…</source>
-        <translation type="unfinished"></translation>
+        <translation>기능, URL,…</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="393"/>
         <source>Built-in Functions</source>
-        <translation type="unfinished"></translation>
+        <translation>기본 제공 기능</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="394"/>
         <source>Comments</source>
-        <translation type="unfinished"></translation>
+        <translation>주석</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="395"/>
         <source>Quotations</source>
-        <translation type="unfinished"></translation>
+        <translation>인용구</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="396"/>
         <source>Types</source>
-        <translation type="unfinished"></translation>
+        <translation>유형</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="397"/>
         <source>Key Words</source>
-        <translation type="unfinished"></translation>
+        <translation>키워드</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="398"/>
         <source>Numbers</source>
-        <translation type="unfinished"></translation>
+        <translation>숫자</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="399"/>
@@ -2124,27 +2166,27 @@ in the editing mode.</source>
     <message>
         <location filename="../../pref.cpp" line="400"/>
         <source>Document Blocks, XML/HTML Elements,…</source>
-        <translation type="unfinished"></translation>
+        <translation>문서 블록, XML/HTML 요소…</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="401"/>
         <source>Markdown Headings, CSS Values,…</source>
-        <translation type="unfinished"></translation>
+        <translation>마크다운 제목, CSS 값,…</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="402"/>
         <source>Extra Elements</source>
-        <translation type="unfinished"></translation>
+        <translation>추가 요소</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="563"/>
         <source>Application restart is needed for changes to take effect.</source>
-        <translation type="unfinished"></translation>
+        <translation>변경 사항을 적용하려면 응용 프로그램을 다시 시작해야 합니다.</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="582"/>
         <source>Window reopening is needed for changes to take effect.</source>
-        <translation type="unfinished"></translation>
+        <translation>변경 사항을 적용하려면 창을 다시 열어야 합니다.</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="1370"/>
@@ -2159,18 +2201,18 @@ in the editing mode.</source>
     <message>
         <location filename="../../pref.cpp" line="1446"/>
         <source>The typed shortcut was reserved.</source>
-        <translation type="unfinished"></translation>
+        <translation>입력한 단축키가 예약되었습니다.</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="1650"/>
         <source>Hunspell Dictionary Files (*.dic)</source>
-        <translation type="unfinished"></translation>
+        <translation>Hunspell 사전 파일 (*.dic)</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="453"/>
         <location filename="../../pref.cpp" line="1736"/>
         <source>Select Syntax Color</source>
-        <translation type="unfinished"></translation>
+        <translation>구문 색상 선택</translation>
     </message>
 </context>
 <context>
@@ -2262,7 +2304,8 @@ in the editing mode.</source>
         <location filename="../../sessionDialog.ui" line="159"/>
         <source>By default, all files that are opened in all
 windows will be included in the saved session.</source>
-        <translation type="unfinished"></translation>
+        <translation>기본적으로 모든 창에서 열리는 모든 파일은
+저장된 세션에 포함됩니다.</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="163"/>
@@ -2303,7 +2346,7 @@ windows will be included in the saved session.</source>
     <message>
         <location filename="../../sessionDialog.ui" line="135"/>
         <source>Save the current session under the given title.</source>
-        <translation type="unfinished"></translation>
+        <translation>주어진 제목으로 현재 세션을 저장합니다.</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="138"/>
@@ -2318,17 +2361,17 @@ windows will be included in the saved session.</source>
     <message>
         <location filename="../../session.cpp" line="179"/>
         <source>Nothing saved.&lt;br&gt;No file was opened.</source>
-        <translation type="unfinished"></translation>
+        <translation>저장된 내용이 없습니다.&lt;br&gt;열린 파일이 없습니다.</translation>
     </message>
     <message>
         <location filename="../../session.cpp" line="277"/>
         <source>No file exists or can be opened.</source>
-        <translation type="unfinished"></translation>
+        <translation>파일이 없거나 열 수 없습니다.</translation>
     </message>
     <message>
         <location filename="../../session.cpp" line="279"/>
         <source>Not all files exist or can be opened.</source>
-        <translation type="unfinished"></translation>
+        <translation>일부 파일이 존재하지 않거나 열 수 있습니다.</translation>
     </message>
     <message>
         <location filename="../../session.cpp" line="314"/>
