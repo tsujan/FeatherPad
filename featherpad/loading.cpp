@@ -1,5 +1,5 @@
 /*
- * Copyright (C) Pedram Pourang (aka Tsu Jan) 2014-2020 <tsujan2000@gmail.com>
+ * Copyright (C) Pedram Pourang (aka Tsu Jan) 2014-2021 <tsujan2000@gmail.com>
  *
  * FeatherPad is free software: you can redistribute it and/or modify it
  * under the terms of the GNU General Public License as published by the
@@ -99,6 +99,7 @@ void Loading::run()
             charset_ = "UTF-16"; // single character
         else if (num == 4)
         {
+            bool readMore (true);
             if (hasNull)
             {
                 if ((C[0] == 0xFF && C[1] == 0xFE && C[2] != '\0' && C[3] == '\0') // le
@@ -116,55 +117,73 @@ void Loading::run()
                     charset_ = "UTF-32";
                 }
             }
-            /* reading may still be possible */
-            if (charset_.isEmpty() && !hasNull)
-            {
-                num = 5; // 4 characters are already read
-                while (file.read (&c, charSize) > 0)
+            else if ((C[0] == 0xFF && C[1] == 0xFE) || (C[0] == 0xFE && C[1] == 0xFF))
+            { // check special cases of UTF-16
+                while (num < 8 && file.read (&c, charSize) > 0)
                 {
+                    data.append (c);
                     if (c == '\0')
-                    {
-                        if (!hasNull)
-                        {
-                            if (skipNonText_)
-                            {
-                                file.close();
-                                emit completed (QString(), QString(), "UTF-8"); // shows that a non-text file is skipped
-                                return;
-                            }
-                            hasNull = true;
-                        }
-                    }
-                    else if (c == '\n' || c == '\r')
-                        num = 0;
-                    if (num <= 500000)
-                        data.append (c);
-                    else if (num == 500001)
-                    {
-                        data += QByteArray ("    HUGE LINE TRUNCATED: NO LINE WITH MORE THAN 500000 CHARACTERS");
-                        forceUneditable_ = true;
-                    }
-                    ++num;
+                        hasNull = true;
+                    ++ num;
                 }
+                if (hasNull && (num == 6 || num == 8))
+                    charset_ = "UTF-16";
+                if (num < 8)
+                    readMore = false;
             }
-            else
-            { // the meaning of null characters was determined before
-                if (skipNonText_ && hasNull && charset_.isEmpty())
+
+            if (readMore)
+            {
+                /* reading may still be possible */
+                if (charset_.isEmpty() && !hasNull)
                 {
-                    file.close();
-                    emit completed (QString(), QString(), "UTF-8");
-                    return;
+                    ++ num; // 4 or 8 characters are already read
+                    while (file.read (&c, charSize) > 0)
+                    {
+                        if (c == '\0')
+                        {
+                            if (!hasNull)
+                            {
+                                if (skipNonText_)
+                                {
+                                    file.close();
+                                    emit completed (QString(), QString(), "UTF-8"); // shows that a non-text file is skipped
+                                    return;
+                                }
+                                hasNull = true;
+                            }
+                        }
+                        else if (c == '\n' || c == '\r')
+                            num = 0;
+                        if (num <= 500000)
+                            data.append (c);
+                        else if (num == 500001)
+                        {
+                            data += QByteArray ("    HUGE LINE TRUNCATED: NO LINE WITH MORE THAN 500000 CHARACTERS");
+                            forceUneditable_ = true;
+                        }
+                        ++num;
+                    }
                 }
-                num = 0;
-                while (file.read (&c, charSize) > 0)
-                {
-                    if (c == '\n' || c == '\r')
-                        num = 0;
-                    if (num < 500004) // a multiple of 4 (for UTF-16/32)
-                        data.append (c);
-                    else
-                        forceUneditable_ = true;
-                    ++num;
+                else
+                { // the meaning of null characters was determined before
+                    if (skipNonText_ && hasNull && charset_.isEmpty())
+                    {
+                        file.close();
+                        emit completed (QString(), QString(), "UTF-8");
+                        return;
+                    }
+                    num = 0;
+                    while (file.read (&c, charSize) > 0)
+                    {
+                        if (c == '\n' || c == '\r')
+                            num = 0;
+                        if (num < 500004) // a multiple of 4 (for UTF-16/32)
+                            data.append (c);
+                        else
+                            forceUneditable_ = true;
+                        ++num;
+                    }
                 }
             }
         }

@@ -2,6 +2,7 @@ V1.0.1
 ---------
  * Better inertial scrolling with touchpad and sensitive devices.
  * Scroll one page per wheel turn when the cursor is on the vertical scrollbar and half the page when Shift is also pressed.
+ * Detect special cases of UTF-16.
 
 V1.0.0
 ---------
