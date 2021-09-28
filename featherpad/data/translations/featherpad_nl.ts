@@ -343,7 +343,7 @@
     <message>
         <location filename="../../fp.ui" line="730"/>
         <source>&amp;Syntax Highlighting</source>
-        <translation>&amp;Syntaxmarkering</translation>
+        <translation>&amp;Syntaxis markeren</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="733"/>
@@ -383,7 +383,7 @@
     <message>
         <location filename="../../fp.ui" line="969"/>
         <source>&amp;Jump to</source>
-        <translation>&amp;Springen naar</translation>
+        <translation>&amp;Ga naar regel</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="972"/>
@@ -1027,7 +1027,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="3418"/>
         <source>&quot;pkexec&quot; is not found. Please install Polkit!</source>
-        <translation>&apos;pkexec&apos; is niet aangetroffen - installeer Polkit.</translation>
+        <translation>‘pkexec’ is niet aangetroffen - installeer Polkit.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3106"/>
@@ -1268,7 +1268,7 @@
     <message>
         <location filename="../../syntax.cpp" line="298"/>
         <source>The size limit for syntax highlighting is exceeded.</source>
-        <translation>Het groottelimiet voor syntaxmarkering is overschreden.</translation>
+        <translation>Het groottelimiet voor syntaxismarkering is overschreden.</translation>
     </message>
 </context>
 <context>
@@ -1342,7 +1342,7 @@
     <message>
         <location filename="../../fontDialog.ui" line="149"/>
         <source>Preview</source>
-        <translation>Voorbeeld</translation>
+        <translation>Voorvertoning</translation>
     </message>
 </context>
 <context>
@@ -1426,7 +1426,7 @@ maar zonder tabbladen.</translation>
     <message>
         <location filename="../../prefDialog.ui" line="191"/>
         <source>Remember splitter position</source>
-        <translation>Splitspositie onthouden</translation>
+        <translation>Splitspositie bewaren</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="200"/>
@@ -1477,7 +1477,7 @@ zijn eigen geschiedenis.</translation>
     <message>
         <location filename="../../prefDialog.ui" line="247"/>
         <source>Always show st&amp;atus bar</source>
-        <translation>St&amp;atusbalk altijd tonen</translation>
+        <translation>St&amp;atusbalk tonen</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="272"/>
@@ -1553,7 +1553,7 @@ dat er meerdere werkbladen aanwezig zijn.</translation>
     <message>
         <location filename="../../prefDialog.ui" line="378"/>
         <source>Always open in separate windows</source>
-        <translation>Altijd openen in losse vensters</translation>
+        <translation>Bestanden openen in losse vensters</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="385"/>
@@ -1564,12 +1564,12 @@ Some desktop environments, like KDE and LXQt, provide files dialogs.</source>
         <translation>Kruis dit aan om het bestandsvenster van de huidige
 werkomgeving te gebruiken in plaats van dat van Qt.
 
-Sommige werkomgevingen, zoals KDE en LXQt, hebben bestandsvensters.</translation>
+Sommige werkomgevingen, zoals KDE en LXQt, hebben eigen bestandsvensters.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="391"/>
         <source>Native file dialog</source>
-        <translation>Bestandsvenster van werkomgeving</translation>
+        <translation>Bestandsvenster van werkomgeving gebruiken</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="467"/>
@@ -1579,7 +1579,7 @@ Sommige werkomgevingen, zoals KDE en LXQt, hebben bestandsvensters.</translation
     <message>
         <location filename="../../prefDialog.ui" line="470"/>
         <source>Remember &amp;font</source>
-        <translation>Lettertype &amp;onthouden</translation>
+        <translation>Ingesteld lettertype &amp;gebruiken</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="491"/>
@@ -1589,7 +1589,7 @@ Sommige werkomgevingen, zoals KDE en LXQt, hebben bestandsvensters.</translation
     <message>
         <location filename="../../prefDialog.ui" line="494"/>
         <source>Auto-&amp;bracket</source>
-        <translation>Automatische &amp;haakjes</translation>
+        <translation>Automatisch &amp;haakjes plaatsen</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="501"/>
@@ -1620,26 +1620,26 @@ in de geselecteerde tekst.</translation>
     <message>
         <location filename="../../prefDialog.ui" line="587"/>
         <source>Never highlight syntax for files &gt; </source>
-        <translation>Geen syntaxmarkering op bestanden &gt; </translation>
+        <translation>Syntaxis niet markeren in bestanden &gt; </translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="556"/>
         <source>This creates a menu button on the
 status bar for changing the syntax.</source>
         <translation>Dit plaatst een menuknop op de statusbalk
-waarmee de syntax kan worden gewijzigd.</translation>
+waarmee de syntaxis kan worden gewijzigd.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="560"/>
         <source>Support syntax override</source>
-        <translation>Syntax kan worden gewijzigd</translation>
+        <translation>Syntaxiswijziging toestaan</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="625"/>
         <source>Show spaces, tabs and tab lines
 when the syntax is highlighted.</source>
         <translation>Toon spaties, tabs en tabregels
-bij het markeren van de syntax.</translation>
+bij het markeren van de syntaxis.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="629"/>
@@ -1657,12 +1657,12 @@ het lettertype een vastgezet lettertype is (zoals Monospace).</translation>
     <message>
         <location filename="../../prefDialog.ui" line="649"/>
         <source>Show vertical lines starting from this position:</source>
-        <translation>Verticale lijnen tonen vanaf deze positie:</translation>
+        <translation>Verticale lijnen tonen vanaf positie:</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="636"/>
         <source>Also show line and document ends</source>
-        <translation>Ook regel- en documenteinden tonen</translation>
+        <translation>Regel- en documenteinden tonen</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="775"/>
@@ -1679,7 +1679,7 @@ dat geen blanco regel aan het einde bevat.</translation>
     <message>
         <location filename="../../prefDialog.ui" line="849"/>
         <source>Ensure an empty last line on saving</source>
-        <translation>Blanco regel aan einde invoegen bij opslaan</translation>
+        <translation>Blanco eindregel invoegen bij opslaan</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="856"/>
@@ -1704,7 +1704,7 @@ dat geen blanco regel aan het einde bevat.</translation>
     <message>
         <location filename="../../prefDialog.ui" line="1086"/>
         <source>Start with files of last window</source>
-        <translation>Bestanden van recentste venster openen bij opstarten</translation>
+        <translation>Bestanden uit vorig venster openen na opstarten</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1128"/>
@@ -1720,7 +1720,7 @@ If the script is not run in a terminal
 emulator, the output and error messages
 will be shown by a popup dialog.</source>
         <translation>Dit kan elke opstartopdracht zijn, incl.
-aanvullende opties. Gebruik bijv. &apos;xterm -hold&apos;
+aanvullende opties. Gebruik bijv. ‘xterm -hold’
 om het proces uit te voeren in XTerm.
 
 Als het opdrachtveld blanco blijft, dan wordt
@@ -1753,7 +1753,7 @@ getoond in een pop-upvenster.</translation>
     <message>
         <location filename="../../prefDialog.ui" line="1173"/>
         <source>Save changes to opened files every:</source>
-        <translation>Wijzigingen aan geopende bestanden opslaan, elke:</translation>
+        <translation>Bestandswijzigingen opslaan, elke:</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1439"/>
@@ -1763,7 +1763,7 @@ getoond in een pop-upvenster.</translation>
     <message>
         <location filename="../../prefDialog.ui" line="163"/>
         <source>Start with side-pane mode</source>
-        <translation>Zijpaneel altijd tonen</translation>
+        <translation>Zijpaneel tonen</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="351"/>
@@ -1804,17 +1804,17 @@ tabblad te verslepen.</translation>
     <message>
         <location filename="../../prefDialog.ui" line="513"/>
         <source>Always show line &amp;numbers</source>
-        <translation>Altijd regel&amp;nummers tonen</translation>
+        <translation>Regel&amp;nummers tonen</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="531"/>
         <source>Highlight s&amp;yntax by default</source>
-        <translation>S&amp;yntax altijd markeren</translation>
+        <translation>S&amp;yntaxis markeren</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="691"/>
         <source>Dark c&amp;olor scheme</source>
-        <translation>D&amp;onker thema</translation>
+        <translation>D&amp;onker thema gebruiken</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="726"/>
@@ -1836,14 +1836,14 @@ executable, the file will be executed by clicking
 the Run button, that appears on the toolbar/filemenu
 when needed, or by its shortcut Ctrl+E. Then, the
 process could be killed by Ctrl+Alt+E.</source>
-        <translation>Dit gaat alleen over uitvoerbare bestanden die geschreven
-zijn in scripttalen als Shell en Python.
+        <translation>Dit is alleen van toepassing op uitvoerbare bestanden die
+geschreven zijn in scripttalen als Shell en Python.
 
 Als dit wordt aangekruist en het geopende bestand is
 uitvoerbaar, dan wordt het bestand uitgevoerd na een klik
-op de knop &apos;Uitvoeren&apos;, die verschijnt op de werkbalk/in het bestandsmenu
-indien nodig, of middels de sneltoets Ctrl+E. Het proces kan daarna worden
-afgebroken met Ctrl+Alt+E.</translation>
+op de knop ‘Uitvoeren’. Deze knop verschijnt op de werkbalk/
+in het bestandsmenu indien nodig, of kan worden geactiveerd met Ctrl+E.
+Het proces kan daarna worden afgebroken met Ctrl+Alt+E.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="688"/>
@@ -1918,7 +1918,7 @@ MMM dd, yyyy, hh:mm:ss</translation>
     <message>
         <location filename="../../prefDialog.ui" line="863"/>
         <source>Thick text cursor</source>
-        <translation>Dikke tekstcursor</translation>
+        <translation>Dikke tekstcursor gebruiken</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="870"/>
@@ -1938,9 +1938,9 @@ cursor zich in de tekstweergave bevindt?</translation>
         <source>A Hunspell dictionary has a name that ends with &quot;.dic&quot;
 and should be alongside an affix file with the same
 name but ending with &quot;.aff&quot;.</source>
-        <translation>Een Hunspell-woordenboek draagt een naam die eindigt op &apos;.dic&apos;
+        <translation>Een Hunspell-woordenboek draagt een naam die eindigt op ‘.dic’
 en moet worden meegeleverd met een affix-bestand met dezelfde
-naam, maar eindigend op &apos;.aff&apos;.</translation>
+naam, maar eindigend op ‘.aff’.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="894"/>
@@ -1995,10 +1995,10 @@ This can be useful under certain circumstances,
 e.g. for changing the time stamp or removing the
 trailing spaces of a text file.</source>
         <translation>Als dit wordt aangekruist, dan kan de knop/het menu-item
-&apos;Opslaan&apos; ook worden gebruikt als het geopende bestand niet
+‘Opslaan’ ook worden gebruikt als het geopende bestand niet
 bewerkt is.
 
-Dit kan handig zijn om bijv. de tijdstempel te wijzigen of de
+Dit kan bijv. handig zijn om de tijdstempel te wijzigen of
 achterliggende spaties te verwijderen uit een tekstbestand.</translation>
     </message>
     <message>
@@ -2053,12 +2053,12 @@ geopend als ze in FeatherPad worden geplakt.</translation>
         <location filename="../../prefDialog.ui" line="1393"/>
         <location filename="../../prefDialog.ui" line="1418"/>
         <source>Default</source>
-        <translation>Standaard</translation>
+        <translation>Standaardwaarden</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1316"/>
         <source>Syntax Colors</source>
-        <translation>Syntaxkleuren</translation>
+        <translation>Syntaxiskleuren</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1332"/>
@@ -2089,7 +2089,7 @@ geopend als ze in FeatherPad worden geplakt.</translation>
     <message>
         <location filename="../../prefDialog.ui" line="1415"/>
         <source>Restore default syntax colors.</source>
-        <translation>Herstel de standaard syntaxkleuren.</translation>
+        <translation>Herstel de standaard syntaxiskleuren.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1450"/>
@@ -2184,12 +2184,12 @@ om een sneltoets te wissen.</translation>
     <message>
         <location filename="../../pref.cpp" line="563"/>
         <source>Application restart is needed for changes to take effect.</source>
-        <translation>Herstart FeatherPad om de wijzigingen toe te passen.</translation>
+        <translation>Herstart FeatherPad om de wijziging(en) toe te passen.</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="582"/>
         <source>Window reopening is needed for changes to take effect.</source>
-        <translation>Herstart FeatherPad om de wijzigingen toe te passen.</translation>
+        <translation>Herstart FeatherPad om de wijziging(en) toe te passen.</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="1370"/>
@@ -2215,7 +2215,7 @@ om een sneltoets te wissen.</translation>
         <location filename="../../pref.cpp" line="453"/>
         <location filename="../../pref.cpp" line="1736"/>
         <source>Select Syntax Color</source>
-        <translation>Kies een syntaxkleur</translation>
+        <translation>Kies een syntaxiskleur</translation>
     </message>
 </context>
 <context>
