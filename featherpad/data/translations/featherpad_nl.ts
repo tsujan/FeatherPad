@@ -1373,7 +1373,7 @@
     <message>
         <location filename="../../prefDialog.ui" line="75"/>
         <source>Remember window &amp;size on closing</source>
-        <translation>Ven&amp;sterafmetingen onthouden bij sluiten</translation>
+        <translation>Ven&amp;sterafmetingen bewaren na afsluiten</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="84"/>
@@ -1386,7 +1386,7 @@
     <message>
         <location filename="../../prefDialog.ui" line="87"/>
         <source>Start with this size: </source>
-        <translation>Opstarten met deze afmetingen: </translation>
+        <translation>Standaardafmetingen: </translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="100"/>
@@ -1409,7 +1409,7 @@ en werkt mogelijk niet met sommige vensterbeheerders.</translation>
     <message>
         <location filename="../../prefDialog.ui" line="152"/>
         <source>Remember window &amp;position on closing</source>
-        <translation>Venster&amp;positie onthouden bij sluiten</translation>
+        <translation>Venster&amp;positie bewaren na afsluiten</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="159"/>
@@ -1431,42 +1431,42 @@ maar zonder tabbladen.</translation>
     <message>
         <location filename="../../prefDialog.ui" line="200"/>
         <source>Do not show &amp;toolbar</source>
-        <translation>Werkbalk niet &amp;tonen</translation>
+        <translation>We&amp;rkbalk verbergen</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="207"/>
         <source>If the menubar is hidden,
 a menu button appears on the toolbar.</source>
         <translation>Als de menubalk verborgen is,
-dan verschijnt er een menuknop op de werkbalk.</translation>
+verschijnt er een menuknop op de werkbalk.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="211"/>
         <source>Do not show &amp;menubar</source>
-        <translation>&amp;Menubalk niet tonen</translation>
+        <translation>&amp;Menubalk verbergen</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="218"/>
         <source>Menubar accelerators are activated by Alt
 and may interfere with customized shortcuts.</source>
-        <translation>Menubalksneltoetsen kunnen worden geactiveerd
+        <translation>Menu-sneltoetsen kunnen worden geactiveerd
 met Alt en kunnen botsen met aangepaste sneltoetsen.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="222"/>
         <source>Disable menubar accelerators</source>
-        <translation>Menubalksneltoetsen uitschakelen</translation>
+        <translation>Menu-sneltoetsen uitschakelen</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="229"/>
         <source>Hide search &amp;bar by default</source>
-        <translation>Zoek&amp;balk standaard verbergen</translation>
+        <translation>Zoek&amp;balk verbergen</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="236"/>
         <source>By default, each search entry
 has a separate search history.</source>
-        <translation>Standaard heeft elke zoekterm
+        <translation>Standaard heeft elke zoekopdracht
 zijn eigen geschiedenis.</translation>
     </message>
     <message>
@@ -1493,7 +1493,7 @@ zijn eigen geschiedenis.</translation>
     <message>
         <location filename="../../prefDialog.ui" line="286"/>
         <source>Tab position: </source>
-        <translation>Tabbladpositie: </translation>
+        <translation>Tabbladlocatie: </translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="297"/>
@@ -1503,17 +1503,17 @@ zijn eigen geschiedenis.</translation>
     <message>
         <location filename="../../prefDialog.ui" line="302"/>
         <source>South</source>
-        <translation>Zuidelijk</translation>
+        <translation>Onderaan</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="307"/>
         <source>West</source>
-        <translation>Westelijk</translation>
+        <translation>Links</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="312"/>
         <source>East</source>
-        <translation>Oostelijk</translation>
+        <translation>Rechts</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="338"/>
@@ -1733,7 +1733,7 @@ getoond in een pop-upvenster.</translation>
     <message>
         <location filename="../../prefDialog.ui" line="1140"/>
         <source>Start with this command: </source>
-        <translation>Opstarten met deze opdracht: </translation>
+        <translation>Opstartopdracht: </translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1159"/>
@@ -1763,7 +1763,7 @@ getoond in een pop-upvenster.</translation>
     <message>
         <location filename="../../prefDialog.ui" line="163"/>
         <source>Start with side-pane mode</source>
-        <translation>Opstarten met zijpaneelmodus</translation>
+        <translation>Zijpaneel altijd tonen</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="351"/>
@@ -1794,7 +1794,7 @@ tabblad te verslepen.</translation>
     <message>
         <location filename="../../prefDialog.ui" line="477"/>
         <source>&amp;Wrap lines by default</source>
-        <translation>Regels standaard &amp;afbreken</translation>
+        <translation>Regels &amp;afbreken</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="484"/>
