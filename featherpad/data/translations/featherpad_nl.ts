@@ -1047,7 +1047,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="3109"/>
         <source>Do you want to use &lt;b&gt;MS Windows&lt;/b&gt; end-of-lines?</source>
-        <translation>Wilt u &lt;b&gt;MS Windows&lt;/b&gt;-compatibele regeleinden gebruiken?</translation>
+        <translation>Wil je &lt;b&gt;MS Windows&lt;/b&gt;-compatibele regeleinden gebruiken?</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3110"/>
@@ -1268,7 +1268,7 @@
     <message>
         <location filename="../../syntax.cpp" line="298"/>
         <source>The size limit for syntax highlighting is exceeded.</source>
-        <translation>Het groottelimiet voor syntaxismarkering is overschreden.</translation>
+        <translation>Het omvanglimiet van syntaxismarkering is overschreden.</translation>
     </message>
 </context>
 <context>
@@ -1615,7 +1615,7 @@ in de geselecteerde tekst.</translation>
     <message>
         <location filename="../../prefDialog.ui" line="524"/>
         <source>Selection highlighting</source>
-        <translation>Selectiemarkering</translation>
+        <translation>Selectie markeren</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="587"/>
@@ -2384,22 +2384,22 @@ in de opgeslagen sessie.</translation>
     <message>
         <location filename="../../session.cpp" line="333"/>
         <source>Do you really want to remove all saved sessions?</source>
-        <translation>Weet u zeker dat u alle opgeslagen sessies wilt verwijderen?</translation>
+        <translation>Weet je zeker dat je alle opgeslagen sessies wilt wissen?</translation>
     </message>
     <message>
         <location filename="../../session.cpp" line="339"/>
         <source>Do you really want to remove the selected sessions?</source>
-        <translation>Weet u zeker dat u de geselecteerde sessies wilt verwijderen?</translation>
+        <translation>Weet je zeker dat je de geselecteerde sessies wilt wissen?</translation>
     </message>
     <message>
         <location filename="../../session.cpp" line="341"/>
         <source>Do you really want to remove the selected session?</source>
-        <translation>Weet u zeker dat u de geselecteerde sessie wilt verwijderen?</translation>
+        <translation>Weet je zeker dat je de geselecteerde sessie wilt wissen?</translation>
     </message>
     <message>
         <location filename="../../session.cpp" line="346"/>
         <source>A session with the same name exists.&lt;br&gt;Do you want to overwrite it?</source>
-        <translation>Er is al een sessie met deze naam.&lt;br&gt;Wilt u deze overschrijven?</translation>
+        <translation>Er is al een sessie met deze naam.&lt;br&gt;Wil je deze overschrijven?</translation>
     </message>
 </context>
 <context>
