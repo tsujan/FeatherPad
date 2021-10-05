@@ -1446,12 +1446,13 @@ a menu button appears on the toolbar.</source>
         <location filename="../../prefDialog.ui" line="218"/>
         <source>Menubar accelerators are activated by Alt
 and may interfere with customized shortcuts.</source>
-        <translation type="unfinished"></translation>
+        <translation>菜单栏加速器由 Alt 激活
+并且可能会干扰自定义的快捷方式。</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="222"/>
         <source>Disable menubar accelerators</source>
-        <translation type="unfinished"></translation>
+        <translation>禁用菜单栏加速器</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="229"/>
