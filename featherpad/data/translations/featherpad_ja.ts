@@ -1453,7 +1453,8 @@ a menu button appears on the toolbar.</source>
         <location filename="../../prefDialog.ui" line="218"/>
         <source>Menubar accelerators are activated by Alt
 and may interfere with customized shortcuts.</source>
-        <translation type="unfinished"></translation>
+        <translation>メニューバーのアクセラレーターは Alt キーによってアクティブになり
+カスタマイズされたショートカットと干渉する可能性があります。</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="222"/>
