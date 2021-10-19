@@ -50,9 +50,9 @@ SessionDialog::SessionDialog (QWidget *parent):QDialog (parent), ui (new Ui::Ses
     if (allItems_.count() > 0)
     {
         /* use ListWidgetItem to add items with a natural sorting */
-        for (const auto &irem : qAsConst (allItems_))
+        for (const auto &item : qAsConst (allItems_))
         {
-            ListWidgetItem *lwi = new ListWidgetItem (irem, ui->listWidget);
+            ListWidgetItem *lwi = new ListWidgetItem (item, ui->listWidget);
             ui->listWidget->addItem (lwi);
         }
         ui->listWidget->setCurrentRow (0);
@@ -510,9 +510,9 @@ void SessionDialog::reallyApplyFilter()
     ui->listWidget->clear();
     QRegularExpression exp (ui->filterLineEdit->text(), QRegularExpression::CaseInsensitiveOption);
     const QStringList filtered = allItems_.filter (exp);
-    for (const auto &irem : filtered)
+    for (const auto &item : filtered)
     {
-        ListWidgetItem *lwi = new ListWidgetItem (irem, ui->listWidget);
+        ListWidgetItem *lwi = new ListWidgetItem (item, ui->listWidget);
         ui->listWidget->addItem (lwi);
     }
     /* finally, restore the selection as far as possible */

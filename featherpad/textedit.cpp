@@ -1030,6 +1030,18 @@ void TextEdit::keyPressEvent (QKeyEvent *event)
             return;
         }
     }
+    else if (event->key() == Qt::Key_PageDown || event->key() == Qt::Key_PageUp)
+    {
+        if (event->modifiers() == Qt::ControlModifier)
+        {
+            if (QScrollBar* vbar = verticalScrollBar())
+            { // scroll without changing the cursor position
+                vbar->setValue(vbar->value() + (event->key() == Qt::Key_PageDown ? 1 : -1) * vbar->pageStep());
+                event->accept();
+                return;
+            }
+        }
+    }
     else if (event->key() == Qt::Key_Tab)
     {
         QTextCursor cursor = textCursor();

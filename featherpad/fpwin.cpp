@@ -353,7 +353,7 @@ void FPwin::closeEvent (QCloseEvent *event)
         Config& config = singleton->getConfig();
         if (config.getRemSize() && windowState() == Qt::WindowNoState)
             config.setWinSize (size());
-        if (config.getRemPos())
+        if (config.getRemPos() && !static_cast<FPsingleton*>(qApp)->isWayland())
             config.setWinPos (pos());
         if (sidePane_ && config.getRemSplitterPos())
         {
@@ -548,7 +548,7 @@ void FPwin::applyConfigOnStarting()
         resize (startSize);
     }
 
-    if (config.getRemPos())
+    if (config.getRemPos() && !static_cast<FPsingleton*>(qApp)->isWayland())
         move (config.getWinPos());
 
     ui->mainToolBar->setVisible (!config.getNoToolbar());
@@ -677,7 +677,7 @@ void FPwin::applyConfigOnStarting()
                     /* QPLainTextEdit */
         reserved << QKeySequence (Qt::CTRL | Qt::SHIFT | Qt::Key_Z).toString() << QKeySequence (Qt::CTRL | Qt::Key_Z).toString() << QKeySequence (Qt::CTRL | Qt::Key_X).toString() << QKeySequence (Qt::CTRL | Qt::Key_C).toString() << QKeySequence (Qt::CTRL | Qt::Key_V).toString() << QKeySequence (Qt::CTRL | Qt::Key_A).toString()
                  << QKeySequence (Qt::SHIFT | Qt::Key_Insert).toString() << QKeySequence (Qt::SHIFT | Qt::Key_Delete).toString() << QKeySequence (Qt::CTRL | Qt::Key_Insert).toString()
-                 << QKeySequence (Qt::CTRL | Qt::Key_Left).toString() << QKeySequence (Qt::CTRL | Qt::Key_Right).toString() << QKeySequence (Qt::CTRL | Qt::Key_Up).toString() << QKeySequence (Qt::CTRL | Qt::Key_Down).toString()
+                 << QKeySequence (Qt::CTRL | Qt::Key_Left).toString() << QKeySequence (Qt::CTRL | Qt::Key_Right).toString() << QKeySequence (Qt::CTRL | Qt::Key_Up).toString() << QKeySequence (Qt::CTRL | Qt::Key_Down).toString() << QKeySequence (Qt::CTRL | Qt::Key_PageUp).toString() << QKeySequence (Qt::CTRL | Qt::Key_PageDown).toString()
                  << QKeySequence (Qt::CTRL | Qt::Key_Home).toString() << QKeySequence (Qt::CTRL | Qt::Key_End).toString()
                  << QKeySequence (Qt::CTRL | Qt::SHIFT | Qt::Key_Up).toString() << QKeySequence (Qt::CTRL | Qt::SHIFT | Qt::Key_Down).toString()
                  << QKeySequence (Qt::META | Qt::Key_Up).toString() << QKeySequence (Qt::META | Qt::Key_Down).toString() << QKeySequence (Qt::META | Qt::SHIFT | Qt::Key_Up).toString() << QKeySequence (Qt::META | Qt::SHIFT | Qt::Key_Down).toString()
@@ -3926,8 +3926,8 @@ void FPwin::fontDialog()
     QFont currentFont = textEdit->getDefaultFont();
     FontDialog fd (currentFont, this);
     fd.setWindowModality (Qt::WindowModal);
-    fd.move (x() + width()/2 - fd.width()/2,
-             y() + height()/2 - fd.height()/ 2);
+    /*fd.move (x() + width()/2 - fd.width()/2,
+             y() + height()/2 - fd.height()/ 2);*/
     if (fd.exec())
     {
         QFont newFont = fd.selectedFont();
@@ -4772,8 +4772,13 @@ void FPwin::detachTab()
      *******************************************************************/
 
     FPsingleton *singleton = static_cast<FPsingleton*>(qApp);
-    FPwin * dropTarget = singleton->newWin();
-    dropTarget->closeTabAtIndex (0);
+    FPwin *dropTarget = singleton->newWin();
+
+    /* remove the single empty tab, as in closeTabAtIndex() */
+    dropTarget->deleteTabPage (0, false, false);
+    dropTarget->ui->actionReload->setDisabled (true);
+    dropTarget->ui->actionSave->setDisabled (true);
+    dropTarget->enableWidgets (false);
 
     /* first, set the new info... */
     dropTarget->lastFile_ = textEdit->getFileName();
