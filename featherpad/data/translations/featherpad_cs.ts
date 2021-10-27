@@ -1151,13 +1151,13 @@ tento řádek (Ctrl+Shift+J)</translation>
         <location filename="../../fpwin.cpp" line="5253"/>
         <location filename="../../fpwin.cpp" line="5364"/>
         <source>Copy Final Target Path</source>
-        <translation type="unfinished"></translation>
+        <translation>Zkopírovat popis umístění konečného cíle</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5257"/>
         <location filename="../../fpwin.cpp" line="5368"/>
         <source>Open Final Target Here</source>
-        <translation type="unfinished"></translation>
+        <translation>Otevřít konečný cíl zde</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5274"/>
@@ -1450,12 +1450,13 @@ na pruhu nástrojů se zobrazí tlačítko nabídky.</translation>
         <location filename="../../prefDialog.ui" line="218"/>
         <source>Menubar accelerators are activated by Alt
 and may interfere with customized shortcuts.</source>
-        <translation type="unfinished"></translation>
+        <translation>Akcelerátory pruhu nabídek jsou aktivovány klávesou Alt
+a mohu kolidovat s uživatelsky určenými zkratkami.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="222"/>
         <source>Disable menubar accelerators</source>
-        <translation type="unfinished"></translation>
+        <translation>Vypnout akcelerátory pruhu nabídek</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="229"/>
