@@ -77,14 +77,25 @@ if(NOT WITHOUT_X11 AND UNIX AND NOT APPLE AND NOT HAIKU)
   endif()
   add_definitions(-DHAS_X11)
 else()
-  include_directories(${CMAKE_SOURCE_DIR} ${CMAKE_CURRENT_BINARY_DIR}
-                      ${Qt5Core_INCLUDE_DIRS}
-                      ${Qt5Gui_INCLUDE_DIRS}
-                      ${Qt5Widgets_INCLUDE_DIRS}
-                      ${Qt5Svg_INCLUDE_DIRS}
-                      ${Qt5Network_INCLUDE_DIRS}
-                      ${Qt5PrintSupport_INCLUDE_DIRS}
-                      ${HUNSPELL_INCLUDE_DIRS})
+    if(QT_VERSION_MAJOR EQUAL 6)
+      include_directories(${CMAKE_SOURCE_DIR} ${CMAKE_CURRENT_BINARY_DIR}
+                          ${Qt6Core_INCLUDE_DIRS}
+                          ${Qt6Gui_INCLUDE_DIRS}
+                          ${Qt6Widgets_INCLUDE_DIRS}
+                          ${Qt6Svg_INCLUDE_DIRS}
+                          ${Qt6Network_INCLUDE_DIRS}
+                          ${Qt6PrintSupport_INCLUDE_DIRS}
+                          ${HUNSPELL_INCLUDE_DIRS})
+    else()
+      include_directories(${CMAKE_SOURCE_DIR} ${CMAKE_CURRENT_BINARY_DIR}
+                          ${Qt5Core_INCLUDE_DIRS}
+                          ${Qt5Gui_INCLUDE_DIRS}
+                          ${Qt5Widgets_INCLUDE_DIRS}
+                          ${Qt5Svg_INCLUDE_DIRS}
+                          ${Qt5Network_INCLUDE_DIRS}
+                          ${Qt5PrintSupport_INCLUDE_DIRS}
+                          ${HUNSPELL_INCLUDE_DIRS})
+    endif()
 endif()
 
 if(HAIKU)
@@ -204,13 +215,23 @@ if(NOT WITHOUT_X11 AND UNIX AND NOT APPLE AND NOT HAIKU)
                                      ${HUNSPELL_LIBRARIES})
   endif()
 else()
-  target_link_libraries(featherpad ${Qt5Core_LIBRARIES}
-                                   ${Qt5Gui_LIBRARIES}
-                                   ${Qt5Widgets_LIBRARIES}
-                                   ${Qt5Svg_LIBRARIES}
-                                   ${Qt5Network_LIBRARIES}
-                                   ${Qt5PrintSupport_LIBRARIES}
-                                   ${HUNSPELL_LIBRARIES})
+    if(QT_VERSION_MAJOR EQUAL 6)
+      target_link_libraries(featherpad ${Qt6Core_LIBRARIES}
+                                       ${Qt6Gui_LIBRARIES}
+                                       ${Qt6Widgets_LIBRARIES}
+                                       ${Qt6Svg_LIBRARIES}
+                                       ${Qt6Network_LIBRARIES}
+                                       ${Qt6PrintSupport_LIBRARIES}
+                                       ${HUNSPELL_LIBRARIES})
+    else()
+      target_link_libraries(featherpad ${Qt5Core_LIBRARIES}
+                                       ${Qt5Gui_LIBRARIES}
+                                       ${Qt5Widgets_LIBRARIES}
+                                       ${Qt5Svg_LIBRARIES}
+                                       ${Qt5Network_LIBRARIES}
+                                       ${Qt5PrintSupport_LIBRARIES}
+                                       ${HUNSPELL_LIBRARIES})
+    endif()
 endif()
 
 # installation

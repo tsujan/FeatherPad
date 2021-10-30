@@ -24,7 +24,11 @@
 #include <QStringList>
 #include <QRegularExpression>
 
-#include <hunspell/hunspell.hxx>
+#if !defined(Q_OS_MACOS)
+    #include <hunspell/hunspell.hxx>
+#else
+    #include <hunspell.hxx>
+#endif
 
 namespace FeatherPad {
 
