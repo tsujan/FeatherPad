@@ -862,7 +862,7 @@
         <location filename="../../fpwin.cpp" line="4422"/>
         <location filename="../../fpwin.cpp" line="4437"/>
         <source>Sel. Chars</source>
-        <translation>Selec. Caràcters</translation>
+        <translation>Caràcters Seleccionats</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1495"/>
@@ -949,7 +949,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="2575"/>
         <source>Some file(s) could not be opened!</source>
-        <translation>No es poden obrir alguns fitxers!</translation>
+        <translation>No s&apos;han pogut obrir alguns fitxers!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2576"/>
@@ -981,7 +981,7 @@
         <location filename="../../fpwin.cpp" line="2660"/>
         <source>Root Instance</source>
         <translatorcomment>Instància.root ?</translatorcomment>
-        <translation>Instància arrel (root)</translation>
+        <translation>Instància. arrel (root)</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2732"/>
@@ -1317,6 +1317,7 @@
     <message>
         <location filename="../../fontDialog.ui" line="89"/>
         <source>Weight:</source>
+        <translatorcomment>Millor Pes-?</translatorcomment>
         <translation>Gruix:</translation>
     </message>
     <message>
@@ -1438,7 +1439,7 @@ però sense funcionalitat de pestanya.</translation>
     <message>
         <location filename="../../prefDialog.ui" line="200"/>
         <source>Do not show &amp;toolbar</source>
-        <translation>No mostris la barra &amp;d&apos;eines</translation>
+        <translation>&amp;No mostra la barra d&apos;eines</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="207"/>
@@ -2088,7 +2089,7 @@ si s&apos;enganxen dins de FeatherPad.</translation>
     <message>
         <location filename="../../prefDialog.ui" line="1427"/>
         <source>Restore default syntax colors.</source>
-        <translation>Restaura els colors de la sintaxi per defecte.</translation>
+        <translation>Restaura els colors per defecte de la sintaxi.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1462"/>
