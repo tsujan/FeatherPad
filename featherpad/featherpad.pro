@@ -121,7 +121,8 @@ else:unix:!macx:!haiku:!os2 {
 }
 
 unix {
-  LIBS += -lhunspell
+  CONFIG += link_pkgconfig
+  PKGCONFIG += hunspell
   #TRANSLATIONS
   exists($$[QT_INSTALL_BINS]/lrelease) {
     TRANSLATIONS = $$system("find data/translations/ -name 'featherpad_*.ts'")
