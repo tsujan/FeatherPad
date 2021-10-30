@@ -23,6 +23,7 @@
 #include <QTextStream>
 #include <QStringList>
 #include <QRegularExpression>
+
 #include <hunspell.hxx>
 
 namespace FeatherPad {
