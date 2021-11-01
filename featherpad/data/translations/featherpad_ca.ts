@@ -333,7 +333,7 @@
     <message>
         <location filename="../../fp.ui" line="716"/>
         <source>&amp;Auto-Indentation</source>
-        <translation>&amp;Sagnat automátic</translation>
+        <translation>&amp;Sagnat automàtic</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="719"/>
@@ -486,7 +486,7 @@
         <location filename="../../fp.ui" line="1157"/>
         <location filename="../../fp.ui" line="1160"/>
         <source>To Start Case</source>
-        <translation>Primera lletra majúscula</translation>
+        <translation>Inicial Majúscula</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1168"/>
@@ -2189,7 +2189,7 @@ una drecera en el mode d&apos;edició.</translation>
     <message>
         <location filename="../../pref.cpp" line="582"/>
         <source>Window reopening is needed for changes to take effect.</source>
-        <translation>Window reopening is needed for changes to take effect.</translation>
+        <translation>Cal reobrir la finestra perquè els canvis tinguin efecte.</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="1370"/>
