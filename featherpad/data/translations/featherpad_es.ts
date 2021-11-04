@@ -1844,7 +1844,7 @@ de script como Shell y Python.
 
 Si está marcado y el archivo abierto es ejecutable, el archivo
 se ejecutará haciendo clic en el botón Ejecutar, que aparece
-en la  barra de herramientas cuando sea necesario, o mediante
+en la barra de herramientas cuando sea necesario, o mediante
 el acceso directo Ctrl+E.
 
 El proceso ejecutado podra ser finalizado con Ctrl+Alt+E.</translation>
@@ -1869,7 +1869,7 @@ Needs window reopening to take effect.</source>
 blanco, mientras que 0 significa negro.
 
 Debe tener en cuenta que:
-Para un fondo claro,  el valor debe estar entre 230 y 255
+Para un fondo claro, el valor debe estar entre 230 y 255
 Para un fondo oscuro, el valor debe estar entre 0 y 50
 
 Los cambios tendrán efecto después de reiniciar la aplicación.</translation>
