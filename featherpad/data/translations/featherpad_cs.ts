@@ -443,7 +443,7 @@ tento řádek (Ctrl+Shift+J)</translation>
     <message>
         <location filename="../../fp.ui" line="1119"/>
         <source>Side-Pane</source>
-        <translation>Boční podokno</translation>
+        <translation>Postranní podokno</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1122"/>
@@ -831,7 +831,7 @@ tento řádek (Ctrl+Shift+J)</translation>
     <message>
         <location filename="../../fpwin.cpp" line="1269"/>
         <source>&amp;Cancel</source>
-        <translation>&amp;Zrušit</translation>
+        <translation>&amp;Storno</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1271"/>
@@ -1042,7 +1042,7 @@ tento řádek (Ctrl+Shift+J)</translation>
     <message>
         <location filename="../../fpwin.cpp" line="3169"/>
         <source>Cancel</source>
-        <translation>Zrušit</translation>
+        <translation>Storno</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3170"/>
@@ -2109,7 +2109,7 @@ modifikátor v režimu úpravy.</translation>
     <message>
         <location filename="../../pref.cpp" line="110"/>
         <source>Double click a color to change it.</source>
-        <translation>Barvu změníte dvojklepnutím na ni.</translation>
+        <translation>Barvu změníte dvojklikem na ni.</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="306"/>
@@ -2456,7 +2456,7 @@ zahrnuty všechny v oknech otevřené soubory.</translation>
     <message>
         <location filename="../../textedit.cpp" line="147"/>
         <source>Double click to center current line</source>
-        <translation>Dvojklepnutím stávající řádek vystředíte</translation>
+        <translation>Dvojklikem stávající řádek vystředíte</translation>
     </message>
 </context>
 </TS>
