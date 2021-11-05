@@ -147,6 +147,8 @@ If the cursor is inside the text view, the speed of (mouse) wheel scrolling will
 
 For fast wheel scrolling, put the cursor on the vertical scrollbar. Then, each step of wheel turn moves the view by one page. If the Shift key is also pressed, the view will be moved by half the page.
 
+Also, see the section Keyboard Shortcuts → Scrolling, below.
+
 ********************
 *   Text Tabbing   *
 ********************
@@ -222,8 +224,10 @@ Ctrl+Alt+E          Exit (kill) the above process immediately
 
 Scrolling:
 ***********
-Shift+Mouse Wheel   Scroll up/down by one wrapped line with mouse wheel
-Ctrl+Up/Down        Scroll up/down by one wrapped line without moving text cursor
+Shift+Mouse Wheel     If cursor is inside view, scroll up/down by one wrapped line;
+                      if cursor is on vertical scrollbar, scroll up/down by half the page
+Ctrl+Up/Down          Scroll up/down by one wrapped line without moving text cursor
+Ctrl+PageUp/PageDown  Scroll up/down by one page without moving text cursor
 
 Moving text cursor:
 ********************
@@ -237,6 +241,7 @@ Up/Down             Go to the same position in the previous/next wrapped line
 Shift+Up/Down       Go to the same position in the previous/next wrapped line while selecting text
 Meta+Up/Down        Go to the same position in the previous/next (real) line
 Meta+Shift+Up/Down  Go to the same position in the previous/next (real) line while selecting text
+PageUp/PageDown     Go to the same position in the previous/next page
 
 Text tabulation:
 *****************

@@ -1,20 +1,33 @@
-set(QT_MINIMUM_VERSION "5.12.0")
+set(QT5_MINIMUM_VERSION "5.12.0")
+set(QT6_MINIMUM_VERSION "6.2.0")
 set(HUNSPELL_MINIMUM_VERSION "1.6")
 
 set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${CMAKE_SOURCE_DIR}/cmake/Modules/")
 
-find_package(Qt5Core "${QT_MINIMUM_VERSION}" REQUIRED)
-find_package(Qt5Gui "${QT_MINIMUM_VERSION}" REQUIRED)
-find_package(Qt5Widgets "${QT_MINIMUM_VERSION}" REQUIRED)
-find_package(Qt5Svg "${QT_MINIMUM_VERSION}" REQUIRED)
-find_package(Qt5Network "${QT_MINIMUM_VERSION}" REQUIRED)
-find_package(Qt5PrintSupport "${QT_MINIMUM_VERSION}" REQUIRED)
+if(NOT ENABLE_QT5)
+  find_package(QT NAMES Qt6 Qt5 COMPONENTS Core REQUIRED)
+  find_package(Qt${QT_VERSION_MAJOR} COMPONENTS Core REQUIRED)
+else()
+  set(QT_VERSION_MAJOR 5)
+endif()
+
+if(QT_VERSION_MAJOR EQUAL 6)
+  find_package(Qt6Core "${QT6_MINIMUM_VERSION}" REQUIRED)
+else()
+  find_package(Qt5Core "${QT5_MINIMUM_VERSION}" REQUIRED)
+endif()
+
+find_package(Qt${QT_VERSION_MAJOR}Gui REQUIRED)
+find_package(Qt${QT_VERSION_MAJOR}Widgets REQUIRED)
+find_package(Qt${QT_VERSION_MAJOR}Svg REQUIRED)
+find_package(Qt${QT_VERSION_MAJOR}Network REQUIRED)
+find_package(Qt${QT_VERSION_MAJOR}PrintSupport REQUIRED)
 
 # for spell checking (see FindHUNSPELL.cmake)
 find_package(HUNSPELL "${HUNSPELL_MINIMUM_VERSION}" REQUIRED)
 
 # optional localization
-find_package(Qt5LinguistTools QUIET)
+find_package(Qt${QT_VERSION_MAJOR}LinguistTools QUIET)
 
 # OS/2 needs an additional lib and tune the processor
 if(OS2)
@@ -24,7 +37,9 @@ endif()
 
 # X11 for Linux/Unix
 if(NOT WITHOUT_X11 AND UNIX AND NOT APPLE AND NOT HAIKU)
-  find_package(Qt5X11Extras "${QT_MINIMUM_VERSION}" REQUIRED)
+  if(QT_VERSION_MAJOR EQUAL 5)
+    find_package(Qt5X11Extras "${QT5_MINIMUM_VERSION}" REQUIRED)
+  endif()
   find_package(X11 REQUIRED)
 endif()
 
@@ -38,25 +53,37 @@ set(CMAKE_INCLUDE_CURRENT_DIR ON)
 #find_library(MAGIC_LIBRARY magic $ENV{MAGIC_LIB_PATH})
 
 if(NOT WITHOUT_X11 AND UNIX AND NOT APPLE AND NOT HAIKU)
-  include_directories(${CMAKE_SOURCE_DIR} ${CMAKE_CURRENT_BINARY_DIR}
-                      ${Qt5Core_INCLUDE_DIRS}
-                      ${Qt5Gui_INCLUDE_DIRS}
-                      ${Qt5Widgets_INCLUDE_DIRS}
-                      ${Qt5Svg_INCLUDE_DIRS}
-                      ${Qt5X11Extras_INCLUDE_DIRS}
-                      ${Qt5Network_INCLUDE_DIRS}
-                      ${Qt5PrintSupport_INCLUDE_DIRS}
-                      ${X11_INCLUDE_DIR}
-                      ${HUNSPELL_INCLUDE_DIRS})
+  if(QT_VERSION_MAJOR EQUAL 6)
+    include_directories(${CMAKE_SOURCE_DIR} ${CMAKE_CURRENT_BINARY_DIR}
+                        ${Qt6Core_INCLUDE_DIRS}
+                        ${Qt6Gui_INCLUDE_DIRS}
+                        ${Qt6Widgets_INCLUDE_DIRS}
+                        ${Qt6Svg_INCLUDE_DIRS}
+                        ${Qt6Network_INCLUDE_DIRS}
+                        ${Qt6PrintSupport_INCLUDE_DIRS}
+                        ${X11_INCLUDE_DIR}
+                        ${HUNSPELL_INCLUDE_DIRS})
+  else()
+    include_directories(${CMAKE_SOURCE_DIR} ${CMAKE_CURRENT_BINARY_DIR}
+                        ${Qt5Core_INCLUDE_DIRS}
+                        ${Qt5Gui_INCLUDE_DIRS}
+                        ${Qt5Widgets_INCLUDE_DIRS}
+                        ${Qt5Svg_INCLUDE_DIRS}
+                        ${Qt5X11Extras_INCLUDE_DIRS}
+                        ${Qt5Network_INCLUDE_DIRS}
+                        ${Qt5PrintSupport_INCLUDE_DIRS}
+                        ${X11_INCLUDE_DIR}
+                        ${HUNSPELL_INCLUDE_DIRS})
+  endif()
   add_definitions(-DHAS_X11)
 else()
   include_directories(${CMAKE_SOURCE_DIR} ${CMAKE_CURRENT_BINARY_DIR}
-                      ${Qt5Core_INCLUDE_DIRS}
-                      ${Qt5Gui_INCLUDE_DIRS}
-                      ${Qt5Widgets_INCLUDE_DIRS}
-                      ${Qt5Svg_INCLUDE_DIRS}
-                      ${Qt5Network_INCLUDE_DIRS}
-                      ${Qt5PrintSupport_INCLUDE_DIRS}
+                      ${Qt${QT_VERSION_MAJOR}Core_INCLUDE_DIRS}
+                      ${Qt${QT_VERSION_MAJOR}Gui_INCLUDE_DIRS}
+                      ${Qt${QT_VERSION_MAJOR}Widgets_INCLUDE_DIRS}
+                      ${Qt${QT_VERSION_MAJOR}Svg_INCLUDE_DIRS}
+                      ${Qt${QT_VERSION_MAJOR}Network_INCLUDE_DIRS}
+                      ${Qt${QT_VERSION_MAJOR}PrintSupport_INCLUDE_DIRS}
                       ${HUNSPELL_INCLUDE_DIRS})
 endif()
 
@@ -125,16 +152,24 @@ endif()
 set(HELP_FILE data/help)
 file(GLOB HELP_TR_FILES data/help_*)
 
-if(CMAKE_VERSION VERSION_LESS "3.10.0") # CMP0071 in 3.10: Let AUTOMOC and AUTOUIC process GENERATED files
-  qt5_wrap_cpp(EXTRA_HEADERS warningbar.h messagebox.h filedialog.h)
-else()
+if(QT_VERSION_MAJOR EQUAL 6)
   set(EXTRA_HEADERS warningbar.h messagebox.h filedialog.h)
+else()
+  if(CMAKE_VERSION VERSION_LESS "3.10.0") # CMP0071 in 3.10: Let AUTOMOC and AUTOUIC process GENERATED files
+    qt5_wrap_cpp(EXTRA_HEADERS warningbar.h messagebox.h filedialog.h)
+  else()
+    set(EXTRA_HEADERS warningbar.h messagebox.h filedialog.h)
+  endif()
 endif()
 
 # translations
-if(Qt5LinguistTools_FOUND)
+if(Qt${QT_VERSION_MAJOR}LinguistTools_FOUND)
   file(GLOB TS_FILES data/translations/featherpad_*.ts)
-  qt5_add_translation(QM_FILES ${TS_FILES})
+  if(QT_VERSION_MAJOR EQUAL 6)
+    qt6_add_translation(QM_FILES ${TS_FILES})
+  else()
+    qt5_add_translation(QM_FILES ${TS_FILES})
+  endif()
   add_executable(featherpad ${featherpad_SRCS} ${featherpad_RESOURCES} ${EXTRA_HEADERS} ${DESKTOP_FILE} ${QM_FILES})
   if(HAIKU)
     install(FILES ${QM_FILES} DESTINATION "${CMAKE_INSTALL_PREFIX}/translations")
@@ -143,27 +178,38 @@ if(Qt5LinguistTools_FOUND)
   elseif(UNIX OR OS2)
     install(FILES ${QM_FILES} DESTINATION "${CMAKE_INSTALL_PREFIX}/share/featherpad/translations")
   endif()
-else(Qt5LinguistTools_FOUND)
+else(Qt${QT_VERSION_MAJOR}LinguistTools_FOUND)
   add_executable(featherpad ${featherpad_SRCS} ${featherpad_RESOURCES} ${EXTRA_HEADERS} ${DESKTOP_FILE})
-endif(Qt5LinguistTools_FOUND)
+endif(Qt${QT_VERSION_MAJOR}LinguistTools_FOUND)
 
 if(NOT WITHOUT_X11 AND UNIX AND NOT APPLE AND NOT HAIKU)
-  target_link_libraries(featherpad ${Qt5Core_LIBRARIES}
-                                   ${Qt5Gui_LIBRARIES}
-                                   ${Qt5Widgets_LIBRARIES}
-                                   ${Qt5Svg_LIBRARIES}
-                                   ${Qt5X11Extras_LIBRARIES}
-                                   ${Qt5Network_LIBRARIES}
-                                   ${Qt5PrintSupport_LIBRARIES}
-                                   ${X11_LIBRARIES}
-                                   ${HUNSPELL_LIBRARIES})
+  if(QT_VERSION_MAJOR EQUAL 6)
+    target_link_libraries(featherpad ${Qt6Core_LIBRARIES}
+                                     ${Qt6Gui_LIBRARIES}
+                                     ${Qt6Widgets_LIBRARIES}
+                                     ${Qt6Svg_LIBRARIES}
+                                     ${Qt6Network_LIBRARIES}
+                                     ${Qt6PrintSupport_LIBRARIES}
+                                     ${X11_LIBRARIES}
+                                     ${HUNSPELL_LIBRARIES})
+  else()
+    target_link_libraries(featherpad ${Qt5Core_LIBRARIES}
+                                     ${Qt5Gui_LIBRARIES}
+                                     ${Qt5Widgets_LIBRARIES}
+                                     ${Qt5Svg_LIBRARIES}
+                                     ${Qt5X11Extras_LIBRARIES}
+                                     ${Qt5Network_LIBRARIES}
+                                     ${Qt5PrintSupport_LIBRARIES}
+                                     ${X11_LIBRARIES}
+                                     ${HUNSPELL_LIBRARIES})
+  endif()
 else()
-  target_link_libraries(featherpad ${Qt5Core_LIBRARIES}
-                                   ${Qt5Gui_LIBRARIES}
-                                   ${Qt5Widgets_LIBRARIES}
-                                   ${Qt5Svg_LIBRARIES}
-                                   ${Qt5Network_LIBRARIES}
-                                   ${Qt5PrintSupport_LIBRARIES}
+  target_link_libraries(featherpad ${Qt${QT_VERSION_MAJOR}Core_LIBRARIES}
+                                   ${Qt${QT_VERSION_MAJOR}Gui_LIBRARIES}
+                                   ${Qt${QT_VERSION_MAJOR}Widgets_LIBRARIES}
+                                   ${Qt${QT_VERSION_MAJOR}Svg_LIBRARIES}
+                                   ${Qt${QT_VERSION_MAJOR}Network_LIBRARIES}
+                                   ${Qt${QT_VERSION_MAJOR}PrintSupport_LIBRARIES}
                                    ${HUNSPELL_LIBRARIES})
 endif()
 

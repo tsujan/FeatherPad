@@ -94,7 +94,7 @@ void FPwin::setProgLang (TextEdit *textEdit)
             progLan = "sh";
         else if (fname.endsWith (".rb"))
             progLan = "ruby";
-        else if (fname.endsWith (".lua"))
+        else if (fname.endsWith (".lua") || fname.endsWith (".nelua"))
             progLan = "lua";
         else if (fname.endsWith (".py"))
             progLan = "python";

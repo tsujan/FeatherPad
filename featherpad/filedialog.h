@@ -24,6 +24,7 @@
 #include <QTreeView>
 #include <QTimer>
 #include <QShortcut>
+#include <QGuiApplication>
 
 namespace FeatherPad {
 
@@ -65,7 +66,7 @@ public:
 
 protected:
     void showEvent(QShowEvent * event) {
-        if (p && !native)
+        if (p && !native && QGuiApplication::platformName() != "wayland")
             QTimer::singleShot (0, this, &FileDialog::center);
         QFileDialog::showEvent (event);
     }

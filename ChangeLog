@@ -1,7 +1,15 @@
+V1.1.0
+---------
+ * Enabled experimental compilation against Qt6. With cmake, "ENABLE_QT5" should be set to "OFF" (as in `cmake .. -DENABLE_QT5=OFF`) — it's "ON" by default.
+
 V1.0.1
 ---------
  * Better inertial scrolling with touchpad and sensitive devices.
  * Scroll one page per wheel turn when the cursor is on the vertical scrollbar and half the page when Shift is also pressed.
+ * Detect special cases of UTF-16.
+ * Scroll the view up/down by one page without moving text cursor with Ctrl+PageUp/PageDown.
+ * Don't try to save or restore window position under Wayland because, otherwise, menus might appear at wrong positions.
+ * Fixed tab detaching when the window is closed with its last tab.
 
 V1.0.0
 ---------

@@ -1,5 +1,6 @@
 # FeatherPad for OS/2 (by josch1710)
 
+## Clipboard
 The Qt5 port doesn't support the system clipboard, yet
 (cf https://github.com/bitwiseworks/qtbase-os2/issues/123).
 Because of this, FeatherPad can't support the system clipboard, either.

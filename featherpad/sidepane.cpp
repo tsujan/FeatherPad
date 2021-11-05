@@ -1,5 +1,5 @@
 /*
- * Copyright (C) Pedram Pourang (aka Tsu Jan) 2017-2020 <tsujan2000@gmail.com>
+ * Copyright (C) Pedram Pourang (aka Tsu Jan) 2017-2021 <tsujan2000@gmail.com>
  *
  * FeatherPad is free software: you can redistribute it and/or modify it
  * under the terms of the GNU General Public License as published by the
@@ -34,8 +34,15 @@ bool ListWidgetItem::operator<(const QListWidgetItem &other) const {
     {
         int end1 = txt1.indexOf (QLatin1Char ('.'), start1);
         int end2 = txt2.indexOf (QLatin1Char ('.'), start2);
+#if (QT_VERSION < QT_VERSION_CHECK(6,0,0))
         QStringRef part1 = txt1.midRef (start1, end1 - start1);
         QStringRef part2 = txt2.midRef (start2, end2 - start2);
+#else
+        QString part1 = end1 == -1 ? txt1.sliced (start1, txt1.size() - start1)
+                                   : txt1.sliced (start1, end1 - start1);
+        QString part2 = end2 == -1 ? txt2.sliced (start2, txt2.size() - start2)
+                                   : txt2.sliced (start2, end2 - start2);
+#endif
         int comp = collator_.compare (part1, part2);
         if (comp == 0)
             comp = part1.size() - part2.size(); // a workaround for QCollator's bug
@@ -162,7 +169,11 @@ void ListWidget::mouseMoveEvent (QMouseEvent *event)
     if (event->button() == Qt::NoButton && !(event->buttons() & Qt::LeftButton))
     {
         if (QListWidgetItem *item = itemAt (event->pos()))
+#if (QT_VERSION < QT_VERSION_CHECK(6,0,0))
             QToolTip::showText (event->globalPos(), item->toolTip());
+#else
+            QToolTip::showText (event->globalPosition().toPoint(), item->toolTip());
+#endif
         else
             QToolTip::hideText();
     }

@@ -1,5 +1,5 @@
 /*
- * Copyright (C) Pedram Pourang (aka Tsu Jan) 2014-2019 <tsujan2000@gmail.com>
+ * Copyright (C) Pedram Pourang (aka Tsu Jan) 2014-2021 <tsujan2000@gmail.com>
  *
  * FeatherPad is free software: you can redistribute it and/or modify it
  * under the terms of the GNU General Public License as published by the
@@ -1028,6 +1028,18 @@ void TextEdit::keyPressEvent (QKeyEvent *event)
             ensureCursorVisible();
             event->accept();
             return;
+        }
+    }
+    else if (event->key() == Qt::Key_PageDown || event->key() == Qt::Key_PageUp)
+    {
+        if (event->modifiers() == Qt::ControlModifier)
+        {
+            if (QScrollBar* vbar = verticalScrollBar())
+            { // scroll without changing the cursor position
+                vbar->setValue(vbar->value() + (event->key() == Qt::Key_PageDown ? 1 : -1) * vbar->pageStep());
+                event->accept();
+                return;
+            }
         }
     }
     else if (event->key() == Qt::Key_Tab)
