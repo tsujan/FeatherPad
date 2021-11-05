@@ -1270,6 +1270,9 @@ be opened if they are pasted into FeatherPad.</string>
        <string>Shortcuts</string>
       </attribute>
       <layout class="QGridLayout" name="gridLayout_5">
+       <property name="bottomMargin">
+        <number>5</number>
+       </property>
        <item row="0" column="0">
         <widget class="QTableWidget" name="tableWidget">
          <property name="editTriggers">
@@ -1316,32 +1319,15 @@ be opened if they are pasted into FeatherPad.</string>
        <string>Syntax Colors</string>
       </attribute>
       <layout class="QGridLayout" name="gridLayout_2">
+       <property name="bottomMargin">
+        <number>5</number>
+       </property>
        <item row="0" column="0">
-        <widget class="QTableWidget" name="syntaxTableWidget">
-         <property name="alternatingRowColors">
-          <bool>true</bool>
-         </property>
-         <property name="selectionMode">
-          <enum>QAbstractItemView::SingleSelection</enum>
-         </property>
-         <attribute name="verticalHeaderVisible">
-          <bool>false</bool>
-         </attribute>
-         <column>
-          <property name="text">
-           <string>Element</string>
-          </property>
-         </column>
-         <column>
-          <property name="text">
-           <string>Text Color</string>
-          </property>
-         </column>
-        </widget>
-       </item>
-       <item row="1" column="0">
         <layout class="QHBoxLayout" name="horizontalLayout_16">
          <property name="spacing">
+          <number>5</number>
+         </property>
+         <property name="topMargin">
           <number>5</number>
          </property>
          <item>
@@ -1369,9 +1355,12 @@ be opened if they are pasted into FeatherPad.</string>
          </item>
         </layout>
        </item>
-       <item row="2" column="0">
+       <item row="1" column="0">
         <layout class="QHBoxLayout" name="horizontalLayout_17">
          <property name="spacing">
+          <number>5</number>
+         </property>
+         <property name="bottomMargin">
           <number>5</number>
          </property>
          <item>
@@ -1408,6 +1397,29 @@ be opened if they are pasted into FeatherPad.</string>
           </spacer>
          </item>
         </layout>
+       </item>
+       <item row="2" column="0">
+        <widget class="QTableWidget" name="syntaxTableWidget">
+         <property name="alternatingRowColors">
+          <bool>true</bool>
+         </property>
+         <property name="selectionMode">
+          <enum>QAbstractItemView::SingleSelection</enum>
+         </property>
+         <attribute name="verticalHeaderVisible">
+          <bool>false</bool>
+         </attribute>
+         <column>
+          <property name="text">
+           <string>Element</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Text Color</string>
+          </property>
+         </column>
+        </widget>
        </item>
        <item row="3" column="0" alignment="Qt::AlignRight">
         <widget class="QPushButton" name="defaultSyntaxButton">

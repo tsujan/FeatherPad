@@ -52,6 +52,8 @@ Then, open a terminal inside this folder and issue the following commands:
 	make
 	sudo make install
 
+NOTE: Experimental compilation against Qt6 can be done with `cmake .. -DENABLE_QT5=OFF`. When Qt6 becomes the default version of Qt in some distros, that compilation option will be set to `OFF` by default.
+
 With qmake
 ==========
 If you prefer qmake, use these commands instead:
@@ -59,7 +61,7 @@ If you prefer qmake, use these commands instead:
 	qmake && make
 	sudo make install
 
-You might need to put the full path of qmake in the first command and also the full path of Qt5's "lrelease" binary in 'featherpad/featherpad.pro'. After a qmake compilation, you could clean the source directory with this command:
+You might need to put the full path of qmake in the first command (it can belong to Qt5 or Qt6). After a qmake compilation, you could clean the source directory with this command:
 
 	make distclean
 

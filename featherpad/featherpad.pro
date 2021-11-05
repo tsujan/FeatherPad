@@ -1,6 +1,18 @@
 lessThan(QT_MAJOR_VERSION, 6) {
-  lessThan(QT_MINOR_VERSION, 12) {
-    error("FeatherPad needs at least Qt 5.12.0")
+  lessThan(QT_MAJOR_VERSION, 5) {
+    error("FeatherPad needs at least Qt 5.12.0.")
+  } else {
+    lessThan(QT_MINOR_VERSION, 12) {
+        error("FeatherPad needs at least Qt 5.12.0.")
+    }
+  }
+} else {
+  equals(QT_MAJOR_VERSION, 6) {
+    lessThan(QT_MINOR_VERSION, 2) {
+      error("FeatherPad needs at least Qt 6.2.0.")
+    }
+  } else {
+    error("FeatherPad cannot be compiled against this version of Qt.")
   }
 }
 
@@ -99,7 +111,9 @@ contains(WITHOUT_X11, YES) {
   message("Compiling without X11...")
 }
 else:unix:!macx:!haiku:!os2 {
-  QT += x11extras
+  lessThan(QT_MAJOR_VERSION, 6) {
+    QT += x11extras
+  }
   SOURCES += x11.cpp
   HEADERS += x11.h
   LIBS += -lX11
@@ -107,7 +121,8 @@ else:unix:!macx:!haiku:!os2 {
 }
 
 unix {
-  LIBS += -lhunspell
+  CONFIG += link_pkgconfig
+  PKGCONFIG += hunspell
   #TRANSLATIONS
   exists($$[QT_INSTALL_BINS]/lrelease) {
     TRANSLATIONS = $$system("find data/translations/ -name 'featherpad_*.ts'")

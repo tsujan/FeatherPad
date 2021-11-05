@@ -144,7 +144,11 @@ void Highlighter::yamlLiteralBlock (const QString &text)
     QRegularExpressionMatch match;
     if (previousBlockState() == codeBlockState) // the literal block may continue
     {
+#if (QT_VERSION < QT_VERSION_CHECK(6,0,0))
         text.indexOf (QRegularExpression ("^\\s*"), 0, &match);
+#else
+        (void)text.indexOf (QRegularExpression ("^\\s*"), 0, &match);
+#endif
         QString startingSpaces = "i" + match.captured();
         if (text == match.captured() // only whitespaces...
             /* ... or the indentation is wider than that of the literal block */
@@ -165,7 +169,11 @@ void Highlighter::yamlLiteralBlock (const QString &text)
     if (index >= 0)
     {
         setCurrentBlockState (codeBlockState);
+#if (QT_VERSION < QT_VERSION_CHECK(6,0,0))
         text.indexOf (QRegularExpression ("^\\s*"), 0, &match);
+#else
+        (void)text.indexOf (QRegularExpression ("^\\s*"), 0, &match);
+#endif
         data->insertInfo ("i" + match.captured());
     }
 }

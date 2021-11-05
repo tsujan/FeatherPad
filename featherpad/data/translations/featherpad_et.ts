@@ -4,7 +4,7 @@
 <context>
     <name>FeatherPad::AboutDialog</name>
     <message>
-        <location filename="../../about.ui" line="167"/>
+        <location filename="../../about.ui" line="169"/>
         <source>License</source>
         <translation>Litsents</translation>
     </message>
@@ -12,18 +12,18 @@
 <context>
     <name>FeatherPad::FPwin</name>
     <message>
-        <location filename="../../fpwin.cpp" line="438"/>
-        <location filename="../../fpwin.cpp" line="1458"/>
-        <location filename="../../fpwin.cpp" line="1520"/>
-        <location filename="../../fpwin.cpp" line="2077"/>
-        <location filename="../../fpwin.cpp" line="2139"/>
-        <location filename="../../fpwin.cpp" line="2913"/>
-        <location filename="../../fpwin.cpp" line="2933"/>
-        <location filename="../../fpwin.cpp" line="2936"/>
-        <location filename="../../fpwin.cpp" line="3805"/>
-        <location filename="../../fpwin.cpp" line="4518"/>
-        <location filename="../../fpwin.cpp" line="4812"/>
-        <location filename="../../fpwin.cpp" line="5071"/>
+        <location filename="../../fpwin.cpp" line="449"/>
+        <location filename="../../fpwin.cpp" line="1469"/>
+        <location filename="../../fpwin.cpp" line="1531"/>
+        <location filename="../../fpwin.cpp" line="2088"/>
+        <location filename="../../fpwin.cpp" line="2150"/>
+        <location filename="../../fpwin.cpp" line="2940"/>
+        <location filename="../../fpwin.cpp" line="2960"/>
+        <location filename="../../fpwin.cpp" line="2963"/>
+        <location filename="../../fpwin.cpp" line="3895"/>
+        <location filename="../../fpwin.cpp" line="4608"/>
+        <location filename="../../fpwin.cpp" line="4902"/>
+        <location filename="../../fpwin.cpp" line="5161"/>
         <source>Untitled</source>
         <translation>Nimetu</translation>
     </message>
@@ -66,9 +66,9 @@
         <translation>&amp;Eelistused</translation>
     </message>
     <message>
-        <location filename="../../fpwin.cpp" line="1481"/>
-        <location filename="../../fpwin.cpp" line="2827"/>
-        <location filename="../../fpwin.cpp" line="4326"/>
+        <location filename="../../fpwin.cpp" line="1492"/>
+        <location filename="../../fpwin.cpp" line="2838"/>
+        <location filename="../../fpwin.cpp" line="4416"/>
         <source>Encoding</source>
         <translation>Kodeering</translation>
     </message>
@@ -135,7 +135,7 @@
     </message>
     <message>
         <location filename="../../fp.ui" line="519"/>
-        <location filename="../../fpwin.cpp" line="1256"/>
+        <location filename="../../fpwin.cpp" line="1267"/>
         <source>&amp;Save</source>
         <translation>&amp;Salvesta</translation>
     </message>
@@ -610,7 +610,7 @@
     </message>
     <message>
         <location filename="../../fp.ui" line="342"/>
-        <location filename="../../fpwin.cpp" line="3908"/>
+        <location filename="../../fpwin.cpp" line="3998"/>
         <location filename="../../replace.cpp" line="61"/>
         <location filename="../../replace.cpp" line="113"/>
         <source>Replacement</source>
@@ -777,468 +777,468 @@
         <translation>Menüü</translation>
     </message>
     <message>
-        <location filename="../../fpwin.cpp" line="97"/>
+        <location filename="../../fpwin.cpp" line="101"/>
         <source>Calculate number of words
 (For huge texts, this may be CPU-intensive.)</source>
         <translation>Loe kokku sõnade arv
 (mahuka teksti puhul see tekitab protsessorikoormust)</translation>
     </message>
     <message>
-        <location filename="../../fpwin.cpp" line="112"/>
+        <location filename="../../fpwin.cpp" line="116"/>
         <source>Next</source>
         <translation>Järgmine</translation>
     </message>
     <message>
-        <location filename="../../fpwin.cpp" line="113"/>
+        <location filename="../../fpwin.cpp" line="117"/>
         <source>Previous</source>
         <translation>Eelmine</translation>
     </message>
     <message>
-        <location filename="../../fpwin.cpp" line="114"/>
+        <location filename="../../fpwin.cpp" line="118"/>
         <source>Replace all</source>
         <translation>Asenda kõik</translation>
     </message>
     <message>
-        <location filename="../../fpwin.cpp" line="593"/>
+        <location filename="../../fpwin.cpp" line="604"/>
         <source>&amp;Recently Opened</source>
         <translation>&amp;Hiljuti avatud</translation>
     </message>
     <message>
-        <location filename="../../fpwin.cpp" line="1917"/>
+        <location filename="../../fpwin.cpp" line="1928"/>
         <source>Close</source>
         <translation>Sulge</translation>
     </message>
     <message>
-        <location filename="../../fpwin.cpp" line="1242"/>
+        <location filename="../../fpwin.cpp" line="1253"/>
         <source>Save changes?</source>
         <translation>Kas salvestame muudatused?</translation>
     </message>
     <message>
-        <location filename="../../fpwin.cpp" line="894"/>
+        <location filename="../../fpwin.cpp" line="905"/>
         <source>Please attend to that window or just close its dialog!</source>
         <translation>Palun lõpeta tegevused selles rakenduseaknas või lihtsalt sulge dialoogiaken!</translation>
     </message>
     <message>
-        <location filename="../../fpwin.cpp" line="1246"/>
+        <location filename="../../fpwin.cpp" line="1257"/>
         <source>The document has been modified.</source>
         <translation>Sa oled dokumenti muutnud.</translation>
     </message>
     <message>
-        <location filename="../../fpwin.cpp" line="1257"/>
+        <location filename="../../fpwin.cpp" line="1268"/>
         <source>&amp;Discard changes</source>
         <translation>&amp;Jäta muudatused salvestamata</translation>
     </message>
     <message>
-        <location filename="../../fpwin.cpp" line="1258"/>
+        <location filename="../../fpwin.cpp" line="1269"/>
         <source>&amp;Cancel</source>
         <translation>&amp;Katkesta</translation>
     </message>
     <message>
-        <location filename="../../fpwin.cpp" line="1260"/>
+        <location filename="../../fpwin.cpp" line="1271"/>
         <source>&amp;No to all</source>
         <translation>&amp;Vasta eitavalt kõigile</translation>
     </message>
     <message>
-        <location filename="../../fpwin.cpp" line="1463"/>
-        <location filename="../../fpwin.cpp" line="1521"/>
+        <location filename="../../fpwin.cpp" line="1474"/>
+        <location filename="../../fpwin.cpp" line="1532"/>
         <source>Unsaved</source>
         <translation>Salvestamata</translation>
     </message>
     <message>
-        <location filename="../../fpwin.cpp" line="1482"/>
-        <location filename="../../fpwin.cpp" line="2829"/>
-        <location filename="../../fpwin.cpp" line="3474"/>
-        <location filename="../../fpwin.cpp" line="3485"/>
-        <location filename="../../fpwin.cpp" line="3492"/>
-        <location filename="../../fpwin.cpp" line="4331"/>
-        <location filename="../../fpwin.cpp" line="5889"/>
-        <location filename="../../fpwin.cpp" line="5900"/>
-        <location filename="../../fpwin.cpp" line="5907"/>
+        <location filename="../../fpwin.cpp" line="1493"/>
+        <location filename="../../fpwin.cpp" line="2840"/>
+        <location filename="../../fpwin.cpp" line="3564"/>
+        <location filename="../../fpwin.cpp" line="3575"/>
+        <location filename="../../fpwin.cpp" line="3582"/>
+        <location filename="../../fpwin.cpp" line="4421"/>
+        <location filename="../../fpwin.cpp" line="5979"/>
+        <location filename="../../fpwin.cpp" line="5990"/>
+        <location filename="../../fpwin.cpp" line="5997"/>
         <source>Lines</source>
         <translation>Ridu</translation>
     </message>
     <message>
-        <location filename="../../fpwin.cpp" line="1483"/>
-        <location filename="../../fpwin.cpp" line="4332"/>
-        <location filename="../../fpwin.cpp" line="4347"/>
+        <location filename="../../fpwin.cpp" line="1494"/>
+        <location filename="../../fpwin.cpp" line="4422"/>
+        <location filename="../../fpwin.cpp" line="4437"/>
         <source>Sel. Chars</source>
         <translation>Tähemärke valitud</translation>
     </message>
     <message>
-        <location filename="../../fpwin.cpp" line="1484"/>
-        <location filename="../../fpwin.cpp" line="4334"/>
-        <location filename="../../fpwin.cpp" line="4348"/>
+        <location filename="../../fpwin.cpp" line="1495"/>
+        <location filename="../../fpwin.cpp" line="4424"/>
+        <location filename="../../fpwin.cpp" line="4438"/>
         <source>Words</source>
         <translation>Sõnu</translation>
     </message>
     <message>
-        <location filename="../../fpwin.cpp" line="1800"/>
+        <location filename="../../fpwin.cpp" line="1811"/>
         <source>Another process is running in this tab!</source>
         <translation>Sellel kaardil juba üks tegevus on pooleli!</translation>
     </message>
     <message>
-        <location filename="../../fpwin.cpp" line="1908"/>
+        <location filename="../../fpwin.cpp" line="1919"/>
         <source>Script File</source>
         <translation>Skriptifail</translation>
     </message>
     <message>
-        <location filename="../../fpwin.cpp" line="893"/>
+        <location filename="../../fpwin.cpp" line="904"/>
         <source>Another FeatherPad window has a modal dialog!</source>
         <translation>Teises FeatherPad&apos;i aknas juba on tegevusaken avatud!</translation>
     </message>
     <message>
-        <location filename="../../fpwin.cpp" line="730"/>
-        <location filename="../../fpwin.cpp" line="4373"/>
+        <location filename="../../fpwin.cpp" line="741"/>
+        <location filename="../../fpwin.cpp" line="4463"/>
         <source>Position:</source>
         <translation>Asukoht:</translation>
     </message>
     <message>
-        <location filename="../../fpwin.cpp" line="778"/>
-        <location filename="../../fpwin.cpp" line="4391"/>
-        <location filename="../../fpwin.cpp" line="4411"/>
+        <location filename="../../fpwin.cpp" line="789"/>
+        <location filename="../../fpwin.cpp" line="4481"/>
+        <location filename="../../fpwin.cpp" line="4501"/>
         <source>Normal</source>
         <translation>Tavaline</translation>
     </message>
     <message>
-        <location filename="../../fpwin.cpp" line="1244"/>
-        <location filename="../../fpwin.cpp" line="2589"/>
-        <location filename="../../fpwin.cpp" line="5699"/>
+        <location filename="../../fpwin.cpp" line="1255"/>
+        <location filename="../../fpwin.cpp" line="2600"/>
+        <location filename="../../fpwin.cpp" line="5789"/>
         <source>The file does not exist.</source>
         <translation>Faili pole olemas.</translation>
     </message>
     <message>
-        <location filename="../../fpwin.cpp" line="1613"/>
+        <location filename="../../fpwin.cpp" line="1624"/>
         <source>Open Link</source>
         <translation>Ava link</translation>
     </message>
     <message>
-        <location filename="../../fpwin.cpp" line="1626"/>
+        <location filename="../../fpwin.cpp" line="1637"/>
         <source>Copy Link</source>
         <translation>Kopeeri link</translation>
     </message>
     <message>
-        <location filename="../../fpwin.cpp" line="1801"/>
+        <location filename="../../fpwin.cpp" line="1812"/>
         <source>Only one process is allowed per tab.</source>
         <translation>Ühe kaardi kohta on võimalik vaid üks protsess.</translation>
     </message>
     <message>
-        <location filename="../../fpwin.cpp" line="1904"/>
+        <location filename="../../fpwin.cpp" line="1915"/>
         <source>Script Output</source>
         <translation>Skripti väljund</translation>
     </message>
     <message>
-        <location filename="../../fpwin.cpp" line="1920"/>
+        <location filename="../../fpwin.cpp" line="1931"/>
         <source>Clear</source>
         <translation>Kustuta</translation>
     </message>
     <message>
-        <location filename="../../fpwin.cpp" line="2546"/>
+        <location filename="../../fpwin.cpp" line="2557"/>
         <source>FeatherPad does not open files larger than 100 MiB.</source>
         <translation>FeatherPad ei ava 100 megabaidist suuremaid faile.</translation>
     </message>
     <message>
-        <location filename="../../fpwin.cpp" line="2554"/>
+        <location filename="../../fpwin.cpp" line="2565"/>
         <source>Non-text file(s) not opened!</source>
         <translation>Mitte-tekstifail(id) jäi(d) avamata!</translation>
     </message>
     <message>
-        <location filename="../../fpwin.cpp" line="2555"/>
+        <location filename="../../fpwin.cpp" line="2566"/>
         <source>See Preferences → Files → Do not permit opening of non-text files</source>
         <translation>Tee vajalik muudatus siin: Seadistused → Failid → Ära luba avada mitte-tekstifaile</translation>
     </message>
     <message>
-        <location filename="../../fpwin.cpp" line="2564"/>
+        <location filename="../../fpwin.cpp" line="2575"/>
         <source>Some file(s) could not be opened!</source>
         <translation>Mõni(ed) fail(id) jäid avamata!</translation>
     </message>
     <message>
-        <location filename="../../fpwin.cpp" line="2565"/>
+        <location filename="../../fpwin.cpp" line="2576"/>
         <source>You may not have the permission to read.</source>
         <translation>Sul ilmselt puuduvad õigused seda faili lugeda.</translation>
     </message>
     <message>
-        <location filename="../../fpwin.cpp" line="2575"/>
+        <location filename="../../fpwin.cpp" line="2586"/>
         <source>Uneditable file(s)!</source>
         <translation>Faili või faile ei saa muuta!</translation>
     </message>
     <message>
-        <location filename="../../fpwin.cpp" line="2576"/>
+        <location filename="../../fpwin.cpp" line="2587"/>
         <source>Non-text files or files with huge lines cannot be edited.</source>
         <translation>Sa ei saa muuta faile, mis pole tekstifailid või milles on tohutu arv ridu.</translation>
     </message>
     <message>
-        <location filename="../../fpwin.cpp" line="2640"/>
+        <location filename="../../fpwin.cpp" line="2651"/>
         <source>A previous crash detected!</source>
         <translation>Tuvastasin rakenduse varasema kokkujooksmise!</translation>
     </message>
     <message>
-        <location filename="../../fpwin.cpp" line="2641"/>
+        <location filename="../../fpwin.cpp" line="2652"/>
         <source>Preferably, close all FeatherPad windows and start again!</source>
         <translation>Soovitame, et sulge kõik FeatherPad&apos;i aknad ja alusta uuesti!</translation>
     </message>
     <message>
-        <location filename="../../fpwin.cpp" line="2649"/>
+        <location filename="../../fpwin.cpp" line="2660"/>
         <source>Root Instance</source>
         <translation>Rakenduse kasutamine juurkasutaja õigustes</translation>
     </message>
     <message>
-        <location filename="../../fpwin.cpp" line="2721"/>
-        <location filename="../../fpwin.cpp" line="2894"/>
-        <location filename="../../fpwin.cpp" line="2922"/>
+        <location filename="../../fpwin.cpp" line="2732"/>
+        <location filename="../../fpwin.cpp" line="2921"/>
+        <location filename="../../fpwin.cpp" line="2949"/>
         <source>All Files (*)</source>
         <translation>Kõik failid (*)</translation>
     </message>
     <message>
-        <location filename="../../fpwin.cpp" line="2726"/>
+        <location filename="../../fpwin.cpp" line="2737"/>
         <source>All Files (*);;.%1 Files (*.%1)</source>
         <translation>Kõik failid (*) (*);;.%1 faili (*.%1)</translation>
     </message>
     <message>
-        <location filename="../../fpwin.cpp" line="2730"/>
+        <location filename="../../fpwin.cpp" line="2741"/>
         <source>Open file...</source>
         <translation>Ava fail...</translation>
     </message>
     <message>
-        <location filename="../../fpwin.cpp" line="2900"/>
+        <location filename="../../fpwin.cpp" line="2927"/>
         <source>.%1 Files (*.%1);;All Files (*)</source>
         <translation>.%1 faili (*.%1);;kõik failid (*)</translation>
     </message>
     <message>
-        <location filename="../../fpwin.cpp" line="2951"/>
-        <location filename="../../fpwin.cpp" line="2989"/>
+        <location filename="../../fpwin.cpp" line="2978"/>
+        <location filename="../../fpwin.cpp" line="3016"/>
         <source>Save as...</source>
         <translation>Salvesta kui...</translation>
     </message>
     <message>
-        <location filename="../../fpwin.cpp" line="3025"/>
+        <location filename="../../fpwin.cpp" line="3052"/>
         <source>Keep encoding and save as...</source>
         <translation>Jäta kodeering samaks ja salvesta kui...</translation>
     </message>
     <message>
-        <location filename="../../fpwin.cpp" line="3297"/>
+        <location filename="../../fpwin.cpp" line="3387"/>
         <source>Saving as root.</source>
         <translation>Salvestan juurkasutajana.</translation>
     </message>
     <message>
-        <location filename="../../fpwin.cpp" line="3298"/>
+        <location filename="../../fpwin.cpp" line="3388"/>
         <source>Waiting for authentication...</source>
         <translation>Ootan autentimist...</translation>
     </message>
     <message>
-        <location filename="../../fpwin.cpp" line="3418"/>
+        <location filename="../../fpwin.cpp" line="3508"/>
         <source>&quot;pkexec&quot; is not found. Please install Polkit!</source>
         <translation>Tarvikut „pkexec“ ei leidu. Palun paigalda Polkit!</translation>
     </message>
     <message>
-        <location filename="../../fpwin.cpp" line="3106"/>
+        <location filename="../../fpwin.cpp" line="3167"/>
         <source>Yes</source>
         <translation>Jah</translation>
     </message>
     <message>
-        <location filename="../../fpwin.cpp" line="3107"/>
+        <location filename="../../fpwin.cpp" line="3168"/>
         <source>No</source>
         <translation>Ei</translation>
     </message>
     <message>
-        <location filename="../../fpwin.cpp" line="3108"/>
+        <location filename="../../fpwin.cpp" line="3169"/>
         <source>Cancel</source>
         <translation>Tühista</translation>
     </message>
     <message>
-        <location filename="../../fpwin.cpp" line="3109"/>
+        <location filename="../../fpwin.cpp" line="3170"/>
         <source>Do you want to use &lt;b&gt;MS Windows&lt;/b&gt; end-of-lines?</source>
         <translation>Kas sa soovid kasutada &lt;b&gt;MS Windows&apos;ile&lt;/b&gt; omaseid rea lõpumärke?</translation>
     </message>
     <message>
-        <location filename="../../fpwin.cpp" line="3110"/>
+        <location filename="../../fpwin.cpp" line="3171"/>
         <source>This may be good for readability under MS Windows.</source>
         <translation>Failide loetavuse mõttes Windows operatsioonisüsteemis on see hea mõte.</translation>
     </message>
     <message>
-        <location filename="../../fpwin.cpp" line="3226"/>
-        <location filename="../../fpwin.cpp" line="3312"/>
-        <location filename="../../fpwin.cpp" line="3417"/>
-        <location filename="../../fpwin.cpp" line="3429"/>
+        <location filename="../../fpwin.cpp" line="3284"/>
+        <location filename="../../fpwin.cpp" line="3402"/>
+        <location filename="../../fpwin.cpp" line="3507"/>
+        <location filename="../../fpwin.cpp" line="3519"/>
         <source>Cannot be saved!</source>
         <translation>Salvestamine ei õnnestu!</translation>
     </message>
     <message>
-        <location filename="../../fpwin.cpp" line="436"/>
-        <location filename="../../fpwin.cpp" line="3803"/>
-        <location filename="../../fpwin.cpp" line="4810"/>
-        <location filename="../../fpwin.cpp" line="5069"/>
-        <location filename="../../fpwin.cpp" line="6104"/>
+        <location filename="../../fpwin.cpp" line="447"/>
+        <location filename="../../fpwin.cpp" line="3893"/>
+        <location filename="../../fpwin.cpp" line="4900"/>
+        <location filename="../../fpwin.cpp" line="5159"/>
+        <location filename="../../fpwin.cpp" line="6199"/>
         <source>Help</source>
         <translation>Abiteave</translation>
     </message>
     <message>
-        <location filename="../../fpwin.cpp" line="3470"/>
-        <location filename="../../fpwin.cpp" line="3476"/>
-        <location filename="../../fpwin.cpp" line="3484"/>
-        <location filename="../../fpwin.cpp" line="4329"/>
-        <location filename="../../fpwin.cpp" line="5885"/>
-        <location filename="../../fpwin.cpp" line="5891"/>
-        <location filename="../../fpwin.cpp" line="5899"/>
+        <location filename="../../fpwin.cpp" line="3560"/>
+        <location filename="../../fpwin.cpp" line="3566"/>
+        <location filename="../../fpwin.cpp" line="3574"/>
+        <location filename="../../fpwin.cpp" line="4419"/>
+        <location filename="../../fpwin.cpp" line="5975"/>
+        <location filename="../../fpwin.cpp" line="5981"/>
+        <location filename="../../fpwin.cpp" line="5989"/>
         <source>Syntax</source>
         <translation>Süntaks</translation>
     </message>
     <message>
-        <location filename="../../fpwin.cpp" line="2545"/>
+        <location filename="../../fpwin.cpp" line="2556"/>
         <source>Huge file(s) not opened!</source>
         <translation>Suur(ed) fail(id) on avamata!</translation>
     </message>
     <message>
-        <location filename="../../fpwin.cpp" line="3573"/>
+        <location filename="../../fpwin.cpp" line="3663"/>
         <source>Text tabs are converted to spaces.</source>
         <translation>Teksti asuvad tabulaatorisammud on muudetud nüüd tühikuteks.</translation>
     </message>
     <message>
-        <location filename="../../fpwin.cpp" line="3675"/>
+        <location filename="../../fpwin.cpp" line="3765"/>
         <source>The selected text was too long.</source>
         <translation>Valitud tekst oli liiga pikk.</translation>
     </message>
     <message>
-        <location filename="../../fpwin.cpp" line="3676"/>
+        <location filename="../../fpwin.cpp" line="3766"/>
         <source>It is not fully processed.</source>
         <translation>See ei ole täielikult töödeldud.</translation>
     </message>
     <message>
-        <location filename="../../fpwin.cpp" line="3815"/>
-        <location filename="../../fpwin.cpp" line="4007"/>
+        <location filename="../../fpwin.cpp" line="3905"/>
+        <location filename="../../fpwin.cpp" line="4097"/>
         <source>This file has been modified elsewhere or in another way!</source>
         <translation>Seda faili on mingil muul viisil muudetud!</translation>
     </message>
     <message>
-        <location filename="../../fpwin.cpp" line="3816"/>
-        <location filename="../../fpwin.cpp" line="4008"/>
+        <location filename="../../fpwin.cpp" line="3906"/>
+        <location filename="../../fpwin.cpp" line="4098"/>
         <source>Please be careful about reloading or saving this document!</source>
         <translation>Palun ole selle dokumendi laadimisel ja salvestamisel ettevaatlik!</translation>
     </message>
     <message>
-        <location filename="../../fpwin.cpp" line="4484"/>
+        <location filename="../../fpwin.cpp" line="4574"/>
         <source>Printing in progress...</source>
         <translation>Trükkimine on töös...</translation>
     </message>
     <message>
-        <location filename="../../fpwin.cpp" line="4535"/>
+        <location filename="../../fpwin.cpp" line="4625"/>
         <source>Print Document</source>
         <translation>Trüki see dokument</translation>
     </message>
     <message>
-        <location filename="../../fpwin.cpp" line="4541"/>
+        <location filename="../../fpwin.cpp" line="4631"/>
         <source>Printing completed.</source>
         <translation>Trükkimine on valmis.</translation>
     </message>
     <message>
-        <location filename="../../fpwin.cpp" line="5199"/>
-        <location filename="../../fpwin.cpp" line="5304"/>
+        <location filename="../../fpwin.cpp" line="5289"/>
+        <location filename="../../fpwin.cpp" line="5394"/>
         <source>%1 Pages</source>
         <translation>%1 lehte</translation>
     </message>
     <message>
-        <location filename="../../fpwin.cpp" line="5230"/>
-        <location filename="../../fpwin.cpp" line="5340"/>
+        <location filename="../../fpwin.cpp" line="5320"/>
+        <location filename="../../fpwin.cpp" line="5430"/>
         <source>Copy Target Path</source>
         <translation>Kopeeri sihtkausta asukoht</translation>
     </message>
     <message>
-        <location filename="../../fpwin.cpp" line="5234"/>
-        <location filename="../../fpwin.cpp" line="5344"/>
+        <location filename="../../fpwin.cpp" line="5324"/>
+        <location filename="../../fpwin.cpp" line="5434"/>
         <source>Open Target Here</source>
         <translation>Ava asukoht siin</translation>
     </message>
     <message>
-        <location filename="../../fpwin.cpp" line="5253"/>
-        <location filename="../../fpwin.cpp" line="5364"/>
+        <location filename="../../fpwin.cpp" line="5343"/>
+        <location filename="../../fpwin.cpp" line="5454"/>
         <source>Copy Final Target Path</source>
         <translation>Kopeeri lõpliku sihtkausta asukoht</translation>
     </message>
     <message>
-        <location filename="../../fpwin.cpp" line="5257"/>
-        <location filename="../../fpwin.cpp" line="5368"/>
+        <location filename="../../fpwin.cpp" line="5347"/>
+        <location filename="../../fpwin.cpp" line="5458"/>
         <source>Open Final Target Here</source>
         <translation>Ava lõplik asukoht siin</translation>
     </message>
     <message>
-        <location filename="../../fpwin.cpp" line="5274"/>
-        <location filename="../../fpwin.cpp" line="5386"/>
+        <location filename="../../fpwin.cpp" line="5364"/>
+        <location filename="../../fpwin.cpp" line="5476"/>
         <source>Open Containing Folder</source>
         <translation>Ava asukoha kaust failihalduris</translation>
     </message>
     <message>
-        <location filename="../../fpwin.cpp" line="5495"/>
+        <location filename="../../fpwin.cpp" line="5585"/>
         <source>You need to add a Hunspell dictionary.</source>
         <translation>Sa pead lisama Hunspelli-põhise sõnastiku.</translation>
     </message>
     <message>
-        <location filename="../../fpwin.cpp" line="5496"/>
-        <location filename="../../fpwin.cpp" line="5503"/>
-        <location filename="../../fpwin.cpp" line="5513"/>
+        <location filename="../../fpwin.cpp" line="5586"/>
+        <location filename="../../fpwin.cpp" line="5593"/>
+        <location filename="../../fpwin.cpp" line="5603"/>
         <source>See Preferences → Text → Spell Checking!</source>
         <translation>Tee vajalik muudatus siin: Seadistused → Tekst → Õigekiri!</translation>
     </message>
     <message>
-        <location filename="../../fpwin.cpp" line="5502"/>
+        <location filename="../../fpwin.cpp" line="5592"/>
         <source>The Hunspell dictionary does not exist.</source>
         <translation>Hunspelli-põhist sõnastikku ei leidu.</translation>
     </message>
     <message>
-        <location filename="../../fpwin.cpp" line="5512"/>
+        <location filename="../../fpwin.cpp" line="5602"/>
         <source>The Hunspell dictionary is not accompanied by an affix file.</source>
         <translation>Hunspell&apos;i sõnastikul puudub liidete fail.</translation>
     </message>
     <message>
-        <location filename="../../fpwin.cpp" line="5535"/>
-        <location filename="../../fpwin.cpp" line="5553"/>
-        <location filename="../../fpwin.cpp" line="5568"/>
+        <location filename="../../fpwin.cpp" line="5625"/>
+        <location filename="../../fpwin.cpp" line="5643"/>
+        <location filename="../../fpwin.cpp" line="5658"/>
         <source>No misspelling in document.</source>
         <translation>Dokumendis ei leidu õigekirjavigu.</translation>
     </message>
     <message>
-        <location filename="../../fpwin.cpp" line="5537"/>
-        <location filename="../../fpwin.cpp" line="5555"/>
-        <location filename="../../fpwin.cpp" line="5570"/>
+        <location filename="../../fpwin.cpp" line="5627"/>
+        <location filename="../../fpwin.cpp" line="5645"/>
+        <location filename="../../fpwin.cpp" line="5660"/>
         <source>No misspelling from text cursor.</source>
         <translation>Alates kursori asukohast ei leidu õigekirjavigu.</translation>
     </message>
     <message>
-        <location filename="../../fpwin.cpp" line="5586"/>
+        <location filename="../../fpwin.cpp" line="5676"/>
         <source>Spell Checking</source>
         <translation>Õigekirjakontroll</translation>
     </message>
     <message>
-        <location filename="../../fpwin.cpp" line="5923"/>
+        <location filename="../../fpwin.cpp" line="6013"/>
         <source>Some files cannot be saved!</source>
         <translation>Mõne faili salvestamine ei õnnestu!</translation>
     </message>
     <message>
-        <location filename="../../fpwin.cpp" line="5970"/>
+        <location filename="../../fpwin.cpp" line="6060"/>
         <source>Translators</source>
         <translation>Tõlkijad</translation>
     </message>
     <message>
-        <location filename="../../fpwin.cpp" line="5966"/>
+        <location filename="../../fpwin.cpp" line="6056"/>
         <source>A lightweight, tabbed, plain-text editor</source>
         <translation>Lihtne kaartide-põhine tekstiredaktor,</translation>
     </message>
     <message>
-        <location filename="../../fpwin.cpp" line="5967"/>
+        <location filename="../../fpwin.cpp" line="6057"/>
         <source>based on Qt</source>
         <translation>mis kasutab Qt-teeke</translation>
     </message>
     <message>
-        <location filename="../../fpwin.cpp" line="5968"/>
+        <location filename="../../fpwin.cpp" line="6058"/>
         <source>Author</source>
         <translation>Autor</translation>
     </message>
     <message>
-        <location filename="../../fpwin.cpp" line="5969"/>
+        <location filename="../../fpwin.cpp" line="6059"/>
         <source>aka.</source>
         <translation>tuntud ka kui</translation>
     </message>
     <message>
-        <location filename="../../fpwin.cpp" line="5970"/>
-        <location filename="../../fpwin.cpp" line="5971"/>
+        <location filename="../../fpwin.cpp" line="6060"/>
+        <location filename="../../fpwin.cpp" line="6061"/>
         <source>About FeatherPad</source>
         <translation>FeatherPad&apos;i teave</translation>
     </message>
@@ -1757,7 +1757,7 @@ hüpikakendes.</translation>
         <translation>Salvesta muudetud faile sellise sagedusega:</translation>
     </message>
     <message>
-        <location filename="../../prefDialog.ui" line="1439"/>
+        <location filename="../../prefDialog.ui" line="1451"/>
         <source>Help</source>
         <translation>Abiteave</translation>
     </message>
@@ -2037,65 +2037,65 @@ avab selle kopeeritud faili.</translation>
         <translation>Kiirklahvid</translation>
     </message>
     <message>
-        <location filename="../../prefDialog.ui" line="1289"/>
+        <location filename="../../prefDialog.ui" line="1292"/>
         <source>Action</source>
         <translation>Tegevus</translation>
     </message>
     <message>
-        <location filename="../../prefDialog.ui" line="1294"/>
+        <location filename="../../prefDialog.ui" line="1297"/>
         <source>Shortcut</source>
         <translation>Kiirklahv</translation>
     </message>
     <message>
-        <location filename="../../prefDialog.ui" line="1302"/>
+        <location filename="../../prefDialog.ui" line="1305"/>
         <source>Restore default shortcuts.</source>
         <translation>Taasta vaikimisi määratud kiirklahvid.</translation>
     </message>
     <message>
-        <location filename="../../prefDialog.ui" line="1305"/>
-        <location filename="../../prefDialog.ui" line="1393"/>
-        <location filename="../../prefDialog.ui" line="1418"/>
+        <location filename="../../prefDialog.ui" line="1308"/>
+        <location filename="../../prefDialog.ui" line="1382"/>
+        <location filename="../../prefDialog.ui" line="1430"/>
         <source>Default</source>
         <translation>Vaikimisi</translation>
     </message>
     <message>
-        <location filename="../../prefDialog.ui" line="1316"/>
+        <location filename="../../prefDialog.ui" line="1319"/>
         <source>Syntax Colors</source>
         <translation>Süntaksi värvid</translation>
     </message>
     <message>
-        <location filename="../../prefDialog.ui" line="1332"/>
+        <location filename="../../prefDialog.ui" line="1414"/>
         <source>Element</source>
         <translation>Element</translation>
     </message>
     <message>
-        <location filename="../../prefDialog.ui" line="1337"/>
+        <location filename="../../prefDialog.ui" line="1419"/>
         <source>Text Color</source>
         <translation>Teksti värv</translation>
     </message>
     <message>
-        <location filename="../../prefDialog.ui" line="1350"/>
+        <location filename="../../prefDialog.ui" line="1336"/>
         <source>Whitespace color value:</source>
         <translation>Tühikumärkide värv:</translation>
     </message>
     <message>
-        <location filename="../../prefDialog.ui" line="1380"/>
-        <location filename="../../prefDialog.ui" line="1390"/>
+        <location filename="../../prefDialog.ui" line="1369"/>
+        <location filename="../../prefDialog.ui" line="1379"/>
         <source>Has effect only if line numbers are shown.</source>
         <translation>Toimib vaid siis, kui reanumbrite kuvamine on kasutusel.</translation>
     </message>
     <message>
-        <location filename="../../prefDialog.ui" line="1383"/>
+        <location filename="../../prefDialog.ui" line="1372"/>
         <source>Current line highlight value:</source>
         <translation>Fookuses oleva rea esiletõstmine:</translation>
     </message>
     <message>
-        <location filename="../../prefDialog.ui" line="1415"/>
+        <location filename="../../prefDialog.ui" line="1427"/>
         <source>Restore default syntax colors.</source>
         <translation>Taasta vaikimisi seadistatud süntaksivärvid.</translation>
     </message>
     <message>
-        <location filename="../../prefDialog.ui" line="1450"/>
+        <location filename="../../prefDialog.ui" line="1462"/>
         <source>Close</source>
         <translation>Sulge</translation>
     </message>
@@ -2408,7 +2408,7 @@ kõik failid kõikides avatud akendes.</translation>
 <context>
     <name>FeatherPad::SidePane</name>
     <message>
-        <location filename="../../sidepane.cpp" line="196"/>
+        <location filename="../../sidepane.cpp" line="207"/>
         <source>Filter...</source>
         <translation>Otsi...</translation>
     </message>

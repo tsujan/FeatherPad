@@ -20,7 +20,11 @@
 #include "loading.h"
 #include "encoding.h"
 #include <QFile>
+#if (QT_VERSION < QT_VERSION_CHECK(6,0,0))
 #include <QTextCodec>
+#else
+#include <QStringDecoder>
+#endif
 
 namespace FeatherPad {
 
@@ -206,14 +210,23 @@ void Loading::run()
             charset_ = detectCharset (data);
     }
 
+#if (QT_VERSION < QT_VERSION_CHECK(6,0,0))
     QTextCodec *codec = QTextCodec::codecForName (charset_.toUtf8()); // or charset_.toStdString().c_str()
     if (!codec) // prevent any chance of crash if there's a bug
     {
         charset_ = "UTF-8";
         codec = QTextCodec::codecForName ("UTF-8");
     }
-
     QString text = codec->toUnicode (data);
+#else
+    /* Legacy encodings aren't supported by Qt6. */
+    auto decoder = QStringDecoder (charset_ == "UTF-8"  ? QStringConverter::Utf8 :
+                                   charset_ == "UTF-16" ? QStringConverter::Utf16 :
+                                   charset_ == "UTF-32" ? QStringConverter::Utf32 :
+                                                          QStringConverter::Latin1);
+    QString text = decoder.decode (data);
+#endif
+
     emit completed (text,
                     fname_,
                     charset_,

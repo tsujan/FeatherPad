@@ -1,5 +1,5 @@
 /*
- * Copyright (C) Pedram Pourang (aka Tsu Jan) 2019 <tsujan2000@gmail.com>
+ * Copyright (C) Pedram Pourang (aka Tsu Jan) 2019-2021 <tsujan2000@gmail.com>
  *
  * FeatherPad is free software: you can redistribute it and/or modify it
  * under the terms of the GNU General Public License as published by the
@@ -24,7 +24,7 @@
 #include <QStringList>
 #include <QRegularExpression>
 
-#include <hunspell/hunspell.hxx>
+#include <hunspell.hxx>
 
 namespace FeatherPad {
 
@@ -55,7 +55,17 @@ SpellChecker::SpellChecker (const QString& dictionaryPath, const QString& userDi
         }
         _affixFile.close();
     }
+#if (QT_VERSION < QT_VERSION_CHECK(6,0,0))
     codec_ = QTextCodec::codecForName (encoding.toLatin1().constData());
+#else
+    encoder_ = QStringEncoder (encoding.compare ("UTF-8", Qt::CaseInsensitive) == 0 ?
+                                   QStringConverter::Utf8
+                               : encoding.compare ("UTF-16", Qt::CaseInsensitive) == 0 ?
+                                   QStringConverter::Utf16
+                               : encoding.compare ("UTF-32", Qt::CaseInsensitive) == 0 ?
+                                   QStringConverter::Utf32
+                               : QStringConverter::Latin1);
+#endif
 
     if (!userDictionary_.isEmpty())
     {
@@ -91,7 +101,12 @@ QStringList SpellChecker::suggest (const QString& word)
 /*************************/
 void SpellChecker::ignoreWord (const QString& word)
 {
+#if (QT_VERSION < QT_VERSION_CHECK(6,0,0))
     hunspell_->add (codec_->fromUnicode (word).toStdString());
+#else
+    QByteArray b = encoder_.encode (word);
+    hunspell_->add (b.toStdString());
+#endif
 }
 /*************************/
 void SpellChecker::addToUserWordlist (const QString& word)

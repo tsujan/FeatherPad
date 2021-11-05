@@ -44,11 +44,15 @@
 #include <QClipboard>
 #include <QProcess>
 #include <QTextDocumentWriter>
-#include <QTextCodec>
 #include <QFileInfo>
 #include <QStandardPaths>
 #include <QDesktopServices>
 #include <QPushButton>
+#if (QT_VERSION < QT_VERSION_CHECK(6,0,0))
+#include <QTextCodec>
+#else
+#include <QStringDecoder>
+#endif
 
 #ifdef HAS_X11
 #include "x11.h"
@@ -183,6 +187,13 @@ FPwin::FPwin (QWidget *parent, bool standalone):QMainWindow (parent), dummyWidge
 
     ui->actionUTF_8->setChecked (true);
     ui->actionOther->setDisabled (true);
+
+#if (QT_VERSION >= QT_VERSION_CHECK(6,0,0))
+    /* not supported by Qt >= 6 */
+    ui->menuEast_European->setEnabled (false);
+    ui->menuEast_Asian->setEnabled (false);
+    ui->actionWindows_Arabic->setEnabled (false);
+#endif
 
     if (standalone_
         /* since Wayland has a serious issue related to QDrag that interferes with
@@ -2869,6 +2880,22 @@ static inline int trailingSpaces (const QString &str)
     }
     return i;
 }
+
+#if (QT_VERSION >= QT_VERSION_CHECK(6,0,0))
+static inline QStringEncoder getEncoder (const QString &encoding)
+{
+    if (encoding.compare ("UTF-16", Qt::CaseInsensitive) == 0)
+    {
+        return QStringEncoder (QStringConverter::Utf16,
+                               QStringConverter::Flag::WriteBom); // needed with fwrite()
+    }
+    return QStringEncoder (encoding.compare ("UTF-8", Qt::CaseInsensitive) == 0 ?
+                               QStringConverter::Utf8
+                           : encoding.compare ("UTF-32", Qt::CaseInsensitive) == 0 ? // not needed
+                               QStringConverter::Utf32
+                           : QStringConverter::Latin1);
+}
+#endif
 /*************************/
 // This is for both "Save" and "Save As".
 // See savePrompt() for the meanings of "first" and its following variables.
@@ -3090,43 +3117,73 @@ bool FPwin::saveFile (bool keepSyntax,
     bool MSWinLineEnd = false;
     if (QObject::sender() == ui->actionSaveCodec)
     {
-        QString encoding  = checkToEncoding();
-
         if (hasAnotherDialog())
         {
             closePreviousPages_ = false;
             return false;
         }
-        updateShortcuts (true);
-        MessageBox msgBox (this);
-        msgBox.setIcon (QMessageBox::Question);
-        msgBox.addButton (QMessageBox::Yes);
-        msgBox.addButton (QMessageBox::No);
-        msgBox.addButton (QMessageBox::Cancel);
-        msgBox.changeButtonText (QMessageBox::Yes, tr ("Yes"));
-        msgBox.changeButtonText (QMessageBox::No, tr ("No"));
-        msgBox.changeButtonText (QMessageBox::Cancel, tr ("Cancel"));
-        msgBox.setText ("<center>" + tr ("Do you want to use <b>MS Windows</b> end-of-lines?") + "</center>");
-        msgBox.setInformativeText ("<center><i>" + tr ("This may be good for readability under MS Windows.") + "</i></center>");
-        msgBox.setDefaultButton (QMessageBox::No);
-        msgBox.setWindowModality (Qt::WindowModal);
+
+        QString encoding  = checkToEncoding();
         QString contents;
-        size_t ln;
+#if (QT_VERSION < QT_VERSION_CHECK(6,0,0))
         QTextCodec *codec;
+#else
+        QStringEncoder encoder = getEncoder (encoding);
+#endif
         QByteArray encodedString;
         const char *txt;
-        switch (msgBox.exec()) {
-        case QMessageBox::Yes:
+
+        if (encoding == "UTF-16") // always use "\r\n" with UTF-16
+        {
             MSWinLineEnd = true;
             contents = textEdit->document()->toPlainText();
             contents.replace ("\n", "\r\n");
-            ln = static_cast<size_t>(contents.length()); // for fwrite();
+            size_t ln = static_cast<size_t>(contents.length()); // for fwrite()
+#if (QT_VERSION < QT_VERSION_CHECK(6,0,0))
             codec = QTextCodec::codecForName (encoding.toUtf8());
             encodedString = codec->fromUnicode (contents);
+#else
+            encodedString = encoder.encode (contents);
+#endif
             txt = encodedString.constData();
-            if (encoding != "UTF-16")
+            FILE *file;
+            file = fopen (fname.toUtf8().constData(), "wb");
+            if (file != nullptr)
             {
-                std::ofstream file;
+                /* this worked correctly as far as I tested */
+                fwrite (txt , 2 , ln + 1 , file);
+                fclose (file);
+                success = true;
+            }
+        }
+        else
+        {
+            updateShortcuts (true);
+            MessageBox msgBox (this);
+            msgBox.setIcon (QMessageBox::Question);
+            msgBox.addButton (QMessageBox::Yes);
+            msgBox.addButton (QMessageBox::No);
+            msgBox.addButton (QMessageBox::Cancel);
+            msgBox.changeButtonText (QMessageBox::Yes, tr ("Yes"));
+            msgBox.changeButtonText (QMessageBox::No, tr ("No"));
+            msgBox.changeButtonText (QMessageBox::Cancel, tr ("Cancel"));
+            msgBox.setText ("<center>" + tr ("Do you want to use <b>MS Windows</b> end-of-lines?") + "</center>");
+            msgBox.setInformativeText ("<center><i>" + tr ("This may be good for readability under MS Windows.") + "</i></center>");
+            msgBox.setDefaultButton (QMessageBox::No);
+            msgBox.setWindowModality (Qt::WindowModal);
+            std::ofstream file;
+            switch (msgBox.exec()) {
+            case QMessageBox::Yes:
+                MSWinLineEnd = true;
+                contents = textEdit->document()->toPlainText();
+                contents.replace ("\n", "\r\n");
+#if (QT_VERSION < QT_VERSION_CHECK(6,0,0))
+                codec = QTextCodec::codecForName (encoding.toUtf8());
+                encodedString = codec->fromUnicode (contents);
+#else
+                encodedString = encoder.encode (contents);
+#endif
+                txt = encodedString.constData();
                 file.open (fname.toUtf8().constData());
                 if (file.is_open())
                 {
@@ -3134,29 +3191,30 @@ bool FPwin::saveFile (bool keepSyntax,
                     file.close();
                     success = true;
                 }
-            }
-            else
-            {
-                FILE * file;
-                file = fopen (fname.toUtf8().constData(), "wb");
-                if (file != nullptr)
+                break;
+            case QMessageBox::No:
+#if (QT_VERSION < QT_VERSION_CHECK(6,0,0))
+                writer.setCodec (QTextCodec::codecForName (encoding.toUtf8()));
+#else
+                contents = textEdit->document()->toPlainText();
+                encodedString = encoder.encode (contents);
+                txt = encodedString.constData();
+                file.open (fname.toUtf8().constData());
+                if (file.is_open())
                 {
-                    /* this worked correctly as far as I tested */
-                    fwrite (txt , 2 , ln + 1 , file);
-                    fclose (file);
+                    file << txt;
+                    file.close();
                     success = true;
                 }
+#endif
+                break;
+            default:
+                updateShortcuts (false);
+                closePreviousPages_ = false;
+                return false;
             }
-            break;
-        case QMessageBox::No:
-            writer.setCodec (QTextCodec::codecForName (encoding.toUtf8()));
-            break;
-        default:
             updateShortcuts (false);
-            closePreviousPages_ = false;
-            return false;
         }
-        updateShortcuts (false);
     }
     else
         encodingToCheck ("UTF-8"); // UTF-8 is the default encoding with saving
@@ -3253,16 +3311,42 @@ void FPwin::saveAsRoot (const QString& fileName, TabPage *tabPage,
     if (QObject::sender() == ui->actionSaveCodec)
     {
         QString encoding  = checkToEncoding();
-        if (MSWinLineEnd)
+        if (encoding == "UTF-16")
         {
-            QString contents =textEdit->document()->toPlainText();
+            QString contents = textEdit->document()->toPlainText();
             contents.replace ("\n", "\r\n");
             size_t ln = static_cast<size_t>(contents.length());
+#if (QT_VERSION < QT_VERSION_CHECK(6,0,0))
             QTextCodec *codec = QTextCodec::codecForName (encoding.toUtf8());
             QByteArray encodedString = codec->fromUnicode (contents);
+#else
+            QStringEncoder encoder = getEncoder (encoding);
+            QByteArray encodedString = encoder.encode (contents);
+#endif
             const char *txt = encodedString.constData();
-            if (encoding != "UTF-16")
+            FILE *file;
+            file = fopen (fname.toUtf8().constData(), "wb");
+            if (file != nullptr)
             {
+                fwrite (txt , 2 , ln + 1 , file);
+                fclose (file);
+                success = true;
+            }
+        }
+        else
+        {
+            if (MSWinLineEnd)
+            {
+                QString contents =textEdit->document()->toPlainText();
+                contents.replace ("\n", "\r\n");
+#if (QT_VERSION < QT_VERSION_CHECK(6,0,0))
+                QTextCodec *codec = QTextCodec::codecForName (encoding.toUtf8());
+                QByteArray encodedString = codec->fromUnicode (contents);
+#else
+                QStringEncoder encoder = getEncoder (encoding);
+                QByteArray encodedString = encoder.encode (contents);
+#endif
+                const char *txt = encodedString.constData();
                 std::ofstream file;
                 file.open (fname.toUtf8().constData());
                 if (file.is_open())
@@ -3274,18 +3358,24 @@ void FPwin::saveAsRoot (const QString& fileName, TabPage *tabPage,
             }
             else
             {
-                FILE * file;
-                file = fopen (fname.toUtf8().constData(), "wb");
-                if (file != nullptr)
+#if (QT_VERSION < QT_VERSION_CHECK(6,0,0))
+                writer.setCodec (QTextCodec::codecForName (encoding.toUtf8()));
+#else
+                QString contents = textEdit->document()->toPlainText();
+                QStringEncoder encoder = getEncoder (encoding);
+                QByteArray encodedString = encoder.encode (contents);
+                const char *txt = encodedString.constData();
+                std::ofstream file;
+                file.open (fname.toUtf8().constData());
+                if (file.is_open())
                 {
-                    fwrite (txt , 2 , ln + 1 , file);
-                    fclose (file);
+                    file << txt;
+                    file.close();
                     success = true;
                 }
+#endif
             }
         }
-        else
-            writer.setCodec (QTextCodec::codecForName (encoding.toUtf8()));
     }
     else
         encodingToCheck ("UTF-8");
@@ -6061,8 +6151,13 @@ void FPwin::helpDoc()
 
     QByteArray data = helpFile.readAll();
     helpFile.close();
+#if (QT_VERSION < QT_VERSION_CHECK(6,0,0))
     QTextCodec *codec = QTextCodec::codecForName ("UTF-8");
     QString str = codec->toUnicode (data);
+#else
+    auto decoder = QStringDecoder (QStringDecoder::Utf8);
+    QString str = decoder.decode (data);
+#endif
     textEdit->setPlainText (str);
 
     textEdit->setReadOnly (true);

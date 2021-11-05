@@ -1,0 +1,273 @@
+***************
+*   General   *
+***************
+
+Per defecte, FeatherPad és una aplicació d'una sola instància; totes les seves finestres comparteixen el mateix procés, que finalitzarà només si totes es tanquen.
+
+No obstant això, si FeatherPad s'inicia amb l'opció de línia d'ordres "--standalone" o "-s", tindrà una finestra única amb un procés separat, independent de les altres finestres de FeatherPad.
+
+Poques vegades, pot ser necessari el mode autònom. Per exemple, si voleu utilitzar FeatherPad com a editor "git", necessitareu "featherpad -s" per iniciar l'editor perquè "git" no funciona correctament amb editors d'una sola instància.
+
+El mode autònom és una excepció a les regles de gestió de finestra/pestanya que s’expliquen en aquest document.
+
+Introduïu "featherpad --help" en un emulador de terminal per veure totes les opcions de línia d'ordres.
+
+****************************
+* Arrossegar i deixar anar *
+****************************
+
+Els fitxers es poden arrossegar i deixar anar a les finestres de FeatherPad.
+
+A més, les pestanyes es poden arrossegar des d'una finestra i deixar-les anar a una altra finestra o fora de totes les finestres de FeatherPad. En el primer cas, la pestanya arrosegada apareixerà després de la pestanya anteriorment activa ; en el segon cas, es crearà una nova finestra amb la pestanya deixada anar, és a dir, separada.
+
+NOTA: La pestanya DND només està habilitada a X11 perquè, com a mínim, Wayland té un problema greu relacionat amb el DND.
+
+*************
+* Pestanyes *
+*************
+
+Les pestanyes es poden reordenar o separar amb el ratolí.
+
+Si hi ha més d'una pestanya, cadascuna tindrà un menú amb el botó dret per tancar les pestanyes dreta o esquerra. Amb més d'una pestanya, també és possible separar la pestanya activa fent clic a l'element relacionat al menú Fitxer o amb Ctrl + T.
+
+Si s’obre un fitxer en una pestanya, el menú del clic dret d’aquesta pestanya també contindrà dos elements per copiar el nom i la ruta del fitxer, així com un element per obrir la carpeta que la conté amb el gestor de fitxers per defecte.
+
+Per a la comoditat dels usuaris, fent doble clic a una àrea buida de la barra de pestanyes es crea una pestanya nova.
+
+Hi ha dreceres (personalitzables) per canviar de pestanya de diverses maneres (vegeu el menú Fitxer), però Ctrl + Tab no és una d’elles perquè la tecla Tab està reservada per a l’edició de text (vegeu Dreceres de teclat, al final d’aquest document).
+
+*********************
+* Gestió de fitxers *
+*********************
+
+Si hi ha una finestra de FeatherPad a l'escriptori virtual actual, de manera que més de la meitat de la seva amplada i de la seva alçada siguin visibles, els fitxers s'obriran com a pestanyes noves; en cas contrari, es crearà una finestra nova. A més, quan la finestra actual té un diàleg modal, es crea una altra finestra.
+
+D’aquesta manera, FeatherPad reconeix els escriptoris virtuals de la majoria d’entorns d’escriptori Linux, tot i que hi ha excepcions (com ara entorns no X11 o Enlightenment).
+
+Els fitxers sempre s'obren després de la pestanya activa, tret que estigui buida, en aquest cas el fitxer s'obrirà en ella. Si s'obre un únic fitxer, la seva pestanya s'activarà, però en el cas de diversos fitxers, la pestanya activa no canviarà.
+
+Si s'obre un fitxer diverses vegades, la seva segona (tercera, ...) instància no es podrà editar per defecte i tindrà un fons groc clar o vermell fosc, segons si s'utilitzi l'esquema de colors per defecte o fosc. Per fer-lo editable, feu clic al botó "Edita", creat nou a la barra d'eines, o al menú "Edita". Després d’editar-la, aquests dos botons tornaran a desaparèixer.
+
+Si el fitxer obert és un enllaç simbòlic (symlink), el menú contextual de la seva pestanya tindrà dos elements addicionals per copiar el seu camí de destinació i obrir-lo dins de la finestra actual.
+
+Els fitxers de script executables es podrien executar des de FeatherPad si l'opció corresponent està habilitada al quadre de diàleg "Preferències". Aleshores també apareixerà un botó "Executa" a la barra d'eines i al menú "Fitxer" sempre que sigui necessari. Si no s'utilitza cap ordre de terminal per executar-los, els missatges de sortida i d'error es mostraran mitjançant un quadre de diàleg emergent.
+
+Segons quina opció estigui habilitada al quadre de diàleg "Preferències", FeatherPad recorda els fitxers modificats o oberts recentment. També pot obrir els fitxers de l'última finestra en iniciar una sessió. Tot i això, disposa d’un gestor de sessions més avançat, que proporciona a l’usuari opcions per desar,restaurar o eliminar les sessions desades en qualsevol moment i sense límit.
+
+*************************************
+* Sessions i mode de panell lateral *
+*************************************
+
+Les sessions es poden desar i obrir mitjançant el diàleg "Administrador de sessions". Com s'ha esmentat anteriorment, no hi ha límit en el nombre de sessions emmagatzemades. Cada sessió pot tenir qualsevol nom i constar de qualsevol nombre de fitxers. Tots els fitxers d'una sessió s'obren a la finestra FeatherPad actual i recorden les seves posicions del cursor.
+
+FeatherPad també té un mode de panell lateral, que es pot habilitar temporalment o amb l'inici. És el més adequat per treballar amb sessions perquè la seva llista de fitxers està ordenada alfabèticament i es pot filtrar. Cada element del tauler té un menú amb el botó dret del ratolí, que conté elements de menú per a diverses tasques quan hi ha més d'una pàgina. Els elements també es poden eliminar fent clic amb el botó central sense seleccionar-los.
+
+El mode de panell lateral no té funcions proporcionades per les pestanyes (per exemple, no hi ha cap arrossegar i deixar anar pestanyes) i, per contra, per exemple, les pestanyes no s’ordenen i no es poden filtrar, però el mode de panell lateral i de tabulació es pot utilitzar indistintament a través de l'element de menú del panell lateral o de la seva drecera i també fent clic amb el botó central en un espai buit dins de la barra de pestanyes o del panell lateral.
+
+El tauler lateral es pot obrir mitjançant la seva drecera (per defecte Ctrl + Alt + P ). Si ja està obert però no té el focus, la mateixa drecera el centra i, si té el focus, la drecera el tanca.
+
+Per tornar el focus a la vista principal de l'editor des del tauler lateral o en qualsevol altre lloc, premeu la tecla Escape.
+
+*****************
+* Codificacions *
+*****************
+
+FeatherPad intenta endevinar codificacions en obrir fitxers. Tot i que sovint els encerta, no hi ha una manera exacta d’aconseguir-ho. Per tant, hi ha algunes codificacions al menú "Opcions". Si en trieu una, el text es podria desar amb ella mitjançant l'element "Desa amb codificació" del menú "Fitxer". Per defecte, tots els textos es desen amb UTF-8, que abasta tots els alfabets.
+
+Normalment, no cal que us preocupeu per les codificacions; avui en dia, UTF-8 és l'estàndard i s'utilitza a tot arreu.
+
+******************************
+* Llenguatges de programació *
+******************************
+
+El llenguatge de programació d'un fitxer es detecta en funció del seu tipus o nom mime i la seva sintaxi es ressaltarà si el ressaltat de sintaxi està habilitat i admet el llenguatge en qüestió.
+
+Si un text no té llenguatge de programació o la seva sintaxi no és compatible, només es ressaltaran els seus enllaços/URL i serà possible obrir-los fent clic dret sobre ells, activant l'element del menú relacionat o prement la tecla Control, posant-hi el cursor a sobre i fent-hi clic mentre el cursor és transforma en una mà assenyalant.
+
+Si l'opció "Preferències → Text → Substitució de sintaxi de suport" està marcada activa, s'afegirà un botó d'idioma a la barra d'estat per anul·lar la sintaxi original o la manca. La recàrrega d’un document restaura la seva sintaxi original.
+"
+Quan el ressaltat de sintaxi està habilitat (per defecte o temporalment), també hi ha opcions al quadre de diàleg "Preferències" per mostrar espais en blanc (espais, tabuladors), finals de línies i document i línies de posició vertical.
+
+Els colors de ressaltat de sintaxi es poden personalitzar a "Preferències → Colors de sintaxi". Cada color de sintaxi pot tenir significats diferents en els diversos llenguatges de programació, però només s’esmenten els significats més importants. El valor del color dels espais en blanc es pot canviar al mateix lloc.
+
+***********************
+* Cerca i substitució *
+***********************
+
+A FeatherPad, la cerca i la substitució es fan mitjançant ginys separats perquè l'usuari pugui cercar una cadena i substituir-ne una altra. A més, un widget de substitució independent pot evitar un reemplaçament involuntari.
+
+Per eliminar els ressaltats grocs després d’acabar la cerca, podeu fer-ho
+
+* Fent clic a la icona "Esborra" de l'entrada de cerca, o bé
+* Prement Ctrl + K mentre l'entrada de cerca té el focus o
+* Buidant l'entrada de cerca i premeu Retorn o F3, o bé
+* Amagant la barra de cerca enfocant-la (amb Ctrl + F) i, tot seguit, prement Ctrl + F (de nou).
+
+Cada entrada de cerca té un historial que es pot mostrar com una llista emergent fent clic a la seva fletxa o prement Ctrl + Amunt / Avall quan tingui el focus. L'element més superior mostra el text cercat més recent. Quan l’entrada té el focus, les tecles de fletxa amunt i avall, així com les tecles de Pàg-amunt-avall, es poden utilitzar per seleccionar elements de l’historial sense mostrar la llista emergent: fletxes amunt i avall canvia la selecció un element, mentre que Pàg-amunt mostra les  superiors (entrades recents) i Pàg-avall les inferiors (les més antigues).
+
+FeatherPad pot utilitzar un historial compartit per a totes les entrades de cerca, ja siguin a la mateixa finestra o a diferents finestres del mateix procés de FeatherPad. Per defecte, cada entrada de cerca té un historial separat, però es pot canviar marcant "Preferències → Finestra → Utilitza un historial de cerca compartit".
+
+L’historial de cerques compartides comença amb cada sessió i s’oblida tan bon punt finalitza la sessió (és a dir, quan es tanquen totes les finestres; no té cap sentit mantenir-lo de manera indefinida).
+
+La finestra acoblada "Substitueix" respecta la configuració de "Coincideix majúscules", "Paraula sencera" i "Expressió regular" a la barra de cerca (en l'últim cas, el text coincident hauria de ser una expressió regular, mentre que el text de reemplaçament sempre és una cadena ordinària). Es pot deslligar i tornar a connectar a la finestra principal de la part superior o inferior. Per eliminar els ressaltats verds després de substituir el text, podeu ocultar/tancar la finestra acoblada "Substitueix" o fer el mateix que en el cas d'eliminar els ressaltats de cerca grocs.
+
+La finestra "Substitueix" acoblada mai es mostra sense la barra de cerca, perquè la configuració d'aquesta última la necessita.
+
+Premer la tecla Escape és la forma més senzilla d’enfocar la vista principal de l’editor, sense canviar res més.
+
+NOTA: la tecla Escape mai esborra l'entrada de cerca / substitució perquè és possible que l'usuari vulgui continuar la cerca / substitució més endavant. Per esborrar l'entrada de cerca / substitució, quan estigui enfocada, premeu Ctrl + K.
+
+***********************
+* Ressalt de selecció *
+***********************
+
+Si està marcat "Preferències → Text → Ressaltat de selecció", totes les coincidències entre majúscules i minúscules del text seleccionat es ressaltaran amb un color blau clar (o blau fosc quan s'utilitzi l'esquema de colors foscos). El text seleccionat no necessita ser una cadena sencera, però les coincidències ressaltades sempre són cadenes senceres.
+
+El ressaltat de selecció es pot utilitzar per trobar ràpidament cadenes senceres properes. És diferent del ressaltat de cerca (groc) i es pot utilitzar a més.
+
+********************
+* Anar a una línia *
+********************
+
+La barra de salt es pot mostrar fent clic al seu element a la barra d'eines o al menú Cerca. El salt es produirà després de prémer Retorn mentre la caixa de selecció Salt estigui activa. Si la casella de selecció que hi ha al costat està marcada, se seleccionarà tot el text entre el cursor de text i la línia de destinació.
+
+*********************
+*   Barra d'estat   *
+*********************
+
+La barra d'estat no només mostra informació sobre el fitxer obert, sinó que també pot contenir altres ginys quan hi ha determinades propietats habilitades al quadre de diàleg Preferències. També podeu amagar-la al quadre de diàleg Preferències, en aquest cas apareixerà l'element "Propietats del document" al menú Fitxer i es podrà mostrar temporalment.
+
+*************************
+* Desplaçament de rodes *
+*************************
+
+Si el cursor es troba dins de la vista de text, la velocitat de desplaçament de la roda (del ratolí) serà normal. Si, a més, es prem la tecla Maj, el text es desplaçarà una línia per volta de roda.
+
+El desplaçament "inercial" es pot habilitar a la secció Text del quadre de diàleg Preferències. Crea una mena d’inèrcia amb el desplaçament de la roda quan el cursor es troba dins de la vista de text.
+
+Per desplaçar-vos ràpidament, poseu el cursor a la barra de desplaçament vertical. A continuació, cada pas del gir de la roda mou la vista per una pàgina. Si també es prem la tecla Maj, la vista es mourà a la meitat de la pàgina.
+
+A més, consulteu la secció Dreceres de teclat → Desplaçament, a continuació.
+
+*********************
+* Tabulador de text *
+*********************
+
+Una sola línia de text es pot tabular amb la tecla Tab i destabular amb Maj + Tab (que també s'anomena "BackTab") si el cursor està al començament. Si hi ha diverses línies (parcialment) seleccionades, Tabulador i DesTabulador posterior afectaran totes, independentment de la posició del cursor.
+
+    Si s’utilitza Ctrl + Tab, la tabulació es farà amb 4 espais en lloc d’una tabulació (es pot canviar el nombre d’espais al quadre de diàleg Preferències). A vegades s'anomena "Tabulació suau".
+
+A FeatherPad, les tabulacions "dures" i "suaus" no s'exclouen mútuament perquè alguns textos poden necessitar-ne una i altres l'altra.
+
+Amb Ctrl + Meta + Tab, el text estarà separat per 2 espais, mentre que Maj + Meta + Tab desfarà la separació de 2 espais en la mesura del possible.
+
+Totes les tabulacions de text d'un document es poden convertir en espais (tabulacions suaus) mitjançant l'element de menú "Tabulació de text a espais" al menú del clic dret o al menú "Edita". Aquesta conversió es fa basant-se en el valor de Preferències → Text → Mida de la Tabulació de Text, que és 4 per defecte. El document s’ha de desar després de la conversió.
+
+********************
+* Suport automàtic *
+********************
+
+Amb el "Parèntesis automàtic" activat a Preferències, si s'escriu un parèntesi esquerre, clau, claudàtor o cometes dobles, s'inclourà respectivament un parèntesi dret, clau, claudàtor o doble cometa després del cursor i es mourà el cursor entre ells, sempre que el caràcter següent no sigui una lletra o un número. (Tot i que les cometes dobles no són un claudàtor i tenen idèntics signes esquerre i dret, s’inclouen en aquest text.)
+
+A més, si es selecciona alguna part del text de final a principi, si escriviu un parèntesi esquerre, un claudàtor, etc., se n’afegirà un de dret després del final de la selecció, de manera que la selecció es col·locarà dins de parèntesis, claus, etc.
+
+Per comoditat de l'usuari, si premeu Enter / Retorn després que la selecció de text estigui automàticament entre parèntesis "(...)" o claus "{...}", el text entre claudàtors es col·locarà a sota del claudàtor esquerre correcte.
+
+El mateix passa amb els textos RTL (de dreta a esquerra), però amb la dreta i l’esquerra invertides.
+
+*********************************
+* Punts suspensius i Guió Llarg *
+*********************************
+
+Amb l'opció corresponent habilitada a Preferències i en circumstàncies adequades, un periode de tres punts es substitueix per punts suspensius i un doble guionet per un guió llarg mentre l'usuari escriu.
+
+Les circumstàncies adequades depenen de la tecla premuda i, potser,  abans d’aquests caràcters. Per exemple, en el cas d’un període triple, s’ha de prémer la tecla Espai o Enter / Retorn i el període triple no l'ha de seguir un punt. Els guions dobles no se substitueixen als llenguatges de programació perquè poden tenir significats especials.
+
+Algunes altres cadenes també es poden substituir adequadament en llenguatges no programatius, per exemple, "->" i "> u003d".
+
+*************************
+* Correcció ortogràfica *
+*************************
+
+Per a la correcció ortogràfica, primer s'hauria d'afegir un diccionari Hunspell a Preferències → Text → camí del diccionari Hunspell (un diccionari Hunspell té el sufix ".dic" i ha d'anar acompanyat d'un fitxer affix amb el sufix ".aff"). La correcció ortogràfica utilitza F2, però la drecera es pot personalitzar.
+
+Si es fa clic a "Ignora tot", s'ignoraran totes les instàncies de la paraula durant la comprovació actual. Si sabeu que la paraula és correcta, podeu fer clic a "Afegeix al diccionari" i es desarà per a totes les comprovacions. Si es fa clic a "Corregeix-ho tot", altres instàncies de la paraula es corregiran de la mateixa manera en la comprovació activa.
+
+**************************
+*   Dreceres de teclat   *
+**************************
+
+Per personalitzar una drecera, feu-hi doble clic i premeu la drecera escollida dins de l'editor de dreceres del quadre de diàleg Preferències. Per esborrar una drecera, utilitzeu una tecla modificadora (com ara Maj). Per cancel·lar, premeu la tecla Escape abans que la drecera perdi el focus.
+
+Totes les dreceres, excepte les addicionals a sota, es poden trobar als menús o com a consells d’eina i moltes d’elles es poden personalitzar al quadre de diàleg Preferències.
+
+NOTA: Les dreceres d’edició de text poden ser diferents per als sistemes operatius que no siguin Linux.
+
+Dreceres addicionals útils (ocultes):
+=====================================
+
+Finestra:
+*********
+Escape              Enfoca la vista principal de l'editor sense canviar res més
+F11                 (Un-)Pantalla sencera
+
+Ampliant (Zoom):
+***************
+Ctrl+=              Apropa (també Ctrl ++ o Ctrl + roda del ratolí)
+Ctrl+-              Allunya (també Ctrl + roda del ratolí)
+Ctrl+0              Restableix el zoom
+
+Execució d'un procés:
+*********************
+Ctrl+E              Executeu el fitxer obert en aquesta pestanya (només si està activat a Preferències)
+Ctrl+Alt+E          Surt (elimina) el procés anterior immediatament
+
+Desplaçament:
+*************
+Maj + Roda del ratolí   Si el cursor es troba dins de la vista, desplaceu-vos cap amunt / cap avall per una línia ajustada;
+                        Si el cursor es troba a la barra de desplaçament vertical, desplaceu-vos amunt/ avall a la meitat de la pàgina
+Ctrl + Amunt/Avall      Desplaceu-vos cap amunt / cap avall per una línia ajustada sense moure el cursor de text
+Ctrl + Av-pàg/Re-pàg    Desplaceu-vos cap amunt / avall per una pàgina sense moure el cursor de text
+
+Moure el cursor de text:
+************************
+Inici                       Aneu a l'inici de línia més el sagnat
+Final                       Vés a l'extrem de la línia
+Ctrl + Inici                Anar a l'inici del text
+Ctrl + Final                Ves al final del text
+Dret/ Esquerra              Mou el cursor un caràcter cap a la dreta / esquerra
+Ctrl + Dret/Esq             Mou el cursor una paraula cap a la dreta / esquerra
+Amunt/Avall                 Aneu a la mateixa posició de la línia ajustada anterior / següent
+Maj + Amunt/Avall           Aneu a la mateixa posició a la línia ajustada anterior / següent mentre seleccioneu text
+Meta + Amunt/Avall          Aneu a la mateixa posició a la línia anterior / següent (real)
+Meta + Maj + Amunt/Avall    Aneu a la mateixa posició a la línia anterior / següent (real) mentre seleccioneu text
+Av-pàg/Re-pàg               Aneu a la mateixa posició de la pàgina anterior / següent
+
+Tabulació de text:
+******************
+Tab                 Tabulació de text ordinari (la seva longitud es pot canviar a Preferències)
+Maj + Tab           Tabulacio inversa
+Ctrl + Tab          Tabulació de text de 4 espais (es pot canviar a Preferències)
+Ctrl + Meta + Tab   Tabulació de text en 2 espais
+Majs + Meta + Tab   Tabulació inversa de 2 espais, en la mesura del possible
+
+Edició de text:
+***************
+Insert                      Commuta el mode de sobreescriptura
+Retorn                      Esborra a l'esquerra del cursor de text
+Ctrl + Retorn               Suprimeix fins al començament de la paraula
+Supr                        Suprimeix a la dreta del cursor de text (el contrari de Retrocés)
+Ctrl + Supr                 Suprimeix fins al final de la paraula (el contrari de Ctrl + Retrocés)
+Ctrl + K                    Suprimeix fins al final de la línia (quan l'editor té el focus)
+Ctrl + Maj + Amunt/Avall    Mou la línia actual o les línies seleccionades cap amunt / cap avall
+Maj + Enter                 Insereix nova línia amb el prefix que no sigui de lletra de la línia actual
+                            (per escriure comentaris o llistes de codi fàcilment, per exemple)
+
+
+***********************
+*   Múltiples clics   *
+***********************
+
+Doble clic        	 Selecciona una paraula sencera
+Triple clic          Seleccioneu una línia sense els espais en blanc principals i finals
+Ctrl + Triple clic   Selecciona una línia sencera més la seva línia de seguiment, si n'hi ha

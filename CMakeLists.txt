@@ -15,6 +15,7 @@ if(CMAKE_INSTALL_PREFIX_INITIALIZED_TO_DEFAULT)
   endif()
 endif()
 
+option(ENABLE_QT5 "Building Qt5 plugin." ON)
 option(WITHOUT_X11 "Compiling without X11..." OFF)
 # OS/2 never has X11
 if (OS2)

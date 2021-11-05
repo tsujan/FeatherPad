@@ -250,7 +250,11 @@ void Highlighter::highlightMarkdownBlock (const QString &text)
         else
         {
             QRegularExpressionMatch spacesMatch;
+#if (QT_VERSION < QT_VERSION_CHECK(6,0,0))
             text.indexOf (QRegularExpression ("^\\s+"), 0, &spacesMatch);
+#else
+            (void)text.indexOf (QRegularExpression ("^\\s+"), 0, &spacesMatch);
+#endif
             if (spacesMatch.capturedLength() == text.length()
                 || spacesMatch.capturedLength() >= prevLabel.length())
             {

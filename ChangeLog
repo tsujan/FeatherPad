@@ -1,3 +1,7 @@
+V1.1.0
+---------
+ * Enabled experimental compilation against Qt6. With cmake, "ENABLE_QT5" should be set to "OFF" (as in `cmake .. -DENABLE_QT5=OFF`) — it's "ON" by default.
+
 V1.0.1
 ---------
  * Better inertial scrolling with touchpad and sensitive devices.

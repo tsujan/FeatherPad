@@ -1,5 +1,5 @@
 /*
- * Copyright (C) Pedram Pourang (aka Tsu Jan) 2014-2019 <tsujan2000@gmail.com>
+ * Copyright (C) Pedram Pourang (aka Tsu Jan) 2014-2021 <tsujan2000@gmail.com>
  *
  * FeatherPad is free software: you can redistribute it and/or modify it
  * under the terms of the GNU General Public License as published by the
@@ -83,7 +83,11 @@ void TabBar::mouseMoveEvent (QMouseEvent *event)
     if (!noTabDND_
         && (event->buttons() & Qt::LeftButton)
         && dragStarted_
+#if (QT_VERSION < QT_VERSION_CHECK(6,0,0))
         && !window()->geometry().contains (event->globalPos()))
+#else
+        && !window()->geometry().contains (event->globalPosition().toPoint()))
+#endif
     {
         int index = currentIndex();
         if (index == -1)
@@ -127,7 +131,11 @@ void TabBar::mouseMoveEvent (QMouseEvent *event)
         QTabBar::mouseMoveEvent (event);
         int index = tabAt (event->pos());
         if (index > -1)
+#if (QT_VERSION < QT_VERSION_CHECK(6,0,0))
             QToolTip::showText (event->globalPos(), tabToolTip (index));
+#else
+            QToolTip::showText (event->globalPosition().toPoint(), tabToolTip (index));
+#endif
         else
             QToolTip::hideText();
     }
