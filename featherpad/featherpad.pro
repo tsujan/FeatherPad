@@ -134,8 +134,8 @@ unix {
   }
 }
 else:os2 {
-  LIBS += -lhunspell-1.7_dll
-  INCLUDEPATH += /@unixroot/usr/include/hunspell
+  CONFIG += link_pkgconfig
+  PKGCONFIG += hunspell
   RC_FILE = data/featherpad_os2.rc
   #TRANSLATIONS
   exists($$[QT_INSTALL_BINS]/lrelease.exe) {
