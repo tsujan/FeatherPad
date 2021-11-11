@@ -36,7 +36,8 @@
         <location filename="../../fp.ui" line="107"/>
         <source>Select text from cursor to this line
 (Ctrl+Shift+J)</source>
-        <translation type="unfinished"></translation>
+        <translation>Valitse teksti kursorin kohdalta tälle riville
+(Ctrl+Shift+J)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="111"/>
@@ -90,7 +91,7 @@
     <message>
         <location filename="../../fp.ui" line="406"/>
         <source>To be replaced</source>
-        <translation type="unfinished"></translation>
+        <translation>Korvattava</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="419"/>
@@ -100,7 +101,7 @@
     <message>
         <location filename="../../fp.ui" line="435"/>
         <source>Replacing text</source>
-        <translation type="unfinished"></translation>
+        <translation>Korvaava</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="494"/>
@@ -202,7 +203,7 @@
     <message>
         <location filename="../../fp.ui" line="586"/>
         <source>Show/hide replacement dock</source>
-        <translation type="unfinished"></translation>
+        <translation>Näytä/piilota korvaava telakka</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="589"/>
@@ -232,7 +233,7 @@
     <message>
         <location filename="../../fp.ui" line="610"/>
         <source>Documen&amp;t Properties</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Asiakirjan Ominaisuudet</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="613"/>
@@ -322,7 +323,7 @@
     <message>
         <location filename="../../fp.ui" line="702"/>
         <source>&amp;Wrap Lines</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Kääri Rivit</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="705"/>
@@ -332,7 +333,7 @@
     <message>
         <location filename="../../fp.ui" line="716"/>
         <source>&amp;Auto-Indentation</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Automaattinen Sisennys</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="719"/>
@@ -342,7 +343,7 @@
     <message>
         <location filename="../../fp.ui" line="730"/>
         <source>&amp;Syntax Highlighting</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Syntaksin Korostus</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="733"/>
@@ -372,22 +373,22 @@
     <message>
         <location filename="../../fp.ui" line="781"/>
         <source>Enforce UTF-8</source>
-        <translation type="unfinished"></translation>
+        <translation>Pakota UTF-8</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="964"/>
         <source>Save with &amp;Encoding</source>
-        <translation type="unfinished"></translation>
+        <translation>Tallenna &amp;Koodauksella</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="969"/>
         <source>&amp;Jump to</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Hyppää</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="972"/>
         <source>Show/hide jump bar</source>
-        <translation type="unfinished"></translation>
+        <translation>Näytä/piilota hyppypalkki</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="975"/>
@@ -397,7 +398,7 @@
     <message>
         <location filename="../../fp.ui" line="983"/>
         <source>Edit text</source>
-        <translation type="unfinished"></translation>
+        <translation>Muokkaa tekstiä</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="986"/>
@@ -417,22 +418,22 @@
     <message>
         <location filename="../../fp.ui" line="1100"/>
         <source>&amp;Clear</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Tyhjennä</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1103"/>
         <source>Clear the list of recently modified files</source>
-        <translation type="unfinished"></translation>
+        <translation>Tyhjennä viimeksi muokattujen tiedostojen lista</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1108"/>
         <source>Save/Restore Session</source>
-        <translation type="unfinished"></translation>
+        <translation>Tallenna/Palauta Istunto</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1111"/>
         <source>Sa&amp;ve/Restore Session</source>
-        <translation type="unfinished"></translation>
+        <translation>T&amp;allenna/Palauta Istunto</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1114"/>
@@ -442,7 +443,7 @@
     <message>
         <location filename="../../fp.ui" line="1119"/>
         <source>Side-Pane</source>
-        <translation type="unfinished"></translation>
+        <translation>Sivupaneeli</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1122"/>
@@ -452,7 +453,7 @@
     <message>
         <location filename="../../fp.ui" line="1127"/>
         <source>Paste Date and Time</source>
-        <translation type="unfinished"></translation>
+        <translation>Liitä Päivämäärä ja Aika</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1130"/>
@@ -463,7 +464,7 @@
         <location filename="../../fp.ui" line="1135"/>
         <location filename="../../fp.ui" line="1138"/>
         <source>To Upper Case</source>
-        <translation type="unfinished"></translation>
+        <translation>Isoiksi Kirjaimiksi</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1141"/>
@@ -474,7 +475,7 @@
         <location filename="../../fp.ui" line="1146"/>
         <location filename="../../fp.ui" line="1149"/>
         <source>To Lower Case</source>
-        <translation type="unfinished"></translation>
+        <translation>Pieniksi Kirjaimiksi</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1152"/>
@@ -485,13 +486,13 @@
         <location filename="../../fp.ui" line="1157"/>
         <location filename="../../fp.ui" line="1160"/>
         <source>To Start Case</source>
-        <translation type="unfinished"></translation>
+        <translation>Aloita Suurilla Kirjaimilla</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1168"/>
         <location filename="../../fp.ui" line="1171"/>
         <source>Last Active Tab</source>
-        <translation type="unfinished"></translation>
+        <translation>Viimeksi Aktiivinen Välilehti</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1174"/>
@@ -502,18 +503,18 @@
         <location filename="../../fp.ui" line="1179"/>
         <location filename="../../fp.ui" line="1182"/>
         <source>Sort Lines</source>
-        <translation type="unfinished"></translation>
+        <translation>Lajittele Rivit</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1187"/>
         <location filename="../../fp.ui" line="1190"/>
         <source>Sort Lines Reversely</source>
-        <translation type="unfinished"></translation>
+        <translation>Lajittele Rivit Takaperin</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1195"/>
         <source>Check Spelling</source>
-        <translation type="unfinished"></translation>
+        <translation>Tarkista Oikeinkirjoitus</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1198"/>
@@ -530,17 +531,17 @@
         <location filename="../../fp.ui" line="1211"/>
         <location filename="../../fp.ui" line="1214"/>
         <source>User Dictionary</source>
-        <translation type="unfinished"></translation>
+        <translation>Käyttäjän Sanakirja</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1219"/>
         <source>Text Tabs to Spaces</source>
-        <translation type="unfinished"></translation>
+        <translation>Sarkaimet Välilyönneiksi</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="994"/>
         <source>&amp;Detach Tab</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Irroita Välilehti</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="997"/>
@@ -550,12 +551,12 @@
     <message>
         <location filename="../../fp.ui" line="1010"/>
         <source>Close Ne&amp;xt Tabs</source>
-        <translation type="unfinished"></translation>
+        <translation>Sulje Välilehdet &amp;Oikealta/Alta</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1015"/>
         <source>Close &amp;Previous Tabs</source>
-        <translation type="unfinished"></translation>
+        <translation>Sulje Välilehdet &amp;Vasemmalta/Yltä</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1043"/>
@@ -570,42 +571,42 @@
     <message>
         <location filename="../../fp.ui" line="1092"/>
         <source>Execute</source>
-        <translation type="unfinished"></translation>
+        <translation>Suorita</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1020"/>
         <source>Close &amp;All Tabs</source>
-        <translation type="unfinished"></translation>
+        <translation>Sulje &amp;Kaikki Välilehdet</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="153"/>
         <source>Recently &amp;Modified</source>
-        <translation type="unfinished"></translation>
+        <translation>Viimeksi &amp;Muokatut</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="223"/>
         <source>&amp;Encoding</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Koodaus</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="227"/>
         <source>&amp;Unicode</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Unicode</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="234"/>
         <source>&amp;Western European</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Länsieurooppalainen</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="242"/>
         <source>&amp;East European</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Itäeurooppalainen</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="250"/>
         <source>Ea&amp;st Asian</source>
-        <translation type="unfinished"></translation>
+        <translation>Itä&amp;aasialainen</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="342"/>
@@ -613,12 +614,12 @@
         <location filename="../../replace.cpp" line="61"/>
         <location filename="../../replace.cpp" line="113"/>
         <source>Replacement</source>
-        <translation type="unfinished"></translation>
+        <translation>Korvaus</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="575"/>
         <source>Focus/hide search bar</source>
-        <translation type="unfinished"></translation>
+        <translation>Kohdista/piilota hakupalkki</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="583"/>
@@ -628,7 +629,7 @@
     <message>
         <location filename="../../fp.ui" line="765"/>
         <source>Windows Arabic (&amp;CP1256)</source>
-        <translation type="unfinished"></translation>
+        <translation>Windows Arabialainen (&amp;CP1256)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="773"/>
@@ -658,189 +659,190 @@
     <message>
         <location filename="../../fp.ui" line="836"/>
         <source>&amp;Cyrillic (CP1251)</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Kyrillinen (CP1251)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="847"/>
         <source>Cyrillic (&amp;KOI8-U)</source>
-        <translation type="unfinished"></translation>
+        <translation>K&amp;yrillinen (KOI8-U)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="858"/>
         <source>Cyrillic (&amp;ISO-8859-5)</source>
-        <translation type="unfinished"></translation>
+        <translation>Kyrillinen (&amp;ISO-8859-5)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="869"/>
         <source>&amp;Chinese (BIG5)</source>
-        <translation type="unfinished"></translation>
+        <translation>Kii&amp;nalainen (BIG5)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="880"/>
         <source>Chinese (&amp;GB18030)</source>
-        <translation type="unfinished"></translation>
+        <translation>Kiinalainen (&amp;GB18030)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="891"/>
         <source>&amp;Japanese (ISO-2022-JP)</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Japanilainen (ISO-2022-JP)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="902"/>
         <source>Japanese (&amp;ISO-2022-JP-2)</source>
-        <translation type="unfinished"></translation>
+        <translation>Japanilainen (&amp;ISO-2022-JP-2)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="913"/>
         <source>Japanese (ISO-&amp;2022-KR)</source>
-        <translation type="unfinished"></translation>
+        <translation>Japanilainen (ISO-&amp;2022-KR)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="924"/>
         <source>Ja&amp;panese (CP932)</source>
-        <translation type="unfinished"></translation>
+        <translation>Ja&amp;panilainen (CP932)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="935"/>
         <source>Japa&amp;nese (EUC-JP)</source>
-        <translation type="unfinished"></translation>
+        <translation>Japa&amp;nilainen (EUC-JP)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="943"/>
         <source>&amp;Korean (CP949)</source>
-        <translation type="unfinished"></translation>
+        <translation>K&amp;orealainen (CP949)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="951"/>
         <source>K&amp;orean (CP1361)</source>
-        <translation type="unfinished"></translation>
+        <translation>Ko&amp;realainen (CP1361)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="959"/>
         <source>Korean (&amp;EUC-KR)</source>
-        <translation type="unfinished"></translation>
+        <translation>Korealainen (&amp;EUC-KR)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1005"/>
         <source>ISO-&amp;8859-15</source>
-        <translation type="unfinished"></translation>
+        <translation>ISO-&amp;8859-15</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1025"/>
         <source>Close &amp;Other Tabs</source>
-        <translation type="unfinished"></translation>
+        <translation>Sulje &amp;Muut Välilehdet</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1030"/>
         <source>&amp;Copy File Name</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Kopioi Tiedostonimi</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1035"/>
         <source>Copy File &amp;Path</source>
-        <translation type="unfinished"></translation>
+        <translation>Kopioi Tiedoston &amp;Polku</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1046"/>
         <source>Alt+Right</source>
-        <translation type="unfinished"></translation>
+        <translation>Alt+Oikealle</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1057"/>
         <source>Alt+Left</source>
-        <translation type="unfinished"></translation>
+        <translation>Alt+Vasemmalle</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1065"/>
         <source>&amp;First Tab</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Ensimmäinen Välilehti</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1068"/>
         <source>Alt+Down</source>
-        <translation type="unfinished"></translation>
+        <translation>Alt+Alas</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1076"/>
         <source>&amp;Last Tab</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Viimeinen Välilehti</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1079"/>
         <source>Alt+Up</source>
-        <translation type="unfinished"></translation>
+        <translation>Alt+Ylös</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1084"/>
         <source>Menu</source>
-        <translation type="unfinished"></translation>
+        <translation>Valikko</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="101"/>
         <source>Calculate number of words
 (For huge texts, this may be CPU-intensive.)</source>
-        <translation type="unfinished"></translation>
+        <translation>Laske sanojen lukumäärä
+(Suuret tekstimäärät voivat olla prosessorille raskaita.)</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="116"/>
         <source>Next</source>
-        <translation type="unfinished"></translation>
+        <translation>Seuraava</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="117"/>
         <source>Previous</source>
-        <translation type="unfinished"></translation>
+        <translation>Edellinen</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="118"/>
         <source>Replace all</source>
-        <translation type="unfinished"></translation>
+        <translation>Korvaa kaikki</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="604"/>
         <source>&amp;Recently Opened</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Viimeksi Avatut</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1928"/>
         <source>Close</source>
-        <translation type="unfinished"></translation>
+        <translation>Sulje</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1253"/>
         <source>Save changes?</source>
-        <translation type="unfinished"></translation>
+        <translation>Tallennetaanko muutokset?</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="905"/>
         <source>Please attend to that window or just close its dialog!</source>
-        <translation type="unfinished"></translation>
+        <translation>Sulje, tai käytä jo olemassa olevaa valintaikkunaa!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1257"/>
         <source>The document has been modified.</source>
-        <translation type="unfinished"></translation>
+        <translation>Asiakirjaa on muokattu.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1268"/>
         <source>&amp;Discard changes</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Hylkää muutokset</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1269"/>
         <source>&amp;Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Peruuta</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1271"/>
         <source>&amp;No to all</source>
-        <translation type="unfinished"></translation>
+        <translation>Vastaa &amp;ei kaikkiin</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1474"/>
         <location filename="../../fpwin.cpp" line="1532"/>
         <source>Unsaved</source>
-        <translation type="unfinished"></translation>
+        <translation>Tallentamaton</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1493"/>
@@ -853,86 +855,86 @@
         <location filename="../../fpwin.cpp" line="5990"/>
         <location filename="../../fpwin.cpp" line="5997"/>
         <source>Lines</source>
-        <translation type="unfinished"></translation>
+        <translation>Rivejä</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1494"/>
         <location filename="../../fpwin.cpp" line="4422"/>
         <location filename="../../fpwin.cpp" line="4437"/>
         <source>Sel. Chars</source>
-        <translation type="unfinished"></translation>
+        <translation>Merkkiä Valittuna</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1495"/>
         <location filename="../../fpwin.cpp" line="4424"/>
         <location filename="../../fpwin.cpp" line="4438"/>
         <source>Words</source>
-        <translation type="unfinished"></translation>
+        <translation>Sanoja</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1811"/>
         <source>Another process is running in this tab!</source>
-        <translation type="unfinished"></translation>
+        <translation>Toinen prosessi käyttää tätä välilehteä!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1919"/>
         <source>Script File</source>
-        <translation type="unfinished"></translation>
+        <translation>Skripti Tiedosto</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="904"/>
         <source>Another FeatherPad window has a modal dialog!</source>
-        <translation type="unfinished"></translation>
+        <translation>Toisella FeatherPad prosessilla on jo valintaikkuna auki!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="741"/>
         <location filename="../../fpwin.cpp" line="4463"/>
         <source>Position:</source>
-        <translation type="unfinished"></translation>
+        <translation>Sijainti:</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="789"/>
         <location filename="../../fpwin.cpp" line="4481"/>
         <location filename="../../fpwin.cpp" line="4501"/>
         <source>Normal</source>
-        <translation type="unfinished"></translation>
+        <translation>Normaali</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1255"/>
         <location filename="../../fpwin.cpp" line="2600"/>
         <location filename="../../fpwin.cpp" line="5789"/>
         <source>The file does not exist.</source>
-        <translation type="unfinished"></translation>
+        <translation>Tiedostoa ei löydy.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1624"/>
         <source>Open Link</source>
-        <translation type="unfinished"></translation>
+        <translation>Avaa Linkki</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1637"/>
         <source>Copy Link</source>
-        <translation type="unfinished"></translation>
+        <translation>Kopioi Linkki</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1812"/>
         <source>Only one process is allowed per tab.</source>
-        <translation type="unfinished"></translation>
+        <translation>Vain yksi prosessi välilehteä kohden on sallittu.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1915"/>
         <source>Script Output</source>
-        <translation type="unfinished"></translation>
+        <translation>Skriptin Tuloste</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1931"/>
         <source>Clear</source>
-        <translation type="unfinished"></translation>
+        <translation>Tyhjennä</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2557"/>
         <source>FeatherPad does not open files larger than 100 MiB.</source>
-        <translation type="unfinished"></translation>
+        <translation>FeatherPad ei avaa suurempia tiedostoja kuin 100MiB.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2565"/>

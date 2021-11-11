@@ -1842,7 +1842,7 @@ process could be killed by Ctrl+Alt+E.</source>
 ve skriptovacích jazycích jako Shell a Python.
 
 Pokud je zaškrtnuto a otevřený soubor je spustitelný,
-pak bude spuštěn klepnutím na tlačítko (které se dle potřeby
+pak bude spuštěn kliknutím na tlačítko (které se dle potřeby
 objeví v liště nástrojů/soubor) nebo klávesovou zkratkou
 Ctrl+E. Vynutit ukončení procesu je možné pomocí
 Ctrl+Alt+E.</translation>
