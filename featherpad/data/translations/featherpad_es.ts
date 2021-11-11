@@ -1266,7 +1266,7 @@
         <translation>Los primeros 1000 reemplazamientos son enfocados.</translation>
     </message>
     <message>
-        <location filename="../../syntax.cpp" line="298"/>
+        <location filename="../../syntax.cpp" line="302"/>
         <source>The size limit for syntax highlighting is exceeded.</source>
         <translation>Se ha superado el límite permitido para utilizar el resaltado de sintaxis.</translation>
     </message>

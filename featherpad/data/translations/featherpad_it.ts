@@ -1266,7 +1266,7 @@ linea (Ctrl + Shift + J)</translation>
         <translation>Le prime 1000 sostituzioni sono evidenziate.</translation>
     </message>
     <message>
-        <location filename="../../syntax.cpp" line="298"/>
+        <location filename="../../syntax.cpp" line="302"/>
         <source>The size limit for syntax highlighting is exceeded.</source>
         <translation>Il limite di dimensione per l&apos;evidenziazione della sintassi è stato  superato.</translation>
     </message>

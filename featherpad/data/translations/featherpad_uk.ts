@@ -1267,7 +1267,7 @@
         <translation>Перші 1000 замін буде підсвічено.</translation>
     </message>
     <message>
-        <location filename="../../syntax.cpp" line="298"/>
+        <location filename="../../syntax.cpp" line="302"/>
         <source>The size limit for syntax highlighting is exceeded.</source>
         <translation>Перевищено обмеження розміру підсвічування синтаксису.</translation>
     </message>

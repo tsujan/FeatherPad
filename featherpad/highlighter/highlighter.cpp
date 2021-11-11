@@ -1477,6 +1477,45 @@ Highlighter::Highlighter (QTextDocument *parent, const QString& lang,
         rule.format = goFormat;
         highlightingRules.append (rule);
     }
+    else if (progLan == "tcl")
+    {
+        QTextCharFormat tclFormat;
+
+        /* numbers */
+        tclFormat.setForeground (Brown);
+        rule.pattern.setPattern ("(?<![a-zA-Z0-9_@$])(\\d+(\\.|\\.\\d+)?|\\.\\d+)(?=[^\\d]|$)");
+        rule.format = tclFormat;
+        highlightingRules.append (rule);
+
+        tclFormat.setFontWeight (QFont::Bold);
+        tclFormat.setForeground (neutralColor);
+        rule.pattern.setPattern ("\\{|\\}");
+        rule.format = tclFormat;
+        highlightingRules.append (rule);
+
+        tclFormat.setForeground (DarkMagenta);
+        rule.pattern.setPattern ("\\[|\\]");
+        rule.format = tclFormat;
+        highlightingRules.append (rule);
+
+        tclFormat.setForeground (DarkYellow);
+        rule.pattern.setPattern ("\\(|\\)");
+        rule.format = tclFormat;
+        highlightingRules.append (rule);
+
+        /* built-in functions */
+        tclFormat.setForeground (Magenta);
+        rule.pattern.setPattern ("\\b(?<!(#|\\$))(abs|acos|asin|atan|atan2|ceil|cos|cosh|double|exp|floor|fmod|hypot|int|log|log10|pow|rand|round|sin|sinh|sqrt|srand|tan|tanh|wide)(?!(@|#|\\$))\\b");
+        rule.format = tclFormat;
+        highlightingRules.append (rule);
+
+        /* variables (after "$") */
+        tclFormat.setFontWeight (QFont::Normal);
+        tclFormat.setForeground (Blue);
+        rule.pattern.setPattern ("(?<!\\\\)(\\\\{2})*\\K(\\$(::)?[a-zA-Z0-9_]+((::[a-zA-Z0-9_]+)+)?\\b|\\$\\{[^\\}]+\\})");
+        rule.format = tclFormat;
+        highlightingRules.append (rule);
+    }
     else if (progLan == "pascal")
     {
         quoteMark.setPattern ("'");
@@ -1627,6 +1666,9 @@ Highlighter::Highlighter (QTextDocument *parent, const QString& lang,
         rule.pattern.setPattern ("\\\\\"|\\\\#|\\.\\s*\\\\\"");
     else if (progLan == "LaTeX")
         rule.pattern.setPattern ("%.*");
+    else if (progLan == "tcl")
+        rule.pattern.setPattern ("^\\s*#|(?<!\\\\)(\\\\{2})*\\K;\\s*#");
+
     if (!rule.pattern.pattern().isEmpty())
     {
         rule.format = commentFormat;
@@ -1879,7 +1921,7 @@ bool Highlighter::isEscapedQuote (const QString &text, const int pos, bool isSta
             return true; // escaped end quote
     }
 
-    /* escaped start quotes are just for Bash, Perl, markdown and yaml */
+    /* escaped start quotes are just for Bash, Perl, markdown and yaml (and tcl) */
     if (isStartQuote)
     {
         if (progLan == "perl")
@@ -1966,6 +2008,8 @@ bool Highlighter::isQuoted (const QString &text, const int index,
         return isPerlQuoted (text, index);
     if (progLan == "javascript" || progLan == "qml")
         return isJSQuoted (text, index);
+    if (progLan == "tcl")
+        return isTclQuoted (text, index, start);
 
     if (index < 0 || start < 0 || index < start)
         return false;
@@ -2046,7 +2090,7 @@ bool Highlighter::isQuoted (const QString &text, const int index,
         ++N;
         if ((N % 2 == 0 // an escaped end quote...
              && isEscapedQuote (text, nxtPos, false))
-            || (N % 2 != 0 // ... or an escaped start quote Bash...
+            || (N % 2 != 0 // ... or an escaped start quote
                 && (isEscapedQuote (text, nxtPos, true, skipCommandSign)
                     /*|| isInsideRegex (text, nxtPos)*/))) // ... or a start quote inside regex
         {
@@ -2515,7 +2559,11 @@ void Highlighter::pythonMLComment (const QString &text, const int indx)
         setFormat (index, quoteLength, commentFormat);
 
         /* format urls and email addresses inside the comment */
+#if (QT_VERSION < QT_VERSION_CHECK(6,0,0))
         QString str = text.mid (index, quoteLength);
+#else
+        QString str = text.sliced (index, quoteLength);
+#endif
         int pIndex = 0;
         QRegularExpressionMatch urlMatch;
         while ((pIndex = str.indexOf (urlPattern, pIndex, &urlMatch)) > -1)
@@ -2570,7 +2618,9 @@ void Highlighter::singleLineComment (const QString &text, const int start)
                            || isQuoted (text, startIndex, false, qMax (start, 0)) || isInsideRegex (text, startIndex)
                            /* with troff and LaTeX, the comment sign may be escaped */
                            || ((progLan == "troff" || progLan == "LaTeX")
-                               && isEscapedChar(text, startIndex))))
+                               && isEscapedChar(text, startIndex))
+                           || (progLan == "tcl"
+                               && tclCommentInsideVariable (text, startIndex, qMax (start, 0)))))
                 {
                     startIndex = text.indexOf (rule.pattern, startIndex + 1);
                 }
@@ -2581,7 +2631,11 @@ void Highlighter::singleLineComment (const QString &text, const int start)
                 setFormat (startIndex, l - startIndex, commentFormat);
 
                 /* also format urls and email addresses inside the comment */
+#if (QT_VERSION < QT_VERSION_CHECK(6,0,0))
                 QString str = text.mid (startIndex, l - startIndex);
+#else
+                QString str = text.sliced (startIndex, l - startIndex);
+#endif
                 int pIndex = 0;
                 QRegularExpressionMatch urlMatch;
                 while ((pIndex = str.indexOf (urlPattern, pIndex, &urlMatch)) > -1)
@@ -2775,7 +2829,11 @@ bool Highlighter::multiLineComment (const QString &text,
             setFormat (startIndex, commentLength, comFormat);
 
             /* format urls and email addresses inside the comment */
+#if (QT_VERSION < QT_VERSION_CHECK(6,0,0))
             QString str = text.mid (startIndex, commentLength);
+#else
+            QString str = text.sliced (startIndex, commentLength);
+#endif
             int pIndex = 0;
             QRegularExpressionMatch urlMatch;
             while ((pIndex = str.indexOf (urlPattern, pIndex, &urlMatch)) > -1)
@@ -2845,6 +2903,11 @@ bool Highlighter::multiLineQuote (const QString &text, const int start, int comS
     if (progLan == "javascript" || progLan == "qml")
     {
         multiLineJSlQuote (text, start, comState);
+        return false;
+    }
+    if (progLan == "tcl")
+    {
+        multiLineTclQuote (text, start);
         return false;
     }
 //--------------------
@@ -3070,7 +3133,11 @@ bool Highlighter::multiLineQuote (const QString &text, const int start, int comS
             /* URLs should be formatted in a different way inside quotes because,
                otherwise, there would be no difference between URLs inside quotes and
                those inside comments and so, they couldn't be escaped correctly when needed. */
+#if (QT_VERSION < QT_VERSION_CHECK(6,0,0))
             QString str = text.mid (index, quoteLength);
+#else
+            QString str = text.sliced (index, quoteLength);
+#endif
             int urlIndex = 0;
             QRegularExpressionMatch urlMatch;
             while ((urlIndex = str.indexOf (urlPattern, urlIndex, &urlMatch)) > -1)
@@ -3231,7 +3298,11 @@ void Highlighter::multiLinePerlQuote (const QString &text)
                           + quoteMatch.capturedLength(); // 1
         setFormat (index, quoteLength, quoteExpression == quoteMark ? quoteFormat
                                                                     : altQuoteFormat);
+#if (QT_VERSION < QT_VERSION_CHECK(6,0,0))
         QString str = text.mid (index, quoteLength);
+#else
+        QString str = text.sliced (index, quoteLength);
+#endif
         int urlIndex = 0;
         QRegularExpressionMatch urlMatch;
         while ((urlIndex = str.indexOf (urlPattern, urlIndex, &urlMatch)) > -1)
@@ -3373,7 +3444,11 @@ void Highlighter::multiLineJSlQuote (const QString &text, const int start, int c
         setFormat (index, quoteLength, quoteExpression == quoteMark ? quoteFormat
                                                                     : altQuoteFormat);
 
+#if (QT_VERSION < QT_VERSION_CHECK(6,0,0))
         QString str = text.mid (index, quoteLength);
+#else
+        QString str = text.sliced (index, quoteLength);
+#endif
         int urlIndex = 0;
         QRegularExpressionMatch urlMatch;
         while ((urlIndex = str.indexOf (urlPattern, urlIndex, &urlMatch)) > -1)
@@ -3552,7 +3627,11 @@ void Highlighter::xmlQuotes (const QString &text)
                    quoteExpression == quoteMark
                    || quoteExpression == virtualQuote ? quoteFormat : altQuoteFormat);
 
+#if (QT_VERSION < QT_VERSION_CHECK(6,0,0))
         QString str = text.mid (index, quoteLength);
+#else
+        QString str = text.sliced (index, quoteLength);
+#endif
         int urlIndex = 0;
         QRegularExpressionMatch urlMatch;
         while ((urlIndex = str.indexOf (urlPattern, urlIndex, &urlMatch)) > -1)
@@ -3953,22 +4032,28 @@ void Highlighter::latexFormula (const QString &text)
                 {
                     int INDX = text.indexOf (rule.pattern, badIndex);
                     if (INDX >= 0)
+                    {
                         setFormat (INDX, text.length() - INDX, commentFormat);
-                    /* URLs and notes were cleared too */
-                    QString str = text.mid (INDX, text.length() - INDX);
-                    int pIndex = 0;
-                    QRegularExpressionMatch urlMatch;
-                    while ((pIndex = str.indexOf (urlPattern, pIndex, &urlMatch)) > -1)
-                    {
-                        setFormat (pIndex + INDX, urlMatch.capturedLength(), urlFormat);
-                        pIndex += urlMatch.capturedLength();
-                    }
-                    pIndex = 0;
-                    while ((pIndex = str.indexOf (notePattern, pIndex, &urlMatch)) > -1)
-                    {
-                        if (format (pIndex + INDX) != urlFormat)
-                            setFormat (pIndex + INDX, urlMatch.capturedLength(), noteFormat);
-                        pIndex += urlMatch.capturedLength();
+                        /* URLs and notes were cleared too */
+#if (QT_VERSION < QT_VERSION_CHECK(6,0,0))
+                        QString str = text.mid (INDX, text.length() - INDX);
+#else
+                        QString str = text.sliced (INDX, text.length() - INDX);
+#endif
+                        int pIndex = 0;
+                        QRegularExpressionMatch urlMatch;
+                        while ((pIndex = str.indexOf (urlPattern, pIndex, &urlMatch)) > -1)
+                        {
+                            setFormat (pIndex + INDX, urlMatch.capturedLength(), urlFormat);
+                            pIndex += urlMatch.capturedLength();
+                        }
+                        pIndex = 0;
+                        while ((pIndex = str.indexOf (notePattern, pIndex, &urlMatch)) > -1)
+                        {
+                            if (format (pIndex + INDX) != urlFormat)
+                                setFormat (pIndex + INDX, urlMatch.capturedLength(), noteFormat);
+                            pIndex += urlMatch.capturedLength();
+                        }
                     }
                     break;
                 }

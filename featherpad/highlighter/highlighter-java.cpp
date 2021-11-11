@@ -208,7 +208,11 @@ void Highlighter::JavaQuote (const QString &text, const int start)
         setFormat (index, quoteLength, quoteFormat);
 
         /* also format urls inside the quotation */
+#if (QT_VERSION < QT_VERSION_CHECK(6,0,0))
         QString str = text.mid (index, quoteLength);
+#else
+        QString str = text.sliced (index, quoteLength);
+#endif
         int urlIndex = 0;
         QRegularExpressionMatch urlMatch;
         while ((urlIndex = str.indexOf (urlPattern, urlIndex, &urlMatch)) > -1)
@@ -252,7 +256,11 @@ void Highlighter::singleLineJavaComment (const QString &text, const int start)
                 setFormat (startIndex, l - startIndex, commentFormat);
 
                 /* also format urls and email addresses inside the comment */
+#if (QT_VERSION < QT_VERSION_CHECK(6,0,0))
                 QString str = text.mid (startIndex, l - startIndex);
+#else
+                QString str = text.sliced (startIndex, l - startIndex);
+#endif
                 int pIndex = 0;
                 QRegularExpressionMatch urlMatch;
                 while ((pIndex = str.indexOf (urlPattern, pIndex, &urlMatch)) > -1)
@@ -419,7 +427,11 @@ void Highlighter::multiLineJavaComment (const QString &text)
         }
 
         /* format urls and email addresses inside the comment */
+#if (QT_VERSION < QT_VERSION_CHECK(6,0,0))
         QString str = text.mid (startIndex, commentLength);
+#else
+        QString str = text.sliced (startIndex, commentLength);
+#endif
         int pIndex = 0;
         QRegularExpressionMatch urlMatch;
         while ((pIndex = str.indexOf (urlPattern, pIndex, &urlMatch)) > -1)

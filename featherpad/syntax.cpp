@@ -162,6 +162,8 @@ void FPwin::setProgLang (TextEdit *textEdit)
             progLan = "dart";
         else if (fname.endsWith (".go"))
             progLan = "go";
+        else if (fname.endsWith (".tcl"))
+            progLan = "tcl";
         else if (baseName.startsWith ("makefile.", Qt::CaseInsensitive) && !baseName.endsWith (".txt", Qt::CaseInsensitive))
             progLan = "makefile";
         else if (baseName.compare ("CMakeLists.txt", Qt::CaseInsensitive) == 0)
@@ -259,6 +261,8 @@ void FPwin::setProgLang (TextEdit *textEdit)
                 progLan = "m3u";
             else if (mime == "text/x-go")
                 progLan = "go";
+            else if (mime == "text/x-tcl" || mime == "text/tcl")
+                progLan = "tcl";
             else if (fname.endsWith (".conf") || fname.endsWith (".ini"))
                 progLan = "config"; // only if the mime type isn't found
             else // fall back to the default language

@@ -141,7 +141,11 @@ void Highlighter::SH_MultiLineQuote (const QString &text)
         else
             setFormat (index, quoteLength, altQuoteFormat);
 
+#if (QT_VERSION < QT_VERSION_CHECK(6,0,0))
         QString str = text.mid (index, quoteLength);
+#else
+        QString str = text.sliced (index, quoteLength);
+#endif
         int urlIndex = 0;
         QRegularExpressionMatch urlMatch;
         while ((urlIndex = str.indexOf (urlPattern, urlIndex, &urlMatch)) > -1)

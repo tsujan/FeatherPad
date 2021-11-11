@@ -755,7 +755,7 @@ void FPwin::addRemoveLangBtn (bool add)
                  << "go" << "log" << "lua" << "m3u" << "markdown"
                  << "makefile" << "pascal" << "perl" << "php" << "python"
                  << "qmake" << "qml" << "reST" << "ruby" << "scss"
-                 << "sh" << "troff" << "theme" << "xml" << "yaml";
+                 << "sh" << "tcl" << "troff" << "theme" << "xml" << "yaml";
         langList.sort (Qt::CaseInsensitive);
     }
 

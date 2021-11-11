@@ -1266,7 +1266,7 @@
         <translation>1000 esimest asendust on esile tõstetud.</translation>
     </message>
     <message>
-        <location filename="../../syntax.cpp" line="298"/>
+        <location filename="../../syntax.cpp" line="302"/>
         <source>The size limit for syntax highlighting is exceeded.</source>
         <translation>Faili suuruse ülempiir esiletõstmisel on ületatud.</translation>
     </message>

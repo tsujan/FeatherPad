@@ -1267,7 +1267,7 @@ tento řádek (Ctrl+Shift+J)</translation>
         <translation>Je zvýrazněno prvních 1000 nahrazení.</translation>
     </message>
     <message>
-        <location filename="../../syntax.cpp" line="298"/>
+        <location filename="../../syntax.cpp" line="302"/>
         <source>The size limit for syntax highlighting is exceeded.</source>
         <translation>Překročen limit velikosti pro zvýrazňování syntaxe.</translation>
     </message>

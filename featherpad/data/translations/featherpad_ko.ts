@@ -1265,7 +1265,7 @@
         <translation>처음 1000개의 교체가 강조표시됩니다.</translation>
     </message>
     <message>
-        <location filename="../../syntax.cpp" line="298"/>
+        <location filename="../../syntax.cpp" line="302"/>
         <source>The size limit for syntax highlighting is exceeded.</source>
         <translation>구문 강조 표시의 크기 제한을 초과했습니다.</translation>
     </message>

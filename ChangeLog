@@ -1,6 +1,9 @@
 V1.1.0
 ---------
+ * Fixed an issue in saving with UTF-16.
  * Enabled experimental compilation against Qt6. With cmake, "ENABLE_QT5" should be set to "OFF" (as in `cmake .. -DENABLE_QT5=OFF`) — it's "ON" by default.
+ * Better inclusion of Hunspell.
+ * Added Tcl syntax highlighting.
 
 V1.0.1
 ---------

@@ -125,7 +125,11 @@ void Highlighter::singleLinePascalComment (const QString &text, const int start)
         setFormat (startIndex, l - startIndex, commentFormat);
 
         /* also format urls and email addresses inside the comment */
+#if (QT_VERSION < QT_VERSION_CHECK(6,0,0))
         QString str = text.mid (startIndex, l - startIndex);
+#else
+        QString str = text.sliced (startIndex, l - startIndex);
+#endif
         int pIndex = 0;
         QRegularExpressionMatch urlMatch;
         while ((pIndex = str.indexOf (urlPattern, pIndex, &urlMatch)) > -1)
@@ -273,7 +277,11 @@ void Highlighter::multiLinePascalComment (const QString &text)
         if (!compilerDirective)
         {
             /* format urls and email addresses inside the comment */
+#if (QT_VERSION < QT_VERSION_CHECK(6,0,0))
             QString str = text.mid (startIndex, commentLength);
+#else
+            QString str = text.sliced (startIndex, commentLength);
+#endif
             int pIndex = 0;
             QRegularExpressionMatch urlMatch;
             while ((pIndex = str.indexOf (urlPattern, pIndex, &urlMatch)) > -1)

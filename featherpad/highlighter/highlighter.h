@@ -265,6 +265,13 @@ private:
     bool isInsideRubyRegex (const QString &text, const int index);
     void multiLineRubyRegex (const QString &text);
 
+    /* Tcl */
+    bool isEscapedTclQuote (const QString &text, const int pos,
+                            const int start, bool isStartQuote);
+    bool isTclQuoted (const QString &text, const int index, const int start);
+    bool tclCommentInsideVariable (const QString &text, const int pos, const int start);
+    void multiLineTclQuote (const QString &text, const int start);
+
     struct HighlightingRule
     {
         QRegularExpression pattern;

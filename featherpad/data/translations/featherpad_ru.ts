@@ -1267,7 +1267,7 @@
         <translation>Выделены первые 1000 замен.</translation>
     </message>
     <message>
-        <location filename="../../syntax.cpp" line="298"/>
+        <location filename="../../syntax.cpp" line="302"/>
         <source>The size limit for syntax highlighting is exceeded.</source>
         <translation>Превышен предельный размер для подсветки синтаксиса.</translation>
     </message>
