@@ -486,7 +486,7 @@
         <location filename="../../fp.ui" line="1157"/>
         <location filename="../../fp.ui" line="1160"/>
         <source>To Start Case</source>
-        <translation>到开始选项</translation>
+        <translation>首字母大写</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1168"/>
@@ -536,7 +536,7 @@
     <message>
         <location filename="../../fp.ui" line="1219"/>
         <source>Text Tabs to Spaces</source>
-        <translation>文本选项到空格</translation>
+        <translation>转换 Tab 为空格</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="994"/>
@@ -629,7 +629,7 @@
     <message>
         <location filename="../../fp.ui" line="765"/>
         <source>Windows Arabic (&amp;CP1256)</source>
-        <translation>Windows 阿拉伯语（&amp;CP1256）</translation>
+        <translation>Windows 阿拉伯语 (&amp;CP1256)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="773"/>
@@ -659,67 +659,67 @@
     <message>
         <location filename="../../fp.ui" line="836"/>
         <source>&amp;Cyrillic (CP1251)</source>
-        <translation>西里尔文（CP1251）(&amp;C)</translation>
+        <translation>西里尔文 (CP1251) (&amp;C)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="847"/>
         <source>Cyrillic (&amp;KOI8-U)</source>
-        <translation>西里尔文（&amp;KOI8-U）</translation>
+        <translation>西里尔文 (&amp;KOI8-U)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="858"/>
         <source>Cyrillic (&amp;ISO-8859-5)</source>
-        <translation>西里尔文（&amp;ISO-8859-5）</translation>
+        <translation>西里尔文 (&amp;ISO-8859-5)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="869"/>
         <source>&amp;Chinese (BIG5)</source>
-        <translation>繁体中文（大五码）(&amp;C)</translation>
+        <translation>繁体中文 (大五码) (&amp;C)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="880"/>
         <source>Chinese (&amp;GB18030)</source>
-        <translation>简体中文（&amp;GB18030）</translation>
+        <translation>简体中文 (&amp;GB18030)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="891"/>
         <source>&amp;Japanese (ISO-2022-JP)</source>
-        <translation>日文（ISO-2022-JP）(&amp;J)</translation>
+        <translation>日文 (ISO-2022-JP) (&amp;J)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="902"/>
         <source>Japanese (&amp;ISO-2022-JP-2)</source>
-        <translation>日文（&amp;ISO-2022-JP-2）</translation>
+        <translation>日文 (&amp;ISO-2022-JP-2)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="913"/>
         <source>Japanese (ISO-&amp;2022-KR)</source>
-        <translation>日文（ISO-&amp;2022-KR）</translation>
+        <translation>日文 (ISO-&amp;2022-KR)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="924"/>
         <source>Ja&amp;panese (CP932)</source>
-        <translation>日文（CP932）(&amp;P)</translation>
+        <translation>日文 (CP932) (&amp;P)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="935"/>
         <source>Japa&amp;nese (EUC-JP)</source>
-        <translation>日文（EUC-JP）(&amp;N)</translation>
+        <translation>日文 (EUC-JP) (&amp;N)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="943"/>
         <source>&amp;Korean (CP949)</source>
-        <translation>韩文（CP949）(&amp;K)</translation>
+        <translation>韩文 (CP949) (&amp;K)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="951"/>
         <source>K&amp;orean (CP1361)</source>
-        <translation>韩文（CP1361）(&amp;O)</translation>
+        <translation>韩文 (CP1361) (&amp;O)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="959"/>
         <source>Korean (&amp;EUC-KR)</source>
-        <translation>韩文（&amp;EUC-KR）</translation>
+        <translation>韩文 (&amp;EUC-KR)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1005"/>
@@ -939,12 +939,12 @@
     <message>
         <location filename="../../fpwin.cpp" line="2565"/>
         <source>Non-text file(s) not opened!</source>
-        <translation>空文本文件没有打开！</translation>
+        <translation>非文本文件没有被打开！</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2566"/>
         <source>See Preferences → Files → Do not permit opening of non-text files</source>
-        <translation>查看 属性 → 文件 → 不允许打开空的文本文件</translation>
+        <translation>查看 属性 → 文件 → 不允许打开非文本文件</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2575"/>
@@ -986,12 +986,12 @@
         <location filename="../../fpwin.cpp" line="2921"/>
         <location filename="../../fpwin.cpp" line="2949"/>
         <source>All Files (*)</source>
-        <translation>所有文件（*）</translation>
+        <translation>所有文件 (*)</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2737"/>
         <source>All Files (*);;.%1 Files (*.%1)</source>
-        <translation>所有文件（*）;;.%1文件（*.%1）</translation>
+        <translation>所有文件 (*);;.%1 文件 (*.%1)</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2741"/>
@@ -1001,7 +1001,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="2927"/>
         <source>.%1 Files (*.%1);;All Files (*)</source>
-        <translation>.%1文件（*.%1）;;所有文件（*）</translation>
+        <translation>.%1 文件 (*.%1);;所有文件 (*)</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2978"/>
@@ -1090,7 +1090,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="3663"/>
         <source>Text tabs are converted to spaces.</source>
-        <translation>文本选项被转换成空格。</translation>
+        <translation>Tab 已被转换为空格。</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3765"/>
@@ -1214,7 +1214,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="6060"/>
         <source>Translators</source>
-        <translation>转换器</translation>
+        <translation>翻译人员</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="6056"/>
@@ -1446,13 +1446,13 @@ a menu button appears on the toolbar.</source>
         <location filename="../../prefDialog.ui" line="218"/>
         <source>Menubar accelerators are activated by Alt
 and may interfere with customized shortcuts.</source>
-        <translation>菜单栏加速器由 Alt 激活
+        <translation>菜单栏快捷键由 Alt 激活
 并且可能会干扰自定义的快捷方式。</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="222"/>
         <source>Disable menubar accelerators</source>
-        <translation>禁用菜单栏加速器</translation>
+        <translation>禁用菜单栏快捷键</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="229"/>
@@ -2112,7 +2112,7 @@ in the editing mode.</source>
     <message>
         <location filename="../../pref.cpp" line="395"/>
         <source>Quotations</source>
-        <translation>报价单</translation>
+        <translation>字符串</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="396"/>
@@ -2177,7 +2177,7 @@ in the editing mode.</source>
     <message>
         <location filename="../../pref.cpp" line="1650"/>
         <source>Hunspell Dictionary Files (*.dic)</source>
-        <translation>Hunspell字典文件（* .dic）</translation>
+        <translation>Hunspell 字典文件 (* .dic)</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="453"/>
