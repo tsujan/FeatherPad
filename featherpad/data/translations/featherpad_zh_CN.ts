@@ -944,7 +944,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="2567"/>
         <source>See Preferences → Files → Do not permit opening of non-text files</source>
-        <translation>查看 属性 → 文件 → 不允许打开非文本文件</translation>
+        <translation>请参阅 首选项 → 文件 → 不允许打开非文本文件</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2576"/>
@@ -1175,7 +1175,7 @@
         <location filename="../../fpwin.cpp" line="5594"/>
         <location filename="../../fpwin.cpp" line="5604"/>
         <source>See Preferences → Text → Spell Checking!</source>
-        <translation>请参阅首选项→文本→拼写检查！</translation>
+        <translation>请参阅 首选项 → 文本 → 拼写检查 ！</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5593"/>
@@ -2177,7 +2177,7 @@ in the editing mode.</source>
     <message>
         <location filename="../../pref.cpp" line="1650"/>
         <source>Hunspell Dictionary Files (*.dic)</source>
-        <translation>Hunspell 字典文件 (* .dic)</translation>
+        <translation>Hunspell 字典文件 (*.dic)</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="453"/>
