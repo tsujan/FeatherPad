@@ -91,7 +91,7 @@
     <message>
         <location filename="../../fp.ui" line="406"/>
         <source>To be replaced</source>
-        <translation>Te vervangen</translation>
+        <translation>Oorspronkelijke tekst</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="419"/>
@@ -101,7 +101,7 @@
     <message>
         <location filename="../../fp.ui" line="435"/>
         <source>Replacing text</source>
-        <translation>Bezig met vervangen van tekst</translation>
+        <translation>Vervangende tekst</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="494"/>
