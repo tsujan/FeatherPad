@@ -781,7 +781,7 @@
         <source>Calculate number of words
 (For huge texts, this may be CPU-intensive.)</source>
         <translation>Laske sanojen lukumäärä
-(Suuret tekstimäärät voivat olla prosessorille raskaita.)</translation>
+(Valtavat tekstimäärät voivat olla prosessorille raskaita.)</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="116"/>
@@ -939,120 +939,120 @@
     <message>
         <location filename="../../fpwin.cpp" line="2581"/>
         <source>Non-text file(s) not opened!</source>
-        <translation type="unfinished"></translation>
+        <translation>Tiedostoja, jotka eivät ole tekstitiedostoja ei avattu!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2582"/>
         <source>See Preferences → Files → Do not permit opening of non-text files</source>
-        <translation type="unfinished"></translation>
+        <translation>Asetukset → Tiedostot → Salli vain tekstitiedostojen avaaminen</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2591"/>
         <source>Some file(s) could not be opened!</source>
-        <translation type="unfinished"></translation>
+        <translation>Tiedostoa tai tiedostoja ei voitu avata!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2592"/>
         <source>You may not have the permission to read.</source>
-        <translation type="unfinished"></translation>
+        <translation>Lukuoikeus saattaa puuttua.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2602"/>
         <source>Uneditable file(s)!</source>
-        <translation type="unfinished"></translation>
+        <translation>Tiedostoa tai tiedostoja ei voida muokata!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2603"/>
         <source>Non-text files or files with huge lines cannot be edited.</source>
-        <translation type="unfinished"></translation>
+        <translation>Tiedostoja, jotka eivät ole tekstitiedostoja, tai joissa on valtavia rivejä ei voida muokata.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2667"/>
         <source>A previous crash detected!</source>
-        <translation type="unfinished"></translation>
+        <translation>Aiempi ohjelman kaatuminen havaittu!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2668"/>
         <source>Preferably, close all FeatherPad windows and start again!</source>
-        <translation type="unfinished"></translation>
+        <translation>On suositeltavaa sulkea kaikki FeatherPad ikkunat ja käynnistää se uudestaan!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2676"/>
         <source>Root Instance</source>
-        <translation type="unfinished"></translation>
+        <translation>Root Instanssi</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2748"/>
         <location filename="../../fpwin.cpp" line="2937"/>
         <location filename="../../fpwin.cpp" line="2965"/>
         <source>All Files (*)</source>
-        <translation type="unfinished"></translation>
+        <translation>Kaikki Tiedostot (*)</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2753"/>
         <source>All Files (*);;.%1 Files (*.%1)</source>
-        <translation type="unfinished"></translation>
+        <translation>Kaikki Tiedostot (*);;.%1 Tiedostot (*.%1)</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2757"/>
         <source>Open file...</source>
-        <translation type="unfinished"></translation>
+        <translation>Avaa tiedosto...</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2943"/>
         <source>.%1 Files (*.%1);;All Files (*)</source>
-        <translation type="unfinished"></translation>
+        <translation>.%1 Tiedostot (*.%1);;Kaikki Tiedostot (*)</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2994"/>
         <location filename="../../fpwin.cpp" line="3032"/>
         <source>Save as...</source>
-        <translation type="unfinished"></translation>
+        <translation>Tallenna nimellä...</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3068"/>
         <source>Keep encoding and save as...</source>
-        <translation type="unfinished"></translation>
+        <translation>Säilytä koodaus ja tallenna nimellä...</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3403"/>
         <source>Saving as root.</source>
-        <translation type="unfinished"></translation>
+        <translation>Tallennetaan root käyttäjänä.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3404"/>
         <source>Waiting for authentication...</source>
-        <translation type="unfinished"></translation>
+        <translation>Odotetaan oikeuksien tarkistamista...</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3524"/>
         <source>&quot;pkexec&quot; is not found. Please install Polkit!</source>
-        <translation type="unfinished"></translation>
+        <translation>Polkit ohjelma täytyy olla asennettuna &quot;pkexec&quot; komentoa varten!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3183"/>
         <source>Yes</source>
-        <translation type="unfinished"></translation>
+        <translation>Kyllä</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3184"/>
         <source>No</source>
-        <translation type="unfinished"></translation>
+        <translation>Ei</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3185"/>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>Peruuta</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3186"/>
         <source>Do you want to use &lt;b&gt;MS Windows&lt;/b&gt; end-of-lines?</source>
-        <translation type="unfinished"></translation>
+        <translation>Haluatko käyttää &lt;b&gt;MS Windows&lt;/b&gt; tyylistä rivinvaihtoa?</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3187"/>
         <source>This may be good for readability under MS Windows.</source>
-        <translation type="unfinished"></translation>
+        <translation>Tämä voi auttaa luettavuuden kanssa MS Windowsia käytettäessä.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3300"/>
@@ -1060,7 +1060,7 @@
         <location filename="../../fpwin.cpp" line="3523"/>
         <location filename="../../fpwin.cpp" line="3535"/>
         <source>Cannot be saved!</source>
-        <translation type="unfinished"></translation>
+        <translation>Tallentaminen ei onnistu!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="455"/>
@@ -1069,7 +1069,7 @@
         <location filename="../../fpwin.cpp" line="5175"/>
         <location filename="../../fpwin.cpp" line="6215"/>
         <source>Help</source>
-        <translation type="unfinished"></translation>
+        <translation>Ohje</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3576"/>
@@ -1080,195 +1080,195 @@
         <location filename="../../fpwin.cpp" line="5997"/>
         <location filename="../../fpwin.cpp" line="6005"/>
         <source>Syntax</source>
-        <translation type="unfinished"></translation>
+        <translation>Syntaksi</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2572"/>
         <source>Huge file(s) not opened!</source>
-        <translation type="unfinished"></translation>
+        <translation>Valtavaa tiedostoa tai tiedostoja ei avattu!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3679"/>
         <source>Text tabs are converted to spaces.</source>
-        <translation type="unfinished"></translation>
+        <translation>Sarkainmerkit muunnetaan välilyönneiksi.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3781"/>
         <source>The selected text was too long.</source>
-        <translation type="unfinished"></translation>
+        <translation>Valittu teksti oli liian pitkä.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3782"/>
         <source>It is not fully processed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Sitä ei ole täysin käsitelty.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3921"/>
         <location filename="../../fpwin.cpp" line="4113"/>
         <source>This file has been modified elsewhere or in another way!</source>
-        <translation type="unfinished"></translation>
+        <translation>Tätä tiedostoa on muutettu toisaalla, tai muulla tavalla!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3922"/>
         <location filename="../../fpwin.cpp" line="4114"/>
         <source>Please be careful about reloading or saving this document!</source>
-        <translation type="unfinished"></translation>
+        <translation>Ole hyvä ja ole varovainen tätä asiakirjaa uudelleen ladatessa tai tallentaessa!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4590"/>
         <source>Printing in progress...</source>
-        <translation type="unfinished"></translation>
+        <translation>Tulostaminen käynnissä...</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4641"/>
         <source>Print Document</source>
-        <translation type="unfinished"></translation>
+        <translation>Tulosta Asiakirja</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4647"/>
         <source>Printing completed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Tulostus valmis.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5305"/>
         <location filename="../../fpwin.cpp" line="5410"/>
         <source>%1 Pages</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 Sivua</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5336"/>
         <location filename="../../fpwin.cpp" line="5446"/>
         <source>Copy Target Path</source>
-        <translation type="unfinished"></translation>
+        <translation>Kopioi Kohdepolku</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5340"/>
         <location filename="../../fpwin.cpp" line="5450"/>
         <source>Open Target Here</source>
-        <translation type="unfinished"></translation>
+        <translation>Avaa Kohde Tässä</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5359"/>
         <location filename="../../fpwin.cpp" line="5470"/>
         <source>Copy Final Target Path</source>
-        <translation type="unfinished"></translation>
+        <translation>Kopioi Lopullinen Kohdepolku</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5363"/>
         <location filename="../../fpwin.cpp" line="5474"/>
         <source>Open Final Target Here</source>
-        <translation type="unfinished"></translation>
+        <translation>Avaa Lopullinen Kohde Tässä</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5380"/>
         <location filename="../../fpwin.cpp" line="5492"/>
         <source>Open Containing Folder</source>
-        <translation type="unfinished"></translation>
+        <translation>Avaa Sisältävä Kansio</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5601"/>
         <source>You need to add a Hunspell dictionary.</source>
-        <translation type="unfinished"></translation>
+        <translation>Hunspell sanakirja täytyy lisätä.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5602"/>
         <location filename="../../fpwin.cpp" line="5609"/>
         <location filename="../../fpwin.cpp" line="5619"/>
         <source>See Preferences → Text → Spell Checking!</source>
-        <translation type="unfinished"></translation>
+        <translation>Asetukset → Teksti → Oikeinkirjoituksen Tarkistus!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5608"/>
         <source>The Hunspell dictionary does not exist.</source>
-        <translation type="unfinished"></translation>
+        <translation>Hunspell sanakirjaa ei ole olemassa.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5618"/>
         <source>The Hunspell dictionary is not accompanied by an affix file.</source>
-        <translation type="unfinished"></translation>
+        <translation>Hunspell sanakirjan affiksitiedosto puuttuu.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5641"/>
         <location filename="../../fpwin.cpp" line="5659"/>
         <location filename="../../fpwin.cpp" line="5674"/>
         <source>No misspelling in document.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ei kirjoitusvirheitä asiakirjassa.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5643"/>
         <location filename="../../fpwin.cpp" line="5661"/>
         <location filename="../../fpwin.cpp" line="5676"/>
         <source>No misspelling from text cursor.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ei kirjoitusvirheitä tekstikursorilta.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5692"/>
         <source>Spell Checking</source>
-        <translation type="unfinished"></translation>
+        <translation>Oikeinkirjoituksen Tarkistus</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="6029"/>
         <source>Some files cannot be saved!</source>
-        <translation type="unfinished"></translation>
+        <translation>Joitakin tiedostoja ei voida tallentaa!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="6076"/>
         <source>Translators</source>
-        <translation type="unfinished"></translation>
+        <translation>Kääntäjät</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="6072"/>
         <source>A lightweight, tabbed, plain-text editor</source>
-        <translation type="unfinished"></translation>
+        <translation>Kevyt, välilehdillä varustettu tekstieditori</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="6073"/>
         <source>based on Qt</source>
-        <translation type="unfinished"></translation>
+        <translation>perustuen Qt-kirjastoon</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="6074"/>
         <source>Author</source>
-        <translation type="unfinished"></translation>
+        <translation>Tekijä</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="6075"/>
         <source>aka.</source>
-        <translation type="unfinished"></translation>
+        <translation>aka.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="6076"/>
         <location filename="../../fpwin.cpp" line="6077"/>
         <source>About FeatherPad</source>
-        <translation type="unfinished"></translation>
+        <translation>FeatherPad Tietoja</translation>
     </message>
     <message>
         <location filename="../../replace.cpp" line="242"/>
         <source>No Replacement</source>
-        <translation type="unfinished"></translation>
+        <translation>Ei Korvattavaa</translation>
     </message>
     <message>
         <location filename="../../replace.cpp" line="244"/>
         <source>One Replacement</source>
-        <translation type="unfinished"></translation>
+        <translation>Yksi Korvaus</translation>
     </message>
     <message numerus="yes">
         <location filename="../../replace.cpp" line="246"/>
         <source>%Ln Replacements</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%Ln Korvausta</numerusform>
+            <numerusform>%Ln Korvausta</numerusform>
         </translation>
     </message>
     <message>
         <location filename="../../replace.cpp" line="250"/>
         <source>The first 1000 replacements are highlighted.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ensimmäiset 1000 korvausta ovat korostettu.</translation>
     </message>
     <message>
         <location filename="../../syntax.cpp" line="302"/>
         <source>The size limit for syntax highlighting is exceeded.</source>
-        <translation type="unfinished"></translation>
+        <translation>Syntaksikorostuksen kokoraja on ylitetty.</translation>
     </message>
 </context>
 <context>
@@ -1277,13 +1277,13 @@
         <location filename="../../filedialog.h" line="49"/>
         <source>Ctrl+H</source>
         <comment>Toggle showing hidden files</comment>
-        <translation type="unfinished">Ctrl+H</translation>
+        <translation>Ctrl+H</translation>
     </message>
     <message>
         <location filename="../../filedialog.h" line="50"/>
         <source>Alt+.</source>
         <comment>Toggle showing hidden files</comment>
-        <translation type="unfinished"></translation>
+        <translation>Alt+.</translation>
     </message>
 </context>
 <context>
@@ -1291,18 +1291,18 @@
     <message>
         <location filename="../../fontDialog.ui" line="14"/>
         <source>Select Font</source>
-        <translation type="unfinished"></translation>
+        <translation>Valitse Fontti</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="38"/>
         <source>Programming Fonts</source>
-        <translation type="unfinished"></translation>
+        <translation>Ohjelmointi Fontit</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="45"/>
         <location filename="../../fontDialog.ui" line="55"/>
         <source>Font:</source>
-        <translation type="unfinished"></translation>
+        <translation>Fontti:</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="69"/>
