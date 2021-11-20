@@ -203,7 +203,7 @@ tento řádek (Ctrl+Shift+J)</translation>
     <message>
         <location filename="../../fp.ui" line="586"/>
         <source>Show/hide replacement dock</source>
-        <translation>Zobrazit/skrýt dok nahrazení</translation>
+        <translation>Zobrazit/skrýt dok nahrazování</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="589"/>
@@ -536,7 +536,7 @@ tento řádek (Ctrl+Shift+J)</translation>
     <message>
         <location filename="../../fp.ui" line="1219"/>
         <source>Text Tabs to Spaces</source>
-        <translation>Tabulátory textu na mezery</translation>
+        <translation>Převést tabulátory v textu na mezery</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="994"/>
@@ -734,7 +734,7 @@ tento řádek (Ctrl+Shift+J)</translation>
     <message>
         <location filename="../../fp.ui" line="1030"/>
         <source>&amp;Copy File Name</source>
-        <translation>&amp;zkopírovat název souboru</translation>
+        <translation>&amp;Zkopírovat název souboru</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1035"/>
@@ -826,7 +826,7 @@ tento řádek (Ctrl+Shift+J)</translation>
     <message>
         <location filename="../../fpwin.cpp" line="1284"/>
         <source>&amp;Discard changes</source>
-        <translation>&amp;Zahodit změny</translation>
+        <translation>Zaho&amp;dit změny</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1285"/>
@@ -1374,7 +1374,7 @@ tento řádek (Ctrl+Shift+J)</translation>
     <message>
         <location filename="../../prefDialog.ui" line="75"/>
         <source>Remember window &amp;size on closing</source>
-        <translation>Zapamatovat si při zavření veliko&amp;st okna</translation>
+        <translation>Zapamatovat &amp;si při zavření velikost okna</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="84"/>
@@ -1566,7 +1566,7 @@ Some desktop environments, like KDE and LXQt, provide files dialogs.</source>
         <translation>Pokud je toto zaškrtnuto, bude namísto souborového dialogu Qt
 použit ten poskytovaný stávajícím desktopovým prostředím.
 
-Některá desktopová prostředí, jako KDE a LXQt takové poskytují.</translation>
+Některá desktopová prostředí, jako KDE a LXQt takový poskytují.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="391"/>
@@ -1725,7 +1725,7 @@ will be shown by a popup dialog.</source>
 argumenty, například „xterm -hold“
 pro spuštění procesu v XTerm.
 
-Pokdu příkaz není vyplněn, soubor bude
+Pokud příkaz není vyplněn, soubor bude
 vykonán přímo.
 
 Pokud skript není spuštěný v emulátoru
