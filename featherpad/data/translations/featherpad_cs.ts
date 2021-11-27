@@ -388,7 +388,7 @@ tento řádek (Ctrl+Shift+J)</translation>
     <message>
         <location filename="../../fp.ui" line="972"/>
         <source>Show/hide jump bar</source>
-        <translation>Zobrazit/skrýt pruh poskočení</translation>
+        <translation>Zobrazit/skrýt lištu přeskočení</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="975"/>
@@ -428,7 +428,7 @@ tento řádek (Ctrl+Shift+J)</translation>
     <message>
         <location filename="../../fp.ui" line="1108"/>
         <source>Save/Restore Session</source>
-        <translation>Uložit/obnovit sezení</translation>
+        <translation>Uložit/obnovit relaci</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1111"/>
@@ -486,7 +486,7 @@ tento řádek (Ctrl+Shift+J)</translation>
         <location filename="../../fp.ui" line="1157"/>
         <location filename="../../fp.ui" line="1160"/>
         <source>To Start Case</source>
-        <translation>Po úvodní velikost</translation>
+        <translation>Na úvodní velikost</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1168"/>
@@ -619,7 +619,7 @@ tento řádek (Ctrl+Shift+J)</translation>
     <message>
         <location filename="../../fp.ui" line="575"/>
         <source>Focus/hide search bar</source>
-        <translation>Zaměřit/skrýt pruh hledání</translation>
+        <translation>Zaměřit/skrýt lištu hledání</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="583"/>
@@ -744,7 +744,7 @@ tento řádek (Ctrl+Shift+J)</translation>
     <message>
         <location filename="../../fp.ui" line="1046"/>
         <source>Alt+Right</source>
-        <translation>Alt+šipka doprava</translation>
+        <translation>Alt+šipka vpravo</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1057"/>
@@ -944,7 +944,7 @@ tento řádek (Ctrl+Shift+J)</translation>
     <message>
         <location filename="../../fpwin.cpp" line="2586"/>
         <source>See Preferences → Files → Do not permit opening of non-text files</source>
-        <translation>Viz předvolby → Soubory → Neumožňovat otevírat jiné, než textové soubory</translation>
+        <translation>Viz Předvolby → Soubory → Neumožňovat otevírat jiné, než textové soubory</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2595"/>
@@ -1422,7 +1422,7 @@ ale bez funkce panelů.</translation>
     <message>
         <location filename="../../prefDialog.ui" line="188"/>
         <source>Uncheck for 1/5 of the width.</source>
-        <translation>Pro 1/5 šířky zrušte zaškrtnutí.</translation>
+        <translation>Pokud chcete, aby bylo 1/5 šířky, zrušte zaškrtnutí.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="191"/>
@@ -1438,30 +1438,30 @@ ale bez funkce panelů.</translation>
         <location filename="../../prefDialog.ui" line="207"/>
         <source>If the menubar is hidden,
 a menu button appears on the toolbar.</source>
-        <translation>Pokud je pruh s nabídkou skrytý,
-na pruhu nástrojů se zobrazí tlačítko nabídky.</translation>
+        <translation>Pokud je lišta s nabídkou skrytá,
+na liště nástrojů se zobrazí tlačítko nabídky.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="211"/>
         <source>Do not show &amp;menubar</source>
-        <translation>Nezobrazovat pruh s &amp;nabídkou</translation>
+        <translation>Nezobrazovat lištu s &amp;nabídkou</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="218"/>
         <source>Menubar accelerators are activated by Alt
 and may interfere with customized shortcuts.</source>
-        <translation>Akcelerátory pruhu nabídek jsou aktivovány klávesou Alt
+        <translation>Akcelerátory na liště nabídek jsou aktivovány klávesou Alt
 a mohu kolidovat s uživatelsky určenými zkratkami.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="222"/>
         <source>Disable menubar accelerators</source>
-        <translation>Vypnout akcelerátory pruhu nabídek</translation>
+        <translation>Vypnout akcelerátory v liště nabídek</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="229"/>
         <source>Hide search &amp;bar by default</source>
-        <translation>Ve výchozím stavu skrýt pruh vyhledávání</translation>
+        <translation>Ve výchozím stavu skrýt lištu vyhledávání</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="236"/>
@@ -1478,7 +1478,7 @@ vyhledávání oddělenou historii.</translation>
     <message>
         <location filename="../../prefDialog.ui" line="247"/>
         <source>Always show st&amp;atus bar</source>
-        <translation>Vždy zobrazovat st&amp;avový pruh</translation>
+        <translation>Vždy zobrazovat st&amp;avovou lištu</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="272"/>
@@ -1904,7 +1904,7 @@ MMM dd, yyyy, hh:mm:ss</source>
 
 Projeví se po zavření tohoto dialogu.
 
-Pro pro použití výchozího nevyplňujte:
+Pokud chcete použít výchozí, nevyplňujte:
 MMM dd, rrrr, hh:mm:ss</translation>
     </message>
     <message>
@@ -2103,8 +2103,8 @@ budou otevřeny pokud byly vloženy do FeatherPad.</translation>
         <location filename="../../pref.cpp" line="104"/>
         <source>Press a modifier key to clear a shortcut
 in the editing mode.</source>
-        <translation>Pro vyčištění zkratky stiskněte klávesu
-modifikátor v režimu úpravy.</translation>
+        <translation>Pro vyčištění zkratky stiskněte v režimu
+úpravy klávesu modifikátoru.</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="110"/>
