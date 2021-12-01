@@ -965,7 +965,7 @@
         <location filename="../../fpwin.cpp" line="2607"/>
         <source>Non-text files or files with huge lines cannot be edited.</source>
         <translatorcomment> línies enormes....?</translatorcomment>
-        <translation>No se poden editar fitxers que no siguin de text o fitxers amb línies enormes.</translation>
+        <translation>No se poden editar fitxers que no siguin de text o fitxers amb línies de gran exrensió.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2671"/>
@@ -981,7 +981,7 @@
         <location filename="../../fpwin.cpp" line="2680"/>
         <source>Root Instance</source>
         <translatorcomment>Instància.root ?</translatorcomment>
-        <translation>Instància. arrel (root)</translation>
+        <translation>Instància arrel</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2752"/>
@@ -1020,7 +1020,7 @@
         <location filename="../../fpwin.cpp" line="3407"/>
         <source>Saving as root.</source>
         <translatorcomment>Desa com root. ?</translatorcomment>
-        <translation>Desa com a arrel (root).</translation>
+        <translation>Desant com a root.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3408"/>
