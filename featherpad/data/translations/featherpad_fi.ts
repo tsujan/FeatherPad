@@ -1307,12 +1307,12 @@
     <message>
         <location filename="../../fontDialog.ui" line="69"/>
         <source>Size:</source>
-        <translation type="unfinished"></translation>
+        <translation>Koko:</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="89"/>
         <source>Weight:</source>
-        <translation type="unfinished"></translation>
+        <translation>Paksuus:</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="103"/>
@@ -1322,27 +1322,27 @@
     <message>
         <location filename="../../fontDialog.ui" line="108"/>
         <source>Medium</source>
-        <translation type="unfinished"></translation>
+        <translation>Keskiraskas</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="113"/>
         <source>Bold</source>
-        <translation type="unfinished"></translation>
+        <translation>Lihavoitu</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="118"/>
         <source>Black</source>
-        <translation type="unfinished"></translation>
+        <translation>Musta</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="126"/>
         <source>Italic</source>
-        <translation type="unfinished"></translation>
+        <translation>Kursiivi</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="149"/>
         <source>Preview</source>
-        <translation type="unfinished"></translation>
+        <translation>Esikatselu</translation>
     </message>
 </context>
 <context>
@@ -1350,7 +1350,7 @@
     <message>
         <location filename="../../lineedit.cpp" line="34"/>
         <source>Clear text (Ctrl+K)</source>
-        <translation type="unfinished"></translation>
+        <translation>Poista teksti (Ctrl+K)</translation>
     </message>
 </context>
 <context>
@@ -1358,22 +1358,22 @@
     <message>
         <location filename="../../prefDialog.ui" line="14"/>
         <source>Preferences</source>
-        <translation type="unfinished"></translation>
+        <translation>Asetukset</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="30"/>
         <source>Window</source>
-        <translation type="unfinished"></translation>
+        <translation>Ikkuna</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="69"/>
         <source>Window Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Ikkunan Asetukset</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="75"/>
         <source>Remember window &amp;size on closing</source>
-        <translation type="unfinished"></translation>
+        <translation>Muista ikkunan koko suljettaessa</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="84"/>
@@ -1381,134 +1381,140 @@
         <location filename="../../prefDialog.ui" line="107"/>
         <location filename="../../prefDialog.ui" line="120"/>
         <source>Window frame is excluded.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ikkunan reunoja ei oteta huomioon.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="87"/>
         <source>Start with this size: </source>
-        <translation type="unfinished"></translation>
+        <translation>Aloita koolla: </translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="100"/>
         <location filename="../../prefDialog.ui" line="123"/>
         <source> px</source>
-        <translation type="unfinished"></translation>
+        <translation> px</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="110"/>
         <source>×</source>
-        <translation type="unfinished"></translation>
+        <translation>×</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="148"/>
         <source>Enforcing a window position is not recommended
 and may not work with some window managers.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ikkunan kohdistuksen pakottamista ei suositella
+eikä se välttämättä toimi joillakin ikkunointiohjelmilla.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="152"/>
         <source>Remember window &amp;position on closing</source>
-        <translation type="unfinished"></translation>
+        <translation>Muista ikkunan paikka suljettaessa</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="159"/>
         <source>Most suitable with sessions
 but without tab functionality.</source>
-        <translation type="unfinished"></translation>
+        <translation>Käytännöllisin istuntojen kanssa
+mutta ilman välilehtiä.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="188"/>
         <source>Uncheck for 1/5 of the width.</source>
-        <translation type="unfinished"></translation>
+        <translation>Tyhjänä valitsee 1/5 leveydestä.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="191"/>
         <source>Remember splitter position</source>
-        <translation type="unfinished"></translation>
+        <translation>Muista puolittajan paikka</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="200"/>
         <source>Do not show &amp;toolbar</source>
-        <translation type="unfinished"></translation>
+        <translation>Älä näytä työkalupalkkia</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="207"/>
         <source>If the menubar is hidden,
 a menu button appears on the toolbar.</source>
-        <translation type="unfinished"></translation>
+        <translation>Jos valikkopalkki poistetaan käytöstä,
+ilmestyy valikkonappi työkalupalkkiin.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="211"/>
         <source>Do not show &amp;menubar</source>
-        <translation type="unfinished"></translation>
+        <translation>Älä näytä valikkopalkkia</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="218"/>
         <source>Menubar accelerators are activated by Alt
 and may interfere with customized shortcuts.</source>
-        <translation type="unfinished"></translation>
+        <translation>Valikkopalkin pikakomennot aktivoidaan
+Alt painikkeella, joka saattaa vaikuttaa
+muokattujen pikanäppäinten toimintaan.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="222"/>
         <source>Disable menubar accelerators</source>
-        <translation type="unfinished"></translation>
+        <translation>Poista valikkopalkin pikakomennot käytöstä</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="229"/>
         <source>Hide search &amp;bar by default</source>
-        <translation type="unfinished"></translation>
+        <translation>Piilota hakupalkki oletuksena</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="236"/>
         <source>By default, each search entry
 has a separate search history.</source>
-        <translation type="unfinished"></translation>
+        <translation>Oletuksena jokaisella haulla on
+erillinen hakuhistoria.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="240"/>
         <source>Use a shared search history</source>
-        <translation type="unfinished"></translation>
+        <translation>Käytä jaettua hakuhistoriaa</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="247"/>
         <source>Always show st&amp;atus bar</source>
-        <translation type="unfinished"></translation>
+        <translation>Näytä tilapalkki aina</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="272"/>
         <source>Show cursor position on status bar</source>
-        <translation type="unfinished"></translation>
+        <translation>Näytä kursorin sijainti tilapalkissa</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="283"/>
         <location filename="../../prefDialog.ui" line="293"/>
         <source>Will take effect after closing this dialog.</source>
-        <translation type="unfinished"></translation>
+        <translation>Muutokset tulevat voimaan tämän valintaikkunan sulkeutuessa.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="286"/>
         <source>Tab position: </source>
-        <translation type="unfinished"></translation>
+        <translation>Välilehden sijainti: </translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="297"/>
         <source>North</source>
-        <translation type="unfinished"></translation>
+        <translation>Pohjoinen</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="302"/>
         <source>South</source>
-        <translation type="unfinished"></translation>
+        <translation>Etelä</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="307"/>
         <source>West</source>
-        <translation type="unfinished"></translation>
+        <translation>Länsi</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="312"/>
         <source>East</source>
-        <translation type="unfinished"></translation>
+        <translation>Itä</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="338"/>
