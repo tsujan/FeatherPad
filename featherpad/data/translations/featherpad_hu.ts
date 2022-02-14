@@ -1151,13 +1151,13 @@
         <location filename="../../fpwin.cpp" line="5363"/>
         <location filename="../../fpwin.cpp" line="5474"/>
         <source>Copy Final Target Path</source>
-        <translation type="unfinished"></translation>
+        <translation>Célfájl útvonalának másolása</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5367"/>
         <location filename="../../fpwin.cpp" line="5478"/>
         <source>Open Final Target Here</source>
-        <translation type="unfinished"></translation>
+        <translation>Célfájl megnyitása itt</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5384"/>
@@ -1448,12 +1448,13 @@ a menü gomb megjelenik az eszköztáron.</translation>
         <location filename="../../prefDialog.ui" line="218"/>
         <source>Menubar accelerators are activated by Alt
 and may interfere with customized shortcuts.</source>
-        <translation type="unfinished"></translation>
+        <translation>A menüsor gyorsítókat Alttal lehet aktiválni
+és lehet, hogy akadályozzák az egyéni gyorsbillentyűket.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="222"/>
         <source>Disable menubar accelerators</source>
-        <translation type="unfinished"></translation>
+        <translation>Menüsor gyorsítók kikapcsolása</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="229"/>
