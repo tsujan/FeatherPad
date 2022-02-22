@@ -1522,17 +1522,21 @@ erillinen hakuhistoria.</translation>
 after the last tab is activated, and the same for Alt+Left.
 
 Tab navigation with mouse wheel is not affected.</source>
-        <translation type="unfinished"></translation>
+        <translation>Vasemmalta oikealle luettaessa, tämä tarkoittaa että
+Alt+Oikea siirtyy ensimmäiseen välilehteen viimeiseltä,
+ja Alt+Vasen ensimmäiseltä viimeiselle.
+
+Tämä ei vaikuta välilehtien välillä siirtymiseen hiiren rullaa käyttämällä.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="344"/>
         <source>Tab navigation wraps &amp;around</source>
-        <translation type="unfinished"></translation>
+        <translation>Välilehtien välillä siirtyminen kiertää ympäri</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="364"/>
         <source>Close window on closing its last tab</source>
-        <translation type="unfinished"></translation>
+        <translation>Sulje ikkuna viimeisen välilehden sulkeutuessa</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="371"/>
@@ -1541,12 +1545,16 @@ current desktop, files will be opened in its tabs.
 
 However, some desktop environments may not
 report that they have multiple desktops.</source>
-        <translation type="unfinished"></translation>
+        <translation>Oletuksena tiedostot avataan uuteen välilehteen
+työpöydällä olemassa olevaan FeatherPad ikkunaan.
+
+Jotkin työpöytäympäristöt eivät välttämättä ilmoita
+ohjelmistoille käyttävänsä useita eri työpöytiä.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="378"/>
         <source>Always open in separate windows</source>
-        <translation type="unfinished"></translation>
+        <translation>Avaa aina uuteen ikkunaan</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="385"/>
@@ -1554,12 +1562,15 @@ report that they have multiple desktops.</source>
 desktop environment will be used instead of the Qt file dialog.
 
 Some desktop environments, like KDE and LXQt, provide files dialogs.</source>
-        <translation type="unfinished"></translation>
+        <translation>Kun tämä on valittuna, työpöytäympäristön omia valintaikkunoita
+käytetään Qt:n ikkunoiden sijasta.
+
+Jotkin ympäristöt, kuten KDE ja LXQt omaavat tälläisiä valikoita.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="391"/>
         <source>Native file dialog</source>
-        <translation type="unfinished"></translation>
+        <translation>Natiivi tiedosto valintaikkuna</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="467"/>
@@ -1569,67 +1580,71 @@ Some desktop environments, like KDE and LXQt, provide files dialogs.</source>
     <message>
         <location filename="../../prefDialog.ui" line="470"/>
         <source>Remember &amp;font</source>
-        <translation type="unfinished"></translation>
+        <translation>Muista fontti</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="491"/>
         <source>This covers parentheses, braces, brackets and quotes.</source>
-        <translation type="unfinished"></translation>
+        <translation>Tämä kattaa sulut, aaltosulut, hakasulut, sekä lainausmerkit.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="494"/>
         <source>Auto-&amp;bracket</source>
-        <translation type="unfinished"></translation>
+        <translation>Automaattiset hakasulut</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="501"/>
         <source>By default, a triple period is replaced with an ellipsis
 and a double hyphen with a long dash while typing,
 under proper circumstances.</source>
-        <translation type="unfinished"></translation>
+        <translation>Oletuksena kolme pistettä korvataan ellipsillä, ja
+kaksi väliviivaa pitkällä viivalla tietyissä olosuhteissa.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="506"/>
         <source>Replace triple periods and double hyphens while typing</source>
-        <translation type="unfinished"></translation>
+        <translation>Korvaa kolme pistettä ja kaksi väliviivaa kirjoittaessa</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="520"/>
         <source>Highlight case-sensitive and whole matches
 of the selected text.</source>
-        <translation type="unfinished"></translation>
+        <translation>Korosta valittu teksti yhteenosuvuudesta
+ja merkkikoosta riippuen.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="524"/>
         <source>Selection highlighting</source>
-        <translation type="unfinished"></translation>
+        <translation>Valitun tekstin korostus</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="587"/>
         <source>Never highlight syntax for files &gt; </source>
-        <translation type="unfinished"></translation>
+        <translation>Poista syntaksikorostus tiedostoille &gt; </translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="556"/>
         <source>This creates a menu button on the
 status bar for changing the syntax.</source>
-        <translation type="unfinished"></translation>
+        <translation>Tämä luo painikkeen tilariville
+syntaksin muuttamista varten.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="560"/>
         <source>Support syntax override</source>
-        <translation type="unfinished"></translation>
+        <translation>Tue syntaksin ohittamista</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="625"/>
         <source>Show spaces, tabs and tab lines
 when the syntax is highlighted.</source>
-        <translation type="unfinished"></translation>
+        <translation>Näytä välit, sarkaimet, ja sarkainrivit
+kun syntaksi on korostettuna.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="629"/>
         <source>Show whitespaces</source>
-        <translation type="unfinished"></translation>
+        <translation>Näytä tyhjät merkit</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="645"/>
@@ -1641,53 +1656,54 @@ the editor font has a fixed pitch (like Monospace).</source>
     <message>
         <location filename="../../prefDialog.ui" line="649"/>
         <source>Show vertical lines starting from this position:</source>
-        <translation type="unfinished"></translation>
+        <translation>Näytä pystyrivit alkaen kohdasta:</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="636"/>
         <source>Also show line and document ends</source>
-        <translation type="unfinished"></translation>
+        <translation>Näytä myös rivien sekä asiakirjan loput</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="775"/>
         <source>Date and time format:</source>
-        <translation type="unfinished"></translation>
+        <translation>Päivämäärän ja ajan muoto:</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="845"/>
         <source>Some text editors cannot open a document
 whose last line is not empty.</source>
-        <translation type="unfinished"></translation>
+        <translation>Jotkin tekstieditorit evät pysty avaamaan
+asiakirjoja jotka eivät lopu tyhjällä rivillä.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="849"/>
         <source>Ensure an empty last line on saving</source>
-        <translation type="unfinished"></translation>
+        <translation>Varmista tyhjä viimeinen rivi tallentaessa</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="856"/>
         <source>Remove trailing spaces on saving</source>
-        <translation type="unfinished"></translation>
+        <translation>Poista tyhjät merkit rivien lopusta tallentaessa</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="874"/>
         <source>Inertial scrolling with mouse wheel</source>
-        <translation type="unfinished"></translation>
+        <translation>Käytä inertiaa hiiren rullalla vierittäessä</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="963"/>
         <source>Files</source>
-        <translation type="unfinished"></translation>
+        <translation>Tiedostot</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="969"/>
         <source>File Management</source>
-        <translation type="unfinished"></translation>
+        <translation>Tiedoston Hallinta</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1086"/>
         <source>Start with files of last window</source>
-        <translation type="unfinished"></translation>
+        <translation>Aloita viimeisen ikkunan tiedostoilla</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1128"/>
@@ -1702,42 +1718,51 @@ will be executed directly.
 If the script is not run in a terminal
 emulator, the output and error messages
 will be shown by a popup dialog.</source>
-        <translation type="unfinished"></translation>
+        <translation>Tämä voi olla mikä tahansa komento
+argumentteineen, esim. &quot;xterm -hold&quot;
+joka suorittaa prosessin XTerm:issä.
+
+Jos komento jätetään tyhjäksi, tiedosto
+suoritetaan sellaisenaan.
+
+Jos skriptiä ei suoriteta terminaali-
+emulaattorissa, tulosteet ja virheet
+näytetään ponnahdus ikkunassa.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1140"/>
         <source>Start with this command: </source>
-        <translation type="unfinished"></translation>
+        <translation>Aloita komennolla: </translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1159"/>
         <source>Command + Arguments</source>
-        <translation type="unfinished"></translation>
+        <translation>Komento + Argumentit</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1044"/>
         <source>Show recentl&amp;y modified files</source>
-        <translation type="unfinished"></translation>
+        <translation>Näytä viimeksi muokatut tiedostot</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1074"/>
         <source>Show recentl&amp;y opened files</source>
-        <translation type="unfinished"></translation>
+        <translation>Näytä viimeksi avatut tiedostot</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1173"/>
         <source>Save changes to opened files every:</source>
-        <translation type="unfinished"></translation>
+        <translation>Tallenna muutokset avattuihin tiedostoihin joka:</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1451"/>
         <source>Help</source>
-        <translation type="unfinished">Ohje</translation>
+        <translation>Ohje</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="163"/>
         <source>Start with side-pane mode</source>
-        <translation type="unfinished"></translation>
+        <translation>Aloita sivuruutu tilassa</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="351"/>
@@ -1750,52 +1775,52 @@ and-drop either.</source>
     <message>
         <location filename="../../prefDialog.ui" line="357"/>
         <source>&amp;Do not show a single tab</source>
-        <translation type="unfinished"></translation>
+        <translation>Älä näytä vain yhtä välilehteä</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="422"/>
         <source>Text</source>
-        <translation type="unfinished"></translation>
+        <translation>Teksti</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="461"/>
         <source>Text Editor</source>
-        <translation type="unfinished"></translation>
+        <translation>Teksti Editori</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="477"/>
         <source>&amp;Wrap lines by default</source>
-        <translation type="unfinished"></translation>
+        <translation>Kiedo rivit oletuksena</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="484"/>
         <source>Auto-&amp;indent by default</source>
-        <translation type="unfinished"></translation>
+        <translation>Sisennä automaattisesti oletuksena</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="513"/>
         <source>Always show line &amp;numbers</source>
-        <translation type="unfinished"></translation>
+        <translation>Näytä aina rivien numerot</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="531"/>
         <source>Highlight s&amp;yntax by default</source>
-        <translation type="unfinished"></translation>
+        <translation>Korosta syntaksi oletuksena</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="691"/>
         <source>Dark c&amp;olor scheme</source>
-        <translation type="unfinished"></translation>
+        <translation>Tumma värijärjestelmä</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="726"/>
         <source>Background color value: </source>
-        <translation type="unfinished"></translation>
+        <translation>Taustan väriarvo: </translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="594"/>
         <source> MiB</source>
-        <translation type="unfinished"></translation>
+        <translation> MiB</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1093"/>
@@ -1812,7 +1837,7 @@ process could be killed by Ctrl+Alt+E.</source>
     <message>
         <location filename="../../prefDialog.ui" line="688"/>
         <source>Needs window reopening to take effect.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ikkunan uudelleen avaaminen vaaditaan muutosten voimaan tulemiseksi.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="716"/>
@@ -1830,7 +1855,7 @@ Needs window reopening to take effect.</source>
     <message>
         <location filename="../../prefDialog.ui" line="1103"/>
         <source>Run executable scripts</source>
-        <translation type="unfinished"></translation>
+        <translation>Aja suoritettavat skriptit</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="977"/>
@@ -1851,28 +1876,34 @@ Takes effect after closing this dialog.
 
 Leave empty for:
 MMM dd, yyyy, hh:mm:ss</source>
-        <translation type="unfinished"></translation>
+        <translation>Käytetään päivämäärän ja ajan lisäämiseen.
+
+Tulee voimaan kun tämä valintaikkuna suljetaan.
+
+Tyhjänä muoto on:
+MMM dd, yyyy, hh:mm:ss</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="804"/>
         <source>Text tab size:</source>
-        <translation type="unfinished"></translation>
+        <translation>Sarkaimen koko:</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="811"/>
         <source> spaces</source>
-        <translation type="unfinished"></translation>
+        <translation> väliä</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="863"/>
         <source>Thick text cursor</source>
-        <translation type="unfinished"></translation>
+        <translation>Leveä tekstikursori</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="870"/>
         <source>Should the mouse wheel scrolling be inertial
 if the cursor is inside the text view?</source>
-        <translation type="unfinished"></translation>
+        <translation>Käytetäänkö hiiren rullalla vierittäessä inertiaa
+kun kursori on tekstialueen sisällä?</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="881"/>
@@ -1896,7 +1927,7 @@ name but ending with &quot;.aff&quot;.</source>
         <location filename="../../prefDialog.ui" line="913"/>
         <location filename="../../pref.cpp" line="1648"/>
         <source>Add dictionary...</source>
-        <translation type="unfinished"></translation>
+        <translation>Lisää sanakirja...</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="925"/>
@@ -1928,7 +1959,7 @@ will be started from the document start.</source>
     <message>
         <location filename="../../prefDialog.ui" line="1183"/>
         <source> min</source>
-        <translation type="unfinished"></translation>
+        <translation> min</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1214"/>
@@ -1943,17 +1974,17 @@ trailing spaces of a text file.</source>
     <message>
         <location filename="../../prefDialog.ui" line="1222"/>
         <source>Allow saving unmodified files</source>
-        <translation type="unfinished"></translation>
+        <translation>Salli muuttumattomien tiedostojen tallennus</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1229"/>
         <source>Show a warning instead.</source>
-        <translation type="unfinished"></translation>
+        <translation>Näytä varoitus.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1232"/>
         <source>Do not permit opening of non-text files</source>
-        <translation type="unfinished"></translation>
+        <translation>Salli ainoastaan tekstitiedostojen avaaminen</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1239"/>
@@ -1969,65 +2000,65 @@ be opened if they are pasted into FeatherPad.</source>
     <message>
         <location filename="../../prefDialog.ui" line="1270"/>
         <source>Shortcuts</source>
-        <translation type="unfinished"></translation>
+        <translation>Pikanäppäimet</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1292"/>
         <source>Action</source>
-        <translation type="unfinished"></translation>
+        <translation>Toiminto</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1297"/>
         <source>Shortcut</source>
-        <translation type="unfinished"></translation>
+        <translation>Pikanäppäin</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1305"/>
         <source>Restore default shortcuts.</source>
-        <translation type="unfinished"></translation>
+        <translation>Palauta oletus pikanäppäimet.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1308"/>
         <location filename="../../prefDialog.ui" line="1382"/>
         <location filename="../../prefDialog.ui" line="1430"/>
         <source>Default</source>
-        <translation type="unfinished"></translation>
+        <translation>Oletukset</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1319"/>
         <source>Syntax Colors</source>
-        <translation type="unfinished"></translation>
+        <translation>Syntaksivärit</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1414"/>
         <source>Element</source>
-        <translation type="unfinished"></translation>
+        <translation>Elementti</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1419"/>
         <source>Text Color</source>
-        <translation type="unfinished"></translation>
+        <translation>Tekstin Väri</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1336"/>
         <source>Whitespace color value:</source>
-        <translation type="unfinished"></translation>
+        <translation>Tyhjän merkin väriarvo:</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1369"/>
         <location filename="../../prefDialog.ui" line="1379"/>
         <source>Has effect only if line numbers are shown.</source>
-        <translation type="unfinished"></translation>
+        <translation>Tällä on vaikutusta vain kun rivien numerot näytetään.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1372"/>
         <source>Current line highlight value:</source>
-        <translation type="unfinished"></translation>
+        <translation>Nykyisen rivin korostusarvo:</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1427"/>
         <source>Restore default syntax colors.</source>
-        <translation type="unfinished"></translation>
+        <translation>Palauta oletus syntaksivärit.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1462"/>

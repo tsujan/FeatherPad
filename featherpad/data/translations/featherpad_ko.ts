@@ -486,7 +486,7 @@
         <location filename="../../fp.ui" line="1157"/>
         <location filename="../../fp.ui" line="1160"/>
         <source>To Start Case</source>
-        <translation type="unfinished"></translation>
+        <translation>대문자로 시작</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1168"/>
@@ -1897,10 +1897,10 @@ Leave empty for:
 MMM dd, yyyy, hh:mm:ss</source>
         <translation>날짜와 시간을 붙여넣을 때 사용합니다.
 
-이 대화상자를 닫은 후에 적용됩니다.
+이 대화창을 닫은 후에 적용됩니다.
 
 다음 항목은 비워 둡니다:
-MMM dd, yyyy, hh:mm:ss</translation>
+yyyy, MMM dd, hh:mm:ss</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="804"/>

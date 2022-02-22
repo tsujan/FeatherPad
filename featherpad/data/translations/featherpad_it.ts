@@ -629,7 +629,7 @@ linea (Ctrl + Shift + J)</translation>
     <message>
         <location filename="../../fp.ui" line="765"/>
         <source>Windows Arabic (&amp;CP1256)</source>
-        <translation></translation>
+        <translation>Windows Arabico (&amp;CP1256)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="773"/>
@@ -659,12 +659,12 @@ linea (Ctrl + Shift + J)</translation>
     <message>
         <location filename="../../fp.ui" line="836"/>
         <source>&amp;Cyrillic (CP1251)</source>
-        <translation></translation>
+        <translation>&amp;Cirillico (CP1251)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="847"/>
         <source>Cyrillic (&amp;KOI8-U)</source>
-        <translation></translation>
+        <translation>Cirillico (&amp;KOI8-U)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="858"/>
@@ -674,7 +674,7 @@ linea (Ctrl + Shift + J)</translation>
     <message>
         <location filename="../../fp.ui" line="869"/>
         <source>&amp;Chinese (BIG5)</source>
-        <translation></translation>
+        <translation>&amp;Cinese (BIG5)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="880"/>
@@ -816,7 +816,7 @@ linea (Ctrl + Shift + J)</translation>
     <message>
         <location filename="../../fpwin.cpp" line="921"/>
         <source>Please attend to that window or just close its dialog!</source>
-        <translation>Per favore porre attenzione a questa finestra o  chiudere il  dialogo!</translation>
+        <translation>Per favore porre attenzione a questa finestra o chiudere il dialogo!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1273"/>
@@ -979,7 +979,7 @@ linea (Ctrl + Shift + J)</translation>
     <message>
         <location filename="../../fpwin.cpp" line="2653"/>
         <source>Root Instance</source>
-        <translation>Instanza Root</translation>
+        <translation>Istanza Root</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2725"/>
@@ -1151,19 +1151,19 @@ linea (Ctrl + Shift + J)</translation>
         <location filename="../../fpwin.cpp" line="5336"/>
         <location filename="../../fpwin.cpp" line="5447"/>
         <source>Copy Final Target Path</source>
-        <translation type="unfinished"></translation>
+        <translation>Copia percorso di destinazione finale</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5340"/>
         <location filename="../../fpwin.cpp" line="5451"/>
         <source>Open Final Target Here</source>
-        <translation type="unfinished"></translation>
+        <translation>Apri percorso di destinazione finale</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5357"/>
         <location filename="../../fpwin.cpp" line="5469"/>
         <source>Open Containing Folder</source>
-        <translation type="unfinished"></translation>
+        <translation>Apri cartella</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5578"/>
@@ -1175,7 +1175,7 @@ linea (Ctrl + Shift + J)</translation>
         <location filename="../../fpwin.cpp" line="5586"/>
         <location filename="../../fpwin.cpp" line="5596"/>
         <source>See Preferences → Text → Spell Checking!</source>
-        <translation>Vedi → Preferenze → Testo → Controllo ortografico!</translation>
+        <translation>Vedi Preferenze → Testo → Controllo ortografico!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5585"/>
@@ -1192,14 +1192,14 @@ linea (Ctrl + Shift + J)</translation>
         <location filename="../../fpwin.cpp" line="5636"/>
         <location filename="../../fpwin.cpp" line="5651"/>
         <source>No misspelling in document.</source>
-        <translation>Nessun sbaglio ortografico nel documento.</translation>
+        <translation>Nessun errore ortografico nel documento.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5620"/>
         <location filename="../../fpwin.cpp" line="5638"/>
         <location filename="../../fpwin.cpp" line="5653"/>
         <source>No misspelling from text cursor.</source>
-        <translation>Nessun sbaglio ortografico dalla posizione del cursore.</translation>
+        <translation>Nessun errore ortografico dalla posizione del cursore.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5669"/>
@@ -1229,7 +1229,7 @@ linea (Ctrl + Shift + J)</translation>
     <message>
         <location filename="../../fpwin.cpp" line="6051"/>
         <source>Author</source>
-        <translation></translation>
+        <translation>Autore</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="6052"/>
@@ -1268,7 +1268,7 @@ linea (Ctrl + Shift + J)</translation>
     <message>
         <location filename="../../syntax.cpp" line="302"/>
         <source>The size limit for syntax highlighting is exceeded.</source>
-        <translation>Il limite di dimensione per l&apos;evidenziazione della sintassi è stato  superato.</translation>
+        <translation>Il limite di dimensione per l&apos;evidenziazione della sintassi è stato superato.</translation>
     </message>
 </context>
 <context>
@@ -1312,7 +1312,7 @@ linea (Ctrl + Shift + J)</translation>
     <message>
         <location filename="../../fontDialog.ui" line="89"/>
         <source>Weight:</source>
-        <translation>Peso:</translation>
+        <translation>Stile:</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="103"/>
@@ -1322,7 +1322,7 @@ linea (Ctrl + Shift + J)</translation>
     <message>
         <location filename="../../fontDialog.ui" line="108"/>
         <source>Medium</source>
-        <translation>Media</translation>
+        <translation>Medio</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="113"/>
@@ -1332,7 +1332,7 @@ linea (Ctrl + Shift + J)</translation>
     <message>
         <location filename="../../fontDialog.ui" line="118"/>
         <source>Black</source>
-        <translation>Nero</translation>
+        <translation>Neretto</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="126"/>
@@ -1403,13 +1403,13 @@ linea (Ctrl + Shift + J)</translation>
         <location filename="../../prefDialog.ui" line="148"/>
         <source>Enforcing a window position is not recommended
 and may not work with some window managers.</source>
-        <translation>Impostare la posizione della finestra non è raccomandata
+        <translation>Impostare la posizione della finestra non è consigliato
  e potrebbe non funzionare con alcuni gestori di finestre.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="152"/>
         <source>Remember window &amp;position on closing</source>
-        <translation>Memorizza le dimensioni e la posizoine della finestra all&apos;uscita</translation>
+        <translation>Memorizza le dimensioni e la posizione della finestra all&apos;uscita</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="159"/>
@@ -1449,12 +1449,13 @@ un pulsante di menu sulla barra degli strumenti.</translation>
         <location filename="../../prefDialog.ui" line="218"/>
         <source>Menubar accelerators are activated by Alt
 and may interfere with customized shortcuts.</source>
-        <translation type="unfinished"></translation>
+        <translation>Gli acceleratori della barra menu sono attivati con Alt
+e possono interferire con scorciatoie personalizzate.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="222"/>
         <source>Disable menubar accelerators</source>
-        <translation type="unfinished"></translation>
+        <translation>Disabilita acceleratori della barra menu</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="229"/>
@@ -1492,27 +1493,27 @@ una propria cronologia di ricerca.</translation>
     <message>
         <location filename="../../prefDialog.ui" line="286"/>
         <source>Tab position: </source>
-        <translation></translation>
+        <translation>Posizione tab: </translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="297"/>
         <source>North</source>
-        <translation></translation>
+        <translation>Nord</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="302"/>
         <source>South</source>
-        <translation></translation>
+        <translation>Sud</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="307"/>
         <source>West</source>
-        <translation></translation>
+        <translation>Ovest</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="312"/>
         <source>East</source>
-        <translation></translation>
+        <translation>Est</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="338"/>
@@ -1569,7 +1570,7 @@ Alcuni ambienti desktop, come KDE e LXQt, forniscono finestre di dialogo dei fil
     <message>
         <location filename="../../prefDialog.ui" line="391"/>
         <source>Native file dialog</source>
-        <translation>Finestra di dialogo nativo</translation>
+        <translation>Finestra di dialogo nativa</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="467"/>
@@ -1610,7 +1611,8 @@ e due trattini (--) sono sostituiti con un tratto lungo
         <location filename="../../prefDialog.ui" line="520"/>
         <source>Highlight case-sensitive and whole matches
 of the selected text.</source>
-        <translation type="unfinished"></translation>
+        <translation>Evidenzia corrispondente complete e case-sensitive
+del testo selezionato.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="524"/>
@@ -1689,7 +1691,7 @@ un documento la cui ultima riga non è vuota.</translation>
     <message>
         <location filename="../../prefDialog.ui" line="874"/>
         <source>Inertial scrolling with mouse wheel</source>
-        <translation>Scorrimento lento con rotellina del mouse</translation>
+        <translation>Scorrimento inerziale con rotellina del mouse</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="963"/>
@@ -1994,11 +1996,11 @@ be used also when the opened file is not modified.
 This can be useful under certain circumstances,
 e.g. for changing the time stamp or removing the
 trailing spaces of a text file.</source>
-        <translation>Se è selezionato, il pulsante/voce di menu Salva
+        <translation>Se selezionato, il pulsante/voce di menu Salva
 può essere utilizzato anche quando il file aperto
 non è stato modificato. Questo può essere utile
 in determinate circostanze, ad esempio se si vuole
-modificare la data o rimuovere spazi  vuoti.</translation>
+modificare la data o rimuovere spazi vuoti.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1222"/>
@@ -2019,7 +2021,8 @@ modificare la data o rimuovere spazi  vuoti.</translation>
         <location filename="../../prefDialog.ui" line="1239"/>
         <source>By default, when files are copied, they will
 be opened if they are pasted into FeatherPad.</source>
-        <translation type="unfinished"></translation>
+        <translation>Di default, quando i file vengono copiati,
+vengono aperti se incollati in FeatherPad.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1243"/>
