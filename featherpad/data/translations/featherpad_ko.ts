@@ -203,7 +203,7 @@
     <message>
         <location filename="../../fp.ui" line="586"/>
         <source>Show/hide replacement dock</source>
-        <translation>바꾸기 도크를 보이기/숨기기</translation>
+        <translation>교체 배경 도구모음 표시/숨김</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="589"/>
@@ -388,7 +388,7 @@
     <message>
         <location filename="../../fp.ui" line="972"/>
         <source>Show/hide jump bar</source>
-        <translation>줄 이동 바 보이기/숨기기</translation>
+        <translation>줄 이동 막대 표시/숨김</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="975"/>
@@ -1432,7 +1432,7 @@ but without tab functionality.</source>
     <message>
         <location filename="../../prefDialog.ui" line="200"/>
         <source>Do not show &amp;toolbar</source>
-        <translation>도구바를 표시하지 않음(&amp;T)</translation>
+        <translation>도구 모음 표시 안함(&amp;T)</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="207"/>
@@ -1444,7 +1444,7 @@ a menu button appears on the toolbar.</source>
     <message>
         <location filename="../../prefDialog.ui" line="211"/>
         <source>Do not show &amp;menubar</source>
-        <translation>메뉴바를 표시하지 않음(&amp;M)</translation>
+        <translation>메뉴 모음 표시 안함(&amp;M)</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="218"/>
@@ -1744,12 +1744,12 @@ will be shown by a popup dialog.</source>
     <message>
         <location filename="../../prefDialog.ui" line="1044"/>
         <source>Show recentl&amp;y modified files</source>
-        <translation>최근 수정된 파일 표시하기(&amp;Y)</translation>
+        <translation>최근 수정된 파일 표시(&amp;Y)</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1074"/>
         <source>Show recentl&amp;y opened files</source>
-        <translation>최근 열어본 파일 보기(&amp;Y)</translation>
+        <translation>최근 열어본 파일 표시(&amp;Y)</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1173"/>
@@ -1779,7 +1779,7 @@ and-drop either.</source>
     <message>
         <location filename="../../prefDialog.ui" line="357"/>
         <source>&amp;Do not show a single tab</source>
-        <translation>단일 탭 표시 안 함(&amp;D)</translation>
+        <translation>단일 탭 표시 안함(&amp;D)</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="422"/>
