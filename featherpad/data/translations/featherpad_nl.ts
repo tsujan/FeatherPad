@@ -1498,7 +1498,7 @@ zijn eigen geschiedenis.</translation>
     <message>
         <location filename="../../prefDialog.ui" line="297"/>
         <source>North</source>
-        <translation>Noordelijk</translation>
+        <translation>Bovenaan</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="302"/>
