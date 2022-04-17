@@ -1317,7 +1317,7 @@
     <message>
         <location filename="../../fontDialog.ui" line="103"/>
         <source>Normal</source>
-        <translation type="unfinished">Normaali</translation>
+        <translation>Normaali</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="108"/>
@@ -1570,7 +1570,7 @@ Jotkin ympäristöt, kuten KDE ja LXQt omaavat tälläisiä valikoita.</translat
     <message>
         <location filename="../../prefDialog.ui" line="391"/>
         <source>Native file dialog</source>
-        <translation>Natiivi tiedosto valintaikkuna</translation>
+        <translation>Natiivi tiedoston valintaikkuna</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="467"/>
@@ -1908,7 +1908,7 @@ kun kursori on tekstialueen sisällä?</translation>
     <message>
         <location filename="../../prefDialog.ui" line="881"/>
         <source>Spell Checking</source>
-        <translation type="unfinished">Oikeinkirjoituksen Tarkistus</translation>
+        <translation>Oikeinkirjoituksen tarkistus</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="889"/>
@@ -1995,7 +1995,7 @@ be opened if they are pasted into FeatherPad.</source>
     <message>
         <location filename="../../prefDialog.ui" line="1243"/>
         <source>Paste paths instead of files</source>
-        <translation type="unfinished"></translation>
+        <translation>Liitä polku, ei tiedostoja</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1270"/>
@@ -2063,7 +2063,7 @@ be opened if they are pasted into FeatherPad.</source>
     <message>
         <location filename="../../prefDialog.ui" line="1462"/>
         <source>Close</source>
-        <translation type="unfinished">Sulje</translation>
+        <translation>Sulje</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="104"/>
@@ -2080,13 +2080,13 @@ in the editing mode.</source>
         <location filename="../../pref.cpp" line="306"/>
         <location filename="../../pref.cpp" line="1344"/>
         <source>files</source>
-        <translation type="unfinished"></translation>
+        <translation>tiedostoa</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="306"/>
         <location filename="../../pref.cpp" line="1344"/>
         <source>file</source>
-        <translation type="unfinished"></translation>
+        <translation>tiedosto</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="359"/>
@@ -2107,7 +2107,7 @@ in the editing mode.</source>
     <message>
         <location filename="../../pref.cpp" line="394"/>
         <source>Comments</source>
-        <translation type="unfinished"></translation>
+        <translation>Kommentit</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="395"/>
@@ -2117,17 +2117,17 @@ in the editing mode.</source>
     <message>
         <location filename="../../pref.cpp" line="396"/>
         <source>Types</source>
-        <translation type="unfinished"></translation>
+        <translation>Tyypit</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="397"/>
         <source>Key Words</source>
-        <translation type="unfinished"></translation>
+        <translation>Avainsanat</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="398"/>
         <source>Numbers</source>
-        <translation type="unfinished"></translation>
+        <translation>Numerot</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="399"/>
@@ -2152,7 +2152,7 @@ in the editing mode.</source>
     <message>
         <location filename="../../pref.cpp" line="563"/>
         <source>Application restart is needed for changes to take effect.</source>
-        <translation type="unfinished"></translation>
+        <translation>Sovellus tulee käynnistää uudelleen, jotta muutokset tulevat voimaan.</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="582"/>
@@ -2162,12 +2162,12 @@ in the editing mode.</source>
     <message>
         <location filename="../../pref.cpp" line="1370"/>
         <source>&amp;Recently Opened</source>
-        <translation type="unfinished">&amp;Viimeksi Avatut</translation>
+        <translation>&amp;Viimeksi avatut</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="1371"/>
         <source>Recently &amp;Modified</source>
-        <translation type="unfinished">Viimeksi &amp;Muokatut</translation>
+        <translation>Viimeksi &amp;muokatut</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="1446"/>
@@ -2183,7 +2183,7 @@ in the editing mode.</source>
         <location filename="../../pref.cpp" line="453"/>
         <location filename="../../pref.cpp" line="1736"/>
         <source>Select Syntax Color</source>
-        <translation type="unfinished"></translation>
+        <translation>Valitse synktaksiväri</translation>
     </message>
 </context>
 <context>
@@ -2192,7 +2192,7 @@ in the editing mode.</source>
         <location filename="../../searchbar.cpp" line="94"/>
         <location filename="../../searchbar.cpp" line="173"/>
         <source>Search...</source>
-        <translation type="unfinished"></translation>
+        <translation>Etsi...</translation>
     </message>
     <message>
         <location filename="../../searchbar.cpp" line="125"/>
@@ -2202,12 +2202,12 @@ in the editing mode.</source>
     <message>
         <location filename="../../searchbar.cpp" line="132"/>
         <source>Whole Word</source>
-        <translation type="unfinished"></translation>
+        <translation>Koko sana</translation>
     </message>
     <message>
         <location filename="../../searchbar.cpp" line="139"/>
         <source>Regular Expression</source>
-        <translation type="unfinished"></translation>
+        <translation>Säännöllinen lauseke</translation>
     </message>
     <message>
         <location filename="../../searchbar.cpp" line="171"/>
@@ -2217,12 +2217,12 @@ in the editing mode.</source>
     <message>
         <location filename="../../searchbar.cpp" line="120"/>
         <source>Next</source>
-        <translation type="unfinished">Seuraava</translation>
+        <translation>Seuraava</translation>
     </message>
     <message>
         <location filename="../../searchbar.cpp" line="121"/>
         <source>Previous</source>
-        <translation type="unfinished">Edellinen</translation>
+        <translation>Edellinen</translation>
     </message>
 </context>
 <context>
@@ -2230,23 +2230,23 @@ in the editing mode.</source>
     <message>
         <location filename="../../sessionDialog.ui" line="14"/>
         <source>Session Manager</source>
-        <translation type="unfinished"></translation>
+        <translation>Istunnonhallinta</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="101"/>
         <location filename="../../sessionDialog.ui" line="270"/>
         <source>&amp;Remove</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Poista</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="33"/>
         <source>&lt;b&gt;Save/Restore Session&lt;/b&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;Tallenna/palauta istunto&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="56"/>
         <source>Filter...</source>
-        <translation type="unfinished"></translation>
+        <translation>Suodata...</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="69"/>
@@ -2280,12 +2280,12 @@ windows will be included in the saved session.</source>
     <message>
         <location filename="../../sessionDialog.ui" line="163"/>
         <source>Save only from this &amp;window</source>
-        <translation type="unfinished"></translation>
+        <translation>Tallenna vain tästä &amp;ikkunasta</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="180"/>
         <source>&lt;b&gt;Warning&lt;/b&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;Varoitus&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="226"/>
@@ -2296,17 +2296,17 @@ windows will be included in the saved session.</source>
     <message>
         <location filename="../../sessionDialog.ui" line="233"/>
         <source>&amp;No</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Ei</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="283"/>
         <source>Re&amp;name</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Nimeä uudelleen</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="118"/>
         <source>Remove &amp;All</source>
-        <translation type="unfinished"></translation>
+        <translation>Poista &amp;kaikki</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="260"/>
@@ -2326,17 +2326,17 @@ windows will be included in the saved session.</source>
     <message>
         <location filename="../../sessionDialog.ui" line="149"/>
         <source>Type a name to save session</source>
-        <translation type="unfinished"></translation>
+        <translation>Kirjoita nimi tallentaaksesi istunnon</translation>
     </message>
     <message>
         <location filename="../../session.cpp" line="179"/>
         <source>Nothing saved.&lt;br&gt;No file was opened.</source>
-        <translation type="unfinished"></translation>
+        <translation>Mitään ei tallennettu.&lt;br&gt;Yhtään tiedostoa ei ollut avattuna.</translation>
     </message>
     <message>
         <location filename="../../session.cpp" line="277"/>
         <source>No file exists or can be opened.</source>
-        <translation type="unfinished"></translation>
+        <translation>Tiedostoa ei ole olemassa tai sitä ei voida avata.</translation>
     </message>
     <message>
         <location filename="../../session.cpp" line="279"/>
@@ -2351,22 +2351,22 @@ windows will be included in the saved session.</source>
     <message>
         <location filename="../../session.cpp" line="333"/>
         <source>Do you really want to remove all saved sessions?</source>
-        <translation type="unfinished"></translation>
+        <translation>Haluatko varmasti poistaa kaikki tallennetut istunnot?</translation>
     </message>
     <message>
         <location filename="../../session.cpp" line="339"/>
         <source>Do you really want to remove the selected sessions?</source>
-        <translation type="unfinished"></translation>
+        <translation>Haluatko varmasti poistaa valitut istunnot?</translation>
     </message>
     <message>
         <location filename="../../session.cpp" line="341"/>
         <source>Do you really want to remove the selected session?</source>
-        <translation type="unfinished"></translation>
+        <translation>Haluatko varmasti poistaa valitun istunnon?</translation>
     </message>
     <message>
         <location filename="../../session.cpp" line="346"/>
         <source>A session with the same name exists.&lt;br&gt;Do you want to overwrite it?</source>
-        <translation type="unfinished"></translation>
+        <translation>Istunto samalla nimellä on jo olemassa.&lt;br&gt;Haluatko korvata sen?</translation>
     </message>
 </context>
 <context>
@@ -2374,7 +2374,7 @@ windows will be included in the saved session.</source>
     <message>
         <location filename="../../sidepane.cpp" line="207"/>
         <source>Filter...</source>
-        <translation type="unfinished"></translation>
+        <translation>Suodata...</translation>
     </message>
 </context>
 <context>
@@ -2382,12 +2382,12 @@ windows will be included in the saved session.</source>
     <message>
         <location filename="../../spellDialog.ui" line="25"/>
         <source>Unknown word:</source>
-        <translation type="unfinished"></translation>
+        <translation>Tuntematon sana:</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="51"/>
         <source>Add To Dictionary</source>
-        <translation type="unfinished"></translation>
+        <translation>Lisää sanastoon</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="62"/>
@@ -2397,22 +2397,22 @@ windows will be included in the saved session.</source>
     <message>
         <location filename="../../spellDialog.ui" line="129"/>
         <source>Correct Once</source>
-        <translation type="unfinished"></translation>
+        <translation>Korjaa kerran</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="142"/>
         <source>Correct All</source>
-        <translation type="unfinished"></translation>
+        <translation>Korjaa kaikki</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="87"/>
         <source>Ignore Once</source>
-        <translation type="unfinished"></translation>
+        <translation>Jätä huomiotta kerran</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="100"/>
         <source>Ignore All</source>
-        <translation type="unfinished"></translation>
+        <translation>Jätä huomiotta kaikki</translation>
     </message>
 </context>
 <context>
