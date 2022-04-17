@@ -6,7 +6,7 @@
     <message>
         <location filename="../../about.ui" line="171"/>
         <source>License</source>
-        <translation type="unfinished"></translation>
+        <translation>लाइसेंस</translation>
     </message>
 </context>
 <context>
@@ -25,7 +25,7 @@
         <location filename="../../fpwin.cpp" line="4894"/>
         <location filename="../../fpwin.cpp" line="5153"/>
         <source>Untitled</source>
-        <translation type="unfinished"></translation>
+        <translation>शीर्षकहीन</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="71"/>
