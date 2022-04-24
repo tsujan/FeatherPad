@@ -1575,7 +1575,7 @@ Jotkin ympäristöt, kuten KDE ja LXQt omaavat tälläisiä valikoita.</translat
     <message>
         <location filename="../../prefDialog.ui" line="467"/>
         <source>Uncheck for Monospace.</source>
-        <translation type="unfinished"></translation>
+        <translation>Poista valinta valitaksesi Monospace.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="470"/>
@@ -1651,7 +1651,8 @@ kun syntaksi on korostettuna.</translation>
         <location filename="../../prefDialog.ui" line="656"/>
         <source>The vertical position lines will be drawn only if
 the editor font has a fixed pitch (like Monospace).</source>
-        <translation type="unfinished"></translation>
+        <translation>Paikan ilmoittavat pystyviivat näytetään vain jos
+käytössä on tasalevyinen kirjasin (kuten Monospace).</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="649"/>
@@ -1770,7 +1771,9 @@ näytetään ponnahdus ikkunassa.</translation>
 tooltip and context menu of a single tab but you could not
 merge a single tabbed window into another one by tab drag-
 and-drop either.</source>
-        <translation type="unfinished"></translation>
+        <translation>Kun tämä on valittuna, välilehden työkaluvihje,
+valintaikkuna, sekä raahaaminen toiseen ikkunaan
+poistetaan käytöstä.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="357"/>
@@ -1832,7 +1835,16 @@ executable, the file will be executed by clicking
 the Run button, that appears on the toolbar/filemenu
 when needed, or by its shortcut Ctrl+E. Then, the
 process could be killed by Ctrl+Alt+E.</source>
-        <translation type="unfinished"></translation>
+        <translation>Tämä vaikuttaa ainoastaan suoritettaviin
+tiedostoihin jotka on kirjoitettu käyttäen
+skriptauskieliä kuten Shell ja Python.
+
+Jos avattava tiedosto on merkitty suoritettavaksi,
+tiedosto ajetaan kun työkalupalkkiin ilmestyvää
+Suorita nappia painetaan, tai kun komento valitaan
+Tiedosto valikosta. Lisäksi voidaan käyttää
+näppäinyhdistelmää Ctrl+E. Prosessin suoritus voidaan
+päättää painamalla Ctrl+Alt+E.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="688"/>
@@ -1850,7 +1862,15 @@ between 230 and 255; for the dark
 background, between 0 and 50.
 
 Needs window reopening to take effect.</source>
-        <translation type="unfinished"></translation>
+        <translation>Taustan väriarvo. 255 tarkoittaa
+valkoista, ja 0 tarkoittaa mustaa.
+
+Vaaleaa taustaa varten voidaan
+käyttää arvoja 230 - 255, ja
+tummaa varten 0 - 50.
+
+Vaatii ikkunan uudelleen avaamisen
+jotta muutokset tulevat voimaan.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1103"/>
@@ -1865,7 +1885,12 @@ opened files FeatherPad shows. The default
 is 10.
 
 Needs application restart to take effect.</source>
-        <translation type="unfinished"></translation>
+        <translation>Viimeksi muokattujen tai avattujen tiedostojen
+enimmäismäärä jonka FeatherPad näyttää.
+Oletuksena tämä on 10.
+
+Vaatii ohjelman uudelleen käynnistämisen
+jotta muutokset tulevat voimaan.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="767"/>
@@ -1916,12 +1941,14 @@ kun kursori on tekstialueen sisällä?</translation>
         <source>A Hunspell dictionary has a name that ends with &quot;.dic&quot;
 and should be alongside an affix file with the same
 name but ending with &quot;.aff&quot;.</source>
-        <translation type="unfinished"></translation>
+        <translation>Hunspell sanakirjalla on tiedostopäätteenä &quot;.dic&quot;,
+ja sen mukaan kuuluu samanniminen affiksitiedosto 
+jonka pääte on &quot;.aff&quot;.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="894"/>
         <source>Hunspell dictionary path:</source>
-        <translation type="unfinished"></translation>
+        <translation>Hunspell sanakirjan hakemistopolku:</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="913"/>
@@ -1933,28 +1960,29 @@ name but ending with &quot;.aff&quot;.</source>
         <location filename="../../prefDialog.ui" line="925"/>
         <source>If this is unchecked, spell checking
 will be started from the document start.</source>
-        <translation type="unfinished"></translation>
+        <translation>Jos tämä ei ole valittuna, oikeinkirjoituksen
+tarkistaminen aloitetaan asiakirjan alusta.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="929"/>
         <source>Start spell checking from text cursor</source>
-        <translation type="unfinished"></translation>
+        <translation>Aloita tarkistaminen tekstikursorin kohdalta</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="984"/>
         <source>Number of recent files: </source>
-        <translation type="unfinished"></translation>
+        <translation>Viimeksikäytettyjen tiedostojen määrä: </translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1083"/>
         <source>Only if their number is not greater than 50.</source>
-        <translation type="unfinished"></translation>
+        <translation>Vain kun niiden lukumäärä ei ole yli 50.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1170"/>
         <location filename="../../prefDialog.ui" line="1180"/>
         <source>Only for files that exist and can be saved.</source>
-        <translation type="unfinished"></translation>
+        <translation>Vain olemassaoleville tiedostoille jotka voidaan tallentaa.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1183"/>
@@ -1969,7 +1997,13 @@ be used also when the opened file is not modified.
 This can be useful under certain circumstances,
 e.g. for changing the time stamp or removing the
 trailing spaces of a text file.</source>
-        <translation type="unfinished"></translation>
+        <translation>Kun tämä on valittuna, tallennus toimintoa
+voidaan käyttää myös vaikka avattua tiedostoa
+ei ole muokattu.
+
+Tämä voi olla käytännöllistä esimerkiksi kun halutaan
+muuttaa tiedoston aikaleimaa, tai kun poistetaan
+tyhjiä merkkejä rivien lopusta.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1222"/>
@@ -1990,7 +2024,8 @@ trailing spaces of a text file.</source>
         <location filename="../../prefDialog.ui" line="1239"/>
         <source>By default, when files are copied, they will
 be opened if they are pasted into FeatherPad.</source>
-        <translation type="unfinished"></translation>
+        <translation>Oletuksena FeatherPad avaa tiedostot jos
+ne kopioidaan ja liitetään siihen.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1243"/>
@@ -2069,12 +2104,13 @@ be opened if they are pasted into FeatherPad.</source>
         <location filename="../../pref.cpp" line="104"/>
         <source>Press a modifier key to clear a shortcut
 in the editing mode.</source>
-        <translation type="unfinished"></translation>
+        <translation>Paina yhdistelmänäppäintä tyhjentääksesi
+pikanäppäimen arvo editointitilassa.</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="110"/>
         <source>Double click a color to change it.</source>
-        <translation type="unfinished"></translation>
+        <translation>Kaksoisklikkaa väriä muokataksesi sitä.</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="306"/>
@@ -2092,17 +2128,17 @@ in the editing mode.</source>
         <location filename="../../pref.cpp" line="359"/>
         <location filename="../../pref.cpp" line="1463"/>
         <source>Warning: Ambiguous shortcut detected!</source>
-        <translation type="unfinished"></translation>
+        <translation>Varoitus: Samaa yhdistelmää käytetty useammin kuin kerran!</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="392"/>
         <source>Functions, URLs,…</source>
-        <translation type="unfinished"></translation>
+        <translation>Funktiot, URL:t,…</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="393"/>
         <source>Built-in Functions</source>
-        <translation type="unfinished"></translation>
+        <translation>Sisäänrakennetut Funktiot</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="394"/>
@@ -2112,7 +2148,7 @@ in the editing mode.</source>
     <message>
         <location filename="../../pref.cpp" line="395"/>
         <source>Quotations</source>
-        <translation type="unfinished"></translation>
+        <translation>Lainaukset</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="396"/>
@@ -2132,22 +2168,22 @@ in the editing mode.</source>
     <message>
         <location filename="../../pref.cpp" line="399"/>
         <source>Regular Expressions, Code Blocks,…</source>
-        <translation type="unfinished"></translation>
+        <translation>Säännölliset Lausekkeet, Koodilohkot,…</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="400"/>
         <source>Document Blocks, XML/HTML Elements,…</source>
-        <translation type="unfinished"></translation>
+        <translation>Asiakirjalohkot, XML/HTML Elementit,…</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="401"/>
         <source>Markdown Headings, CSS Values,…</source>
-        <translation type="unfinished"></translation>
+        <translation>Markdown Otsikot, CSS Arvot,…</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="402"/>
         <source>Extra Elements</source>
-        <translation type="unfinished"></translation>
+        <translation>Extra Elementit</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="563"/>
@@ -2157,7 +2193,7 @@ in the editing mode.</source>
     <message>
         <location filename="../../pref.cpp" line="582"/>
         <source>Window reopening is needed for changes to take effect.</source>
-        <translation type="unfinished"></translation>
+        <translation>Vaatii ikkunan uudelleen avaamisen muutoksien voimaan tulemiseksi.</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="1370"/>
@@ -2172,12 +2208,12 @@ in the editing mode.</source>
     <message>
         <location filename="../../pref.cpp" line="1446"/>
         <source>The typed shortcut was reserved.</source>
-        <translation type="unfinished"></translation>
+        <translation>Syötetty yhdistelmä oli varattu.</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="1650"/>
         <source>Hunspell Dictionary Files (*.dic)</source>
-        <translation type="unfinished"></translation>
+        <translation>Hunspell Sanakirja Tiedostot (*.dic)</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="453"/>
@@ -2197,7 +2233,7 @@ in the editing mode.</source>
     <message>
         <location filename="../../searchbar.cpp" line="125"/>
         <source>Match Case</source>
-        <translation type="unfinished"></translation>
+        <translation>Täsmää Kirjasinkoko</translation>
     </message>
     <message>
         <location filename="../../searchbar.cpp" line="132"/>
@@ -2212,7 +2248,7 @@ in the editing mode.</source>
     <message>
         <location filename="../../searchbar.cpp" line="171"/>
         <source>Search with regex...</source>
-        <translation type="unfinished"></translation>
+        <translation>Etsi käyttäen säännöllistä lauseketta...</translation>
     </message>
     <message>
         <location filename="../../searchbar.cpp" line="120"/>
@@ -2251,7 +2287,7 @@ in the editing mode.</source>
     <message>
         <location filename="../../sessionDialog.ui" line="69"/>
         <source>Open the selected session(s).</source>
-        <translation type="unfinished"></translation>
+        <translation>Avaa valittu tai valitut istunnot.</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="72"/>
@@ -2275,7 +2311,8 @@ in the editing mode.</source>
         <location filename="../../sessionDialog.ui" line="159"/>
         <source>By default, all files that are opened in all
 windows will be included in the saved session.</source>
-        <translation type="unfinished"></translation>
+        <translation>Oletuksena kaikki tiedostot kaikista auki olevista
+ikkunoista sisällytetään tallennettuun istuntoon.</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="163"/>
@@ -2316,7 +2353,7 @@ windows will be included in the saved session.</source>
     <message>
         <location filename="../../sessionDialog.ui" line="135"/>
         <source>Save the current session under the given title.</source>
-        <translation type="unfinished"></translation>
+        <translation>Tallenna aktiivinen istunto valitulla nimellä.</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="138"/>
@@ -2341,7 +2378,7 @@ windows will be included in the saved session.</source>
     <message>
         <location filename="../../session.cpp" line="279"/>
         <source>Not all files exist or can be opened.</source>
-        <translation type="unfinished"></translation>
+        <translation>Joitakin tiedostoista ei ole olemassa, tai niitä ei muusta syystä voida avata.</translation>
     </message>
     <message>
         <location filename="../../session.cpp" line="314"/>
@@ -2420,7 +2457,7 @@ windows will be included in the saved session.</source>
     <message>
         <location filename="../../textedit.cpp" line="147"/>
         <source>Double click to center current line</source>
-        <translation type="unfinished"></translation>
+        <translation>Kaksoisklikkaa keskittääksesi tämänhetkinen rivi</translation>
     </message>
 </context>
 </TS>
