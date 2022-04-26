@@ -105,12 +105,12 @@
     <message>
         <location filename="../../fp.ui" line="494"/>
         <source>&amp;New</source>
-        <translation></translation>
+        <translation>&amp;Nový</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="497"/>
         <source>New tab</source>
-        <translation></translation>
+        <translation>Nová karta</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="500"/>
@@ -120,7 +120,7 @@
     <message>
         <location filename="../../fp.ui" line="505"/>
         <source>&amp;Open</source>
-        <translation></translation>
+        <translation>&amp;Otvoriť</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="508"/>
@@ -524,7 +524,7 @@
         <location filename="../../fp.ui" line="1203"/>
         <location filename="../../fp.ui" line="1206"/>
         <source>Save All Files</source>
-        <translation type="unfinished"></translation>
+        <translation>Uložiť všetky súbory</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1211"/>
@@ -1238,7 +1238,7 @@
         <location filename="../../fpwin.cpp" line="6078"/>
         <location filename="../../fpwin.cpp" line="6079"/>
         <source>About FeatherPad</source>
-        <translation>O  FeatherPad</translation>
+        <translation>O FeatherPad</translation>
     </message>
     <message>
         <location filename="../../replace.cpp" line="242"/>
@@ -2179,12 +2179,12 @@ in the editing mode.</source>
     <message>
         <location filename="../../searchbar.cpp" line="120"/>
         <source>Next</source>
-        <translation></translation>
+        <translation>Ďalší</translation>
     </message>
     <message>
         <location filename="../../searchbar.cpp" line="121"/>
         <source>Previous</source>
-        <translation></translation>
+        <translation>Predošlý</translation>
     </message>
 </context>
 <context>
