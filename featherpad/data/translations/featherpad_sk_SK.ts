@@ -125,7 +125,7 @@
     <message>
         <location filename="../../fp.ui" line="508"/>
         <source>Open a file</source>
-        <translation></translation>
+        <translation>Otvoriť súbor</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="511"/>
@@ -753,7 +753,7 @@
     <message>
         <location filename="../../fp.ui" line="1065"/>
         <source>&amp;First Tab</source>
-        <translation></translation>
+        <translation>&amp;Prvá karta</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1068"/>
@@ -763,7 +763,7 @@
     <message>
         <location filename="../../fp.ui" line="1076"/>
         <source>&amp;Last Tab</source>
-        <translation></translation>
+        <translation>&amp;Posledná karta</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1079"/>

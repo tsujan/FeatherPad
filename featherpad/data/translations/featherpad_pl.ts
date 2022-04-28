@@ -486,7 +486,7 @@
         <location filename="../../fp.ui" line="1157"/>
         <location filename="../../fp.ui" line="1160"/>
         <source>To Start Case</source>
-        <translation type="unfinished"></translation>
+        <translation>Początkowy rozmiar liter</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1168"/>
@@ -531,12 +531,12 @@
         <location filename="../../fp.ui" line="1211"/>
         <location filename="../../fp.ui" line="1214"/>
         <source>User Dictionary</source>
-        <translation type="unfinished"></translation>
+        <translation>Słownik użytkownika</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1219"/>
         <source>Text Tabs to Spaces</source>
-        <translation type="unfinished"></translation>
+        <translation>Zmień tabulatory na spacje</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="994"/>
@@ -939,12 +939,12 @@
     <message>
         <location filename="../../fpwin.cpp" line="2557"/>
         <source>Non-text file(s) not opened!</source>
-        <translation type="unfinished"></translation>
+        <translation>Otwarto plik(i) nietekstowy(e)!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2558"/>
         <source>See Preferences → Files → Do not permit opening of non-text files</source>
-        <translation type="unfinished"></translation>
+        <translation>Zobacz Preferencje → Pliki → Nie pozwalaj na otwieranie plików nietekstowych</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2567"/>
@@ -1017,17 +1017,17 @@
     <message>
         <location filename="../../fpwin.cpp" line="3379"/>
         <source>Saving as root.</source>
-        <translation type="unfinished"></translation>
+        <translation>Zapisywanie jako root.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3380"/>
         <source>Waiting for authentication...</source>
-        <translation type="unfinished"></translation>
+        <translation>Oczekiwanie na uwierzytelnienie...</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3500"/>
         <source>&quot;pkexec&quot; is not found. Please install Polkit!</source>
-        <translation type="unfinished"></translation>
+        <translation>Nie znaleziono&quot;pkexec&quot;. Proszę zainstalować Polkit!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3159"/>
@@ -1090,17 +1090,17 @@
     <message>
         <location filename="../../fpwin.cpp" line="3655"/>
         <source>Text tabs are converted to spaces.</source>
-        <translation type="unfinished"></translation>
+        <translation>Znaki tabulacji są zamieniane na spacje.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3757"/>
         <source>The selected text was too long.</source>
-        <translation type="unfinished"></translation>
+        <translation>Zaznaczony tekst był za długi.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3758"/>
         <source>It is not fully processed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Nie przetworzono w pełni.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3897"/>
@@ -1117,7 +1117,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="4566"/>
         <source>Printing in progress...</source>
-        <translation type="unfinished"></translation>
+        <translation>Trwa drukowanie...</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4617"/>
@@ -1127,7 +1127,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="4623"/>
         <source>Printing completed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Drukowanie zakończone.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5281"/>
@@ -1151,19 +1151,19 @@
         <location filename="../../fpwin.cpp" line="5335"/>
         <location filename="../../fpwin.cpp" line="5462"/>
         <source>Copy Final Target Path</source>
-        <translation type="unfinished"></translation>
+        <translation>Kopiuj końcową ścieżkę docelową</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5339"/>
         <location filename="../../fpwin.cpp" line="5466"/>
         <source>Open Final Target Here</source>
-        <translation type="unfinished"></translation>
+        <translation>Otwórz element docelowy tutaj</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5356"/>
         <location filename="../../fpwin.cpp" line="5484"/>
         <source>Open Containing Folder</source>
-        <translation type="unfinished"></translation>
+        <translation>Otwórz folder zawierający</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5607"/>
@@ -1185,7 +1185,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="5624"/>
         <source>The Hunspell dictionary is not accompanied by an affix file.</source>
-        <translation type="unfinished"></translation>
+        <translation>Słownikowi Hunspell nie towarzyszy plik afiksów.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5647"/>
@@ -1264,7 +1264,7 @@
     <message>
         <location filename="../../replace.cpp" line="250"/>
         <source>The first 1000 replacements are highlighted.</source>
-        <translation type="unfinished"></translation>
+        <translation>Wyróżniono pierwszych 1000 zmian.</translation>
     </message>
     <message>
         <location filename="../../syntax.cpp" line="306"/>
@@ -1313,7 +1313,7 @@
     <message>
         <location filename="../../fontDialog.ui" line="89"/>
         <source>Weight:</source>
-        <translation type="unfinished"></translation>
+        <translation>Grubość:</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="103"/>
@@ -1323,22 +1323,22 @@
     <message>
         <location filename="../../fontDialog.ui" line="108"/>
         <source>Medium</source>
-        <translation type="unfinished"></translation>
+        <translation>Średni</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="113"/>
         <source>Bold</source>
-        <translation type="unfinished"></translation>
+        <translation>Pogrubiony</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="118"/>
         <source>Black</source>
-        <translation type="unfinished"></translation>
+        <translation>Mocno pogrubiony</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="126"/>
         <source>Italic</source>
-        <translation type="unfinished"></translation>
+        <translation>Kursywa</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="149"/>
