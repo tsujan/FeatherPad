@@ -51,7 +51,7 @@
     <message>
         <location filename="../../fp.ui" line="149"/>
         <source>&amp;File</source>
-        <translation></translation>
+        <translation>&amp;Súbor</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="189"/>
@@ -292,7 +292,7 @@
     <message>
         <location filename="../../fp.ui" line="667"/>
         <source>&amp;Delete</source>
-        <translation></translation>
+        <translation>&amp;Vymazať</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="672"/>
@@ -550,7 +550,7 @@
     <message>
         <location filename="../../fp.ui" line="1010"/>
         <source>Close Ne&amp;xt Tabs</source>
-        <translation></translation>
+        <translation>Zatvoriť kartu vpravo</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1015"/>
@@ -1357,7 +1357,7 @@
     <message>
         <location filename="../../prefDialog.ui" line="14"/>
         <source>Preferences</source>
-        <translation></translation>
+        <translation>Nastavenia</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="30"/>
