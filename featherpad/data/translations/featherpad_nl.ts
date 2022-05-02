@@ -1460,12 +1460,12 @@ met Alt en kunnen botsen met aangepaste sneltoetsen.</translation>
     <message>
         <location filename="../../prefDialog.ui" line="229"/>
         <source>Internal icons are used by default.</source>
-        <translation type="unfinished"></translation>
+        <translation>Standaard worden de meegeleverde pictogrammen gebruikt.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="232"/>
         <source>Use system icons where possible</source>
-        <translation type="unfinished"></translation>
+        <translation>Systeempictogrammen gebruiken</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="239"/>

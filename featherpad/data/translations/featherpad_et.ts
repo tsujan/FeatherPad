@@ -1460,12 +1460,12 @@ ja see võib segada sinu loodud kiirklahvide tööd.</translation>
     <message>
         <location filename="../../prefDialog.ui" line="229"/>
         <source>Internal icons are used by default.</source>
-        <translation type="unfinished"></translation>
+        <translation>Vaikimisi on kasutusel rakenduse omad ikoonid.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="232"/>
         <source>Use system icons where possible</source>
-        <translation type="unfinished"></translation>
+        <translation>Kui võimalik, siis kasuta süsteemi poolt pakutud ikoone</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="239"/>

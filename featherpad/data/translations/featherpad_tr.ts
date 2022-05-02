@@ -1475,12 +1475,12 @@ ve özelleştirilmiş kısayollara müdahale edebilir.</translation>
     <message>
         <location filename="../../prefDialog.ui" line="229"/>
         <source>Internal icons are used by default.</source>
-        <translation type="unfinished"></translation>
+        <translation>Varsayılan olarak dahili simgeler kullanılır.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="232"/>
         <source>Use system icons where possible</source>
-        <translation type="unfinished"></translation>
+        <translation>Mümkünse sistem simgelerini kullanın</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="239"/>
