@@ -530,7 +530,7 @@
         <location filename="../../fp.ui" line="1211"/>
         <location filename="../../fp.ui" line="1214"/>
         <source>User Dictionary</source>
-        <translation type="unfinished"></translation>
+        <translation>Používateľský slovník</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1219"/>
@@ -1306,7 +1306,7 @@
     <message>
         <location filename="../../fontDialog.ui" line="69"/>
         <source>Size:</source>
-        <translation type="unfinished"></translation>
+        <translation>Veľkosť:</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="89"/>
@@ -1326,12 +1326,12 @@
     <message>
         <location filename="../../fontDialog.ui" line="113"/>
         <source>Bold</source>
-        <translation type="unfinished"></translation>
+        <translation>Tučné</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="118"/>
         <source>Black</source>
-        <translation type="unfinished"></translation>
+        <translation>Čierne</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="126"/>
@@ -1341,7 +1341,7 @@
     <message>
         <location filename="../../fontDialog.ui" line="149"/>
         <source>Preview</source>
-        <translation type="unfinished"></translation>
+        <translation>Náhľad</translation>
     </message>
 </context>
 <context>
@@ -1680,7 +1680,7 @@ whose last line is not empty.</source>
     <message>
         <location filename="../../prefDialog.ui" line="973"/>
         <source>Files</source>
-        <translation></translation>
+        <translation>Súbory</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="979"/>

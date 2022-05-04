@@ -1462,12 +1462,12 @@ et peuvent interférer avec les raccourcis personnalisés.</translation>
     <message>
         <location filename="../../prefDialog.ui" line="229"/>
         <source>Internal icons are used by default.</source>
-        <translation type="unfinished"></translation>
+        <translation>Les icônes internes sont utilisées par défaut.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="232"/>
         <source>Use system icons where possible</source>
-        <translation type="unfinished"></translation>
+        <translation>Utiliser les icônes du système lorsque cela est possible</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="239"/>
@@ -1877,7 +1877,7 @@ Needs window reopening to take effect.</source>
 255 pour le blanc et 0 pour le noir.
 
 Pour les arrière-plans clairs, elle peut être
-comprise entre 230 et 255&#x202f;; pour les arrière-plans
+comprise entre 230 et 255 ; pour les arrière-plans
 sombres, entre 0 et 50.
 
 Nécessite la réouverture de la fenêtre pour être activé.</translation>

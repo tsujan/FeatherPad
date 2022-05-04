@@ -30,7 +30,7 @@
     <message>
         <location filename="../../fp.ui" line="71"/>
         <source>Go to line:</source>
-        <translation>Ga naar regel:</translation>
+        <translation>Ga naar regel</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="107"/>
@@ -63,7 +63,7 @@
     <message>
         <location filename="../../fp.ui" line="219"/>
         <source>&amp;Options</source>
-        <translation>&amp;Opties</translation>
+        <translation>&amp;Instellingen</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1576"/>
@@ -86,22 +86,22 @@
     <message>
         <location filename="../../fp.ui" line="390"/>
         <source>Find:</source>
-        <translation>Zoeken:</translation>
+        <translation>Zoeken naar</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="406"/>
         <source>To be replaced</source>
-        <translation>Oorspronkelijke tekst</translation>
+        <translation>tekst</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="419"/>
         <source>Replace with:</source>
-        <translation>Vervangen door:</translation>
+        <translation>Vervangen door</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="435"/>
         <source>Replacing text</source>
-        <translation>Vervangende tekst</translation>
+        <translation>nieuwe tekst</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="494"/>
@@ -142,7 +142,7 @@
     <message>
         <location filename="../../fp.ui" line="522"/>
         <source>Save the current tab</source>
-        <translation>Sla het huidige tabblad op</translation>
+        <translation>Sla het huidige bestand op</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="525"/>
@@ -157,7 +157,7 @@
     <message>
         <location filename="../../fp.ui" line="536"/>
         <source>Undo</source>
-        <translation>Maak ongedaan</translation>
+        <translation>Maak de vorige actie ongedaan</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="539"/>
@@ -172,7 +172,7 @@
     <message>
         <location filename="../../fp.ui" line="550"/>
         <source>Redo</source>
-        <translation>Opnieuw</translation>
+        <translation>Herhaal de vorige actie</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="553"/>
@@ -203,7 +203,7 @@
     <message>
         <location filename="../../fp.ui" line="586"/>
         <source>Show/hide replacement dock</source>
-        <translation>Vervangpaneel tonen/verbergen</translation>
+        <translation>Tekstvervangingspaneel tonen/verbergen</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="589"/>
@@ -353,7 +353,7 @@
     <message>
         <location filename="../../fp.ui" line="738"/>
         <source>&amp;Preferences</source>
-        <translation>&amp;Instellingen</translation>
+        <translation>&amp;Alle instellingen</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="741"/>
@@ -408,7 +408,7 @@
     <message>
         <location filename="../../fp.ui" line="1089"/>
         <source>&amp;Run</source>
-        <translation>&amp;Uitvoeren</translation>
+        <translation>Uitvoe&amp;ren</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1095"/>
@@ -423,7 +423,7 @@
     <message>
         <location filename="../../fp.ui" line="1103"/>
         <source>Clear the list of recently modified files</source>
-        <translation>Wis de lijst met recent bewerkte bestanden</translation>
+        <translation>Wis de lijst met onlangs bewerkte bestanden</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1108"/>
@@ -486,13 +486,13 @@
         <location filename="../../fp.ui" line="1157"/>
         <location filename="../../fp.ui" line="1160"/>
         <source>To Start Case</source>
-        <translation>Beginnen met lettergrootte</translation>
+        <translation>Beginnen met tekstgrootte</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1168"/>
         <location filename="../../fp.ui" line="1171"/>
         <source>Last Active Tab</source>
-        <translation>Recentst actief tabblad</translation>
+        <translation>Vorig actief tabblad</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1174"/>
@@ -531,7 +531,7 @@
         <location filename="../../fp.ui" line="1211"/>
         <location filename="../../fp.ui" line="1214"/>
         <source>User Dictionary</source>
-        <translation>Gebruikerswoordenboek</translation>
+        <translation>Eigen woordenboek</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1219"/>
@@ -614,7 +614,7 @@
         <location filename="../../replace.cpp" line="61"/>
         <location filename="../../replace.cpp" line="113"/>
         <source>Replacement</source>
-        <translation>Vervanging</translation>
+        <translation>Tekstvervanging</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="575"/>
@@ -781,7 +781,7 @@
         <source>Calculate number of words
 (For huge texts, this may be CPU-intensive.)</source>
         <translation>Bereken het aantal woorden
-(bij grote teksten kan dit de processor zwaar belasten)</translation>
+(let op: bij grote teksten kan de processor zwaar worden belast)</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="118"/>
@@ -821,7 +821,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="1341"/>
         <source>The document has been modified.</source>
-        <translation>Het document is bewerkt.</translation>
+        <translation>Het bestand is bewerkt.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1352"/>
@@ -884,7 +884,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="988"/>
         <source>Another FeatherPad window has a modal dialog!</source>
-        <translation>Een ander FeatherPad-venster bevat een modaal dialoogvenster!</translation>
+        <translation>Er is een modaal dialoogvenster geopend in een ander FeatherPad-venster!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="825"/>
@@ -944,22 +944,22 @@
     <message>
         <location filename="../../fpwin.cpp" line="2624"/>
         <source>See Preferences → Files → Do not permit opening of non-text files</source>
-        <translation>Zie Instellingen → Bestanden → Geen niet-tekstbestanden openen</translation>
+        <translation>Zie Alle instellingen → Bestanden → Alleen tekstbestanden openen</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2633"/>
         <source>Some file(s) could not be opened!</source>
-        <translation>Sommige bestanden kunnen niet worden geopend!</translation>
+        <translation>Enkele bestanden kunnen niet worden geopend!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2634"/>
         <source>You may not have the permission to read.</source>
-        <translation>U heeft mogelijk heb geen leestoegang.</translation>
+        <translation>U heeft mogelijk geen leestoegang.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2644"/>
         <source>Uneditable file(s)!</source>
-        <translation>Bestand(en) is/zijn onbewerkbaar!</translation>
+        <translation>De bestanden kunnen niet worden bewerkt!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2645"/>
@@ -1047,7 +1047,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="3228"/>
         <source>Do you want to use &lt;b&gt;MS Windows&lt;/b&gt; end-of-lines?</source>
-        <translation>Wil je &lt;b&gt;MS Windows&lt;/b&gt;-compatibele regeleinden gebruiken?</translation>
+        <translation>Wilt u &lt;b&gt;MS Windows&lt;/b&gt;-compatibele regeleinden gebruiken?</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3229"/>
@@ -1175,12 +1175,12 @@
         <location filename="../../fpwin.cpp" line="5687"/>
         <location filename="../../fpwin.cpp" line="5697"/>
         <source>See Preferences → Text → Spell Checking!</source>
-        <translation>Zie Instellingen → Tekst → Spellingcontrole!</translation>
+        <translation>Zie Alle instellingen → Tekst → Spellingcontrole!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5686"/>
         <source>The Hunspell dictionary does not exist.</source>
-        <translation>Dit Hunspell-woordenboek is niet aanwezig.</translation>
+        <translation>Dit Hunspell-woordenboek bestaat niet.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5696"/>
@@ -1296,7 +1296,7 @@
     <message>
         <location filename="../../fontDialog.ui" line="38"/>
         <source>Programming Fonts</source>
-        <translation>Programmeerlettertypen</translation>
+        <translation>Alleen programmeerlettertypen tonen</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="45"/>
@@ -1358,7 +1358,7 @@
     <message>
         <location filename="../../prefDialog.ui" line="14"/>
         <source>Preferences</source>
-        <translation>Instellingen</translation>
+        <translation>Alle instellingen</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="30"/>
@@ -1373,7 +1373,7 @@
     <message>
         <location filename="../../prefDialog.ui" line="75"/>
         <source>Remember window &amp;size on closing</source>
-        <translation>Ven&amp;sterafmetingen bewaren na afsluiten</translation>
+        <translation>Ven&amp;sterafmetingen onthouden</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="84"/>
@@ -1386,7 +1386,7 @@
     <message>
         <location filename="../../prefDialog.ui" line="87"/>
         <source>Start with this size: </source>
-        <translation>Standaardafmetingen: </translation>
+        <translation>Vaste vensterafmetingen: </translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="100"/>
@@ -1403,13 +1403,17 @@
         <location filename="../../prefDialog.ui" line="148"/>
         <source>Enforcing a window position is not recommended
 and may not work with some window managers.</source>
-        <translation>Het afdwingen van een vensterpositie is niet aanbevolen
-en werkt mogelijk niet met sommige vensterbeheerders.</translation>
+        <translation>Onthoud de vensterpositie, zowel na het sluiten van
+dit venster als na het afsluiten van het programma.
+
+(Dit werkt mogelijk niet naar behoren
+in GTK+-werkomgevingen als Unity
+en Cinnamon.)</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="152"/>
         <source>Remember window &amp;position on closing</source>
-        <translation>Venster&amp;positie bewaren na afsluiten</translation>
+        <translation>Venster&amp;positie onthouden</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="159"/>
@@ -1421,12 +1425,12 @@ maar zonder tabbladen.</translation>
     <message>
         <location filename="../../prefDialog.ui" line="188"/>
         <source>Uncheck for 1/5 of the width.</source>
-        <translation>Kruis dit af voor 1/5 van de breedte.</translation>
+        <translation>Kruis dit af om 1/5 van de breedte te gebruiken.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="191"/>
         <source>Remember splitter position</source>
-        <translation>Splitspositie bewaren</translation>
+        <translation>Splitspositie onthouden</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="200"/>
@@ -1438,7 +1442,7 @@ maar zonder tabbladen.</translation>
         <source>If the menubar is hidden,
 a menu button appears on the toolbar.</source>
         <translation>Als de menubalk verborgen is,
-verschijnt er een menuknop op de werkbalk.</translation>
+dan wordt er een menuknop op de werkbalk getoond.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="211"/>
@@ -1449,13 +1453,13 @@ verschijnt er een menuknop op de werkbalk.</translation>
         <location filename="../../prefDialog.ui" line="218"/>
         <source>Menubar accelerators are activated by Alt
 and may interfere with customized shortcuts.</source>
-        <translation>Menu-sneltoetsen kunnen worden geactiveerd
+        <translation>Menusneltoetsen kunnen worden geactiveerd
 met Alt en kunnen botsen met aangepaste sneltoetsen.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="222"/>
         <source>Disable menubar accelerators</source>
-        <translation>Menu-sneltoetsen uitschakelen</translation>
+        <translation>Menusneltoetsen uitschakelen</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="229"/>
@@ -1531,15 +1535,15 @@ zijn eigen geschiedenis.</translation>
 after the last tab is activated, and the same for Alt+Left.
 
 Tab navigation with mouse wheel is not affected.</source>
-        <translation>Dit betekent dat voor LNR Alt+pijltje rechts naar het eerste tabblad gaat
-nadat het laatste tabblad is geactiveerd, en hetzelfde geldt voor Alt+pijltje links.
+        <translation>Dit houdt in dat Alt+pijltje rechts naar het eerste tabblad gaat
+nadat het laatste tabblad is geactiveerd, en vice-versa voor Alt+pijltje links.
 
 Tabbladnavigatie via het muiswiel wordt hier niet door beïnvloed.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="354"/>
         <source>Tab navigation wraps &amp;around</source>
-        <translation>Tabbladnavigatie omsl&amp;aan</translation>
+        <translation>Eindeloos sch&amp;akelen tussen tabbladen</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="374"/>
@@ -1558,7 +1562,7 @@ bureaublad, dan worden bestanden automatisch geopend
 op nieuwe tabbladen.
 
 Bij sommige werkomgevingen wordt er echter niet doorgegeven
-dat er meerdere werkbladen aanwezig zijn.</translation>
+dat er meerdere bureaubladen in gebruik zijn.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="388"/>
@@ -1589,37 +1593,37 @@ Sommige werkomgevingen, zoals KDE en LXQt, hebben eigen bestandsvensters.</trans
     <message>
         <location filename="../../prefDialog.ui" line="480"/>
         <source>Remember &amp;font</source>
-        <translation>Ingesteld lettertype &amp;gebruiken</translation>
+        <translation>Ingesteld lettertype &amp;onthouden</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="501"/>
         <source>This covers parentheses, braces, brackets and quotes.</source>
-        <translation>Dit beslaat enkele/dubbele aanhalingstekens en ronde/vierkante haakjes.</translation>
+        <translation>Dit omvat enkele/dubbele aanhalingstekens en ronde/vierkante haakjes.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="504"/>
         <source>Auto-&amp;bracket</source>
-        <translation>Automatisch &amp;haakjes plaatsen</translation>
+        <translation>Haa&amp;kjes automatisch sluiten</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="511"/>
         <source>By default, a triple period is replaced with an ellipsis
 and a double hyphen with a long dash while typing,
 under proper circumstances.</source>
-        <translation>Standaard worden, afhankelijk van de context, drie puntjes
-vervangen door een ellips en twee streepjes door een
-gedachtestreep.</translation>
+        <translation>Tijdens het typen worden drie puntjes vervangen door een
+beletselteken (ellips), twee liggende streepjes door een
+kastlijntje, etc.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="516"/>
         <source>Replace triple periods and double hyphens while typing</source>
-        <translation>Drie puntjes en dubbele streepjes vervangen tijdens het typen</translation>
+        <translation>Bepaalde tekens vervangen tijdens het typen</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="530"/>
         <source>Highlight case-sensitive and whole matches
 of the selected text.</source>
-        <translation>Markeer hoofdlettergevoeligheid en gehele overeenkomsten
+        <translation>Markeer hoofdlettergevoelige en gehele overeenkomsten
 in de geselecteerde tekst.</translation>
     </message>
     <message>
@@ -1630,13 +1634,13 @@ in de geselecteerde tekst.</translation>
     <message>
         <location filename="../../prefDialog.ui" line="597"/>
         <source>Never highlight syntax for files &gt; </source>
-        <translation>Syntaxis niet markeren in bestanden &gt; </translation>
+        <translation>Syntaxis niet markeren in bestanden groter dan </translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="566"/>
         <source>This creates a menu button on the
 status bar for changing the syntax.</source>
-        <translation>Dit plaatst een menuknop op de statusbalk
+        <translation>Er wordt een menuknop op de statusbalk getoond
 waarmee de syntaxis kan worden gewijzigd.</translation>
     </message>
     <message>
@@ -1662,7 +1666,7 @@ bij het markeren van de syntaxis.</translation>
         <source>The vertical position lines will be drawn only if
 the editor font has a fixed pitch (like Monospace).</source>
         <translation>De verticale positielijnen worden alleen getoond als
-het lettertype een vastgezet lettertype is (zoals Monospace).</translation>
+het lettertype een vastebreedtelettertype is, zoals Monospace.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="659"/>
@@ -1672,7 +1676,7 @@ het lettertype een vastgezet lettertype is (zoals Monospace).</translation>
     <message>
         <location filename="../../prefDialog.ui" line="646"/>
         <source>Also show line and document ends</source>
-        <translation>Regel- en documenteinden tonen</translation>
+        <translation>Regel- en documenteinden aangeven</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="785"/>
@@ -1683,13 +1687,13 @@ het lettertype een vastgezet lettertype is (zoals Monospace).</translation>
         <location filename="../../prefDialog.ui" line="855"/>
         <source>Some text editors cannot open a document
 whose last line is not empty.</source>
-        <translation>Sommige tekstbewerkers kunnen geen document openen
-dat geen blanco regel aan het einde bevat.</translation>
+        <translation>Sommige tekstbewerkers hebben moeite met het
+openen van documenten zonder witruimte aan het einde.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="859"/>
         <source>Ensure an empty last line on saving</source>
-        <translation>Blanco eindregel invoegen bij opslaan</translation>
+        <translation>Witruimte invoegen aan einde van document na opslaan</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="866"/>
@@ -1714,7 +1718,7 @@ dat geen blanco regel aan het einde bevat.</translation>
     <message>
         <location filename="../../prefDialog.ui" line="1096"/>
         <source>Start with files of last window</source>
-        <translation>Bestanden uit vorig venster openen na opstarten</translation>
+        <translation>Vorige bestanden heropenen na opstarten</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1138"/>
@@ -1733,7 +1737,7 @@ will be shown by a popup dialog.</source>
 aanvullende opties. Gebruik bijv. ‘xterm -hold’
 om het proces uit te voeren in XTerm.
 
-Als het opdrachtveld blanco blijft, dan wordt
+Als het opdrachtveld blanco is, dan wordt
 het bestand direct uitgevoerd.
 
 Als het script niet wordt uitgevoerd in een terminal-
@@ -1748,7 +1752,7 @@ getoond in een pop-upvenster.</translation>
     <message>
         <location filename="../../prefDialog.ui" line="1169"/>
         <source>Command + Arguments</source>
-        <translation>Opdracht + Aanvullende opties</translation>
+        <translation>Opdracht + aanvullende opties</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1054"/>
@@ -1763,7 +1767,7 @@ getoond in een pop-upvenster.</translation>
     <message>
         <location filename="../../prefDialog.ui" line="1183"/>
         <source>Save changes to opened files every:</source>
-        <translation>Bestandswijzigingen opslaan, elke:</translation>
+        <translation>Automatisch opslaan, elke</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1461"/>
@@ -1782,8 +1786,8 @@ tooltip and context menu of a single tab but you could not
 merge a single tabbed window into another one by tab drag-
 and-drop either.</source>
         <translation>Kruis dit aan om niet alleen de informatieve hulpballon te verwerpen,
-maar ook het rechtermuisknopmenu van een los tabblad. Daarnaast
-kunt u ook geen venster meer samenvoegen met een ander door het
+maar ook het rechtermuisknopmenu van losse tabbladen. Verder
+kunt u geen venster meer samenvoegen met een ander door een
 tabblad te verslepen.</translation>
     </message>
     <message>
@@ -1851,8 +1855,8 @@ geschreven zijn in scripttalen als Shell en Python.
 
 Als dit wordt aangekruist en het geopende bestand is
 uitvoerbaar, dan wordt het bestand uitgevoerd na een klik
-op de knop ‘Uitvoeren’. Deze knop verschijnt op de werkbalk/
-in het bestandsmenu indien nodig, of kan worden geactiveerd met Ctrl+E.
+op de knop ‘Uitvoeren’. Deze knop wordt, indien nodig, op de werkbalk/
+in het bestandsmenu getoond, of kan worden geactiveerd met Ctrl+E.
 Het proces kan daarna worden afgebroken met Ctrl+Alt+E.</translation>
     </message>
     <message>
@@ -1908,17 +1912,15 @@ Takes effect after closing this dialog.
 
 Leave empty for:
 MMM dd, yyyy, hh:mm:ss</source>
-        <translation>Wordt gebruikt voor het plakken van de datum en de tijd.
+        <translation>Dit is van toepassing op het invoegen van de datum en tijd.
 
-Wordt toegepast na sluiten van dit venster.
-
-Laat blanco voor:
+Laat leeg om de volgende opmaak te gebruiken:
 MMM dd, yyyy, hh:mm:ss</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="814"/>
         <source>Text tab size:</source>
-        <translation>Tekstgrootte op tabblad:</translation>
+        <translation>Tabgrootte:</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="821"/>
@@ -1935,7 +1937,7 @@ MMM dd, yyyy, hh:mm:ss</translation>
         <source>Should the mouse wheel scrolling be inertial
 if the cursor is inside the text view?</source>
         <translation>Moet het scrollen bewegingsloos zijn als de
-cursor zich in de tekstweergave bevindt?</translation>
+cursor boven de tekstweergave zweeft?</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="891"/>
@@ -1948,9 +1950,9 @@ cursor zich in de tekstweergave bevindt?</translation>
         <source>A Hunspell dictionary has a name that ends with &quot;.dic&quot;
 and should be alongside an affix file with the same
 name but ending with &quot;.aff&quot;.</source>
-        <translation>Een Hunspell-woordenboek draagt een naam die eindigt op ‘.dic’
-en moet worden meegeleverd met een affix-bestand met dezelfde
-naam, maar eindigend op ‘.aff’.</translation>
+        <translation>Een Hunspell-woordenboek heeft een naam die eindigt op ‘.dic’
+en wordt geleverd met een affix-bestand met dezelfde naam,
+eindigend op ‘.aff’.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="904"/>
@@ -1967,8 +1969,8 @@ naam, maar eindigend op ‘.aff’.</translation>
         <location filename="../../prefDialog.ui" line="935"/>
         <source>If this is unchecked, spell checking
 will be started from the document start.</source>
-        <translation>Als u dit uitschakelt, dan wordt spellingcontrole
-ingezet vanaf het begin van het document.</translation>
+        <translation>Als u dit uitschakelt, dan begint de spellingcontrole
+aan het begin van een document.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="939"/>
@@ -1978,7 +1980,7 @@ ingezet vanaf het begin van het document.</translation>
     <message>
         <location filename="../../prefDialog.ui" line="994"/>
         <source>Number of recent files: </source>
-        <translation>Aantal recente bestanden: </translation>
+        <translation>Aantal onlangs geopende bestanden: </translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1093"/>
@@ -1994,7 +1996,7 @@ ingezet vanaf het begin van het document.</translation>
     <message>
         <location filename="../../prefDialog.ui" line="1193"/>
         <source> min</source>
-        <translation></translation>
+        <translation> min.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1224"/>
@@ -2008,7 +2010,7 @@ trailing spaces of a text file.</source>
 ‘Opslaan’ ook worden gebruikt als het geopende bestand niet
 bewerkt is.
 
-Dit kan bijv. handig zijn om de tijdstempel te wijzigen of
+Dit kan bijv. handig zijn om het tijdstempel te wijzigen of
 achterliggende spaties te verwijderen uit een tekstbestand.</translation>
     </message>
     <message>
@@ -2024,7 +2026,7 @@ achterliggende spaties te verwijderen uit een tekstbestand.</translation>
     <message>
         <location filename="../../prefDialog.ui" line="1242"/>
         <source>Do not permit opening of non-text files</source>
-        <translation>Openen van niet-tekstbestanden niet toestaan</translation>
+        <translation>Alleen tekstbestanden openen</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1249"/>
@@ -2094,7 +2096,7 @@ geopend als ze in FeatherPad worden geplakt.</translation>
     <message>
         <location filename="../../prefDialog.ui" line="1382"/>
         <source>Current line highlight value:</source>
-        <translation>Markeerwaarde huidige regel:</translation>
+        <translation>Markeerwaarde van huidige regel:</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1437"/>
@@ -2194,12 +2196,12 @@ om een sneltoets te wissen.</translation>
     <message>
         <location filename="../../pref.cpp" line="567"/>
         <source>Application restart is needed for changes to take effect.</source>
-        <translation>Herstart FeatherPad om de wijziging(en) toe te passen.</translation>
+        <translation>Herstart FeatherPad om de wijzigingen toe te passen.</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="587"/>
         <source>Window reopening is needed for changes to take effect.</source>
-        <translation>Herstart FeatherPad om de wijziging(en) toe te passen.</translation>
+        <translation>Herstart FeatherPad om de wijzigingen toe te passen.</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="1375"/>
@@ -2214,7 +2216,7 @@ om een sneltoets te wissen.</translation>
     <message>
         <location filename="../../pref.cpp" line="1451"/>
         <source>The typed shortcut was reserved.</source>
-        <translation>De gekozen sneltoets is gereserveerd.</translation>
+        <translation>Deze sneltoets is gereserveerd.</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="1655"/>
@@ -2239,7 +2241,7 @@ om een sneltoets te wissen.</translation>
     <message>
         <location filename="../../searchbar.cpp" line="125"/>
         <source>Match Case</source>
-        <translation>Overeenkomstig met hoofdlettergebruik</translation>
+        <translation>Strikt hoofdlettergebruik</translation>
     </message>
     <message>
         <location filename="../../searchbar.cpp" line="132"/>
@@ -2317,13 +2319,13 @@ om een sneltoets te wissen.</translation>
         <location filename="../../sessionDialog.ui" line="159"/>
         <source>By default, all files that are opened in all
 windows will be included in the saved session.</source>
-        <translation>Standaard worden alle geopende bestanden meegenomen
+        <translation>Standaard worden alle geopende bestanden bewaard
 in de opgeslagen sessie.</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="163"/>
         <source>Save only from this &amp;window</source>
-        <translation>Alleen uit dit &amp;venster opslaan</translation>
+        <translation>Alleen bestanden uit dit &amp;venster opslaan</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="180"/>
@@ -2374,7 +2376,7 @@ in de opgeslagen sessie.</translation>
     <message>
         <location filename="../../session.cpp" line="179"/>
         <source>Nothing saved.&lt;br&gt;No file was opened.</source>
-        <translation>Niks opgeslagen.&lt;br&gt;Er is geen bestand geopend.</translation>
+        <translation>Er is niks opgeslagen.&lt;br&gt;Er is immers geen bestand geopend.</translation>
     </message>
     <message>
         <location filename="../../session.cpp" line="277"/>
@@ -2394,22 +2396,22 @@ in de opgeslagen sessie.</translation>
     <message>
         <location filename="../../session.cpp" line="333"/>
         <source>Do you really want to remove all saved sessions?</source>
-        <translation>Weet je zeker dat je alle opgeslagen sessies wilt wissen?</translation>
+        <translation>Weet u zeker dat u alle opgeslagen sessies wilt wissen?</translation>
     </message>
     <message>
         <location filename="../../session.cpp" line="339"/>
         <source>Do you really want to remove the selected sessions?</source>
-        <translation>Weet je zeker dat je de geselecteerde sessies wilt wissen?</translation>
+        <translation>Weet u zeker dat u de geselecteerde sessies wilt wissen?</translation>
     </message>
     <message>
         <location filename="../../session.cpp" line="341"/>
         <source>Do you really want to remove the selected session?</source>
-        <translation>Weet je zeker dat je de geselecteerde sessie wilt wissen?</translation>
+        <translation>Weet u zeker dat u de geselecteerde sessie wilt wissen?</translation>
     </message>
     <message>
         <location filename="../../session.cpp" line="346"/>
         <source>A session with the same name exists.&lt;br&gt;Do you want to overwrite it?</source>
-        <translation>Er is al een sessie met deze naam.&lt;br&gt;Wil je deze overschrijven?</translation>
+        <translation>Er is al een sessie met deze naam.&lt;br&gt;Wilt u deze overschrijven?</translation>
     </message>
 </context>
 <context>
@@ -2435,7 +2437,7 @@ in de opgeslagen sessie.</translation>
     <message>
         <location filename="../../spellDialog.ui" line="62"/>
         <source>Replace with:</source>
-        <translation>Vervangen door:</translation>
+        <translation>Vervangen door</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="129"/>

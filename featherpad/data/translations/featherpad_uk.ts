@@ -1461,12 +1461,12 @@ Alt і можуть перекривати налаштовані комбіна
     <message>
         <location filename="../../prefDialog.ui" line="229"/>
         <source>Internal icons are used by default.</source>
-        <translation type="unfinished"></translation>
+        <translation>Усталено застосовуються внутрішні піктограми.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="232"/>
         <source>Use system icons where possible</source>
-        <translation type="unfinished"></translation>
+        <translation>Використовувати системні піктограми, якщо можливо</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="239"/>
