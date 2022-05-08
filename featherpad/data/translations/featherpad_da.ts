@@ -1449,7 +1449,8 @@ vises en menuknap på værktøjslinjen.</translation>
         <location filename="../../prefDialog.ui" line="218"/>
         <source>Menubar accelerators are activated by Alt
 and may interfere with customized shortcuts.</source>
-        <translation type="unfinished"></translation>
+        <translation>Menu linjens acceleratorer aktiveres med  Alt
+og kan forstyrre tilpassede genveje</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="222"/>
@@ -1464,7 +1465,7 @@ and may interfere with customized shortcuts.</source>
     <message>
         <location filename="../../prefDialog.ui" line="232"/>
         <source>Use system icons where possible</source>
-        <translation type="unfinished"></translation>
+        <translation>Brug system ikoner hvor muligt</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="239"/>
