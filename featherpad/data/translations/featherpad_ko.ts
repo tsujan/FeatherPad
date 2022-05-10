@@ -1461,12 +1461,12 @@ and may interfere with customized shortcuts.</source>
     <message>
         <location filename="../../prefDialog.ui" line="229"/>
         <source>Internal icons are used by default.</source>
-        <translation type="unfinished"></translation>
+        <translation>기본적으로 내부 아이콘이 사용됩니다.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="232"/>
         <source>Use system icons where possible</source>
-        <translation type="unfinished"></translation>
+        <translation>가능한 경우 시스템 아이콘 사용</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="239"/>
