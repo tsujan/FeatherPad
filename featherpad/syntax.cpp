@@ -78,7 +78,8 @@ void FPwin::setProgLang (TextEdit *textEdit)
 
     /* first check some endings */
     QString baseName = fname.section ('/', -1);
-    QRegularExpressionMatch match = QRegularExpression ("\\A(?:[^/]*\\.[^/\\.]+)\\z").match (baseName);
+    const static QRegularExpression expr("\\A(?:[^/]*\\.[^/\\.]+)\\z");
+    QRegularExpressionMatch match = expr.match (baseName);
     if (match.hasMatch())
     {
         if (fname.endsWith (".cpp") || fname.endsWith (".h"))
