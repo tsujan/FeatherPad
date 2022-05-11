@@ -1227,7 +1227,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="6204"/>
         <source>Author</source>
-        <translation></translation>
+        <translation>Autor</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="6205"/>
@@ -2079,7 +2079,7 @@ in the editing mode.</source>
     <message>
         <location filename="../../pref.cpp" line="398"/>
         <source>Comments</source>
-        <translation type="unfinished"></translation>
+        <translation>Komentáre</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="399"/>
@@ -2094,12 +2094,12 @@ in the editing mode.</source>
     <message>
         <location filename="../../pref.cpp" line="401"/>
         <source>Key Words</source>
-        <translation type="unfinished"></translation>
+        <translation>Kľúčové slová</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="402"/>
         <source>Numbers</source>
-        <translation type="unfinished"></translation>
+        <translation>Čísla</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="403"/>

@@ -1457,12 +1457,12 @@ and may interfere with customized shortcuts.</source>
     <message>
         <location filename="../../prefDialog.ui" line="229"/>
         <source>Internal icons are used by default.</source>
-        <translation type="unfinished"></translation>
+        <translation>默认情况下使用内部图标。</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="232"/>
         <source>Use system icons where possible</source>
-        <translation type="unfinished"></translation>
+        <translation>尽可能地使用系统图标</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="239"/>
