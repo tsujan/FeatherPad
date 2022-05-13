@@ -601,12 +601,12 @@
     <message>
         <location filename="../../fp.ui" line="242"/>
         <source>&amp;East European</source>
-        <translation>&amp;East European</translation>
+        <translation>&amp;Източна Европа</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="250"/>
         <source>Ea&amp;st Asian</source>
-        <translation>Ea&amp;st Asian</translation>
+        <translation>Източна Азия</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="342"/>
@@ -674,7 +674,7 @@
     <message>
         <location filename="../../fp.ui" line="869"/>
         <source>&amp;Chinese (BIG5)</source>
-        <translation>&amp;Chinese (BIG5)</translation>
+        <translation>Китайски (BIG5)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="880"/>
@@ -699,12 +699,12 @@
     <message>
         <location filename="../../fp.ui" line="924"/>
         <source>Ja&amp;panese (CP932)</source>
-        <translation>Ja&amp;panese (CP932)</translation>
+        <translation>Японски (CP932)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="935"/>
         <source>Japa&amp;nese (EUC-JP)</source>
-        <translation>Japa&amp;nese (EUC-JP)</translation>
+        <translation>Японски (EUC-JP)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="943"/>
@@ -714,12 +714,12 @@
     <message>
         <location filename="../../fp.ui" line="951"/>
         <source>K&amp;orean (CP1361)</source>
-        <translation>K&amp;orean (CP1361)</translation>
+        <translation>Корейски (CP1361)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="959"/>
         <source>Korean (&amp;EUC-KR)</source>
-        <translation>Korean (&amp;EUC-KR)</translation>
+        <translation>Корейски (&amp;EUC-KR)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1005"/>
@@ -749,7 +749,7 @@
     <message>
         <location filename="../../fp.ui" line="1057"/>
         <source>Alt+Left</source>
-        <translation>Alt+Left</translation>
+        <translation>Alt+ляво</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1065"/>
@@ -1150,13 +1150,13 @@
         <location filename="../../fpwin.cpp" line="5457"/>
         <location filename="../../fpwin.cpp" line="5587"/>
         <source>Copy Final Target Path</source>
-        <translation type="unfinished"></translation>
+        <translation>Копирай пътя до крайната цел</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5461"/>
         <location filename="../../fpwin.cpp" line="5591"/>
         <source>Open Final Target Here</source>
-        <translation type="unfinished"></translation>
+        <translation>Отвори крайната цел тук</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5481"/>
@@ -1448,22 +1448,23 @@ a menu button appears on the toolbar.</source>
         <location filename="../../prefDialog.ui" line="218"/>
         <source>Menubar accelerators are activated by Alt
 and may interfere with customized shortcuts.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ускорителите в менюто се активират с Алт
+и може да си пречат с клавишните комбинации.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="222"/>
         <source>Disable menubar accelerators</source>
-        <translation type="unfinished"></translation>
+        <translation>Изключи ускорители в панела на менюто</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="229"/>
         <source>Internal icons are used by default.</source>
-        <translation type="unfinished"></translation>
+        <translation>Вградените икони се използват по подразбиране.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="232"/>
         <source>Use system icons where possible</source>
-        <translation type="unfinished"></translation>
+        <translation>Използвай системните икони, когато е възможно</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="239"/>
