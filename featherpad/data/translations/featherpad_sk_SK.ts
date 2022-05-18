@@ -1502,22 +1502,22 @@ has a separate search history.</source>
     <message>
         <location filename="../../prefDialog.ui" line="307"/>
         <source>North</source>
-        <translation></translation>
+        <translation>Sever</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="312"/>
         <source>South</source>
-        <translation></translation>
+        <translation>Juh</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="317"/>
         <source>West</source>
-        <translation></translation>
+        <translation>Západ</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="322"/>
         <source>East</source>
-        <translation></translation>
+        <translation>Východ</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="348"/>
@@ -1972,7 +1972,7 @@ be opened if they are pasted into FeatherPad.</source>
     <message>
         <location filename="../../prefDialog.ui" line="1280"/>
         <source>Shortcuts</source>
-        <translation></translation>
+        <translation>Klávesové skratky</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1302"/>
