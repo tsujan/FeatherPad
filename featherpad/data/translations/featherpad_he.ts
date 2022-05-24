@@ -1258,6 +1258,8 @@
         <translation>
             <numerusform>החלפה אחת</numerusform>
             <numerusform>%Ln החלפות</numerusform>
+            <numerusform>%Ln החלפות</numerusform>
+            <numerusform>%Ln החלפות</numerusform>
         </translation>
     </message>
     <message>
@@ -1460,12 +1462,12 @@ and may interfere with customized shortcuts.</source>
     <message>
         <location filename="../../prefDialog.ui" line="229"/>
         <source>Internal icons are used by default.</source>
-        <translation type="unfinished"></translation>
+        <translation>הסמלים הפנימיים נמצאים בשימוש כברירת מחדל.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="232"/>
         <source>Use system icons where possible</source>
-        <translation type="unfinished"></translation>
+        <translation>שימוש בסמלי מערכת כאשר ניתן</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="239"/>
