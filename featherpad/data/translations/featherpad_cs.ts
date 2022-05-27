@@ -1461,12 +1461,12 @@ a mohu kolidovat s uživatelsky určenými zkratkami.</translation>
     <message>
         <location filename="../../prefDialog.ui" line="229"/>
         <source>Internal icons are used by default.</source>
-        <translation type="unfinished"></translation>
+        <translation>Vestavěné ikony jsou požity jako výchozí.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="232"/>
         <source>Use system icons where possible</source>
-        <translation type="unfinished"></translation>
+        <translation>Použít systémové ikony kde je to jen možné</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="239"/>
