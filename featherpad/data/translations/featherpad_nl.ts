@@ -1898,8 +1898,7 @@ is 10.
 
 Needs application restart to take effect.</source>
         <translation>Het maximaal aantal onlangs bewerkte of geopende
-bestanden dat FeatherPad toont. Standaard is dit
-10.
+bestanden dat moet worden getoond. Standaard: 10.
 
 Herstart FeatherPad om de wijziging toe te passen.</translation>
     </message>
