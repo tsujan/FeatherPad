@@ -957,7 +957,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="2656"/>
         <source>Uneditable file(s)!</source>
-        <translation>Súbro nemôže byť upravovaný!</translation>
+        <translation>Súbor nemôže byť upravovaný!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2657"/>
