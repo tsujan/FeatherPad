@@ -1455,7 +1455,7 @@ and may interfere with customized shortcuts.</source>
     <message>
         <location filename="../../prefDialog.ui" line="229"/>
         <source>Internal icons are used by default.</source>
-        <translation type="unfinished"></translation>
+        <translation>Interna ikoner används som standard.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="232"/>
