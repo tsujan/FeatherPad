@@ -486,7 +486,7 @@
         <location filename="../../fp.ui" line="1157"/>
         <location filename="../../fp.ui" line="1160"/>
         <source>To Start Case</source>
-        <translation type="unfinished"></translation>
+        <translation>首字母大寫</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1168"/>
@@ -531,12 +531,12 @@
         <location filename="../../fp.ui" line="1211"/>
         <location filename="../../fp.ui" line="1214"/>
         <source>User Dictionary</source>
-        <translation type="unfinished"></translation>
+        <translation>使用者字典</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1219"/>
         <source>Text Tabs to Spaces</source>
-        <translation type="unfinished"></translation>
+        <translation>縮排字元轉空白</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="994"/>
@@ -939,12 +939,12 @@
     <message>
         <location filename="../../fpwin.cpp" line="2635"/>
         <source>Non-text file(s) not opened!</source>
-        <translation type="unfinished"></translation>
+        <translation>無法開啟非純文字檔案！</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2636"/>
         <source>See Preferences → Files → Do not permit opening of non-text files</source>
-        <translation type="unfinished"></translation>
+        <translation>請查看這個選項: 偏好設定 → 檔案 → 禁止開啟非純文字檔案</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2645"/>
@@ -1017,17 +1017,17 @@
     <message>
         <location filename="../../fpwin.cpp" line="3457"/>
         <source>Saving as root.</source>
-        <translation type="unfinished"></translation>
+        <translation>以 root 的身份儲存。</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3458"/>
         <source>Waiting for authentication...</source>
-        <translation type="unfinished"></translation>
+        <translation>等待認證中…</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3578"/>
         <source>&quot;pkexec&quot; is not found. Please install Polkit!</source>
-        <translation type="unfinished"></translation>
+        <translation>找不到 &quot;pkexec&quot;。請安裝 Polkit！</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3237"/>
@@ -1090,17 +1090,17 @@
     <message>
         <location filename="../../fpwin.cpp" line="3733"/>
         <source>Text tabs are converted to spaces.</source>
-        <translation type="unfinished"></translation>
+        <translation>已將文字中的縮排字元轉為空白。</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3835"/>
         <source>The selected text was too long.</source>
-        <translation type="unfinished"></translation>
+        <translation>選取了過多的文字。</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3836"/>
         <source>It is not fully processed.</source>
-        <translation type="unfinished"></translation>
+        <translation>並未處理全部文字。</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3975"/>
@@ -1117,7 +1117,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="4685"/>
         <source>Printing in progress...</source>
-        <translation type="unfinished"></translation>
+        <translation>列印中…</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4736"/>
@@ -1127,7 +1127,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="4742"/>
         <source>Printing completed.</source>
-        <translation type="unfinished"></translation>
+        <translation>列印完成。</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5403"/>
