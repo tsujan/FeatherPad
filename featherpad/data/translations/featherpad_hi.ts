@@ -30,46 +30,47 @@
     <message>
         <location filename="../../fp.ui" line="71"/>
         <source>Go to line:</source>
-        <translation type="unfinished"></translation>
+        <translation>लाइन पर जाएं :</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="107"/>
         <source>Select text from cursor to this line
 (Ctrl+Shift+J)</source>
-        <translation type="unfinished"></translation>
+        <translation>कर्सर से इस लाइन के टेक्स्ट का चयन करें
+(Ctrl+Shift+J)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="111"/>
         <source>Select Text</source>
-        <translation type="unfinished"></translation>
+        <translation>टेक्स्ट का चयन करें</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="114"/>
         <source>Ctrl+Shift+J</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Ctrl+Shift+J</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="149"/>
         <source>&amp;File</source>
-        <translation type="unfinished"></translation>
+        <translation>फ़ाइल (&amp;F)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="189"/>
         <location filename="../../fp.ui" line="980"/>
         <source>&amp;Edit</source>
-        <translation type="unfinished"></translation>
+        <translation>संपादन (&amp;E)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="219"/>
         <source>&amp;Options</source>
-        <translation type="unfinished"></translation>
+        <translation>विकल्प (&amp;O)</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1588"/>
         <location filename="../../fpwin.cpp" line="2899"/>
         <location filename="../../fpwin.cpp" line="4520"/>
         <source>Encoding</source>
-        <translation type="unfinished"></translation>
+        <translation>एनकोडिंग</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="282"/>
