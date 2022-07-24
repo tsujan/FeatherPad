@@ -1450,12 +1450,12 @@ e possono interferire con scorciatoie personalizzate.</translation>
     <message>
         <location filename="../../prefDialog.ui" line="229"/>
         <source>Internal icons are used by default.</source>
-        <translation type="unfinished"></translation>
+        <translation>Le icone interne vengono utilizzate per impostazione predefinita.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="232"/>
         <source>Use system icons where possible</source>
-        <translation type="unfinished"></translation>
+        <translation>Usa icone del sistema dov&apos;è possible</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="239"/>
@@ -1466,7 +1466,7 @@ e possono interferire con scorciatoie personalizzate.</translation>
         <location filename="../../prefDialog.ui" line="246"/>
         <source>By default, each search entry
 has a separate search history.</source>
-        <translation type="unfinished">Predefinito ogni ricerca ha
+        <translation>Per impostazione predefinita ogni ricerca ha
 una propria cronologia di ricerca.</translation>
     </message>
     <message>
