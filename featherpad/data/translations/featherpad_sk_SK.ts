@@ -1352,7 +1352,7 @@
     <message>
         <location filename="../../prefDialog.ui" line="30"/>
         <source>Window</source>
-        <translation></translation>
+        <translation>Okno</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="69"/>
@@ -1753,7 +1753,7 @@ and-drop either.</source>
     <message>
         <location filename="../../prefDialog.ui" line="471"/>
         <source>Text Editor</source>
-        <translation></translation>
+        <translation>Textový Editor</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="487"/>
@@ -2154,7 +2154,7 @@ in the editing mode.</source>
         <location filename="../../searchbar.cpp" line="94"/>
         <location filename="../../searchbar.cpp" line="173"/>
         <source>Search...</source>
-        <translation></translation>
+        <translation>Hľadať...</translation>
     </message>
     <message>
         <location filename="../../searchbar.cpp" line="125"/>
