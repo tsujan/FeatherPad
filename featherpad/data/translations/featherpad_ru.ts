@@ -1424,12 +1424,12 @@ a menu button appears on the toolbar.</source>
     <message>
         <location filename="../../prefDialog.ui" line="229"/>
         <source>Internal icons are used by default.</source>
-        <translation type="unfinished"></translation>
+        <translation>Встроенные значки используются по умолчанию.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="232"/>
         <source>Use system icons where possible</source>
-        <translation type="unfinished"></translation>
+        <translation>По возможности использовать системные значки</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="246"/>
