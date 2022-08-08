@@ -1450,7 +1450,7 @@ and may interfere with customized shortcuts.</source>
     <message>
         <location filename="../../prefDialog.ui" line="232"/>
         <source>Use system icons where possible</source>
-        <translation type="unfinished"></translation>
+        <translation>Använd systemikoner där det är möjligt</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="239"/>
