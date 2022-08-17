@@ -75,48 +75,48 @@
     <message>
         <location filename="../../fp.ui" line="282"/>
         <source>&amp;Search</source>
-        <translation type="unfinished"></translation>
+        <translation>खोजें (&amp;S)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="290"/>
         <location filename="../../fp.ui" line="746"/>
         <source>&amp;Help</source>
-        <translation type="unfinished"></translation>
+        <translation>मदद (&amp;H)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="390"/>
         <source>Find:</source>
-        <translation type="unfinished"></translation>
+        <translation>खोजें :</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="406"/>
         <source>To be replaced</source>
-        <translation type="unfinished"></translation>
+        <translation>बदलना है</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="419"/>
         <source>Replace with:</source>
-        <translation type="unfinished"></translation>
+        <translation>इसके साथ बदलें :</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="435"/>
         <source>Replacing text</source>
-        <translation type="unfinished"></translation>
+        <translation>इस टेक्स्ट को हटा कर</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="494"/>
         <source>&amp;New</source>
-        <translation type="unfinished"></translation>
+        <translation>नया (&amp;N)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="497"/>
         <source>New tab</source>
-        <translation type="unfinished"></translation>
+        <translation>नया टैब</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="500"/>
         <source>Ctrl+N</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Ctrl+N</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="505"/>
