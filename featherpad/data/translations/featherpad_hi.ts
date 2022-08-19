@@ -47,7 +47,7 @@
     <message>
         <location filename="../../fp.ui" line="114"/>
         <source>Ctrl+Shift+J</source>
-        <translation type="unfinished">Ctrl+Shift+J</translation>
+        <translation>Ctrl+Shift+J</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="149"/>
@@ -116,79 +116,79 @@
     <message>
         <location filename="../../fp.ui" line="500"/>
         <source>Ctrl+N</source>
-        <translation type="unfinished">Ctrl+N</translation>
+        <translation>Ctrl+N</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="505"/>
         <source>&amp;Open</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;खोलें</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="508"/>
         <source>Open a file</source>
-        <translation type="unfinished"></translation>
+        <translation>एक फ़ाइल खोलें</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="511"/>
         <source>Ctrl+O</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+O</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="519"/>
         <location filename="../../fpwin.cpp" line="1365"/>
         <source>&amp;Save</source>
-        <translation type="unfinished"></translation>
+        <translation>सहेजें (&amp;S)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="522"/>
         <source>Save the current tab</source>
-        <translation type="unfinished"></translation>
+        <translation>वर्तमान टैब सहेजें</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="525"/>
         <source>Ctrl+S</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+S</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="533"/>
         <source>&amp;Undo</source>
-        <translation type="unfinished"></translation>
+        <translation>पूर्ववत (&amp;U)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="536"/>
         <source>Undo</source>
-        <translation type="unfinished"></translation>
+        <translation>पूर्ववत</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="539"/>
         <source>Ctrl+Z</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Z</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="547"/>
         <source>&amp;Redo</source>
-        <translation type="unfinished"></translation>
+        <translation>दुहराएं (&amp;R)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="550"/>
         <source>Redo</source>
-        <translation type="unfinished"></translation>
+        <translation>दुहराएं</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="553"/>
         <source>Ctrl+Shift+Z</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Shift+Z</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="561"/>
         <location filename="../../fp.ui" line="564"/>
         <source>Reload</source>
-        <translation type="unfinished"></translation>
+        <translation>पुनः लोड करें</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="567"/>
         <source>Ctrl+Shift+R</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Shift+R</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="572"/>
