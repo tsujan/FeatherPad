@@ -1534,7 +1534,7 @@ La navigazione a schede con la rotellina del mouse non è influenzata.</translat
     <message>
         <location filename="../../prefDialog.ui" line="374"/>
         <source>Close window on closing its last tab</source>
-        <translation>Chiudi la finestra alla chiusura dell&amp;#39;ultima scheda</translation>
+        <translation>Chiudi la finestra alla chiusura dell&apos;ultima scheda</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="381"/>
