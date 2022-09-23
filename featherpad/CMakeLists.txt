@@ -20,7 +20,7 @@ find_package(Qt${QT_VERSION_MAJOR} QUIET COMPONENTS LinguistTools)
 
 # OS/2 needs an additional lib and tune the processor
 if(OS2)
-  #add_definitions(-mtune=${CMAKE_SYSTEM_PROCESSOR} -march=${CMAKE_SYSTEM_PROCESSOR})
+  add_definitions(-mtune=pentium4 -march=pentium4)
   set(CMAKE_EXE_LINKER_FLAGS  "${CMAKE_EXE_LINKER_FLAGS} -lcx")
 endif()
 
