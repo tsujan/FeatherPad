@@ -193,87 +193,87 @@
     <message>
         <location filename="../../fp.ui" line="572"/>
         <source>&amp;Find</source>
-        <translation type="unfinished"></translation>
+        <translation>ढूँढें (&amp;F)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="578"/>
         <source>Ctrl+F</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+F</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="586"/>
         <source>Show/hide replacement dock</source>
-        <translation type="unfinished"></translation>
+        <translation>प्रतिस्थापन डॉक दिखाएं/छुपाएं</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="589"/>
         <source>Ctrl+R</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Ctrl+R</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="594"/>
         <source>Save &amp;As</source>
-        <translation type="unfinished"></translation>
+        <translation>इस रूप में सहेजें (&amp;A)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="597"/>
         <source>Ctrl+Shift+S</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Ctrl+Shift+S</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="602"/>
         <source>&amp;Print</source>
-        <translation type="unfinished"></translation>
+        <translation>प्रिंट (&amp;P)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="605"/>
         <source>Ctrl+P</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+P</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="610"/>
         <source>Documen&amp;t Properties</source>
-        <translation type="unfinished"></translation>
+        <translation>डॉक्यूमेंट के गुण</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="613"/>
         <source>Ctrl+Shift+D</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Shift+D</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="618"/>
         <source>&amp;Close</source>
-        <translation type="unfinished"></translation>
+        <translation>बंद करें (&amp;C)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="621"/>
         <source>Ctrl+Shift+Q</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Shift+Q</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="626"/>
         <source>&amp;Quit</source>
-        <translation type="unfinished"></translation>
+        <translation>निकलें (&amp;Q)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="629"/>
         <source>Ctrl+Q</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Q</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="637"/>
         <source>&amp;Cut</source>
-        <translation type="unfinished"></translation>
+        <translation>काटें (&amp;C)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="640"/>
         <source>Ctrl+X</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+X</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="648"/>
         <source>C&amp;opy</source>
-        <translation type="unfinished"></translation>
+        <translation>कॉपी करें (&amp;o)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="651"/>
