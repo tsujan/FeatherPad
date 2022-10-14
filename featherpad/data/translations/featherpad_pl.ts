@@ -1165,7 +1165,7 @@
         <location filename="../../fpwin.cpp" line="5760"/>
         <location filename="../../fpwin.cpp" line="5770"/>
         <source>See Preferences → Text → Spell Checking!</source>
-        <translation>Patrz: Preferencje → Tekst → Sprawdzanie pisowni</translation>
+        <translation>Patrz: Preferencje → Tekst → Sprawdzanie pisowni!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5759"/>
@@ -1440,22 +1440,23 @@ przycisk menu pojawi się na pasku narzędzi.</translation>
         <location filename="../../prefDialog.ui" line="218"/>
         <source>Menubar accelerators are activated by Alt
 and may interfere with customized shortcuts.</source>
-        <translation type="unfinished"></translation>
+        <translation>Akceleratory paska menu są aktywowane przez klawisz Alt
+i mogą pokrywać się z niestandardowymi skrótami.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="222"/>
         <source>Disable menubar accelerators</source>
-        <translation type="unfinished"></translation>
+        <translation>Wyłącz akceleratory paska menu</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="229"/>
         <source>Internal icons are used by default.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ikony wewnętrzne są domyślnie używane.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="232"/>
         <source>Use system icons where possible</source>
-        <translation type="unfinished"></translation>
+        <translation>W miarę możliwości używaj ikon systemowych</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="239"/>
@@ -1471,7 +1472,7 @@ has a separate search history.</source>
     <message>
         <location filename="../../prefDialog.ui" line="250"/>
         <source>Use a shared search history</source>
-        <translation type="unfinished"></translation>
+        <translation>Użyj współdzielonej historii wyszukiwania</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="257"/>
@@ -1543,7 +1544,11 @@ current desktop, files will be opened in its tabs.
 
 However, some desktop environments may not
 report that they have multiple desktops.</source>
-        <translation></translation>
+        <translation>Domyślnie, jeśli na bieżącym pulpicie istnieje
+okno Featherpad, pliki zostaną otwarte w kartach.
+
+Jednak niektóre środowiska graficzne mogą nie
+zgłaszać, że mają wiele pulpitów.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="388"/>
@@ -1921,7 +1926,7 @@ if the cursor is inside the text view?</source>
     <message>
         <location filename="../../prefDialog.ui" line="891"/>
         <source>Spell Checking</source>
-        <translation type="unfinished">Sprawdzanie pisowni</translation>
+        <translation>Sprawdzanie pisowni</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="899"/>
@@ -2411,7 +2416,7 @@ oknach zostaną uwzględnione w zapisanej sesji.</translation>
     <message>
         <location filename="../../spellDialog.ui" line="62"/>
         <source>Replace with:</source>
-        <translation type="unfinished">Zastąp na:</translation>
+        <translation>Zastąp na:</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="129"/>
@@ -2431,7 +2436,7 @@ oknach zostaną uwzględnione w zapisanej sesji.</translation>
     <message>
         <location filename="../../spellDialog.ui" line="100"/>
         <source>Ignore All</source>
-        <translation type="unfinished"></translation>
+        <translation>Ignoruj wszystkie</translation>
     </message>
 </context>
 <context>
