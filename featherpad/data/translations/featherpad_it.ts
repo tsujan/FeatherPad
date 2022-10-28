@@ -1561,7 +1561,7 @@ di avere più desktop.</translation>
 desktop environment will be used instead of the Qt file dialog.
 
 Some desktop environments, like KDE and LXQt, provide files dialogs.</source>
-        <translation>Se  selezionata, verrà utilizzata la finestra di dialogo dei file fornita
+        <translation>Se selezionata, verrà utilizzata la finestra di dialogo dei file fornita
 dall&amp;#39;ambiente desktop corrente al posto della finestra di dialogo
 del file Qt.
 
@@ -1585,7 +1585,7 @@ Alcuni ambienti desktop, come KDE e LXQt, forniscono finestre di dialogo dei fil
     <message>
         <location filename="../../prefDialog.ui" line="501"/>
         <source>This covers parentheses, braces, brackets and quotes.</source>
-        <translation>Questo copre parentesi, parentesi graffe e virgolette.</translation>
+        <translation>Questo copre parentesi tonde, quadre, graffe e virgolette.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="504"/>
