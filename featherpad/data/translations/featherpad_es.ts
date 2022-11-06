@@ -464,7 +464,7 @@
         <location filename="../../fp.ui" line="1135"/>
         <location filename="../../fp.ui" line="1138"/>
         <source>To Upper Case</source>
-        <translation>Cambiar a mayúsculas</translation>
+        <translation>A mayúsculas</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1141"/>
@@ -475,7 +475,7 @@
         <location filename="../../fp.ui" line="1146"/>
         <location filename="../../fp.ui" line="1149"/>
         <source>To Lower Case</source>
-        <translation>Cambiar a minúsculas</translation>
+        <translation>A minúsculas</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1152"/>
@@ -486,7 +486,7 @@
         <location filename="../../fp.ui" line="1157"/>
         <location filename="../../fp.ui" line="1160"/>
         <source>To Start Case</source>
-        <translation>Mayúsculas iniciales anglosajonas</translation>
+        <translation>A inicial mayúscula</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1168"/>
@@ -536,7 +536,7 @@
     <message>
         <location filename="../../fp.ui" line="1219"/>
         <source>Text Tabs to Spaces</source>
-        <translation>Tabulaciones de texto a espacios</translation>
+        <translation>Tabulaciones a espacios</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="994"/>
@@ -1080,7 +1080,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="3734"/>
         <source>Text tabs are converted to spaces.</source>
-        <translation>Los tabuladores en el texto se convierten en espacios.</translation>
+        <translation>Las tabulaciones se convierten en espacios.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3836"/>
@@ -1451,12 +1451,12 @@ mas podrían interferir con atajos de teclado personalizados.</translation>
     <message>
         <location filename="../../prefDialog.ui" line="229"/>
         <source>Internal icons are used by default.</source>
-        <translation type="unfinished"></translation>
+        <translation>Por defecto se usan los iconos internos.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="232"/>
         <source>Use system icons where possible</source>
-        <translation type="unfinished"></translation>
+        <translation>Usar los iconos del sistema siempre que sea posible</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="239"/>
@@ -2082,7 +2082,7 @@ se abrirán si se pegan dentro de FeatherPad.</translation>
     <message>
         <location filename="../../prefDialog.ui" line="1346"/>
         <source>Whitespace color value:</source>
-        <translation>Valor de color de espacio en blanco:</translation>
+        <translation>Valor del color del espacio en blanco:</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1379"/>
@@ -2093,7 +2093,7 @@ se abrirán si se pegan dentro de FeatherPad.</translation>
     <message>
         <location filename="../../prefDialog.ui" line="1382"/>
         <source>Current line highlight value:</source>
-        <translation>Valor de enfoque de la línea actual:</translation>
+        <translation>Valor del resaltado de la línea actual:</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1437"/>

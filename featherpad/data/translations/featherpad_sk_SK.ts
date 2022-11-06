@@ -212,7 +212,7 @@
     <message>
         <location filename="../../fp.ui" line="594"/>
         <source>Save &amp;As</source>
-        <translation>&amp;Uložiť ako</translation>
+        <translation>Uložiť &amp;ako</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="597"/>
@@ -292,12 +292,12 @@
     <message>
         <location filename="../../fp.ui" line="667"/>
         <source>&amp;Delete</source>
-        <translation>&amp;Vymazať</translation>
+        <translation>V&amp;ymazať</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="672"/>
         <source>&amp;Select All</source>
-        <translation>&amp;Vybrať všetko</translation>
+        <translation>Vy&amp;brať všetko</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="675"/>
@@ -377,7 +377,7 @@
     <message>
         <location filename="../../fp.ui" line="964"/>
         <source>Save with &amp;Encoding</source>
-        <translation>&amp;Uložiť s kódovaním</translation>
+        <translation>Uložiť s &amp;kódovaním</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="969"/>
@@ -560,12 +560,12 @@
     <message>
         <location filename="../../fp.ui" line="1043"/>
         <source>Ne&amp;xt Tab</source>
-        <translation></translation>
+        <translation>Ď&amp;alšia karta</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1054"/>
         <source>Previous Ta&amp;b</source>
-        <translation>&amp;Predošlá karta</translation>
+        <translation>P&amp;redošlá karta</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1092"/>
@@ -580,7 +580,7 @@
     <message>
         <location filename="../../fp.ui" line="153"/>
         <source>Recently &amp;Modified</source>
-        <translation>&amp;Nedávno upravené</translation>
+        <translation>Nedávno &amp;upravené</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="223"/>
@@ -753,7 +753,7 @@
     <message>
         <location filename="../../fp.ui" line="1065"/>
         <source>&amp;First Tab</source>
-        <translation>&amp;Prvá karta</translation>
+        <translation>Prvá &amp;karta</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1068"/>
@@ -763,7 +763,7 @@
     <message>
         <location filename="../../fp.ui" line="1076"/>
         <source>&amp;Last Tab</source>
-        <translation>&amp;Posledná karta</translation>
+        <translation>Po&amp;sledná karta</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1079"/>
@@ -1362,7 +1362,7 @@
     <message>
         <location filename="../../prefDialog.ui" line="75"/>
         <source>Remember window &amp;size on closing</source>
-        <translation></translation>
+        <translation>Zapamätať si &amp;veľkosť okna pri zatváraní</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="84"/>
@@ -1397,7 +1397,7 @@ and may not work with some window managers.</source>
     <message>
         <location filename="../../prefDialog.ui" line="152"/>
         <source>Remember window &amp;position on closing</source>
-        <translation></translation>
+        <translation>Zapamätať si &amp;pozíciu okna pri zatváraní</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="159"/>
@@ -1487,7 +1487,7 @@ has a separate search history.</source>
     <message>
         <location filename="../../prefDialog.ui" line="296"/>
         <source>Tab position: </source>
-        <translation></translation>
+        <translation>Smer kariet: </translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="307"/>
