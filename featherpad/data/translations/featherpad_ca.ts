@@ -1458,12 +1458,12 @@ i pot interferir amb les dreceres personalitzades.</translation>
     <message>
         <location filename="../../prefDialog.ui" line="229"/>
         <source>Internal icons are used by default.</source>
-        <translation type="unfinished"></translation>
+        <translation>Es fan servir les icones de l&apos;aplicació per defecte.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="232"/>
         <source>Use system icons where possible</source>
-        <translation type="unfinished"></translation>
+        <translation>Fes servir icones del sistema on sigui possible</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="239"/>
