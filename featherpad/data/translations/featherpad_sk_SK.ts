@@ -322,7 +322,7 @@
     <message>
         <location filename="../../fp.ui" line="702"/>
         <source>&amp;Wrap Lines</source>
-        <translation></translation>
+        <translation>&amp;Zalomiť riadky</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="705"/>
@@ -979,7 +979,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="2809"/>
         <source>All Files (*);;.%1 Files (*.%1)</source>
-        <translation>Všetky súbory (*);;.%1 Súbory  (*.%1)</translation>
+        <translation>Všetky súbory (*);;.%1 Súbory (*.%1)</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2813"/>
@@ -1187,7 +1187,7 @@
         <location filename="../../fpwin.cpp" line="5812"/>
         <location filename="../../fpwin.cpp" line="5827"/>
         <source>No misspelling from text cursor.</source>
-        <translation>Žiaden preklep od  textového kurzoru.</translation>
+        <translation>Žiaden preklep od textového kurzoru.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5843"/>
@@ -1306,12 +1306,12 @@
     <message>
         <location filename="../../fontDialog.ui" line="103"/>
         <source>Normal</source>
-        <translation type="unfinished"></translation>
+        <translation>Normálne</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="108"/>
         <source>Medium</source>
-        <translation type="unfinished"></translation>
+        <translation>Stredné</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="113"/>
@@ -1326,7 +1326,7 @@
     <message>
         <location filename="../../fontDialog.ui" line="126"/>
         <source>Italic</source>
-        <translation type="unfinished"></translation>
+        <translation>Kurzíva</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="149"/>
@@ -1710,12 +1710,12 @@ will be shown by a popup dialog.</source>
     <message>
         <location filename="../../prefDialog.ui" line="1054"/>
         <source>Show recentl&amp;y modified files</source>
-        <translation></translation>
+        <translation>Zobraziť nedávn&amp;o upravené súbory</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1084"/>
         <source>Show recentl&amp;y opened files</source>
-        <translation></translation>
+        <translation>Zobraziť nedávn&amp;o otvorené súbory</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1183"/>
@@ -1768,7 +1768,7 @@ and-drop either.</source>
     <message>
         <location filename="../../prefDialog.ui" line="523"/>
         <source>Always show line &amp;numbers</source>
-        <translation></translation>
+        <translation>&amp;Vždy zobrazovať číslo riadku</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="541"/>
@@ -1905,7 +1905,7 @@ will be started from the document start.</source>
     <message>
         <location filename="../../prefDialog.ui" line="994"/>
         <source>Number of recent files: </source>
-        <translation></translation>
+        <translation>Počet nedávnych súborov: </translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1093"/>
