@@ -1439,18 +1439,18 @@ vises en menuknap på værktøjslinjen.</translation>
         <location filename="../../prefDialog.ui" line="218"/>
         <source>Menubar accelerators are activated by Alt
 and may interfere with customized shortcuts.</source>
-        <translation>Menu linjens acceleratorer aktiveres med  Alt
+        <translation>Menubar acceleratorer aktiveres med Alt knappen
 og kan forstyrre tilpassede genveje</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="222"/>
         <source>Disable menubar accelerators</source>
-        <translation type="unfinished"></translation>
+        <translation>Deaktiver menulinje acceleratorer</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="229"/>
         <source>Internal icons are used by default.</source>
-        <translation type="unfinished"></translation>
+        <translation>Interne ikoner bruges som standard.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="232"/>
