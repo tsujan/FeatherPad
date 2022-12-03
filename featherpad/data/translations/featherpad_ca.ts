@@ -353,7 +353,7 @@
     <message>
         <location filename="../../fp.ui" line="738"/>
         <source>&amp;Preferences</source>
-        <translation>&amp;Preferències</translation>
+        <translation>&amp;Paràmetres</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="741"/>
@@ -509,12 +509,12 @@
         <location filename="../../fp.ui" line="1187"/>
         <location filename="../../fp.ui" line="1190"/>
         <source>Sort Lines Reversely</source>
-        <translation>Ordena línies inversa</translation>
+        <translation>Ordena les línies inversament</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1195"/>
         <source>Check Spelling</source>
-        <translation>Comprovació de l&apos;ortografia</translation>
+        <translation>Comprova l&apos;ortografia</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1198"/>
@@ -551,7 +551,7 @@
     <message>
         <location filename="../../fp.ui" line="1010"/>
         <source>Close Ne&amp;xt Tabs</source>
-        <translation>Tanca la pestanya següent</translation>
+        <translation>Tanca les pestanya següents</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1015"/>
@@ -581,7 +581,7 @@
     <message>
         <location filename="../../fp.ui" line="153"/>
         <source>Recently &amp;Modified</source>
-        <translation>Modificats &amp;Recents</translation>
+        <translation>Modificats &amp;Recentment</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="223"/>
@@ -606,7 +606,7 @@
     <message>
         <location filename="../../fp.ui" line="250"/>
         <source>Ea&amp;st Asian</source>
-        <translation>Asiátic oriental</translation>
+        <translation>Asiàtic oriental</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="342"/>
@@ -629,7 +629,7 @@
     <message>
         <location filename="../../fp.ui" line="765"/>
         <source>Windows Arabic (&amp;CP1256)</source>
-        <translation>Arábic de Windows (&amp;CP1256)</translation>
+        <translation>Aràbic de Windows (&amp;CP1256)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="773"/>
@@ -659,17 +659,17 @@
     <message>
         <location filename="../../fp.ui" line="836"/>
         <source>&amp;Cyrillic (CP1251)</source>
-        <translation>&amp;Cirílic (CP1251)</translation>
+        <translation>&amp;Ciríl·lic (CP1251)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="847"/>
         <source>Cyrillic (&amp;KOI8-U)</source>
-        <translation>Cirílic (&amp;KOI8-U)</translation>
+        <translation>Ciríl·lic (&amp;KOI8-U)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="858"/>
         <source>Cyrillic (&amp;ISO-8859-5)</source>
-        <translation>Cirílic (&amp;ISO-8859-5)</translation>
+        <translation>Ciríl·lic (&amp;ISO-8859-5)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="869"/>
@@ -754,12 +754,12 @@
     <message>
         <location filename="../../fp.ui" line="1065"/>
         <source>&amp;First Tab</source>
-        <translation>&amp;Primera pestaña</translation>
+        <translation>&amp;Primera pestanya</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1068"/>
         <source>Alt+Down</source>
-        <translation>Alt+Avall</translation>
+        <translation>Alt+Fletxa avall</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1076"/>
@@ -769,7 +769,7 @@
     <message>
         <location filename="../../fp.ui" line="1079"/>
         <source>Alt+Up</source>
-        <translation>Alt+Amunt</translation>
+        <translation>Alt+Fletxa amunt</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1084"/>
@@ -781,7 +781,7 @@
         <source>Calculate number of words
 (For huge texts, this may be CPU-intensive.)</source>
         <translation>Calcular el número de paraules
-(Per a texts enormes pot necessitar ús intensiu en CPU.)</translation>
+(Per a textos enormes, això pot ser intensiu en la CPU.)</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="117"/>
@@ -801,7 +801,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="643"/>
         <source>&amp;Recently Opened</source>
-        <translation>&amp;Oberts recents</translation>
+        <translation>&amp;Oberts recentment</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2025"/>
@@ -811,17 +811,17 @@
     <message>
         <location filename="../../fpwin.cpp" line="1349"/>
         <source>Save changes?</source>
-        <translation>Desa els canvis?</translation>
+        <translation>Voleu desar els canvis?</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1001"/>
         <source>Please attend to that window or just close its dialog!</source>
-        <translation>Assistiu a aquesta finestra o tanqueu el diàleg!</translation>
+        <translation>Ateniu-vos a aquesta finestra o tanqueu el diàleg!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1353"/>
         <source>The document has been modified.</source>
-        <translation>El document ha esta modificat.</translation>
+        <translation>S&apos;ha modificat el document.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1364"/>
@@ -874,7 +874,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="1918"/>
         <source>Another process is running in this tab!</source>
-        <translation>Hi ha un altre procés executant en aquesta pestanya!</translation>
+        <translation>S&apos;està executant un altre procés en aquesta pestanya!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2016"/>
@@ -884,7 +884,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="1000"/>
         <source>Another FeatherPad window has a modal dialog!</source>
-        <translation>Una altra finestra del FeatherPad té un diàleg modal obert!</translation>
+        <translation>Una altra finestra de FeatherPad té un diàleg modal!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="837"/>
@@ -939,7 +939,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="2646"/>
         <source>Non-text file(s) not opened!</source>
-        <translation>No s&apos;obren els fitxers que no són de text!</translation>
+        <translation>Els fitxers que no són de text no s&apos;obren!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2647"/>
@@ -1004,13 +1004,13 @@
     <message>
         <location filename="../../fpwin.cpp" line="3124"/>
         <source>Keep encoding and save as...</source>
-        <translation>Conserva la codificació i desa com a...</translation>
+        <translation>Mantén la codificació i desa com a...</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3459"/>
         <source>Saving as root.</source>
         <translatorcomment>Desa com root. ?</translatorcomment>
-        <translation>Desant com a root.</translation>
+        <translation>Desa com a root.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3460"/>
@@ -1078,7 +1078,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="2637"/>
         <source>Huge file(s) not opened!</source>
-        <translation>No s&apos;ha obert el(s) fitxer(s) enorme(s)!</translation>
+        <translation>No s&apos;ha(n) obert un(s) fitxer(s) enorme(s)!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3734"/>
@@ -1099,7 +1099,7 @@
         <location filename="../../fpwin.cpp" line="3996"/>
         <location filename="../../fpwin.cpp" line="4229"/>
         <source>This file has been modified elsewhere or in another way!</source>
-        <translation>Aquest fitxer s&apos;ha modificat en un altre lloc o d&apos;una altra manera!</translation>
+        <translation>Aquest fitxer s&apos;ha modificat en un altre lloc o d&apos;una altra forma!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3997"/>
@@ -1110,12 +1110,12 @@
     <message>
         <location filename="../../fpwin.cpp" line="4705"/>
         <source>Printing in progress...</source>
-        <translation>Impresió en curs...</translation>
+        <translation>Impressió en curs...</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4756"/>
         <source>Print Document</source>
-        <translation>Imprimieix el document</translation>
+        <translation>Imprimeix el document</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4762"/>
@@ -1168,7 +1168,7 @@
         <location filename="../../fpwin.cpp" line="5759"/>
         <location filename="../../fpwin.cpp" line="5769"/>
         <source>See Preferences → Text → Spell Checking!</source>
-        <translation>Veugeu Preferències → Text → Comprovació ortogràfica!</translation>
+        <translation>Vegeu Preferències → Text → Comprovació ortogràfica!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5758"/>
@@ -1186,14 +1186,14 @@
         <location filename="../../fpwin.cpp" line="5809"/>
         <location filename="../../fpwin.cpp" line="5824"/>
         <source>No misspelling in document.</source>
-        <translation>No hi ha errors d&apos;ortografia al document.</translation>
+        <translation>No hi ha errors ortogràfics en el document.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5793"/>
         <location filename="../../fpwin.cpp" line="5811"/>
         <location filename="../../fpwin.cpp" line="5826"/>
         <source>No misspelling from text cursor.</source>
-        <translation>No hi ha errors d&apos;ortografia en el text seleccciónat.</translation>
+        <translation>No hi ha errors ortogràfics en el text seleccionat.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5842"/>
@@ -1414,12 +1414,12 @@ and may not work with some window managers.</source>
         <source>Most suitable with sessions
 but without tab functionality.</source>
         <translation>Més adequat per sessions
-però sense funcionalitat de pestanya.</translation>
+sense funcionalitat de pestanya.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="188"/>
         <source>Uncheck for 1/5 of the width.</source>
-        <translation>Desmarqueu per a 1/5 de l&apos;amplada.</translation>
+        <translation>Desmarca per 1/5 de l&apos;amplada.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="191"/>
@@ -1429,7 +1429,7 @@ però sense funcionalitat de pestanya.</translation>
     <message>
         <location filename="../../prefDialog.ui" line="200"/>
         <source>Do not show &amp;toolbar</source>
-        <translation>&amp;No mostra la barra d&apos;eines</translation>
+        <translation>&amp;Oculta la barra d&apos;eines</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="207"/>
@@ -1458,7 +1458,7 @@ i pot interferir amb les dreceres personalitzades.</translation>
     <message>
         <location filename="../../prefDialog.ui" line="229"/>
         <source>Internal icons are used by default.</source>
-        <translation>Es fan servir les icones de l&apos;aplicació per defecte.</translation>
+        <translation>Per defecte s&apos;utilitzen icones internes.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="232"/>
@@ -1480,7 +1480,7 @@ té un historial de cerca separat.</translation>
     <message>
         <location filename="../../prefDialog.ui" line="250"/>
         <source>Use a shared search history</source>
-        <translation>Utilitza un historial de cerca comparti</translation>
+        <translation>Utilitza un historial de cerca compartit</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="257"/>
@@ -1536,7 +1536,7 @@ i el mateix per Alt+Esquerra.</translation>
     <message>
         <location filename="../../prefDialog.ui" line="354"/>
         <source>Tab navigation wraps &amp;around</source>
-        <translation>Ajusta la navegació al vontant de les &amp;pestanyes</translation>
+        <translation>Ajusta la navegació al voltant de les &amp;pestanyes</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="374"/>
@@ -1565,10 +1565,10 @@ Tanmateix, alguns entorns d&apos;escriptori poden no informar que hi ha múltipl
 desktop environment will be used instead of the Qt file dialog.
 
 Some desktop environments, like KDE and LXQt, provide files dialogs.</source>
-        <translation>Si habiliteu aquesta opció s&apos;usarà la finestra proporcionada nativamen
- per l&apos; entorn d&apos; escriptori actual en lloc del proporcionat per Qt. 
+        <translation>Si habiliteu aquesta opció s&apos;usarà la finestra proporcionada nativament
+ per l&apos; entorn d&apos;escriptori actual en lloc del proporcionat per Qt. 
 
-Aquesta opció existeix perquè alguns entorns d&apos; escriptori, 
+Aquesta opció existeix perquè alguns entorns d&apos;escriptori, 
 com ara KDE i LXQt, poden oferir les seves pròpies finestres.</translation>
     </message>
     <message>
@@ -1579,7 +1579,7 @@ com ara KDE i LXQt, poden oferir les seves pròpies finestres.</translation>
     <message>
         <location filename="../../prefDialog.ui" line="477"/>
         <source>Uncheck for Monospace.</source>
-        <translation>Desmarca per a lletra Monospace.</translation>
+        <translation type="unfinished">Desmarca per a lletra Monospace.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="480"/>
@@ -1601,9 +1601,9 @@ com ara KDE i LXQt, poden oferir les seves pròpies finestres.</translation>
         <source>By default, a triple period is replaced with an ellipsis
 and a double hyphen with a long dash while typing,
 under proper circumstances.</source>
-        <translation>Per defecte, un periode de tres punts continus seran
+        <translation>Per defecte, un període de tres punts continus seran
 substituïts per punts suspensius i un guió doble per
-un guió llarg mentre escriu, en les circumstàncies adequades.</translation>
+un guió llarg mentre escriu, sota circumstàncies adequades.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="516"/>
@@ -1637,7 +1637,7 @@ barra d&apos;estat per canviar la sintaxi.</translation>
     <message>
         <location filename="../../prefDialog.ui" line="570"/>
         <source>Support syntax override</source>
-        <translation>Suporta la substitució de la sintaxi</translation>
+        <translation>Permet la sobreescriptura de sintaxi</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="635"/>

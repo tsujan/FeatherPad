@@ -912,7 +912,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="1733"/>
         <source>Copy Link</source>
-        <translation type="unfinished"></translation>
+        <translation>Skopírovať link</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1919"/>
@@ -1418,7 +1418,7 @@ but without tab functionality.</source>
     <message>
         <location filename="../../prefDialog.ui" line="200"/>
         <source>Do not show &amp;toolbar</source>
-        <translation></translation>
+        <translation>Nezobrazovať panel &amp;nástrojov</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="207"/>
@@ -1429,7 +1429,7 @@ a menu button appears on the toolbar.</source>
     <message>
         <location filename="../../prefDialog.ui" line="211"/>
         <source>Do not show &amp;menubar</source>
-        <translation></translation>
+        <translation>Nezobrazovať panel p&amp;onúk</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="218"/>
@@ -1440,7 +1440,7 @@ and may interfere with customized shortcuts.</source>
     <message>
         <location filename="../../prefDialog.ui" line="222"/>
         <source>Disable menubar accelerators</source>
-        <translation type="unfinished"></translation>
+        <translation>Vypnúť akcelerátory panela ponúk</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="229"/>
@@ -1455,7 +1455,7 @@ and may interfere with customized shortcuts.</source>
     <message>
         <location filename="../../prefDialog.ui" line="239"/>
         <source>Hide search &amp;bar by default</source>
-        <translation></translation>
+        <translation>Predvolene skryť panel &amp;vyhľadavánia</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="246"/>
@@ -1466,7 +1466,7 @@ has a separate search history.</source>
     <message>
         <location filename="../../prefDialog.ui" line="250"/>
         <source>Use a shared search history</source>
-        <translation type="unfinished"></translation>
+        <translation>Používať zdielanú históriu vyhľadávania</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="257"/>
@@ -2164,12 +2164,12 @@ in the editing mode.</source>
     <message>
         <location filename="../../searchbar.cpp" line="132"/>
         <source>Whole Word</source>
-        <translation></translation>
+        <translation>Celé slovo</translation>
     </message>
     <message>
         <location filename="../../searchbar.cpp" line="139"/>
         <source>Regular Expression</source>
-        <translation></translation>
+        <translation>Regulárny výraz</translation>
     </message>
     <message>
         <location filename="../../searchbar.cpp" line="171"/>
