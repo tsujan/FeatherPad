@@ -971,7 +971,7 @@
         <location filename="../../fpwin.cpp" line="2732"/>
         <source>Root Instance</source>
         <translatorcomment>Instància.root ?</translatorcomment>
-        <translation>Instància arrel</translation>
+        <translation>Instància arrel (root)</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2804"/>
@@ -1010,7 +1010,7 @@
         <location filename="../../fpwin.cpp" line="3459"/>
         <source>Saving as root.</source>
         <translatorcomment>Desa com root. ?</translatorcomment>
-        <translation>Desa com a root.</translation>
+        <translation>Desant com a arrel (root).</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3460"/>
@@ -1579,7 +1579,7 @@ com ara KDE i LXQt, poden oferir les seves pròpies finestres.</translation>
     <message>
         <location filename="../../prefDialog.ui" line="477"/>
         <source>Uncheck for Monospace.</source>
-        <translation type="unfinished">Desmarca per a lletra Monospace.</translation>
+        <translation>Desmarca per a font Monoespai.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="480"/>
