@@ -252,7 +252,7 @@
     <message>
         <location filename="../../fp.ui" line="626"/>
         <source>&amp;Quit</source>
-        <translation>&amp;Ukončiť</translation>
+        <translation>Ukonč&amp;iť</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="629"/>
@@ -332,7 +332,7 @@
     <message>
         <location filename="../../fp.ui" line="716"/>
         <source>&amp;Auto-Indentation</source>
-        <translation></translation>
+        <translation>&amp;Automatické odsadenie</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="719"/>
@@ -491,7 +491,7 @@
         <location filename="../../fp.ui" line="1168"/>
         <location filename="../../fp.ui" line="1171"/>
         <source>Last Active Tab</source>
-        <translation></translation>
+        <translation>Minulá aktívna karta</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1174"/>
@@ -540,7 +540,7 @@
     <message>
         <location filename="../../fp.ui" line="994"/>
         <source>&amp;Detach Tab</source>
-        <translation></translation>
+        <translation>O&amp;dpojiť kartu</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="997"/>
@@ -560,12 +560,12 @@
     <message>
         <location filename="../../fp.ui" line="1043"/>
         <source>Ne&amp;xt Tab</source>
-        <translation>Ď&amp;alšia karta</translation>
+        <translation>Ďa&amp;lšia karta</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1054"/>
         <source>Previous Ta&amp;b</source>
-        <translation>P&amp;redošlá karta</translation>
+        <translation>&amp;Predošlá karta</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1092"/>
@@ -580,7 +580,7 @@
     <message>
         <location filename="../../fp.ui" line="153"/>
         <source>Recently &amp;Modified</source>
-        <translation>Nedávno &amp;upravené</translation>
+        <translation>N&amp;edávno upravené</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="223"/>
@@ -753,7 +753,7 @@
     <message>
         <location filename="../../fp.ui" line="1065"/>
         <source>&amp;First Tab</source>
-        <translation>Prvá &amp;karta</translation>
+        <translation>P&amp;rvá karta</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1068"/>
@@ -1244,9 +1244,9 @@
         <location filename="../../replace.cpp" line="246"/>
         <source>%Ln Replacements</source>
         <translation>
-            <numerusform></numerusform>
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+            <numerusform>%Ln Nahradenie</numerusform>
+            <numerusform>%Ln Nahradenia</numerusform>
+            <numerusform>%Ln Nahradení</numerusform>
         </translation>
     </message>
     <message>
@@ -1301,7 +1301,7 @@
     <message>
         <location filename="../../fontDialog.ui" line="89"/>
         <source>Weight:</source>
-        <translation type="unfinished"></translation>
+        <translation>Hrubosť:</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="103"/>
