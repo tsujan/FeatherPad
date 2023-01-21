@@ -508,7 +508,7 @@
         <location filename="../../fp.ui" line="1190"/>
         <location filename="../../fp.ui" line="1193"/>
         <source>Sort Lines Reversely</source>
-        <translation></translation>
+        <translation>Triediť riadky opačne</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1198"/>
@@ -633,7 +633,7 @@
     <message>
         <location filename="../../fp.ui" line="776"/>
         <source>&amp;Other</source>
-        <translation></translation>
+        <translation>&amp;Ostatné</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="795"/>
