@@ -1612,7 +1612,7 @@ of the selected text.</source>
     <message>
         <location filename="../../prefDialog.ui" line="534"/>
         <source>Selection highlighting</source>
-        <translation type="unfinished"></translation>
+        <translation>Wyróżnianie zaznaczenia</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="597"/>
@@ -1939,13 +1939,13 @@ name but ending with &quot;.aff&quot;.</source>
     <message>
         <location filename="../../prefDialog.ui" line="904"/>
         <source>Hunspell dictionary path:</source>
-        <translation type="unfinished"></translation>
+        <translation>Ścieżka słownika Hunspell:</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="923"/>
         <location filename="../../pref.cpp" line="1664"/>
         <source>Add dictionary...</source>
-        <translation type="unfinished"></translation>
+        <translation>Dodaj katalog...</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="935"/>
@@ -2018,7 +2018,7 @@ be opened if they are pasted into FeatherPad.</source>
     <message>
         <location filename="../../prefDialog.ui" line="1253"/>
         <source>Paste paths instead of files</source>
-        <translation type="unfinished"></translation>
+        <translation>Wklej ścieżkę zamiast pliku</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1280"/>
@@ -2055,12 +2055,12 @@ be opened if they are pasted into FeatherPad.</source>
     <message>
         <location filename="../../prefDialog.ui" line="1424"/>
         <source>Element</source>
-        <translation type="unfinished"></translation>
+        <translation>Element</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1429"/>
         <source>Text Color</source>
-        <translation type="unfinished"></translation>
+        <translation>Kolor tekstu</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1346"/>
@@ -2076,7 +2076,7 @@ be opened if they are pasted into FeatherPad.</source>
     <message>
         <location filename="../../prefDialog.ui" line="1382"/>
         <source>Current line highlight value:</source>
-        <translation type="unfinished"></translation>
+        <translation>Wartość wyróżnienia bieżącej linii:</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1437"/>
@@ -2097,7 +2097,7 @@ in the editing mode.</source>
     <message>
         <location filename="../../pref.cpp" line="110"/>
         <source>Double click a color to change it.</source>
-        <translation type="unfinished"></translation>
+        <translation>Kliknij podwójnie na kolor, aby go zmienić.</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="311"/>
@@ -2120,17 +2120,17 @@ in the editing mode.</source>
     <message>
         <location filename="../../pref.cpp" line="397"/>
         <source>Functions, URLs,…</source>
-        <translation type="unfinished"></translation>
+        <translation>Funkcje, adresy URL itd…</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="398"/>
         <source>Built-in Functions</source>
-        <translation type="unfinished"></translation>
+        <translation>Wbudowane funkcje</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="399"/>
         <source>Comments</source>
-        <translation type="unfinished"></translation>
+        <translation>Komentarze</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="400"/>
@@ -2140,17 +2140,17 @@ in the editing mode.</source>
     <message>
         <location filename="../../pref.cpp" line="401"/>
         <source>Types</source>
-        <translation type="unfinished"></translation>
+        <translation>Rodzaje</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="402"/>
         <source>Key Words</source>
-        <translation type="unfinished"></translation>
+        <translation>Słowa kluczowe</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="403"/>
         <source>Numbers</source>
-        <translation type="unfinished"></translation>
+        <translation>Numery</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="404"/>
@@ -2170,7 +2170,7 @@ in the editing mode.</source>
     <message>
         <location filename="../../pref.cpp" line="407"/>
         <source>Extra Elements</source>
-        <translation type="unfinished"></translation>
+        <translation>Dodatkowe elementy</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="568"/>
@@ -2200,7 +2200,7 @@ in the editing mode.</source>
     <message>
         <location filename="../../pref.cpp" line="1666"/>
         <source>Hunspell Dictionary Files (*.dic)</source>
-        <translation type="unfinished"></translation>
+        <translation>Pliki słownika Hunspell (*.dic)</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="458"/>
@@ -2406,12 +2406,12 @@ oknach zostaną uwzględnione w zapisanej sesji.</translation>
     <message>
         <location filename="../../spellDialog.ui" line="25"/>
         <source>Unknown word:</source>
-        <translation type="unfinished"></translation>
+        <translation>Nieznane słowo:</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="51"/>
         <source>Add To Dictionary</source>
-        <translation type="unfinished"></translation>
+        <translation>Dodaj do katalogu</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="62"/>
@@ -2426,7 +2426,7 @@ oknach zostaną uwzględnione w zapisanej sesji.</translation>
     <message>
         <location filename="../../spellDialog.ui" line="142"/>
         <source>Correct All</source>
-        <translation type="unfinished"></translation>
+        <translation>Popraw wszystko</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="87"/>

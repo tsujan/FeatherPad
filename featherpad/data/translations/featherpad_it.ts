@@ -981,7 +981,7 @@ linea (Ctrl + Shift + J)</translation>
     <message>
         <location filename="../../fpwin.cpp" line="2837"/>
         <source>All Files (*);;.%1 Files (*.%1)</source>
-        <translation>Tutti i file (*) ;;.% 1 file (*.% 1)</translation>
+        <translation>Tutti i file (*) ;;File .%1 (*.%1)</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2841"/>
@@ -991,7 +991,7 @@ linea (Ctrl + Shift + J)</translation>
     <message>
         <location filename="../../fpwin.cpp" line="3027"/>
         <source>.%1 Files (*.%1);;All Files (*)</source>
-        <translation>.% 1 File (*.% 1) ;; Tutti i file (*)</translation>
+        <translation>File .%1 (*.%1) ;; Tutti i file (*)</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3078"/>
