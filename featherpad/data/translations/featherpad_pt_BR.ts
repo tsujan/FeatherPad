@@ -1450,12 +1450,12 @@ e podem interferir com os atalhos personalizados.</translation>
     <message>
         <location filename="../../prefDialog.ui" line="229"/>
         <source>Internal icons are used by default.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ícones internos são usados por padrão.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="232"/>
         <source>Use system icons where possible</source>
-        <translation type="unfinished"></translation>
+        <translation>Use ícones do sistema sempre que possível</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="239"/>
