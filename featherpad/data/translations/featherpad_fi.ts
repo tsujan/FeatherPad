@@ -1443,12 +1443,12 @@ muokattujen pikanäppäinten toimintaan.</translation>
     <message>
         <location filename="../../prefDialog.ui" line="229"/>
         <source>Internal icons are used by default.</source>
-        <translation type="unfinished"></translation>
+        <translation>Oletuksena käytetään ohjelman omia kuvakkeita.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="232"/>
         <source>Use system icons where possible</source>
-        <translation type="unfinished"></translation>
+        <translation>Käytä järjestelmän kuvakkeita jos mahdollista</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="239"/>
