@@ -503,13 +503,13 @@
         <location filename="../../fp.ui" line="1182"/>
         <location filename="../../fp.ui" line="1185"/>
         <source>Sort Lines</source>
-        <translation>Lajittele Rivit</translation>
+        <translation>Lajittele rivit</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1190"/>
         <location filename="../../fp.ui" line="1193"/>
         <source>Sort Lines Reversely</source>
-        <translation>Lajittele Rivit Takaperin</translation>
+        <translation>Lajittele rivit takaperin</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1198"/>
