@@ -1438,7 +1438,7 @@ The title also has a right click menu when a file is opened.</source>
     <message>
         <location filename="../../prefDialog.ui" line="222"/>
         <source>Show window title on menubar</source>
-        <translation type="unfinished"></translation>
+        <translation>Afficher le titre de la fenêtre sur la barre de menus</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="229"/>
@@ -1870,7 +1870,7 @@ Needs window reopening to take effect.</source>
 255 pour le blanc et 0 pour le noir.
 
 Pour les arrière-plans clairs, elle peut être
-comprise entre 230 et 255&#x202f;; pour les arrière-plans
+comprise entre 230 et 255 ; pour les arrière-plans
 sombres, entre 0 et 50.
 
 Nécessite la réouverture de la fenêtre pour être activé.</translation>

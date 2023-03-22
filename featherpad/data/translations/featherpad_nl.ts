@@ -1440,7 +1440,7 @@ The title also has a right click menu when a file is opened.</source>
     <message>
         <location filename="../../prefDialog.ui" line="222"/>
         <source>Show window title on menubar</source>
-        <translation type="unfinished"></translation>
+        <translation>Venstertitel op menubalk tonen</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="229"/>
