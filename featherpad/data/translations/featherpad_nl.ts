@@ -1431,7 +1431,8 @@ dan wordt er een menuknop op de werkbalk getoond.</translation>
         <location filename="../../prefDialog.ui" line="218"/>
         <source>Double clicking on the title toggles the maximized state.
 The title also has a right click menu when a file is opened.</source>
-        <translation type="unfinished"></translation>
+        <translation>Dubbelklik op de titel om het venster te (de)maximaliseren.
+Rechtsklik op de titel als een bestand geopend is om een menu te tonen.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="222"/>

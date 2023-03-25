@@ -1427,12 +1427,13 @@ tekib tööriistaribale menüü nupp.</translation>
         <location filename="../../prefDialog.ui" line="218"/>
         <source>Double clicking on the title toggles the maximized state.
 The title also has a right click menu when a file is opened.</source>
-        <translation type="unfinished"></translation>
+        <translation>Topeltklõpsamine tiitliribale lülitab akna täisvaate sisse/välja.
+Tiitliribalt toimib ka avatud faili puhul parema hiireklõpsuga käivituv menüü.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="222"/>
         <source>Show window title on menubar</source>
-        <translation type="unfinished"></translation>
+        <translation>Näita menüüribal akna pealkirja</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="229"/>

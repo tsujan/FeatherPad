@@ -1427,7 +1427,8 @@ un pulsante di menu sulla barra degli strumenti.</translation>
         <location filename="../../prefDialog.ui" line="218"/>
         <source>Double clicking on the title toggles the maximized state.
 The title also has a right click menu when a file is opened.</source>
-        <translation type="unfinished"></translation>
+        <translation>Doppio click sul titolo massimizza/ripristina la finestra.
+Il titolo ha anche un menu di tasto destro, quando un file è stato aperto.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="222"/>

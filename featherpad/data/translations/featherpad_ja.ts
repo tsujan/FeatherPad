@@ -1431,12 +1431,13 @@ a menu button appears on the toolbar.</source>
         <location filename="../../prefDialog.ui" line="218"/>
         <source>Double clicking on the title toggles the maximized state.
 The title also has a right click menu when a file is opened.</source>
-        <translation type="unfinished"></translation>
+        <translation>タイトルをダブルクリックすると、最大化の状態が切り替わります。
+ファイルを開いた時、タイトルは右クリックメニューもあります。</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="222"/>
         <source>Show window title on menubar</source>
-        <translation type="unfinished"></translation>
+        <translation>メニューバーにウインドウのタイトルを表示する</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="229"/>

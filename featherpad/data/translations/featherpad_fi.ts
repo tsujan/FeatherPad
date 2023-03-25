@@ -1409,14 +1409,14 @@ mutta ilman välilehtiä.</translation>
     <message>
         <location filename="../../prefDialog.ui" line="200"/>
         <source>Do not show &amp;toolbar</source>
-        <translation>Älä näytä työkalupalkkia</translation>
+        <translation>Älä näytä työkaluriviä</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="207"/>
         <source>If the menubar is hidden,
 a menu button appears on the toolbar.</source>
-        <translation>Jos valikkopalkki poistetaan käytöstä,
-ilmestyy valikkonappi työkalupalkkiin.</translation>
+        <translation>Jos valikkorivi poistetaan käytöstä,
+ilmestyy valikkonappi työkaluriviin.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="211"/>
@@ -1839,9 +1839,9 @@ tiedostoihin jotka on kirjoitettu käyttäen
 skriptauskieliä kuten Shell ja Python.
 
 Jos avattava tiedosto on merkitty suoritettavaksi,
-tiedosto ajetaan kun työkalupalkkiin ilmestyvää
-Suorita nappia painetaan, tai kun komento valitaan
-Tiedosto valikosta. Lisäksi voidaan käyttää
+tiedosto ajetaan kun työkaluriviin ilmestyvää
+Suorita-nappia painetaan, tai kun komento valitaan
+Tiedosto-valikosta. Lisäksi voidaan käyttää
 näppäinyhdistelmää Ctrl+E. Prosessin suoritus voidaan
 päättää painamalla Ctrl+Alt+E.</translation>
     </message>

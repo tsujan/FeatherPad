@@ -1428,7 +1428,8 @@ a menu button appears on the toolbar.</source>
         <location filename="../../prefDialog.ui" line="218"/>
         <source>Double clicking on the title toggles the maximized state.
 The title also has a right click menu when a file is opened.</source>
-        <translation type="unfinished"></translation>
+        <translation>Подвійне клацання на заголовку перемикає розгорнутий стан.
+Заголовок також має контекстне меню коли файл відкрито правою кнопкою миші.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="222"/>

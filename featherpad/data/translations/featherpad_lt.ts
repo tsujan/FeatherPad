@@ -1428,12 +1428,13 @@ meniu mygtukas yra rodomas įrankių juostoje.</translation>
         <location filename="../../prefDialog.ui" line="218"/>
         <source>Double clicking on the title toggles the maximized state.
 The title also has a right click menu when a file is opened.</source>
-        <translation type="unfinished"></translation>
+        <translation>Du kartus spustelėjus ant pavadinimo bus perjungiama išskleidimo būsena.
+Kai yra atvertas failas, spustelėjus ant pavadinimo dešiniuoju pelės mygtuku, yra prieinamas meniu.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="222"/>
         <source>Show window title on menubar</source>
-        <translation type="unfinished"></translation>
+        <translation>Rodyti meniu juostoje lango pavadinimą</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="229"/>

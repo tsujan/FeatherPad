@@ -1429,7 +1429,8 @@ un bouton menu apparait sur la barre d&apos;outils.</translation>
         <location filename="../../prefDialog.ui" line="218"/>
         <source>Double clicking on the title toggles the maximized state.
 The title also has a right click menu when a file is opened.</source>
-        <translation type="unfinished"></translation>
+        <translation>Un double clic sur le titre permet de passer à l&apos;état maximisé.
+Le titre dispose également d&apos;un menu contextuel lorsqu&apos;un fichier est ouvert.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="222"/>
