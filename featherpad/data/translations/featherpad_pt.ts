@@ -1427,12 +1427,13 @@ um botão de menu na barra de ferramentas.</translation>
         <location filename="../../prefDialog.ui" line="218"/>
         <source>Double clicking on the title toggles the maximized state.
 The title also has a right click menu when a file is opened.</source>
-        <translation type="unfinished"></translation>
+        <translation>Um duplo clique sobre o título alterna o estado maximizado.
+O título também tem um menu de clique com o botão direito do rato quando um ficheiro é aberto.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="222"/>
         <source>Show window title on menubar</source>
-        <translation type="unfinished"></translation>
+        <translation>Mostrar o título da janela na barra de menu</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="229"/>

@@ -965,7 +965,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="2801"/>
         <source>Root Instance</source>
-        <translation>Root Instanssi</translation>
+        <translation>Pääkäyttäjäinstanssi</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2882"/>
@@ -986,7 +986,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="3528"/>
         <source>Saving as root.</source>
-        <translation>Tallennetaan root käyttäjänä.</translation>
+        <translation>Tallennetaan pääkäyttäjänä.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3529"/>
@@ -1141,7 +1141,7 @@
         <location filename="../../fpwin.cpp" line="5572"/>
         <location filename="../../fpwin.cpp" line="5708"/>
         <source>Open Containing Folder</source>
-        <translation>Avaa Sisältävä Kansio</translation>
+        <translation>Avaa sisältävä kansio</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5831"/>
@@ -1300,7 +1300,7 @@
     <message>
         <location filename="../../fontDialog.ui" line="108"/>
         <source>Medium</source>
-        <translation>Keskiraskas</translation>
+        <translation>Keskivahva</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="113"/>
@@ -1427,12 +1427,13 @@ ilmestyy valikkonappi työkaluriviin.</translation>
         <location filename="../../prefDialog.ui" line="218"/>
         <source>Double clicking on the title toggles the maximized state.
 The title also has a right click menu when a file is opened.</source>
-        <translation type="unfinished"></translation>
+        <translation>Otsikkorivin kaksoisklikkaus suurentaa ja pienentää.
+Hiiren oikea avaa valikon kun tiedosto on avattu.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="222"/>
         <source>Show window title on menubar</source>
-        <translation type="unfinished"></translation>
+        <translation>Näytä ikkunan otsikko valikkorivillä</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="229"/>
@@ -1996,9 +1997,8 @@ be used also when the opened file is not modified.
 This can be useful under certain circumstances,
 e.g. for changing the time stamp or removing the
 trailing spaces of a text file.</source>
-        <translation>Kun tämä on valittuna, tallennus toimintoa
-voidaan käyttää myös vaikka avattua tiedostoa
-ei ole muokattu.
+        <translation>Kun tämä on valittuna, tiedosto voidaan tallentaa
+uudelleen vaikka sitä ei olisi varsinaisesti muokattu.
 
 Tämä voi olla käytännöllistä esimerkiksi kun halutaan
 muuttaa tiedoston aikaleimaa, tai kun poistetaan
@@ -2049,7 +2049,7 @@ ne kopioidaan ja liitetään siihen.</translation>
     <message>
         <location filename="../../prefDialog.ui" line="1326"/>
         <source>Restore default shortcuts.</source>
-        <translation>Palauta oletus pikanäppäimet.</translation>
+        <translation>Palauta oletuspikanäppäimet.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1329"/>
@@ -2092,7 +2092,7 @@ ne kopioidaan ja liitetään siihen.</translation>
     <message>
         <location filename="../../prefDialog.ui" line="1448"/>
         <source>Restore default syntax colors.</source>
-        <translation>Palauta oletus syntaksivärit.</translation>
+        <translation>Palauta syntaksioletusvärit.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1483"/>
@@ -2187,7 +2187,7 @@ pikanäppäimen arvo editointitilassa.</translation>
     <message>
         <location filename="../../pref.cpp" line="571"/>
         <source>Application restart is needed for changes to take effect.</source>
-        <translation>Sovellus tulee käynnistää uudelleen, jotta muutokset tulevat voimaan.</translation>
+        <translation>Vaaditaan ohjelman uudelleenkäynnistys muutosten toimeen tulemiseksi.</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="591"/>
