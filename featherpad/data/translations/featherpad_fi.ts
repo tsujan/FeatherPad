@@ -1788,7 +1788,7 @@ poistetaan käytöstä.</translation>
     <message>
         <location filename="../../prefDialog.ui" line="482"/>
         <source>Text Editor</source>
-        <translation>Teksti Editori</translation>
+        <translation>Tekstieditori</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="498"/>
