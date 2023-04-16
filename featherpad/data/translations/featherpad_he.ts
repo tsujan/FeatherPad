@@ -1236,6 +1236,8 @@
         <translation>
             <numerusform>החלפה אחת</numerusform>
             <numerusform>%Ln החלפות</numerusform>
+            <numerusform>%Ln החלפות</numerusform>
+            <numerusform>%Ln החלפות</numerusform>
         </translation>
     </message>
     <message>
@@ -1427,12 +1429,13 @@ a menu button appears on the toolbar.</source>
         <location filename="../../prefDialog.ui" line="218"/>
         <source>Double clicking on the title toggles the maximized state.
 The title also has a right click menu when a file is opened.</source>
-        <translation type="unfinished"></translation>
+        <translation>לחיצה כפולה על הכותרת מחליפה את מצב הגדלת החלון.
+לכותרת יש גם תפריט לחיצה ימנית כשקובץ נפתח.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="222"/>
         <source>Show window title on menubar</source>
-        <translation type="unfinished"></translation>
+        <translation>הצגת כותרת החלון בסרגל התפריטים</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="229"/>
