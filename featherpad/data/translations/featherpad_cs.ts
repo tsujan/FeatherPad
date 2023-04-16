@@ -1428,12 +1428,13 @@ na liště nástrojů se zobrazí tlačítko nabídky.</translation>
         <location filename="../../prefDialog.ui" line="218"/>
         <source>Double clicking on the title toggles the maximized state.
 The title also has a right click menu when a file is opened.</source>
-        <translation type="unfinished"></translation>
+        <translation>Dvojité kliknutí na lištu zapne/vypne maximalizovaný stav.
+Když je otevřen soubor, titulní lišta také má nabídku pod pravým tlačítkem.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="222"/>
         <source>Show window title on menubar</source>
-        <translation type="unfinished"></translation>
+        <translation>Zobrazovat nadpis okna na pruhu nabídky</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="229"/>

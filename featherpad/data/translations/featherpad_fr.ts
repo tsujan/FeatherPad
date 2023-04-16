@@ -31,7 +31,7 @@
         <location filename="../../fp.ui" line="107"/>
         <source>Select text from cursor to this line
 (Ctrl+Shift+J)</source>
-        <translation>Sélectionner le texte depuis le curseur jusqu&apos;à cette ligne
+        <translation>Sélectionner le texte depuis le curseur jusqu&amp;apos;à cette ligne
 (Ctrl+MAJ+J)</translation>
     </message>
     <message>
@@ -136,7 +136,7 @@
     <message>
         <location filename="../../fp.ui" line="525"/>
         <source>Save the current tab</source>
-        <translation>Enregistrer l&apos;onglet actif</translation>
+        <translation>Enregistrer l&amp;apos;onglet actif</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="528"/>
@@ -372,7 +372,7 @@
     <message>
         <location filename="../../fp.ui" line="967"/>
         <source>Save with &amp;Encoding</source>
-        <translation>Enregistrer avec l&apos;en&amp;codage</translation>
+        <translation>Enregistrer avec l&amp;apos;en&amp;codage</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="972"/>
@@ -452,7 +452,7 @@
     <message>
         <location filename="../../fp.ui" line="1130"/>
         <source>Paste Date and Time</source>
-        <translation>Coller la date et l&apos;heure</translation>
+        <translation>Coller la date et l&amp;apos;heure</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1133"/>
@@ -513,7 +513,7 @@
     <message>
         <location filename="../../fp.ui" line="1198"/>
         <source>Check Spelling</source>
-        <translation>Vérifier l&apos;orthographe</translation>
+        <translation>Vérifier l&amp;apos;orthographe</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1201"/>
@@ -530,7 +530,7 @@
         <location filename="../../fp.ui" line="1214"/>
         <location filename="../../fp.ui" line="1217"/>
         <source>User Dictionary</source>
-        <translation>Dictionnaire de l&apos;utilisateur</translation>
+        <translation>Dictionnaire de l&amp;apos;utilisateur</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1222"/>
@@ -605,12 +605,12 @@
     <message>
         <location filename="../../fp.ui" line="242"/>
         <source>&amp;East European</source>
-        <translation>&amp;Europe de l&apos;Est</translation>
+        <translation>&amp;Europe de l&amp;apos;Est</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="250"/>
         <source>Ea&amp;st Asian</source>
-        <translation>&amp;Asie de l&apos;Est</translation>
+        <translation>&amp;Asie de l&amp;apos;Est</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="345"/>
@@ -895,7 +895,7 @@
         <location filename="../../fpwin.cpp" line="2750"/>
         <location filename="../../fpwin.cpp" line="6035"/>
         <source>The file does not exist.</source>
-        <translation>Le fichier n&apos;existe pas.</translation>
+        <translation>Le fichier n&amp;apos;existe pas.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1394"/>
@@ -935,17 +935,17 @@
     <message>
         <location filename="../../fpwin.cpp" line="2716"/>
         <source>See Preferences → Files → Do not permit opening of non-text files</source>
-        <translation>Voir Préférences → Fichiers → Ne pas autoriser l&apos;ouverture de fichiers non texte</translation>
+        <translation>Voir Préférences → Fichiers → Ne pas autoriser l&amp;apos;ouverture de fichiers non texte</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2725"/>
         <source>Some file(s) could not be opened!</source>
-        <translation>Certains fichiers n&apos;ont pas pu être ouverts !</translation>
+        <translation>Certains fichiers n&amp;apos;ont pas pu être ouverts !</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2726"/>
         <source>You may not have the permission to read.</source>
-        <translation>Vous n&apos;avez par les droits en lecture.</translation>
+        <translation>Vous n&amp;apos;avez par les droits en lecture.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2736"/>
@@ -970,12 +970,12 @@
     <message>
         <location filename="../../fpwin.cpp" line="3529"/>
         <source>Waiting for authentication...</source>
-        <translation>En attente d&apos;authentification ...</translation>
+        <translation>En attente d&amp;apos;authentification ...</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3648"/>
         <source>&quot;pkexec&quot; is not found. Please install Polkit!</source>
-        <translation>&quot;pkexec&quot; est introuvable. Veuillez installer Polkit !</translation>
+        <translation>« pkexec » est introuvable. Veuillez installer Polkit !</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3310"/>
@@ -1004,7 +1004,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="3906"/>
         <source>It is not fully processed.</source>
-        <translation>Ce n&apos;est pas entièrement traité.</translation>
+        <translation>Ce n&amp;apos;est pas entièrement traité.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4067"/>
@@ -1016,7 +1016,7 @@
         <location filename="../../fpwin.cpp" line="4068"/>
         <location filename="../../fpwin.cpp" line="4301"/>
         <source>Please be careful about reloading or saving this document!</source>
-        <translation>Soyez prudent lors du chargement ou de l&apos;enregistrement de ce document !</translation>
+        <translation>Soyez prudent lors du chargement ou de l&amp;apos;enregistrement de ce document !</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4776"/>
@@ -1074,36 +1074,36 @@
         <location filename="../../fpwin.cpp" line="5839"/>
         <location filename="../../fpwin.cpp" line="5849"/>
         <source>See Preferences → Text → Spell Checking!</source>
-        <translation>Voir Préférences → Texte → Vérification de l&apos;orthographe !</translation>
+        <translation>Voir Préférences → Texte → Vérification de l&amp;apos;orthographe !</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5838"/>
         <source>The Hunspell dictionary does not exist.</source>
-        <translation>Le dictionnaire Hunspell n&apos;existe pas.</translation>
+        <translation>Le dictionnaire Hunspell n&amp;apos;existe pas.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5848"/>
         <source>The Hunspell dictionary is not accompanied by an affix file.</source>
-        <translation>Le dictionnaire Hunspell n&apos;est pas accompagné de son fichier affixe.</translation>
+        <translation>Le dictionnaire Hunspell n&amp;apos;est pas accompagné de son fichier affixe.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5871"/>
         <location filename="../../fpwin.cpp" line="5889"/>
         <location filename="../../fpwin.cpp" line="5904"/>
         <source>No misspelling in document.</source>
-        <translation>Pas de fautes d&apos;orthographes dans le document.</translation>
+        <translation>Aucune faute d&amp;apos;orthographe dans le document.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5873"/>
         <location filename="../../fpwin.cpp" line="5891"/>
         <location filename="../../fpwin.cpp" line="5906"/>
         <source>No misspelling from text cursor.</source>
-        <translation>Pas de fautes d&apos;orthographe depuis le curseur.</translation>
+        <translation>Aucune faute d&amp;apos;orthographe à partir du curseur de texte.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5922"/>
         <source>Spell Checking</source>
-        <translation>Vérification de l&apos;orthographe</translation>
+        <translation>Vérification de l&amp;apos;orthographe</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="6259"/>
@@ -1144,7 +1144,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="3193"/>
         <source>Keep encoding and save as...</source>
-        <translation>Conserver l&apos;encodage et enregistrer sous...</translation>
+        <translation>Conserver l&amp;apos;encodage et enregistrer sous...</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3308"/>
@@ -1271,18 +1271,18 @@
     <message>
         <location filename="../../fontDialog.ui" line="14"/>
         <source>Select Font</source>
-        <translation>Sélectionner une police d&apos;écriture</translation>
+        <translation>Sélectionner une police d&amp;apos;écriture</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="38"/>
         <source>Programming Fonts</source>
-        <translation>Polices d&apos;écriture pour la programmation</translation>
+        <translation>Polices d&amp;apos;écriture pour la programmation</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="45"/>
         <location filename="../../fontDialog.ui" line="55"/>
         <source>Font:</source>
-        <translation>Police d&apos;écriture :</translation>
+        <translation>Police d&amp;apos;écriture :</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="69"/>
@@ -1383,7 +1383,7 @@
         <location filename="../../prefDialog.ui" line="148"/>
         <source>Enforcing a window position is not recommended
 and may not work with some window managers.</source>
-        <translation>Imposer une position à la fenêtre n&apos;est pas recommandé
+        <translation>Imposer une position à la fenêtre n&amp;apos;est pas recommandé
 et peut ne pas fonctionner avec certains gestionnaires de fenêtres.</translation>
     </message>
     <message>
@@ -1411,14 +1411,14 @@ sans la fonctionnalité des onglets.</translation>
     <message>
         <location filename="../../prefDialog.ui" line="200"/>
         <source>Do not show &amp;toolbar</source>
-        <translation>Ne pas afficher la barre d&apos;&amp;outils</translation>
+        <translation>Ne pas afficher la barre d&amp;apos;&amp;outils</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="207"/>
         <source>If the menubar is hidden,
 a menu button appears on the toolbar.</source>
         <translation>Si la barre de menu est masquée,
-un bouton menu apparait sur la barre d&apos;outils.</translation>
+un bouton menu apparaît sur la barre d&amp;apos;outils.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="211"/>
@@ -1429,8 +1429,8 @@ un bouton menu apparait sur la barre d&apos;outils.</translation>
         <location filename="../../prefDialog.ui" line="218"/>
         <source>Double clicking on the title toggles the maximized state.
 The title also has a right click menu when a file is opened.</source>
-        <translation>Un double clic sur le titre permet de passer à l&apos;état maximisé.
-Le titre dispose également d&apos;un menu contextuel lorsqu&apos;un fichier est ouvert.</translation>
+        <translation>Un double clic sur le titre permet de passer à l&amp;apos;état maximisé.
+Le titre dispose également d&amp;apos;un menu contextuel lorsqu&amp;apos;un fichier est ouvert.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="222"/>
@@ -1479,12 +1479,12 @@ a un historique différent.</translation>
     <message>
         <location filename="../../prefDialog.ui" line="268"/>
         <source>Always show st&amp;atus bar</source>
-        <translation>Toujours afficher la barre d&apos;ét&amp;at</translation>
+        <translation>Toujours afficher la barre d&amp;apos;ét&amp;at</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="293"/>
         <source>Show cursor position on status bar</source>
-        <translation>Afficher la position du curseur sur la barre d&apos;état</translation>
+        <translation>Afficher la position du curseur sur la barre d&amp;apos;état</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="304"/>
@@ -1526,7 +1526,7 @@ Tab navigation with mouse wheel is not affected.</source>
         <translation>Signifie que, de gauche à droite, Alt+Droite amène au premier onglet
 après activation du dernier onglet, et pareil pour Alt+Gauche.
 
-La navigation par onglets avec la souris n&apos;est pas concernée.</translation>
+La navigation par onglets avec la souris n&amp;apos;est pas concernée.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="365"/>
@@ -1550,7 +1550,7 @@ dans le bureau actuel, les fichiers seront ouverts
 dans ses onglets.
 
 Cependant, certains environnements de bureau
-n&apos;indiquent pas qu&apos;ils ont des bureaux multiples.</translation>
+n&amp;apos;indiquent pas qu&amp;apos;ils ont des bureaux multiples.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="399"/>
@@ -1563,10 +1563,10 @@ n&apos;indiquent pas qu&apos;ils ont des bureaux multiples.</translation>
 desktop environment will be used instead of the Qt file dialog.
 
 Some desktop environments, like KDE and LXQt, provide files dialogs.</source>
-        <translation>Si cochée, la boîte de dialoge de fichiers fournie par l&apos;environnement
+        <translation>Si cochée, la boîte de dialogue de fichiers fournie par l&amp;apos;environnement
 de bureau actuel sera utilisée à la place de la boîte de dialogue de Qt.
 
-Certains environnnements de bureau, comme KDE et LXQt, disposent de leurs propres boîtes de dialogue.</translation>
+Certains environnements de bureau, comme KDE et LXQt, disposent de leurs propres boîtes de dialogue.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="412"/>
@@ -1599,13 +1599,13 @@ Certains environnnements de bureau, comme KDE et LXQt, disposent de leurs propre
 and a double hyphen with a long dash while typing,
 under proper circumstances.</source>
         <translation>Par défaut, trois points sont remplacés par des points de suspension
-et les traits d&apos;union doubles par un tiret long lors de l&apos;écriture,
+et les traits d&amp;apos;union doubles par un tiret long lors de l&amp;apos;écriture,
 dans les cas appropriés.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="527"/>
         <source>Replace triple periods and double hyphens while typing</source>
-        <translation>Remplacer trois points et traits d&apos;union doubles en cours d&apos;écriture</translation>
+        <translation>Remplacer trois points et traits d&amp;apos;union doubles en cours d&amp;apos;écriture</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="541"/>
@@ -1628,7 +1628,7 @@ du texte sélectionné.</translation>
         <location filename="../../prefDialog.ui" line="577"/>
         <source>This creates a menu button on the
 status bar for changing the syntax.</source>
-        <translation>Affichera une bouton sur la barre d&apos;état
+        <translation>Affichera une bouton sur la barre d&amp;apos;état
 pour permettre la modification de la syntaxe.</translation>
     </message>
     <message>
@@ -1653,7 +1653,7 @@ quand la syntaxe est colorée.</translation>
         <location filename="../../prefDialog.ui" line="677"/>
         <source>The vertical position lines will be drawn only if
 the editor font has a fixed pitch (like Monospace).</source>
-        <translation>Les lignes de position verticale s&apos;afficheront
+        <translation>Les lignes de position verticale s&amp;apos;afficheront
 uniquement si la police a une taille constante (comme Monospace).</translation>
     </message>
     <message>
@@ -1669,24 +1669,24 @@ uniquement si la police a une taille constante (comme Monospace).</translation>
     <message>
         <location filename="../../prefDialog.ui" line="796"/>
         <source>Date and time format:</source>
-        <translation>Format de la date et de l&apos;heure :</translation>
+        <translation>Format de la date et de l&amp;apos;heure :</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="866"/>
         <source>Some text editors cannot open a document
 whose last line is not empty.</source>
         <translation>Certains éditeurs de texte ne peuvent ouvrir un document
-dont la dernière ligne n&apos;est pas vide.</translation>
+dont la dernière ligne n&amp;apos;est pas vide.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="870"/>
         <source>Ensure an empty last line on saving</source>
-        <translation>Conserver une dernière ligne vide lors de l&apos;enregistrement</translation>
+        <translation>Conserver une dernière ligne vide lors de l&amp;apos;enregistrement</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="877"/>
         <source>Remove trailing spaces on saving</source>
-        <translation>Supprimer les espaces de fin à l&apos;enregistrement</translation>
+        <translation>Supprimer les espaces de fin à l&amp;apos;enregistrement</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="895"/>
@@ -1721,15 +1721,15 @@ will be executed directly.
 If the script is not run in a terminal
 emulator, the output and error messages
 will be shown by a popup dialog.</source>
-        <translation>Il s&apos;agit de n&apos;importe quelle commande de lancement
-ayant des arguments, par exemple, &quot;xterm -hold&quot;
+        <translation>Il s&amp;apos;agit de n&amp;apos;importe quelle commande de lancement
+ayant des arguments, par exemple, « xterm -hold »
 pour lancer le processus dans XTerm.
 
 Si la commande est vide, le fichier
-sera directement executé.
+sera directement exécuté.
 
-Si le script n&apos;est pas lancé dans un émulateur
-de terminal, le résultat et les messages d&apos;erreur
+Si le script n&amp;apos;est pas lancé dans un émulateur
+de terminal, le résultat et les messages d&amp;apos;erreur
 seront affichés dans une boîte de dialogue popup.</translation>
     </message>
     <message>
@@ -1773,8 +1773,8 @@ seront affichés dans une boîte de dialogue popup.</translation>
 tooltip and context menu of a single tab but you could not
 merge a single tabbed window into another one by tab drag-
 and-drop either.</source>
-        <translation>Si coché, non seulement vous perdrez l&apos;infobulle
-d&apos;information et le menu contextuel d&apos;un onglet unique mais vous ne
+        <translation>Si coché, non seulement vous perdrez l&amp;apos;infobulle
+d&amp;apos;information et le menu contextuel d&amp;apos;un onglet unique mais vous ne
 pourrez pas non plus fusionner une fenêtre à onglet unique avec
 une autre en glissant-déposant un onglet.</translation>
     </message>
@@ -1821,7 +1821,7 @@ une autre en glissant-déposant un onglet.</translation>
     <message>
         <location filename="../../prefDialog.ui" line="747"/>
         <source>Background color value: </source>
-        <translation>Valeur de la couleur d&apos;arrière-plan : </translation>
+        <translation>Valeur de la couleur d&amp;apos;arrière-plan : </translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="615"/>
@@ -1839,12 +1839,12 @@ the Run button, that appears on the toolbar/filemenu
 when needed, or by its shortcut Ctrl+E. Then, the
 process could be killed by Ctrl+Alt+E.</source>
         <translation>Comprend uniquement les fichiers exécutables
-écrits en languages scripts tels que Shell et Python.
+écrits en langages scripts tels que Shell et Python.
 
 Si coché et si le fichier ouvert est exécutable,
 le fichier sera exécuté en cliquant sur le bouton Lancer,
-qui apparaît sur la barre d&apos;outils/menu fichier
-lorsque c&apos;est nécessaire, ou par son raccourci Ctrl+E.
+qui apparaît sur la barre d&amp;apos;outils/menu fichier
+lorsque c&amp;apos;est nécessaire, ou par son raccourci Ctrl+E.
 Par la suite, le processus pourra être arrêté avec Ctrl+Alt+E.</translation>
     </message>
     <message>
@@ -1863,11 +1863,11 @@ between 230 and 255; for the dark
 background, between 0 and 50.
 
 Needs window reopening to take effect.</source>
-        <translation>La valeur de la couleur d&apos;arrière-plan.
+        <translation>La valeur de la couleur d&amp;apos;arrière-plan.
 255 pour le blanc et 0 pour le noir.
 
 Pour les arrière-plans clairs, elle peut être
-comprise entre 230 et 255&#x202f;; pour les arrière-plans
+comprise entre 230 et 255 ; pour les arrière-plans
 sombres, entre 0 et 50.
 
 Nécessite la réouverture de la fenêtre pour être activé.</translation>
@@ -1888,7 +1888,7 @@ Needs application restart to take effect.</source>
         <translation>Le nombre maximal de fichiers récemment modifiés
 ou ouverts que FeatherPad affiche. 10 par défaut.
 
-Nécessite le redémarrage de l&apos;application pour être activé.</translation>
+Nécessite le redémarrage de l&amp;apos;application pour être activé.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="788"/>
@@ -1899,7 +1899,7 @@ Takes effect after closing this dialog.
 
 Leave empty for:
 MMM dd, yyyy, hh:mm:ss</source>
-        <translation>&quot;Utilisé pour copier la date et l&apos;heure.
+        <translation>Utilisé pour copier la date et l&amp;apos;heure.
 
 Prendra effet après la fermeture de cette fenêtre.
 
@@ -1931,7 +1931,7 @@ doit-il être inertiel si le curseur se trouve dans la vue du texte ?</translati
     <message>
         <location filename="../../prefDialog.ui" line="902"/>
         <source>Spell Checking</source>
-        <translation>Vérification de l&apos;orthographe</translation>
+        <translation>Vérification de l&amp;apos;orthographe</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="910"/>
@@ -1939,9 +1939,9 @@ doit-il être inertiel si le curseur se trouve dans la vue du texte ?</translati
         <source>A Hunspell dictionary has a name that ends with &quot;.dic&quot;
 and should be alongside an affix file with the same
 name but ending with &quot;.aff&quot;.</source>
-        <translation>Un dictionnaire Hunspell a un nom qui se termine par &quot;.dic&quot;
-et devrait être à côté d&apos;un fichier d&apos;affixe avec le même
-nom mais se terminant par &quot;.aff&quot;.</translation>
+        <translation>Un dictionnaire Hunspell a un nom qui se termine par « .dic »
+et devrait être à côté d&amp;apos;un fichier affixe avec le même
+nom mais se terminant par « .aff ».</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="915"/>
@@ -1958,13 +1958,13 @@ nom mais se terminant par &quot;.aff&quot;.</translation>
         <location filename="../../prefDialog.ui" line="946"/>
         <source>If this is unchecked, spell checking
 will be started from the document start.</source>
-        <translation>Si cette case n&apos;est pas cochée, la vérification orthographique
+        <translation>Si cette case n&amp;apos;est pas cochée, la vérification orthographique
 démarrera au début du document.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="950"/>
         <source>Start spell checking from text cursor</source>
-        <translation>Démarrer la vérification de l&apos;orthographe depuis le curseur</translation>
+        <translation>Démarrer la vérification de l&amp;apos;orthographe depuis le curseur</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1005"/>
@@ -1974,7 +1974,7 @@ démarrera au début du document.</translation>
     <message>
         <location filename="../../prefDialog.ui" line="1104"/>
         <source>Only if their number is not greater than 50.</source>
-        <translation>Uniquement s&apos;il y en a moins de 50.</translation>
+        <translation>Uniquement s&amp;apos;il y en a moins de 50.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1191"/>
@@ -1996,16 +1996,16 @@ This can be useful under certain circumstances,
 e.g. for changing the time stamp or removing the
 trailing spaces of a text file.</source>
         <translation>Si coché, le bouton/entrée de menu Enregistrer
-pourra aussi être utilisé lorsque le fichier ouvert n&apos;est pas modifié.
+pourra aussi être utilisé lorsque le fichier ouvert n&amp;apos;est pas modifié.
 
 Peut être utile dans certains cas,
-p.ex. pour modifier l&apos;horodatage ou supprimer les espaces
-de fin de ligne d&apos;un fichier texte.</translation>
+p.ex. pour modifier l&amp;apos;horodatage ou supprimer les espaces
+de fin de ligne d&amp;apos;un fichier texte.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1243"/>
         <source>Allow saving unmodified files</source>
-        <translation>Permettre l&apos;enregistrement de fichiers non modifiés</translation>
+        <translation>Permettre l&amp;apos;enregistrement de fichiers non modifiés</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1250"/>
@@ -2015,14 +2015,14 @@ de fin de ligne d&apos;un fichier texte.</translation>
     <message>
         <location filename="../../prefDialog.ui" line="1253"/>
         <source>Do not permit opening of non-text files</source>
-        <translation>Ne pas permettre l&apos;ouverture de fichier n&apos;étant pas de type texte</translation>
+        <translation>Ne pas permettre l&amp;apos;ouverture de fichier n&amp;apos;étant pas de type texte</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1260"/>
         <source>By default, when files are copied, they will
 be opened if they are pasted into FeatherPad.</source>
         <translation>Par défaut, lorsque les fichiers sont copiés, ils
-seront ouverts s&apos;ils sont collés dans FeatherPad.</translation>
+seront ouverts s&amp;apos;ils sont collés dans FeatherPad.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1264"/>
@@ -2080,7 +2080,7 @@ seront ouverts s&apos;ils sont collés dans FeatherPad.</translation>
         <location filename="../../prefDialog.ui" line="1390"/>
         <location filename="../../prefDialog.ui" line="1400"/>
         <source>Has effect only if line numbers are shown.</source>
-        <translation>N&apos;a d&apos;effet que si les numéros de ligne sont affichés.</translation>
+        <translation>N&amp;apos;a d&amp;apos;effet que si les numéros de ligne sont affichés.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1393"/>
@@ -2185,7 +2185,7 @@ en mode édition.</translation>
     <message>
         <location filename="../../pref.cpp" line="571"/>
         <source>Application restart is needed for changes to take effect.</source>
-        <translation>Le redémarrage de l&apos;application est nécessaire pour valider les changements.</translation>
+        <translation>Le redémarrage de l&amp;apos;application est nécessaire pour valider les changements.</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="591"/>
@@ -2365,7 +2365,7 @@ fenêtres seront inclus dans la session sauvegardée.</translation>
     <message>
         <location filename="../../session.cpp" line="179"/>
         <source>Nothing saved.&lt;br&gt;No file was opened.</source>
-        <translation>Aucune sauvegarde.&lt;br&gt;Aucun fichier n&apos;a été ouvert.</translation>
+        <translation>Aucune sauvegarde.&lt;br&gt;Aucun fichier n&amp;apos;a été ouvert.</translation>
     </message>
     <message>
         <location filename="../../session.cpp" line="277"/>
@@ -2375,7 +2375,7 @@ fenêtres seront inclus dans la session sauvegardée.</translation>
     <message>
         <location filename="../../session.cpp" line="279"/>
         <source>Not all files exist or can be opened.</source>
-        <translation>Certains fichiers n&apos;existent pas ou ne peuvent être ouverts.</translation>
+        <translation>Certains fichiers n&amp;apos;existent pas ou ne peuvent être ouverts.</translation>
     </message>
     <message>
         <location filename="../../session.cpp" line="314"/>
@@ -2400,7 +2400,7 @@ fenêtres seront inclus dans la session sauvegardée.</translation>
     <message>
         <location filename="../../session.cpp" line="346"/>
         <source>A session with the same name exists.&lt;br&gt;Do you want to overwrite it?</source>
-        <translation>Il existe une session ayant le même nom.&lt;br&gt;Souhaitez-vous l&apos;écraser ?</translation>
+        <translation>Il existe une session ayant le même nom.&lt;br&gt;Souhaitez-vous l&amp;apos;écraser ?</translation>
     </message>
 </context>
 <context>
