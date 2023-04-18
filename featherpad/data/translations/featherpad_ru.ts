@@ -1413,12 +1413,13 @@ a menu button appears on the toolbar.</source>
         <location filename="../../prefDialog.ui" line="218"/>
         <source>Double clicking on the title toggles the maximized state.
 The title also has a right click menu when a file is opened.</source>
-        <translation type="unfinished"></translation>
+        <translation>Двойной щелчок по заголовку переключает развернутое состояние.
+У заголовка также есть меню правого щелчка, когда файл открыт.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="222"/>
         <source>Show window title on menubar</source>
-        <translation type="unfinished"></translation>
+        <translation>Показывать заголовок окна в строке меню</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="240"/>
