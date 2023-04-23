@@ -202,7 +202,7 @@
     <message>
         <location filename="../../fp.ui" line="589"/>
         <source>Show/hide replacement dock</source>
-        <translation>Näytä/piilota korvaava telakka</translation>
+        <translation>Näytä/piilota korvaamisen telakka</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="592"/>
@@ -232,7 +232,7 @@
     <message>
         <location filename="../../fp.ui" line="613"/>
         <source>Documen&amp;t Properties</source>
-        <translation>&amp;Asiakirjan Ominaisuudet</translation>
+        <translation>&amp;Asiakirjan ominaisuudet</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="616"/>
@@ -322,7 +322,7 @@
     <message>
         <location filename="../../fp.ui" line="705"/>
         <source>&amp;Wrap Lines</source>
-        <translation>&amp;Kääri Rivit</translation>
+        <translation>&amp;Rivitä automaattisesti</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="708"/>
@@ -332,7 +332,7 @@
     <message>
         <location filename="../../fp.ui" line="719"/>
         <source>&amp;Auto-Indentation</source>
-        <translation>&amp;Automaattinen Sisennys</translation>
+        <translation>&amp;Automaattinen sisennys</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="722"/>
@@ -342,7 +342,7 @@
     <message>
         <location filename="../../fp.ui" line="733"/>
         <source>&amp;Syntax Highlighting</source>
-        <translation>&amp;Syntaksin Korostus</translation>
+        <translation>&amp;Syntaksin korostus</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="736"/>
@@ -377,7 +377,7 @@
     <message>
         <location filename="../../fp.ui" line="967"/>
         <source>Save with &amp;Encoding</source>
-        <translation>Tallenna &amp;Koodauksella</translation>
+        <translation>Tallenna &amp;merkistöllä</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="972"/>
@@ -427,12 +427,12 @@
     <message>
         <location filename="../../fp.ui" line="1114"/>
         <source>Save/Restore Session</source>
-        <translation>Tallenna/Palauta Istunto</translation>
+        <translation>Tallenna/palauta istunto</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1111"/>
         <source>Sa&amp;ve/Restore Session</source>
-        <translation>T&amp;allenna/Palauta Istunto</translation>
+        <translation>T&amp;allenna/palauta istunto</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1117"/>
@@ -452,7 +452,7 @@
     <message>
         <location filename="../../fp.ui" line="1130"/>
         <source>Paste Date and Time</source>
-        <translation>Liitä Päivämäärä ja Aika</translation>
+        <translation>Liitä päivämäärä ja aika</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1133"/>
@@ -463,7 +463,7 @@
         <location filename="../../fp.ui" line="1138"/>
         <location filename="../../fp.ui" line="1141"/>
         <source>To Upper Case</source>
-        <translation>Isoiksi Kirjaimiksi</translation>
+        <translation>Isoiksi kirjaimiksi</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1144"/>
@@ -474,7 +474,7 @@
         <location filename="../../fp.ui" line="1149"/>
         <location filename="../../fp.ui" line="1152"/>
         <source>To Lower Case</source>
-        <translation>Pieniksi Kirjaimiksi</translation>
+        <translation>Pieniksi kirjaimiksi</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1155"/>
@@ -485,13 +485,13 @@
         <location filename="../../fp.ui" line="1160"/>
         <location filename="../../fp.ui" line="1163"/>
         <source>To Start Case</source>
-        <translation>Aloita Suurilla Kirjaimilla</translation>
+        <translation>Aloita suurilla kirjaimilla</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1171"/>
         <location filename="../../fp.ui" line="1174"/>
         <source>Last Active Tab</source>
-        <translation>Viimeksi Aktiivinen Välilehti</translation>
+        <translation>Viimeksi aktiivinen välilehti</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1177"/>
@@ -513,7 +513,7 @@
     <message>
         <location filename="../../fp.ui" line="1198"/>
         <source>Check Spelling</source>
-        <translation>Tarkista Oikeinkirjoitus</translation>
+        <translation>Tarkista oikeinkirjoitus</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1201"/>
@@ -530,17 +530,17 @@
         <location filename="../../fp.ui" line="1214"/>
         <location filename="../../fp.ui" line="1217"/>
         <source>User Dictionary</source>
-        <translation>Käyttäjän Sanakirja</translation>
+        <translation>Käyttäjän sanakirja</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1222"/>
         <source>Text Tabs to Spaces</source>
-        <translation>Sarkaimet Välilyönneiksi</translation>
+        <translation>Sarkaimet välilyönneiksi</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="997"/>
         <source>&amp;Detach Tab</source>
-        <translation>&amp;Irroita Välilehti</translation>
+        <translation>&amp;Irroita välilehti</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1000"/>
@@ -1531,7 +1531,7 @@ Tämä ei vaikuta välilehtien välillä siirtymiseen hiiren rullaa käyttämäl
     <message>
         <location filename="../../prefDialog.ui" line="365"/>
         <source>Tab navigation wraps &amp;around</source>
-        <translation>Välilehtien välillä siirtyminen kiertää ympäri</translation>
+        <translation>Välilehtien välillä siirtyminen rivittää automaattisesti</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="385"/>
@@ -1720,15 +1720,15 @@ If the script is not run in a terminal
 emulator, the output and error messages
 will be shown by a popup dialog.</source>
         <translation>Tämä voi olla mikä tahansa komento
-argumentteineen, esim. &quot;xterm -hold&quot;
-joka suorittaa prosessin XTerm:issä.
+parametreineen, esim. &quot;xterm -hold&quot;
+joka suorittaa prosessin XTermissä.
 
 Jos komento jätetään tyhjäksi, tiedosto
 suoritetaan sellaisenaan.
 
-Jos skriptiä ei suoriteta terminaali-
-emulaattorissa, tulosteet ja virheet
-näytetään ponnahdus ikkunassa.</translation>
+Jos komentosarjaa ei suoriteta pääte-
+ikkunassa, tulosteet ja virheet
+näytetään ponnahdusikkunassa.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1161"/>
@@ -1738,7 +1738,7 @@ näytetään ponnahdus ikkunassa.</translation>
     <message>
         <location filename="../../prefDialog.ui" line="1180"/>
         <source>Command + Arguments</source>
-        <translation>Komento + Argumentit</translation>
+        <translation>Komento + parametrit</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1065"/>
@@ -1793,7 +1793,7 @@ poistetaan käytöstä.</translation>
     <message>
         <location filename="../../prefDialog.ui" line="498"/>
         <source>&amp;Wrap lines by default</source>
-        <translation>Kiedo rivit oletuksena</translation>
+        <translation>&amp;Rivitä automaattisesti oletuksena</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="505"/>
@@ -2443,12 +2443,12 @@ ikkunoista sisällytetään tallennettuun istuntoon.</translation>
     <message>
         <location filename="../../spellDialog.ui" line="87"/>
         <source>Ignore Once</source>
-        <translation>Jätä huomiotta kerran</translation>
+        <translation>Ohita kerran</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="100"/>
         <source>Ignore All</source>
-        <translation>Jätä huomiotta kaikki</translation>
+        <translation>Ohita kaikki</translation>
     </message>
 </context>
 <context>

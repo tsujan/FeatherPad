@@ -1428,12 +1428,13 @@ menú aparecerá en la barra de herramientas.</translation>
         <location filename="../../prefDialog.ui" line="218"/>
         <source>Double clicking on the title toggles the maximized state.
 The title also has a right click menu when a file is opened.</source>
-        <translation type="unfinished"></translation>
+        <translation>Al hacer doble clic en el título, se cambia el estado maximizado.
+El título también tiene un menú contextual cuando se abre un archivo.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="222"/>
         <source>Show window title on menubar</source>
-        <translation type="unfinished"></translation>
+        <translation>Mostrar el título de la ventana en la barra de menú</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="229"/>

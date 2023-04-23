@@ -819,7 +819,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="1394"/>
         <source>The document has been modified.</source>
-        <translation>Dokumentet har blivit modifierad</translation>
+        <translation>Dokumentet har blivit modifierad.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1405"/>
@@ -879,7 +879,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="1033"/>
         <source>Another FeatherPad window has a modal dialog!</source>
-        <translation>Ett annat  FeatherPad fönster har en modal dialog!</translation>
+        <translation>Ett annat FeatherPad fönster har en modal dialog!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="870"/>
@@ -1152,7 +1152,7 @@
         <location filename="../../fpwin.cpp" line="5839"/>
         <location filename="../../fpwin.cpp" line="5849"/>
         <source>See Preferences → Text → Spell Checking!</source>
-        <translation>Se: Inställningar → Text → Stavningskontroll</translation>
+        <translation>Se: Inställningar → Text → Stavningskontroll!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5838"/>
@@ -1162,7 +1162,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="5848"/>
         <source>The Hunspell dictionary is not accompanied by an affix file.</source>
-        <translation>Det medföljer inte en affix-fil till Hunspell ordboken</translation>
+        <translation>Det medföljer inte en affix-fil till Hunspell ordboken.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5871"/>
@@ -1196,7 +1196,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="6298"/>
         <source>A lightweight, tabbed, plain-text editor</source>
-        <translation>En lättviktig,flikbaserad, textredigeringsprogram </translation>
+        <translation>En lättviktig,flikbaserad, textredigeringsprogram</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="6299"/>
@@ -1289,7 +1289,7 @@
     <message>
         <location filename="../../fontDialog.ui" line="89"/>
         <source>Weight:</source>
-        <translation>Vikt</translation>
+        <translation>Vikt:</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="103"/>
@@ -1423,12 +1423,13 @@ a menu button appears on the toolbar.</source>
         <location filename="../../prefDialog.ui" line="218"/>
         <source>Double clicking on the title toggles the maximized state.
 The title also has a right click menu when a file is opened.</source>
-        <translation type="unfinished"></translation>
+        <translation>Dubbelklicka på titeln växlar maximerat tillstånd.
+Titeln har också en högerklicksmeny när en fil öppnas.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="222"/>
         <source>Show window title on menubar</source>
-        <translation type="unfinished"></translation>
+        <translation>Visa fönstertitel på menyfältet</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="229"/>
@@ -1460,7 +1461,8 @@ and may interfere with customized shortcuts.</source>
         <location filename="../../prefDialog.ui" line="257"/>
         <source>By default, each search entry
 has a separate search history.</source>
-        <translation>Som standard, varje sökpost har en separat sökhistorik</translation>
+        <translation>Som standard, har varje sökpost
+en separat sökhistorik.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="261"/>
@@ -1536,6 +1538,7 @@ current desktop, files will be opened in its tabs.
 However, some desktop environments may not
 report that they have multiple desktops.</source>
         <translation>Filer öppnas som standard i flikar, om det finns ett FeatherPad-fönster på det nuvarande skrivbordet.
+filer kommer att öppnas i dess flikar.
         
 Men, somliga skrivbordsmiljöer rapporterar
 kanske inte att de har flera skrivbord.</translation>
@@ -1585,8 +1588,9 @@ Några skrivbordsmiljöer, som KDE och LXQt, tillhandahåller egna fildialoger.<
         <source>By default, a triple period is replaced with an ellipsis
 and a double hyphen with a long dash while typing,
 under proper circumstances.</source>
-        <translation>Som standard ersättes trippel punkt med en ellips och dubbel bindessträck med en lång radlinje medans man skriver, 
-under rätta omständigheter</translation>
+        <translation>Som standard ersättes trippel punkt med en ellips
+och dubbel bindessträck med en lång radlinje medans man skriver, 
+under rätta omständigheter.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="527"/>
@@ -1597,7 +1601,8 @@ under rätta omständigheter</translation>
         <location filename="../../prefDialog.ui" line="541"/>
         <source>Highlight case-sensitive and whole matches
 of the selected text.</source>
-        <translation>Framhäv små och stora bokstäver av markerad text</translation>
+        <translation>Markera skiftlägeskänsliga och hela matchningar
+av den valda texten.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="545"/>
@@ -1821,7 +1826,7 @@ skrivna i script språk såsom Shell och Python.
 
 Om den är ikryssad och den öppnade filer är exekverbar, kommer filen be exevkverad
 genom klickning av Kör knappen, som visas på verktygsfältet/filmenuen
-när det är nödvändigt, eller med den genväg  Ctrl+E. Då, 
+när det är nödvändigt, eller med den genväg Ctrl+E. Då, 
 kan processen avslutas genom Ctrl+Alt+E.</translation>
     </message>
     <message>
@@ -1904,7 +1909,7 @@ MMM dd, åååå, tt:mm:ss</translation>
         <source>Should the mouse wheel scrolling be inertial
 if the cursor is inside the text view?</source>
         <translation>Skall mushjulet rullning vara trög 
-om markören är innanför textvisningen</translation>
+om markören är innanför textvisningen?</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="902"/>
@@ -1924,7 +1929,7 @@ name men slutar med &quot;.aff&quot;.</translation>
     <message>
         <location filename="../../prefDialog.ui" line="915"/>
         <source>Hunspell dictionary path:</source>
-        <translation>Sökväg till Hunspell-ordbok</translation>
+        <translation>Sökväg till Hunspell-ordbok:</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="934"/>
@@ -1937,7 +1942,7 @@ name men slutar med &quot;.aff&quot;.</translation>
         <source>If this is unchecked, spell checking
 will be started from the document start.</source>
         <translation>Om detta inte är markerad, så startar stavningskontroll 
-från dokumentets början</translation>
+från dokumentets början.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="950"/>
@@ -2057,7 +2062,7 @@ be opened if they are pasted into FeatherPad.</source>
         <location filename="../../prefDialog.ui" line="1390"/>
         <location filename="../../prefDialog.ui" line="1400"/>
         <source>Has effect only if line numbers are shown.</source>
-        <translation>Används endast on radnummer visas</translation>
+        <translation>Används endast om radnummer visas.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1393"/>
@@ -2067,7 +2072,7 @@ be opened if they are pasted into FeatherPad.</source>
     <message>
         <location filename="../../prefDialog.ui" line="1448"/>
         <source>Restore default syntax colors.</source>
-        <translation>Återställ standardvärde för framhävningsfärg</translation>
+        <translation>Återställ standardvärde för framhävningsfärg.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1483"/>
@@ -2079,12 +2084,12 @@ be opened if they are pasted into FeatherPad.</source>
         <source>Press a modifier key to clear a shortcut
 in the editing mode.</source>
         <translation>Tryck på en ändringstangent för att tömma en genväg 
-i redigeringstillståndet</translation>
+i redigeringstillståndet.</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="110"/>
         <source>Double click a color to change it.</source>
-        <translation>Dubbelklicka på en färg för att ändra den</translation>
+        <translation>Dubbelklicka på en färg för att ändra den.</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="314"/>
@@ -2107,7 +2112,7 @@ i redigeringstillståndet</translation>
     <message>
         <location filename="../../pref.cpp" line="400"/>
         <source>Functions, URLs,…</source>
-        <translation>Funktioner, URLs,...</translation>
+        <translation>Funktioner, URLs,…</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="401"/>
@@ -2142,17 +2147,17 @@ i redigeringstillståndet</translation>
     <message>
         <location filename="../../pref.cpp" line="407"/>
         <source>Regular Expressions, Code Blocks,…</source>
-        <translation>Regulära uttryck (Regex), kodblocker,...</translation>
+        <translation>Regulära uttryck (Regex), kodblock,…</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="408"/>
         <source>Document Blocks, XML/HTML Elements,…</source>
-        <translation>Dokumentblock, XML/HTML elementer, ...</translation>
+        <translation>Dokumentblock, XML/HTML elementer,…</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="409"/>
         <source>Markdown Headings, CSS Values,…</source>
-        <translation>Mark-down rubriker, CSS-värder, ...</translation>
+        <translation>Mark-down rubriker, CSS-värden,…</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="410"/>
@@ -2393,7 +2398,7 @@ alla fönster kommer inkluderas in den sparade sessionen.</translation>
     <message>
         <location filename="../../spellDialog.ui" line="25"/>
         <source>Unknown word:</source>
-        <translation>Okänt ord</translation>
+        <translation>Okänt ord:</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="51"/>
