@@ -1440,12 +1440,13 @@ bir menü düğmesi görüntülenir.</translation>
         <location filename="../../prefDialog.ui" line="218"/>
         <source>Double clicking on the title toggles the maximized state.
 The title also has a right click menu when a file is opened.</source>
-        <translation type="unfinished"></translation>
+        <translation>Başlığa çift tıklamak, büyütülme durumunu değiştirir.
+Bir dosya açıldığında başlığın ayrıca bir sağ tıklama menüsü vardır.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="222"/>
         <source>Show window title on menubar</source>
-        <translation type="unfinished"></translation>
+        <translation>Menü çubuğunda pencere başlığını göster</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="229"/>
