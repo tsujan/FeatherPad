@@ -1234,8 +1234,8 @@
         <location filename="../../replace.cpp" line="246"/>
         <source>%Ln Replacements</source>
         <translation>
-            <numerusform>%Ln Korvausta</numerusform>
-            <numerusform>%Ln Korvausta</numerusform>
+            <numerusform>%Ln korvausta</numerusform>
+            <numerusform>%Ln korvausta</numerusform>
         </translation>
     </message>
     <message>
