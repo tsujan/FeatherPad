@@ -1274,7 +1274,7 @@
     <message>
         <location filename="../../fontDialog.ui" line="38"/>
         <source>Programming Fonts</source>
-        <translation>Ohjelmointi Fontit</translation>
+        <translation>Ohjelmointifontit</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="45"/>
