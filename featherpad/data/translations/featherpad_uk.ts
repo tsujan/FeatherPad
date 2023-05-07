@@ -1892,7 +1892,7 @@ Needs application restart to take effect.</source>
     <message>
         <location filename="../../prefDialog.ui" line="786"/>
         <source>Add a small margin around text</source>
-        <translation type="unfinished"></translation>
+        <translation>Додати невеликий відступ навколо тексту</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="795"/>

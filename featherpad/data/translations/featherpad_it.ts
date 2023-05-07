@@ -1893,7 +1893,7 @@ Riavviare FeatherPad per avere effetto.</translation>
     <message>
         <location filename="../../prefDialog.ui" line="786"/>
         <source>Add a small margin around text</source>
-        <translation type="unfinished"></translation>
+        <translation>Aggiungi un piccolo margine intorno al testo</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="795"/>

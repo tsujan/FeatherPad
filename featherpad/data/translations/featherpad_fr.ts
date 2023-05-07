@@ -1867,7 +1867,7 @@ Needs window reopening to take effect.</source>
 255 pour le blanc et 0 pour le noir.
 
 Pour les arrière-plans clairs, elle peut être
-comprise entre 230 et 255&#x202f;; pour les arrière-plans
+comprise entre 230 et 255 ; pour les arrière-plans
 sombres, entre 0 et 50.
 
 Nécessite la réouverture de la fenêtre pour être activé.</translation>
@@ -1893,7 +1893,7 @@ Nécessite le redémarrage de l&apos;application pour être activé.</translatio
     <message>
         <location filename="../../prefDialog.ui" line="786"/>
         <source>Add a small margin around text</source>
-        <translation type="unfinished"></translation>
+        <translation>Ajouter une petite marge autour du texte</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="795"/>
