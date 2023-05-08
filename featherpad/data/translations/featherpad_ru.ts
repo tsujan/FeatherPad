@@ -1630,7 +1630,7 @@ and may interfere with customized shortcuts.</source>
     <message>
         <location filename="../../prefDialog.ui" line="786"/>
         <source>Add a small margin around text</source>
-        <translation type="unfinished"></translation>
+        <translation>Добавить небольшое поле вокруг текста</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="803"/>

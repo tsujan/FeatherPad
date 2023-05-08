@@ -1894,7 +1894,7 @@ rakenduse uuesti käivitama.</translation>
     <message>
         <location filename="../../prefDialog.ui" line="786"/>
         <source>Add a small margin around text</source>
-        <translation type="unfinished"></translation>
+        <translation>Lisa teksti ümber väike veeris</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="795"/>
