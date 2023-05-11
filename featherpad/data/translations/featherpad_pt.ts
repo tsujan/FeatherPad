@@ -292,7 +292,7 @@
     <message>
         <location filename="../../fp.ui" line="670"/>
         <source>&amp;Delete</source>
-        <translation>Apa&amp;gar</translation>
+        <translation>&amp;Eliminar</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="675"/>
@@ -307,7 +307,7 @@
     <message>
         <location filename="../../fp.ui" line="683"/>
         <source>&amp;Font</source>
-        <translation>&amp;Fonte</translation>
+        <translation>&amp;Tipo de letra</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="691"/>
@@ -1651,7 +1651,7 @@ separadores quando a sintaxe é realçada.</translation>
         <source>The vertical position lines will be drawn only if
 the editor font has a fixed pitch (like Monospace).</source>
         <translation>As linhas de posição vertical só serão desenhadas se
-a fonte do editor tem um tom fixo (como Monospace).</translation>
+o tipo de letra do editor tem um tom fixo (como Monospace).</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="670"/>
@@ -1890,7 +1890,7 @@ Necessita de reiniciar a aplicação para entrar em vigor.</translation>
     <message>
         <location filename="../../prefDialog.ui" line="786"/>
         <source>Add a small margin around text</source>
-        <translation type="unfinished"></translation>
+        <translation>Adicionar uma pequena margem ao texto</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="795"/>

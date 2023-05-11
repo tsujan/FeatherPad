@@ -910,7 +910,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="1769"/>
         <source>Copy Link</source>
-        <translation>Kopioi Linkki</translation>
+        <translation>Kopioi linkki</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1983"/>
