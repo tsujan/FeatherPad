@@ -628,7 +628,7 @@
     <message>
         <location filename="../../fp.ui" line="768"/>
         <source>Windows Arabic (&amp;CP1256)</source>
-        <translation>Windows Arabialainen (&amp;CP1256)</translation>
+        <translation>Windows, arabialainen (&amp;CP1256)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="776"/>
@@ -763,7 +763,7 @@
     <message>
         <location filename="../../fp.ui" line="1079"/>
         <source>&amp;Last Tab</source>
-        <translation>&amp;Viimeinen Välilehti</translation>
+        <translation>&amp;Viimeinen välilehti</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1082"/>
