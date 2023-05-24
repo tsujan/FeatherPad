@@ -1755,7 +1755,7 @@ Needs window reopening to take effect.</source>
     <message>
         <location filename="../../prefDialog.ui" line="786"/>
         <source>Add a small margin around text</source>
-        <translation type="unfinished"></translation>
+        <translation>テキストの周囲に小さな余白を追加する</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="795"/>
