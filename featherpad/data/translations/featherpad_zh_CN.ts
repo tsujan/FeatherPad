@@ -1424,12 +1424,13 @@ a menu button appears on the toolbar.</source>
         <location filename="../../prefDialog.ui" line="218"/>
         <source>Double clicking on the title toggles the maximized state.
 The title also has a right click menu when a file is opened.</source>
-        <translation type="unfinished"></translation>
+        <translation>双击标题栏将切换到最大化状态。
+当打开文件时，标题栏也有一个右键菜单。</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="222"/>
         <source>Show window title on menubar</source>
-        <translation type="unfinished"></translation>
+        <translation>在菜单栏显示窗口标题</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="229"/>
@@ -1866,7 +1867,7 @@ Needs application restart to take effect.</source>
     <message>
         <location filename="../../prefDialog.ui" line="786"/>
         <source>Add a small margin around text</source>
-        <translation type="unfinished"></translation>
+        <translation>在文本周围添加一个小边框</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="795"/>
