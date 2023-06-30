@@ -1876,7 +1876,7 @@ Krävs en omstart av programmet för att detta ska träda i kraft.</translation>
     <message>
         <location filename="../../prefDialog.ui" line="786"/>
         <source>Add a small margin around text</source>
-        <translation type="unfinished"></translation>
+        <translation>Lägg till en liten marginal runt text</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="795"/>
