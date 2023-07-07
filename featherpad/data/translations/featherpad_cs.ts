@@ -1894,7 +1894,7 @@ Změna se projeví až po restartu aplikace.</translation>
     <message>
         <location filename="../../prefDialog.ui" line="786"/>
         <source>Add a small margin around text</source>
-        <translation type="unfinished"></translation>
+        <translation>Přidat malý okraj kolem textu</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="795"/>
