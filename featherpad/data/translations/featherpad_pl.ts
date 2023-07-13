@@ -1428,12 +1428,13 @@ przycisk menu pojawi się na pasku narzędzi.</translation>
         <location filename="../../prefDialog.ui" line="218"/>
         <source>Double clicking on the title toggles the maximized state.
 The title also has a right click menu when a file is opened.</source>
-        <translation type="unfinished"></translation>
+        <translation>Dwukrotne kliknięcie na pasek tytułu przełącza stan maksymalizacji.
+Tytuł ma również menu dostępne po kliknięciu prawym przyciskiem myszy podczas otwierania pliku.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="222"/>
         <source>Show window title on menubar</source>
-        <translation type="unfinished"></translation>
+        <translation>Pokaż tytuł okna na pasku menu</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="229"/>
@@ -1466,7 +1467,8 @@ i mogą pokrywać się z niestandardowymi skrótami.</translation>
         <location filename="../../prefDialog.ui" line="257"/>
         <source>By default, each search entry
 has a separate search history.</source>
-        <translation type="unfinished"></translation>
+        <translation>Domyślnie każde wyszukiwanie
+ma osobną historię wyszukiwania.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="261"/>
@@ -1595,18 +1597,21 @@ Niektóre środowiska, np. KDE i LXQt dostarczają własne okna dialogowe.</tran
         <source>By default, a triple period is replaced with an ellipsis
 and a double hyphen with a long dash while typing,
 under proper circumstances.</source>
-        <translation type="unfinished"></translation>
+        <translation>Domyślnie, podczas pisania i w odpowiednich
+okolicznościach, trzy kropki są zastępowane
+wielokropkiem, a podwójny myślnik z długą kreską.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="527"/>
         <source>Replace triple periods and double hyphens while typing</source>
-        <translation type="unfinished"></translation>
+        <translation>Podczas pisania zastępuj potrójne kropki i podwójne myślniki</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="541"/>
         <source>Highlight case-sensitive and whole matches
 of the selected text.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Podkreślaj całe dopasowania
+i taką samą wielkość liter wybranego tekstu.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="545"/>
@@ -1888,7 +1893,7 @@ Restart jest wymagany, aby uzyskać efekt.</translation>
     <message>
         <location filename="../../prefDialog.ui" line="786"/>
         <source>Add a small margin around text</source>
-        <translation type="unfinished"></translation>
+        <translation>Dodaj niewielki margines dookoła tekstu</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="795"/>
@@ -1925,7 +1930,8 @@ MMM dd, rrrr, gg:mm:ss</translation>
         <location filename="../../prefDialog.ui" line="898"/>
         <source>Should the mouse wheel scrolling be inertial
 if the cursor is inside the text view?</source>
-        <translation type="unfinished"></translation>
+        <translation>Czy przewijanie kółkiem myszy powinno być
+bezwładnościowe jeśli kursor znajduje się w widoku tekstu?</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="909"/>
@@ -1938,7 +1944,9 @@ if the cursor is inside the text view?</source>
         <source>A Hunspell dictionary has a name that ends with &quot;.dic&quot;
 and should be alongside an affix file with the same
 name but ending with &quot;.aff&quot;.</source>
-        <translation type="unfinished"></translation>
+        <translation>Słownik Hunspell ma nazwę kończącą się na „.dic”
+i powinien znajdować się obok pliku afiksu
+z taką samą nazwą, ale kończąca się na „.aff”.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="922"/>
@@ -2017,7 +2025,8 @@ na końcu pliku.</translation>
         <location filename="../../prefDialog.ui" line="1267"/>
         <source>By default, when files are copied, they will
 be opened if they are pasted into FeatherPad.</source>
-        <translation type="unfinished"></translation>
+        <translation>Domyślnie, gdy pliki są kopiowane, zostaną
+otwarte, jeśli są wklejone do FeatherPada.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1271"/>
@@ -2054,7 +2063,7 @@ be opened if they are pasted into FeatherPad.</source>
     <message>
         <location filename="../../prefDialog.ui" line="1347"/>
         <source>Syntax Colors</source>
-        <translation type="unfinished"></translation>
+        <translation>Kolory podświetlania składni</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1442"/>
@@ -2085,7 +2094,7 @@ be opened if they are pasted into FeatherPad.</source>
     <message>
         <location filename="../../prefDialog.ui" line="1455"/>
         <source>Restore default syntax colors.</source>
-        <translation type="unfinished"></translation>
+        <translation>Przywróć domyślne kolory podświetlania składni.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1490"/>
