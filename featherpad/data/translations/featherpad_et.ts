@@ -352,7 +352,7 @@
     <message>
         <location filename="../../fp.ui" line="741"/>
         <source>&amp;Preferences</source>
-        <translation>&amp;Seadistused</translation>
+        <translation>&amp;Eelistused</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="744"/>
