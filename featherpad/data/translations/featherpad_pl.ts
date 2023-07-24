@@ -1610,8 +1610,8 @@ wielokropkiem, a podwójny myślnik z długą kreską.</translation>
         <location filename="../../prefDialog.ui" line="541"/>
         <source>Highlight case-sensitive and whole matches
 of the selected text.</source>
-        <translation type="unfinished">Podkreślaj całe dopasowania
-i taką samą wielkość liter wybranego tekstu.</translation>
+        <translation>Wyróżniaj wielkość liter i całe dopasowania
+zaznaczonego tekstu.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="545"/>
@@ -1639,8 +1639,8 @@ pozwalający na zmianę składni.</translation>
         <location filename="../../prefDialog.ui" line="646"/>
         <source>Show spaces, tabs and tab lines
 when the syntax is highlighted.</source>
-        <translation>Pokazuje spacje, tabulatory itp.
-jeżeli składnia jest podświetlana.</translation>
+        <translation>Pokaż spacje, tabulatory i linie tabulacji,
+gdy składnia jest podświetlona.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="650"/>
@@ -1963,12 +1963,13 @@ z taką samą nazwą, ale kończąca się na „.aff”.</translation>
         <location filename="../../prefDialog.ui" line="953"/>
         <source>If this is unchecked, spell checking
 will be started from the document start.</source>
-        <translation type="unfinished"></translation>
+        <translation>Jeśli ta opcja jest odznaczona, sprawdzanie pisowni
+zostanie uruchomione od początku dokumentu.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="957"/>
         <source>Start spell checking from text cursor</source>
-        <translation type="unfinished"></translation>
+        <translation>Rozpocznij sprawdzanie pisowni od kursora tekstowego</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1012"/>
@@ -2078,18 +2079,18 @@ otwarte, jeśli są wklejone do FeatherPada.</translation>
     <message>
         <location filename="../../prefDialog.ui" line="1364"/>
         <source>Whitespace color value:</source>
-        <translation type="unfinished"></translation>
+        <translation>Wartość koloru odstępu:</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1397"/>
         <location filename="../../prefDialog.ui" line="1407"/>
         <source>Has effect only if line numbers are shown.</source>
-        <translation type="unfinished"></translation>
+        <translation>Działa tylko wtedy, gdy wyświetlane są numery wierszy.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1400"/>
         <source>Current line highlight value:</source>
-        <translation>Wartość wyróżnienia bieżącej linii:</translation>
+        <translation>Wartość wyróżnienia bieżącego wiersza:</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1455"/>
@@ -2105,7 +2106,8 @@ otwarte, jeśli są wklejone do FeatherPada.</translation>
         <location filename="../../pref.cpp" line="105"/>
         <source>Press a modifier key to clear a shortcut
 in the editing mode.</source>
-        <translation type="unfinished"></translation>
+        <translation>Naciśnij klawisz modyfikujący, aby usunąć skrót
+w trybie edycji.</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="111"/>
@@ -2148,7 +2150,7 @@ in the editing mode.</source>
     <message>
         <location filename="../../pref.cpp" line="450"/>
         <source>Quotations</source>
-        <translation type="unfinished"></translation>
+        <translation>Cytaty</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="451"/>
@@ -2168,17 +2170,17 @@ in the editing mode.</source>
     <message>
         <location filename="../../pref.cpp" line="454"/>
         <source>Regular Expressions, Code Blocks,…</source>
-        <translation type="unfinished"></translation>
+        <translation>Wyrażenia regularne, bloki kodu,…</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="455"/>
         <source>Document Blocks, XML/HTML Elements,…</source>
-        <translation type="unfinished"></translation>
+        <translation>Bloki dokumentów, elementy XML/HTML…</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="456"/>
         <source>Markdown Headings, CSS Values,…</source>
-        <translation type="unfinished"></translation>
+        <translation>Nagłówki Markdown, wartości CSS…</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="457"/>
@@ -2219,7 +2221,7 @@ in the editing mode.</source>
         <location filename="../../pref.cpp" line="515"/>
         <location filename="../../pref.cpp" line="1882"/>
         <source>Select Syntax Color</source>
-        <translation type="unfinished"></translation>
+        <translation>Wybierz kolor składni</translation>
     </message>
 </context>
 <context>
@@ -2434,7 +2436,7 @@ oknach zostaną uwzględnione w zapisanej sesji.</translation>
     <message>
         <location filename="../../spellDialog.ui" line="129"/>
         <source>Correct Once</source>
-        <translation type="unfinished"></translation>
+        <translation>Popraw raz</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="142"/>
@@ -2444,7 +2446,7 @@ oknach zostaną uwzględnione w zapisanej sesji.</translation>
     <message>
         <location filename="../../spellDialog.ui" line="87"/>
         <source>Ignore Once</source>
-        <translation type="unfinished"></translation>
+        <translation>Zignoruj raz</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="100"/>
