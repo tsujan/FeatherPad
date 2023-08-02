@@ -1902,7 +1902,7 @@ Uygulama tekrar başlatılınca etkinleşir.</translation>
     <message>
         <location filename="../../prefDialog.ui" line="786"/>
         <source>Add a small margin around text</source>
-        <translation type="unfinished"></translation>
+        <translation>Metnin etrafına küçük bir kenar boşluğu ekle</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="795"/>
