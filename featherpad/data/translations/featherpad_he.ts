@@ -1235,6 +1235,8 @@
         <source>%Ln Replacements</source>
         <translation>
             <numerusform>החלפה אחת</numerusform>
+            <numerusform>שתי החלפות</numerusform>
+            <numerusform>%Ln החלפות</numerusform>
             <numerusform>%Ln החלפות</numerusform>
         </translation>
     </message>
@@ -1890,7 +1892,7 @@ Needs application restart to take effect.</source>
     <message>
         <location filename="../../prefDialog.ui" line="786"/>
         <source>Add a small margin around text</source>
-        <translation type="unfinished"></translation>
+        <translation>הוספת מסגרת קטנה מסביב לטקסט</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="795"/>
