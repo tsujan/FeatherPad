@@ -1294,7 +1294,7 @@
     <message>
         <location filename="../../fontDialog.ui" line="103"/>
         <source>Normal</source>
-        <translation>Κανονική</translation>
+        <translation>Κανονικά</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="108"/>
@@ -1304,12 +1304,12 @@
     <message>
         <location filename="../../fontDialog.ui" line="113"/>
         <source>Bold</source>
-        <translation>Έντονη</translation>
+        <translation>Έντονα</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="118"/>
         <source>Black</source>
-        <translation>Μαύρη</translation>
+        <translation>Μαύρο</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="126"/>

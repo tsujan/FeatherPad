@@ -1891,7 +1891,7 @@ Tam, kad įsigaliotų, reikia paleisti programą iš naujo.</translation>
     <message>
         <location filename="../../prefDialog.ui" line="786"/>
         <source>Add a small margin around text</source>
-        <translation type="unfinished"></translation>
+        <translation>Pridėti mažą paraštę aplink tekstą</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="795"/>
