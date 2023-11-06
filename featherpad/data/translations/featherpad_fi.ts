@@ -1976,7 +1976,7 @@ tarkistaminen aloitetaan asiakirjan alusta.</translation>
     <message>
         <location filename="../../prefDialog.ui" line="1012"/>
         <source>Number of recent files: </source>
-        <translation>Viimeksikäytettyjen tiedostojen määrä: </translation>
+        <translation>Viimeksiaikaisten tiedostojen määrä: </translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1111"/>
