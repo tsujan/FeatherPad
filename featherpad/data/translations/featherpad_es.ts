@@ -535,7 +535,7 @@
     <message>
         <location filename="../../fp.ui" line="1222"/>
         <source>Text Tabs to Spaces</source>
-        <translation>Tabulaciones a espacios</translation>
+        <translation>Tabulaciones de texto a espacios</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="997"/>
