@@ -1349,12 +1349,12 @@ und kann benutzerdefinierte Verknüpfungen beeinträchtigen.</translation>
     <message>
         <location filename="../../prefDialog.ui" line="240"/>
         <source>Internal icons are used by default.</source>
-        <translation type="unfinished"></translation>
+        <translation>Standardmäßig werden interne Icons verwendet.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="243"/>
         <source>Use system icons where possible</source>
-        <translation type="unfinished"></translation>
+        <translation>Wenn möglich Systemicons verwenden</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="250"/>
