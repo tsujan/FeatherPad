@@ -1663,7 +1663,7 @@ näytetään ponnahdusikkunassa.</translation>
     <message>
         <location filename="../../prefDialog.ui" line="163"/>
         <source>Start with side-pane mode</source>
-        <translation>Aloita sivuruutu tilassa</translation>
+        <translation>Aloita sivuruututilassa</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="372"/>
