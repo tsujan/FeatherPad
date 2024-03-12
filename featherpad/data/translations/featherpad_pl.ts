@@ -715,7 +715,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="997"/>
         <source>Please attend to that window or just close its dialog!</source>
-        <translation>Przejdź do tego okna lub zamknij jego dialog!</translation>
+        <translation>Przejdź do tego okna lub zamknij jego okno dialogowe!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1357"/>
@@ -1674,8 +1674,8 @@ tooltip and context menu of a single tab but you could not
 merge a single tabbed window into another one by tab drag-
 and-drop either.</source>
         <translation>Jeżeli zaznaczone, utracisz menu kontekstowe pojedynczej
-karty i nie będziesz mógł przenieść dokumentu z jednokartowego
-okna do drugiego przeciągając kartę.</translation>
+karty i nie będzie można przenieść dokumentu z jednokartowego
+okna do drugiego, przeciągając kartę.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="378"/>
@@ -2090,7 +2090,7 @@ w trybie edycji.</translation>
     <message>
         <location filename="../../pref.cpp" line="639"/>
         <source>Application restart is needed for changes to take effect.</source>
-        <translation>Restart aplikacji jest wymagany, aby uzyskać efekt.</translation>
+        <translation>Konieczne jest ponowne uruchomienie programu, aby zmiany zaczęły obowiązywać.</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="660"/>
