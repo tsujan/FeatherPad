@@ -398,6 +398,13 @@ public:
         openInWindows_ = windows;
     }
 
+    bool getOpenInWindowsIfMinimized() const {
+        return openInWindowsIfMinimized_;
+    }
+    void setOpenInWindowsIfMinimized (bool windows) {
+        openInWindowsIfMinimized_ = windows;
+    }
+
     bool getNativeDialog() const {
         return nativeDialog_;
     }
@@ -626,6 +633,7 @@ private:
          appendEmptyLine_,
          removeTrailingSpaces_,
          openInWindows_,
+         openInWindowsIfMinimized_,
          nativeDialog_,
          inertialScrolling_,
          autoSave_,

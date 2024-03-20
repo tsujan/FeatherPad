@@ -109,6 +109,7 @@ Config::Config():
     appendEmptyLine_ (true),
     removeTrailingSpaces_ (false),
     openInWindows_ (false),
+    openInWindowsIfMinimized_ (true),
     nativeDialog_ (true),
     inertialScrolling_ (false),
     autoSave_ (false),
@@ -225,6 +226,10 @@ void Config::readConfig()
 
     if (settings.value ("openInWindows").toBool())
         openInWindows_ = true; // false by default
+
+    v = settings.value ("openInWindowsIfMinimized");
+    if (v.isValid()) // true by default
+        openInWindowsIfMinimized_ = v.toBool();
 
     v = settings.value ("nativeDialog");
     if (v.isValid()) // true by default
@@ -512,6 +517,7 @@ void Config::writeConfig()
     settings.setValue ("tabWrapAround", tabWrapAround_);
     settings.setValue ("hideSingleTab", hideSingleTab_);
     settings.setValue ("openInWindows", openInWindows_);
+    settings.setValue ("openInWindowsIfMinimized", openInWindowsIfMinimized_);
     settings.setValue ("nativeDialog", nativeDialog_);
     settings.setValue ("closeWithLastTab", closeWithLastTab_);
     settings.setValue ("sharedSearchHistory", sharedSearchHistory_);

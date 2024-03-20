@@ -343,7 +343,7 @@ void FPsingleton::handleInfo (const QStringList &info)
                      /* if a window is created a moment ago, it should be
                         on the current desktop but may not report that yet */
                      || whichDesktop == -1)
-                    && (!thisWin->isMinimized() || isWindowShaded (id)))
+                    && (!config_.getOpenInWindowsIfMinimized() || !thisWin->isMinimized() || isWindowShaded (id))) 
 #endif
                )
             {
