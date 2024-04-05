@@ -225,7 +225,7 @@
     <message>
         <location filename="../../fp.ui" line="907"/>
         <source>Sa&amp;ve/Restore Session</source>
-        <translation>&amp;Сохранить/Восстановить сеанс</translation>
+        <translation>&amp;Сохранить/восстановить сеанс</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="560"/>
@@ -460,7 +460,7 @@
     <message>
         <location filename="../../fp.ui" line="910"/>
         <source>Save/Restore Session</source>
-        <translation>Сохранить/Восстановить сеанс</translation>
+        <translation>Сохранить/восстановить сеанс</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="913"/>
@@ -1011,7 +1011,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="6194"/>
         <source>A lightweight, tabbed, plain-text editor</source>
-        <translation>Легковесный текстовый редактор со вкладками</translation>
+        <translation>Легковесный текстовый редактор с вкладками</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="6195"/>
@@ -2180,7 +2180,7 @@ in the editing mode.</source>
     <message>
         <location filename="../../sessionDialog.ui" line="45"/>
         <source>&lt;b&gt;Save/Restore Session&lt;/b&gt;</source>
-        <translation>&lt;b&gt;Сохранить/Восстановить сеанс&lt;/b&gt;</translation>
+        <translation>&lt;b&gt;Сохранить/восстановить сеанс&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="68"/>
