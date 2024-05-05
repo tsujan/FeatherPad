@@ -297,7 +297,7 @@
     <message>
         <location filename="../../fp.ui" line="635"/>
         <source>&amp;Select All</source>
-        <translation>Избиране на &amp;Всичко</translation>
+        <translation>Избиране на &amp;всичко</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="638"/>
@@ -1028,7 +1028,7 @@
         <location filename="../../fpwin.cpp" line="5437"/>
         <location filename="../../fpwin.cpp" line="5572"/>
         <source>Copy Final Target Path</source>
-        <translation>Копирай пътя до крайната цел</translation>
+        <translation>Копиране на пътя до крайната цел</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5441"/>
@@ -1326,12 +1326,13 @@ a menu button appears on the toolbar.</source>
         <location filename="../../prefDialog.ui" line="218"/>
         <source>Double clicking on the title toggles the maximized state.
 The title also has a right click menu when a file is opened.</source>
-        <translation type="unfinished"></translation>
+        <translation>Двойно щракване върху заглавието превключва състоянието на максимизиране.
+Заглавието има и меню с десен бутон на мишката, когато е отворен файл.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="222"/>
         <source>Show window title on menubar</source>
-        <translation type="unfinished"></translation>
+        <translation>Показване на заглавието на прозореца в менюто</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="229"/>
@@ -1353,7 +1354,7 @@ and may interfere with customized shortcuts.</source>
     <message>
         <location filename="../../prefDialog.ui" line="243"/>
         <source>Use system icons where possible</source>
-        <translation>Използвай системните икони, когато е възможно</translation>
+        <translation>Използване на системните икони, когато е възможно</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="250"/>
@@ -1471,7 +1472,7 @@ Some desktop environments, like KDE and LXQt, provide files dialogs.</source>
     <message>
         <location filename="../../prefDialog.ui" line="488"/>
         <source>Uncheck for Monospace.</source>
-        <translation>При отмяна на селецията ще се използва Monospace.</translation>
+        <translation>При отмяна на селекцията ще се използва Monospace.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="491"/>
@@ -1785,7 +1786,7 @@ Needs application restart to take effect.</source>
     <message>
         <location filename="../../prefDialog.ui" line="786"/>
         <source>Add a small margin around text</source>
-        <translation type="unfinished"></translation>
+        <translation>Добавяне на малко пространство около текста</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="795"/>

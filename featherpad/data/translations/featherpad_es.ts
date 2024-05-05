@@ -30,13 +30,13 @@
     <message>
         <location filename="../../fp.ui" line="71"/>
         <source>Go to line:</source>
-        <translation>Ir a la línea:</translation>
+        <translation>Ir al renglón:</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="107"/>
         <source>Select text from cursor to this line
 (Ctrl+Shift+J)</source>
-        <translation>Seleccionar texto desde el cursor hasta la línea indicada
+        <translation>Seleccionar texto desde el cursor hasta el renglón indicado
 (Ctrl+Mayús+J)</translation>
     </message>
     <message>
@@ -110,7 +110,7 @@
     <message>
         <location filename="../../fp.ui" line="460"/>
         <source>New tab</source>
-        <translation>Nueva pestaña vacía</translation>
+        <translation>Pestaña nueva</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="463"/>
