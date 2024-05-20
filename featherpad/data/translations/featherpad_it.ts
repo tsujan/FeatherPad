@@ -1814,7 +1814,7 @@ MMM gg, aaaa, hh: mm: ss</translation>
     <message>
         <location filename="../../prefDialog.ui" line="832"/>
         <source>Text tab size:</source>
-        <translation>Dimensione testo della scheda:</translation>
+        <translation>Dimensione indentazione:</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="839"/>

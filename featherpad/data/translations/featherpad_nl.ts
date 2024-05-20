@@ -850,7 +850,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="2697"/>
         <source>You may not have the permission to read.</source>
-        <translation>U heeft mogelijk geen leestoegang.</translation>
+        <translation>Je hebt mogelijk geen leestoegang.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2707"/>
@@ -916,7 +916,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="3285"/>
         <source>Do you want to use &lt;b&gt;MS Windows&lt;/b&gt; end-of-lines?</source>
-        <translation>Wilt u &lt;b&gt;MS Windows&lt;/b&gt;-compatibele regeleinden gebruiken?</translation>
+        <translation>Wil je &lt;b&gt;MS Windows&lt;/b&gt;-compatibele regeleinden gebruiken?</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3286"/>
@@ -1281,12 +1281,8 @@
         <location filename="../../prefDialog.ui" line="148"/>
         <source>Enforcing a window position is not recommended
 and may not work with some window managers.</source>
-        <translation>Onthoud de vensterpositie, zowel na het sluiten van
-dit venster als na het afsluiten van het programma.
-
-(Dit werkt mogelijk niet naar behoren
-in GTK+-werkomgevingen als Unity
-en Cinnamon.)</translation>
+        <translation>Het onthoud van de vensterpositie werkt mogelijk niet naar behoren
+in combinatie met sommige vensterbeheerders.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="152"/>
@@ -2290,22 +2286,22 @@ in de opgeslagen sessie.</translation>
     <message>
         <location filename="../../session.cpp" line="337"/>
         <source>Do you really want to remove all saved sessions?</source>
-        <translation>Weet u zeker dat u alle opgeslagen sessies wilt wissen?</translation>
+        <translation>Weet je zeker dat je alle opgeslagen sessies wilt wissen?</translation>
     </message>
     <message>
         <location filename="../../session.cpp" line="343"/>
         <source>Do you really want to remove the selected sessions?</source>
-        <translation>Weet u zeker dat u de geselecteerde sessies wilt wissen?</translation>
+        <translation>Weet je zeker dat je de geselecteerde sessies wilt wissen?</translation>
     </message>
     <message>
         <location filename="../../session.cpp" line="345"/>
         <source>Do you really want to remove the selected session?</source>
-        <translation>Weet u zeker dat u de geselecteerde sessie wilt wissen?</translation>
+        <translation>Weet je zeker dat je de geselecteerde sessie wilt wissen?</translation>
     </message>
     <message>
         <location filename="../../session.cpp" line="350"/>
         <source>A session with the same name exists.&lt;br&gt;Do you want to overwrite it?</source>
-        <translation>Er is al een sessie met deze naam.&lt;br&gt;Wilt u deze overschrijven?</translation>
+        <translation>Er is al een sessie met deze naam.&lt;br&gt;Wil je deze overschrijven?</translation>
     </message>
 </context>
 <context>
