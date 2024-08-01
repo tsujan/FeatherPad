@@ -608,27 +608,27 @@
     <message>
         <location filename="../../fp.ui" line="725"/>
         <source>&amp;Other</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Άλλα</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="744"/>
         <source>&amp;UTF-8</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;UTF-8</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="755"/>
         <source>UTF-&amp;16</source>
-        <translation type="unfinished"></translation>
+        <translation>UTF-&amp;16</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="766"/>
         <source>&amp;ISO-8859-1</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;ISO-8859-1</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="824"/>
         <source>Close &amp;Other Tabs</source>
-        <translation type="unfinished"></translation>
+        <translation>Κλείσιμο &amp;άλλων καρτελών</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="829"/>
@@ -643,37 +643,37 @@
     <message>
         <location filename="../../fp.ui" line="845"/>
         <source>Alt+Right</source>
-        <translation type="unfinished"></translation>
+        <translation>Alt+Δεξιά</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="856"/>
         <source>Alt+Left</source>
-        <translation type="unfinished"></translation>
+        <translation>Alt+Αριστερά</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="864"/>
         <source>&amp;First Tab</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Πρώτη καρτέλα</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="867"/>
         <source>Alt+Down</source>
-        <translation type="unfinished"></translation>
+        <translation>Alt+Κάτω</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="875"/>
         <source>&amp;Last Tab</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Τελευταία καρτέλα</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="878"/>
         <source>Alt+Up</source>
-        <translation type="unfinished"></translation>
+        <translation>Alt+Πάνω</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="883"/>
         <source>Menu</source>
-        <translation type="unfinished"></translation>
+        <translation>Μενού</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="100"/>
@@ -684,32 +684,32 @@
     <message>
         <location filename="../../fpwin.cpp" line="115"/>
         <source>Next</source>
-        <translation type="unfinished"></translation>
+        <translation>Επόμενο</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="116"/>
         <source>Previous</source>
-        <translation type="unfinished"></translation>
+        <translation>Προηγούμενο</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="117"/>
         <source>Replace all</source>
-        <translation type="unfinished"></translation>
+        <translation>Αντικατάσταση όλων</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="632"/>
         <source>&amp;Recently Opened</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Πρόσφατα ανοιγμένα</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2058"/>
         <source>Close</source>
-        <translation type="unfinished">Κλείσιμο</translation>
+        <translation>Κλείσιμο</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1353"/>
         <source>Save changes?</source>
-        <translation type="unfinished"></translation>
+        <translation>Αποθήκευση αλλαγών;</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="997"/>
@@ -719,28 +719,28 @@
     <message>
         <location filename="../../fpwin.cpp" line="1357"/>
         <source>The document has been modified.</source>
-        <translation type="unfinished"></translation>
+        <translation>Το έγγραφο έχει τροποποιηθεί.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1368"/>
         <source>&amp;Discard changes</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Απόρριψη αλλαγών</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1369"/>
         <source>&amp;Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Ακύρωση</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1371"/>
         <source>&amp;No to all</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Όχι σε όλα</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1579"/>
         <location filename="../../fpwin.cpp" line="1627"/>
         <source>Unsaved</source>
-        <translation type="unfinished"></translation>
+        <translation>Μη αποθηκευμένο</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2955"/>
@@ -769,7 +769,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="1951"/>
         <source>Another process is running in this tab!</source>
-        <translation type="unfinished"></translation>
+        <translation>Εκτελείται μια άλλη διεργασία σε αυτή την καρτέλα!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2049"/>
@@ -785,7 +785,7 @@
         <location filename="../../fpwin.cpp" line="833"/>
         <location filename="../../fpwin.cpp" line="4563"/>
         <source>Position:</source>
-        <translation type="unfinished"></translation>
+        <translation>Θέση:</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="881"/>
@@ -799,12 +799,12 @@
         <location filename="../../fpwin.cpp" line="2724"/>
         <location filename="../../fpwin.cpp" line="5937"/>
         <source>The file does not exist.</source>
-        <translation type="unfinished"></translation>
+        <translation>Το αρχείο δεν υπάρχει.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1722"/>
         <source>Open Link</source>
-        <translation type="unfinished"></translation>
+        <translation>Άνοιγμα συνδέσμου</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1738"/>
@@ -814,7 +814,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="1952"/>
         <source>Only one process is allowed per tab.</source>
-        <translation type="unfinished"></translation>
+        <translation>Μόνο μία διεργασία επιτρέπεται ανά καρτέλα.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2045"/>
@@ -824,12 +824,12 @@
     <message>
         <location filename="../../fpwin.cpp" line="2061"/>
         <source>Clear</source>
-        <translation type="unfinished"></translation>
+        <translation>Εκκαθάριση</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2681"/>
         <source>FeatherPad does not open files larger than 100 MiB.</source>
-        <translation type="unfinished"></translation>
+        <translation>Το FeatherPad δεν ανοίγει αρχεία μεγαλύτερα από 100 MiB.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2689"/>
@@ -844,12 +844,12 @@
     <message>
         <location filename="../../fpwin.cpp" line="2699"/>
         <source>Some file(s) could not be opened!</source>
-        <translation type="unfinished"></translation>
+        <translation>Κάποιο(α) αρχείο(α) δε μπόρεσε(αν) να ανοίξει(ουν)!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2700"/>
         <source>You may not have the permission to read.</source>
-        <translation type="unfinished"></translation>
+        <translation>Μπορεί να μην έχετε την άδεια ανάγνωσης.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2710"/>
@@ -864,18 +864,18 @@
     <message>
         <location filename="../../fpwin.cpp" line="2775"/>
         <source>Root Instance</source>
-        <translation type="unfinished"></translation>
+        <translation>Ριζική περίοδος λειτουργίας</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2856"/>
         <source>Open file...</source>
-        <translation type="unfinished"></translation>
+        <translation>Άνοιγμα αρχείου...</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3091"/>
         <location filename="../../fpwin.cpp" line="3129"/>
         <source>Save as...</source>
-        <translation type="unfinished"></translation>
+        <translation>Αποθήκευση ως...</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3165"/>
@@ -900,17 +900,17 @@
     <message>
         <location filename="../../fpwin.cpp" line="3285"/>
         <source>Yes</source>
-        <translation type="unfinished"></translation>
+        <translation>Ναι</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3286"/>
         <source>No</source>
-        <translation type="unfinished"></translation>
+        <translation>Όχι</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3287"/>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>Ακύρωση</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3288"/>
@@ -928,7 +928,7 @@
         <location filename="../../fpwin.cpp" line="3601"/>
         <location filename="../../fpwin.cpp" line="3613"/>
         <source>Cannot be saved!</source>
-        <translation type="unfinished"></translation>
+        <translation>Δε μπορεί να αποθηκευτεί!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="450"/>
@@ -937,7 +937,7 @@
         <location filename="../../fpwin.cpp" line="5257"/>
         <location filename="../../fpwin.cpp" line="6345"/>
         <source>Help</source>
-        <translation type="unfinished">Βοήθεια</translation>
+        <translation>Βοήθεια</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3654"/>
@@ -962,7 +962,7 @@
         <location filename="../../fpwin.cpp" line="3040"/>
         <location filename="../../fpwin.cpp" line="3062"/>
         <source>All Files</source>
-        <translation type="unfinished"></translation>
+        <translation>Όλα τα αρχεία</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3757"/>
@@ -972,7 +972,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="3867"/>
         <source>The selected text was too long.</source>
-        <translation type="unfinished"></translation>
+        <translation>Το επιλεγμένο κείμενο ήταν πολύ μακρύ.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3868"/>
@@ -994,17 +994,17 @@
     <message>
         <location filename="../../fpwin.cpp" line="4672"/>
         <source>Printing in progress...</source>
-        <translation type="unfinished"></translation>
+        <translation>Εκτύπωση σε εξέλιξη...</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4723"/>
         <source>Print Document</source>
-        <translation type="unfinished"></translation>
+        <translation>Εκτύπωση εγγράφου</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4729"/>
         <source>Printing completed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Εκτύπωση ολοκληρώθηκε.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5389"/>
@@ -1022,7 +1022,7 @@
         <location filename="../../fpwin.cpp" line="5425"/>
         <location filename="../../fpwin.cpp" line="5562"/>
         <source>Open Target Here</source>
-        <translation type="unfinished"></translation>
+        <translation>Άνοιγμα προορισμού εδώ</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5444"/>
@@ -1034,7 +1034,7 @@
         <location filename="../../fpwin.cpp" line="5448"/>
         <location filename="../../fpwin.cpp" line="5586"/>
         <source>Open Final Target Here</source>
-        <translation type="unfinished"></translation>
+        <translation>Άνοιγμα τελικού προορισμού εδώ</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5468"/>
@@ -1086,12 +1086,12 @@
     <message>
         <location filename="../../fpwin.cpp" line="6171"/>
         <source>Some files cannot be saved!</source>
-        <translation type="unfinished"></translation>
+        <translation>Κάποια αρχεία δε μπορούν να αποθηκευτούν!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="6211"/>
         <source>Translators</source>
-        <translation type="unfinished"></translation>
+        <translation>Μεταφραστές</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="6207"/>
@@ -1106,7 +1106,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="6209"/>
         <source>Author</source>
-        <translation type="unfinished"></translation>
+        <translation>Συντάκτης</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="6210"/>
@@ -1117,17 +1117,17 @@
         <location filename="../../fpwin.cpp" line="6211"/>
         <location filename="../../fpwin.cpp" line="6212"/>
         <source>About FeatherPad</source>
-        <translation type="unfinished"></translation>
+        <translation>Σχετικά με το FeatherPad</translation>
     </message>
     <message>
         <location filename="../../replace.cpp" line="272"/>
         <source>No Replacement</source>
-        <translation type="unfinished"></translation>
+        <translation>Χωρίς αντικατάσταση</translation>
     </message>
     <message>
         <location filename="../../replace.cpp" line="274"/>
         <source>One Replacement</source>
-        <translation type="unfinished"></translation>
+        <translation>Μία αντικατάσταση</translation>
     </message>
     <message numerus="yes">
         <location filename="../../replace.cpp" line="276"/>
@@ -1154,13 +1154,13 @@
         <location filename="../../filedialog.h" line="49"/>
         <source>Ctrl+H</source>
         <comment>Toggle showing hidden files</comment>
-        <translation type="unfinished">Ctrl+H</translation>
+        <translation>Ctrl+H</translation>
     </message>
     <message>
         <location filename="../../filedialog.h" line="50"/>
         <source>Alt+.</source>
         <comment>Toggle showing hidden files</comment>
-        <translation type="unfinished"></translation>
+        <translation>Alt+.</translation>
     </message>
 </context>
 <context>
@@ -1263,13 +1263,13 @@
     <message>
         <location filename="../../prefDialog.ui" line="87"/>
         <source>Start with this size: </source>
-        <translation type="unfinished"></translation>
+        <translation>Εκκίνηση με αυτό το μέγεθος: </translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="100"/>
         <location filename="../../prefDialog.ui" line="123"/>
         <source> px</source>
-        <translation type="unfinished"></translation>
+        <translation> px</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="110"/>
