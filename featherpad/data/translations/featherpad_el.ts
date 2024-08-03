@@ -890,12 +890,12 @@
     <message>
         <location filename="../../fpwin.cpp" line="3483"/>
         <source>Waiting for authentication...</source>
-        <translation type="unfinished"></translation>
+        <translation>Αναμονή για έλεγχο αυθεντικότητας...</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3602"/>
         <source>&quot;pkexec&quot; is not found. Please install Polkit!</source>
-        <translation type="unfinished"></translation>
+        <translation>Δε βρέθηκε το «pkexec». Παρακαλούμε εγκαταστήστε το Polkit!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3285"/>
@@ -953,7 +953,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="2680"/>
         <source>Huge file(s) not opened!</source>
-        <translation type="unfinished"></translation>
+        <translation>Πάρα πολύ μεγάλο(α) αρχείο(α) δεν ανοίχτηκε(αν)!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2847"/>
@@ -977,19 +977,19 @@
     <message>
         <location filename="../../fpwin.cpp" line="3868"/>
         <source>It is not fully processed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Δεν υποβλήθηκε πλήρως σε επεξεργασία.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4029"/>
         <location filename="../../fpwin.cpp" line="4262"/>
         <source>This file has been modified elsewhere or in another way!</source>
-        <translation type="unfinished"></translation>
+        <translation>Αυτό το αρχείο έχει τροποποιηθεί αλλού ή με άλλο τρόπο!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4030"/>
         <location filename="../../fpwin.cpp" line="4263"/>
         <source>Please be careful about reloading or saving this document!</source>
-        <translation type="unfinished"></translation>
+        <translation>Παρακαλούμε να είστε προσεκτικοί σχετικά με την επαναφόρτωση ή την αποθήκευση αυτού του εγγράφου!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4672"/>
@@ -1010,7 +1010,7 @@
         <location filename="../../fpwin.cpp" line="5389"/>
         <location filename="../../fpwin.cpp" line="5522"/>
         <source>%1 Pages</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 σελίδες</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5421"/>
@@ -1111,7 +1111,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="6210"/>
         <source>aka.</source>
-        <translation type="unfinished"></translation>
+        <translation>επίσης γνωστό ως</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="6211"/>
@@ -1132,9 +1132,9 @@
     <message numerus="yes">
         <location filename="../../replace.cpp" line="276"/>
         <source>%Ln Replacements</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%Ln αντικατάσταση</numerusform>
+            <numerusform>%Ln αντικαταστάσεις</numerusform>
         </translation>
     </message>
     <message>
@@ -1274,7 +1274,7 @@
     <message>
         <location filename="../../prefDialog.ui" line="110"/>
         <source>×</source>
-        <translation type="unfinished"></translation>
+        <translation>×</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="148"/>
@@ -1425,7 +1425,7 @@ Tab navigation with mouse wheel is not affected.</source>
     <message>
         <location filename="../../prefDialog.ui" line="385"/>
         <source>Close window on closing its last tab</source>
-        <translation type="unfinished"></translation>
+        <translation>Κλείσιμο του παραθύρου με κλείσιμο της τελευταίας καρτέλας του</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="392"/>
@@ -1439,7 +1439,7 @@ report that they have multiple desktops.</source>
     <message>
         <location filename="../../prefDialog.ui" line="399"/>
         <source>Always open in separate windows</source>
-        <translation type="unfinished"></translation>
+        <translation>Πάντα άνοιγμα σε χωριστά παράθυρα</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="406"/>
@@ -1544,7 +1544,7 @@ the editor font has a fixed pitch (like Monospace).</source>
     <message>
         <location filename="../../prefDialog.ui" line="803"/>
         <source>Date and time format:</source>
-        <translation type="unfinished"></translation>
+        <translation>Μορφή ημερομηνίας και ώρας:</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="873"/>
@@ -1610,12 +1610,12 @@ will be shown by a popup dialog.</source>
     <message>
         <location filename="../../prefDialog.ui" line="1072"/>
         <source>Show recentl&amp;y modified files</source>
-        <translation type="unfinished"></translation>
+        <translation>Εμφάνιση πρόσ&amp;φατα τροποποιημένων αρχείων</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1102"/>
         <source>Show recentl&amp;y opened files</source>
-        <translation type="unfinished"></translation>
+        <translation>Εμφάνιση πρόσφα&amp;τα ανοιγμένων αρχείων</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1201"/>
@@ -1668,7 +1668,7 @@ and-drop either.</source>
     <message>
         <location filename="../../prefDialog.ui" line="534"/>
         <source>Always show line &amp;numbers</source>
-        <translation type="unfinished"></translation>
+        <translation>Εμφάνιση πάντα &amp;αριθμών γραμμής</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="552"/>
@@ -1678,7 +1678,7 @@ and-drop either.</source>
     <message>
         <location filename="../../prefDialog.ui" line="712"/>
         <source>Dark c&amp;olor scheme</source>
-        <translation type="unfinished"></translation>
+        <translation>Σκοτεινός &amp;χρωματικός συνδυασμός</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="747"/>
@@ -1794,7 +1794,7 @@ name but ending with &quot;.aff&quot;.</source>
         <location filename="../../prefDialog.ui" line="941"/>
         <location filename="../../pref.cpp" line="1794"/>
         <source>Add dictionary...</source>
-        <translation type="unfinished"></translation>
+        <translation>Προσθήκη λεξικού...</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="953"/>
@@ -1810,7 +1810,7 @@ will be started from the document start.</source>
     <message>
         <location filename="../../prefDialog.ui" line="1012"/>
         <source>Number of recent files: </source>
-        <translation type="unfinished"></translation>
+        <translation>Αριθμός πρόσφατων αρχείων: </translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1111"/>
@@ -1867,7 +1867,7 @@ be opened if they are pasted into FeatherPad.</source>
     <message>
         <location filename="../../prefDialog.ui" line="1298"/>
         <source>Shortcuts</source>
-        <translation type="unfinished"></translation>
+        <translation>Συντομεύσεις</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1320"/>
@@ -1877,19 +1877,19 @@ be opened if they are pasted into FeatherPad.</source>
     <message>
         <location filename="../../prefDialog.ui" line="1325"/>
         <source>Shortcut</source>
-        <translation type="unfinished"></translation>
+        <translation>Συντόμευση</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1333"/>
         <source>Restore default shortcuts.</source>
-        <translation type="unfinished"></translation>
+        <translation>Επαναφορά προεπιλεγμένων συντομεύσεων.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1336"/>
         <location filename="../../prefDialog.ui" line="1410"/>
         <location filename="../../prefDialog.ui" line="1458"/>
         <source>Default</source>
-        <translation type="unfinished"></translation>
+        <translation>Προεπιλογή</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1347"/>
@@ -1899,12 +1899,12 @@ be opened if they are pasted into FeatherPad.</source>
     <message>
         <location filename="../../prefDialog.ui" line="1442"/>
         <source>Element</source>
-        <translation type="unfinished"></translation>
+        <translation>Στοιχείο</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1447"/>
         <source>Text Color</source>
-        <translation type="unfinished"></translation>
+        <translation>Χρώμα κειμένου</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1364"/>
@@ -1947,13 +1947,13 @@ in the editing mode.</source>
         <location filename="../../pref.cpp" line="347"/>
         <location filename="../../pref.cpp" line="1490"/>
         <source>files</source>
-        <translation type="unfinished"></translation>
+        <translation>αρχεία</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="347"/>
         <location filename="../../pref.cpp" line="1490"/>
         <source>file</source>
-        <translation type="unfinished"></translation>
+        <translation>αρχείο</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="414"/>
@@ -1974,7 +1974,7 @@ in the editing mode.</source>
     <message>
         <location filename="../../pref.cpp" line="449"/>
         <source>Comments</source>
-        <translation type="unfinished"></translation>
+        <translation>Σχόλια</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="450"/>
@@ -1994,7 +1994,7 @@ in the editing mode.</source>
     <message>
         <location filename="../../pref.cpp" line="453"/>
         <source>Numbers</source>
-        <translation type="unfinished"></translation>
+        <translation>Αριθμοί</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="454"/>
@@ -2029,12 +2029,12 @@ in the editing mode.</source>
     <message>
         <location filename="../../pref.cpp" line="1516"/>
         <source>&amp;Recently Opened</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Πρόσφατα ανοιγμένα</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="1517"/>
         <source>Recently &amp;Modified</source>
-        <translation type="unfinished">Πρόσφατα &amp;τροποποιημένων</translation>
+        <translation>Πρόσφατα &amp;τροποποιημένα</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="1592"/>
@@ -2059,7 +2059,7 @@ in the editing mode.</source>
         <location filename="../../searchbar.cpp" line="94"/>
         <location filename="../../searchbar.cpp" line="173"/>
         <source>Search...</source>
-        <translation type="unfinished"></translation>
+        <translation>Αναζήτηση...</translation>
     </message>
     <message>
         <location filename="../../searchbar.cpp" line="125"/>
@@ -2069,7 +2069,7 @@ in the editing mode.</source>
     <message>
         <location filename="../../searchbar.cpp" line="132"/>
         <source>Whole Word</source>
-        <translation type="unfinished"></translation>
+        <translation>Ολόκληρη λέξη</translation>
     </message>
     <message>
         <location filename="../../searchbar.cpp" line="139"/>
@@ -2084,12 +2084,12 @@ in the editing mode.</source>
     <message>
         <location filename="../../searchbar.cpp" line="120"/>
         <source>Next</source>
-        <translation type="unfinished"></translation>
+        <translation>Επόμενο</translation>
     </message>
     <message>
         <location filename="../../searchbar.cpp" line="121"/>
         <source>Previous</source>
-        <translation type="unfinished"></translation>
+        <translation>Προηγούμενο</translation>
     </message>
 </context>
 <context>
@@ -2097,13 +2097,13 @@ in the editing mode.</source>
     <message>
         <location filename="../../sessionDialog.ui" line="14"/>
         <source>Session Manager</source>
-        <translation type="unfinished"></translation>
+        <translation>Διαχειριστής συνεδρίας</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="113"/>
         <location filename="../../sessionDialog.ui" line="294"/>
         <source>&amp;Remove</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Αφαίρεση</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="45"/>
@@ -2130,13 +2130,13 @@ in the editing mode.</source>
         <location filename="../../sessionDialog.ui" line="110"/>
         <location filename="../../sessionDialog.ui" line="120"/>
         <source>Del</source>
-        <translation type="unfinished"></translation>
+        <translation>Del</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="127"/>
         <location filename="../../sessionDialog.ui" line="137"/>
         <source>Ctrl+Del</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Del</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="171"/>
@@ -2152,28 +2152,28 @@ windows will be included in the saved session.</source>
     <message>
         <location filename="../../sessionDialog.ui" line="204"/>
         <source>&lt;b&gt;Warning&lt;/b&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;Προειδοποίηση&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="250"/>
         <location filename="../../session.cpp" line="332"/>
         <source>&amp;Yes</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Ναι</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="257"/>
         <source>&amp;No</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Όχι</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="307"/>
         <source>Re&amp;name</source>
-        <translation type="unfinished"></translation>
+        <translation>Μετ&amp;ονομασία</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="130"/>
         <source>Remove &amp;All</source>
-        <translation type="unfinished"></translation>
+        <translation>Μετονομασία &amp;όλων</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="284"/>
@@ -2213,7 +2213,7 @@ windows will be included in the saved session.</source>
     <message>
         <location filename="../../session.cpp" line="318"/>
         <source>&amp;OK</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Εντάξει</translation>
     </message>
     <message>
         <location filename="../../session.cpp" line="337"/>
@@ -2249,12 +2249,12 @@ windows will be included in the saved session.</source>
     <message>
         <location filename="../../spellDialog.ui" line="25"/>
         <source>Unknown word:</source>
-        <translation type="unfinished"></translation>
+        <translation>Άγνωστη λέξη:</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="51"/>
         <source>Add To Dictionary</source>
-        <translation type="unfinished"></translation>
+        <translation>Προσθήκη στο λεξικό</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="62"/>
@@ -2264,22 +2264,22 @@ windows will be included in the saved session.</source>
     <message>
         <location filename="../../spellDialog.ui" line="129"/>
         <source>Correct Once</source>
-        <translation type="unfinished"></translation>
+        <translation>Διόρθωση μια φορά</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="142"/>
         <source>Correct All</source>
-        <translation type="unfinished"></translation>
+        <translation>Διόρθωση όλων</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="87"/>
         <source>Ignore Once</source>
-        <translation type="unfinished"></translation>
+        <translation>Αγνόηση μια φορά</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="100"/>
         <source>Ignore All</source>
-        <translation type="unfinished"></translation>
+        <translation>Αγνόηση όλων</translation>
     </message>
 </context>
 <context>
