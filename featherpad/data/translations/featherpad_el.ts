@@ -679,7 +679,8 @@
         <location filename="../../fpwin.cpp" line="100"/>
         <source>Calculate number of words
 (For huge texts, this may be CPU-intensive.)</source>
-        <translation type="unfinished"></translation>
+        <translation>Υπολογισμός αριθμού λέξεων
+(Για πάρα πολύ μεγάλα κείμενα, αυτό μπορεί να κάνει εντατική χρήση CPU.)</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="115"/>
@@ -880,7 +881,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="3165"/>
         <source>Keep encoding and save as...</source>
-        <translation type="unfinished"></translation>
+        <translation>Διατήρηση κωδικοποίησης και αποθήκευση ως...</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3482"/>
@@ -920,7 +921,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="3289"/>
         <source>This may be good for readability under MS Windows.</source>
-        <translation type="unfinished"></translation>
+        <translation>Αυτό μπορεί να είναι καλό για την αναγνωσιμότητα με τα MS Windows.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3393"/>
@@ -948,7 +949,7 @@
         <location filename="../../fpwin.cpp" line="6139"/>
         <location filename="../../fpwin.cpp" line="6147"/>
         <source>Syntax</source>
-        <translation type="unfinished"></translation>
+        <translation>Σύνταξη</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2680"/>
@@ -1040,12 +1041,12 @@
         <location filename="../../fpwin.cpp" line="5468"/>
         <location filename="../../fpwin.cpp" line="5607"/>
         <source>Open Containing Folder</source>
-        <translation type="unfinished"></translation>
+        <translation>Άνοιγμα περιέχοντος φακέλου</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5733"/>
         <source>You need to add a Hunspell dictionary.</source>
-        <translation type="unfinished"></translation>
+        <translation>Χρειάζεται να προσθέσετε ένα λεξικό Hunspell.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5734"/>
@@ -1057,7 +1058,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="5740"/>
         <source>The Hunspell dictionary does not exist.</source>
-        <translation type="unfinished"></translation>
+        <translation>Το λεξικό Hunspell δεν υπάρχει.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5750"/>
@@ -1096,12 +1097,12 @@
     <message>
         <location filename="../../fpwin.cpp" line="6207"/>
         <source>A lightweight, tabbed, plain-text editor</source>
-        <translation type="unfinished"></translation>
+        <translation>Ένας ελαφρύς επεξεργαστής απλού κειμένου, με καρτέλες</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="6208"/>
         <source>based on Qt</source>
-        <translation type="unfinished"></translation>
+        <translation>βασισμένος σε Qt</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="6209"/>
@@ -1318,7 +1319,7 @@ a menu button appears on the toolbar.</source>
     <message>
         <location filename="../../prefDialog.ui" line="211"/>
         <source>Do not show &amp;menubar</source>
-        <translation type="unfinished"></translation>
+        <translation>Να μην εμφανίζεται η γραμμή &amp;μενού</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="218"/>
@@ -1329,7 +1330,7 @@ The title also has a right click menu when a file is opened.</source>
     <message>
         <location filename="../../prefDialog.ui" line="222"/>
         <source>Show window title on menubar</source>
-        <translation type="unfinished"></translation>
+        <translation>Εμφάνιση τίτλου παραθύρου στη γραμμή μενού</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="229"/>
@@ -1371,12 +1372,12 @@ has a separate search history.</source>
     <message>
         <location filename="../../prefDialog.ui" line="268"/>
         <source>Always show st&amp;atus bar</source>
-        <translation type="unfinished"></translation>
+        <translation>Πάντα εμφάνιση γραμμής κατάστ&amp;ασης</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="293"/>
         <source>Show cursor position on status bar</source>
-        <translation type="unfinished"></translation>
+        <translation>Εμφάνιση θέσης δρομέα στη γραμμή κατάστασης</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="304"/>
@@ -1658,7 +1659,7 @@ and-drop either.</source>
     <message>
         <location filename="../../prefDialog.ui" line="498"/>
         <source>&amp;Wrap lines by default</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Αναδίπλωση γραμμών από προεπιλογή</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="505"/>
@@ -1683,7 +1684,7 @@ and-drop either.</source>
     <message>
         <location filename="../../prefDialog.ui" line="747"/>
         <source>Background color value: </source>
-        <translation type="unfinished"></translation>
+        <translation>Τιμή χρώματος παρασκηνίου: </translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="615"/>
@@ -1754,7 +1755,7 @@ MMM dd, yyyy, hh:mm:ss</source>
     <message>
         <location filename="../../prefDialog.ui" line="832"/>
         <source>Text tab size:</source>
-        <translation type="unfinished"></translation>
+        <translation>Μέγεθος καρτέλας κειμένου:</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="839"/>
@@ -1788,7 +1789,7 @@ name but ending with &quot;.aff&quot;.</source>
     <message>
         <location filename="../../prefDialog.ui" line="922"/>
         <source>Hunspell dictionary path:</source>
-        <translation type="unfinished"></translation>
+        <translation>Διαδρομή λεξικού Hunspell:</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="941"/>
@@ -1815,13 +1816,13 @@ will be started from the document start.</source>
     <message>
         <location filename="../../prefDialog.ui" line="1111"/>
         <source>Only if their number is not greater than 50.</source>
-        <translation type="unfinished"></translation>
+        <translation>Μόνο αν ο αριθμός τους δεν είναι μεγαλύτερος από 50.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1198"/>
         <location filename="../../prefDialog.ui" line="1208"/>
         <source>Only for files that exist and can be saved.</source>
-        <translation type="unfinished"></translation>
+        <translation>Μόνο για αρχεία που υπάρχουν και μπορούν να αποθηκευτούν.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1211"/>
@@ -1862,7 +1863,7 @@ be opened if they are pasted into FeatherPad.</source>
     <message>
         <location filename="../../prefDialog.ui" line="1271"/>
         <source>Paste paths instead of files</source>
-        <translation type="unfinished"></translation>
+        <translation>Επικόλληση διαδρομών αντί αρχείων</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1298"/>
@@ -1872,7 +1873,7 @@ be opened if they are pasted into FeatherPad.</source>
     <message>
         <location filename="../../prefDialog.ui" line="1320"/>
         <source>Action</source>
-        <translation type="unfinished"></translation>
+        <translation>Ενέργεια</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1325"/>
@@ -1930,7 +1931,7 @@ be opened if they are pasted into FeatherPad.</source>
     <message>
         <location filename="../../prefDialog.ui" line="1490"/>
         <source>Close</source>
-        <translation type="unfinished">Κλείσιμο</translation>
+        <translation>Κλείσιμο</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="105"/>
@@ -1941,7 +1942,7 @@ in the editing mode.</source>
     <message>
         <location filename="../../pref.cpp" line="111"/>
         <source>Double click a color to change it.</source>
-        <translation type="unfinished"></translation>
+        <translation>Διπλό κλικ σε ένα χρώμα για αλλαγή του.</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="347"/>
@@ -1984,7 +1985,7 @@ in the editing mode.</source>
     <message>
         <location filename="../../pref.cpp" line="451"/>
         <source>Types</source>
-        <translation type="unfinished"></translation>
+        <translation>Τύποι</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="452"/>
@@ -2019,12 +2020,12 @@ in the editing mode.</source>
     <message>
         <location filename="../../pref.cpp" line="639"/>
         <source>Application restart is needed for changes to take effect.</source>
-        <translation type="unfinished"></translation>
+        <translation>Χρειάζεται επανεκκίνηση της εφαρμογής για να τεθούν σε ισχύ οι αλλαγές.</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="660"/>
         <source>Window reopening is needed for changes to take effect.</source>
-        <translation type="unfinished"></translation>
+        <translation>Χρειάζεται εκ νέου άνοιγμα του παραθύρου για να τεθούν σε ισχύ οι αλλαγές.</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="1516"/>
@@ -2044,7 +2045,7 @@ in the editing mode.</source>
     <message>
         <location filename="../../pref.cpp" line="1796"/>
         <source>Hunspell Dictionary Files</source>
-        <translation type="unfinished"></translation>
+        <translation>Αρχεία λεξικού Hunspell</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="515"/>
@@ -2108,7 +2109,7 @@ in the editing mode.</source>
     <message>
         <location filename="../../sessionDialog.ui" line="45"/>
         <source>&lt;b&gt;Save/Restore Session&lt;/b&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;Αποθήκευση/Επαναφορά συνεδρίας&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="68"/>
@@ -2118,7 +2119,7 @@ in the editing mode.</source>
     <message>
         <location filename="../../sessionDialog.ui" line="81"/>
         <source>Open the selected session(s).</source>
-        <translation type="unfinished"></translation>
+        <translation>Άνοιγμα της(ων) επιλεγμένης(ων) συνεδρίας(ιών).</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="84"/>
@@ -2147,7 +2148,7 @@ windows will be included in the saved session.</source>
     <message>
         <location filename="../../sessionDialog.ui" line="175"/>
         <source>Save only from this &amp;window</source>
-        <translation type="unfinished"></translation>
+        <translation>Αποθήκευση μόνο από αυτό το &amp;παράθυρο</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="204"/>
@@ -2183,7 +2184,7 @@ windows will be included in the saved session.</source>
     <message>
         <location filename="../../sessionDialog.ui" line="147"/>
         <source>Save the current session under the given title.</source>
-        <translation type="unfinished"></translation>
+        <translation>Αποθήκευση της τρέχουσας συνεδρίας υπό το δοθέντα τίτλο.</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="150"/>
@@ -2198,17 +2199,17 @@ windows will be included in the saved session.</source>
     <message>
         <location filename="../../session.cpp" line="183"/>
         <source>Nothing saved.&lt;br&gt;No file was opened.</source>
-        <translation type="unfinished"></translation>
+        <translation>Δεν αποθηκεύτηκε τίποτε.&lt;br&gt;Δεν ανοίχτηκε κανένα αρχείο.</translation>
     </message>
     <message>
         <location filename="../../session.cpp" line="281"/>
         <source>No file exists or can be opened.</source>
-        <translation type="unfinished"></translation>
+        <translation>Δεν υπάρχει ή δε μπορεί να ανοιχτεί κανένα αρχείο.</translation>
     </message>
     <message>
         <location filename="../../session.cpp" line="283"/>
         <source>Not all files exist or can be opened.</source>
-        <translation type="unfinished"></translation>
+        <translation>Δεν υπάρχουν ή δε μπορούν να ανοιχτούν όλα τα αρχεία.</translation>
     </message>
     <message>
         <location filename="../../session.cpp" line="318"/>
@@ -2218,17 +2219,17 @@ windows will be included in the saved session.</source>
     <message>
         <location filename="../../session.cpp" line="337"/>
         <source>Do you really want to remove all saved sessions?</source>
-        <translation type="unfinished"></translation>
+        <translation>Θέλετε πραγματικά να αφαιρέσετε όλες τις αποθηκευμένες συνεδρίες;</translation>
     </message>
     <message>
         <location filename="../../session.cpp" line="343"/>
         <source>Do you really want to remove the selected sessions?</source>
-        <translation type="unfinished"></translation>
+        <translation>Θέλετε πραγματικά να αφαιρέσετε τις επιλεγμένες συνεδρίες;</translation>
     </message>
     <message>
         <location filename="../../session.cpp" line="345"/>
         <source>Do you really want to remove the selected session?</source>
-        <translation type="unfinished"></translation>
+        <translation>Θέλετε πραγματικά να αφαιρέσετε την επιλεγμένη συνεδρία;</translation>
     </message>
     <message>
         <location filename="../../session.cpp" line="350"/>
