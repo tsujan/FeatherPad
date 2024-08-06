@@ -6,7 +6,7 @@
     <message>
         <location filename="../../about.ui" line="173"/>
         <source>License</source>
-        <translation type="unfinished"></translation>
+        <translation>Licenca</translation>
     </message>
 </context>
 <context>
@@ -25,178 +25,179 @@
         <location filename="../../fpwin.cpp" line="5000"/>
         <location filename="../../fpwin.cpp" line="5259"/>
         <source>Untitled</source>
-        <translation type="unfinished"></translation>
+        <translation>Brez naslova</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="71"/>
         <source>Go to line:</source>
-        <translation type="unfinished"></translation>
+        <translation>Pojdi v vrstico:</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="107"/>
         <source>Select text from cursor to this line
 (Ctrl+Shift+J)</source>
-        <translation type="unfinished"></translation>
+        <translation>Izberi besedil od kazalke do te vrstice
+(Ctrl+Shift+J)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="111"/>
         <source>Select Text</source>
-        <translation type="unfinished"></translation>
+        <translation>Izberi besedilo</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="114"/>
         <source>Ctrl+Shift+J</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Shift+J</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="149"/>
         <source>&amp;File</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Datoteka</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="189"/>
         <location filename="../../fp.ui" line="787"/>
         <source>&amp;Edit</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Uredi</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="219"/>
         <source>&amp;Options</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Možnosti</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2953"/>
         <location filename="../../fpwin.cpp" line="4516"/>
         <source>Encoding</source>
-        <translation type="unfinished"></translation>
+        <translation>Kodiranje</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="242"/>
         <source>&amp;Search</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Iskanje</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="250"/>
         <location filename="../../fp.ui" line="709"/>
         <source>&amp;Help</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Pomoč</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="353"/>
         <source>Find:</source>
-        <translation type="unfinished"></translation>
+        <translation>Išči:</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="369"/>
         <source>To be replaced</source>
-        <translation type="unfinished"></translation>
+        <translation>Za zamenjavo</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="382"/>
         <source>Replace with:</source>
-        <translation type="unfinished"></translation>
+        <translation>Zamenjaj z:</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="398"/>
         <source>Replacing text</source>
-        <translation type="unfinished"></translation>
+        <translation>Nadomestno besedilo</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="457"/>
         <source>&amp;New</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">&amp;Nov</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="460"/>
         <source>New tab</source>
-        <translation type="unfinished"></translation>
+        <translation>Nov zavihek</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="463"/>
         <source>Ctrl+N</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+N</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="468"/>
         <source>&amp;Open</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Odpri</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="471"/>
         <source>Open a file</source>
-        <translation type="unfinished"></translation>
+        <translation>Odpri datoteko</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="474"/>
         <source>Ctrl+O</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+O</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="482"/>
         <location filename="../../fpwin.cpp" line="1367"/>
         <source>&amp;Save</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Shrani</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="485"/>
         <source>Save the current tab</source>
-        <translation type="unfinished"></translation>
+        <translation>Shrani trenutni zavihek</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="488"/>
         <source>Ctrl+S</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+S</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="496"/>
         <source>&amp;Undo</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Razveljavi</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="499"/>
         <source>Undo</source>
-        <translation type="unfinished"></translation>
+        <translation>Razveljavi</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="502"/>
         <source>Ctrl+Z</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Z</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="510"/>
         <source>&amp;Redo</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Uveljavi</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="513"/>
         <source>Redo</source>
-        <translation type="unfinished"></translation>
+        <translation>Uveljavi</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="516"/>
         <source>Ctrl+Shift+Z</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Shift+Z</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="524"/>
         <location filename="../../fp.ui" line="527"/>
         <source>Reload</source>
-        <translation type="unfinished"></translation>
+        <translation>Ponovno naloži</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="530"/>
         <source>Ctrl+Shift+R</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Shift+R</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="535"/>
         <source>&amp;Find</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Poišči</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="541"/>
         <source>Ctrl+F</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+F</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="549"/>
@@ -206,57 +207,57 @@
     <message>
         <location filename="../../fp.ui" line="552"/>
         <source>Ctrl+R</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+R</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="557"/>
         <source>Save &amp;As</source>
-        <translation type="unfinished"></translation>
+        <translation>Shrani &amp;kot</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="560"/>
         <source>Ctrl+Shift+S</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Shift+S</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="565"/>
         <source>&amp;Print</source>
-        <translation type="unfinished"></translation>
+        <translation>Na&amp;tisni</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="568"/>
         <source>Ctrl+P</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+P</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="573"/>
         <source>Documen&amp;t Properties</source>
-        <translation type="unfinished"></translation>
+        <translation>Lastnosti &amp;Dokumenta</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="576"/>
         <source>Ctrl+Shift+D</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Shift+D</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="581"/>
         <source>&amp;Close</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Zapri</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="584"/>
         <source>Ctrl+Shift+Q</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Shift+Q</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="589"/>
         <source>&amp;Quit</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Izhod</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="592"/>
         <source>Ctrl+Q</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Ctrl+Q</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="600"/>
