@@ -1053,7 +1053,7 @@
         <location filename="../../fpwin.cpp" line="5741"/>
         <location filename="../../fpwin.cpp" line="5751"/>
         <source>See Preferences → Text → Spell Checking!</source>
-        <translation type="unfinished"></translation>
+        <translation>Δείτε Προτιμήσεις → Κείμενο → Ορθογραφικός έλεγχος!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5740"/>
@@ -1070,7 +1070,7 @@
         <location filename="../../fpwin.cpp" line="5791"/>
         <location filename="../../fpwin.cpp" line="5806"/>
         <source>No misspelling in document.</source>
-        <translation type="unfinished"></translation>
+        <translation>Κανένα ορθογραφικό λάθος στο έγγραφο.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5775"/>
@@ -1082,7 +1082,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="5824"/>
         <source>Spell Checking</source>
-        <translation type="unfinished"></translation>
+        <translation>Ορθογραφικός έλεγχος</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="6171"/>
@@ -1298,7 +1298,7 @@ but without tab functionality.</source>
     <message>
         <location filename="../../prefDialog.ui" line="188"/>
         <source>Uncheck for 1/5 of the width.</source>
-        <translation type="unfinished"></translation>
+        <translation>Αποεπιλογή για 1/5 του πλάτους.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="191"/>
@@ -1383,7 +1383,7 @@ has a separate search history.</source>
         <location filename="../../prefDialog.ui" line="304"/>
         <location filename="../../prefDialog.ui" line="314"/>
         <source>Will take effect after closing this dialog.</source>
-        <translation type="unfinished"></translation>
+        <translation>Αυτό θα λάβει χώρα μετά το κλείσιμο αυτού του παραθύρου διαλόγου.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="307"/>
@@ -1468,7 +1468,7 @@ Some desktop environments, like KDE and LXQt, provide files dialogs.</source>
     <message>
         <location filename="../../prefDialog.ui" line="512"/>
         <source>This covers parentheses, braces, brackets and quotes.</source>
-        <translation type="unfinished"></translation>
+        <translation>Αυτό περιλαμβάνει παρενθέσεις, άγκιστρα, αγκύλες και εισαγωγικά.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="515"/>
@@ -1551,12 +1551,13 @@ the editor font has a fixed pitch (like Monospace).</source>
         <location filename="../../prefDialog.ui" line="873"/>
         <source>Some text editors cannot open a document
 whose last line is not empty.</source>
-        <translation type="unfinished"></translation>
+        <translation>Κάποιοι επεξεργαστές κειμένου δε μπορούν να ανοίξουν ένα έγγραφο
+του οποίου η τελευταία γραμμή δεν είναι κενή.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="877"/>
         <source>Ensure an empty last line on saving</source>
-        <translation type="unfinished"></translation>
+        <translation>Εξασφάλιση κενής τελευταίας γραμμής κατά την αποθήκευση</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="884"/>
@@ -1644,7 +1645,7 @@ and-drop either.</source>
     <message>
         <location filename="../../prefDialog.ui" line="378"/>
         <source>&amp;Do not show a single tab</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Να μην εμφανίζεται η μοναδική καρτέλα</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="443"/>
@@ -1701,12 +1702,19 @@ executable, the file will be executed by clicking
 the Run button, that appears on the toolbar/filemenu
 when needed, or by its shortcut Ctrl+E. Then, the
 process could be killed by Ctrl+Alt+E.</source>
-        <translation type="unfinished"></translation>
+        <translation>Αυτό περιλαμβάνει μόνο εκτελέσιμα αρχεία γραμμένα
+σε γλώσσες σεναρίων όπως Shell και Python.
+
+Αν αυτό είναι αποεπιλεγμένο και το ανοιγμένο αρχείο είναι
+εκτελέσιμο, το αρχείο θα εκτελεστεί κάνοντας κλικ
+στο κουμπί Εκτέλεση, που εμφανίζεται στη γραμμή εργαλείων/στο μενού αρχείου
+όταν χρειάζεται, ή μέσω της συντόμευσης Ctrl+E. Τότε, 
+η διεργασία θα μπορούσε να τερματιστεί με Ctrl+Alt+E.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="709"/>
         <source>Needs window reopening to take effect.</source>
-        <translation type="unfinished"></translation>
+        <translation>Χρειάζεται εκ νέου άνοιγμα του παραθύρου για να λάβει χώρα.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="737"/>
@@ -1719,7 +1727,14 @@ between 230 and 255; for the dark
 background, between 0 and 50.
 
 Needs window reopening to take effect.</source>
-        <translation type="unfinished"></translation>
+        <translation>Η τιμή χρώματος του παρασκηνίου.
+Το 255 σημαίνει λευκό ενώ το 0 σημαίνει μαύρο.
+
+Για το λευκό παρασκήνιο, αυτή μπορεί να είναι
+ανάμεσα σε 230 και 255· για το μαύρο
+παρασκήνιο, ανάμεσα σε 0 και 50.
+
+Χρειάζεται εκ νέου άνοιγμα του παραθύρου γισ να λάβει χώρα.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1131"/>
@@ -1739,7 +1754,7 @@ Needs application restart to take effect.</source>
     <message>
         <location filename="../../prefDialog.ui" line="786"/>
         <source>Add a small margin around text</source>
-        <translation type="unfinished"></translation>
+        <translation>Προσθήλη ενός μικρού περιθωρίου γύρω από κείμενο</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="795"/>
@@ -1760,7 +1775,7 @@ MMM dd, yyyy, hh:mm:ss</source>
     <message>
         <location filename="../../prefDialog.ui" line="839"/>
         <source> spaces</source>
-        <translation type="unfinished"></translation>
+        <translation> κενά</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="891"/>
@@ -1776,7 +1791,7 @@ if the cursor is inside the text view?</source>
     <message>
         <location filename="../../prefDialog.ui" line="909"/>
         <source>Spell Checking</source>
-        <translation type="unfinished"></translation>
+        <translation>Ορθογραφικός έλεγχος</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="917"/>
@@ -1801,7 +1816,8 @@ name but ending with &quot;.aff&quot;.</source>
         <location filename="../../prefDialog.ui" line="953"/>
         <source>If this is unchecked, spell checking
 will be started from the document start.</source>
-        <translation type="unfinished"></translation>
+        <translation>Αν αποεπιλεγεί αυτό, ο ορθογραφικός έλεγχος
+θα ξεκινήσει από την αρχή του εγγράφου.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="957"/>
@@ -1847,18 +1863,19 @@ trailing spaces of a text file.</source>
     <message>
         <location filename="../../prefDialog.ui" line="1257"/>
         <source>Show a warning instead.</source>
-        <translation type="unfinished"></translation>
+        <translation>Προβολή προειδοποίησης αντ&apos; αυτού.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1260"/>
         <source>Do not permit opening of non-text files</source>
-        <translation type="unfinished"></translation>
+        <translation>Να μην επιτρέπεται το άνοιγμα αρχείων μη κειμένου</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1267"/>
         <source>By default, when files are copied, they will
 be opened if they are pasted into FeatherPad.</source>
-        <translation type="unfinished"></translation>
+        <translation>Από προειπιλογή, όταν αντιγράφονται αρχεία, αυτά
+θα ανοίγονται αν επικολληθούν στο FeatherPad.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1271"/>
@@ -2114,7 +2131,7 @@ in the editing mode.</source>
     <message>
         <location filename="../../sessionDialog.ui" line="68"/>
         <source>Filter...</source>
-        <translation type="unfinished"></translation>
+        <translation>Φίλτρο...</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="81"/>
@@ -2143,7 +2160,8 @@ in the editing mode.</source>
         <location filename="../../sessionDialog.ui" line="171"/>
         <source>By default, all files that are opened in all
 windows will be included in the saved session.</source>
-        <translation type="unfinished"></translation>
+        <translation>Από προεπιλογή, όλα τα αρχεία που είναι ανοιγμένα σε όλα
+τα παράθυρα θα συμπεριληφθούν στην αποθηκευμένη συνεδρία.</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="175"/>
@@ -2194,7 +2212,7 @@ windows will be included in the saved session.</source>
     <message>
         <location filename="../../sessionDialog.ui" line="161"/>
         <source>Type a name to save session</source>
-        <translation type="unfinished"></translation>
+        <translation>Πληκτρολογήστε ένα όνομα για αποθήκευση συνδερίας</translation>
     </message>
     <message>
         <location filename="../../session.cpp" line="183"/>
@@ -2234,7 +2252,7 @@ windows will be included in the saved session.</source>
     <message>
         <location filename="../../session.cpp" line="350"/>
         <source>A session with the same name exists.&lt;br&gt;Do you want to overwrite it?</source>
-        <translation type="unfinished"></translation>
+        <translation>Υπάρχει ήδη μια συνεδρία με το ίδιο όνομα.&lt;br&gt;Θέλετε να την αντικαταστήσετε;</translation>
     </message>
 </context>
 <context>
@@ -2242,7 +2260,7 @@ windows will be included in the saved session.</source>
     <message>
         <location filename="../../sidepane.cpp" line="196"/>
         <source>Filter...</source>
-        <translation type="unfinished"></translation>
+        <translation>Φίλτρο...</translation>
     </message>
 </context>
 <context>
@@ -2288,7 +2306,7 @@ windows will be included in the saved session.</source>
     <message>
         <location filename="../../textedit.cpp" line="147"/>
         <source>Double click to center current line</source>
-        <translation type="unfinished"></translation>
+        <translation>Διπλό κλικ για κεντράρισμα τρέχουσας γραμμής</translation>
     </message>
 </context>
 </TS>
