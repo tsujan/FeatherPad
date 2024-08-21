@@ -1327,19 +1327,20 @@ vises en menuknap på værktøjslinjen.</translation>
         <location filename="../../prefDialog.ui" line="218"/>
         <source>Double clicking on the title toggles the maximized state.
 The title also has a right click menu when a file is opened.</source>
-        <translation type="unfinished"></translation>
+        <translation>Dobbeltklik på titlen skifter til den maksimerede tilstand.
+Titlen har også en højrekliksmenu, når en fil åbnes.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="222"/>
         <source>Show window title on menubar</source>
-        <translation type="unfinished"></translation>
+        <translation>Vis vinduets titel på menulinjen</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="229"/>
         <source>Menubar accelerators are activated by Alt
 and may interfere with customized shortcuts.</source>
-        <translation>Menubar acceleratorer aktiveres med Alt knappen
-og kan forstyrre tilpassede genveje</translation>
+        <translation>Menulinjeacceleratorer aktiveres af Alt
+og kan forstyrre tilpassede genveje.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="233"/>
@@ -1790,7 +1791,7 @@ Programmet skal genstartes før ændringerne træder i kraft.</translation>
     <message>
         <location filename="../../prefDialog.ui" line="786"/>
         <source>Add a small margin around text</source>
-        <translation type="unfinished"></translation>
+        <translation>Tilføj en lille margen omkring tekst</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="795"/>
