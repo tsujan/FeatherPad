@@ -57,5 +57,6 @@ Name=Standalone Window
 Name[de]=Eigenständiges Fenster
 Name[eo]=Memstara Fenestro
 Name[fa]=پنجره‌ی جدا
+Name[it]=Finestra indipendente
 Name[sv]=Fristående Fönster
 Exec=featherpad --standalone
