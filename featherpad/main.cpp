@@ -20,7 +20,10 @@
 #include <QDir>
 #include <QTextStream>
 #include "singleton.h"
+
+#if !defined(Q_OS_WIN)
 #include "signalDaemon.h"
+#endif
 
 #ifdef HAS_X11
 #include "x11.h"
@@ -97,11 +100,13 @@ int main (int argc, char **argv)
 
     QTranslator FPTranslator;
 #if defined(Q_OS_HAIKU)
-    if (FPTranslator.load ("featherpad_" + lang, QStringLiteral (DATADIR) + "/../translations"))
+    if (FPTranslator.load ("featherpad_" + lang, QStringLiteral(DATADIR) + "/../translations"))
 #elif defined(Q_OS_MAC)
-    if (FPTranslator.load ("featherpad_" + lang, singleton.applicationDirPath() + QStringLiteral ("/../Resources/translations/")))
+    if (FPTranslator.load ("featherpad_" + lang, singleton.applicationDirPath() + QStringLiteral("/../Resources/translations/")))
+#elif defined(Q_OS_WIN)
+    if (FPTranslator.load ("featherpad_" + lang, qApp->applicationDirPath() + "/data/translations"))
 #else
-    if (FPTranslator.load ("featherpad_" + lang, QStringLiteral (DATADIR) + "/featherpad/translations"))
+    if (FPTranslator.load ("featherpad_" + lang, QStringLiteral(DATADIR) + "/featherpad/translations"))
 #endif
     {
         singleton.installTranslator (&FPTranslator);
@@ -123,11 +128,13 @@ int main (int argc, char **argv)
         return 0;
     }
 
+#if !defined(Q_OS_WIN)
     // Handle SIGQUIT, SIGINT, SIGTERM and SIGHUP (-> https://en.wikipedia.org/wiki/Unix_signal).
     FeatherPad::signalDaemon D;
     D.watchUnixSignals();
     QObject::connect (&D, &FeatherPad::signalDaemon::sigQUIT,
                       &singleton, &FeatherPad::FPsingleton::quitSignalReceived);
+#endif
 
     QObject::connect (&singleton, &QCoreApplication::aboutToQuit, &singleton, &FeatherPad::FPsingleton::quitting);
     singleton.firstWin (info);

@@ -7,7 +7,9 @@ endif()
 
 add_definitions(-Wall)
 
-if(CMAKE_INSTALL_PREFIX_INITIALIZED_TO_DEFAULT)
+if(WIN32)
+  set(CMAKE_INSTALL_PREFIX "${CMAKE_CURRENT_BINARY_DIR}/dist/FeatherPad")
+elseif(CMAKE_INSTALL_PREFIX_INITIALIZED_TO_DEFAULT)
   if(HAIKU)
     set(CMAKE_INSTALL_PREFIX "/boot/home/config/non-packaged/apps/FeatherPad")
   elseif(APPLE)

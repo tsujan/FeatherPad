@@ -1,7 +1,7 @@
 set(QT6_MINIMUM_VERSION "6.2.0")
 set(HUNSPELL_MINIMUM_VERSION "1.6")
 
-set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${CMAKE_SOURCE_DIR}/cmake/Modules/")
+set(CMAKE_MODULE_PATH "${CMAKE_MODULE_PATH}" "${CMAKE_SOURCE_DIR}/cmake/Modules/")
 
 find_package(Qt6 "${QT6_MINIMUM_VERSION}" REQUIRED COMPONENTS Core Gui Widgets Svg PrintSupport DBus)
 
@@ -17,10 +17,12 @@ elseif(OS2)
   # OS/2 needs an additional lib and tune the processor
   add_definitions(-mtune=pentium4 -march=pentium4)
   set(CMAKE_EXE_LINKER_FLAGS  "${CMAKE_EXE_LINKER_FLAGS} -lcx")
+elseif(WIN32)
+  set(CMAKE_EXE_LINKER_FLAGS  "${CMAKE_EXE_LINKER_FLAGS} -Wl,--subsystem,windows")
 endif()
 
 # X11 for Linux/Unix
-if(NOT WITHOUT_X11 AND UNIX AND NOT APPLE AND NOT HAIKU)
+if(NOT WITHOUT_X11 AND UNIX AND NOT APPLE AND NOT HAIKU AND NOT WIN32)
   find_package(X11 REQUIRED)
 endif()
 
@@ -60,7 +62,6 @@ endif()
 set(featherpad_SRCS
     main.cpp
     singleton.cpp
-    signalDaemon.cpp
     fpwin.cpp
     encoding.cpp
     tabwidget.cpp
@@ -107,8 +108,12 @@ set(featherpad_SRCS
     highlighter/highlighter-xml.cpp
     highlighter/highlighter-yaml.cpp)
 
-if(NOT WITHOUT_X11 AND UNIX AND NOT APPLE AND NOT HAIKU)
+if(NOT WITHOUT_X11 AND UNIX AND NOT APPLE AND NOT HAIKU AND NOT WIN32)
   set(featherpad_SRCS ${featherpad_SRCS} x11.cpp)
+endif()
+
+if(NOT WIN32)
+  set(featherpad_SRCS ${featherpad_SRCS} signalDaemon.cpp)
 endif()
 
 qt6_add_dbus_adaptor(featherpad_DBUS_SRCS
@@ -122,13 +127,15 @@ qt6_add_dbus_adaptor(featherpad_DBUS_SRCS
 set(featherpad_RESOURCES data/fp.qrc)
 set(DESKTOP_FILE data/featherpad.desktop)
 set(METAINFO_FILE data/featherpad.metainfo.xml)
-if(NOT OS2)
-  set(ICON_FILE data/featherpad.svg)
-else()
+
+if(OS2)
   enable_language(RC)
   set_source_files_properties(data/featherpad_os2.rc PROPERTIES LANGUAGE RC)
   set(featherpad_SRCS ${featherpad_SRCS} data/featherpad_os2.rc)
+elseif(NOT WIN32)
+  set(ICON_FILE data/featherpad.svg)
 endif()
+
 set(HELP_FILE data/help)
 file(GLOB HELP_TR_FILES data/help_*)
 
@@ -145,12 +152,14 @@ if(Qt6LinguistTools_FOUND)
     SET_SOURCE_FILES_PROPERTIES(${QM_FILES} PROPERTIES MACOSX_PACKAGE_LOCATION Resources/translations)
   elseif(UNIX OR OS2)
     install(FILES ${QM_FILES} DESTINATION "${CMAKE_INSTALL_PREFIX}/share/featherpad/translations")
+  elseif(WIN32)
+    install(FILES ${QM_FILES} DESTINATION "${CMAKE_INSTALL_PREFIX}/data/translations")
   endif()
 else(Qt6LinguistTools_FOUND)
   add_executable(featherpad ${featherpad_SRCS} ${featherpad_DBUS_SRCS} ${featherpad_RESOURCES} ${EXTRA_HEADERS} ${DESKTOP_FILE})
 endif(Qt6LinguistTools_FOUND)
 
-if(NOT WITHOUT_X11 AND UNIX AND NOT APPLE AND NOT HAIKU)
+if(NOT WITHOUT_X11 AND UNIX AND NOT APPLE AND NOT HAIKU AND NOT WIN32)
   target_link_libraries(featherpad ${Qt6Core_LIBRARIES}
                                    ${Qt6Gui_LIBRARIES}
                                    ${Qt6Widgets_LIBRARIES}
@@ -159,6 +168,15 @@ if(NOT WITHOUT_X11 AND UNIX AND NOT APPLE AND NOT HAIKU)
                                    ${Qt6DBus_LIBRARIES}
                                    ${X11_LIBRARIES}
                                    ${HUNSPELL_LIBRARIES})
+elseif(WIN32)
+  target_link_libraries(featherpad ${Qt6Core_LIBRARIES}
+                                   ${Qt6Gui_LIBRARIES}
+                                   ${Qt6Widgets_LIBRARIES}
+                                   ${Qt6Svg_LIBRARIES}
+                                   ${Qt6PrintSupport_LIBRARIES}
+                                   ${Qt6DBus_LIBRARIES}
+                                   ${HUNSPELL_LIBRARIES}
+                                   ${CMAKE_CURRENT_SOURCE_DIR}/data/featherpad_win.o)
 else()
   target_link_libraries(featherpad ${Qt6Core_LIBRARIES}
                                    ${Qt6Gui_LIBRARIES}
@@ -174,6 +192,7 @@ if(HAIKU)
   install(TARGETS featherpad RUNTIME DESTINATION ${CMAKE_INSTALL_PREFIX})
   install(FILES ${HELP_FILE} DESTINATION "${CMAKE_INSTALL_PREFIX}/data")
   install(FILES ${HELP_TR_FILES} DESTINATION "${CMAKE_INSTALL_PREFIX}/data")
+
 elseif(APPLE)
   SET_TARGET_PROPERTIES(featherpad PROPERTIES RESOURCE ${HELP_FILE})
   SET_TARGET_PROPERTIES(featherpad PROPERTIES RESOURCE ${HELP_TR_FILES})
@@ -181,6 +200,7 @@ elseif(APPLE)
   SET_SOURCE_FILES_PROPERTIES(FILES ${HELP_TR_FILES} PROPERTIES MACOSX_PACKAGE_LOCATION Resources/helps)
   SET_TARGET_PROPERTIES(featherpad PROPERTIES MACOSX_BUNDLE TRUE)
   INSTALL(TARGETS featherpad DESTINATION ${CMAKE_INSTALL_PREFIX})
+
 elseif(UNIX)
   # make symlink
   add_custom_target(fpad_symlink ALL ${CMAKE_COMMAND} -E create_symlink featherpad fpad DEPENDS featherpad COMMENT "Creating fpad as a symlink to featherpad")
@@ -194,12 +214,47 @@ elseif(UNIX)
   install(FILES ${HELP_TR_FILES} DESTINATION "${CMAKE_INSTALL_PREFIX}/share/featherpad")
   # install symlink
   install(FILES ${CMAKE_CURRENT_BINARY_DIR}/fpad DESTINATION ${CMAKE_INSTALL_PREFIX}/bin)
+
 elseif(OS2)
   SET_TARGET_PROPERTIES(featherpad PROPERTIES
-  	OS2_DEF_EXEType "WINDOWAPI"
+    OS2_DEF_EXEType "WINDOWAPI"
   )
   install(TARGETS featherpad RUNTIME DESTINATION ${CMAKE_INSTALL_PREFIX}/bin)
   install(FILES ${HELP_FILE} DESTINATION "${CMAKE_INSTALL_PREFIX}/share/featherpad")
   # also install translated help files
   install(FILES ${HELP_TR_FILES} DESTINATION "${CMAKE_INSTALL_PREFIX}/share/featherpad")
+
+elseif(WIN32)
+  add_custom_target(
+    clean_dist ALL
+    ${CMAKE_COMMAND} -E remove_directory "${CMAKE_INSTALL_PREFIX}"
+  )
+
+  install(TARGETS featherpad RUNTIME DESTINATION ${CMAKE_INSTALL_PREFIX})
+  install(FILES ${HELP_FILE} DESTINATION "${CMAKE_INSTALL_PREFIX}/data")
+  install(FILES ${HELP_TR_FILES} DESTINATION "${CMAKE_INSTALL_PREFIX}/data")
+  install(FILES ${CMAKE_CURRENT_SOURCE_DIR}/win/qt.conf DESTINATION "${CMAKE_INSTALL_PREFIX}/")
+
+  add_custom_target(
+    copy_scripts ALL
+    ${CMAKE_COMMAND} -E copy
+    "${CMAKE_CURRENT_SOURCE_DIR}/win/copy-win-dlls.sh" "${CMAKE_CURRENT_SOURCE_DIR}/win/make_installer.cmd" "${CMAKE_CURRENT_SOURCE_DIR}/win/make-installer.nsi"
+    ${CMAKE_BINARY_DIR}/
+  )
+
+  install(CODE [[
+    execute_process(
+      COMMAND
+        bash "copy-win-dlls.sh"
+      WORKING_DIRECTORY
+        ${CMAKE_BINARY_DIR}
+    )
+    execute_process(
+      COMMAND
+        "cmd.exe" /c make_installer.cmd
+      WORKING_DIRECTORY
+        ${CMAKE_BINARY_DIR}
+    )
+  ]])
+
 endif()

@@ -6252,6 +6252,8 @@ void FPwin::helpDoc()
     QString helpPath (QStringLiteral (DATADIR) + "/help_" + lang);
 #elif defined (Q_OS_MAC)
     QString helpPath (qApp->applicationDirPath() + QStringLiteral ("/../Resources/") + "/help_" + lang);
+#elif defined(Q_OS_WIN)
+    QString helpPath (qApp->applicationDirPath() + "/data/help_" + lang);
 #else
     QString helpPath (QStringLiteral (DATADIR) + "/featherpad/help_" + lang);
 #endif
@@ -6263,6 +6265,8 @@ void FPwin::helpDoc()
         helpPath = QStringLiteral (DATADIR) + "/help_" + lang;
 #elif defined(Q_OS_MAC)
         helpPath = qApp->applicationDirPath() + QStringLiteral ("/../Resources/") + "/help_" + lang;
+#elif defined(Q_OS_WIN)
+        helpPath = qApp->applicationDirPath() + "/data/help_" + lang;
 #else
         helpPath = QStringLiteral (DATADIR) + "/featherpad/help_" + lang;
 #endif
@@ -6274,6 +6278,8 @@ void FPwin::helpDoc()
         helpPath =  QStringLiteral (DATADIR) + "/help";
 #elif defined(Q_OS_MAC)
         helpPath = qApp->applicationDirPath() + QStringLiteral ("/../Resources/") + "/help";
+#elif defined(Q_OS_WIN)
+        helpPath = qApp->applicationDirPath() + "/data/help";
 #else
         helpPath =  QStringLiteral (DATADIR) + "/featherpad/help";
 #endif
