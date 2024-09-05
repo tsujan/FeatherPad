@@ -1,4 +1,4 @@
-# FeatherPad
+# FeatherPad (for Windows)
 
 ## Overview
 
