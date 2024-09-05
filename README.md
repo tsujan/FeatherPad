@@ -4,7 +4,7 @@
 
 [FeatherPad](https://github.com/tsujan/FeatherPad) (by Pedram Pourang, a.k.a. Tsu Jan <tsujan2000@gmail.com>) is a lightweight Qt plain-text editor for Linux. 
 
-The only purpose of this clone is to add the ability to compile it for Windows, using MSYS2 and MINGW64.
+The only purpose of this fork is to add the ability to compile it for Windows, using MSYS2 and MINGW64.
 
 ## Requirements for Windows
 * MSYS2 with MINGW64
