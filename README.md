@@ -9,7 +9,8 @@ The only purpose of this fork is to add the ability to compile it for Windows, u
 ## Requirements for Windows
 * MSYS2 with MINGW64
 * $ pacman -S mingw-w64-x86_64-qt6-base mingw-w64-x86_64-qt6-svg mingw-w64-x86_64-hunspell mingw-w64-x86_64-qt6-tools pkg-config
-* CMake installed natively at default location C:\Program Files\CMake\bin (the MSYS2 cmake version didn't work for me)
+* CMake installed natively for Windows  
+  (the MSYS2 CMake version didn't work for me, but maybe that could be fixed somehow)
 * Optional: 7-zip installed at default location C:\Program Files\7-Zip
 * Optional: NSIS installed at default location C:\Program Files (x86)\NSIS
 
