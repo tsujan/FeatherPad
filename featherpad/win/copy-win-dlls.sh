@@ -7,7 +7,6 @@ cp /mingw64/bin/libb2-1.dll dist/FeatherPad/
 cp /mingw64/bin/libbrotlicommon.dll dist/FeatherPad/
 cp /mingw64/bin/libbrotlidec.dll dist/FeatherPad/
 cp /mingw64/bin/libbz2-1.dll dist/FeatherPad/
-cp /mingw64/bin/libdbus-1-3.dll dist/FeatherPad/
 cp /mingw64/bin/libdouble-conversion.dll dist/FeatherPad/
 cp /mingw64/bin/libfreetype-6.dll dist/FeatherPad/
 cp /mingw64/bin/libgcc_s_seh-1.dll dist/FeatherPad/
@@ -28,7 +27,6 @@ cp /mingw64/bin/libstdc++-6.dll dist/FeatherPad/
 cp /mingw64/bin/libwinpthread-1.dll dist/FeatherPad/
 cp /mingw64/bin/libzstd.dll dist/FeatherPad/
 cp /mingw64/bin/Qt6Core.dll dist/FeatherPad/
-cp /mingw64/bin/Qt6DBus.dll dist/FeatherPad/
 cp /mingw64/bin/Qt6Gui.dll dist/FeatherPad/
 cp /mingw64/bin/Qt6PrintSupport.dll dist/FeatherPad/
 cp /mingw64/bin/Qt6Svg.dll dist/FeatherPad/

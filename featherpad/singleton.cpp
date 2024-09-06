@@ -20,8 +20,10 @@
 #include <QDir>
 #include <QScreen>
 #include <QDialog>
+#ifndef Q_OS_WIN
 #include <QDBusConnection>
 #include <QDBusInterface>
+#endif
 
 #if defined Q_OS_LINUX || defined Q_OS_FREEBSD || defined Q_OS_OPENBSD || defined Q_OS_NETBSD || defined Q_OS_HURD
 #include <unistd.h> // for geteuid()
@@ -36,8 +38,10 @@
 
 namespace FeatherPad {
 
+#ifndef Q_OS_WIN
 static const char *serviceName = "org.featherpad.FeatherPad";
 static const char *ifaceName = "org.featherpad.Application";
+#endif
 
 FPsingleton::FPsingleton (int &argc, char **argv) : QApplication (argc, argv)
 {
@@ -75,6 +79,7 @@ void FPsingleton::init (bool standalone)
     isPrimaryInstance_ = standalone;
     if (!standalone_)
     {
+#ifndef Q_OS_WIN
         QDBusConnection dbus = QDBusConnection::sessionBus();
         if (!dbus.isConnected()) // interpret it as the lack of D-Bus
         {
@@ -87,6 +92,10 @@ void FPsingleton::init (bool standalone)
             new FeatherPadAdaptor (this);
             dbus.registerObject (QStringLiteral ("/Application"), this);
         }
+#else
+        isPrimaryInstance_ = true;
+        standalone_ = true;
+#endif
     }
 }
 /*************************/
@@ -110,16 +119,21 @@ void FPsingleton::quitSignalReceived()
 /*************************/
 void FPsingleton::sendInfo (const QStringList &info)
 {
+#ifndef Q_OS_WIN
     QDBusConnection dbus = QDBusConnection::sessionBus();
     QDBusInterface iface (QLatin1String (serviceName),
                           QStringLiteral ("/Application"),
                           QLatin1String (ifaceName), dbus, this);
     iface.call (QStringLiteral ("handleInfo"), info);
+#else
+	handleInfo(info);
+#endif
 }
 /*************************/
 // Called only in standalone mode.
 void FPsingleton::sendRecentFile (const QString &file, bool recentOpened)
 {
+#ifndef Q_OS_WIN
     QDBusMessage methodCall =
     QDBusMessage::createMethodCall (QLatin1String (serviceName),
                                     QStringLiteral ("/Application"),
@@ -131,6 +145,7 @@ void FPsingleton::sendRecentFile (const QString &file, bool recentOpened)
     args.append (recentOpened);
     methodCall.setArguments (args);
     QDBusConnection::sessionBus().call (methodCall, QDBus::NoBlock, 1000);
+#endif
 }
 /*************************/
 bool FPsingleton::cursorInfo (const QString &commndOpt, int &lineNum, int &posInLine)
@@ -235,7 +250,7 @@ QStringList FPsingleton::processInfo (const QStringList &info,
         if (!path.isEmpty()) // no empty path/name
         {
             QString realPath = path;
-#ifdef __OS2__
+#if defined(__OS2__) || defined(Q_OS_WIN)
             /* Check whether the file path begins with a driverletter + ':'.
                QUrl mistakes that for a scheme. */
             if (path.indexOf (QRegularExpression ("^[A-Za-z]:")) != -1)

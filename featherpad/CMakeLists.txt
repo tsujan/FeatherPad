@@ -3,7 +3,11 @@ set(HUNSPELL_MINIMUM_VERSION "1.6")
 
 set(CMAKE_MODULE_PATH "${CMAKE_MODULE_PATH}" "${CMAKE_SOURCE_DIR}/cmake/Modules/")
 
-find_package(Qt6 "${QT6_MINIMUM_VERSION}" REQUIRED COMPONENTS Core Gui Widgets Svg PrintSupport DBus)
+if(WIN32)
+  find_package(Qt6 "${QT6_MINIMUM_VERSION}" REQUIRED COMPONENTS Core Gui Widgets Svg PrintSupport)
+else()
+  find_package(Qt6 "${QT6_MINIMUM_VERSION}" REQUIRED COMPONENTS Core Gui Widgets Svg PrintSupport DBus)
+endif()
 
 # for spell checking (see FindHUNSPELL.cmake)
 find_package(HUNSPELL "${HUNSPELL_MINIMUM_VERSION}" REQUIRED)
@@ -31,7 +35,15 @@ set(CMAKE_AUTOUIC ON)
 set(CMAKE_AUTORCC ON)
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
 
-if(NOT WITHOUT_X11 AND UNIX AND NOT APPLE AND NOT HAIKU)
+if(WIN32)
+  include_directories(${CMAKE_SOURCE_DIR} ${CMAKE_CURRENT_BINARY_DIR}
+                      ${Qt6Core_INCLUDE_DIRS}
+                      ${Qt6Gui_INCLUDE_DIRS}
+                      ${Qt6Widgets_INCLUDE_DIRS}
+                      ${Qt6Svg_INCLUDE_DIRS}
+                      ${Qt6PrintSupport_INCLUDE_DIRS}
+                      ${HUNSPELL_INCLUDE_DIRS})
+elseif(NOT WITHOUT_X11 AND UNIX AND NOT APPLE AND NOT HAIKU)
   include_directories(${CMAKE_SOURCE_DIR} ${CMAKE_CURRENT_BINARY_DIR}
                       ${Qt6Core_INCLUDE_DIRS}
                       ${Qt6Gui_INCLUDE_DIRS}
@@ -116,6 +128,7 @@ if(NOT WIN32)
   set(featherpad_SRCS ${featherpad_SRCS} signalDaemon.cpp)
 endif()
 
+if(NOT WIN32)
 qt6_add_dbus_adaptor(featherpad_DBUS_SRCS
     org.featherpad.Application.xml
     singleton.h
@@ -123,6 +136,7 @@ qt6_add_dbus_adaptor(featherpad_DBUS_SRCS
     featherpadadaptor
     FeatherPadAdaptor
 )
+endif()
 
 set(featherpad_RESOURCES data/fp.qrc)
 set(DESKTOP_FILE data/featherpad.desktop)
@@ -174,7 +188,6 @@ elseif(WIN32)
                                    ${Qt6Widgets_LIBRARIES}
                                    ${Qt6Svg_LIBRARIES}
                                    ${Qt6PrintSupport_LIBRARIES}
-                                   ${Qt6DBus_LIBRARIES}
                                    ${HUNSPELL_LIBRARIES}
                                    ${CMAKE_CURRENT_SOURCE_DIR}/data/featherpad_win.o)
 else()

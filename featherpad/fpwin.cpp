@@ -50,8 +50,10 @@
 #include <QStandardPaths>
 #include <QDesktopServices>
 #include <QPushButton>
+#ifndef Q_OS_WIN
 #include <QDBusConnection> // for opening containing folder
 #include <QDBusMessage> // for opening containing folder
+#endif
 #include <QStringDecoder>
 
 #ifdef HAS_X11
@@ -5466,7 +5468,9 @@ void FPwin::tabContextMenu (const QPoint& p)
                                                   ? QIcon::fromTheme ("folder")
                                                   : symbolicIcon::icon (":icons/document-open.svg"),
                                               tr ("Open Containing Folder"));
+
             connect (action, &QAction::triggered, this, [fname] {
+#ifndef Q_OS_WIN
                 QDBusMessage methodCall =
                 QDBusMessage::createMethodCall (QStringLiteral ("org.freedesktop.FileManager1"),
                                                 QStringLiteral ("/org/freedesktop/FileManager1"),
@@ -5489,6 +5493,10 @@ void FPwin::tabContextMenu (const QPoint& p)
                         QDesktopServices::openUrl (QUrl::fromLocalFile (folder));
                     }
                 }
+#else
+				QString folder = fname.section ("/", 0, -2);
+        		QDesktopServices::openUrl (QUrl::fromLocalFile (folder));
+#endif
             });
         }
     }
@@ -5606,6 +5614,7 @@ void FPwin::listContextMenu (const QPoint& p)
                                                   : symbolicIcon::icon (":icons/document-open.svg"),
                                               tr ("Open Containing Folder"));
             connect (action, &QAction::triggered, this, [fname] {
+#ifndef Q_OS_WIN
                 QDBusMessage methodCall =
                 QDBusMessage::createMethodCall (QStringLiteral ("org.freedesktop.FileManager1"),
                                                 QStringLiteral ("/org/freedesktop/FileManager1"),
@@ -5626,6 +5635,10 @@ void FPwin::listContextMenu (const QPoint& p)
                         QDesktopServices::openUrl (QUrl::fromLocalFile (folder));
                     }
                 }
+#else
+				QString folder = fname.section ("/", 0, -2);
+                QDesktopServices::openUrl (QUrl::fromLocalFile (folder));
+#endif
             });
         }
     }

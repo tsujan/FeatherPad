@@ -49,6 +49,7 @@ int main (int argc, char **argv)
     if (!args.isEmpty())
         firstArg = args.at (0);
 
+#ifdef Q_OS_WIN
     if (firstArg == "--help" || firstArg == "-h")
     {
         QTextStream out (stdout);
@@ -79,6 +80,7 @@ int main (int argc, char **argv)
         out << name << " " << version << Qt::endl;
         return 0;
     }
+#endif
 
     singleton.init (firstArg == "--standalone" || firstArg == "-s");
 
