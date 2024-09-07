@@ -249,12 +249,6 @@ elseif(WIN32)
   install(FILES ${HELP_TR_FILES} DESTINATION "${CMAKE_INSTALL_PREFIX}/data")
   install(FILES ${CMAKE_CURRENT_SOURCE_DIR}/win/qt.conf DESTINATION "${CMAKE_INSTALL_PREFIX}/")
 
-#  add_custom_target(
-#    copy_qm ALL
-#    ${CMAKE_COMMAND} -E copy "/mingw64/share/qt6/translations/qtbase_*.qm" "${CMAKE_INSTALL_PREFIX}/data/translations"
-#    ${CMAKE_BINARY_DIR}/
-#  )
-
   add_custom_target(
     copy_scripts ALL
     ${CMAKE_COMMAND} -E copy
