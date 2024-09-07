@@ -1,7 +1,7 @@
-mkdir dist/FeatherPad/plugins
-mkdir dist/FeatherPad/plugins/iconengines
-mkdir dist/FeatherPad/plugins/platforms
-mkdir dist/FeatherPad/plugins/styles
+mkdir dist/FeatherPad/data/plugins
+mkdir dist/FeatherPad/data/plugins/iconengines
+mkdir dist/FeatherPad/data/plugins/platforms
+mkdir dist/FeatherPad/data/plugins/styles
 
 cp /mingw64/bin/libb2-1.dll dist/FeatherPad/
 cp /mingw64/bin/libbrotlicommon.dll dist/FeatherPad/
@@ -33,6 +33,6 @@ cp /mingw64/bin/Qt6Svg.dll dist/FeatherPad/
 cp /mingw64/bin/Qt6Widgets.dll dist/FeatherPad/
 cp /mingw64/bin/zlib1.dll dist/FeatherPad/
 
-cp /mingw64/share/qt6/plugins/iconengines/qsvgicon.dll dist/FeatherPad/plugins/iconengines/
-cp /mingw64/share/qt6/plugins/platforms/qwindows.dll dist/FeatherPad/plugins/platforms/
-cp /mingw64/share/qt6/plugins/styles/qmodernwindowsstyle.dll dist/FeatherPad/plugins/styles/
+cp /mingw64/share/qt6/plugins/iconengines/qsvgicon.dll dist/FeatherPad/data/plugins/iconengines/
+cp /mingw64/share/qt6/plugins/platforms/qwindows.dll dist/FeatherPad/data/plugins/platforms/
+cp /mingw64/share/qt6/plugins/styles/qmodernwindowsstyle.dll dist/FeatherPad/data/plugins/styles/

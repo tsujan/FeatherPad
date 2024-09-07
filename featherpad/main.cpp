@@ -96,12 +96,12 @@ int main (int argc, char **argv)
         lang = langs.first().replace ('-', '_');
 
     QTranslator qtTranslator;
-    if (qtTranslator.load ("qt_" + lang, QLibraryInfo::path (QLibraryInfo::TranslationsPath)))
+    if (qtTranslator.load ("qtbase_" + lang, QLibraryInfo::path (QLibraryInfo::TranslationsPath)))
         singleton.installTranslator (&qtTranslator);
     else if (!langs.isEmpty())
     { // shouldn't be needed
         lang = langs.first().split (QLatin1Char ('_')).first();
-        if (qtTranslator.load ("qt_" + lang, QLibraryInfo::path (QLibraryInfo::TranslationsPath)))
+        if (qtTranslator.load ("qtbase_" + lang, QLibraryInfo::path (QLibraryInfo::TranslationsPath)))
             singleton.installTranslator (&qtTranslator);
     }
 

@@ -2,15 +2,15 @@
 
 ## Overview
 
-[FeatherPad](https://github.com/tsujan/FeatherPad) (by Pedram Pourang, a.k.a. Tsu Jan <tsujan2000@gmail.com>) is a lightweight Qt plain-text editor for Linux. 
+[FeatherPad](https://github.com/tsujan/FeatherPad) (by Pedram Pourang, a.k.a. Tsu Jan <tsujan2000@gmail.com>) is a lightweight Qt plain-text editor for Linux.
 
 The only purpose of this fork is to add the ability to compile it for Windows, using MSYS2 and MINGW64.
 
 ## Requirements for Windows
 
 * MSYS2 with MINGW64
-* $ pacman -S mingw-w64-x86_64-qt6-base mingw-w64-x86_64-qt6-svg mingw-w64-x86_64-hunspell mingw-w64-x86_64-qt6-tools pkg-config
-* CMake installed natively for Windows  
+* $ pacman -S mingw-w64-x86_64-qt6-base mingw-w64-x86_64-qt6-svg mingw-w64-x86_64-hunspell mingw-w64-x86_64-qt6-tools mingw-w64-x86_64-qt6-translations pkg-config
+* CMake installed natively for Windows
   (the MSYS2 CMake version didn't work for me, but maybe that could be fixed somehow)
 * Optional: 7-zip installed at default location C:\Program Files\7-Zip
 * Optional: NSIS installed at default location C:\Program Files (x86)\NSIS
@@ -20,7 +20,7 @@ The only purpose of this fork is to add the ability to compile it for Windows, u
 After cloning the repo, cd into its folder and run:
 ```
 mkdir build
-cd build  
+cd build
 "C:\Program Files\CMake\bin\cmake.exe" .. -G "MSYS Makefiles"
 make
 make install
@@ -29,5 +29,5 @@ If everything worked as expected, there will be a new directory `build\dist\Feat
 
 ## Screenshots
 
-*FeatherPad in Windows 11 (dark mode)*  
+*FeatherPad in Windows 11 (dark mode)*
 ![FeatherPad in Windows 11](screenshots/featherpad_win11_dark.png)

@@ -119,8 +119,6 @@ set(featherpad_SRCS
   highlighter/highlighter-toml.cpp
   highlighter/highlighter-xml.cpp
   highlighter/highlighter-yaml.cpp
-#  win/singleapplication_p.cpp
-#  win/singleapplication.cpp
 )
 
 if(NOT WITHOUT_X11 AND UNIX AND NOT APPLE AND NOT HAIKU AND NOT WIN32)
@@ -191,7 +189,6 @@ elseif(WIN32)
                                    ${Qt6Widgets_LIBRARIES}
                                    ${Qt6Svg_LIBRARIES}
                                    ${Qt6PrintSupport_LIBRARIES}
-#                                   ${Qt6Network_LIBRARIES}
                                    ${HUNSPELL_LIBRARIES}
                                    ${CMAKE_CURRENT_SOURCE_DIR}/data/featherpad_win.o)
 else()
@@ -203,12 +200,6 @@ else()
                                    ${Qt6DBus_LIBRARIES}
                                    ${HUNSPELL_LIBRARIES})
 endif()
-
-#if(WIN32)
-#  set(QAPPLICATION_CLASS QApplication CACHE STRING "Inheritance class for SingleApplication")
-#  add_subdirectory(win/singleapplication)
-#  target_link_libraries(${PROJECT_NAME} SingleApplication::SingleApplication)
-#endif()
 
 # installation
 if(HAIKU)
@@ -258,6 +249,12 @@ elseif(WIN32)
   install(FILES ${HELP_TR_FILES} DESTINATION "${CMAKE_INSTALL_PREFIX}/data")
   install(FILES ${CMAKE_CURRENT_SOURCE_DIR}/win/qt.conf DESTINATION "${CMAKE_INSTALL_PREFIX}/")
 
+#  add_custom_target(
+#    copy_qm ALL
+#    ${CMAKE_COMMAND} -E copy "/mingw64/share/qt6/translations/qtbase_*.qm" "${CMAKE_INSTALL_PREFIX}/data/translations"
+#    ${CMAKE_BINARY_DIR}/
+#  )
+
   add_custom_target(
     copy_scripts ALL
     ${CMAKE_COMMAND} -E copy
@@ -266,6 +263,12 @@ elseif(WIN32)
   )
 
   install(CODE [[
+    execute_process(
+      COMMAND
+        bash -c "cp /mingw64/share/qt6/translations/qtbase_*.qm dist/FeatherPad/data/translations/"
+      WORKING_DIRECTORY
+        ${CMAKE_BINARY_DIR}
+    )
     execute_process(
       COMMAND
         bash "copy-win-dlls.sh"
