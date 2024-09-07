@@ -20,13 +20,37 @@
 #ifndef SINGLETON_H
 #define SINGLETON_H
 
+#ifdef Q_OS_WIN
+#include <windows.h>
+#endif
+
 #include <QApplication>
 #include "fpwin.h"
 #include "config.h"
 
 namespace FeatherPad {
 
-// A single-instance approach based on QSharedMemory.
+#ifdef Q_OS_WIN
+class FPsingletonHiddenWindow : public QWidget
+{
+    Q_OBJECT
+public:
+    FPsingletonHiddenWindow ();
+    bool isPrimaryInstance() const {
+        return isPrimaryInstance_;
+    }
+	void sendInfo(QStringList info);
+	bool nativeEvent(const QByteArray &eventType, void *message, qintptr *result) Q_DECL_OVERRIDE;
+
+signals:
+    void dataReceived(QStringList data);
+
+private:
+	HWND hwndPrimary_;
+    bool isPrimaryInstance_;
+};
+#endif
+
 class FPsingleton : public QApplication
 {
     Q_OBJECT
@@ -71,7 +95,6 @@ public:
     bool isQuitSignalReceived() const {
         return quitSignalReceived_;
     }
-
     QStandardItemModel *searchModel() const {
         return searchModel_;
     }
@@ -79,13 +102,15 @@ public:
 public slots:
     void quitSignalReceived();
     void quitting();
+#ifdef Q_OS_WIN
+    void dataReceived(QStringList data);
+#endif
 
 private:
     bool cursorInfo (const QString &commndOpt, int &lineNum, int &posInLine);
     QStringList processInfo (const QStringList &info,
                              long &desktop, int &lineNum, int &posInLine,
                              bool *newWindow);
-
     bool quitSignalReceived_;
     Config config_;
     QStringList lastFiles_;
@@ -95,6 +120,9 @@ private:
     bool isWayland_;
     bool isRoot_;
     QStandardItemModel *searchModel_; // The common search history if any.
+#ifdef Q_OS_WIN
+    FPsingletonHiddenWindow *hiddenWindow_;
+#endif
 };
 
 }

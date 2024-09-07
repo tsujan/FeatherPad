@@ -72,53 +72,56 @@ elseif(UNIX OR OS2)
 endif()
 
 set(featherpad_SRCS
-    main.cpp
-    singleton.cpp
-    fpwin.cpp
-    encoding.cpp
-    tabwidget.cpp
-    menubartitle.cpp
-    lineedit.cpp
-    textedit.cpp
-    tabbar.cpp
-    find.cpp
-    replace.cpp
-    pref.cpp
-    config.cpp
-    brackets.cpp
-    syntax.cpp
-    vscrollbar.cpp
-    loading.cpp
-    printing.cpp
-    tabpage.cpp
-    searchbar.cpp
-    session.cpp
-    fontDialog.cpp
-    sidepane.cpp
-    svgicons.cpp
-    spellChecker.cpp
-    spellDialog.cpp
-    highlighter/highlighter.cpp
-    highlighter/highlighter-cmake.cpp
-    highlighter/highlighter-css.cpp
-    highlighter/highlighter-fountain.cpp
-    highlighter/highlighter-java.cpp
-    highlighter/highlighter-json.cpp
-    highlighter/highlighter-html.cpp
-    highlighter/highlighter-lua.cpp
-    highlighter/highlighter-markdown.cpp
-    highlighter/highlighter-pascal.cpp
-    highlighter/highlighter-patterns.cpp
-    highlighter/highlighter-perl-regex.cpp
-    highlighter/highlighter-regex.cpp
-    highlighter/highlighter-rest.cpp
-    highlighter/highlighter-ruby.cpp
-    highlighter/highlighter-rust.cpp
-    highlighter/highlighter-sh.cpp
-    highlighter/highlighter-tcl.cpp
-    highlighter/highlighter-toml.cpp
-    highlighter/highlighter-xml.cpp
-    highlighter/highlighter-yaml.cpp)
+  main.cpp
+  singleton.cpp
+  fpwin.cpp
+  encoding.cpp
+  tabwidget.cpp
+  menubartitle.cpp
+  lineedit.cpp
+  textedit.cpp
+  tabbar.cpp
+  find.cpp
+  replace.cpp
+  pref.cpp
+  config.cpp
+  brackets.cpp
+  syntax.cpp
+  vscrollbar.cpp
+  loading.cpp
+  printing.cpp
+  tabpage.cpp
+  searchbar.cpp
+  session.cpp
+  fontDialog.cpp
+  sidepane.cpp
+  svgicons.cpp
+  spellChecker.cpp
+  spellDialog.cpp
+  highlighter/highlighter.cpp
+  highlighter/highlighter-cmake.cpp
+  highlighter/highlighter-css.cpp
+  highlighter/highlighter-fountain.cpp
+  highlighter/highlighter-java.cpp
+  highlighter/highlighter-json.cpp
+  highlighter/highlighter-html.cpp
+  highlighter/highlighter-lua.cpp
+  highlighter/highlighter-markdown.cpp
+  highlighter/highlighter-pascal.cpp
+  highlighter/highlighter-patterns.cpp
+  highlighter/highlighter-perl-regex.cpp
+  highlighter/highlighter-regex.cpp
+  highlighter/highlighter-rest.cpp
+  highlighter/highlighter-ruby.cpp
+  highlighter/highlighter-rust.cpp
+  highlighter/highlighter-sh.cpp
+  highlighter/highlighter-tcl.cpp
+  highlighter/highlighter-toml.cpp
+  highlighter/highlighter-xml.cpp
+  highlighter/highlighter-yaml.cpp
+#  win/singleapplication_p.cpp
+#  win/singleapplication.cpp
+)
 
 if(NOT WITHOUT_X11 AND UNIX AND NOT APPLE AND NOT HAIKU AND NOT WIN32)
   set(featherpad_SRCS ${featherpad_SRCS} x11.cpp)
@@ -129,7 +132,7 @@ if(NOT WIN32)
 endif()
 
 if(NOT WIN32)
-qt6_add_dbus_adaptor(featherpad_DBUS_SRCS
+  qt6_add_dbus_adaptor(featherpad_DBUS_SRCS
     org.featherpad.Application.xml
     singleton.h
     FeatherPad::FPsingleton
@@ -188,6 +191,7 @@ elseif(WIN32)
                                    ${Qt6Widgets_LIBRARIES}
                                    ${Qt6Svg_LIBRARIES}
                                    ${Qt6PrintSupport_LIBRARIES}
+#                                   ${Qt6Network_LIBRARIES}
                                    ${HUNSPELL_LIBRARIES}
                                    ${CMAKE_CURRENT_SOURCE_DIR}/data/featherpad_win.o)
 else()
@@ -199,6 +203,12 @@ else()
                                    ${Qt6DBus_LIBRARIES}
                                    ${HUNSPELL_LIBRARIES})
 endif()
+
+#if(WIN32)
+#  set(QAPPLICATION_CLASS QApplication CACHE STRING "Inheritance class for SingleApplication")
+#  add_subdirectory(win/singleapplication)
+#  target_link_libraries(${PROJECT_NAME} SingleApplication::SingleApplication)
+#endif()
 
 # installation
 if(HAIKU)

@@ -32,6 +32,7 @@
 #include <QLibraryInfo>
 #include <QTranslator>
 
+
 int main (int argc, char **argv)
 {
     const QString name = "FeatherPad";
@@ -40,6 +41,10 @@ int main (int argc, char **argv)
     FeatherPad::FPsingleton singleton (argc, argv);
     singleton.setApplicationName (name);
     singleton.setApplicationVersion (version);
+
+#ifdef Q_OS_WIN
+    singleton.setStyle("Fusion");
+#endif
 
     QStringList args = singleton.arguments();
     if (!args.isEmpty())
@@ -129,6 +134,15 @@ int main (int argc, char **argv)
         singleton.sendInfo (info); // is sent to the primary instance
         return 0;
     }
+//    else
+//    {
+//        QObject::connect(
+//            &singleton,
+//            &SingleApplication::receivedMessage,
+//            &singleton,
+//            &FeatherPad::FPsingleton::receivedMessage_
+//        );
+//    }
 
 #if !defined(Q_OS_WIN)
     // Handle SIGQUIT, SIGINT, SIGTERM and SIGHUP (-> https://en.wikipedia.org/wiki/Unix_signal).
