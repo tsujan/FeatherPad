@@ -485,7 +485,7 @@
         <location filename="../../fp.ui" line="956"/>
         <location filename="../../fp.ui" line="959"/>
         <source>To Start Case</source>
-        <translation type="unfinished"></translation>
+        <translation>Πρώτο γράμμα κεφαλαίο</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="967"/>
@@ -715,7 +715,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="997"/>
         <source>Please attend to that window or just close its dialog!</source>
-        <translation type="unfinished"></translation>
+        <translation>Παρακαλώ εστιάστε σε αυτό το παράθυρο ή απλά κλείστε το πλαίσιο διαλόγου του!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1357"/>
@@ -780,7 +780,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="996"/>
         <source>Another FeatherPad window has a modal dialog!</source>
-        <translation type="unfinished"></translation>
+        <translation>Ένα άλλο παράθυρο FeatherPad έχει ένα βοηθητικό πλαίσιο διαλόγου!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="833"/>
@@ -840,7 +840,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="2690"/>
         <source>See Preferences → Files → Do not permit opening of non-text files</source>
-        <translation type="unfinished"></translation>
+        <translation>Δείτε Προτιμήσεις → Αρχεία → Να μην επιτρέπεται άνοιγμα αρχείων μη κειμένου</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2699"/>
@@ -855,7 +855,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="2710"/>
         <source>Uneditable file(s)!</source>
-        <translation type="unfinished"></translation>
+        <translation>Μη επεξεργάσιμο(α) αρχείο(α)!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2711"/>
@@ -886,7 +886,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="3482"/>
         <source>Saving as root.</source>
-        <translation type="unfinished"></translation>
+        <translation>Αποθήκευση ως διαχειριστής.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3483"/>
@@ -1077,7 +1077,7 @@
         <location filename="../../fpwin.cpp" line="5793"/>
         <location filename="../../fpwin.cpp" line="5808"/>
         <source>No misspelling from text cursor.</source>
-        <translation type="unfinished"></translation>
+        <translation>Κανένα ορθογραφικό λάθος από το δρομέα κειμένου.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5824"/>
@@ -1141,12 +1141,12 @@
     <message>
         <location filename="../../replace.cpp" line="280"/>
         <source>The first 1000 replacements are highlighted.</source>
-        <translation type="unfinished"></translation>
+        <translation>Έχουν επισημανθεί οι πρώτες 1000 αντικαταστάσεις.</translation>
     </message>
     <message>
         <location filename="../../syntax.cpp" line="314"/>
         <source>The size limit for syntax highlighting is exceeded.</source>
-        <translation type="unfinished"></translation>
+        <translation>Υπέρβαση ορίου μεγέθους για επισήμανση σύνταξης.</translation>
     </message>
 </context>
 <context>
@@ -1293,7 +1293,8 @@ and may not work with some window managers.</source>
         <location filename="../../prefDialog.ui" line="159"/>
         <source>Most suitable with sessions
 but without tab functionality.</source>
-        <translation type="unfinished"></translation>
+        <translation>Πιο κατάλληλο με συνεδρίες
+αλλά χωρίς καθόλου λειτουργικότητα καρτελών.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="188"/>
@@ -1303,18 +1304,19 @@ but without tab functionality.</source>
     <message>
         <location filename="../../prefDialog.ui" line="191"/>
         <source>Remember splitter position</source>
-        <translation type="unfinished"></translation>
+        <translation>Απομνημόνευση θέσης διαχωριστικού</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="200"/>
         <source>Do not show &amp;toolbar</source>
-        <translation type="unfinished"></translation>
+        <translation>Να μην εμφανίζεται η γραμμή &amp;εργαλείων</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="207"/>
         <source>If the menubar is hidden,
 a menu button appears on the toolbar.</source>
-        <translation type="unfinished"></translation>
+        <translation>Αν η γραμμή μενού είναι κρυμμένη,
+ένα κουμπί μενού εμφανίζεται στη γραμμή εργαλείων.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="211"/>
@@ -1325,7 +1327,8 @@ a menu button appears on the toolbar.</source>
         <location filename="../../prefDialog.ui" line="218"/>
         <source>Double clicking on the title toggles the maximized state.
 The title also has a right click menu when a file is opened.</source>
-        <translation type="unfinished"></translation>
+        <translation>Διπλό κλικ στον τίτλο εναλλάσσει την κατάσταση μεγιστοποίησης.
+Ο τίτλος έχει επίσης ένα μενού δεξιού κλικ όταν ανοίγει ένα αρχείο.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="222"/>
@@ -1341,33 +1344,34 @@ and may interfere with customized shortcuts.</source>
     <message>
         <location filename="../../prefDialog.ui" line="233"/>
         <source>Disable menubar accelerators</source>
-        <translation type="unfinished"></translation>
+        <translation>Απενεργοποίηση επιταχυντών γραμμής μενού</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="240"/>
         <source>Internal icons are used by default.</source>
-        <translation type="unfinished"></translation>
+        <translation>Από προεπιλογή χρησιμοποιούνται τα εσωτερικά εικονίδια.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="243"/>
         <source>Use system icons where possible</source>
-        <translation type="unfinished"></translation>
+        <translation>Χρήση εικονιδίων συστήματος όπου είναι δυνατόν</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="250"/>
         <source>Hide search &amp;bar by default</source>
-        <translation type="unfinished"></translation>
+        <translation>Απόκρυψη &amp;γραμμής αναζήτησης από προεπιλογή</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="257"/>
         <source>By default, each search entry
 has a separate search history.</source>
-        <translation type="unfinished"></translation>
+        <translation>Από προεπιλογή, κάθε καταχώρηση αναζήτησης
+έχει χωριστό ιστορικό αναζήτησης.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="261"/>
         <source>Use a shared search history</source>
-        <translation type="unfinished"></translation>
+        <translation>Χρήση ιστορικού κοινόχρηστης αναζήτησης</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="268"/>
@@ -1421,7 +1425,7 @@ Tab navigation with mouse wheel is not affected.</source>
     <message>
         <location filename="../../prefDialog.ui" line="365"/>
         <source>Tab navigation wraps &amp;around</source>
-        <translation type="unfinished"></translation>
+        <translation>Η περιήγηση καρτελών &amp;περιτυλίγεται</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="385"/>
@@ -1435,7 +1439,11 @@ current desktop, files will be opened in its tabs.
 
 However, some desktop environments may not
 report that they have multiple desktops.</source>
-        <translation type="unfinished"></translation>
+        <translation>Από προεπιλογή, αν ένα παράθυρο FeatherPad υπάρχει στην
+τρέχουσα επιφάνεια εργασίας, τα αρχεία θα ανοίγουν στις καρτέλες του.
+
+Ωστόσο, κάποια περιβάλλοντα εργασίας μπορεί να μην
+αναφέρουν ότι έχουν πολλαπλές επιφάνειες εργασίας.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="399"/>
@@ -1448,17 +1456,20 @@ report that they have multiple desktops.</source>
 desktop environment will be used instead of the Qt file dialog.
 
 Some desktop environments, like KDE and LXQt, provide files dialogs.</source>
-        <translation type="unfinished"></translation>
+        <translation>Αν επιλεγεί αυτό, το πλαίσιο διαλόγου αρχείου που παρέχεται από το τρέχον
+περιβάλλον εργασίας θα χρησιμοποιηθεί αντί του πλαισίου διαλόγου αρχείου Qt.
+
+Κάποια περιβάλλοντα εργασίας, όπως το KDE και το LXQt, παρέχουν πλαίσια διαλόγου αρχείων.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="412"/>
         <source>Native file dialog</source>
-        <translation type="unfinished"></translation>
+        <translation>Εγγενές πλαίσιο διαλόγου αρχείου</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="488"/>
         <source>Uncheck for Monospace.</source>
-        <translation type="unfinished"></translation>
+        <translation>Αποεπιλογή για Monospace.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="491"/>
@@ -1473,19 +1484,21 @@ Some desktop environments, like KDE and LXQt, provide files dialogs.</source>
     <message>
         <location filename="../../prefDialog.ui" line="515"/>
         <source>Auto-&amp;bracket</source>
-        <translation type="unfinished"></translation>
+        <translation>Αυτοματοποίηση &amp;αγκύλης</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="522"/>
         <source>By default, a triple period is replaced with an ellipsis
 and a double hyphen with a long dash while typing,
 under proper circumstances.</source>
-        <translation type="unfinished"></translation>
+        <translation>Από προεπιλογή, μια τριπλή τελεία αντικαθίσταται με αποσιωπητικά
+και ένα διπλό ενωτικό με μια μακριά παύλα κατά την πληκτρολόγηση,
+υπό κατάλληλες συνθήκες.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="527"/>
         <source>Replace triple periods and double hyphens while typing</source>
-        <translation type="unfinished"></translation>
+        <translation>Αντικατάσταση τριπλών τελειών και διπλών ενωτικών κατά την πληκτρολόγηση</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="541"/>
@@ -1496,23 +1509,24 @@ of the selected text.</source>
     <message>
         <location filename="../../prefDialog.ui" line="545"/>
         <source>Selection highlighting</source>
-        <translation type="unfinished"></translation>
+        <translation>Επισήμανση επιλογής</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="608"/>
         <source>Never highlight syntax for files &gt; </source>
-        <translation type="unfinished"></translation>
+        <translation>Ποτέ επισήμανση σύνταξης για αρχεία &gt; </translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="577"/>
         <source>This creates a menu button on the
 status bar for changing the syntax.</source>
-        <translation type="unfinished"></translation>
+        <translation>Αυτό δημιουργεί ένα κουμπί μενού στη
+γραμμή κατάστασης για αλλαγή της σύνταξης.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="581"/>
         <source>Support syntax override</source>
-        <translation type="unfinished"></translation>
+        <translation>Υποστήριξη παράκαμψης σύνταξης</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="646"/>
@@ -1523,7 +1537,7 @@ when the syntax is highlighted.</source>
     <message>
         <location filename="../../prefDialog.ui" line="650"/>
         <source>Show whitespaces</source>
-        <translation type="unfinished"></translation>
+        <translation>Εμφάνιση κενών διαστημάτων</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="666"/>
@@ -1535,7 +1549,7 @@ the editor font has a fixed pitch (like Monospace).</source>
     <message>
         <location filename="../../prefDialog.ui" line="670"/>
         <source>Show vertical lines starting from this position:</source>
-        <translation type="unfinished"></translation>
+        <translation>Εμφάνιση κάθετων γραμμών ξεκινώντας από αυτή τη θέση:</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="657"/>
@@ -1567,7 +1581,7 @@ whose last line is not empty.</source>
     <message>
         <location filename="../../prefDialog.ui" line="902"/>
         <source>Inertial scrolling with mouse wheel</source>
-        <translation type="unfinished"></translation>
+        <translation>Αδρανειακή κύλιση με τον τροχό ποντικιού</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="991"/>
@@ -1665,7 +1679,7 @@ and-drop either.</source>
     <message>
         <location filename="../../prefDialog.ui" line="505"/>
         <source>Auto-&amp;indent by default</source>
-        <translation type="unfinished"></translation>
+        <translation>Αυτοματοποίηση &amp;εσοχής από προεπιλογή</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="534"/>
@@ -1675,7 +1689,7 @@ and-drop either.</source>
     <message>
         <location filename="../../prefDialog.ui" line="552"/>
         <source>Highlight s&amp;yntax by default</source>
-        <translation type="unfinished"></translation>
+        <translation>Επισήμανση σ&amp;ύνταξης από προεπιλογή</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="712"/>
@@ -1739,7 +1753,7 @@ Needs window reopening to take effect.</source>
     <message>
         <location filename="../../prefDialog.ui" line="1131"/>
         <source>Run executable scripts</source>
-        <translation type="unfinished"></translation>
+        <translation>Διεξαγωγή εκτελέσιμων σεναρίων</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1005"/>
@@ -1749,7 +1763,11 @@ opened files FeatherPad shows. The default
 is 10.
 
 Needs application restart to take effect.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ο μέγιστος αριθμός πρόσφατα τροποποιημένων ή
+ανοιγμένων αρχείων που εμφανίζει το FeatherPad. Η προεπιλογή
+είναι 10.
+
+Χρειάζεται επανεκκίνηση εφαρμογής για τεθεί σε ισχύ.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="786"/>
@@ -1765,7 +1783,12 @@ Takes effect after closing this dialog.
 
 Leave empty for:
 MMM dd, yyyy, hh:mm:ss</source>
-        <translation type="unfinished"></translation>
+        <translation>Χρήση για επικόλληση της ημερομηνίας και ώρας.
+
+Τίθεται σε ισχύ μετά το κλείσιμο αυτού του πλαισίου διαλόγου.
+
+Αφήστε κενό για:
+MMM dd, yyyy, hh:mm:ss</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="832"/>
@@ -1786,7 +1809,8 @@ MMM dd, yyyy, hh:mm:ss</source>
         <location filename="../../prefDialog.ui" line="898"/>
         <source>Should the mouse wheel scrolling be inertial
 if the cursor is inside the text view?</source>
-        <translation type="unfinished"></translation>
+        <translation>Θα έπρεπε η κύλιση τροχού ποντικιού να είναι αδρανειακή
+αν ο δρομέας είναι εντός της προβολής κειμένου;</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="909"/>
@@ -1822,7 +1846,7 @@ will be started from the document start.</source>
     <message>
         <location filename="../../prefDialog.ui" line="957"/>
         <source>Start spell checking from text cursor</source>
-        <translation type="unfinished"></translation>
+        <translation>Έναρξη ορθογραφικού ελέγχου από το δρομέα κειμένου</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1012"/>
@@ -1858,7 +1882,7 @@ trailing spaces of a text file.</source>
     <message>
         <location filename="../../prefDialog.ui" line="1250"/>
         <source>Allow saving unmodified files</source>
-        <translation type="unfinished"></translation>
+        <translation>Να επιτρέπεται αποθήκευση μη τροποποιημένων αρχείων</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1257"/>
@@ -1912,7 +1936,7 @@ be opened if they are pasted into FeatherPad.</source>
     <message>
         <location filename="../../prefDialog.ui" line="1347"/>
         <source>Syntax Colors</source>
-        <translation type="unfinished"></translation>
+        <translation>Χρώματα σύνταξης</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1442"/>
@@ -1927,23 +1951,23 @@ be opened if they are pasted into FeatherPad.</source>
     <message>
         <location filename="../../prefDialog.ui" line="1364"/>
         <source>Whitespace color value:</source>
-        <translation type="unfinished"></translation>
+        <translation>Τιμή χρώματος κενού διαστήματος:</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1397"/>
         <location filename="../../prefDialog.ui" line="1407"/>
         <source>Has effect only if line numbers are shown.</source>
-        <translation type="unfinished"></translation>
+        <translation>Έχει αποτέλεσμα μόνο αν εμφανίζονται αριθμοί γραμμών.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1400"/>
         <source>Current line highlight value:</source>
-        <translation type="unfinished"></translation>
+        <translation>Τιμή επισήμανσης τρέχουσας γραμμής:</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1455"/>
         <source>Restore default syntax colors.</source>
-        <translation type="unfinished"></translation>
+        <translation>Επαναφορά προεπιλεγμένων χρωμάτων σύνταξης.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1490"/>
@@ -1977,7 +2001,7 @@ in the editing mode.</source>
         <location filename="../../pref.cpp" line="414"/>
         <location filename="../../pref.cpp" line="1609"/>
         <source>Warning: Ambiguous shortcut detected!</source>
-        <translation type="unfinished"></translation>
+        <translation>Προειδοποίηση: Ανιχνεύθηκε αμφίσημη συντόμευση!</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="447"/>
@@ -2032,7 +2056,7 @@ in the editing mode.</source>
     <message>
         <location filename="../../pref.cpp" line="457"/>
         <source>Extra Elements</source>
-        <translation type="unfinished"></translation>
+        <translation>Επιπρόσθετα στοιχεία</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="639"/>
@@ -2068,7 +2092,7 @@ in the editing mode.</source>
         <location filename="../../pref.cpp" line="515"/>
         <location filename="../../pref.cpp" line="1882"/>
         <source>Select Syntax Color</source>
-        <translation type="unfinished"></translation>
+        <translation>Επιλογή χρώματος σύνταξης</translation>
     </message>
 </context>
 <context>

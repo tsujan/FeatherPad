@@ -100,7 +100,7 @@
     <message>
         <location filename="../../fp.ui" line="398"/>
         <source>Replacing text</source>
-        <translation>Erstatter tekst</translation>
+        <translation>Erstatningstekst</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="457"/>
@@ -1348,12 +1348,12 @@ and may interfere with customized shortcuts.</source>
     <message>
         <location filename="../../prefDialog.ui" line="240"/>
         <source>Internal icons are used by default.</source>
-        <translation type="unfinished"></translation>
+        <translation>Interne ikoner brukes som standard.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="243"/>
         <source>Use system icons where possible</source>
-        <translation type="unfinished"></translation>
+        <translation>Bruk systemikoner hvor mulig</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="250"/>
@@ -1787,7 +1787,7 @@ Krever omstart av programmet før endringene trer i kraft.</translation>
     <message>
         <location filename="../../prefDialog.ui" line="786"/>
         <source>Add a small margin around text</source>
-        <translation type="unfinished"></translation>
+        <translation>Legg til en liten marg rundt tekst</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="795"/>
