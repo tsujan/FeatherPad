@@ -775,7 +775,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="2049"/>
         <source>Script File</source>
-        <translation type="unfinished"></translation>
+        <translation>Αρχείο δέσμης ενεργειών</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="996"/>
@@ -835,7 +835,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="2689"/>
         <source>Non-text file(s) not opened!</source>
-        <translation type="unfinished"></translation>
+        <translation>Δεν ανοίχτηκε(αν) αρχείο(α) χωρίς κείμενο!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2690"/>
@@ -860,7 +860,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="2711"/>
         <source>Non-text files or files with huge lines cannot be edited.</source>
-        <translation type="unfinished"></translation>
+        <translation>Αρχεία χωρίς κείμενο ή αρχεία με τεράστιες γραμμές δε μπορούν να υποβληθούν σε επεξεργασία.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2775"/>
@@ -1063,7 +1063,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="5750"/>
         <source>The Hunspell dictionary is not accompanied by an affix file.</source>
-        <translation type="unfinished"></translation>
+        <translation>Το λεξικό Hunspell δε συνοδεύεται από ένα αρχείο affix.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5773"/>
@@ -1504,7 +1504,8 @@ under proper circumstances.</source>
         <location filename="../../prefDialog.ui" line="541"/>
         <source>Highlight case-sensitive and whole matches
 of the selected text.</source>
-        <translation type="unfinished"></translation>
+        <translation>Επισήμανση συμφωνίας πεζών-κεφαλαίων και ολόκληρων αντιστοιχιών
+του επιλεγμένου κειμένου.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="545"/>
@@ -1611,7 +1612,16 @@ will be executed directly.
 If the script is not run in a terminal
 emulator, the output and error messages
 will be shown by a popup dialog.</source>
-        <translation type="unfinished"></translation>
+        <translation>Αυτό μπορεί να είναι οποιαδήποτε εντολή εκκίνησης με
+ορίσματα, για παράδειγμα, &quot;xterm -hold&quot;
+για εκτέλεση της διεργασίας στο XTerm.
+
+Αν η εντολή αφεθεί κενή, το αρχείο
+θα εκτελεστεί άμεσα.
+
+Αν η δέσμη ενεργειών δεν εκτελεστεί σε ένα προσομοιωτή
+τερματικού, τα μηνύματα εξόδου και σφάλματος
+θα παρουσιαστούν από ένα αναδυόμενο παράθυρο διαλόγου.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1168"/>
@@ -1803,7 +1813,7 @@ MMM dd, yyyy, hh:mm:ss</translation>
     <message>
         <location filename="../../prefDialog.ui" line="891"/>
         <source>Thick text cursor</source>
-        <translation type="unfinished"></translation>
+        <translation>Παχύς δρομέας κειμένου</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="898"/>
@@ -1823,7 +1833,9 @@ if the cursor is inside the text view?</source>
         <source>A Hunspell dictionary has a name that ends with &quot;.dic&quot;
 and should be alongside an affix file with the same
 name but ending with &quot;.aff&quot;.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ένα λεξικό Hunspell έχει ένα όνομα που τελειώνει με «.dic»
+και θα έπρεπε να είναι μαζί με ένα αρχείο affix με το ίδιο
+όνομα αλλά να τελειώνει με «.aff».</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="922"/>
@@ -2011,7 +2023,7 @@ in the editing mode.</source>
     <message>
         <location filename="../../pref.cpp" line="448"/>
         <source>Built-in Functions</source>
-        <translation type="unfinished"></translation>
+        <translation>Ενσωματωμένες λειτουργίες</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="449"/>
@@ -2021,7 +2033,7 @@ in the editing mode.</source>
     <message>
         <location filename="../../pref.cpp" line="450"/>
         <source>Quotations</source>
-        <translation type="unfinished"></translation>
+        <translation>Παραθέσεις</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="451"/>
@@ -2041,12 +2053,12 @@ in the editing mode.</source>
     <message>
         <location filename="../../pref.cpp" line="454"/>
         <source>Regular Expressions, Code Blocks,…</source>
-        <translation type="unfinished"></translation>
+        <translation>Τακτικές παραστάσεις, μπλοκ κώδικα,…</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="455"/>
         <source>Document Blocks, XML/HTML Elements,…</source>
-        <translation type="unfinished"></translation>
+        <translation>Αποσπάσματα εγγράφου, στοιχεία XML/HTML,…</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="456"/>
@@ -2081,7 +2093,7 @@ in the editing mode.</source>
     <message>
         <location filename="../../pref.cpp" line="1592"/>
         <source>The typed shortcut was reserved.</source>
-        <translation type="unfinished"></translation>
+        <translation>Η πληκτρολογηθείσα συντόμευση ήταν δεσμευμένη.</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="1796"/>
@@ -2106,7 +2118,7 @@ in the editing mode.</source>
     <message>
         <location filename="../../searchbar.cpp" line="125"/>
         <source>Match Case</source>
-        <translation type="unfinished"></translation>
+        <translation>Συμφωνία πεζών-κεφαλαίων</translation>
     </message>
     <message>
         <location filename="../../searchbar.cpp" line="132"/>
@@ -2116,12 +2128,12 @@ in the editing mode.</source>
     <message>
         <location filename="../../searchbar.cpp" line="139"/>
         <source>Regular Expression</source>
-        <translation type="unfinished"></translation>
+        <translation>Τακτική παράσταση</translation>
     </message>
     <message>
         <location filename="../../searchbar.cpp" line="171"/>
         <source>Search with regex...</source>
-        <translation type="unfinished"></translation>
+        <translation>Αναζήτηση με regex...</translation>
     </message>
     <message>
         <location filename="../../searchbar.cpp" line="120"/>
