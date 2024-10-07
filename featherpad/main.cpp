@@ -20,7 +20,10 @@
 #include <QDir>
 #include <QTextStream>
 #include "singleton.h"
+
+#if !defined(Q_OS_WIN)
 #include "signalDaemon.h"
+#endif
 
 #ifdef HAS_X11
 #include "x11.h"
@@ -28,6 +31,7 @@
 
 #include <QLibraryInfo>
 #include <QTranslator>
+
 
 int main (int argc, char **argv)
 {
@@ -38,6 +42,10 @@ int main (int argc, char **argv)
     singleton.setApplicationName (name);
     singleton.setApplicationVersion (version);
 
+#ifdef Q_OS_WIN
+    singleton.setStyle("Fusion");
+#endif
+
     QStringList args = singleton.arguments();
     if (!args.isEmpty())
         args.removeFirst();
@@ -46,6 +54,7 @@ int main (int argc, char **argv)
     if (!args.isEmpty())
         firstArg = args.at (0);
 
+#ifdef Q_OS_WIN
     if (firstArg == "--help" || firstArg == "-h")
     {
         QTextStream out (stdout);
@@ -76,6 +85,7 @@ int main (int argc, char **argv)
         out << name << " " << version << Qt::endl;
         return 0;
     }
+#endif
 
     singleton.init (firstArg == "--standalone" || firstArg == "-s");
 
@@ -86,22 +96,24 @@ int main (int argc, char **argv)
         lang = langs.first().replace ('-', '_');
 
     QTranslator qtTranslator;
-    if (qtTranslator.load ("qt_" + lang, QLibraryInfo::path (QLibraryInfo::TranslationsPath)))
+    if (qtTranslator.load ("qtbase_" + lang, QLibraryInfo::path (QLibraryInfo::TranslationsPath)))
         singleton.installTranslator (&qtTranslator);
     else if (!langs.isEmpty())
     { // shouldn't be needed
         lang = langs.first().split (QLatin1Char ('_')).first();
-        if (qtTranslator.load ("qt_" + lang, QLibraryInfo::path (QLibraryInfo::TranslationsPath)))
+        if (qtTranslator.load ("qtbase_" + lang, QLibraryInfo::path (QLibraryInfo::TranslationsPath)))
             singleton.installTranslator (&qtTranslator);
     }
 
     QTranslator FPTranslator;
 #if defined(Q_OS_HAIKU)
-    if (FPTranslator.load ("featherpad_" + lang, QStringLiteral (DATADIR) + "/../translations"))
+    if (FPTranslator.load ("featherpad_" + lang, QStringLiteral(DATADIR) + "/../translations"))
 #elif defined(Q_OS_MAC)
-    if (FPTranslator.load ("featherpad_" + lang, singleton.applicationDirPath() + QStringLiteral ("/../Resources/translations/")))
+    if (FPTranslator.load ("featherpad_" + lang, singleton.applicationDirPath() + QStringLiteral("/../Resources/translations/")))
+#elif defined(Q_OS_WIN)
+    if (FPTranslator.load ("featherpad_" + lang, qApp->applicationDirPath() + "/data/translations"))
 #else
-    if (FPTranslator.load ("featherpad_" + lang, QStringLiteral (DATADIR) + "/featherpad/translations"))
+    if (FPTranslator.load ("featherpad_" + lang, QStringLiteral(DATADIR) + "/featherpad/translations"))
 #endif
     {
         singleton.installTranslator (&FPTranslator);
@@ -122,12 +134,23 @@ int main (int argc, char **argv)
         singleton.sendInfo (info); // is sent to the primary instance
         return 0;
     }
+//    else
+//    {
+//        QObject::connect(
+//            &singleton,
+//            &SingleApplication::receivedMessage,
+//            &singleton,
+//            &FeatherPad::FPsingleton::receivedMessage_
+//        );
+//    }
 
+#if !defined(Q_OS_WIN)
     // Handle SIGQUIT, SIGINT, SIGTERM and SIGHUP (-> https://en.wikipedia.org/wiki/Unix_signal).
     FeatherPad::signalDaemon D;
     D.watchUnixSignals();
     QObject::connect (&D, &FeatherPad::signalDaemon::sigQUIT,
                       &singleton, &FeatherPad::FPsingleton::quitSignalReceived);
+#endif
 
     QObject::connect (&singleton, &QCoreApplication::aboutToQuit, &singleton, &FeatherPad::FPsingleton::quitting);
     singleton.firstWin (info);

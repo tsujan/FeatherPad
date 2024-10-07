@@ -1,42 +1,33 @@
-# FeatherPad
+# FeatherPad (for Windows)
 
 ## Overview
 
-FeatherPad (by Pedram Pourang, a.k.a. Tsu Jan <tsujan2000@gmail.com>) is a lightweight Qt plain-text editor for Linux. It is independent of any desktop environment and has:
+[FeatherPad](https://github.com/tsujan/FeatherPad) (by Pedram Pourang, a.k.a. Tsu Jan <tsujan2000@gmail.com>) is a lightweight Qt plain-text editor for Linux.
 
-  * Drag-and-drop support, including tab detachment and attachment;
-  * X11 virtual desktop awareness (using tabs on current desktop but opening a new window on another);
-  * An optionally permanent search-bar with a different search entry for each tab;
-  * Instant highlighting of found matches when searching;
-  * A docked window for text replacement;
-  * Support for showing line numbers and jumping to a specific line;
-  * Optional selection highlighting;
-  * Syntax highlighting for common programming languages;
-  * Ability to open URLs with appropriate applications;
-  * Session management;
-  * Side-pane mode;
-  * Auto-saving;
-  * Spell checking with Hunspell;
-  * Printing;
-  * Text zooming;
-  * Appropriate but non-interrupting prompts; and
-  * Other features that can be found in its settings, on its menus or when it is actually used.
+The only purpose of this fork is to add the ability to compile it for Windows, using MSYS2 and MINGW64.
 
-Please see [INSTALL](INSTALL) for instructions on compilation, installation and translation!
+## Requirements for Windows
 
-FeatherPad was written in GTK+ at first, then ported to Qt with more features. Its homepage is <https://github.com/tsujan/FeatherPad>.
+* MSYS2 with MINGW64
+* $ pacman -S mingw-w64-x86_64-qt6-base mingw-w64-x86_64-qt6-svg mingw-w64-x86_64-hunspell mingw-w64-x86_64-qt6-tools mingw-w64-x86_64-qt6-translations pkg-config
+* CMake installed natively for Windows
+  (the MSYS2 CMake version didn't work for me, but maybe that could be fixed somehow)
+* Optional: 7-zip installed at default location C:\Program Files\7-Zip
+* Optional: NSIS installed at default location C:\Program Files (x86)\NSIS
 
-## Credits
+## Compilation (in a MSYS2 MINGW64 shell)
 
-Haiku OS support is added by [khallebal at GitHub](https://github.com/khallebal).
-
-macOS support is added by [Pavel Shliak](https://github.com/shlyakpavel).
-
-OS/2 support is added by [josch1710 at GitHub](https://github.com/josch1710).
+After cloning the repo, cd into its folder and run:
+```
+mkdir build
+cd build
+"C:\Program Files\CMake\bin\cmake.exe" .. -G "MSYS Makefiles"
+make
+make install
+```
+If everything worked as expected, there will be a new directory `build\dist\FeatherPad` containing the compiled .exe and all files it depends on. If 7z.exe was found at the 7-zip default location, there will also be an archive of this folder at `build\dist\FeatherPad-x64-portable.7z`. If makensis.exe was found at the NSIS default location, there will also be an installer for FeatherPad at `build\dist\FeatherPad-x64-setup.exe`.
 
 ## Screenshots
 
-The active Qt widget style determines the look and feel of every Qt application. The following screenshots are taken with a Kvantum theme and the dark color scheme of FeatherPad:
-
-![Tabs](screenshots/Tabs.png?raw=true "Tabs")
-![Side-Pane](screenshots/Side-Pane.png?raw=true "Side-Pane")
+*FeatherPad in Windows 11 (dark mode)*
+![FeatherPad in Windows 11](screenshots/featherpad_win11_dark.png)

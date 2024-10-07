@@ -20,8 +20,11 @@
 #include <QDir>
 #include <QScreen>
 #include <QDialog>
+
+#ifndef Q_OS_WIN
 #include <QDBusConnection>
 #include <QDBusInterface>
+#endif
 
 #if defined Q_OS_LINUX || defined Q_OS_FREEBSD || defined Q_OS_OPENBSD || defined Q_OS_NETBSD || defined Q_OS_HURD
 #include <unistd.h> // for geteuid()
@@ -36,11 +39,56 @@
 
 namespace FeatherPad {
 
+#ifdef Q_OS_WIN
+
+static const char *hiddenWindowTitle = "FeatherPadHiddenWindow";
+
+FPsingletonHiddenWindow::FPsingletonHiddenWindow ()
+{
+    hwndPrimary_ = FindWindowA(NULL, hiddenWindowTitle);
+    isPrimaryInstance_ = !hwndPrimary_;
+    if (isPrimaryInstance_)
+	{
+		QWidget();
+        setWindowTitle(hiddenWindowTitle);
+        setWindowFlags(Qt::Tool);
+        showMinimized();
+        hide();
+    }
+}
+
+bool FPsingletonHiddenWindow::nativeEvent(const QByteArray &eventType, void *message, qintptr *result)
+{
+	Q_UNUSED(result);
+	Q_UNUSED(eventType);
+	MSG *msg = static_cast< MSG * >( message );
+    if (msg->message == WM_COPYDATA)
+    {
+        COPYDATASTRUCT *ds = (COPYDATASTRUCT*)msg->lParam;
+        emit dataReceived(QString::fromUtf8((const char *)ds->lpData).split('\n'));
+    }
+	return false;
+}
+
+void FPsingletonHiddenWindow::sendInfo(QStringList info)
+{
+	const char *data = info.join('\n').toUtf8();
+    COPYDATASTRUCT ds;
+    ds.dwData = 0;
+    ds.cbData = sizeof(char) * (strlen(data) + 1); //sizeof(data);
+    ds.lpData = (LPVOID)data;
+    SendMessageW(hwndPrimary_, WM_COPYDATA, (WPARAM)hwndPrimary_, (LPARAM)(LPVOID)&ds);
+}
+
+#else
 static const char *serviceName = "org.featherpad.FeatherPad";
 static const char *ifaceName = "org.featherpad.Application";
+#endif
+
 
 FPsingleton::FPsingleton (int &argc, char **argv) : QApplication (argc, argv)
 {
+
 #ifdef HAS_X11
     isX11_ = (QString::compare (QGuiApplication::platformName(), "xcb", Qt::CaseInsensitive) == 0);
 #else
@@ -75,6 +123,7 @@ void FPsingleton::init (bool standalone)
     isPrimaryInstance_ = standalone;
     if (!standalone_)
     {
+#ifndef Q_OS_WIN
         QDBusConnection dbus = QDBusConnection::sessionBus();
         if (!dbus.isConnected()) // interpret it as the lack of D-Bus
         {
@@ -87,6 +136,12 @@ void FPsingleton::init (bool standalone)
             new FeatherPadAdaptor (this);
             dbus.registerObject (QStringLiteral ("/Application"), this);
         }
+#else
+		hiddenWindow_ = new FPsingletonHiddenWindow ();
+        isPrimaryInstance_ = hiddenWindow_->isPrimaryInstance();
+        if (isPrimaryInstance_)
+        	connect(hiddenWindow_, &FPsingletonHiddenWindow::dataReceived, this, &FPsingleton::dataReceived);
+#endif
     }
 }
 /*************************/
@@ -110,16 +165,37 @@ void FPsingleton::quitSignalReceived()
 /*************************/
 void FPsingleton::sendInfo (const QStringList &info)
 {
+#ifndef Q_OS_WIN
     QDBusConnection dbus = QDBusConnection::sessionBus();
     QDBusInterface iface (QLatin1String (serviceName),
                           QStringLiteral ("/Application"),
                           QLatin1String (ifaceName), dbus, this);
     iface.call (QStringLiteral ("handleInfo"), info);
+#else
+	hiddenWindow_->sendInfo(QStringList(QStringLiteral("handleInfo")) + info);
+#endif
 }
+
+#ifdef Q_OS_WIN
+void FPsingleton::dataReceived(QStringList data)
+{
+	if (data.first() == QLatin1String ("handleInfo"))
+	{
+		data.removeFirst();
+		handleInfo(data);
+	}
+	else if (data.first() == QLatin1String ("addRecentFile"))
+	{
+		addRecentFile(data[1], data[2] == QLatin1String ("true"));
+	}
+}
+#endif
+
 /*************************/
 // Called only in standalone mode.
 void FPsingleton::sendRecentFile (const QString &file, bool recentOpened)
 {
+#ifndef Q_OS_WIN
     QDBusMessage methodCall =
     QDBusMessage::createMethodCall (QLatin1String (serviceName),
                                     QStringLiteral ("/Application"),
@@ -131,6 +207,13 @@ void FPsingleton::sendRecentFile (const QString &file, bool recentOpened)
     args.append (recentOpened);
     methodCall.setArguments (args);
     QDBusConnection::sessionBus().call (methodCall, QDBus::NoBlock, 1000);
+#else
+	QStringList args;
+	args.append (QStringLiteral ("addRecentFile"));
+    args.append (file);
+    args.append (recentOpened ? QStringLiteral ("true") : QStringLiteral("false"));
+    hiddenWindow_->sendInfo( args );
+#endif
 }
 /*************************/
 bool FPsingleton::cursorInfo (const QString &commndOpt, int &lineNum, int &posInLine)
@@ -235,7 +318,7 @@ QStringList FPsingleton::processInfo (const QStringList &info,
         if (!path.isEmpty()) // no empty path/name
         {
             QString realPath = path;
-#ifdef __OS2__
+#if defined(__OS2__) || defined(Q_OS_WIN)
             /* Check whether the file path begins with a driverletter + ':'.
                QUrl mistakes that for a scheme. */
             if (path.indexOf (QRegularExpression ("^[A-Za-z]:")) != -1)

@@ -50,8 +50,10 @@
 #include <QStandardPaths>
 #include <QDesktopServices>
 #include <QPushButton>
+#ifndef Q_OS_WIN
 #include <QDBusConnection> // for opening containing folder
 #include <QDBusMessage> // for opening containing folder
+#endif
 #include <QStringDecoder>
 
 #ifdef HAS_X11
@@ -59,6 +61,12 @@
 #endif
 
 #define MAX_LAST_WIN_FILES 50
+
+#if defined(Q_OS_WIN)
+	#define STATUS_SPACE "  "
+#else
+	#define STATUS_SPACE ""
+#endif
 
 namespace FeatherPad {
 
@@ -2957,7 +2965,7 @@ void FPwin::enforceEncoding (QAction *a)
             int j = str.indexOf (lineStr);
             int offset = encodStr.size() + 9; // size of ":</b> <i>"
             str.replace (i + offset, j - i - offset, checkToEncoding());
-            statusLabel->setText (str);
+            statusLabel->setText (str + STATUS_SPACE);
         }
     }
 }
@@ -3679,7 +3687,7 @@ void FPwin::reloadSyntaxHighlighter (TextEdit *textEdit)
                 str.replace (i + offset, j - i - offset, textEdit->getProg());
             }
         }
-        statusLabel->setText (str);
+        statusLabel->setText (str + STATUS_SPACE);
         if (textEdit->getWordNumber() != -1)
             connect (textEdit->document(), &QTextDocument::contentsChange, this, &FPwin::updateWordInfo);
     }
@@ -4105,7 +4113,7 @@ void FPwin::tabSwitch (int index)
             QLabel *statusLabel = ui->statusBar->findChild<QLabel *>("statusLabel");
             statusLabel->setText (QString ("%1 <i>%2</i>")
                                   .arg (statusLabel->text(),
-                                        locale().toString (textEdit->getWordNumber())));
+                                        locale().toString (textEdit->getWordNumber())) + STATUS_SPACE);
         }
         showCursorPos();
     }
@@ -4523,7 +4531,7 @@ void FPwin::statusMsgWithLineCount (const int lines)
                      + QString (":</b> <i>%1</i>").arg (l.toString (textEdit->textCursor().selectedText().size()));
     QString wordStr = "&nbsp;&nbsp;&nbsp;<b>" + tr ("Words") + ":</b>";
 
-    statusLabel->setText (encodStr + syntaxStr + lineStr + selStr + wordStr);
+    statusLabel->setText (encodStr + syntaxStr + lineStr + selStr + wordStr + STATUS_SPACE);
 }
 /*************************/
 // Change the status bar text when the selection changes.
@@ -4545,7 +4553,7 @@ void FPwin::statusMsg()
     }
     QString charN = l.toString (sel);
     str.replace (i + 9, j - i - 13, charN);
-    statusLabel->setText (str);
+    statusLabel->setText (str + STATUS_SPACE);
 }
 /*************************/
 void FPwin::showCursorPos()
@@ -4649,7 +4657,7 @@ void FPwin::updateWordInfo (int /*position*/, int charsRemoved, int charsAdded)
         wordButton->setVisible (false);
         statusLabel->setText (QString ("%1 <i>%2</i>")
                               .arg (statusLabel->text(),
-                                    locale().toString (words)));
+                                    locale().toString (words)) + STATUS_SPACE);
         connect (textEdit->document(), &QTextDocument::contentsChange, this, &FPwin::updateWordInfo);
     }
     else if (charsRemoved > 0 || charsAdded > 0) // not if only the format is changed
@@ -5069,7 +5077,7 @@ void FPwin::detachTab()
             QLabel *statusLabel = dropTarget->ui->statusBar->findChild<QLabel *>("statusLabel");
             statusLabel->setText (QString ("%1 <i>%2</i>")
                                   .arg (statusLabel->text(),
-                                        locale().toString (textEdit->getWordNumber())));
+                                        locale().toString (textEdit->getWordNumber())) + STATUS_SPACE);
             connect (textEdit->document(), &QTextDocument::contentsChange, dropTarget, &FPwin::updateWordInfo);
         }
         connect (textEdit, &QPlainTextEdit::blockCountChanged, dropTarget, &FPwin::statusMsgWithLineCount);
@@ -5466,7 +5474,9 @@ void FPwin::tabContextMenu (const QPoint& p)
                                                   ? QIcon::fromTheme ("folder")
                                                   : symbolicIcon::icon (":icons/document-open.svg"),
                                               tr ("Open Containing Folder"));
+
             connect (action, &QAction::triggered, this, [fname] {
+#ifndef Q_OS_WIN
                 QDBusMessage methodCall =
                 QDBusMessage::createMethodCall (QStringLiteral ("org.freedesktop.FileManager1"),
                                                 QStringLiteral ("/org/freedesktop/FileManager1"),
@@ -5489,6 +5499,10 @@ void FPwin::tabContextMenu (const QPoint& p)
                         QDesktopServices::openUrl (QUrl::fromLocalFile (folder));
                     }
                 }
+#else
+				QString folder = fname.section ("/", 0, -2);
+        		QDesktopServices::openUrl (QUrl::fromLocalFile (folder));
+#endif
             });
         }
     }
@@ -5606,6 +5620,7 @@ void FPwin::listContextMenu (const QPoint& p)
                                                   : symbolicIcon::icon (":icons/document-open.svg"),
                                               tr ("Open Containing Folder"));
             connect (action, &QAction::triggered, this, [fname] {
+#ifndef Q_OS_WIN
                 QDBusMessage methodCall =
                 QDBusMessage::createMethodCall (QStringLiteral ("org.freedesktop.FileManager1"),
                                                 QStringLiteral ("/org/freedesktop/FileManager1"),
@@ -5626,6 +5641,10 @@ void FPwin::listContextMenu (const QPoint& p)
                         QDesktopServices::openUrl (QUrl::fromLocalFile (folder));
                     }
                 }
+#else
+				QString folder = fname.section ("/", 0, -2);
+                QDesktopServices::openUrl (QUrl::fromLocalFile (folder));
+#endif
             });
         }
     }
@@ -6158,7 +6177,7 @@ void FPwin::saveAllFiles (bool showWarning)
                             str.replace (i + offset, j - i - offset, thisTextEdit->getProg());
                         }
                     }
-                    statusLabel->setText (str);
+                    statusLabel->setText (str + STATUS_SPACE);
                     if (thisTextEdit->getWordNumber() != -1)
                         connect (thisTextEdit->document(), &QTextDocument::contentsChange, this, &FPwin::updateWordInfo);
                 }
@@ -6252,6 +6271,8 @@ void FPwin::helpDoc()
     QString helpPath (QStringLiteral (DATADIR) + "/help_" + lang);
 #elif defined (Q_OS_MAC)
     QString helpPath (qApp->applicationDirPath() + QStringLiteral ("/../Resources/") + "/help_" + lang);
+#elif defined(Q_OS_WIN)
+    QString helpPath (qApp->applicationDirPath() + "/data/help_" + lang);
 #else
     QString helpPath (QStringLiteral (DATADIR) + "/featherpad/help_" + lang);
 #endif
@@ -6263,6 +6284,8 @@ void FPwin::helpDoc()
         helpPath = QStringLiteral (DATADIR) + "/help_" + lang;
 #elif defined(Q_OS_MAC)
         helpPath = qApp->applicationDirPath() + QStringLiteral ("/../Resources/") + "/help_" + lang;
+#elif defined(Q_OS_WIN)
+        helpPath = qApp->applicationDirPath() + "/data/help_" + lang;
 #else
         helpPath = QStringLiteral (DATADIR) + "/featherpad/help_" + lang;
 #endif
@@ -6274,6 +6297,8 @@ void FPwin::helpDoc()
         helpPath =  QStringLiteral (DATADIR) + "/help";
 #elif defined(Q_OS_MAC)
         helpPath = qApp->applicationDirPath() + QStringLiteral ("/../Resources/") + "/help";
+#elif defined(Q_OS_WIN)
+        helpPath = qApp->applicationDirPath() + "/data/help";
 #else
         helpPath =  QStringLiteral (DATADIR) + "/featherpad/help";
 #endif
