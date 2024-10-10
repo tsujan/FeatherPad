@@ -141,7 +141,7 @@
     <message>
         <location filename="../../fp.ui" line="485"/>
         <source>Save the current tab</source>
-        <translation>Αποθήκευση καρτέλας</translation>
+        <translation>Αποθήκευση της τρέχουσας καρτέλας</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="488"/>
@@ -916,7 +916,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="3288"/>
         <source>Do you want to use &lt;b&gt;MS Windows&lt;/b&gt; end-of-lines?</source>
-        <translation type="unfinished"></translation>
+        <translation>Θέλετε να χρησιμοποιήσετε πέρατα πεδίου των &lt;b&gt;MS Windows&lt;/b&gt;;</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3289"/>
@@ -1533,7 +1533,8 @@ status bar for changing the syntax.</source>
         <location filename="../../prefDialog.ui" line="646"/>
         <source>Show spaces, tabs and tab lines
 when the syntax is highlighted.</source>
-        <translation type="unfinished"></translation>
+        <translation>Εμφάνιση κενών, στηλοθετών και γραμμών στηλοθέτη
+όταν είναι επισημασμένη η σύνταξη.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="650"/>
@@ -1555,7 +1556,7 @@ the editor font has a fixed pitch (like Monospace).</source>
     <message>
         <location filename="../../prefDialog.ui" line="657"/>
         <source>Also show line and document ends</source>
-        <translation type="unfinished"></translation>
+        <translation>Να εμφανίζονται επίσης τα πέρατα γραμμής και εγγράφου</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="801"/>
@@ -1577,7 +1578,7 @@ whose last line is not empty.</source>
     <message>
         <location filename="../../prefDialog.ui" line="880"/>
         <source>Remove trailing spaces on saving</source>
-        <translation type="unfinished"></translation>
+        <translation>Αφαίρεση συνοδών κενών κατά την αποθήκευση</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="898"/>
@@ -1885,7 +1886,12 @@ be used also when the opened file is not modified.
 This can be useful under certain circumstances,
 e.g. for changing the time stamp or removing the
 trailing spaces of a text file.</source>
-        <translation type="unfinished"></translation>
+        <translation>Αν επιλεγεί αυτό, το κουμπί/στοιχείο μενού θα μπορούσε
+επίσης να χρησιμοποιηθεί όταν το ανοιγμένο αρχείο δεν έχει τροποποιηθεί.
+
+Αυτό μπορεί να είναι χρήσιμο υπό ορισμένες συνθήκες,
+π.χ. για αλλαγή της χρονοσφραγίδας ή αφαίρεση
+των συνοδών κενών ενός αρχείου κειμένου.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1246"/>
