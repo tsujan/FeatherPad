@@ -968,7 +968,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="3757"/>
         <source>Text tabs are converted to spaces.</source>
-        <translation type="unfinished"></translation>
+        <translation>Οι στηλοθέτες κειμένου μετατρέπονται σε κενά διαστήματα.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3867"/>
@@ -1657,7 +1657,7 @@ will be shown by a popup dialog.</source>
     <message>
         <location filename="../../prefDialog.ui" line="163"/>
         <source>Start with side-pane mode</source>
-        <translation type="unfinished"></translation>
+        <translation>Εκκίνηση με λειτουργία πλευρικού πίνακα</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="372"/>
@@ -1715,7 +1715,7 @@ and-drop either.</source>
     <message>
         <location filename="../../prefDialog.ui" line="615"/>
         <source> MiB</source>
-        <translation type="unfinished"></translation>
+        <translation> MiB</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1117"/>
@@ -1876,7 +1876,7 @@ will be started from the document start.</source>
     <message>
         <location filename="../../prefDialog.ui" line="1207"/>
         <source> min</source>
-        <translation type="unfinished"></translation>
+        <translation> λεπτό</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1238"/>
@@ -1992,7 +1992,8 @@ be opened if they are pasted into FeatherPad.</source>
         <location filename="../../pref.cpp" line="111"/>
         <source>Press a modifier key to clear a shortcut
 in the editing mode.</source>
-        <translation type="unfinished"></translation>
+        <translation>Πατήστε ένα πλήκτρο τροποποίησης για να εκκαθαρίσετε μια συντόμευση
+στη λειτουργία επεξεργασίας.</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="117"/>
@@ -2020,7 +2021,7 @@ in the editing mode.</source>
     <message>
         <location filename="../../pref.cpp" line="453"/>
         <source>Functions, URLs,…</source>
-        <translation type="unfinished"></translation>
+        <translation>Λειτουργίες, διευθύνσεις URL,…</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="454"/>
@@ -2065,7 +2066,7 @@ in the editing mode.</source>
     <message>
         <location filename="../../pref.cpp" line="462"/>
         <source>Markdown Headings, CSS Values,…</source>
-        <translation type="unfinished"></translation>
+        <translation>Κεφαλίδες Markdown, τιμές CSS,…</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="463"/>
