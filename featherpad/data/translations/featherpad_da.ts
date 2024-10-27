@@ -1800,7 +1800,10 @@ Programmet skal genstartes før ændringerne træder i kraft.</translation>
 Leave empty for the system default.
 
 Takes effect after closing this dialog.</source>
-        <translation type="unfinished"></translation>
+        <translation>Bruges til at indsætte dato og klokkeslæt.
+Lad være tomt for systemstandard.
+
+Træder i kraft efter lukning af denne dialog.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="828"/>
