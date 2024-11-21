@@ -1753,7 +1753,7 @@ Takes effect after closing this dialog.</source>
     <message>
         <location filename="../../prefDialog.ui" line="828"/>
         <source>Text tab size:</source>
-        <translation>文字 tab 大小</translation>
+        <translation>文字 tab 大小:</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="835"/>
