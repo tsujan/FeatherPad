@@ -1566,7 +1566,7 @@ el tipus de lletra de l&apos;editor té un ample fix (com Monospace).</translati
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="657"/>
-        <source>Also show line and document ends</source>
+        <source>Show line and document ends</source>
         <translation>Mostra també els finals de línia i de document</translation>
     </message>
     <message>

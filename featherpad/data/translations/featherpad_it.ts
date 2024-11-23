@@ -1563,7 +1563,7 @@ se il font dell&amp;#39;editor è di larghezza fissa (come Monospace).</translat
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="657"/>
-        <source>Also show line and document ends</source>
+        <source>Show line and document ends</source>
         <translation>Mostra anche la fine della riga e del documento</translation>
     </message>
     <message>

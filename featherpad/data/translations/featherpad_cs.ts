@@ -1563,7 +1563,7 @@ písmo editoru má pevné pitch (jako Monospace).</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="657"/>
-        <source>Also show line and document ends</source>
+        <source>Show line and document ends</source>
         <translation>Také zobrazovat konce čáry a dokumentu</translation>
     </message>
     <message>

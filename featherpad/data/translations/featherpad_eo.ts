@@ -1562,7 +1562,7 @@ la redaktila tiparo havus fiksitan larĝon (kiel Monospace).</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="657"/>
-        <source>Also show line and document ends</source>
+        <source>Show line and document ends</source>
         <translation>Ankaŭ montru la liniajn kaj dokumentan finojn</translation>
     </message>
     <message>

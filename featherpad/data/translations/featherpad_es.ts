@@ -1567,7 +1567,7 @@ si el tipo de fuente utilizado es de ancho fijo.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="657"/>
-        <source>Also show line and document ends</source>
+        <source>Show line and document ends</source>
         <translation>Mostrar símbolos en los saltos de linea y el final del documento</translation>
     </message>
     <message>

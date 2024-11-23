@@ -1602,7 +1602,7 @@ when the syntax is highlighted.</source>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="657"/>
-        <source>Also show line and document ends</source>
+        <source>Show line and document ends</source>
         <translation>行末と文書の末尾を示すマークを表示する</translation>
     </message>
     <message>

@@ -1558,7 +1558,7 @@ a fonte do editor tiver um passo fixo (como o Monospace).</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="657"/>
-        <source>Also show line and document ends</source>
+        <source>Show line and document ends</source>
         <translation>Também exibir fim de linha e documento</translation>
     </message>
     <message>

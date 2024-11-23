@@ -1562,7 +1562,7 @@ używasz czcionki o stałej szerokości znaków.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="657"/>
-        <source>Also show line and document ends</source>
+        <source>Show line and document ends</source>
         <translation>Pokazuj także koniec dokumentów i wierszy</translation>
     </message>
     <message>

@@ -654,7 +654,7 @@ when the syntax is highlighted.</string>
               <item>
                <widget class="QCheckBox" name="endingsBox">
                 <property name="text">
-                 <string>Also show line and document ends</string>
+                 <string>Show line and document ends</string>
                 </property>
                </widget>
               </item>

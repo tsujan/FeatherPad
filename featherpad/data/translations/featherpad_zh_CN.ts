@@ -1550,7 +1550,7 @@ the editor font has a fixed pitch (like Monospace).</source>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="657"/>
-        <source>Also show line and document ends</source>
+        <source>Show line and document ends</source>
         <translation>也显示行与文档结尾</translation>
     </message>
     <message>

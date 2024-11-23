@@ -1561,7 +1561,7 @@ kirjatüübiks määranud fikseeritud laiusega fondi (nagu näiteks Monospace).<
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="657"/>
-        <source>Also show line and document ends</source>
+        <source>Show line and document ends</source>
         <translation>Näita rea ja faili lõpumärke</translation>
     </message>
     <message>

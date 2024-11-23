@@ -1561,7 +1561,7 @@ jei redaktoriaus šriftas yra fiksuoto dydžio (pvz., Lygiaplotis).</translation
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="657"/>
-        <source>Also show line and document ends</source>
+        <source>Show line and document ends</source>
         <translation>Taip pat rodyti eilučių ir dokumentų pabaigas</translation>
     </message>
     <message>

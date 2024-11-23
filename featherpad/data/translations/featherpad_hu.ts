@@ -1558,7 +1558,7 @@ a betűtípus rögzített szélességű (pl. Monospace).</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="657"/>
-        <source>Also show line and document ends</source>
+        <source>Show line and document ends</source>
         <translation>Sorvégek és dokumentumvég megjelenítése</translation>
     </message>
     <message>

@@ -1561,7 +1561,7 @@ het lettertype een vastebreedtelettertype is, zoals Monospace.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="657"/>
-        <source>Also show line and document ends</source>
+        <source>Show line and document ends</source>
         <translation>Regel- en documenteinden aangeven</translation>
     </message>
     <message>

@@ -1563,7 +1563,7 @@ uniquement si la police a une taille constante (comme Monospace).</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="657"/>
-        <source>Also show line and document ends</source>
+        <source>Show line and document ends</source>
         <translation>Afficher également la fin de ligne et de document</translation>
     </message>
     <message>

@@ -1560,7 +1560,7 @@ o tipo de letra do editor tem um tom fixo (como Monospace).</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="657"/>
-        <source>Also show line and document ends</source>
+        <source>Show line and document ends</source>
         <translation>Também mostra as extremidades da linha e do documento</translation>
     </message>
     <message>
