@@ -2318,7 +2318,7 @@ windows will be included in the saved session.</source>
     <message>
         <location filename="../../spellDialog.ui" line="51"/>
         <source>Add To Dictionary</source>
-        <translation>디렉토리에 추가</translation>
+        <translation>디렉터리에 추가</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="62"/>
