@@ -1136,6 +1136,8 @@
         <translation>
             <numerusform>החלפה אחת</numerusform>
             <numerusform>שתי החלפות</numerusform>
+            <numerusform>%Ln החלפות</numerusform>
+            <numerusform>%Ln החלפות</numerusform>
         </translation>
     </message>
     <message>
@@ -1799,7 +1801,10 @@ Needs application restart to take effect.</source>
 Leave empty for the system default.
 
 Takes effect after closing this dialog.</source>
-        <translation type="unfinished"></translation>
+        <translation>משמש להדבקת התאריך והשעה.
+יש להשאיר ריק לקבלת ברירת המחדל של המערכת.
+
+תקף לאחר סגירת החלונית הזאת.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="828"/>
