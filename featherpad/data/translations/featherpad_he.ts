@@ -959,12 +959,12 @@
     <message>
         <location filename="../../fpwin.cpp" line="2749"/>
         <source>Huge column!</source>
-        <translation type="unfinished"></translation>
+        <translation>עמודה ענקית!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2750"/>
         <source>Columns with more than 1000 rows are not supported.</source>
-        <translation type="unfinished"></translation>
+        <translation>אין תמיכה בעמודות עם למעלה מ־1000 שורות.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2871"/>
