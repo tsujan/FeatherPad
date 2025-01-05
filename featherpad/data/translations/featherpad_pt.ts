@@ -959,12 +959,12 @@
     <message>
         <location filename="../../fpwin.cpp" line="2749"/>
         <source>Huge column!</source>
-        <translation type="unfinished"></translation>
+        <translation>Coluna enorme!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2750"/>
         <source>Columns with more than 1000 rows are not supported.</source>
-        <translation type="unfinished"></translation>
+        <translation>As colunas com mais de 1000 linhas não são suportadas.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2871"/>
