@@ -231,7 +231,7 @@
     <message>
         <location filename="../../fp.ui" line="573"/>
         <source>Documen&amp;t Properties</source>
-        <translation type="unfinished"></translation>
+        <translation>დოკუმენ&amp;ტის თვისებები</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="576"/>
@@ -331,7 +331,7 @@
     <message>
         <location filename="../../fp.ui" line="679"/>
         <source>&amp;Auto-Indentation</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;ავტოშეწევა</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="682"/>
@@ -441,7 +441,7 @@
     <message>
         <location filename="../../fp.ui" line="918"/>
         <source>Side-Pane</source>
-        <translation type="unfinished"></translation>
+        <translation>გვერდითი პანელი</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="921"/>
@@ -1120,7 +1120,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="6246"/>
         <source>aka.</source>
-        <translation type="unfinished"></translation>
+        <translation>ცნობილი, როგორც.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="6247"/>
@@ -1764,7 +1764,7 @@ Takes effect after closing this dialog.</source>
     <message>
         <location filename="../../prefDialog.ui" line="835"/>
         <source> spaces</source>
-        <translation type="unfinished"></translation>
+        <translation> ჰარე</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="887"/>
@@ -2157,7 +2157,7 @@ windows will be included in the saved session.</source>
     <message>
         <location filename="../../sessionDialog.ui" line="204"/>
         <source>&lt;b&gt;Warning&lt;/b&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;გაფრთხილება&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="250"/>
