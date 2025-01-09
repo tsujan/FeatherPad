@@ -958,12 +958,12 @@
     <message>
         <location filename="../../fpwin.cpp" line="2749"/>
         <source>Huge column!</source>
-        <translation type="unfinished"></translation>
+        <translation>Stor kolumn!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2750"/>
         <source>Columns with more than 1000 rows are not supported.</source>
-        <translation type="unfinished"></translation>
+        <translation>Kolumner med fler än 1000 rader stöds inte.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2871"/>
