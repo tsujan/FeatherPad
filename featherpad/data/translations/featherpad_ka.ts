@@ -36,7 +36,8 @@
         <location filename="../../fp.ui" line="107"/>
         <source>Select text from cursor to this line
 (Ctrl+Shift+J)</source>
-        <translation type="unfinished"></translation>
+        <translation>ტექსტის მონიშვნა კურსორიდან ამ ხაზამდე
+(Ctrl+Shift+J)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="111"/>
@@ -2035,12 +2036,12 @@ in the editing mode.</source>
     <message>
         <location filename="../../pref.cpp" line="1522"/>
         <source>&amp;Recently Opened</source>
-        <translation type="unfinished">&amp;ახახანს გახსნილი</translation>
+        <translation>&amp;ახლახანს გახსნილი</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="1523"/>
         <source>Recently &amp;Modified</source>
-        <translation type="unfinished">ახლახანს &amp;შეცვლილი</translation>
+        <translation>ახლახან &amp;შეცვლილი</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="1598"/>
