@@ -1504,7 +1504,7 @@ of the selected text.</source>
     <message>
         <location filename="../../prefDialog.ui" line="545"/>
         <source>Selection highlighting</source>
-        <translation type="unfinished"></translation>
+        <translation>მონიშნულის გამოკვეთა</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="608"/>
@@ -1531,7 +1531,7 @@ when the syntax is highlighted.</source>
     <message>
         <location filename="../../prefDialog.ui" line="650"/>
         <source>Show whitespaces</source>
-        <translation type="unfinished"></translation>
+        <translation>თეთრი ჰარეების ჩვენება</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="666"/>
@@ -1801,7 +1801,7 @@ name but ending with &quot;.aff&quot;.</source>
         <location filename="../../prefDialog.ui" line="937"/>
         <location filename="../../pref.cpp" line="1800"/>
         <source>Add dictionary...</source>
-        <translation type="unfinished"></translation>
+        <translation>ლექსიკონის დამატება...</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="949"/>
@@ -1901,7 +1901,7 @@ be opened if they are pasted into FeatherPad.</source>
     <message>
         <location filename="../../prefDialog.ui" line="1343"/>
         <source>Syntax Colors</source>
-        <translation type="unfinished"></translation>
+        <translation>სინტაქსის ფერები</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1438"/>
@@ -1971,7 +1971,7 @@ in the editing mode.</source>
     <message>
         <location filename="../../pref.cpp" line="453"/>
         <source>Functions, URLs,…</source>
-        <translation type="unfinished"></translation>
+        <translation>ფუნქციები, ბმულები…</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="454"/>
@@ -1996,7 +1996,7 @@ in the editing mode.</source>
     <message>
         <location filename="../../pref.cpp" line="458"/>
         <source>Key Words</source>
-        <translation type="unfinished"></translation>
+        <translation>საკვანძო სიტყვები</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="459"/>
@@ -2021,7 +2021,7 @@ in the editing mode.</source>
     <message>
         <location filename="../../pref.cpp" line="463"/>
         <source>Extra Elements</source>
-        <translation type="unfinished"></translation>
+        <translation>დამატებითი ელემენტები</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="645"/>
@@ -2076,7 +2076,7 @@ in the editing mode.</source>
     <message>
         <location filename="../../searchbar.cpp" line="132"/>
         <source>Whole Word</source>
-        <translation type="unfinished"></translation>
+        <translation>მთლიანი სიტყვა</translation>
     </message>
     <message>
         <location filename="../../searchbar.cpp" line="139"/>
