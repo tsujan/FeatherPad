@@ -202,7 +202,7 @@
     <message>
         <location filename="../../fp.ui" line="549"/>
         <source>Show/hide replacement dock</source>
-        <translation type="unfinished"></translation>
+        <translation>ჩანაცვლების პანელის ჩვენება/დამალვა</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="552"/>
@@ -387,7 +387,7 @@
     <message>
         <location filename="../../fp.ui" line="779"/>
         <source>Show/hide jump bar</source>
-        <translation type="unfinished"></translation>
+        <translation>გადასვლის პანელის ჩვენება/დამალვა</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="782"/>
@@ -474,7 +474,7 @@
         <location filename="../../fp.ui" line="945"/>
         <location filename="../../fp.ui" line="948"/>
         <source>To Lower Case</source>
-        <translation type="unfinished"></translation>
+        <translation>პატარა ასოებში</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="951"/>
@@ -491,7 +491,7 @@
         <location filename="../../fp.ui" line="967"/>
         <location filename="../../fp.ui" line="970"/>
         <source>Last Active Tab</source>
-        <translation type="unfinished"></translation>
+        <translation>ბოლო აქტიური ჩანართი</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="973"/>
@@ -524,7 +524,7 @@
         <location filename="../../fp.ui" line="1002"/>
         <location filename="../../fp.ui" line="1005"/>
         <source>Save All Files</source>
-        <translation type="unfinished"></translation>
+        <translation>ყველა ფაილის შენახვა</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1010"/>
@@ -2115,7 +2115,7 @@ in the editing mode.</source>
     <message>
         <location filename="../../sessionDialog.ui" line="45"/>
         <source>&lt;b&gt;Save/Restore Session&lt;/b&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;სესიის შენახვა/აღდგენა&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="68"/>
@@ -2271,7 +2271,7 @@ windows will be included in the saved session.</source>
     <message>
         <location filename="../../spellDialog.ui" line="129"/>
         <source>Correct Once</source>
-        <translation type="unfinished"></translation>
+        <translation>ერთხელ შესწორება</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="142"/>
@@ -2281,7 +2281,7 @@ windows will be included in the saved session.</source>
     <message>
         <location filename="../../spellDialog.ui" line="87"/>
         <source>Ignore Once</source>
-        <translation type="unfinished"></translation>
+        <translation>ერთხელ გამოტოვება</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="100"/>

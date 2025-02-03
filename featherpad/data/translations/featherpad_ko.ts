@@ -954,17 +954,17 @@
     <message>
         <location filename="../../fpwin.cpp" line="2698"/>
         <source>Huge file(s) not opened!</source>
-        <translation>양이 많은 파일은 열 수 없습니다!</translation>
+        <translation>파일이 너무 커서 열 수 없습니다!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2749"/>
         <source>Huge column!</source>
-        <translation type="unfinished"></translation>
+        <translation>열이 너무 많습니다!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2750"/>
         <source>Columns with more than 1000 rows are not supported.</source>
-        <translation type="unfinished"></translation>
+        <translation>1000개가 넘는 행이 있는 열은 지원되지 않습니다.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2871"/>
