@@ -34,7 +34,7 @@ class Printing : public QThread {
 public:
     Printing (QTextDocument *document, const QString &fileName,
               const QColor &textColor, int darkValue,
-              qreal sourceDpiX, qreal sourceDpiY);
+              double sourceDpiX, double sourceDpiY);
     ~Printing();
 
     QPrinter* printer() const {
@@ -49,8 +49,8 @@ private:
     QPrinter *printer_;
     QColor textColor_;
     QColor darkColor_;
-    qreal sourceDpiX_;
-    qreal sourceDpiY_;
+    double sourceDpiX_;
+    double sourceDpiY_;
     int darkValue_;
 };
 

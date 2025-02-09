@@ -19,6 +19,8 @@
 
 #include "highlighter.h"
 
+#include <algorithm>
+
 namespace FeatherPad {
 
 /* we include "%", "%Q", "%q", "%W", "%w", "%x" ans "%s" here to have a simpler code */
@@ -77,7 +79,7 @@ bool Highlighter::isEscapedRubyRegex (const QString &text, const int pos)
 int Highlighter::findRubyDelimiter (const QString &text, const int index,
                                     const QRegularExpression &delimExp, int &capturedLength) const
 {
-    int i = qMax (index, 0);
+    int i = std::max (index, 0);
     const QString pattern = delimExp.pattern();
     if (pattern.startsWith ("\\")
         && (pattern.endsWith (")") || pattern.endsWith ("}")
@@ -224,7 +226,7 @@ bool Highlighter::isInsideRubyRegex (const QString &text, const int index)
         {
             if (res)
             {
-                pos = qMax (pos, 0);
+                pos = std::max (pos, 0);
                 setFormat (pos, nxtPos - pos + capturedLength, regexFormat);
             }
             if (N % 2 != 0 && capturedLength > 1)
@@ -239,7 +241,7 @@ bool Highlighter::isInsideRubyRegex (const QString &text, const int index)
         {
             if (TextBlockData *data = static_cast<TextBlockData *>(currentBlock().userData()))
                 data->insertLastFormattedRegex (nxtPos + capturedLength);
-            pos = qMax (pos, 0);
+            pos = std::max (pos, 0);
             setFormat (pos, nxtPos - pos + capturedLength, regexFormat);
         }
 
@@ -329,7 +331,7 @@ void Highlighter::multiLineRubyRegex (const QString &text)
             endIndex = findRubyDelimiter (text, endIndex + 1, endExp, endLength);
 
         int len;
-        int keywordLength = qMax (startMatch.capturedLength() - 1, 0);
+        int keywordLength = std::max (static_cast<int>(startMatch.capturedLength()) - 1, 0);
         if (endIndex == -1)
         {
             len = text.length() - startIndex;

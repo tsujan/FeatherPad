@@ -136,7 +136,7 @@ void FPwin::hlight() const
         QColor color = QColor (textEdit->hasDarkScheme()
                                    ? QColor (255, 255, 0,
                                              /* a quadratic equation for darkValue -> opacity: 0 -> 90,  27 -> 75, 50 -> 65 */
-                                             static_cast<int>(static_cast<qreal>(textEdit->getDarkValue() * (textEdit->getDarkValue() - 257)) / static_cast<qreal>(414)) + 90)
+                                             static_cast<int>(static_cast<double>(textEdit->getDarkValue() * (textEdit->getDarkValue() - 257)) / 414) + 90)
                                    : Qt::yellow);
         QTextDocument::FindFlags searchFlags = getSearchFlags();
         QTextCursor found;

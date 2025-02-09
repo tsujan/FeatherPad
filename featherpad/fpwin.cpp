@@ -413,13 +413,13 @@ void FPwin::toggleSidePane()
         {
             /* make sure that the side pane is visible and
                its width isn't greater than that of the view */
-            sizes.append (qBound (16, config.getSplitterPos(), size().width() / 2));
+            sizes.append (std::min (std::max (16, config.getSplitterPos()), size().width() / 2));
             sizes.append (100); // an arbitrary integer, because of stretching
         }
         else
         {
             /* don't let the side pane be wider than 1/5 of the window width */
-            int s = qMin (size().width() / 5, 40 * sidePane_->fontMetrics().horizontalAdvance(' '));
+            int s = std::min (size().width() / 5, 40 * sidePane_->fontMetrics().horizontalAdvance(' '));
             sizes << s << size().width() - s;
         }
         ui->splitter->setSizes (sizes);
@@ -1935,12 +1935,12 @@ void FPwin::focusSidePane()
             Config config = static_cast<FPsingleton*>(qApp)->getConfig();
             if (config.getRemSplitterPos())
             {
-                sizes.append (qBound (16, config.getSplitterPos(), size().width() / 2));
+                sizes.append (std::min (std::max (16, config.getSplitterPos()), size().width() / 2));
                 sizes.append (100);
             }
             else
             {
-                int s = qMin (size().width() / 5, 40 * sidePane_->fontMetrics().horizontalAdvance(' '));
+                int s = std::min (size().width() / 5, 40 * sidePane_->fontMetrics().horizontalAdvance(' '));
                 sizes << s << size().width() - s;
             }
             ui->splitter->setSizes (sizes);
@@ -2482,7 +2482,7 @@ void FPwin::addText (const QString& text, const QString& fileName, const QString
             {
                 QTextCursor cur = textEdit->textCursor();
                 cur.movePosition (QTextCursor::End);
-                int pos = qMin (qMax (cursorPos.value (fileName, 0).toInt(), 0), cur.position());
+                int pos = std::min (std::max (cursorPos.value (fileName, 0).toInt(), 0), cur.position());
                 cur.setPosition (pos);
                 QTimer::singleShot (0, textEdit, [textEdit, cur]() {
                     textEdit->setTextCursor (cur); // ensureCursorVisible() is called by this
@@ -3234,7 +3234,7 @@ bool FPwin::saveFile (bool keepSyntax,
                     if (doubleSpace)
                     { // markdown sees two trailing spaces as a new line
                         if (num != 2)
-                            tmpCur.movePosition (QTextCursor::PreviousCharacter, QTextCursor::KeepAnchor, qMax (1, num - 2));
+                            tmpCur.movePosition (QTextCursor::PreviousCharacter, QTextCursor::KeepAnchor, std::max (1, num - 2));
                     }
                     else if (singleSpace)
                     { // LaTeX takes its single trailing spaces into account
@@ -3840,8 +3840,8 @@ void FPwin::startCase()
         {
             bool showWarning = false;
             QTextCursor cur = textEdit->textCursor();
-            int start = qMin (cur.anchor(), cur.position());
-            int end = qMax (cur.anchor(), cur.position());
+            int start = std::min (cur.anchor(), cur.position());
+            int end = std::max (cur.anchor(), cur.position());
             if (end > start + 100000)
             {
                 showWarning = true;
@@ -4740,8 +4740,8 @@ void FPwin::filePrint()
 
     bool Use96Dpi = QCoreApplication::instance()->testAttribute (Qt::AA_Use96Dpi);
     QScreen *screen = QGuiApplication::primaryScreen();
-    qreal sourceDpiX = Use96Dpi ? 96 : screen ? screen->logicalDotsPerInchX() : 100;
-    qreal sourceDpiY = Use96Dpi ? 96 : screen ? screen->logicalDotsPerInchY() : 100;
+    double sourceDpiX = Use96Dpi ? 96 : screen ? screen->logicalDotsPerInchX() : 100;
+    double sourceDpiY = Use96Dpi ? 96 : screen ? screen->logicalDotsPerInchY() : 100;
     Printing *thread = new Printing (textEdit->document(),
                                      fileName,
                                      textEdit->getTextPrintColor(),
@@ -6099,7 +6099,7 @@ void FPwin::saveAllFiles (bool showWarning)
                     if (doubleSpace)
                     {
                         if (num != 2)
-                            tmpCur.movePosition (QTextCursor::PreviousCharacter, QTextCursor::KeepAnchor, qMax (1, num - 2));
+                            tmpCur.movePosition (QTextCursor::PreviousCharacter, QTextCursor::KeepAnchor, std::max (1, num - 2));
                     }
                     else if (singleSpace)
                     {

@@ -19,6 +19,8 @@
 
 #include "highlighter.h"
 
+#include <algorithm>
+
 namespace FeatherPad {
 
 static const QRegularExpression pascalCommentStartExp ("\\(\\*|\\{");
@@ -111,11 +113,11 @@ bool Highlighter::isPascalMLCommented (const QString &text, const int index,
 void Highlighter::singleLinePascalComment (const QString &text, const int start)
 {
     QRegularExpression commentExp ("//.*");
-    int startIndex = qMax (start, 0);
+    int startIndex = std::max (start, 0);
     startIndex = text.indexOf (commentExp, startIndex);
     /* skip quoted comments */
     while (format (startIndex) == quoteFormat // only for multiLinePascalComment()
-           || isPascalQuoted (text, startIndex, qMax (start, 0)))
+           || isPascalQuoted (text, startIndex, std::max (start, 0)))
     {
         startIndex = text.indexOf (commentExp, startIndex + 1);
     }

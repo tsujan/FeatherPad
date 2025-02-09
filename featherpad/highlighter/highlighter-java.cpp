@@ -19,6 +19,8 @@
 
 #include "highlighter.h"
 
+#include <algorithm>
+
 namespace FeatherPad {
 
 bool Highlighter::isEscapedJavaQuote (const QString &text, const int pos,
@@ -238,7 +240,7 @@ void Highlighter::singleLineJavaComment (const QString &text, const int start)
     {
         if (rule.format == commentFormat)
         {
-            int startIndex = qMax (start, 0);
+            int startIndex = std::max (start, 0);
             startIndex = text.indexOf (rule.pattern, startIndex);
             /* skip quoted comments */
             while (startIndex > -1
@@ -246,7 +248,7 @@ void Highlighter::singleLineJavaComment (const QString &text, const int start)
                    && (format (startIndex) == quoteFormat
                        || format (startIndex) == urlInsideQuoteFormat
                        /* check whether the comment sign is quoted or inside regex */
-                       || isJavaSingleCommentQuoted (text, startIndex, qMax (start, 0))))
+                       || isJavaSingleCommentQuoted (text, startIndex, std::max (start, 0))))
             {
                 startIndex = text.indexOf (rule.pattern, startIndex + 1);
             }

@@ -22,11 +22,14 @@
 #include <QTextBlock>
 #include <QAbstractTextDocumentLayout>
 
+#include <algorithm>
+#include <cmath>
+
 namespace FeatherPad {
 
 Printing::Printing (QTextDocument *document, const QString &fileName,
                     const QColor &textColor, int darkValue,
-                    qreal sourceDpiX, qreal sourceDpiY)
+                    double sourceDpiX, double sourceDpiY)
 {
     origDoc_ = document;
     clonedDoc_ = nullptr;
@@ -80,8 +83,8 @@ static void printPage (int index, QPainter *painter, const QTextDocument *doc,
         painter->setFont (QFont (doc->defaultFont()));
         const QString pageString = QString::number (index);
 
-        painter->drawText(qRound (pageNumberPos.x() - painter->fontMetrics().horizontalAdvance (pageString) / 2),
-                          qRound (pageNumberPos.y() + view.top()),
+        painter->drawText(std::round (pageNumberPos.x() - painter->fontMetrics().horizontalAdvance (pageString) / 2),
+                          std::round (pageNumberPos.y() + view.top()),
                           pageString);
     }
 
@@ -125,7 +128,7 @@ void Printing::run()
 
     clonedDoc_->documentLayout()->setPaintDevice (p.device());
 
-    const qreal dpiScaleY = static_cast<qreal>(printer_->logicalDpiY()) / sourceDpiY_;
+    const double dpiScaleY = static_cast<double>(printer_->logicalDpiY()) / sourceDpiY_;
 
     const int horizontalMargin = static_cast<int>((2/2.54) * sourceDpiX_);
     const int verticalMargin = static_cast<int>((2/2.54) * sourceDpiY_);
@@ -153,8 +156,8 @@ void Printing::run()
         toPage = clonedDoc_->pageCount();
     }
 
-    fromPage = qMax (1, fromPage);
-    toPage = qMin (clonedDoc_->pageCount(), toPage);
+    fromPage = std::max (1, fromPage);
+    toPage = std::min (clonedDoc_->pageCount(), toPage);
 
     if (toPage < fromPage) return;
 

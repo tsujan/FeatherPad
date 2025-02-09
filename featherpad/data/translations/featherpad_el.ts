@@ -1849,7 +1849,7 @@ name but ending with &quot;.aff&quot;.</source>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="937"/>
-        <location filename="../../pref.cpp" line="1800"/>
+        <location filename="../../pref.cpp" line="1802"/>
         <source>Add dictionary...</source>
         <translation>Προσθήκη λεξικού...</translation>
     </message>
@@ -1997,123 +1997,123 @@ be opened if they are pasted into FeatherPad.</source>
         <translation>Κλείσιμο</translation>
     </message>
     <message>
-        <location filename="../../pref.cpp" line="111"/>
+        <location filename="../../pref.cpp" line="113"/>
         <source>Press a modifier key to clear a shortcut
 in the editing mode.</source>
         <translation>Πατήστε ένα πλήκτρο τροποποίησης για να εκκαθαρίσετε μια συντόμευση
 στη λειτουργία επεξεργασίας.</translation>
     </message>
     <message>
-        <location filename="../../pref.cpp" line="117"/>
+        <location filename="../../pref.cpp" line="119"/>
         <source>Double click a color to change it.</source>
         <translation>Διπλό κλικ σε ένα χρώμα για αλλαγή του.</translation>
     </message>
     <message>
-        <location filename="../../pref.cpp" line="353"/>
-        <location filename="../../pref.cpp" line="1496"/>
+        <location filename="../../pref.cpp" line="355"/>
+        <location filename="../../pref.cpp" line="1498"/>
         <source>files</source>
         <translation>αρχεία</translation>
     </message>
     <message>
-        <location filename="../../pref.cpp" line="353"/>
-        <location filename="../../pref.cpp" line="1496"/>
+        <location filename="../../pref.cpp" line="355"/>
+        <location filename="../../pref.cpp" line="1498"/>
         <source>file</source>
         <translation>αρχείο</translation>
     </message>
     <message>
-        <location filename="../../pref.cpp" line="420"/>
-        <location filename="../../pref.cpp" line="1615"/>
+        <location filename="../../pref.cpp" line="422"/>
+        <location filename="../../pref.cpp" line="1617"/>
         <source>Warning: Ambiguous shortcut detected!</source>
         <translation>Προειδοποίηση: Ανιχνεύθηκε αμφίσημη συντόμευση!</translation>
     </message>
     <message>
-        <location filename="../../pref.cpp" line="453"/>
+        <location filename="../../pref.cpp" line="455"/>
         <source>Functions, URLs,…</source>
         <translation>Λειτουργίες, διευθύνσεις URL,…</translation>
     </message>
     <message>
-        <location filename="../../pref.cpp" line="454"/>
+        <location filename="../../pref.cpp" line="456"/>
         <source>Built-in Functions</source>
         <translation>Ενσωματωμένες λειτουργίες</translation>
     </message>
     <message>
-        <location filename="../../pref.cpp" line="455"/>
+        <location filename="../../pref.cpp" line="457"/>
         <source>Comments</source>
         <translation>Σχόλια</translation>
     </message>
     <message>
-        <location filename="../../pref.cpp" line="456"/>
+        <location filename="../../pref.cpp" line="458"/>
         <source>Quotations</source>
         <translation>Παραθέσεις</translation>
     </message>
     <message>
-        <location filename="../../pref.cpp" line="457"/>
+        <location filename="../../pref.cpp" line="459"/>
         <source>Types</source>
         <translation>Τύποι</translation>
     </message>
     <message>
-        <location filename="../../pref.cpp" line="458"/>
+        <location filename="../../pref.cpp" line="460"/>
         <source>Key Words</source>
         <translation>Λέξεις Κλειδιά</translation>
     </message>
     <message>
-        <location filename="../../pref.cpp" line="459"/>
+        <location filename="../../pref.cpp" line="461"/>
         <source>Numbers</source>
         <translation>Αριθμοί</translation>
     </message>
     <message>
-        <location filename="../../pref.cpp" line="460"/>
+        <location filename="../../pref.cpp" line="462"/>
         <source>Regular Expressions, Code Blocks,…</source>
         <translation>Τακτικές παραστάσεις, μπλοκ κώδικα,…</translation>
     </message>
     <message>
-        <location filename="../../pref.cpp" line="461"/>
+        <location filename="../../pref.cpp" line="463"/>
         <source>Document Blocks, XML/HTML Elements,…</source>
         <translation>Αποσπάσματα εγγράφου, στοιχεία XML/HTML,…</translation>
     </message>
     <message>
-        <location filename="../../pref.cpp" line="462"/>
+        <location filename="../../pref.cpp" line="464"/>
         <source>Markdown Headings, CSS Values,…</source>
         <translation>Κεφαλίδες Markdown, τιμές CSS,…</translation>
     </message>
     <message>
-        <location filename="../../pref.cpp" line="463"/>
+        <location filename="../../pref.cpp" line="465"/>
         <source>Extra Elements</source>
         <translation>Επιπρόσθετα στοιχεία</translation>
     </message>
     <message>
-        <location filename="../../pref.cpp" line="645"/>
+        <location filename="../../pref.cpp" line="647"/>
         <source>Application restart is needed for changes to take effect.</source>
         <translation>Χρειάζεται επανεκκίνηση της εφαρμογής για να τεθούν σε ισχύ οι αλλαγές.</translation>
     </message>
     <message>
-        <location filename="../../pref.cpp" line="666"/>
+        <location filename="../../pref.cpp" line="668"/>
         <source>Window reopening is needed for changes to take effect.</source>
         <translation>Χρειάζεται εκ νέου άνοιγμα του παραθύρου για να τεθούν σε ισχύ οι αλλαγές.</translation>
     </message>
     <message>
-        <location filename="../../pref.cpp" line="1522"/>
+        <location filename="../../pref.cpp" line="1524"/>
         <source>&amp;Recently Opened</source>
         <translation>&amp;Πρόσφατα ανοιγμένα</translation>
     </message>
     <message>
-        <location filename="../../pref.cpp" line="1523"/>
+        <location filename="../../pref.cpp" line="1525"/>
         <source>Recently &amp;Modified</source>
         <translation>Πρόσφατα &amp;τροποποιημένα</translation>
     </message>
     <message>
-        <location filename="../../pref.cpp" line="1598"/>
+        <location filename="../../pref.cpp" line="1600"/>
         <source>The typed shortcut was reserved.</source>
         <translation>Η πληκτρολογηθείσα συντόμευση ήταν δεσμευμένη.</translation>
     </message>
     <message>
-        <location filename="../../pref.cpp" line="1802"/>
+        <location filename="../../pref.cpp" line="1804"/>
         <source>Hunspell Dictionary Files</source>
         <translation>Αρχεία λεξικού Hunspell</translation>
     </message>
     <message>
-        <location filename="../../pref.cpp" line="521"/>
-        <location filename="../../pref.cpp" line="1888"/>
+        <location filename="../../pref.cpp" line="523"/>
+        <location filename="../../pref.cpp" line="1890"/>
         <source>Select Syntax Color</source>
         <translation>Επιλογή χρώματος σύνταξης</translation>
     </message>
@@ -2351,7 +2351,7 @@ windows will be included in the saved session.</source>
 <context>
     <name>FeatherPad::TextEdit</name>
     <message>
-        <location filename="../../textedit.cpp" line="149"/>
+        <location filename="../../textedit.cpp" line="152"/>
         <source>Double click to center current line</source>
         <translation>Διπλό κλικ για κεντράρισμα τρέχουσας γραμμής</translation>
     </message>

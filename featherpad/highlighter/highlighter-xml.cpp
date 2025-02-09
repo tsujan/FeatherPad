@@ -19,6 +19,8 @@
 
 #include "highlighter.h"
 
+#include <algorithm>
+
 namespace FeatherPad {
 
 // The following three methods are only called for quote, comment and value signs,
@@ -96,7 +98,7 @@ bool Highlighter::isXmlQuoted (const QString &text, const int index)
         {
             if (data)
                 data->insertLastFormattedQuote (nxtPos + 1);
-            pos = qMax (pos, 0);
+            pos = std::max (pos, 0);
             setFormat (pos, nxtPos - pos + 1,
                        text.at (nxtPos) == '\"' ? quoteFormat : altQuoteFormat);
         }
@@ -135,7 +137,7 @@ bool Highlighter::isXmlQuoted (const QString &text, const int index)
                 fi = (prevState == doubleQuoteState ? quoteFormat : altQuoteFormat);
             else // the open quote started in this line
                 fi = (text.at (pos) == '\"' ? quoteFormat : altQuoteFormat);
-            pos = qMax (pos, 0);
+            pos = std::max (pos, 0);
             setFormat (pos, text.length() - pos, fi);
         }
     }
@@ -197,7 +199,7 @@ bool Highlighter::isXxmlComment (const QString &text, const int index, const int
         {
             if (data)
                 data->insertLastFormattedRegex (nxtPos + match.capturedLength());
-            pos = qMax (pos, 0);
+            pos = std::max (pos, 0);
             setFormat (pos, nxtPos - pos + match.capturedLength(), commentFormat);
         }
 
@@ -227,7 +229,7 @@ bool Highlighter::isXxmlComment (const QString &text, const int index, const int
             data->insertLastFormattedRegex (text.length());
         if (N % 2 != 0)
         { // open comment
-            pos = qMax (pos, 0);
+            pos = std::max (pos, 0);
             setFormat (pos, text.length() - pos, commentFormat);
         }
     }
@@ -295,7 +297,7 @@ bool Highlighter::isXmlValue (const QString &text, const int index, const int st
 
         if (N % 2 == 0)
         {
-            pos = qMax (pos, 0);
+            pos = std::max (pos, 0);
             setFormatWithoutOverwrite (pos, nxtPos - pos + match.capturedLength(), neutralFormat, commentFormat);
         }
 

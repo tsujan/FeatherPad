@@ -19,6 +19,8 @@
 
 #include "highlighter.h"
 
+#include <algorithm>
+
 namespace FeatherPad {
 
 static const QRegularExpression regexStartExp ("/");
@@ -117,7 +119,7 @@ bool Highlighter::isEscapedRegex (const QString &text, const int pos)
                     if (qmlKeys.pattern().isEmpty())
                         qmlKeys.setPattern (keywords (progLan).join ('|'));
                 }
-                int len = qMin (12, last + 1);
+                int len = std::min (12, last + 1);
                 QString str = txt.mid (last - len + 1, len);
                 int j;
                 if ((j = str.lastIndexOf (progLan == "javascript" ? jsKeys : qmlKeys, -1, &keyMatch)) > -1
@@ -161,7 +163,7 @@ bool Highlighter::isEscapedRegex (const QString &text, const int pos)
                     if (qmlKeys.pattern().isEmpty())
                         qmlKeys.setPattern (keywords (progLan).join ('|'));
                 }
-                int len = qMin (12, i + 1);
+                int len = std::min (12, i + 1);
                 QString str = text.mid (i - len + 1, len);
                 if ((j = str.lastIndexOf (progLan == "javascript" ? jsKeys : qmlKeys, -1, &keyMatch)) > -1
                     && j + keyMatch.capturedLength() == len)
@@ -264,7 +266,7 @@ bool Highlighter::isInsideRegex (const QString &text, const int index)
         {
             if (res)
             {
-                pos = qMax (pos, 0);
+                pos = std::max (pos, 0);
                 setFormat (pos, nxtPos - pos + match.capturedLength(), regexFormat);
             }
             --N;
@@ -276,7 +278,7 @@ bool Highlighter::isInsideRegex (const QString &text, const int index)
         {
             if (TextBlockData *data = static_cast<TextBlockData *>(currentBlock().userData()))
                 data->insertLastFormattedRegex (nxtPos + match.capturedLength());
-            pos = qMax (pos, 0);
+            pos = std::max (pos, 0);
             setFormat (pos, nxtPos - pos + match.capturedLength(), regexFormat);
         }
 

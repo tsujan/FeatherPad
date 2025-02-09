@@ -19,6 +19,8 @@
 
 #include "highlighter.h"
 
+#include <algorithm>
+
 namespace FeatherPad {
 
 /* NOTE: We deal with four kinds of regex structures:
@@ -88,7 +90,7 @@ bool Highlighter::isEscapedPerlRegex (const QString &text, const int pos)
             /* a regex isn't escaped if it follows a Perl keyword */
             if (perlKeys.pattern().isEmpty())
                 perlKeys.setPattern (keywords (progLan).join ('|'));
-            int len = qMin (12, i + 1);
+            int len = std::min (12, i + 1);
             QString str = text.mid (i - len + 1, len);
             int j;
             QRegularExpressionMatch keyMatch;
@@ -113,7 +115,7 @@ bool Highlighter::isEscapedPerlRegex (const QString &text, const int pos)
 int Highlighter::findDelimiter (const QString &text, const int index,
                                 const QRegularExpression &delimExp, int &capturedLength) const
 {
-    int i = qMax (index, 0);
+    int i = std::max (index, 0);
     const QString pattern = delimExp.pattern();
     if (pattern.startsWith ("\\")
         && (pattern.endsWith (")") || pattern.endsWith ("}")
@@ -331,20 +333,20 @@ bool Highlighter::isInsidePerlRegex (const QString &text, const int index)
         ++N;
         if (N % 2 == 0
             ? isEscapedRegexEndSign (text,
-                                     startPos < 0 ? qMax (0, pos + 1) : startPos,
+                                     startPos < 0 ? std::max (0, pos + 1) : startPos,
                                      nxtPos,
                                      replacing || isQuotingOperator) // an escaped end delimiter
             : (capturedLength > 1
                ? isEscapedPerlRegex (text, nxtPos) // an escaped start sign
                : (searchedToReplace
                   ? isEscapedRegexEndSign (text,
-                                           startPos < 0 ? qMax (0, pos + 1) : startPos,
+                                           startPos < 0 ? std::max (0, pos + 1) : startPos,
                                            nxtPos) // an escaped middle delimiter
                   : isEscapedPerlRegex (text, nxtPos)))) // an escaped start slash
         {
             if (res)
             {
-                pos = qMax (pos, 0);
+                pos = std::max (pos, 0);
                 setFormat (pos, nxtPos - pos + capturedLength, regexFormat);
             }
             if (N % 2 != 0 && capturedLength > 1)
@@ -359,7 +361,7 @@ bool Highlighter::isInsidePerlRegex (const QString &text, const int index)
         {
             if (TextBlockData *data = static_cast<TextBlockData *>(currentBlock().userData()))
                 data->insertLastFormattedRegex (nxtPos + capturedLength);
-            pos = qMax (pos, 0);
+            pos = std::max (pos, 0);
             setFormat (pos, nxtPos - pos + capturedLength, regexFormat);
         }
 
@@ -554,7 +556,7 @@ void Highlighter::multiLinePerlRegex (const QString &text)
             endIndex = findDelimiter (text, endIndex + 1, endExp, endLength);
 
         int len;
-        int keywordLength = qMax (startMatch.capturedLength() - 1, 0);
+        int keywordLength = std::max (static_cast<int>(startMatch.capturedLength()) - 1, 0);
         if (endIndex == -1)
         {
             if (!afterHereDocDelimiter) // don't let an incorrect regex ruin a here-doc

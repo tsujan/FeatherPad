@@ -19,6 +19,9 @@
 
 #include "vscrollbar.h"
 
+#include <algorithm>
+#include <cmath>
+
 namespace FeatherPad {
 
 VScrollBar::VScrollBar (QWidget *parent) : QScrollBar (parent) {}
@@ -35,16 +38,16 @@ void VScrollBar::wheelEvent (QWheelEvent *event)
         return;
     }
     QPoint anglePoint = event->angleDelta();
-    int delta = qAbs (anglePoint.x()) > qAbs (anglePoint.y()) ? anglePoint.x()
-                                                              : anglePoint.y();
+    int delta = std::abs (anglePoint.x()) > std::abs (anglePoint.y()) ? anglePoint.x()
+                                                                      : anglePoint.y();
 
     /* wait until the angle delta reaches that of an ordinary mouse wheel */
     static int _effectiveDelta = 0;
     _effectiveDelta += delta;
-    if (qAbs (_effectiveDelta) < 120)
+    if (std::abs (_effectiveDelta) < 120)
         return;
 
-    int step = (_effectiveDelta < 0 ? 1 : -1) * qMax (pageStep() / ((event->modifiers() & Qt::ShiftModifier) ? 2 : 1), 1);
+    int step = (_effectiveDelta < 0 ? 1 : -1) * std::max (pageStep() / ((event->modifiers() & Qt::ShiftModifier) ? 2 : 1), 1);
     _effectiveDelta = 0;
     setSliderPosition (sliderPosition() + step);
 }

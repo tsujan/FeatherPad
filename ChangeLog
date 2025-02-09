@@ -2,6 +2,8 @@ V1.6.1
 ---------
  * Allow typing double-quote or left parenthesis, brace or square bracket before a selected column.
  * More intuitive column selection with wrapped lines (although it isn't useful with them).
+ * Special highlighting for standard C++ methods.
+ * Used standard C++ methods instead of `qMax`, `qMin`, `qRound`, …. Also, used `double` instead of `qreal`.
 
 V1.6.0
 ---------

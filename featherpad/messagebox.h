@@ -25,6 +25,8 @@
 #include <QGridLayout>
 #include <QRegularExpression>
 
+#include <algorithm>
+
 namespace FeatherPad {
 
 /* QMessageBox::setButtonText() is obsolete while we want custom texts, especially
@@ -58,7 +60,7 @@ public:
                 t.replace ("<br>", "\n");
                 QStringList l = t.split ('\n'); // deal with newlines
                 for (int i = 0; i < l.size(); i++)
-                    tw = qMax (tw, QFontMetrics (font()).horizontalAdvance (l[i]));
+                    tw = std::max (tw, QFontMetrics (font()).horizontalAdvance (l[i]));
 
                 lo->setColumnMinimumWidth (lo->columnCount() - 1, tw + 10);
             }

@@ -20,6 +20,8 @@
 #include "highlighter.h"
 #include <QTextDocument>
 
+#include <algorithm>
+
 Q_DECLARE_METATYPE(QTextBlock)
 
 namespace FeatherPad {
@@ -684,7 +686,7 @@ Highlighter::Highlighter (QTextDocument *parent, const QString& lang,
         rule.format = cFormat;
         highlightingRules.append (rule);
 
-        /* Qt's global functions, enums and global colors */
+        /* C++ std methods and Qt's global functions, enums and global colors */
         if (progLan == "cpp")
         {
             /*
@@ -696,7 +698,7 @@ Highlighter::Highlighter (QTextDocument *parent, const QString& lang,
             rawLiteralFormat.setFontWeight (QFont::Bold);
 
             cFormat.setFontItalic (true);
-            rule.pattern.setPattern ("\\bq(App|GuiApp)(?!(\\@|#|\\$))\\b|\\bq(Abs|Bound|Critical|Debug|Fatal|FuzzyCompare|InstallMsgHandler|MacVersion|Max|Min|Round64|Round|Version|Warning|getenv|putenv|rand|srand|tTrId|unsetenv|_check_ptr|t_set_sequence_auto_mnemonic|t_symbian_exception2Error|t_symbian_exception2LeaveL|t_symbian_throwIfError)(?!(\\.|-|@|#|\\$))\\b");
+            rule.pattern.setPattern ("std::[A-Za-z0-9_]+(?=\\s*\\()|\\bq(App|GuiApp)(?!(\\@|#|\\$))\\b|\\bq(Abs|Bound|Critical|Debug|Fatal|FuzzyCompare|InstallMsgHandler|MacVersion|Max|Min|Round64|Round|Version|Warning|getenv|putenv|rand|srand|tTrId|unsetenv|_check_ptr|t_set_sequence_auto_mnemonic|t_symbian_exception2Error|t_symbian_exception2LeaveL|t_symbian_throwIfError)(?!(\\.|-|@|#|\\$))\\b");
             rule.format = cFormat;
             highlightingRules.append (rule);
 
@@ -2375,7 +2377,7 @@ bool Highlighter::isPerlQuoted (const QString &text, const int index)
         {
             if (res)
             { // -> isEscapedRegex()
-                pos = qMax (pos, 0);
+                pos = std::max (pos, 0);
                 if (text.at (nxtPos) == quoteMark.pattern().at (0))
                     setFormat (pos, nxtPos - pos + 1, quoteFormat);
                 else
@@ -2390,7 +2392,7 @@ bool Highlighter::isPerlQuoted (const QString &text, const int index)
         { // -> isEscapedRegex()
             if (TextBlockData *data = static_cast<TextBlockData *>(currentBlock().userData()))
                 data->insertLastFormattedQuote (nxtPos + 1);
-            pos = qMax (pos, 0);
+            pos = std::max (pos, 0);
             if (text.at (nxtPos) == quoteMark.pattern().at (0))
                 setFormat (pos, nxtPos - pos + 1, quoteFormat);
             else
@@ -2490,7 +2492,7 @@ bool Highlighter::isJSQuoted (const QString &text, const int index)
         {
             if (res)
             { // -> isEscapedRegex()
-                pos = qMax (pos, 0);
+                pos = std::max (pos, 0);
                 if (text.at (nxtPos) == quoteMark.pattern().at (0))
                     setFormat (pos, nxtPos - pos + 1, quoteFormat);
                 else
@@ -2505,7 +2507,7 @@ bool Highlighter::isJSQuoted (const QString &text, const int index)
         { // -> isEscapedRegex()
             if (TextBlockData *data = static_cast<TextBlockData *>(currentBlock().userData()))
                 data->insertLastFormattedQuote (nxtPos + 1);
-            pos = qMax (pos, 0);
+            pos = std::max (pos, 0);
             if (text.at (nxtPos) == quoteMark.pattern().at (0))
                 setFormat (pos, nxtPos - pos + 1, quoteFormat);
             else
@@ -2785,7 +2787,7 @@ void Highlighter::singleLineComment (const QString &text, const int start)
     {
         if (rule.format == commentFormat)
         {
-            int startIndex = qMax (start, 0);
+            int startIndex = std::max (start, 0);
             if (previousBlockState() == nextLineCommentState)
                 startIndex = 0;
             else
@@ -2798,13 +2800,13 @@ void Highlighter::singleLineComment (const QString &text, const int start)
                            || format (startIndex) == altQuoteFormat
                            || format (startIndex) == urlInsideQuoteFormat
                            // check whether the comment sign is quoted or inside regex
-                           || isQuoted (text, startIndex, false, qMax (start, 0)) || isInsideRegex (text, startIndex)
+                           || isQuoted (text, startIndex, false, std::max (start, 0)) || isInsideRegex (text, startIndex)
                            // with troff and LaTeX, the comment sign may be escaped
                            || ((progLan == "troff" || progLan == "LaTeX")
                                && isEscapedChar (text, startIndex))
                            || (progLan == "tcl"
                                && text.at (startIndex) == ';'
-                               && insideTclBracedVariable (text, startIndex, qMax (start, 0)))))
+                               && insideTclBracedVariable (text, startIndex, std::max (start, 0)))))
                 {
                     startIndex = text.indexOf (rule.pattern, startIndex + 1);
                 }

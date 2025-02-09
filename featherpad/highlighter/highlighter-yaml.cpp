@@ -19,6 +19,8 @@
 
 #include "highlighter.h"
 
+#include <algorithm>
+
 namespace FeatherPad {
 
 // Check whether the start bracket/brace is escaped. FIXME: This only covers keys and values.
@@ -96,7 +98,7 @@ bool Highlighter::yamlOpenBraces (const QString &text,
                 -- openNests;
                 if (openNests == 0)
                     setFormat (startIndx, indx + match.capturedLength() - startIndx, neutralFormat);
-                openNests = qMax (openNests, 0);
+                openNests = std::max (openNests, 0);
             }
         }
         else
@@ -381,7 +383,7 @@ void Highlighter::highlightYamlBlock (const QString &text)
                     }
                     setFormat (index, length, fi);
                 }
-                index = text.indexOf (rule.pattern, index + qMax (length, 1), &match);
+                index = text.indexOf (rule.pattern, index + std::max (length, 1), &match);
 
                 if (rule.format != whiteSpaceFormat)
                 {

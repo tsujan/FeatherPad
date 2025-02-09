@@ -32,6 +32,8 @@
 #include <QColorDialog>
 #include <QWheelEvent>
 
+#include <cmath>
+
 #if (QT_VERSION >= QT_VERSION_CHECK(6,7,0))
 #define CHECKBOX_CHANGED QCheckBox::checkStateChanged
 #else
@@ -157,7 +159,7 @@ PrefDialog::PrefDialog (QWidget *parent)
                 ag = sc->availableGeometry().size();
         }
     }
-    if (ag.isEmpty()) ag = QSize (qMax (700, config.getStartSize().width()), qMax (500, config.getStartSize().height()));
+    if (ag.isEmpty()) ag = QSize (std::max (700, config.getStartSize().width()), std::max (500, config.getStartSize().height()));
     ui->spinX->setMaximum (ag.width());
     ui->spinY->setMaximum (ag.height());
     ui->spinX->setValue (config.getStartSize().width());
@@ -267,7 +269,7 @@ PrefDialog::PrefDialog (QWidget *parent)
     ui->vLineBox->setChecked (vLineDistance_ >= 10);
     connect (ui->vLineBox, &CHECKBOX_CHANGED, this, &PrefDialog::prefVLine);
     ui->vLineSpin->setEnabled (vLineDistance_ >= 10);
-    ui->vLineSpin->setValue (qAbs (vLineDistance_));
+    ui->vLineSpin->setValue (std::abs (vLineDistance_));
     connect (ui->vLineSpin, QOverload<int>::of(&QSpinBox::valueChanged), this, &PrefDialog::prefVLineDistance);
     if (auto le = ui->vLineSpin->findChild<QLineEdit*>())
     {
@@ -1153,7 +1155,7 @@ void PrefDialog::prefWhiteSpace (int checked)
 void PrefDialog::prefVLine (int checked)
 {
     Config& config = static_cast<FPsingleton*>(qApp)->getConfig();
-    int dsitance = qMax (qMin (ui->vLineSpin->value(), 999), 10);
+    int dsitance = std::clamp (ui->vLineSpin->value(), 10, 999);
     if (checked == Qt::Checked)
     {
         config.setVLineDistance (dsitance);
@@ -1171,7 +1173,7 @@ void PrefDialog::prefVLine (int checked)
 void PrefDialog::prefVLineDistance (int value)
 {
     Config& config = static_cast<FPsingleton*>(qApp)->getConfig();
-    int dsitance = qMax (qMin (value, 999), 10);
+    int dsitance = std::clamp (value, 10, 999);
     config.setVLineDistance (dsitance);
 
     showPrompt();

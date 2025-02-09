@@ -26,6 +26,8 @@
 #include <QFont>
 #include <QColor>
 
+#include <algorithm>
+
 namespace FeatherPad {
 
 // Prevent redundant writings! (Why does QSettings write to the config file when no setting is changed?)
@@ -138,7 +140,7 @@ public:
         return recentFilesNumber_;
     }
     void setRecentFilesNumber (int number) {
-        recentFilesNumber_ = qBound (0, number, 50);
+        recentFilesNumber_ = std::clamp (number, 0, 50);
     }
     int getCurRecentFilesNumber() const {
         return curRecentFilesNumber_;
