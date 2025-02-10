@@ -413,7 +413,7 @@ QTextCursor TextEdit::backTabCursor (const QTextCursor& cursor, bool twoSpace) c
         double x = static_cast<double>(cursorRect (tmp).right());
         tmp.setPosition (tmp.position() + 1);
         x = static_cast<double>(cursorRect (tmp).right()) - x;
-        n += std::max (static_cast<int>(std::round (std::abs (x) / spaceL) - 1), 0);
+        n += std::max (static_cast<int>(std::round (std::abs (x) / spaceL)) - 1, 0);
         ++i;
     }
     n += txt.size();
@@ -2118,8 +2118,8 @@ void TextEdit::paintEvent (QPaintEvent *event)
                 double rulerSpace = fm.horizontalAdvance (' ') * static_cast<double>(vLineDistance_);
                 int yTop = std::round (r.topLeft().y());
                 int yBottom =  std::round (r.height() >= static_cast<double>(2) * fm.lineSpacing()
-                                       ? yTop + fm.height()
-                                       : r.bottomLeft().y() - static_cast<double>(1));
+                                           ? yTop + fm.height()
+                                           : r.bottomLeft().y() - static_cast<double>(1));
                 double rightMost = er.right();
                 double x = static_cast<double>(cursorRect (cur).right());
                 x += rulerSpace;
