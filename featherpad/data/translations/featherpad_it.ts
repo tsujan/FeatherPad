@@ -833,7 +833,7 @@ linea (Ctrl + Shift + J)</translation>
     <message>
         <location filename="../../fpwin.cpp" line="2707"/>
         <source>Non-text file(s) not opened!</source>
-        <translation>Non aperto un file non di testo!</translation>
+        <translation>Impedito di aprire un file non di testo!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2708"/>
