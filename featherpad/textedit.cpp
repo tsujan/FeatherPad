@@ -629,6 +629,7 @@ void TextEdit::keyPressEvent (QKeyEvent *event)
     }
     else if (event->key() == Qt::Key_Return || event->key() == Qt::Key_Enter)
     {
+        removeColumnHighlight();
         keepTxtCurHPos_ = true;
         if (txtCurHPos_ < 0)
         {
@@ -931,6 +932,7 @@ void TextEdit::keyPressEvent (QKeyEvent *event)
     }
     else if (event->key() == Qt::Key_Left || event->key() == Qt::Key_Right)
     {
+        mousePressed_ = false; // to remove column highlighting
         /* when text is selected, use arrow keys
            to go to the start or end of the selection */
         QTextCursor cursor = textCursor();
@@ -959,6 +961,7 @@ void TextEdit::keyPressEvent (QKeyEvent *event)
     }
     else if (event->key() == Qt::Key_Down || event->key() == Qt::Key_Up)
     {
+        mousePressed_ = false; // to remove column highlighting
         if (event->modifiers() == Qt::ControlModifier)
         {
             if (QScrollBar* vbar = verticalScrollBar())
@@ -1120,6 +1123,7 @@ void TextEdit::keyPressEvent (QKeyEvent *event)
     }
     else if (event->key() == Qt::Key_PageDown || event->key() == Qt::Key_PageUp)
     {
+        mousePressed_ = false; // to remove column highlighting
         if (event->modifiers() == Qt::ControlModifier)
         {
             if (QScrollBar* vbar = verticalScrollBar())
@@ -1204,6 +1208,7 @@ void TextEdit::keyPressEvent (QKeyEvent *event)
     }
     else if (event->key() == Qt::Key_Backtab)
     {
+        removeColumnHighlight();
         QTextCursor cursor = textCursor();
         int newLines = cursor.selectedText().count (QChar (QChar::ParagraphSeparator));
         cursor.setPosition (std::min (cursor.anchor(), cursor.position()));
@@ -1245,6 +1250,7 @@ void TextEdit::keyPressEvent (QKeyEvent *event)
     /* because of a bug in Qt, the non-breaking space (ZWNJ) may not be inserted with SHIFT+SPACE */
     else if (event->key() == 0x200c)
     {
+        removeColumnHighlight();
         insertPlainText (QChar (0x200C));
         event->accept();
         return;
@@ -1318,6 +1324,7 @@ void TextEdit::keyPressEvent (QKeyEvent *event)
     }
     else if (event->key() == Qt::Key_Home)
     {
+        mousePressed_ = false; // to remove column highlighting
         if (!(event->modifiers() & Qt::ControlModifier))
         { // Qt's default behavior isn't acceptable
             QTextCursor cur = textCursor();
@@ -1341,6 +1348,8 @@ void TextEdit::keyPressEvent (QKeyEvent *event)
             return;
         }
     }
+    else if (event->key() == Qt::Key_End)
+        mousePressed_ = false; // to remove column highlighting
     else if (!colSel_.isEmpty() && !event->text().isEmpty())
     {
         prependToColumn (event);
@@ -1389,6 +1398,7 @@ void TextEdit::deleteText()
 // These methods are overridden to forget the horizontal position of the text cursor and...
 void TextEdit::undo()
 {
+    removeColumnHighlight();
     /* always remove replacing highlights before undoing */
     setGreenSel (QList<QTextEdit::ExtraSelection>());
     if (getSearchedText().isEmpty()) // FPwin::hlight() won't be called
@@ -1413,6 +1423,7 @@ void TextEdit::undo()
 }
 void TextEdit::redo()
 {
+    removeColumnHighlight();
     keepTxtCurHPos_ = false;
     txtCurHPos_ = -1;
     QPlainTextEdit::redo();
@@ -2706,6 +2717,7 @@ void TextEdit::mousePressEvent (QMouseEvent *event)
     /* forget the last cursor position */
     keepTxtCurHPos_ = false;
     txtCurHPos_ = -1;
+
     mousePressed_ = true;
 
     /* With a triple click, QPlainTextEdit selects the current block
