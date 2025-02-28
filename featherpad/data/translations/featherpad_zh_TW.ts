@@ -110,7 +110,7 @@
     <message>
         <location filename="../../fp.ui" line="460"/>
         <source>New tab</source>
-        <translation>新分頁</translation>
+        <translation>新建分頁</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="463"/>
@@ -202,7 +202,7 @@
     <message>
         <location filename="../../fp.ui" line="549"/>
         <source>Show/hide replacement dock</source>
-        <translation></translation>
+        <translation>顯示/隱藏 取代工具列</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="552"/>
@@ -387,7 +387,7 @@
     <message>
         <location filename="../../fp.ui" line="779"/>
         <source>Show/hide jump bar</source>
-        <translation></translation>
+        <translation>顯示/隱藏 跳轉列</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="782"/>
@@ -535,7 +535,7 @@
     <message>
         <location filename="../../fp.ui" line="1018"/>
         <source>Text Tabs to Spaces</source>
-        <translation>縮排字元轉空白</translation>
+        <translation>縮排字元轉為空格</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="801"/>
@@ -575,7 +575,7 @@
     <message>
         <location filename="../../fp.ui" line="819"/>
         <source>Close &amp;All Tabs</source>
-        <translation>關閉所有分頁(&amp;A)</translation>
+        <translation>關閉全部分頁(&amp;A)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="153"/>
@@ -598,7 +598,7 @@
     <message>
         <location filename="../../fp.ui" line="538"/>
         <source>Focus/hide search bar</source>
-        <translation></translation>
+        <translation>聚焦/隱藏 搜尋列</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="546"/>
@@ -713,7 +713,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="997"/>
         <source>Please attend to that window or just close its dialog!</source>
-        <translation></translation>
+        <translation>請注意該視窗或直接關閉其對話框！</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1357"/>
@@ -768,7 +768,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="1969"/>
         <source>Another process is running in this tab!</source>
-        <translation>在這個分頁中有另一個程序正在執行！</translation>
+        <translation>在這個分頁中另有程序正在執行！</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2067"/>
@@ -778,7 +778,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="996"/>
         <source>Another FeatherPad window has a modal dialog!</source>
-        <translation></translation>
+        <translation>另一個 FeatherPad 視窗發出對話框！</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="833"/>
@@ -863,7 +863,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="2799"/>
         <source>Root Instance</source>
-        <translation></translation>
+        <translation>根實例</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2880"/>
@@ -919,7 +919,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="3313"/>
         <source>This may be good for readability under MS Windows.</source>
-        <translation></translation>
+        <translation>這可能於 MS Windows 下有利可讀性。</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3417"/>
@@ -957,12 +957,12 @@
     <message>
         <location filename="../../fpwin.cpp" line="2749"/>
         <source>Huge column!</source>
-        <translation type="unfinished"></translation>
+        <translation>巨大欄位！</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2750"/>
         <source>Columns with more than 1000 rows are not supported.</source>
-        <translation type="unfinished"></translation>
+        <translation>欄位超出1000橫列並不支援。</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2871"/>
@@ -976,7 +976,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="3781"/>
         <source>Text tabs are converted to spaces.</source>
-        <translation>已將文字中的縮排字元轉為空白。</translation>
+        <translation>已將文字中的縮排字元轉為空格。</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3891"/>
@@ -1037,19 +1037,19 @@
         <location filename="../../fpwin.cpp" line="5479"/>
         <location filename="../../fpwin.cpp" line="5617"/>
         <source>Copy Final Target Path</source>
-        <translation type="unfinished"></translation>
+        <translation>複製最終目標路徑</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5483"/>
         <location filename="../../fpwin.cpp" line="5621"/>
         <source>Open Final Target Here</source>
-        <translation type="unfinished"></translation>
+        <translation>開啟最終目標路徑</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5503"/>
         <location filename="../../fpwin.cpp" line="5642"/>
         <source>Open Containing Folder</source>
-        <translation type="unfinished"></translation>
+        <translation>開啟包含資料夾</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5768"/>
@@ -1071,7 +1071,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="5785"/>
         <source>The Hunspell dictionary is not accompanied by an affix file.</source>
-        <translation></translation>
+        <translation>Hunspell 字典沒有附帶詞綴檔案。</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5808"/>
@@ -1085,7 +1085,7 @@
         <location filename="../../fpwin.cpp" line="5828"/>
         <location filename="../../fpwin.cpp" line="5843"/>
         <source>No misspelling from text cursor.</source>
-        <translation></translation>
+        <translation>文字游標沒有拼字錯誤。</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5859"/>
@@ -1105,7 +1105,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="6242"/>
         <source>A lightweight, tabbed, plain-text editor</source>
-        <translation>輕量、具有分頁、純文字編輯器</translation>
+        <translation>輕量、分頁、純文字的編輯器</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="6243"/>
@@ -1148,7 +1148,7 @@
     <message>
         <location filename="../../replace.cpp" line="285"/>
         <source>The first 1000 replacements are highlighted.</source>
-        <translation type="unfinished"></translation>
+        <translation>最前 1000 個取代之處強調顯示。</translation>
     </message>
     <message>
         <location filename="../../syntax.cpp" line="314"/>
@@ -1197,32 +1197,32 @@
     <message>
         <location filename="../../fontDialog.ui" line="89"/>
         <source>Weight:</source>
-        <translation type="unfinished"></translation>
+        <translation>寬度：</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="103"/>
         <source>Normal</source>
-        <translation type="unfinished">正常</translation>
+        <translation>正常</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="108"/>
         <source>Medium</source>
-        <translation type="unfinished"></translation>
+        <translation>中等</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="113"/>
         <source>Bold</source>
-        <translation type="unfinished"></translation>
+        <translation>粗體</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="118"/>
         <source>Black</source>
-        <translation type="unfinished"></translation>
+        <translation>黑體</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="126"/>
         <source>Italic</source>
-        <translation type="unfinished"></translation>
+        <translation>斜體</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="149"/>
@@ -1300,12 +1300,13 @@ and may not work with some window managers.</source>
         <location filename="../../prefDialog.ui" line="159"/>
         <source>Most suitable with sessions
 but without tab functionality.</source>
-        <translation></translation>
+        <translation>最適合用於會話
+但沒有分頁功能。</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="188"/>
         <source>Uncheck for 1/5 of the width.</source>
-        <translation></translation>
+        <translation>取消勾選，則為寬度的 1/5。</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="191"/>
@@ -1333,33 +1334,35 @@ a menu button appears on the toolbar.</source>
         <location filename="../../prefDialog.ui" line="218"/>
         <source>Double clicking on the title toggles the maximized state.
 The title also has a right click menu when a file is opened.</source>
-        <translation type="unfinished"></translation>
+        <translation>點按二下標題可以切換最大化狀態。
+當開啟檔案時，標題會有右鍵選單。</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="222"/>
         <source>Show window title on menubar</source>
-        <translation type="unfinished"></translation>
+        <translation>在選單列上顯示視窗標題</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="229"/>
         <source>Menubar accelerators are activated by Alt
 and may interfere with customized shortcuts.</source>
-        <translation type="unfinished"></translation>
+        <translation>功能表選單促發是由 Alt 鍵啟用
+並可能會干擾自訂快速鍵。</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="233"/>
         <source>Disable menubar accelerators</source>
-        <translation type="unfinished"></translation>
+        <translation>停用功能表選單促發</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="240"/>
         <source>Internal icons are used by default.</source>
-        <translation type="unfinished"></translation>
+        <translation>預設使用內部圖示。</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="243"/>
         <source>Use system icons where possible</source>
-        <translation type="unfinished"></translation>
+        <translation>盡可能使用系統圖示</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="250"/>
@@ -1370,7 +1373,8 @@ and may interfere with customized shortcuts.</source>
         <location filename="../../prefDialog.ui" line="257"/>
         <source>By default, each search entry
 has a separate search history.</source>
-        <translation type="unfinished"></translation>
+        <translation>預設情況下，每個搜尋項目
+各都有個別的搜尋記錄。</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="261"/>
@@ -1424,12 +1428,15 @@ has a separate search history.</source>
 after the last tab is activated, and the same for Alt+Left.
 
 Tab navigation with mouse wheel is not affected.</source>
-        <translation></translation>
+        <translation>此意思是，用於 LTR，Alt+Right 在最後分頁啟動後
+前往第一個分頁。 Alt+Left 也是如此。
+
+使用滑鼠滾輪的分頁導引則不受影響。</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="365"/>
         <source>Tab navigation wraps &amp;around</source>
-        <translation></translation>
+        <translation>分頁導引往復循環(&amp;A)</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="385"/>
@@ -1443,7 +1450,11 @@ current desktop, files will be opened in its tabs.
 
 However, some desktop environments may not
 report that they have multiple desktops.</source>
-        <translation></translation>
+        <translation>預設情況下，若目前桌面有 FeatherPad 視窗，
+則檔案將在其分頁之中進行開啟。
+
+然而有些桌面環境可能不會
+回報它們擁有多個桌面。</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="399"/>
@@ -1456,7 +1467,10 @@ report that they have multiple desktops.</source>
 desktop environment will be used instead of the Qt file dialog.
 
 Some desktop environments, like KDE and LXQt, provide files dialogs.</source>
-        <translation></translation>
+        <translation>若勾選此項，則將使用目前桌面環境提供的檔案對話框，
+而不是 Qt 檔案對話框。
+
+有些桌面環境，例如 KDE 和 LXQt，提供檔案對話框。</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="412"/>
@@ -1488,34 +1502,38 @@ Some desktop environments, like KDE and LXQt, provide files dialogs.</source>
         <source>By default, a triple period is replaced with an ellipsis
 and a double hyphen with a long dash while typing,
 under proper circumstances.</source>
-        <translation></translation>
+        <translation>預設在正常狀況，當輸入三個句點，
+即會被替換成省略符號，
+而二個連接符號會替換成長破折符號。</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="527"/>
         <source>Replace triple periods and double hyphens while typing</source>
-        <translation></translation>
+        <translation>輸入之時，替換三個句點符號及二個連接符號</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="541"/>
         <source>Highlight case-sensitive and whole matches
 of the selected text.</source>
-        <translation type="unfinished"></translation>
+        <translation>強調顯示所選文字的
+大小寫區分和完全符合。</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="545"/>
         <source>Selection highlighting</source>
-        <translation type="unfinished"></translation>
+        <translation>強調顯示選取部分</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="608"/>
         <source>Never highlight syntax for files &gt; </source>
-        <translation></translation>
+        <translation>永遠不要強調顯示檔案的語法 &gt; </translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="577"/>
         <source>This creates a menu button on the
 status bar for changing the syntax.</source>
-        <translation></translation>
+        <translation>這會在狀態列上建立一個
+用於變更語法的選單按鈕。</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="581"/>
@@ -1526,7 +1544,8 @@ status bar for changing the syntax.</source>
         <location filename="../../prefDialog.ui" line="646"/>
         <source>Show spaces, tabs and tab lines
 when the syntax is highlighted.</source>
-        <translation></translation>
+        <translation>當語法強調顯示時，
+顯示空格、定位和縮行。</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="650"/>
@@ -1538,17 +1557,18 @@ when the syntax is highlighted.</source>
         <location filename="../../prefDialog.ui" line="677"/>
         <source>The vertical position lines will be drawn only if
 the editor font has a fixed pitch (like Monospace).</source>
-        <translation></translation>
+        <translation>只有當編輯器字體為固定間距(如等寬字體)時，
+才會繪出垂直位置線。</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="670"/>
         <source>Show vertical lines starting from this position:</source>
-        <translation></translation>
+        <translation>由此位置開始顯示垂直線：</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="657"/>
         <source>Show line and document ends</source>
-        <translation></translation>
+        <translation>顯示行列及文件結尾</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="801"/>
@@ -1559,22 +1579,23 @@ the editor font has a fixed pitch (like Monospace).</source>
         <location filename="../../prefDialog.ui" line="869"/>
         <source>Some text editors cannot open a document
 whose last line is not empty.</source>
-        <translation></translation>
+        <translation>有些文字編輯器無法開啟
+最後一行不是空白的文件。</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="873"/>
         <source>Ensure an empty last line on saving</source>
-        <translation></translation>
+        <translation>確保在存檔時最後一行是空白</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="880"/>
         <source>Remove trailing spaces on saving</source>
-        <translation></translation>
+        <translation>存檔時刪除尾隨的空格</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="898"/>
         <source>Inertial scrolling with mouse wheel</source>
-        <translation></translation>
+        <translation>使用滑鼠滾輪進行慣性滾動</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="987"/>
@@ -1589,7 +1610,7 @@ whose last line is not empty.</source>
     <message>
         <location filename="../../prefDialog.ui" line="1110"/>
         <source>Start with files of last window</source>
-        <translation></translation>
+        <translation>從上次視窗的檔案進行啟動</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1152"/>
@@ -1604,17 +1625,23 @@ will be executed directly.
 If the script is not run in a terminal
 emulator, the output and error messages
 will be shown by a popup dialog.</source>
-        <translation></translation>
+        <translation>這可以附帶參數的任何啟動指令，
+例如 &quot;xterm -hold&quot; 用於在 XTerm 之中運行程序。
+
+如果指令為空白，則會直接執行檔案。
+
+如果腳本並未在終端機模擬器中運行，
+則輸出和錯誤訊息將會顯示於彈出對話框。</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1164"/>
         <source>Start with this command: </source>
-        <translation></translation>
+        <translation>啟動使用指令： </translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1183"/>
         <source>Command + Arguments</source>
-        <translation></translation>
+        <translation>指令 + 參數</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1068"/>
@@ -1639,7 +1666,7 @@ will be shown by a popup dialog.</source>
     <message>
         <location filename="../../prefDialog.ui" line="163"/>
         <source>Start with side-pane mode</source>
-        <translation></translation>
+        <translation>側邊面板模式進行啟動</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="372"/>
@@ -1647,12 +1674,15 @@ will be shown by a popup dialog.</source>
 tooltip and context menu of a single tab but you could not
 merge a single tabbed window into another one by tab drag-
 and-drop either.</source>
-        <translation></translation>
+        <translation>若未勾選此項，不僅會遺失單一分頁的
+資訊性工具提示和上下文功能表，
+也無法利用分頁拖放方法，
+將單一分頁視窗合併到另一個分頁視窗。</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="378"/>
         <source>&amp;Do not show a single tab</source>
-        <translation></translation>
+        <translation>不用顯示單一分頁(&amp;D)</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="443"/>
@@ -1667,12 +1697,12 @@ and-drop either.</source>
     <message>
         <location filename="../../prefDialog.ui" line="498"/>
         <source>&amp;Wrap lines by default</source>
-        <translation></translation>
+        <translation>預設自動換行(&amp;W)</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="505"/>
         <source>Auto-&amp;indent by default</source>
-        <translation></translation>
+        <translation>預設自動縮行(&amp;I)</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="534"/>
@@ -1682,7 +1712,7 @@ and-drop either.</source>
     <message>
         <location filename="../../prefDialog.ui" line="552"/>
         <source>Highlight s&amp;yntax by default</source>
-        <translation></translation>
+        <translation>預設強調顯示語法(&amp;Y)</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="712"/>
@@ -1709,7 +1739,14 @@ executable, the file will be executed by clicking
 the Run button, that appears on the toolbar/filemenu
 when needed, or by its shortcut Ctrl+E. Then, the
 process could be killed by Ctrl+Alt+E.</source>
-        <translation></translation>
+        <translation>這僅適用以腳本語言編寫的可執行檔，
+像是使用 Shell 和 Python。
+
+如果勾選，且開啟的檔案是可執行的，
+點按 Run 執行按鈕即會執行該檔案，
+按鈕會在工具列/檔案功能表上出現(需要之時)，
+或是用快速鍵 Ctrl+E 來執行該檔案。
+然後， 可以用 Ctrl+Alt+E 來終止程序。</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="709"/>
@@ -1727,7 +1764,13 @@ between 230 and 255; for the dark
 background, between 0 and 50.
 
 Needs window reopening to take effect.</source>
-        <translation></translation>
+        <translation>背景顏色值。
+255 表示白色，0 表示黑色。
+
+對於淺色背景，可以在 230 到 255 之間；
+對於深色背景，可以在 0 到 50 之間。
+
+需要重新開啟視窗才會作用生效。</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1127"/>
@@ -1742,12 +1785,16 @@ opened files FeatherPad shows. The default
 is 10.
 
 Needs application restart to take effect.</source>
-        <translation></translation>
+        <translation>FeatherPad 顯示最近修改或開啟檔案的最大數量，
+預設值為 10。
+
+
+需要重新啟動應用程式才會生效作用。</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="786"/>
         <source>Add a small margin around text</source>
-        <translation type="unfinished"></translation>
+        <translation>在文字周圍新增小邊距</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="795"/>
@@ -1756,12 +1803,15 @@ Needs application restart to take effect.</source>
 Leave empty for the system default.
 
 Takes effect after closing this dialog.</source>
-        <translation type="unfinished"></translation>
+        <translation>用於貼上日期時間。
+保留空白為系統預設。
+
+關閉此對話方框即為生效。</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="828"/>
         <source>Text tab size:</source>
-        <translation>文字 tab 大小:</translation>
+        <translation>文字 TAB 大小：</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="835"/>
@@ -1771,13 +1821,14 @@ Takes effect after closing this dialog.</source>
     <message>
         <location filename="../../prefDialog.ui" line="887"/>
         <source>Thick text cursor</source>
-        <translation></translation>
+        <translation>粗厚文字游標</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="894"/>
         <source>Should the mouse wheel scrolling be inertial
 if the cursor is inside the text view?</source>
-        <translation></translation>
+        <translation>如果游標位於文字檢視中，
+滑鼠滾輪滾動是否應該帶有慣性？</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="905"/>
@@ -1790,7 +1841,9 @@ if the cursor is inside the text view?</source>
         <source>A Hunspell dictionary has a name that ends with &quot;.dic&quot;
 and should be alongside an affix file with the same
 name but ending with &quot;.aff&quot;.</source>
-        <translation></translation>
+        <translation>Hunspell 字典的名稱以 &quot;.dic&quot; 結尾，
+並應與同名的詞綴檔案，以 &quot;.aff&quot; 結尾，
+併同放置。</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="918"/>
@@ -1807,12 +1860,13 @@ name but ending with &quot;.aff&quot;.</source>
         <location filename="../../prefDialog.ui" line="949"/>
         <source>If this is unchecked, spell checking
 will be started from the document start.</source>
-        <translation></translation>
+        <translation>如果未勾選此項，則拼字檢查
+將從文件的開始啟動執行。</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="953"/>
         <source>Start spell checking from text cursor</source>
-        <translation></translation>
+        <translation>從文字游標處啟動拼字檢查</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1008"/>
@@ -1822,13 +1876,13 @@ will be started from the document start.</source>
     <message>
         <location filename="../../prefDialog.ui" line="1107"/>
         <source>Only if their number is not greater than 50.</source>
-        <translation></translation>
+        <translation>只要其數量不超過 50 即可。</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1194"/>
         <location filename="../../prefDialog.ui" line="1204"/>
         <source>Only for files that exist and can be saved.</source>
-        <translation></translation>
+        <translation>僅適用於存在且可以儲存的檔案。</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1207"/>
@@ -1843,7 +1897,12 @@ be used also when the opened file is not modified.
 This can be useful under certain circumstances,
 e.g. for changing the time stamp or removing the
 trailing spaces of a text file.</source>
-        <translation></translation>
+        <translation>如果勾選此項，當開啟的檔案未予修改時，
+也可使用&quot;存檔&quot;按鈕/選單項目。
+
+這在某些情況下很有用，
+例如用於更改時間戳記，
+或刪除文字檔案的尾隨空格。</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1246"/>
@@ -1864,12 +1923,13 @@ trailing spaces of a text file.</source>
         <location filename="../../prefDialog.ui" line="1263"/>
         <source>By default, when files are copied, they will
 be opened if they are pasted into FeatherPad.</source>
-        <translation type="unfinished"></translation>
+        <translation>預設情況下，當檔案複製後，
+若貼上至 FeatherPad 中，即會開啟。</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1267"/>
         <source>Paste paths instead of files</source>
-        <translation type="unfinished"></translation>
+        <translation>貼上路徑，而非檔案</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1294"/>
@@ -1901,38 +1961,38 @@ be opened if they are pasted into FeatherPad.</source>
     <message>
         <location filename="../../prefDialog.ui" line="1343"/>
         <source>Syntax Colors</source>
-        <translation type="unfinished"></translation>
+        <translation>語法顏色</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1438"/>
         <source>Element</source>
-        <translation type="unfinished"></translation>
+        <translation>元件</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1443"/>
         <source>Text Color</source>
-        <translation type="unfinished"></translation>
+        <translation>文字顏色</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1360"/>
         <source>Whitespace color value:</source>
-        <translation type="unfinished"></translation>
+        <translation>空白顏色值：</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1393"/>
         <location filename="../../prefDialog.ui" line="1403"/>
         <source>Has effect only if line numbers are shown.</source>
-        <translation type="unfinished"></translation>
+        <translation>僅在顯示行號時才有作用。</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1396"/>
         <source>Current line highlight value:</source>
-        <translation type="unfinished"></translation>
+        <translation>目前行列強調顯示值：</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1451"/>
         <source>Restore default syntax colors.</source>
-        <translation type="unfinished"></translation>
+        <translation>恢復預設語法顏色。</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1486"/>
@@ -1943,12 +2003,13 @@ be opened if they are pasted into FeatherPad.</source>
         <location filename="../../pref.cpp" line="113"/>
         <source>Press a modifier key to clear a shortcut
 in the editing mode.</source>
-        <translation type="unfinished"></translation>
+        <translation>在編輯模式按下編修鍵
+用來清除快速鍵。</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="119"/>
         <source>Double click a color to change it.</source>
-        <translation type="unfinished"></translation>
+        <translation>點按二下來變更顏色。</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="355"/>
@@ -1966,72 +2027,72 @@ in the editing mode.</source>
         <location filename="../../pref.cpp" line="422"/>
         <location filename="../../pref.cpp" line="1617"/>
         <source>Warning: Ambiguous shortcut detected!</source>
-        <translation></translation>
+        <translation>警告：偵測到不明的快速鍵！</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="455"/>
         <source>Functions, URLs,…</source>
-        <translation type="unfinished"></translation>
+        <translation>功能、URLs、……</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="456"/>
         <source>Built-in Functions</source>
-        <translation type="unfinished"></translation>
+        <translation>內建功能</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="457"/>
         <source>Comments</source>
-        <translation type="unfinished"></translation>
+        <translation>備註</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="458"/>
         <source>Quotations</source>
-        <translation type="unfinished"></translation>
+        <translation>引文</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="459"/>
         <source>Types</source>
-        <translation type="unfinished"></translation>
+        <translation>類型</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="460"/>
         <source>Key Words</source>
-        <translation type="unfinished"></translation>
+        <translation>關鍵字詞</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="461"/>
         <source>Numbers</source>
-        <translation type="unfinished"></translation>
+        <translation>數字</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="462"/>
         <source>Regular Expressions, Code Blocks,…</source>
-        <translation type="unfinished"></translation>
+        <translation>正規表示式、程式碼區塊、……</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="463"/>
         <source>Document Blocks, XML/HTML Elements,…</source>
-        <translation type="unfinished"></translation>
+        <translation>文件區塊、XML/HTML 元件、……</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="464"/>
         <source>Markdown Headings, CSS Values,…</source>
-        <translation type="unfinished"></translation>
+        <translation>Markdown 標題、CSS 值、……</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="465"/>
         <source>Extra Elements</source>
-        <translation type="unfinished"></translation>
+        <translation>額外元件</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="647"/>
         <source>Application restart is needed for changes to take effect.</source>
-        <translation></translation>
+        <translation>需要重新啟動應用程式才能使變更生效。</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="668"/>
         <source>Window reopening is needed for changes to take effect.</source>
-        <translation></translation>
+        <translation>需要重新開啟視窗才能使變更生效。</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="1524"/>
@@ -2046,7 +2107,7 @@ in the editing mode.</source>
     <message>
         <location filename="../../pref.cpp" line="1600"/>
         <source>The typed shortcut was reserved.</source>
-        <translation></translation>
+        <translation>所鍵入的快速鍵已被保留。</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="1804"/>
@@ -2057,7 +2118,7 @@ in the editing mode.</source>
         <location filename="../../pref.cpp" line="523"/>
         <location filename="../../pref.cpp" line="1890"/>
         <source>Select Syntax Color</source>
-        <translation type="unfinished"></translation>
+        <translation>選擇語法顏色</translation>
     </message>
 </context>
 <context>
@@ -2081,12 +2142,12 @@ in the editing mode.</source>
     <message>
         <location filename="../../searchbar.cpp" line="139"/>
         <source>Regular Expression</source>
-        <translation></translation>
+        <translation>正規表示式</translation>
     </message>
     <message>
         <location filename="../../searchbar.cpp" line="171"/>
         <source>Search with regex...</source>
-        <translation></translation>
+        <translation>使用正規表示式搜尋...</translation>
     </message>
     <message>
         <location filename="../../searchbar.cpp" line="120"/>
@@ -2096,7 +2157,7 @@ in the editing mode.</source>
     <message>
         <location filename="../../searchbar.cpp" line="121"/>
         <source>Previous</source>
-        <translation></translation>
+        <translation>前一個</translation>
     </message>
 </context>
 <context>
@@ -2104,18 +2165,18 @@ in the editing mode.</source>
     <message>
         <location filename="../../sessionDialog.ui" line="14"/>
         <source>Session Manager</source>
-        <translation></translation>
+        <translation>會話管理器</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="113"/>
         <location filename="../../sessionDialog.ui" line="294"/>
         <source>&amp;Remove</source>
-        <translation></translation>
+        <translation>移除(&amp;R)</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="45"/>
         <source>&lt;b&gt;Save/Restore Session&lt;/b&gt;</source>
-        <translation></translation>
+        <translation>&lt;b&gt;儲存/恢復會話&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="68"/>
@@ -2125,7 +2186,7 @@ in the editing mode.</source>
     <message>
         <location filename="../../sessionDialog.ui" line="81"/>
         <source>Open the selected session(s).</source>
-        <translation></translation>
+        <translation>開啟所選的會話。</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="84"/>
@@ -2149,12 +2210,13 @@ in the editing mode.</source>
         <location filename="../../sessionDialog.ui" line="171"/>
         <source>By default, all files that are opened in all
 windows will be included in the saved session.</source>
-        <translation></translation>
+        <translation>預設情況下，所有視窗中開啟的檔案
+都將包含在已儲存的會話中。</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="175"/>
         <source>Save only from this &amp;window</source>
-        <translation></translation>
+        <translation>僅從此視窗儲存(&amp;W)</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="204"/>
@@ -2165,7 +2227,7 @@ windows will be included in the saved session.</source>
         <location filename="../../sessionDialog.ui" line="250"/>
         <location filename="../../session.cpp" line="332"/>
         <source>&amp;Yes</source>
-        <translation></translation>
+        <translation>是(&amp;Y)</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="257"/>
@@ -2180,42 +2242,42 @@ windows will be included in the saved session.</source>
     <message>
         <location filename="../../sessionDialog.ui" line="130"/>
         <source>Remove &amp;All</source>
-        <translation></translation>
+        <translation>移除全部(&amp;A)</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="284"/>
         <source>&amp;Close</source>
-        <translation></translation>
+        <translation>關閉(&amp;C)</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="147"/>
         <source>Save the current session under the given title.</source>
-        <translation></translation>
+        <translation>將目前會話儲存於指定的標題。</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="150"/>
         <source>&amp;Save</source>
-        <translation></translation>
+        <translation>儲存(&amp;S)</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="161"/>
         <source>Type a name to save session</source>
-        <translation></translation>
+        <translation>輸入名稱以儲存會話</translation>
     </message>
     <message>
         <location filename="../../session.cpp" line="183"/>
         <source>Nothing saved.&lt;br&gt;No file was opened.</source>
-        <translation></translation>
+        <translation>未儲存任何檔案。&lt;br&gt;沒有開啟的檔案。</translation>
     </message>
     <message>
         <location filename="../../session.cpp" line="281"/>
         <source>No file exists or can be opened.</source>
-        <translation></translation>
+        <translation>沒有檔案存在或可被開啟。</translation>
     </message>
     <message>
         <location filename="../../session.cpp" line="283"/>
         <source>Not all files exist or can be opened.</source>
-        <translation></translation>
+        <translation>並非全部檔案都存在或可以開啟。</translation>
     </message>
     <message>
         <location filename="../../session.cpp" line="318"/>
@@ -2225,22 +2287,22 @@ windows will be included in the saved session.</source>
     <message>
         <location filename="../../session.cpp" line="337"/>
         <source>Do you really want to remove all saved sessions?</source>
-        <translation></translation>
+        <translation>確定要刪除全部已經儲存的會話嗎？</translation>
     </message>
     <message>
         <location filename="../../session.cpp" line="343"/>
         <source>Do you really want to remove the selected sessions?</source>
-        <translation></translation>
+        <translation>確定要刪除所選的會話嗎？</translation>
     </message>
     <message>
         <location filename="../../session.cpp" line="345"/>
         <source>Do you really want to remove the selected session?</source>
-        <translation></translation>
+        <translation>確定要刪除所選的會話嗎？</translation>
     </message>
     <message>
         <location filename="../../session.cpp" line="350"/>
         <source>A session with the same name exists.&lt;br&gt;Do you want to overwrite it?</source>
-        <translation></translation>
+        <translation>已存在相同名稱的會話。&lt;br&gt;確定要覆蓋嗎？</translation>
     </message>
 </context>
 <context>
@@ -2256,7 +2318,7 @@ windows will be included in the saved session.</source>
     <message>
         <location filename="../../spellDialog.ui" line="25"/>
         <source>Unknown word:</source>
-        <translation></translation>
+        <translation>不明字詞：</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="51"/>
@@ -2271,12 +2333,12 @@ windows will be included in the saved session.</source>
     <message>
         <location filename="../../spellDialog.ui" line="129"/>
         <source>Correct Once</source>
-        <translation></translation>
+        <translation>更正一次</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="142"/>
         <source>Correct All</source>
-        <translation></translation>
+        <translation>更正全部</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="87"/>
@@ -2294,7 +2356,7 @@ windows will be included in the saved session.</source>
     <message>
         <location filename="../../textedit.cpp" line="152"/>
         <source>Double click to center current line</source>
-        <translation></translation>
+        <translation>點按二下將目前行列調位居中</translation>
     </message>
 </context>
 </TS>
