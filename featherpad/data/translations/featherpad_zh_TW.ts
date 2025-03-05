@@ -25,7 +25,7 @@
         <location filename="../../fpwin.cpp" line="5032"/>
         <location filename="../../fpwin.cpp" line="5293"/>
         <source>Untitled</source>
-        <translation>未命名</translation>
+        <translation>無標題</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="71"/>
@@ -718,7 +718,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="1357"/>
         <source>The document has been modified.</source>
-        <translation>文件已修改。</translation>
+        <translation>文件已經被修改。</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1368"/>
@@ -894,7 +894,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="3626"/>
         <source>&quot;pkexec&quot; is not found. Please install Polkit!</source>
-        <translation>找不到 &quot;pkexec&quot;。請安裝 Polkit！</translation>
+        <translation>查無 &quot;pkexec&quot;。請安裝 Polkit！</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3309"/>
@@ -1898,10 +1898,10 @@ This can be useful under certain circumstances,
 e.g. for changing the time stamp or removing the
 trailing spaces of a text file.</source>
         <translation>如果勾選此項，當開啟的檔案未予修改時，
-也可使用&quot;存檔&quot;按鈕/選單項目。
+也可使用 &quot;存檔&quot; 按鈕/選單項目。
 
 這在某些情況下很有用，
-例如用於更改時間戳記，
+例如用於變更時間戳記，
 或刪除文字檔案的尾隨空格。</translation>
     </message>
     <message>

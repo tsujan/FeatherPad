@@ -2275,7 +2275,7 @@ windows will be included in the saved session.</source>
     <message>
         <location filename="../../spellDialog.ui" line="142"/>
         <source>Correct All</source>
-        <translation type="unfinished"></translation>
+        <translation>ყველას გასწორება</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="87"/>
