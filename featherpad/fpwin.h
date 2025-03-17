@@ -237,7 +237,7 @@ private:
                      QListWidgetItem *curItem, TabPage *curPage,
                      bool MSWinLineEnd);
     void reloadSyntaxHighlighter (TextEdit *textEdit);
-    void lockWindow (TabPage *tabPage, bool lock, bool blur = false);
+    void lockWindow (TabPage *tabPage, bool lock);
     void saveAllFiles (bool showWarning);
     void closeEvent (QCloseEvent *event);
     bool closePages (int first, int last, bool saveFilesList = false);

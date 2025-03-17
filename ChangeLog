@@ -1,6 +1,6 @@
 V1.6.2
 ---------
- * Blur the text editor on printing because the busy cursor may not be shown correctly on Wayland.
+ * Show the print bar ("Printing in progress...") before printing because the print dialog may be shown with a delay.
 
 V1.6.1
 ---------

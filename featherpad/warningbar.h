@@ -92,8 +92,7 @@ public:
                 animation_->setEndValue (g);
                 animation_->start();
                 show();
-
-                QTimer::singleShot (0, this, [this]() {emit showingToParent();});
+                connect (animation_, &QAbstractAnimation::finished, this, &WarningBar::shown);
             });
         }
         else show();
@@ -135,6 +134,7 @@ public:
                 {
                     if (animation_)
                     {
+                        disconnect (animation_, &QAbstractAnimation::finished, this, &WarningBar::shown);
                         animation_->stop();
                         if (isClosing_)
                         {
@@ -160,7 +160,7 @@ public:
     }
 
 signals:
-    void showingToParent();
+    void shown(); // used only with printing (-> FPwin::filePrint)
 
 public slots:
     void closeBar() {
@@ -169,6 +169,7 @@ public slots:
             if (!isClosing_)
             {
                 isClosing_ = true;
+                disconnect (animation_, &QAbstractAnimation::finished, this, &WarningBar::shown);
                 animation_->stop();
                 animation_->setStartValue (geometry());
                 animation_->setEndValue (QRect (0, parentWidget()->height() - vOffset_, parentWidget()->width(), 0));

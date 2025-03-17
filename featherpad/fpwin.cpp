@@ -53,7 +53,6 @@
 #include <QDBusConnection> // for opening containing folder
 #include <QDBusMessage> // for opening containing folder
 #include <QStringDecoder>
-#include <QGraphicsBlurEffect> // only when printing
 
 #ifdef HAS_X11
 #include "x11.h"
@@ -3713,7 +3712,7 @@ void FPwin::reloadSyntaxHighlighter (TextEdit *textEdit)
     }
 }
 /*************************/
-void FPwin::lockWindow (TabPage *tabPage, bool lock, bool blur)
+void FPwin::lockWindow (TabPage *tabPage, bool lock)
 {
     locked_ = lock;
     if (lock)
@@ -3728,13 +3727,6 @@ void FPwin::lockWindow (TabPage *tabPage, bool lock, bool blur)
                 dialogs.at (i)->close();
                 break;
             }
-        }
-        /* blur the text editor */
-        if (blur)
-        {
-            auto blurEffect = new QGraphicsBlurEffect;
-            blurEffect->setBlurHints (QGraphicsBlurEffect::PerformanceHint);
-            tabPage->textEdit()->setGraphicsEffect (blurEffect);
         }
     }
     ui->menuBar->setEnabled (!lock);
@@ -3756,8 +3748,6 @@ void FPwin::lockWindow (TabPage *tabPage, bool lock, bool blur)
         sidePane_->lockPane (lock);
     if (!lock)
     {
-        if (tabPage->textEdit()->graphicsEffect()) // with blurring
-            tabPage->textEdit()->setGraphicsEffect (nullptr);
         tabPage->textEdit()->setFocus();
         pauseAutoSaving (false);
     }
@@ -4713,14 +4703,13 @@ void FPwin::filePrint()
     if (tabPage == nullptr) return;
     auto bar = showWarningBar ("<center><b><big>" + tr ("Printing in progress...") + "</big></b></center>",
                                0);
-    lockWindow (tabPage, true, true); // blurring is especially useful on Wayland
+    lockWindow (tabPage, true);
     makeBusy(); // may not work correctly on Wayland
     if (bar != nullptr)
     {
-        /* Wait until the warning bar's animation starts, because otherwise,
-           blurring will happen only after the print dialog is shown. */
-        connect (bar, &WarningBar::showingToParent, this, &FPwin::printing,
-                 Qt::SingleShotConnection);
+        /* Start printing only after the warning bar's animation finishes
+           and the control returns to the event loop. */
+        connect (bar, &WarningBar::shown, this, &FPwin::printing, Qt::QueuedConnection);
     }
     else
         printing(); // never happens
