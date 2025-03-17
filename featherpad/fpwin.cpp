@@ -53,6 +53,7 @@
 #include <QDBusConnection> // for opening containing folder
 #include <QDBusMessage> // for opening containing folder
 #include <QStringDecoder>
+#include <QGraphicsBlurEffect> // only when printing
 
 #ifdef HAS_X11
 #include "x11.h"
@@ -2750,24 +2751,25 @@ void FPwin::columnWarning()
                     + "<center>" + tr ("Columns with more than 1000 rows are not supported.") + "</center>");
 }
 /*************************/
-void FPwin::showWarningBar (const QString& message, int timeout, bool startupBar)
+WarningBar* FPwin::showWarningBar (const QString& message, int timeout, bool startupBar)
 {
-    /* don't show this warning bar if the window is locked at this moment */
-    if (locked_) return;
+    /* don not show this warning bar if the window is locked at this moment */
+    if (locked_) return nullptr;
+
     if (timeout > 0)
     {
-        /* don't show the temporary warning bar when there's a modal dialog */
+        /* do not show the temporary warning bar when there is a modal dialog */
         QList<QDialog*> dialogs = findChildren<QDialog*>();
         for (int i = 0; i < dialogs.count(); ++i)
         {
             if (dialogs.at (i)->isModal())
-                return;
+                return nullptr;
         }
     }
 
     TabPage *tabPage = qobject_cast<TabPage*>(ui->tabWidget->currentWidget());
 
-    /* don't close and show the same warning bar */
+    /* do not close and show the same warning bar */
     if (WarningBar *prevBar = ui->tabWidget->findChild<WarningBar *>())
     {
         if (!prevBar->isClosing() && prevBar->getMessage() == message)
@@ -2778,7 +2780,7 @@ void FPwin::showWarningBar (const QString& message, int timeout, bool startupBar
                 disconnect (tabPage->textEdit(), &QPlainTextEdit::updateRequest, prevBar, &WarningBar::closeBarOnScrolling);
                 connect (tabPage->textEdit(), &QPlainTextEdit::updateRequest, prevBar, &WarningBar::closeBarOnScrolling);
             }
-            return;
+            return nullptr;
         }
     }
 
@@ -2791,6 +2793,8 @@ void FPwin::showWarningBar (const QString& message, int timeout, bool startupBar
     /* close the bar when the text is scrolled */
     if (tabPage && timeout > 0)
         connect (tabPage->textEdit(), &QPlainTextEdit::updateRequest, bar, &WarningBar::closeBarOnScrolling);
+
+    return bar;
 }
 /*************************/
 void FPwin::showRootWarning()
@@ -3709,7 +3713,7 @@ void FPwin::reloadSyntaxHighlighter (TextEdit *textEdit)
     }
 }
 /*************************/
-void FPwin::lockWindow (TabPage *tabPage, bool lock)
+void FPwin::lockWindow (TabPage *tabPage, bool lock, bool blur)
 {
     locked_ = lock;
     if (lock)
@@ -3724,6 +3728,13 @@ void FPwin::lockWindow (TabPage *tabPage, bool lock)
                 dialogs.at (i)->close();
                 break;
             }
+        }
+        /* blur the text editor */
+        if (blur)
+        {
+            auto blurEffect = new QGraphicsBlurEffect;
+            blurEffect->setBlurHints (QGraphicsBlurEffect::PerformanceHint);
+            tabPage->textEdit()->setGraphicsEffect (blurEffect);
         }
     }
     ui->menuBar->setEnabled (!lock);
@@ -3745,6 +3756,8 @@ void FPwin::lockWindow (TabPage *tabPage, bool lock)
         sidePane_->lockPane (lock);
     if (!lock)
     {
+        if (tabPage->textEdit()->graphicsEffect()) // with blurring
+            tabPage->textEdit()->setGraphicsEffect (nullptr);
         tabPage->textEdit()->setFocus();
         pauseAutoSaving (false);
     }
@@ -4696,19 +4709,31 @@ void FPwin::filePrint()
 {
     if (isLoading() || hasAnotherDialog())
         return;
-
     TabPage *tabPage = qobject_cast< TabPage *>(ui->tabWidget->currentWidget());
     if (tabPage == nullptr) return;
-
-    showWarningBar ("<center><b><big>" + tr ("Printing in progress...") + "</big></b></center>",
-                    0);
-    lockWindow (tabPage, true);
-
+    auto bar = showWarningBar ("<center><b><big>" + tr ("Printing in progress...") + "</big></b></center>",
+                               0);
+    lockWindow (tabPage, true, true); // blurring is especially useful on Wayland
+    makeBusy(); // may not work correctly on Wayland
+    if (bar != nullptr)
+    {
+        /* Wait until the warning bar's animation starts, because otherwise,
+           blurring will happen only after the print dialog is shown. */
+        connect (bar, &WarningBar::showingToParent, this, &FPwin::printing,
+                 Qt::SingleShotConnection);
+    }
+    else
+        printing(); // never happens
+}
+/*************************/
+void FPwin::printing()
+{
+    TabPage *tabPage = qobject_cast< TabPage *>(ui->tabWidget->currentWidget());
+    if (tabPage == nullptr) return;
     TextEdit *textEdit = tabPage->textEdit();
 
     /* complete the syntax highlighting when printing
        because the whole document may not be highlighted */
-    makeBusy();
     if (Highlighter *highlighter = qobject_cast< Highlighter *>(textEdit->getHighlighter()))
     {
         QTextCursor start = textEdit->textCursor();
@@ -4738,10 +4763,12 @@ void FPwin::filePrint()
     }
     fileName.append (".pdf");
 
+    /* Qt -> qfont.cpp -> qt_defaultDpiX() */
     bool Use96Dpi = QCoreApplication::instance()->testAttribute (Qt::AA_Use96Dpi);
     QScreen *screen = QGuiApplication::primaryScreen();
     double sourceDpiX = Use96Dpi ? 96 : screen ? screen->logicalDotsPerInchX() : 100;
     double sourceDpiY = Use96Dpi ? 96 : screen ? screen->logicalDotsPerInchY() : 100;
+
     Printing *thread = new Printing (textEdit->document(),
                                      fileName,
                                      textEdit->getTextPrintColor(),

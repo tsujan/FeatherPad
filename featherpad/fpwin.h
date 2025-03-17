@@ -1,5 +1,5 @@
 /*
- * Copyright (C) Pedram Pourang (aka Tsu Jan) 2014-2024 <tsujan2000@gmail.com>
+ * Copyright (C) Pedram Pourang (aka Tsu Jan) 2014-2025 <tsujan2000@gmail.com>
  *
  * FeatherPad is free software: you can redistribute it and/or modify it
  * under the terms of the GNU General Public License as published by the
@@ -34,6 +34,8 @@ namespace FeatherPad {
 namespace Ui {
 class FPwin;
 }
+
+class WarningBar;
 
 // A FeatherPad window.
 class FPwin : public QMainWindow
@@ -170,6 +172,7 @@ private slots:
     void displayOutput();
     void docProp();
     void filePrint();
+    void printing();
     void detachTab();
     void nextTab();
     void previousTab();
@@ -234,7 +237,7 @@ private:
                      QListWidgetItem *curItem, TabPage *curPage,
                      bool MSWinLineEnd);
     void reloadSyntaxHighlighter (TextEdit *textEdit);
-    void lockWindow (TabPage *tabPage, bool lock);
+    void lockWindow (TabPage *tabPage, bool lock, bool blur = false);
     void saveAllFiles (bool showWarning);
     void closeEvent (QCloseEvent *event);
     bool closePages (int first, int last, bool saveFilesList = false);
@@ -262,7 +265,7 @@ private:
     void removeGreenSel();
     void makeBusy();
     void displayMessage (bool error);
-    void showWarningBar (const QString& message, int timeout = 10, bool startupBar = false);
+    WarningBar* showWarningBar (const QString& message, int timeout = 10, bool startupBar = false);
     void closeWarningBar (bool keepOnStartup = false);
     void disconnectLambda();
     void updateLangBtn (TextEdit *textEdit);

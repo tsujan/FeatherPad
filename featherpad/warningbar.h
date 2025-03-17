@@ -1,5 +1,5 @@
 /*
- * Copyright (C) Pedram Pourang (aka Tsu Jan) 2014-2023 <tsujan2000@gmail.com>
+ * Copyright (C) Pedram Pourang (aka Tsu Jan) 2014-2025 <tsujan2000@gmail.com>
  *
  * FeatherPad is free software: you can redistribute it and/or modify it
  * under the terms of the GNU General Public License as published by the
@@ -92,6 +92,8 @@ public:
                 animation_->setEndValue (g);
                 animation_->start();
                 show();
+
+                QTimer::singleShot (0, this, [this]() {emit showingToParent();});
             });
         }
         else show();
@@ -156,6 +158,9 @@ public:
     bool isClosing() const {
         return isClosing_;
     }
+
+signals:
+    void showingToParent();
 
 public slots:
     void closeBar() {

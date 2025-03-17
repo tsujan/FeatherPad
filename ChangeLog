@@ -1,3 +1,7 @@
+V1.6.2
+---------
+ * Blur the text editor on printing because the busy cursor may not be shown correctly on Wayland.
+
 V1.6.1
 ---------
  * Allow typing double-quote or left parenthesis, brace or square bracket before a selected column.
