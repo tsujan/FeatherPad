@@ -36,7 +36,7 @@
         <location filename="../../fp.ui" line="107"/>
         <source>Select text from cursor to this line
 (Ctrl+Shift+J)</source>
-        <translation>選取游標至此行的所有文字
+        <translation>選取游標至此行全部文字
 (Ctrl+Shift+J)</translation>
     </message>
     <message>
@@ -151,12 +151,12 @@
     <message>
         <location filename="../../fp.ui" line="496"/>
         <source>&amp;Undo</source>
-        <translation>復原(&amp;U)</translation>
+        <translation>取消動作(&amp;U)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="499"/>
         <source>Undo</source>
-        <translation>復原</translation>
+        <translation>取消動作</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="502"/>
@@ -166,12 +166,12 @@
     <message>
         <location filename="../../fp.ui" line="510"/>
         <source>&amp;Redo</source>
-        <translation>重做(&amp;R)</translation>
+        <translation>再次動作(&amp;R)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="513"/>
         <source>Redo</source>
-        <translation>重做</translation>
+        <translation>再次動作</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="516"/>
@@ -524,7 +524,7 @@
         <location filename="../../fp.ui" line="1002"/>
         <location filename="../../fp.ui" line="1005"/>
         <source>Save All Files</source>
-        <translation>儲存所有檔案</translation>
+        <translation>儲存全部檔案</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1010"/>
@@ -971,7 +971,7 @@
         <location filename="../../fpwin.cpp" line="3067"/>
         <location filename="../../fpwin.cpp" line="3089"/>
         <source>All Files</source>
-        <translation>所有檔案</translation>
+        <translation>全部檔案</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3784"/>
@@ -1300,7 +1300,7 @@ and may not work with some window managers.</source>
         <location filename="../../prefDialog.ui" line="159"/>
         <source>Most suitable with sessions
 but without tab functionality.</source>
-        <translation>最適合用於會話
+        <translation>最適合用於工作階段
 但沒有分頁功能。</translation>
     </message>
     <message>
@@ -1992,7 +1992,7 @@ be opened if they are pasted into FeatherPad.</source>
     <message>
         <location filename="../../prefDialog.ui" line="1451"/>
         <source>Restore default syntax colors.</source>
-        <translation>恢復預設語法顏色。</translation>
+        <translation>還原預設語法顏色。</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1486"/>
@@ -2165,7 +2165,7 @@ in the editing mode.</source>
     <message>
         <location filename="../../sessionDialog.ui" line="14"/>
         <source>Session Manager</source>
-        <translation>會話管理器</translation>
+        <translation>工作階段管理器</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="113"/>
@@ -2176,7 +2176,7 @@ in the editing mode.</source>
     <message>
         <location filename="../../sessionDialog.ui" line="45"/>
         <source>&lt;b&gt;Save/Restore Session&lt;/b&gt;</source>
-        <translation>&lt;b&gt;儲存/恢復會話&lt;/b&gt;</translation>
+        <translation>&lt;b&gt;儲存/還原工作階段&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="68"/>
@@ -2186,7 +2186,7 @@ in the editing mode.</source>
     <message>
         <location filename="../../sessionDialog.ui" line="81"/>
         <source>Open the selected session(s).</source>
-        <translation>開啟所選的會話。</translation>
+        <translation>開啟所選的工作階段。</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="84"/>
@@ -2210,8 +2210,8 @@ in the editing mode.</source>
         <location filename="../../sessionDialog.ui" line="171"/>
         <source>By default, all files that are opened in all
 windows will be included in the saved session.</source>
-        <translation>預設情況下，所有視窗中開啟的檔案
-都將包含在已儲存的會話中。</translation>
+        <translation>預設情況下，全部視窗中所開啟的全部檔案
+都將包含在已經儲存的工作階段中。</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="175"/>
@@ -2252,7 +2252,7 @@ windows will be included in the saved session.</source>
     <message>
         <location filename="../../sessionDialog.ui" line="147"/>
         <source>Save the current session under the given title.</source>
-        <translation>將目前會話儲存於指定的標題。</translation>
+        <translation>將目前工作階段儲存於指定的標題。</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="150"/>
@@ -2262,7 +2262,7 @@ windows will be included in the saved session.</source>
     <message>
         <location filename="../../sessionDialog.ui" line="161"/>
         <source>Type a name to save session</source>
-        <translation>輸入名稱以儲存會話</translation>
+        <translation>輸入名稱以儲存工作階段</translation>
     </message>
     <message>
         <location filename="../../session.cpp" line="183"/>
@@ -2287,22 +2287,22 @@ windows will be included in the saved session.</source>
     <message>
         <location filename="../../session.cpp" line="337"/>
         <source>Do you really want to remove all saved sessions?</source>
-        <translation>確定要刪除全部已經儲存的會話嗎？</translation>
+        <translation>確定要刪除全部已經儲存的工作階段嗎？</translation>
     </message>
     <message>
         <location filename="../../session.cpp" line="343"/>
         <source>Do you really want to remove the selected sessions?</source>
-        <translation>確定要刪除所選的會話嗎？</translation>
+        <translation>確定要刪除所選的工作階段嗎？</translation>
     </message>
     <message>
         <location filename="../../session.cpp" line="345"/>
         <source>Do you really want to remove the selected session?</source>
-        <translation>確定要刪除所選的會話嗎？</translation>
+        <translation>確定要刪除所選的工作階段嗎？</translation>
     </message>
     <message>
         <location filename="../../session.cpp" line="350"/>
         <source>A session with the same name exists.&lt;br&gt;Do you want to overwrite it?</source>
-        <translation>已存在相同名稱的會話。&lt;br&gt;確定要覆蓋嗎？</translation>
+        <translation>已存在相同名稱的工作階段。&lt;br&gt;確定要覆蓋嗎？</translation>
     </message>
 </context>
 <context>
