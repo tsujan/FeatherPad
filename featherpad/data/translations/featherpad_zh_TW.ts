@@ -914,7 +914,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="3315"/>
         <source>Do you want to use &lt;b&gt;MS Windows&lt;/b&gt; end-of-lines?</source>
-        <translation>您要使用 &lt;b&gt;MS Windows&lt;/b&gt; 行尾嗎?</translation>
+        <translation>確定要使用 &lt;b&gt;MS Windows&lt;/b&gt; 行尾嗎?</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3316"/>
@@ -1590,7 +1590,7 @@ whose last line is not empty.</source>
     <message>
         <location filename="../../prefDialog.ui" line="880"/>
         <source>Remove trailing spaces on saving</source>
-        <translation>存檔時刪除尾隨的空格</translation>
+        <translation>存檔時移除尾隨的空格</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="898"/>
@@ -1902,7 +1902,7 @@ trailing spaces of a text file.</source>
 
 這在某些情況下很有用，
 例如用於變更時間戳記，
-或刪除文字檔案的尾隨空格。</translation>
+或移除文字檔案的尾隨空格。</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1246"/>
@@ -2003,8 +2003,8 @@ be opened if they are pasted into FeatherPad.</source>
         <location filename="../../pref.cpp" line="113"/>
         <source>Press a modifier key to clear a shortcut
 in the editing mode.</source>
-        <translation>在編輯模式按下編修鍵
-用來清除快速鍵。</translation>
+        <translation>在編輯模式按下修飾鍵
+可以用來清除快速鍵。</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="119"/>
@@ -2287,17 +2287,17 @@ windows will be included in the saved session.</source>
     <message>
         <location filename="../../session.cpp" line="337"/>
         <source>Do you really want to remove all saved sessions?</source>
-        <translation>確定要刪除全部已經儲存的工作階段嗎？</translation>
+        <translation>確定要移除全部已經儲存的工作階段嗎？</translation>
     </message>
     <message>
         <location filename="../../session.cpp" line="343"/>
         <source>Do you really want to remove the selected sessions?</source>
-        <translation>確定要刪除所選的工作階段嗎？</translation>
+        <translation>確定要移除所選的工作階段嗎？</translation>
     </message>
     <message>
         <location filename="../../session.cpp" line="345"/>
         <source>Do you really want to remove the selected session?</source>
-        <translation>確定要刪除所選的工作階段嗎？</translation>
+        <translation>確定要移除所選的工作階段嗎？</translation>
     </message>
     <message>
         <location filename="../../session.cpp" line="350"/>
