@@ -1271,7 +1271,7 @@
     <message>
         <location filename="../../prefDialog.ui" line="87"/>
         <source>Start with this size: </source>
-        <translation>以這個大小啟動： </translation>
+        <translation>啟動使用此大小： </translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="100"/>
@@ -1346,13 +1346,13 @@ The title also has a right click menu when a file is opened.</source>
         <location filename="../../prefDialog.ui" line="229"/>
         <source>Menubar accelerators are activated by Alt
 and may interfere with customized shortcuts.</source>
-        <translation>功能表選單促發是由 Alt 鍵啟用
-並可能會干擾自訂快速鍵。</translation>
+        <translation>選單列加速鍵是由 Alt 鍵啟用
+並可能會干擾自訂的快速鍵。</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="233"/>
         <source>Disable menubar accelerators</source>
-        <translation>停用功能表選單促發</translation>
+        <translation>停用選單列加速鍵</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="240"/>
@@ -1428,10 +1428,10 @@ has a separate search history.</source>
 after the last tab is activated, and the same for Alt+Left.
 
 Tab navigation with mouse wheel is not affected.</source>
-        <translation>此意思是，用於 LTR，Alt+Right 在最後分頁啟動後
-前往第一個分頁。 Alt+Left 也是如此。
+        <translation>此意思是，用於由左至右語言，Alt+Right 在最後分頁啟動後
+即前往第一個分頁。 Alt+Left 同理如是。
 
-使用滑鼠滾輪的分頁導引則不受影響。</translation>
+使用滑鼠滾輪進行分頁導引則不受影響。</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="365"/>
@@ -1630,7 +1630,7 @@ will be shown by a popup dialog.</source>
 
 如果指令為空白，則會直接執行檔案。
 
-如果腳本並未在終端機模擬器中運行，
+如果程序腳本並未在終端機模擬器中運行，
 則輸出和錯誤訊息將會顯示於彈出對話框。</translation>
     </message>
     <message>
@@ -1785,8 +1785,8 @@ opened files FeatherPad shows. The default
 is 10.
 
 Needs application restart to take effect.</source>
-        <translation>FeatherPad 顯示最近修改或開啟檔案的最大數量，
-預設值為 10。
+        <translation>FeatherPad 顯示最近修改或已經開啟檔案
+的最大數量，其預設值為 10。
 
 
 需要重新啟動應用程式才會生效作用。</translation>
