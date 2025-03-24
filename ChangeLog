@@ -1,6 +1,7 @@
 V1.6.2
 ---------
  * Show the print bar ("Printing in progress...") before printing because the print dialog may be shown with a delay.
+ * A small change in highlighting numbers.
 
 V1.6.1
 ---------

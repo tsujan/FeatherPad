@@ -1,5 +1,5 @@
 /*
- * Copyright (C) Pedram Pourang (aka Tsu Jan) 2014-2024 <tsujan2000@gmail.com>
+ * Copyright (C) Pedram Pourang (aka Tsu Jan) 2014-2025 <tsujan2000@gmail.com>
  *
  * FeatherPad is free software: you can redistribute it and/or modify it
  * under the terms of the GNU General Public License as published by the
@@ -394,6 +394,37 @@ Highlighter::Highlighter (QTextDocument *parent, const QString& lang,
     {
         QTextCharFormat ft;
 
+        /* POSIX signals */
+        ft.setForeground (DarkYellow);
+        rule.pattern.setPattern ("\\b(SIGABRT|SIGIOT|SIGALRM|SIGVTALRM|SIGPROF|SIGBUS|SIGCHLD|SIGCONT|SIGFPE|SIGHUP|SIGILL|SIGINT|SIGKILL|SIGPIPE|SIGPOLL|SIGRTMIN|SIGRTMAX|SIGQUIT|SIGSEGV|SIGSTOP|SIGSYS|SIGTERM|SIGTSTP|SIGTTIN|SIGTTOU|SIGTRAP|SIGURG|SIGUSR1|SIGUSR2|SIGXCPU|SIGXFSZ|SIGWINCH)(?!(\\.|-|@|#|\\$))\\b");
+        rule.format = ft;
+        highlightingRules.append (rule);
+
+        ft.setFontItalic (true);
+        ft.setForeground (Blue);
+        /* before parentheses (function names)... */
+        rule.pattern.setPattern ("\\b(?![0-9])[A-Za-z0-9_]+(?=\\s*\\()");
+        rule.format = ft;
+        highlightingRules.append (rule);
+        /* ... but make exception for what comes after "#define" */
+        if (progLan == "c" || progLan == "cpp")
+        {
+            rule.pattern.setPattern ("^\\s*#\\s*define\\s+[^\"\']+" // may contain slash but no quote
+                                     "(?=\\s*\\()");
+            rule.format = neutralFormat;
+            highlightingRules.append (rule);
+        }
+        else if (progLan == "python")
+        { // built-in functions
+            ft.setFontWeight (QFont::Bold);
+            ft.setForeground (Magenta);
+            rule.pattern.setPattern ("\\b(abs|add|aiter|all|append|anext|any|apply|as_integer_ratio|ascii|basestring|bin|bit_length|bool|breakpoint|buffer|bytearray|bytes|callable|c\\.conjugate|capitalize|center|chr|classmethod|clear|close|cmp|coerce|compile|complex|copy|count|critical|debug|decode|delattr|dict|difference|difference_update|dir|discard|detach|divmod|encode|endswith|enumerate|error|eval|expandtabs|exception|exec|execfile|extend|file|fileno|filter|find|float|flush|format|fromhex|fromkeys|frozenset|get|getattr|globals|hasattr|hash|has_key|help|hex|id|index|info|input|insert|int|intern|intersection|intersection_update|isalnum|isalpha|isatty|isdecimal|isdigit|isdisjoint|isinstance|islower|isnumeric|isspace|issubclass|issubset|istitle|issuperset|items|iter|iteritems|iterkeys|itervalues|isupper|is_integer|join|keys|len|list|ljust|locals|log|long|lower|lstrip|map|max|memoryview|min|next|object|oct|open|ord|partition|pop|popitem|pow|print|property|range|raw_input|read|readable|readline|readlines|reduce|reload|remove|replace|repr|reverse|reversed|rfind|rindex|rjust|rpartition|round|rsplit|rstrip|run|seek|seekable|set|setattr|slice|sort|sorted|split|splitlines|staticmethod|startswith|str|strip|sum|super|symmetric_difference|symmetric_difference_update|swapcase|tell|title|translate|truncate|tuple|type|unichr|unicode|union|update|upper|values|vars|viewitems|viewkeys|viewvalues|warning|writable|write|writelines|xrange|zip|zfill|(__(abs|add|aenter|aiter|aexit|and|anext|await|bytes|call|cmp|coerce|complex|contains|del|delattr|delete|delitem|delslice|dir|div|divmod|enter|eq|exit|float|floordiv|format|ge|get|getattr|getattribute|getitem|getslice|gt|hash|hex|iadd|iand|idiv|ifloordiv|ilshift|invert|imod|import|imul|init|instancecheck|index|int|ior|ipow|irshift|isub|iter|itruediv|ixor|le|len|long|lshift|lt|missing|mod|mul|ne|neg|next|new|nonzero|oct|or|pos|pow|radd|rand|rcmp|rdiv|rdivmod|repr|reversed|rfloordiv|rlshift|rmod|rmul|ror|rpow|rshift|rsub|rrshift|rtruediv|rxor|set|setattr|setitem|setslice|str|sub|subclasses|subclasscheck|truediv|unicode|xor)__))(?=\\s*\\()");
+            rule.format = ft;
+            highlightingRules.append (rule);
+            ft.setFontWeight (QFont::Normal);
+        }
+        ft.setFontItalic (false);
+
         /* numbers (including the exponential notation, binary, octal and hexadecimal literals) */
         ft.setForeground (Brown);
         if (progLan == "python")
@@ -438,35 +469,6 @@ Highlighter::Highlighter (QTextDocument *parent, const QString& lang,
                                      ")(?=[^\\w\\d\\.]|$)");
         rule.format = ft;
         highlightingRules.append (rule);
-
-        /* POSIX signals */
-        ft.setForeground (DarkYellow);
-        rule.pattern.setPattern ("\\b(SIGABRT|SIGIOT|SIGALRM|SIGVTALRM|SIGPROF|SIGBUS|SIGCHLD|SIGCONT|SIGFPE|SIGHUP|SIGILL|SIGINT|SIGKILL|SIGPIPE|SIGPOLL|SIGRTMIN|SIGRTMAX|SIGQUIT|SIGSEGV|SIGSTOP|SIGSYS|SIGTERM|SIGTSTP|SIGTTIN|SIGTTOU|SIGTRAP|SIGURG|SIGUSR1|SIGUSR2|SIGXCPU|SIGXFSZ|SIGWINCH)(?!(\\.|-|@|#|\\$))\\b");
-        rule.format = ft;
-        highlightingRules.append (rule);
-
-        ft.setFontItalic (true);
-        ft.setForeground (Blue);
-        /* before parentheses... */
-        rule.pattern.setPattern ("\\b[A-Za-z0-9_]+(?=\\s*\\()");
-        rule.format = ft;
-        highlightingRules.append (rule);
-        /* ... but make exception for what comes after "#define" */
-        if (progLan == "c" || progLan == "cpp")
-        {
-            rule.pattern.setPattern ("^\\s*#\\s*define\\s+[^\"\']+" // may contain slash but no quote
-                                     "(?=\\s*\\()");
-            rule.format = neutralFormat;
-            highlightingRules.append (rule);
-        }
-        else if (progLan == "python")
-        { // built-in functions
-            ft.setFontWeight (QFont::Bold);
-            ft.setForeground (Magenta);
-            rule.pattern.setPattern ("\\b(abs|add|aiter|all|append|anext|any|apply|as_integer_ratio|ascii|basestring|bin|bit_length|bool|breakpoint|buffer|bytearray|bytes|callable|c\\.conjugate|capitalize|center|chr|classmethod|clear|close|cmp|coerce|compile|complex|copy|count|critical|debug|decode|delattr|dict|difference|difference_update|dir|discard|detach|divmod|encode|endswith|enumerate|error|eval|expandtabs|exception|exec|execfile|extend|file|fileno|filter|find|float|flush|format|fromhex|fromkeys|frozenset|get|getattr|globals|hasattr|hash|has_key|help|hex|id|index|info|input|insert|int|intern|intersection|intersection_update|isalnum|isalpha|isatty|isdecimal|isdigit|isdisjoint|isinstance|islower|isnumeric|isspace|issubclass|issubset|istitle|issuperset|items|iter|iteritems|iterkeys|itervalues|isupper|is_integer|join|keys|len|list|ljust|locals|log|long|lower|lstrip|map|max|memoryview|min|next|object|oct|open|ord|partition|pop|popitem|pow|print|property|range|raw_input|read|readable|readline|readlines|reduce|reload|remove|replace|repr|reverse|reversed|rfind|rindex|rjust|rpartition|round|rsplit|rstrip|run|seek|seekable|set|setattr|slice|sort|sorted|split|splitlines|staticmethod|startswith|str|strip|sum|super|symmetric_difference|symmetric_difference_update|swapcase|tell|title|translate|truncate|tuple|type|unichr|unicode|union|update|upper|values|vars|viewitems|viewkeys|viewvalues|warning|writable|write|writelines|xrange|zip|zfill|(__(abs|add|aenter|aiter|aexit|and|anext|await|bytes|call|cmp|coerce|complex|contains|del|delattr|delete|delitem|delslice|dir|div|divmod|enter|eq|exit|float|floordiv|format|ge|get|getattr|getattribute|getitem|getslice|gt|hash|hex|iadd|iand|idiv|ifloordiv|ilshift|invert|imod|import|imul|init|instancecheck|index|int|ior|ipow|irshift|isub|iter|itruediv|ixor|le|len|long|lshift|lt|missing|mod|mul|ne|neg|next|new|nonzero|oct|or|pos|pow|radd|rand|rcmp|rdiv|rdivmod|repr|reversed|rfloordiv|rlshift|rmod|rmul|ror|rpow|rshift|rsub|rrshift|rtruediv|rxor|set|setattr|setitem|setslice|str|sub|subclasses|subclasscheck|truediv|unicode|xor)__))(?=\\s*\\()");
-            rule.format = ft;
-            highlightingRules.append (rule);
-        }
     }
     else if (Lang == "javascript" || progLan == "qml")
     {
