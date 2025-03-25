@@ -90,7 +90,7 @@
     <message>
         <location filename="../../fp.ui" line="369"/>
         <source>To be replaced</source>
-        <translation type="unfinished"></translation>
+        <translation>ჩასანაცვლებელი</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="382"/>
@@ -141,7 +141,7 @@
     <message>
         <location filename="../../fp.ui" line="485"/>
         <source>Save the current tab</source>
-        <translation type="unfinished"></translation>
+        <translation>მიმდინარე ჩანართის შენახვა</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="488"/>
@@ -377,7 +377,7 @@
     <message>
         <location filename="../../fp.ui" line="771"/>
         <source>Save with &amp;Encoding</source>
-        <translation type="unfinished"></translation>
+        <translation>შენახვა კოდირ&amp;ებით</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="776"/>
@@ -452,7 +452,7 @@
     <message>
         <location filename="../../fp.ui" line="926"/>
         <source>Paste Date and Time</source>
-        <translation type="unfinished"></translation>
+        <translation>თარიღის და დროის ჩასმა</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="929"/>
@@ -463,7 +463,7 @@
         <location filename="../../fp.ui" line="934"/>
         <location filename="../../fp.ui" line="937"/>
         <source>To Upper Case</source>
-        <translation type="unfinished"></translation>
+        <translation>ზედა რეგისტრში</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="940"/>
@@ -485,7 +485,7 @@
         <location filename="../../fp.ui" line="956"/>
         <location filename="../../fp.ui" line="959"/>
         <source>To Start Case</source>
-        <translation type="unfinished"></translation>
+        <translation>შემთხვევის დასაწყებად</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="967"/>
@@ -508,7 +508,7 @@
         <location filename="../../fp.ui" line="986"/>
         <location filename="../../fp.ui" line="989"/>
         <source>Sort Lines Reversely</source>
-        <translation type="unfinished"></translation>
+        <translation>ხაზების უკუღმა დალაგება</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="994"/>
@@ -535,7 +535,7 @@
     <message>
         <location filename="../../fp.ui" line="1018"/>
         <source>Text Tabs to Spaces</source>
-        <translation type="unfinished"></translation>
+        <translation>ტექსტის ტაბულაცია ჰარეებში</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="801"/>
@@ -550,12 +550,12 @@
     <message>
         <location filename="../../fp.ui" line="809"/>
         <source>Close Ne&amp;xt Tabs</source>
-        <translation type="unfinished"></translation>
+        <translation>შემდეგი ჩანართების და&amp;ხურვა</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="814"/>
         <source>Close &amp;Previous Tabs</source>
-        <translation type="unfinished"></translation>
+        <translation>წინა ჩანართების &amp;დახურვა</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="842"/>
@@ -575,7 +575,7 @@
     <message>
         <location filename="../../fp.ui" line="819"/>
         <source>Close &amp;All Tabs</source>
-        <translation type="unfinished"></translation>
+        <translation>ყველ&amp;ა ჩანართის დახურვა</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="153"/>
@@ -598,7 +598,7 @@
     <message>
         <location filename="../../fp.ui" line="538"/>
         <source>Focus/hide search bar</source>
-        <translation type="unfinished"></translation>
+        <translation>ძებნის პანელის ფოკუსი/დამალვა</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="546"/>
@@ -633,12 +633,12 @@
     <message>
         <location filename="../../fp.ui" line="829"/>
         <source>&amp;Copy File Name</source>
-        <translation type="unfinished"></translation>
+        <translation>ფაილის სახელის &amp;კოპირება</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="834"/>
         <source>Copy File &amp;Path</source>
-        <translation type="unfinished"></translation>
+        <translation>ფაილის &amp;ბილიკის კოპირება</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="845"/>
@@ -678,7 +678,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="100"/>
         <source>Calculate number of words</source>
-        <translation type="unfinished"></translation>
+        <translation>სიტყვების რაოდენობის გამოთვლა</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="115"/>
@@ -733,7 +733,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="1371"/>
         <source>&amp;No to all</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;არა ყველაფერზე</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1579"/>
@@ -833,7 +833,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="2707"/>
         <source>Non-text file(s) not opened!</source>
-        <translation type="unfinished"></translation>
+        <translation>არატექსტური ფაილები არ გაიხსნება!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2708"/>
@@ -879,17 +879,17 @@
     <message>
         <location filename="../../fpwin.cpp" line="3192"/>
         <source>Keep encoding and save as...</source>
-        <translation type="unfinished"></translation>
+        <translation>კოდირების სენარჩუნება და შენახვა, როგორც...</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3509"/>
         <source>Saving as root.</source>
-        <translation type="unfinished"></translation>
+        <translation>შენახვა, როგორც root-ით.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3510"/>
         <source>Waiting for authentication...</source>
-        <translation type="unfinished"></translation>
+        <translation>ავთენტიკაციის მოლოდინი...</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3629"/>
@@ -927,7 +927,7 @@
         <location filename="../../fpwin.cpp" line="3628"/>
         <location filename="../../fpwin.cpp" line="3640"/>
         <source>Cannot be saved!</source>
-        <translation type="unfinished"></translation>
+        <translation>შენახვა შეუძლებელია!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="450"/>
@@ -952,7 +952,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="2698"/>
         <source>Huge file(s) not opened!</source>
-        <translation type="unfinished"></translation>
+        <translation>დიდი ფაილები არ გაიხსნება!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2749"/>
@@ -986,7 +986,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="3895"/>
         <source>It is not fully processed.</source>
-        <translation type="unfinished"></translation>
+        <translation>სრულად დამუშავებული არაა.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4057"/>
@@ -1003,7 +1003,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="4704"/>
         <source>Printing in progress...</source>
-        <translation type="unfinished"></translation>
+        <translation>მიმდინარეობს ბეჭდვა...</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4770"/>
@@ -1025,25 +1025,25 @@
         <location filename="../../fpwin.cpp" line="5472"/>
         <location filename="../../fpwin.cpp" line="5609"/>
         <source>Copy Target Path</source>
-        <translation type="unfinished"></translation>
+        <translation>სამიზნე ბილიკის კოპირება</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5476"/>
         <location filename="../../fpwin.cpp" line="5613"/>
         <source>Open Target Here</source>
-        <translation type="unfinished"></translation>
+        <translation>სამიზნის აქ გახსნა</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5495"/>
         <location filename="../../fpwin.cpp" line="5633"/>
         <source>Copy Final Target Path</source>
-        <translation type="unfinished"></translation>
+        <translation>საბოლოო სამიზნის ბილიკის კოპირება</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5499"/>
         <location filename="../../fpwin.cpp" line="5637"/>
         <source>Open Final Target Here</source>
-        <translation type="unfinished"></translation>
+        <translation>საბოლოო სამიზნის აქ გახსნა</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5519"/>
@@ -1078,14 +1078,14 @@
         <location filename="../../fpwin.cpp" line="5842"/>
         <location filename="../../fpwin.cpp" line="5857"/>
         <source>No misspelling in document.</source>
-        <translation type="unfinished"></translation>
+        <translation>დოკუმენტში მართლწერის შეცდომა აღმოჩენილი არაა.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5826"/>
         <location filename="../../fpwin.cpp" line="5844"/>
         <location filename="../../fpwin.cpp" line="5859"/>
         <source>No misspelling from text cursor.</source>
-        <translation type="unfinished"></translation>
+        <translation>მართლწერის შესამოწმებელი ტექსტი კურსორთან არ არსებობს.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5875"/>
@@ -1110,7 +1110,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="6259"/>
         <source>based on Qt</source>
-        <translation type="unfinished"></translation>
+        <translation>დაფუძნებულია Qt-ზე</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="6260"/>
@@ -1236,7 +1236,7 @@
     <message>
         <location filename="../../lineedit.cpp" line="34"/>
         <source>Clear text (Ctrl+K)</source>
-        <translation type="unfinished"></translation>
+        <translation>ტექსტის გასუფთავება (Ctrl+K)</translation>
     </message>
 </context>
 <context>
@@ -1267,12 +1267,12 @@
         <location filename="../../prefDialog.ui" line="107"/>
         <location filename="../../prefDialog.ui" line="120"/>
         <source>Window frame is excluded.</source>
-        <translation type="unfinished"></translation>
+        <translation>ფანჯრის ჩარჩო ამოღებულია.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="87"/>
         <source>Start with this size: </source>
-        <translation type="unfinished"></translation>
+        <translation>დაწყება ამ ზომით: </translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="100"/>
@@ -1310,12 +1310,12 @@ but without tab functionality.</source>
     <message>
         <location filename="../../prefDialog.ui" line="191"/>
         <source>Remember splitter position</source>
-        <translation type="unfinished"></translation>
+        <translation>გამყოფის მდებარეობის დამახსოვრება</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="200"/>
         <source>Do not show &amp;toolbar</source>
-        <translation type="unfinished"></translation>
+        <translation>არ მაჩვენო &amp;ხელსაწყოების ზოლი</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="207"/>
@@ -1326,7 +1326,7 @@ a menu button appears on the toolbar.</source>
     <message>
         <location filename="../../prefDialog.ui" line="211"/>
         <source>Do not show &amp;menubar</source>
-        <translation type="unfinished"></translation>
+        <translation>არ &amp;მაჩვენო მენიუს ზოლი</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="218"/>
@@ -1348,7 +1348,7 @@ and may interfere with customized shortcuts.</source>
     <message>
         <location filename="../../prefDialog.ui" line="233"/>
         <source>Disable menubar accelerators</source>
-        <translation type="unfinished"></translation>
+        <translation>მენიუს ზოლის მალსახმობების გამორთვა</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="240"/>
@@ -1379,7 +1379,7 @@ has a separate search history.</source>
     <message>
         <location filename="../../prefDialog.ui" line="268"/>
         <source>Always show st&amp;atus bar</source>
-        <translation type="unfinished"></translation>
+        <translation>სტ&amp;ატუსის ზოლის ყოველთვის ჩვენება</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="293"/>
@@ -1428,7 +1428,7 @@ Tab navigation with mouse wheel is not affected.</source>
     <message>
         <location filename="../../prefDialog.ui" line="365"/>
         <source>Tab navigation wraps &amp;around</source>
-        <translation type="unfinished"></translation>
+        <translation>ჩანართების ნავიგაციის გ&amp;ადატანა</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="385"/>
@@ -1460,12 +1460,12 @@ Some desktop environments, like KDE and LXQt, provide files dialogs.</source>
     <message>
         <location filename="../../prefDialog.ui" line="412"/>
         <source>Native file dialog</source>
-        <translation type="unfinished"></translation>
+        <translation>ფაილის სისტემური დიალოგი</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="488"/>
         <source>Uncheck for Monospace.</source>
-        <translation type="unfinished"></translation>
+        <translation>გამორთეთ თოლია მონოგამოტოვებულისთვის.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="491"/>
@@ -1519,7 +1519,7 @@ status bar for changing the syntax.</source>
     <message>
         <location filename="../../prefDialog.ui" line="581"/>
         <source>Support syntax override</source>
-        <translation type="unfinished"></translation>
+        <translation>სინტაქსის გადაფარვის მხარდაჭერა</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="646"/>
@@ -1552,7 +1552,7 @@ the editor font has a fixed pitch (like Monospace).</source>
     <message>
         <location filename="../../prefDialog.ui" line="801"/>
         <source>Date and time format:</source>
-        <translation type="unfinished"></translation>
+        <translation>თარიღის და დროის ფორმატი:</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="869"/>
@@ -1608,22 +1608,22 @@ will be shown by a popup dialog.</source>
     <message>
         <location filename="../../prefDialog.ui" line="1164"/>
         <source>Start with this command: </source>
-        <translation type="unfinished"></translation>
+        <translation>გაშვება ამ ბრძანებით: </translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1183"/>
         <source>Command + Arguments</source>
-        <translation type="unfinished"></translation>
+        <translation>ბრძანება + არგუმენტები</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1068"/>
         <source>Show recentl&amp;y modified files</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;ახლახან შეცვლილი ფაილების ჩვენება</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1098"/>
         <source>Show recentl&amp;y opened files</source>
-        <translation type="unfinished"></translation>
+        <translation>ახლახან გა&amp;ხსნილი ფაილების ჩვენება</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1197"/>
@@ -1638,7 +1638,7 @@ will be shown by a popup dialog.</source>
     <message>
         <location filename="../../prefDialog.ui" line="163"/>
         <source>Start with side-pane mode</source>
-        <translation type="unfinished"></translation>
+        <translation>გაშვება გვერდითი პანელის რეჟიმში</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="372"/>
@@ -1666,32 +1666,32 @@ and-drop either.</source>
     <message>
         <location filename="../../prefDialog.ui" line="498"/>
         <source>&amp;Wrap lines by default</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;ხაზების გადატანა ნაგულისხმევად</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="505"/>
         <source>Auto-&amp;indent by default</source>
-        <translation type="unfinished"></translation>
+        <translation>ავტოსწორება &amp;ნაგულისხმევად</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="534"/>
         <source>Always show line &amp;numbers</source>
-        <translation type="unfinished"></translation>
+        <translation>ხაზის &amp;ნომრების ყოველთვის ჩვენება</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="552"/>
         <source>Highlight s&amp;yntax by default</source>
-        <translation type="unfinished"></translation>
+        <translation>ს&amp;ინტაქსის გამოკვეთა ნაგულისხმევად</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="712"/>
         <source>Dark c&amp;olor scheme</source>
-        <translation type="unfinished"></translation>
+        <translation>მუქი &amp;ფერების სქემა</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="747"/>
         <source>Background color value: </source>
-        <translation type="unfinished"></translation>
+        <translation>ფონის ფერის მნიშვნელობა: </translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="615"/>
@@ -1731,7 +1731,7 @@ Needs window reopening to take effect.</source>
     <message>
         <location filename="../../prefDialog.ui" line="1127"/>
         <source>Run executable scripts</source>
-        <translation type="unfinished"></translation>
+        <translation>გაშვებადი სკრიპტების შესრულება</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1001"/>
@@ -1760,7 +1760,7 @@ Takes effect after closing this dialog.</source>
     <message>
         <location filename="../../prefDialog.ui" line="828"/>
         <source>Text tab size:</source>
-        <translation type="unfinished"></translation>
+        <translation>ტექსტური ჩანართის ზომა:</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="835"/>
@@ -1770,7 +1770,7 @@ Takes effect after closing this dialog.</source>
     <message>
         <location filename="../../prefDialog.ui" line="887"/>
         <source>Thick text cursor</source>
-        <translation type="unfinished"></translation>
+        <translation>სქელი ტექსტის კურსორი</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="894"/>
@@ -1794,7 +1794,7 @@ name but ending with &quot;.aff&quot;.</source>
     <message>
         <location filename="../../prefDialog.ui" line="918"/>
         <source>Hunspell dictionary path:</source>
-        <translation type="unfinished"></translation>
+        <translation>Hunspell-ის ლექსიკონის ბილიკი:</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="937"/>
@@ -1816,7 +1816,7 @@ will be started from the document start.</source>
     <message>
         <location filename="../../prefDialog.ui" line="1008"/>
         <source>Number of recent files: </source>
-        <translation type="unfinished"></translation>
+        <translation>უახლესი ფაილების რიცხვი: </translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1107"/>
@@ -1847,12 +1847,12 @@ trailing spaces of a text file.</source>
     <message>
         <location filename="../../prefDialog.ui" line="1246"/>
         <source>Allow saving unmodified files</source>
-        <translation type="unfinished"></translation>
+        <translation>შეუცვლელი ფაილების შენახვის დაშვება</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1253"/>
         <source>Show a warning instead.</source>
-        <translation type="unfinished"></translation>
+        <translation>გაფრთხილების ჩვენება ამის მაგიერ.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1256"/>
@@ -1888,7 +1888,7 @@ be opened if they are pasted into FeatherPad.</source>
     <message>
         <location filename="../../prefDialog.ui" line="1329"/>
         <source>Restore default shortcuts.</source>
-        <translation type="unfinished"></translation>
+        <translation>ნაგულისხმევი მალსახმობების აღდგენა.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1332"/>
@@ -1915,7 +1915,7 @@ be opened if they are pasted into FeatherPad.</source>
     <message>
         <location filename="../../prefDialog.ui" line="1360"/>
         <source>Whitespace color value:</source>
-        <translation type="unfinished"></translation>
+        <translation>თეთრი ჰარეს ფერის მნიშვნელობა:</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1393"/>
@@ -1926,12 +1926,12 @@ be opened if they are pasted into FeatherPad.</source>
     <message>
         <location filename="../../prefDialog.ui" line="1396"/>
         <source>Current line highlight value:</source>
-        <translation type="unfinished"></translation>
+        <translation>მიმდინარე ხაზის გამოკვეთის მნიშვნელობა:</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1451"/>
         <source>Restore default syntax colors.</source>
-        <translation type="unfinished"></translation>
+        <translation>ნაგულისხმევი სინტაქსის ფერების აღდგენა.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1486"/>
@@ -1965,7 +1965,7 @@ in the editing mode.</source>
         <location filename="../../pref.cpp" line="422"/>
         <location filename="../../pref.cpp" line="1617"/>
         <source>Warning: Ambiguous shortcut detected!</source>
-        <translation type="unfinished"></translation>
+        <translation>გაფრთხილება: აღმოჩენილია გაურკვეველი მალსახმობი!</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="455"/>
@@ -2005,17 +2005,17 @@ in the editing mode.</source>
     <message>
         <location filename="../../pref.cpp" line="462"/>
         <source>Regular Expressions, Code Blocks,…</source>
-        <translation type="unfinished"></translation>
+        <translation>რეგულარული გამოსახულებები, კოდის ბლოკები,…</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="463"/>
         <source>Document Blocks, XML/HTML Elements,…</source>
-        <translation type="unfinished"></translation>
+        <translation>დოკუმენტის ბლოკები, XML/HTML ელემენტები…</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="464"/>
         <source>Markdown Headings, CSS Values,…</source>
-        <translation type="unfinished"></translation>
+        <translation>მარკდაუნის სათაურები, CSS მნიშვნელობები,…</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="465"/>
@@ -2050,13 +2050,13 @@ in the editing mode.</source>
     <message>
         <location filename="../../pref.cpp" line="1804"/>
         <source>Hunspell Dictionary Files</source>
-        <translation type="unfinished"></translation>
+        <translation>Hunspell-ის ლექსიკონის ზომები</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="523"/>
         <location filename="../../pref.cpp" line="1890"/>
         <source>Select Syntax Color</source>
-        <translation type="unfinished"></translation>
+        <translation>აირჩიეთ სინტაქსის ფერი</translation>
     </message>
 </context>
 <context>
@@ -2085,7 +2085,7 @@ in the editing mode.</source>
     <message>
         <location filename="../../searchbar.cpp" line="171"/>
         <source>Search with regex...</source>
-        <translation type="unfinished"></translation>
+        <translation>რეგგამოს-ით ძებნა...</translation>
     </message>
     <message>
         <location filename="../../searchbar.cpp" line="120"/>
@@ -2124,7 +2124,7 @@ in the editing mode.</source>
     <message>
         <location filename="../../sessionDialog.ui" line="81"/>
         <source>Open the selected session(s).</source>
-        <translation type="unfinished"></translation>
+        <translation>მონიშნული სესი(ებ)-ის გახსნა.</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="84"/>
@@ -2260,7 +2260,7 @@ windows will be included in the saved session.</source>
     <message>
         <location filename="../../spellDialog.ui" line="51"/>
         <source>Add To Dictionary</source>
-        <translation type="unfinished"></translation>
+        <translation>ლექსიკონში ჩამატება</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="62"/>
