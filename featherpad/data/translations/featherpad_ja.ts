@@ -957,12 +957,12 @@
     <message>
         <location filename="../../fpwin.cpp" line="2749"/>
         <source>Huge column!</source>
-        <translation type="unfinished"></translation>
+        <translation>列が巨大です！</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2750"/>
         <source>Columns with more than 1000 rows are not supported.</source>
-        <translation type="unfinished"></translation>
+        <translation>1000 行を超える列はサポートされていません。</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2874"/>
