@@ -964,12 +964,12 @@
     <message>
         <location filename="../../fpwin.cpp" line="2749"/>
         <source>Huge column!</source>
-        <translation type="unfinished"></translation>
+        <translation>Devasa bir sütun!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2750"/>
         <source>Columns with more than 1000 rows are not supported.</source>
-        <translation type="unfinished"></translation>
+        <translation>1000&apos;den fazla satıra sahip sütunlar desteklenmez.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2874"/>
