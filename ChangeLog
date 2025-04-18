@@ -1,7 +1,8 @@
 V1.6.2
 ---------
  * Show the print bar ("Printing in progress...") before printing because the print dialog may be shown with a delay.
- * A small change in highlighting numbers.
+ * A small change in highlighting the numbers.
+ * Removed an old workaround about translations, which prevented some languages from being loaded due to a recent change in Qt.
 
 V1.6.1
 ---------

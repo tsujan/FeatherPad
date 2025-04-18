@@ -79,29 +79,17 @@ int main (int argc, char **argv)
 
     singleton.init (firstArg == "--standalone" || firstArg == "-s");
 
-    // with QLocale::system().name(), X and X_Y may be the same in tests
-    QStringList langs (QLocale::system().uiLanguages());
-    QString lang;
-    if (!langs.isEmpty())
-        lang = langs.first().replace ('-', '_');
-
     QTranslator qtTranslator;
-    if (qtTranslator.load ("qt_" + lang, QLibraryInfo::path (QLibraryInfo::TranslationsPath)))
+    if (qtTranslator.load ("qt_" + QLocale::system().name(), QLibraryInfo::path (QLibraryInfo::TranslationsPath)))
         singleton.installTranslator (&qtTranslator);
-    else if (!langs.isEmpty())
-    { // shouldn't be needed
-        lang = langs.first().split (QLatin1Char ('_')).first();
-        if (qtTranslator.load ("qt_" + lang, QLibraryInfo::path (QLibraryInfo::TranslationsPath)))
-            singleton.installTranslator (&qtTranslator);
-    }
 
     QTranslator FPTranslator;
 #if defined(Q_OS_HAIKU)
-    if (FPTranslator.load ("featherpad_" + lang, QStringLiteral (DATADIR) + "/../translations"))
+    if (FPTranslator.load ("featherpad_" + QLocale::system().name(), QStringLiteral (DATADIR) + "/../translations"))
 #elif defined(Q_OS_MAC)
-    if (FPTranslator.load ("featherpad_" + lang, singleton.applicationDirPath() + QStringLiteral ("/../Resources/translations/")))
+    if (FPTranslator.load ("featherpad_" + QLocale::system().name(), singleton.applicationDirPath() + QStringLiteral ("/../Resources/translations/")))
 #else
-    if (FPTranslator.load ("featherpad_" + lang, QStringLiteral (DATADIR) + "/featherpad/translations"))
+    if (FPTranslator.load ("featherpad_" + QLocale::system().name(), QStringLiteral (DATADIR) + "/featherpad/translations"))
 #endif
     {
         singleton.installTranslator (&FPTranslator);
