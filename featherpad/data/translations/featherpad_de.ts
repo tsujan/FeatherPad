@@ -868,7 +868,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="2883"/>
         <source>Open file...</source>
-        <translation>Öffne Datei...</translation>
+        <translation>Datei öffnen...</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3118"/>
@@ -957,12 +957,12 @@
     <message>
         <location filename="../../fpwin.cpp" line="2749"/>
         <source>Huge column!</source>
-        <translation type="unfinished"></translation>
+        <translation>Riesige Spalte!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2750"/>
         <source>Columns with more than 1000 rows are not supported.</source>
-        <translation type="unfinished"></translation>
+        <translation>Spalten mit mehr als 1000 Zeilen werden nicht unterstützt.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2874"/>
@@ -1340,7 +1340,7 @@ The title also has a right click menu when a file is opened.</source>
     <message>
         <location filename="../../prefDialog.ui" line="222"/>
         <source>Show window title on menubar</source>
-        <translation type="unfinished"></translation>
+        <translation>Fenstertitel in der Menüleiste anzeigen</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="229"/>
@@ -1799,7 +1799,7 @@ Standard ist 10.</translation>
     <message>
         <location filename="../../prefDialog.ui" line="786"/>
         <source>Add a small margin around text</source>
-        <translation type="unfinished"></translation>
+        <translation>Kleinen Rand um den Text hinzufügen</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="795"/>
