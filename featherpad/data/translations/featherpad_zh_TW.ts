@@ -36,7 +36,7 @@
         <location filename="../../fp.ui" line="107"/>
         <source>Select text from cursor to this line
 (Ctrl+Shift+J)</source>
-        <translation>選取游標至此行全部文字
+        <translation>選取游標位置至此行的文字
 (Ctrl+Shift+J)</translation>
     </message>
     <message>
@@ -69,7 +69,7 @@
         <location filename="../../fpwin.cpp" line="2980"/>
         <location filename="../../fpwin.cpp" line="4551"/>
         <source>Encoding</source>
-        <translation>字元編碼</translation>
+        <translation>編碼</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="242"/>
@@ -80,7 +80,7 @@
         <location filename="../../fp.ui" line="250"/>
         <location filename="../../fp.ui" line="709"/>
         <source>&amp;Help</source>
-        <translation>尋求幫助(&amp;H)</translation>
+        <translation>說明(&amp;H)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="353"/>
@@ -643,12 +643,12 @@
     <message>
         <location filename="../../fp.ui" line="845"/>
         <source>Alt+Right</source>
-        <translation>Alt+右</translation>
+        <translation>Alt+→</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="856"/>
         <source>Alt+Left</source>
-        <translation>Alt+左</translation>
+        <translation>Alt+←</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="864"/>
@@ -658,7 +658,7 @@
     <message>
         <location filename="../../fp.ui" line="867"/>
         <source>Alt+Down</source>
-        <translation></translation>
+        <translation>Alt+↓</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="875"/>
@@ -668,7 +668,7 @@
     <message>
         <location filename="../../fp.ui" line="878"/>
         <source>Alt+Up</source>
-        <translation>Alt+上</translation>
+        <translation>Alt+↑</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="883"/>
@@ -739,7 +739,7 @@
         <location filename="../../fpwin.cpp" line="1579"/>
         <location filename="../../fpwin.cpp" line="1628"/>
         <source>Unsaved</source>
-        <translation>未儲存</translation>
+        <translation>尚未儲存</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2982"/>
@@ -751,7 +751,7 @@
         <location filename="../../fpwin.cpp" line="6199"/>
         <location filename="../../fpwin.cpp" line="6206"/>
         <source>Lines</source>
-        <translation>列</translation>
+        <translation>行列</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4557"/>
@@ -763,7 +763,7 @@
         <location filename="../../fpwin.cpp" line="4559"/>
         <location filename="../../fpwin.cpp" line="4573"/>
         <source>Words</source>
-        <translation>文字</translation>
+        <translation>字詞</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1969"/>
@@ -833,17 +833,17 @@
     <message>
         <location filename="../../fpwin.cpp" line="2707"/>
         <source>Non-text file(s) not opened!</source>
-        <translation>無法開啟非純文字檔案！</translation>
+        <translation>非文字檔案無法開啟！</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2708"/>
         <source>See Preferences → Files → Do not permit opening of non-text files</source>
-        <translation>請查看這個選項: 偏好設定 → 檔案 → 禁止開啟非純文字檔案</translation>
+        <translation>請查看這個選項: 偏好設定 → 檔案 → 非文字檔案不允開啟</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2717"/>
         <source>Some file(s) could not be opened!</source>
-        <translation>無法開啟一些檔案！</translation>
+        <translation>有些檔案無法開啟！</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2718"/>
@@ -879,7 +879,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="3192"/>
         <source>Keep encoding and save as...</source>
-        <translation>保持編碼並儲存為...</translation>
+        <translation>保持編碼並另存為…</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3509"/>
@@ -962,7 +962,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="2750"/>
         <source>Columns with more than 1000 rows are not supported.</source>
-        <translation>欄位超出1000橫列並不支援。</translation>
+        <translation>欄位超出 1000 橫列並不支援。</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2874"/>
@@ -1031,7 +1031,7 @@
         <location filename="../../fpwin.cpp" line="5476"/>
         <location filename="../../fpwin.cpp" line="5613"/>
         <source>Open Target Here</source>
-        <translation>在這裡開啟目標</translation>
+        <translation>開啟目標於此</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5495"/>
@@ -2152,7 +2152,7 @@ in the editing mode.</source>
     <message>
         <location filename="../../searchbar.cpp" line="120"/>
         <source>Next</source>
-        <translation></translation>
+        <translation>下一個</translation>
     </message>
     <message>
         <location filename="../../searchbar.cpp" line="121"/>
@@ -2181,7 +2181,7 @@ in the editing mode.</source>
     <message>
         <location filename="../../sessionDialog.ui" line="68"/>
         <source>Filter...</source>
-        <translation></translation>
+        <translation>篩選器…</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="81"/>
@@ -2192,7 +2192,7 @@ in the editing mode.</source>
         <location filename="../../sessionDialog.ui" line="84"/>
         <location filename="../../sessionDialog.ui" line="299"/>
         <source>&amp;Open</source>
-        <translation></translation>
+        <translation>開啟(&amp;O)</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="110"/>
@@ -2232,12 +2232,12 @@ windows will be included in the saved session.</source>
     <message>
         <location filename="../../sessionDialog.ui" line="257"/>
         <source>&amp;No</source>
-        <translation></translation>
+        <translation>否(&amp;N)</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="307"/>
         <source>Re&amp;name</source>
-        <translation></translation>
+        <translation>重新命名(&amp;N)</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="130"/>
@@ -2310,7 +2310,7 @@ windows will be included in the saved session.</source>
     <message>
         <location filename="../../sidepane.cpp" line="196"/>
         <source>Filter...</source>
-        <translation>過濾器...</translation>
+        <translation>篩選器...</translation>
     </message>
 </context>
 <context>
