@@ -1095,12 +1095,12 @@
     <message>
         <location filename="../../fpwin.cpp" line="6222"/>
         <source>Some files cannot be saved!</source>
-        <translation>無法儲存一些檔案！</translation>
+        <translation>有些檔案無法儲存！</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="6262"/>
         <source>Translators</source>
-        <translation>譯者</translation>
+        <translation>譯譯人員</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="6258"/>
@@ -1148,12 +1148,12 @@
     <message>
         <location filename="../../replace.cpp" line="285"/>
         <source>The first 1000 replacements are highlighted.</source>
-        <translation>最前 1000 個取代之處強調顯示。</translation>
+        <translation>頭前 1000 個取代之處強調顯示。</translation>
     </message>
     <message>
         <location filename="../../syntax.cpp" line="314"/>
         <source>The size limit for syntax highlighting is exceeded.</source>
-        <translation>超過語法標示的大小限制。</translation>
+        <translation>超過語法標示強調顯示的大小限制。</translation>
     </message>
 </context>
 <context>
@@ -1266,7 +1266,7 @@
         <location filename="../../prefDialog.ui" line="107"/>
         <location filename="../../prefDialog.ui" line="120"/>
         <source>Window frame is excluded.</source>
-        <translation>已排除視窗框架。</translation>
+        <translation>視窗框架是不包含的。</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="87"/>
@@ -1282,14 +1282,14 @@
     <message>
         <location filename="../../prefDialog.ui" line="110"/>
         <source>×</source>
-        <translation></translation>
+        <translation>x</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="148"/>
         <source>Enforcing a window position is not recommended
 and may not work with some window managers.</source>
-        <translation>不推薦強制視窗位置
-並且可能在某些視窗管理程式不適用。</translation>
+        <translation>強制視窗位置是不建議的
+並且在某些視窗管理程式會不適用。</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="152"/>
@@ -1322,13 +1322,13 @@ but without tab functionality.</source>
         <location filename="../../prefDialog.ui" line="207"/>
         <source>If the menubar is hidden,
 a menu button appears on the toolbar.</source>
-        <translation>如果隱藏功能表列，
-會在工具列上顯示選單按鈕。</translation>
+        <translation>如果隱藏功能選單列，
+會在工具列上出現選單按鈕。</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="211"/>
         <source>Do not show &amp;menubar</source>
-        <translation>不顯示功能表列(&amp;T)</translation>
+        <translation>不顯示功能選單列(&amp;T)</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="218"/>
@@ -1357,12 +1357,12 @@ and may interfere with customized shortcuts.</source>
     <message>
         <location filename="../../prefDialog.ui" line="240"/>
         <source>Internal icons are used by default.</source>
-        <translation>預設使用內部圖示。</translation>
+        <translation>預設是使用內部圖示。</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="243"/>
         <source>Use system icons where possible</source>
-        <translation>盡可能使用系統圖示</translation>
+        <translation>盡可能地使用系統圖示</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="250"/>
@@ -1374,12 +1374,12 @@ and may interfere with customized shortcuts.</source>
         <source>By default, each search entry
 has a separate search history.</source>
         <translation>預設情況下，每個搜尋項目
-各都有個別的搜尋記錄。</translation>
+各有其分別的搜尋歷史記錄。</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="261"/>
         <source>Use a shared search history</source>
-        <translation>使用共享的搜尋記錄</translation>
+        <translation>使用分享的搜尋歷史記錄</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="268"/>
@@ -1389,13 +1389,13 @@ has a separate search history.</source>
     <message>
         <location filename="../../prefDialog.ui" line="293"/>
         <source>Show cursor position on status bar</source>
-        <translation>在狀態列顯示游標位置</translation>
+        <translation>在狀態列上顯示游標位置</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="304"/>
         <location filename="../../prefDialog.ui" line="314"/>
         <source>Will take effect after closing this dialog.</source>
-        <translation>會在關閉這個對話方塊後生效。</translation>
+        <translation>在關閉對話框之後即會生效。</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="307"/>
@@ -1428,8 +1428,8 @@ has a separate search history.</source>
 after the last tab is activated, and the same for Alt+Left.
 
 Tab navigation with mouse wheel is not affected.</source>
-        <translation>此意思是，用於由左至右語言，Alt+Right 在最後分頁啟動後
-即前往第一個分頁。 Alt+Left 同理如是。
+        <translation>此意即是，用於由左至右語言，Alt+→ 在最後分頁啟動後
+即前往第一個分頁。 Alt+← 同理如是。
 
 使用滑鼠滾輪進行分頁導引則不受影響。</translation>
     </message>
@@ -1475,7 +1475,7 @@ Some desktop environments, like KDE and LXQt, provide files dialogs.</source>
     <message>
         <location filename="../../prefDialog.ui" line="412"/>
         <source>Native file dialog</source>
-        <translation>原生檔案對話方塊</translation>
+        <translation>原生檔案對話框</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="488"/>
@@ -1557,8 +1557,8 @@ when the syntax is highlighted.</source>
         <location filename="../../prefDialog.ui" line="677"/>
         <source>The vertical position lines will be drawn only if
 the editor font has a fixed pitch (like Monospace).</source>
-        <translation>只有當編輯器字體為固定間距(如等寬字體)時，
-才會繪出垂直位置線。</translation>
+        <translation>僅在編輯器字體是固定間距(如等寬字體)時，
+垂直位置線才會畫出來。</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="670"/>
@@ -1656,7 +1656,7 @@ will be shown by a popup dialog.</source>
     <message>
         <location filename="../../prefDialog.ui" line="1197"/>
         <source>Save changes to opened files every:</source>
-        <translation>儲存開啟檔案的變更每：</translation>
+        <translation>儲存所開啟檔案的變更 每隔：</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1475"/>
@@ -1666,7 +1666,7 @@ will be shown by a popup dialog.</source>
     <message>
         <location filename="../../prefDialog.ui" line="163"/>
         <source>Start with side-pane mode</source>
-        <translation>側邊面板模式進行啟動</translation>
+        <translation>用側邊面板模式進行啟動</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="372"/>
@@ -1674,15 +1674,15 @@ will be shown by a popup dialog.</source>
 tooltip and context menu of a single tab but you could not
 merge a single tabbed window into another one by tab drag-
 and-drop either.</source>
-        <translation>若未勾選此項，不僅會遺失單一分頁的
-資訊性工具提示和上下文功能表，
-也無法利用分頁拖放方法，
+        <translation>若是勾選此項，不僅會遺失單一分頁的
+資訊性工具提示和上下文功能選單，
+也無法利用分頁拖放操作，
 將單一分頁視窗合併到另一個分頁視窗。</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="378"/>
         <source>&amp;Do not show a single tab</source>
-        <translation>不用顯示單一分頁(&amp;D)</translation>
+        <translation>不顯示單一分頁(&amp;D)</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="443"/>
@@ -1785,11 +1785,11 @@ opened files FeatherPad shows. The default
 is 10.
 
 Needs application restart to take effect.</source>
-        <translation>FeatherPad 顯示最近修改或已經開啟檔案
+        <translation>FeatherPad 顯示最近已經修改或已經開啟的檔案
 的最大數量，其預設值為 10。
 
 
-需要重新啟動應用程式才會生效作用。</translation>
+需要重新啟動應用程式始生作用。</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="786"/>
@@ -1866,7 +1866,7 @@ will be started from the document start.</source>
     <message>
         <location filename="../../prefDialog.ui" line="953"/>
         <source>Start spell checking from text cursor</source>
-        <translation>從文字游標處啟動拼字檢查</translation>
+        <translation>從文字游標位置啟動拼字檢查</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1008"/>
@@ -2107,7 +2107,7 @@ in the editing mode.</source>
     <message>
         <location filename="../../pref.cpp" line="1600"/>
         <source>The typed shortcut was reserved.</source>
-        <translation>所鍵入的快速鍵已被保留。</translation>
+        <translation>所鍵入的快速鍵是保留的。</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="1804"/>
