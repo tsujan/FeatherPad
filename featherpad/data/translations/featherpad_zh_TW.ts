@@ -30,7 +30,7 @@
     <message>
         <location filename="../../fp.ui" line="71"/>
         <source>Go to line:</source>
-        <translation>移動至行：</translation>
+        <translation>前往至行：</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="107"/>
@@ -212,7 +212,7 @@
     <message>
         <location filename="../../fp.ui" line="557"/>
         <source>Save &amp;As</source>
-        <translation>儲存為(&amp;A)</translation>
+        <translation>另存新檔(&amp;A)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="560"/>
@@ -312,7 +312,7 @@
     <message>
         <location filename="../../fp.ui" line="651"/>
         <source>&amp;Line Numbers</source>
-        <translation>列號(&amp;L)</translation>
+        <translation>行列編號(&amp;L)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="654"/>
@@ -322,7 +322,7 @@
     <message>
         <location filename="../../fp.ui" line="665"/>
         <source>&amp;Wrap Lines</source>
-        <translation>自動換列(&amp;W)</translation>
+        <translation>自動換行(&amp;W)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="668"/>
@@ -491,7 +491,7 @@
         <location filename="../../fp.ui" line="967"/>
         <location filename="../../fp.ui" line="970"/>
         <source>Last Active Tab</source>
-        <translation>上次使用的分頁</translation>
+        <translation>上次作用的分頁</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="973"/>
@@ -838,7 +838,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="2708"/>
         <source>See Preferences → Files → Do not permit opening of non-text files</source>
-        <translation>請查看這個選項: 偏好設定 → 檔案 → 非文字檔案不允開啟</translation>
+        <translation>請查看這個選項: 偏好設定 → 檔案 → 非文字檔案不允許開啟</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2717"/>
@@ -874,12 +874,12 @@
         <location filename="../../fpwin.cpp" line="3118"/>
         <location filename="../../fpwin.cpp" line="3156"/>
         <source>Save as...</source>
-        <translation>儲存為...</translation>
+        <translation>另存新檔…</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3192"/>
         <source>Keep encoding and save as...</source>
-        <translation>保持編碼並另存為…</translation>
+        <translation>保持編碼並另存新檔…</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3509"/>
@@ -952,7 +952,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="2698"/>
         <source>Huge file(s) not opened!</source>
-        <translation>未開啟大檔案！</translation>
+        <translation>巨大檔案未予開啟！</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2749"/>
@@ -986,13 +986,13 @@
     <message>
         <location filename="../../fpwin.cpp" line="3895"/>
         <source>It is not fully processed.</source>
-        <translation>並未處理全部文字。</translation>
+        <translation>尚未全部處理完成。</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4057"/>
         <location filename="../../fpwin.cpp" line="4291"/>
         <source>This file has been modified elsewhere or in another way!</source>
-        <translation>這個檔案已在其他地方或以另一種方式修改！</translation>
+        <translation>這個檔案已經修改，在其他地方或另外方式！</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4058"/>
@@ -1085,7 +1085,7 @@
         <location filename="../../fpwin.cpp" line="5844"/>
         <location filename="../../fpwin.cpp" line="5859"/>
         <source>No misspelling from text cursor.</source>
-        <translation>文字游標沒有拼字錯誤。</translation>
+        <translation>游標文字無拼字錯誤。</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5875"/>
@@ -1153,7 +1153,7 @@
     <message>
         <location filename="../../syntax.cpp" line="314"/>
         <source>The size limit for syntax highlighting is exceeded.</source>
-        <translation>超過語法標示強調顯示的大小限制。</translation>
+        <translation>超過語法標示的大小限制。</translation>
     </message>
 </context>
 <context>
@@ -1266,7 +1266,7 @@
         <location filename="../../prefDialog.ui" line="107"/>
         <location filename="../../prefDialog.ui" line="120"/>
         <source>Window frame is excluded.</source>
-        <translation>視窗框架是不包含的。</translation>
+        <translation>視窗框格是不包含的。</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="87"/>
@@ -1502,14 +1502,14 @@ Some desktop environments, like KDE and LXQt, provide files dialogs.</source>
         <source>By default, a triple period is replaced with an ellipsis
 and a double hyphen with a long dash while typing,
 under proper circumstances.</source>
-        <translation>預設在正常狀況，當輸入三個句點，
-即會被替換成省略符號，
-而二個連接符號會替換成長破折符號。</translation>
+        <translation>在正常情況下，當打字輸入三個句點，
+預設是會被替換成省略符號，
+而二個連字號會被替換成長破折符號。</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="527"/>
         <source>Replace triple periods and double hyphens while typing</source>
-        <translation>輸入之時，替換三個句點符號及二個連接符號</translation>
+        <translation>打字輸入時替換三個句點及二個連字號</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="541"/>
@@ -1982,7 +1982,7 @@ be opened if they are pasted into FeatherPad.</source>
         <location filename="../../prefDialog.ui" line="1393"/>
         <location filename="../../prefDialog.ui" line="1403"/>
         <source>Has effect only if line numbers are shown.</source>
-        <translation>僅在顯示行號時才有作用。</translation>
+        <translation>僅在顯示行列編號時才有作用。</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1396"/>
@@ -2181,7 +2181,7 @@ in the editing mode.</source>
     <message>
         <location filename="../../sessionDialog.ui" line="68"/>
         <source>Filter...</source>
-        <translation>篩選器…</translation>
+        <translation>篩選…</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="81"/>
@@ -2310,7 +2310,7 @@ windows will be included in the saved session.</source>
     <message>
         <location filename="../../sidepane.cpp" line="196"/>
         <source>Filter...</source>
-        <translation>篩選器...</translation>
+        <translation>篩選…</translation>
     </message>
 </context>
 <context>
