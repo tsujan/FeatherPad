@@ -1,5 +1,5 @@
 /*
- * Copyright (C) Pedram Pourang (aka Tsu Jan) 2014-2024 <tsujan2000@gmail.com>
+ * Copyright (C) Pedram Pourang (aka Tsu Jan) 2014-2025 <tsujan2000@gmail.com>
  *
  * FeatherPad is free software: you can redistribute it and/or modify it
  * under the terms of the GNU General Public License as published by the
@@ -146,7 +146,8 @@ void TabBar::mouseMoveEvent (QMouseEvent *event)
             }
         }
         event->accept();
-        drag->deleteLater();
+        if (drag) // checking for nullity is needed with Clang under certain circumstances
+            drag->deleteLater();
     }
     else
     { // "this" is for Wayland, when the window isn't active
