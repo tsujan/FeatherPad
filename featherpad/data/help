@@ -96,6 +96,8 @@ The colors of syntax highlighting can be customized in "Preferences → Syntax C
 
 In FeatherPad, searching and replacing are done by separate widgets for the user to be able to search one string and replace another. Moreover, a separate replacement widget may prevent an unintentional replacement.
 
+Therefore, there is no "Search & Replace", and a string that is selected by searching is protected from being replced. If you want to find occurrences of a string and decide on replacing them one by one, make sure that the cursor is inside the main view (by pressing Escape), find the string with F3, and if you want to replace it, press the left arrow key to put the cursor behind it (with LTR texts) and then press F8.
+
 To remove the yellow highlights after finishing a search, you could
 
 * Click on the 'Clear' icon of the search entry, or
@@ -109,9 +111,9 @@ FeatherPad can use a shared history for all search entries, whether they are in 
 
 The shared search history starts with every session and is forgotten as soon as the session ends (i.e., when all windows are closed — there is no point in remembering the search history indefinitely).
 
-The 'Replace' docked window respects the settings for 'Match Case', 'Whole Word' and 'Regular Expression' on the search bar (in the last case, the matching text should be a regular expression, while the replacing text is always an ordinary string, although capturing groups like "\1", "\2",… are supported in it). It can be detached from and reattached to the main window at top or bottom. To remove the green highlights after replacing text, you could either hide/close the 'Replace' docked window or do as in the case of removing yellow search highlights.
+The 'Replacement' docked widget respects the settings for 'Match Case', 'Whole Word' and 'Regular Expression' on the search bar (in the last case, the matching text should be a regular expression, while the replacing text is always an ordinary string, although capturing groups like "\1", "\2",… are supported in it). It can be detached from and reattached to the main window at top or bottom. To remove the green highlights after replacing text, you could either hide/close the 'Replacement' docked widget or do as in the case of removing yellow search highlights.
 
-The 'Replace' docked window is never shown without the search bar because the settings of the latter are needed by the former.
+The 'Replacement' docked widget is never shown without the search bar because the settings of the latter are needed by the former.
 
 Pressing the Escape key is the easiest way of focusing the editor's main view, without changing anything else.
 
