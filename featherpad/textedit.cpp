@@ -2955,7 +2955,7 @@ static bool findBackward (const QTextDocument *txtdoc, const QString &str,
 {
     if (!str.isEmpty() && !cursor.isNull())
     {
-        int pos = cursor.anchor()
+        int pos = cursor.selectionStart()
                   - str.size(); // we don't want a match with the cursor inside it
         if (pos >= 0)
         {
@@ -3079,7 +3079,7 @@ static bool findRegexBackward (const QTextDocument *txtdoc, const QRegularExpres
 {
     if (!cursor.isNull())
     {
-        int pos = cursor.anchor();
+        int pos = cursor.selectionStart();
         QTextBlock block = txtdoc->findBlock (pos);
         int blockOffset = pos - block.position();
         while (block.isValid())
