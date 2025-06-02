@@ -791,7 +791,7 @@
         <location filename="../../fpwin.cpp" line="4615"/>
         <location filename="../../fpwin.cpp" line="4635"/>
         <source>Normal</source>
-        <translation type="unfinished">Κανονική</translation>
+        <translation>Κανονική</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1355"/>
@@ -818,7 +818,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="2063"/>
         <source>Script Output</source>
-        <translation type="unfinished"></translation>
+        <translation>Έξοδος σεναρίου</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2079"/>
@@ -957,12 +957,12 @@
     <message>
         <location filename="../../fpwin.cpp" line="2749"/>
         <source>Huge column!</source>
-        <translation type="unfinished"></translation>
+        <translation>Η στήλη είναι τεράστια!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2750"/>
         <source>Columns with more than 1000 rows are not supported.</source>
-        <translation type="unfinished"></translation>
+        <translation>Οι στήλες με περισσότερες από 1000 γραμμές δεν υποστηρίζονται.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2874"/>
@@ -1347,7 +1347,9 @@ The title also has a right click menu when a file is opened.</source>
         <location filename="../../prefDialog.ui" line="229"/>
         <source>Menubar accelerators are activated by Alt
 and may interfere with customized shortcuts.</source>
-        <translation type="unfinished"></translation>
+        <translation>Οι επιταχυντές της γραμμής μενού ενεργοποιούνται
+με το πλήκτρο Alt και ενδέχεται να παρεμβαίνουν στις
+προσαρμοσμένες συντομεύσεις.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="233"/>
@@ -1428,7 +1430,11 @@ has a separate search history.</source>
 after the last tab is activated, and the same for Alt+Left.
 
 Tab navigation with mouse wheel is not affected.</source>
-        <translation type="unfinished"></translation>
+        <translation>Αυτό σημαίνει ότι, για γραφή από αριστερά προς τα δεξιά (LTR), 
+το Alt+Δεξί βέλος μεταφέρεται στην πρώτη καρτέλα μετά την
+ενεργοποίηση της τελευταίας, και το ίδιο ισχύει για το Alt+Αριστερό βέλος.
+
+Η πλοήγηση στις καρτέλες με τον τροχό του ποντικιού δεν επηρεάζεται.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="365"/>
@@ -1554,7 +1560,9 @@ when the syntax is highlighted.</source>
         <location filename="../../prefDialog.ui" line="677"/>
         <source>The vertical position lines will be drawn only if
 the editor font has a fixed pitch (like Monospace).</source>
-        <translation type="unfinished"></translation>
+        <translation>Οι κάθετες γραμμές θέσης θα σχεδιάζονται μόνο
+εάν η γραμματοσειρά του επεξεργαστή είναι
+σταθερού πλάτους (όπως η Monospace).</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="670"/>
@@ -1673,7 +1681,10 @@ will be shown by a popup dialog.</source>
 tooltip and context menu of a single tab but you could not
 merge a single tabbed window into another one by tab drag-
 and-drop either.</source>
-        <translation type="unfinished"></translation>
+        <translation>Αν ενεργοποιηθεί αυτή η επιλογή, δεν θα έχετε μόνο απώλεια της
+επεξηγηματικής υπόδειξης και του μενού περιβάλλοντος μιας
+μεμονωμένης καρτέλας, αλλά δεν θα μπορείτε επίσης να συγχωνεύσετε
+ένα παράθυρο με μία καρτέλα σε άλλο, μέσω μεταφοράς καρτελών.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="378"/>
