@@ -2,6 +2,7 @@ V1.6.3
 ---------
  * Check for nullity before calling `deleteLater()` — they say that's needed with Clang's optimizations enabled.
  * Fixed an asymmetry between the forward and backward searches/replacements if some text was selected.
+ * Fixed showing of ampersand in the recent files menus.
  * Added more explanation on searching and replacing to Help.
 
 V1.6.2

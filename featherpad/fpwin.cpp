@@ -1806,7 +1806,7 @@ void FPwin::updateRecenMenu()
     {
         if (i < recentSize)
         {
-            actions.at (i)->setText (metrics.elidedText (recentFiles.at (i), Qt::ElideMiddle, w));
+            actions.at (i)->setText (metrics.elidedText (recentFiles.value (i).replace ("&", "&&").replace ('\t', ' '), Qt::ElideMiddle, w));
             QIcon icon;
             auto mimes = mimeDatabase.mimeTypesForFileName (recentFiles.at (i).section ("/", -1));
             if (!mimes.isEmpty())
