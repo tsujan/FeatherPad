@@ -782,7 +782,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="833"/>
         <location filename="../../fpwin.cpp" line="4597"/>
-        <source>Position:</source>
+        <source>Column:</source>
         <translation></translation>
     </message>
     <message>

@@ -830,7 +830,7 @@ void FPwin::addCursorPosLabel()
         return;
     QLabel *posLabel = new QLabel();
     posLabel->setObjectName ("posLabel");
-    posLabel->setText ("<b>" + tr ("Position:") + "</b>");
+    posLabel->setText ("<i>" + tr ("Column:") + "</i>");
     posLabel->setIndent (2);
     posLabel->setTextInteractionFlags (Qt::TextSelectableByMouse);
     ui->statusBar->addPermanentWidget (posLabel);
@@ -2705,7 +2705,7 @@ void FPwin::onOpeninNonTextFiles()
     disconnect (this, &FPwin::finishedLoading, this, &FPwin::onOpeninNonTextFiles);
     QTimer::singleShot (0, this, [=]() {
         showWarningBar ("<center><b><big>" + tr ("Non-text file(s) not opened!") + "</big></b></center>\n"
-                        + "<center><i>" + tr ("See Preferences → Files → Do not permit opening of non-text files") + "</i></center>",
+                        + "<center><i>" + tr ("See Preferences ��������� Files ��������� Do not permit opening of non-text files") + "</i></center>",
                         20);
     });
 }
@@ -2979,7 +2979,7 @@ void FPwin::enforceEncoding (QAction *a)
             QString str = statusLabel->text();
             QString encodStr = tr ("Encoding");
             // the next info is about lines; there's no syntax info
-            QString lineStr = "</i>&nbsp;&nbsp;&nbsp;<b>" + tr ("Lines");
+            QString lineStr = "</b>&nbsp;&nbsp;&nbsp;<i>" + tr ("Lines");
             int i = str.indexOf (encodStr);
             int j = str.indexOf (lineStr);
             int offset = encodStr.size() + 9; // size of ":</b> <i>"
@@ -3682,9 +3682,9 @@ void FPwin::reloadSyntaxHighlighter (TextEdit *textEdit)
         int i = str.indexOf (syntaxStr);
         if (i == -1) // there was no real language before saving (prevLan was "url")
         {
-            QString lineStr = "&nbsp;&nbsp;&nbsp;<b>" + tr ("Lines");
+            QString lineStr = "&nbsp;&nbsp;&nbsp;<i>" + tr ("Lines");
             int j = str.indexOf (lineStr);
-            syntaxStr = "&nbsp;&nbsp;&nbsp;<b>" + tr ("Syntax") + QString (":</b> <i>%1</i>")
+            syntaxStr = "&nbsp;&nbsp;&nbsp;<i>" + tr ("Syntax") + QString (":</i> <b>%1</b>")
                                                                   .arg (textEdit->getProg());
             str.insert (j, syntaxStr);
         }
@@ -3692,8 +3692,8 @@ void FPwin::reloadSyntaxHighlighter (TextEdit *textEdit)
         {
             if (textEdit->getProg() == "url") // there's no real language after saving
             {
-                syntaxStr = "&nbsp;&nbsp;&nbsp;<b>" + tr ("Syntax");
-                QString lineStr = "&nbsp;&nbsp;&nbsp;<b>" + tr ("Lines");
+                syntaxStr = "&nbsp;&nbsp;&nbsp;<i>" + tr ("Syntax");
+                QString lineStr = "&nbsp;&nbsp;&nbsp;<i>" + tr ("Lines");
                 int j = str.indexOf (syntaxStr);
                 int k = str.indexOf (lineStr);
                 str.remove (j, k - j);
@@ -4548,17 +4548,24 @@ void FPwin::statusMsgWithLineCount (const int lines)
     QLabel *statusLabel = ui->statusBar->findChild<QLabel *>("statusLabel");
 
     /* the order: Encoding -> Syntax -> Lines -> Sel. Chars -> Words */
-    QString encodStr = "<b>" + tr ("Encoding") + QString (":</b> <i>%1</i>").arg (textEdit->getEncoding());
+    QString encodStr = "<i>" + tr ("Encoding") + QString (":</i> <b>%1</b>").arg (textEdit->getEncoding());
     QString syntaxStr;
     if (textEdit->getProg() != "help" && textEdit->getProg() != "url")
-        syntaxStr = "&nbsp;&nbsp;&nbsp;<b>" + tr ("Syntax") + QString (":</b> <i>%1</i>").arg (textEdit->getProg());
+        syntaxStr = "&nbsp;&nbsp;&nbsp;<i>" + tr ("Syntax") + QString (":</i> <b>%1</b>").arg (textEdit->getProg());
     QLocale l = locale();
-    QString lineStr = "&nbsp;&nbsp;&nbsp;<b>" + tr ("Lines") + QString (":</b> <i>%1</i>").arg (l.toString (lines));
-    QString selStr = "&nbsp;&nbsp;&nbsp;<b>" + tr ("Sel. Chars")
-                     + QString (":</b> <i>%1</i>").arg (l.toString (textEdit->selectionSize()));
-    QString wordStr = "&nbsp;&nbsp;&nbsp;<b>" + tr ("Words") + ":</b>";
+    QString lineStr = "&nbsp;&nbsp;&nbsp;<i>" + tr ("Lines") + QString (":</i> <b>%1</b>").arg (l.toString (lines));
+    QString aStr = "&nbsp;&nbsp;&nbsp;<i>" + tr ("Col:") + "</i> ";
+    TabPage *tabPage = qobject_cast< TabPage *>(ui->tabWidget->currentWidget());
+    if (tabPage == nullptr) return;
+    int pos = tabPage->textEdit()->textCursor().positionInBlock();
+    pos++;
+    QString bStr = "<b> " + locale().toString (pos) + "</b> ";
+    QString colStr = aStr + bStr;
+    QString selStr = "&nbsp;&nbsp;&nbsp;<i>" + tr ("Sel. Chars")
+                     + QString (":</i> <b>%1</b>").arg (l.toString (textEdit->selectionSize()));
+    QString wordStr = "&nbsp;&nbsp;&nbsp;<i>" + tr ("Words") + ":</i>";
 
-    statusLabel->setText (encodStr + syntaxStr + lineStr + selStr + wordStr);
+    statusLabel->setText (encodStr + syntaxStr + lineStr + colStr + selStr + wordStr);
 }
 /*************************/
 // Change the status bar text when the selection changes.
@@ -4570,7 +4577,7 @@ void FPwin::statusMsg()
               ->selectionSize();
     QString str = statusLabel->text();
     QString selStr = tr ("Sel. Chars");
-    QString wordStr = "&nbsp;&nbsp;&nbsp;<b>" + tr ("Words");
+    QString wordStr = "&nbsp;&nbsp;&nbsp;<i>" + tr ("Words");
     int i = str.indexOf (selStr) + selStr.size();
     int j = str.indexOf (wordStr);
     if (sel == 0)
@@ -4585,6 +4592,10 @@ void FPwin::statusMsg()
 /*************************/
 void FPwin::showCursorPos()
 {
+	/* CLS 2025-08-07 22:47:00 +++ adding call to update the statusBar */
+	TextEdit *textEdit = qobject_cast< TabPage *>(ui->tabWidget->currentWidget())->textEdit();
+	statusMsgWithLineCount (textEdit->document()->blockCount());
+	
     QLabel *posLabel = ui->statusBar->findChild<QLabel *>("posLabel");
     if (!posLabel) return;
 
@@ -4592,9 +4603,10 @@ void FPwin::showCursorPos()
     if (tabPage == nullptr) return;
 
     int pos = tabPage->textEdit()->textCursor().positionInBlock();
-    QString charN = "<i> " + locale().toString (pos) + "</i>";
+    pos++;
+    QString charN = "<b> " + locale().toString (pos) + "</b>";
     QString str = posLabel->text();
-    QString scursorStr = "<b>" + tr ("Position:") + "</b>";
+    QString scursorStr = "<i>" + tr ("Column:") + "</i>";
     int i = scursorStr.size();
     str.replace (i, str.size() - i, charN);
     posLabel->setText (str);
@@ -5782,14 +5794,14 @@ void FPwin::checkSpelling()
     if (dictPath.isEmpty())
     {
         showWarningBar ("<center><b><big>" + tr ("You need to add a Hunspell dictionary.") + "</big></b></center>"
-                        + "<center><i>" + tr ("See Preferences → Text → Spell Checking!") + "</i></center>",
+                        + "<center><i>" + tr ("See Preferences ��������� Text ��������� Spell Checking!") + "</i></center>",
                         20);
         return;
     }
     if (!QFile::exists (dictPath))
     {
         showWarningBar ("<center><b><big>" + tr ("The Hunspell dictionary does not exist.") + "</big></b></center>"
-                        + "<center><i>" + tr ("See Preferences → Text → Spell Checking!") + "</i></center>",
+                        + "<center><i>" + tr ("See Preferences ��������� Text ��������� Spell Checking!") + "</i></center>",
                         20);
         return;
     }
@@ -5799,7 +5811,7 @@ void FPwin::checkSpelling()
     if (!QFile::exists (affixFile))
     {
         showWarningBar ("<center><b><big>" + tr ("The Hunspell dictionary is not accompanied by an affix file.") + "</big></b></center>"
-                        + "<center><i>" + tr ("See Preferences → Text → Spell Checking!") + "</i></center>",
+                        + "<center><i>" + tr ("See Preferences ��������� Text ��������� Spell Checking!") + "</i></center>",
                         20);
         return;
     }
@@ -6185,9 +6197,9 @@ void FPwin::saveAllFiles (bool showWarning)
                     int i = str.indexOf (syntaxStr);
                     if (i == -1) // there was no real language before saving (prevLan was "url")
                     {
-                        QString lineStr = "&nbsp;&nbsp;&nbsp;<b>" + tr ("Lines");
+                        QString lineStr = "&nbsp;&nbsp;&nbsp;<i>" + tr ("Lines");
                         int j = str.indexOf (lineStr);
-                        syntaxStr = "&nbsp;&nbsp;&nbsp;<b>" + tr ("Syntax") + QString (":</b> <i>%1</i>")
+                        syntaxStr = "&nbsp;&nbsp;&nbsp;<i>" + tr ("Syntax") + QString (":</i> <b>%1</b>")
                                                                               .arg (thisTextEdit->getProg());
                         str.insert (j, syntaxStr);
                     }
@@ -6195,15 +6207,15 @@ void FPwin::saveAllFiles (bool showWarning)
                     {
                         if (thisTextEdit->getProg() == "url") // there's no real language after saving
                         {
-                            syntaxStr = "&nbsp;&nbsp;&nbsp;<b>" + tr ("Syntax");
-                            QString lineStr = "&nbsp;&nbsp;&nbsp;<b>" + tr ("Lines");
+                            syntaxStr = "&nbsp;&nbsp;&nbsp;<i>" + tr ("Syntax");
+                            QString lineStr = "&nbsp;&nbsp;&nbsp;<i>" + tr ("Lines");
                             int j = str.indexOf (syntaxStr);
                             int k = str.indexOf (lineStr);
                             str.remove (j, k - j);
                         }
                         else // the language is changed by saving
                         {
-                            QString lineStr = "</i>&nbsp;&nbsp;&nbsp;<b>" + tr ("Lines");
+                            QString lineStr = "</b>&nbsp;&nbsp;&nbsp;<i>" + tr ("Lines");
                             int j = str.indexOf (lineStr);
                             int offset = syntaxStr.size() + 9; // size of ":</b> <i>"
                             str.replace (i + offset, j - i - offset, thisTextEdit->getProg());
