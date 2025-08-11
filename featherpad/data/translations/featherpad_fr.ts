@@ -883,12 +883,12 @@
     <message>
         <location filename="../../fpwin.cpp" line="2749"/>
         <source>Huge column!</source>
-        <translation type="unfinished"></translation>
+        <translation>Colonne énorme !</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2750"/>
         <source>Columns with more than 1000 rows are not supported.</source>
-        <translation type="unfinished"></translation>
+        <translation>Les colonnes de plus de 1000 lignes ne sont pas prises en charge.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2874"/>
@@ -1775,7 +1775,7 @@ Needs window reopening to take effect.</source>
 255 pour le blanc et 0 pour le noir.
 
 Pour les arrière-plans clairs, elle peut être
-comprise entre 230 et 255&#x202f;; pour les arrière-plans
+comprise entre 230 et 255 ; pour les arrière-plans
 sombres, entre 0 et 50.
 
 Nécessite la réouverture de la fenêtre pour être activé.</translation>
