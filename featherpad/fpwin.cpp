@@ -2705,7 +2705,7 @@ void FPwin::onOpeninNonTextFiles()
     disconnect (this, &FPwin::finishedLoading, this, &FPwin::onOpeninNonTextFiles);
     QTimer::singleShot (0, this, [=]() {
         showWarningBar ("<center><b><big>" + tr ("Non-text file(s) not opened!") + "</big></b></center>\n"
-                        + "<center><i>" + tr ("See Preferences ��������� Files ��������� Do not permit opening of non-text files") + "</i></center>",
+                        + "<center><i>" + tr ("See Preferences → Files → Do not permit opening of non-text files") + "</i></center>",
                         20);
     });
 }
