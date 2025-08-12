@@ -5794,14 +5794,14 @@ void FPwin::checkSpelling()
     if (dictPath.isEmpty())
     {
         showWarningBar ("<center><b><big>" + tr ("You need to add a Hunspell dictionary.") + "</big></b></center>"
-                        + "<center><i>" + tr ("See Preferences ��������� Text ��������� Spell Checking!") + "</i></center>",
+                        + "<center><i>" + tr ("See Preferences → Text → Spell Checking!") + "</i></center>",
                         20);
         return;
     }
     if (!QFile::exists (dictPath))
     {
         showWarningBar ("<center><b><big>" + tr ("The Hunspell dictionary does not exist.") + "</big></b></center>"
-                        + "<center><i>" + tr ("See Preferences ��������� Text ��������� Spell Checking!") + "</i></center>",
+                        + "<center><i>" + tr ("See Preferences → Text → Spell Checking!") + "</i></center>",
                         20);
         return;
     }
@@ -5811,7 +5811,7 @@ void FPwin::checkSpelling()
     if (!QFile::exists (affixFile))
     {
         showWarningBar ("<center><b><big>" + tr ("The Hunspell dictionary is not accompanied by an affix file.") + "</big></b></center>"
-                        + "<center><i>" + tr ("See Preferences ��������� Text ��������� Spell Checking!") + "</i></center>",
+                        + "<center><i>" + tr ("See Preferences → Text → Spell Checking!") + "</i></center>",
                         20);
         return;
     }
