@@ -1328,6 +1328,7 @@ FPwin::DOCSTATE FPwin::savePrompt (int tabIndex, bool noToAll,
     if (tabPage == nullptr) return state;
     TextEdit *textEdit = tabPage->textEdit();
     QString fname = textEdit->getFileName();
+    if (fname.isEmpty() && textEdit->document()->isEmpty()) return state; // Skip asking to create a new empty file
     bool isRemoved (!fname.isEmpty() && !QFile::exists (fname)); // don't check QFileInfo (fname).isFile()
     if (textEdit->document()->isModified() || isRemoved)
     {
