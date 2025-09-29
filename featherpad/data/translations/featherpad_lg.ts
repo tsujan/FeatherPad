@@ -25,511 +25,512 @@
         <location filename="../../fpwin.cpp" line="5048"/>
         <location filename="../../fpwin.cpp" line="5309"/>
         <source>Untitled</source>
-        <translation type="unfinished"></translation>
+        <translation>Embulalinnya</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="71"/>
         <source>Go to line:</source>
-        <translation type="unfinished"></translation>
+        <translation>Genda ku lunyiriri:</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="107"/>
         <source>Select text from cursor to this line
 (Ctrl+Shift+J)</source>
-        <translation type="unfinished"></translation>
+        <translation>Londa ebigambo byonna okuva ku kalagakifo okutuuka ku lunyiriri luno
+(Ctrl+Shift+J)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="111"/>
         <source>Select Text</source>
-        <translation type="unfinished"></translation>
+        <translation>Londa Ebigambo</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="114"/>
         <source>Ctrl+Shift+J</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Ctrl+Shift+J</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="149"/>
         <source>&amp;File</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Fayiro</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="189"/>
         <location filename="../../fp.ui" line="787"/>
         <source>&amp;Edit</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Kyusa</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="219"/>
         <source>&amp;Options</source>
-        <translation type="unfinished"></translation>
+        <translation>Ebis&amp;oboka</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2980"/>
         <location filename="../../fpwin.cpp" line="4551"/>
         <source>Encoding</source>
-        <translation type="unfinished"></translation>
+        <translation>Enkongojja</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="242"/>
         <source>&amp;Search</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Noonya</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="250"/>
         <location filename="../../fp.ui" line="709"/>
         <source>&amp;Help</source>
-        <translation type="unfinished"></translation>
+        <translation>Ny&amp;amba</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="353"/>
         <source>Find:</source>
-        <translation type="unfinished"></translation>
+        <translation>Awali:</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="369"/>
         <source>To be replaced</source>
-        <translation type="unfinished"></translation>
+        <translation>Ekigenda okugyibwawo</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="382"/>
         <source>Replace with:</source>
-        <translation type="unfinished"></translation>
+        <translation>Teekawo kino:</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="398"/>
         <source>Replacing text</source>
-        <translation type="unfinished"></translation>
+        <translation>Ekigenda okuddawo</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="457"/>
         <source>&amp;New</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Katimbe kapya</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="460"/>
         <source>New tab</source>
-        <translation type="unfinished"></translation>
+        <translation>Leeta katimbe kapya</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="463"/>
         <source>Ctrl+N</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+N</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="468"/>
         <source>&amp;Open</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Bikkula</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="471"/>
         <source>Open a file</source>
-        <translation type="unfinished"></translation>
+        <translation>Bikkulayo fayiro</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="474"/>
         <source>Ctrl+O</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+O</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="482"/>
         <location filename="../../fpwin.cpp" line="1367"/>
         <source>&amp;Save</source>
-        <translation type="unfinished"></translation>
+        <translation>Ka&amp;zza</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="485"/>
         <source>Save the current tab</source>
-        <translation type="unfinished"></translation>
+        <translation>Ebiri mu katimbe akalabika bikazze</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="488"/>
         <source>Ctrl+S</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+S</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="496"/>
         <source>&amp;Undo</source>
-        <translation type="unfinished"></translation>
+        <translation>J&amp;ulula</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="499"/>
         <source>Undo</source>
-        <translation type="unfinished"></translation>
+        <translation>Julula by&apos;ova okukola</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="502"/>
         <source>Ctrl+Z</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Z</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="510"/>
         <source>&amp;Redo</source>
-        <translation type="unfinished"></translation>
+        <translation>Zza&amp;wo</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="513"/>
         <source>Redo</source>
-        <translation type="unfinished"></translation>
+        <translation>Zzawo by&apos;ova okujulula</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="516"/>
         <source>Ctrl+Shift+Z</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Shift+Z</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="524"/>
         <location filename="../../fp.ui" line="527"/>
         <source>Reload</source>
-        <translation type="unfinished"></translation>
+        <translation>Ddamu okubikkula</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="530"/>
         <source>Ctrl+Shift+R</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Shift+R</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="535"/>
         <source>&amp;Find</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Noonya</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="541"/>
         <source>Ctrl+F</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+F</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="549"/>
         <source>Show/hide replacement dock</source>
-        <translation type="unfinished"></translation>
+        <translation>Bonesa/kisa akabaawo ekanoonyesebwa</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="552"/>
         <source>Ctrl+R</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+R</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="557"/>
         <source>Save &amp;As</source>
-        <translation type="unfinished"></translation>
+        <translation>K&amp;azzamu koppi</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="560"/>
         <source>Ctrl+Shift+S</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Shift+S</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="565"/>
         <source>&amp;Print</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Pulinta</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="568"/>
         <source>Ctrl+P</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+P</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="573"/>
         <source>Documen&amp;t Properties</source>
-        <translation type="unfinished"></translation>
+        <translation>Ebikwa&amp;ta ku Kiwandiko</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="576"/>
         <source>Ctrl+Shift+D</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Shift+D</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="581"/>
         <source>&amp;Close</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Gala</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="584"/>
         <source>Ctrl+Shift+Q</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Shift+Q</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="589"/>
         <source>&amp;Quit</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Mala</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="592"/>
         <source>Ctrl+Q</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Q</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="600"/>
         <source>&amp;Cut</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Situlawo</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="603"/>
         <source>Ctrl+X</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+X</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="611"/>
         <source>C&amp;opy</source>
-        <translation type="unfinished"></translation>
+        <translation>K&amp;oppa</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="614"/>
         <source>Ctrl+C</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+C</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="619"/>
         <source>&amp;Paste</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Paatiika</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="622"/>
         <source>Ctrl+V</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+V</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="630"/>
         <source>&amp;Delete</source>
-        <translation type="unfinished"></translation>
+        <translation>G&amp;yawo</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="635"/>
         <source>&amp;Select All</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Londa Byonna</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="638"/>
         <source>Ctrl+A</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+A</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="643"/>
         <source>&amp;Font</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Nkula ya Nukuta</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="651"/>
         <source>&amp;Line Numbers</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Laga namba za nnyiriri</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="654"/>
         <source>Ctrl+L</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+L</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="665"/>
         <source>&amp;Wrap Lines</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Ennyiriri zimenye zijje ku lutimbe</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="668"/>
         <source>Ctrl+W</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+W</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="679"/>
         <source>&amp;Auto-Indentation</source>
-        <translation type="unfinished"></translation>
+        <translation>Seenser&amp;awazanga</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="682"/>
         <source>Ctrl+I</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+I</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="693"/>
         <source>&amp;Syntax Highlighting</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Tangaaza eby&apos;amateeka g&apos;empandika</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="696"/>
         <source>Ctrl+Shift+H</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Shift+H</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="701"/>
         <source>&amp;Preferences</source>
-        <translation type="unfinished"></translation>
+        <translation>Nt&amp;eekateeka</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="704"/>
         <source>Ctrl+Shift+P</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Shift+P</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="712"/>
         <source>Ctrl+H</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+H</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="717"/>
         <source>&amp;About</source>
-        <translation type="unfinished"></translation>
+        <translation>Kw&amp;anjula</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="733"/>
         <source>Enforce UTF-8</source>
-        <translation type="unfinished"></translation>
+        <translation>Goberera enkongojja ya UTF-8</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="771"/>
         <source>Save with &amp;Encoding</source>
-        <translation type="unfinished"></translation>
+        <translation>Kazza era jjukira n&apos;&amp;enkogojja</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="776"/>
         <source>&amp;Jump to</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Genda ku</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="779"/>
         <source>Show/hide jump bar</source>
-        <translation type="unfinished"></translation>
+        <translation>Bonesa/kisa olubaawo olw&apos;okugenda ku lunyiriri</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="782"/>
         <source>Ctrl+J</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+J</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="790"/>
         <source>Edit text</source>
-        <translation type="unfinished"></translation>
+        <translation>Kyusamu ebigambo</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="793"/>
         <source>Ctrl+Shift+E</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Shift+E</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="888"/>
         <source>&amp;Run</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Tandika</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="894"/>
         <source>Ctrl+E</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+E</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="899"/>
         <source>&amp;Clear</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Yerula</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="902"/>
         <source>Clear the list of recently modified files</source>
-        <translation type="unfinished"></translation>
+        <translation>Olukalala lwa fayiro ezisembye okyusibwamu lwerule</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="910"/>
         <source>Save/Restore Session</source>
-        <translation type="unfinished"></translation>
+        <translation>Tereka/Komyawo Olutuula</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="907"/>
         <source>Sa&amp;ve/Restore Session</source>
-        <translation type="unfinished"></translation>
+        <translation>Te&amp;reka/Komyawo Olutuula</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="913"/>
         <source>Ctrl+M</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+M</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="918"/>
         <source>Side-Pane</source>
-        <translation type="unfinished"></translation>
+        <translation>Kabaawo ak&apos;oku Mabbali</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="921"/>
         <source>Ctrl+Alt+P</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Alt+P</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="926"/>
         <source>Paste Date and Time</source>
-        <translation type="unfinished"></translation>
+        <translation>Paatiikawo Ennaku ne Ssaawa</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="929"/>
         <source>Ctrl+Shift+V</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Shift+V</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="934"/>
         <location filename="../../fp.ui" line="937"/>
         <source>To Upper Case</source>
-        <translation type="unfinished"></translation>
+        <translation>Bizze mu Nnukuta Nnene</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="940"/>
         <source>Ctrl+Shift+U</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Shift+U</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="945"/>
         <location filename="../../fp.ui" line="948"/>
         <source>To Lower Case</source>
-        <translation type="unfinished"></translation>
+        <translation>Bizze mu Nnukuta Ntono</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="951"/>
         <source>Ctrl+Shift+L</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Shift+L</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="956"/>
         <location filename="../../fp.ui" line="959"/>
         <source>To Start Case</source>
-        <translation type="unfinished"></translation>
+        <translation>Buli kigambo kitandike n&apos;ennukuta nnene</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="967"/>
         <location filename="../../fp.ui" line="970"/>
         <source>Last Active Tab</source>
-        <translation type="unfinished"></translation>
+        <translation>Dda ku katimbe k&apos;osembye okuva mu</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="973"/>
         <source>F1</source>
-        <translation type="unfinished"></translation>
+        <translation>F1</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="978"/>
         <location filename="../../fp.ui" line="981"/>
         <source>Sort Lines</source>
-        <translation type="unfinished"></translation>
+        <translation>Nnyiriri zino zisengeke</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="986"/>
         <location filename="../../fp.ui" line="989"/>
         <source>Sort Lines Reversely</source>
-        <translation type="unfinished"></translation>
+        <translation>Nyiriri zino zisengeke kifuulannenge</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="994"/>
         <source>Check Spelling</source>
-        <translation type="unfinished"></translation>
+        <translation>Kebera Empandika</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="997"/>
         <source>F2</source>
-        <translation type="unfinished"></translation>
+        <translation>F2</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1002"/>
         <location filename="../../fp.ui" line="1005"/>
         <source>Save All Files</source>
-        <translation type="unfinished"></translation>
+        <translation>Fayiro Zonna Zikazze</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1010"/>
         <location filename="../../fp.ui" line="1013"/>
         <source>User Dictionary</source>
-        <translation type="unfinished"></translation>
+        <translation>Nkuluze ya Mukozesa</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1018"/>
