@@ -6,7 +6,7 @@
     <message>
         <location filename="../../about.ui" line="177"/>
         <source>License</source>
-        <translation type="unfinished"></translation>
+        <translation>Layisinsi</translation>
     </message>
 </context>
 <context>
@@ -47,7 +47,7 @@
     <message>
         <location filename="../../fp.ui" line="114"/>
         <source>Ctrl+Shift+J</source>
-        <translation type="unfinished">Ctrl+Shift+J</translation>
+        <translation>Ctrl+Shift+J</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="149"/>
@@ -202,7 +202,7 @@
     <message>
         <location filename="../../fp.ui" line="549"/>
         <source>Show/hide replacement dock</source>
-        <translation>Bonesa/kisa akabaawo ekanoonyesebwa</translation>
+        <translation>Bonesa/kisa akabaawo ak&apos;okuwanyisa biwandikidwa</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="552"/>
@@ -535,57 +535,57 @@
     <message>
         <location filename="../../fp.ui" line="1018"/>
         <source>Text Tabs to Spaces</source>
-        <translation type="unfinished"></translation>
+        <translation>Awali enseetuuka zzawo bubanga</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="801"/>
         <source>&amp;Detach Tab</source>
-        <translation type="unfinished"></translation>
+        <translation>Akatimbe K&amp;eetengerere</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="804"/>
         <source>Ctrl+T</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+T</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="809"/>
         <source>Close Ne&amp;xt Tabs</source>
-        <translation type="unfinished"></translation>
+        <translation>Gyawo Obutimbe &amp;Obuddako</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="814"/>
         <source>Close &amp;Previous Tabs</source>
-        <translation type="unfinished"></translation>
+        <translation>Gyawo Obutimbe Obukule&amp;mbedde</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="842"/>
         <source>Ne&amp;xt Tab</source>
-        <translation type="unfinished"></translation>
+        <translation>Genda ku Ka&amp;ddako</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="853"/>
         <source>Previous Ta&amp;b</source>
-        <translation type="unfinished"></translation>
+        <translation>Dda ku Kakule&amp;mbera</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="891"/>
         <source>Execute</source>
-        <translation type="unfinished"></translation>
+        <translation>Tandika Mulimu oba Puloguramu</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="819"/>
         <source>Close &amp;All Tabs</source>
-        <translation type="unfinished"></translation>
+        <translation>Obutimbe B&amp;wonna Bugyewo</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="153"/>
         <source>Recently &amp;Modified</source>
-        <translation type="unfinished"></translation>
+        <translation>Fayiro &amp;Ezisembye Okukyusibwamu</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="223"/>
         <source>&amp;Encoding</source>
-        <translation type="unfinished"></translation>
+        <translation>En&amp;kongojja ya nnukuta</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="305"/>
@@ -593,107 +593,107 @@
         <location filename="../../replace.cpp" line="61"/>
         <location filename="../../replace.cpp" line="112"/>
         <source>Replacement</source>
-        <translation type="unfinished"></translation>
+        <translation>Okuwanyisa Biwandikidwa</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="538"/>
         <source>Focus/hide search bar</source>
-        <translation type="unfinished"></translation>
+        <translation>Bonesa/kisa akabaawo akanoonyesebwa</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="546"/>
         <source>&amp;Replace</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Wanyisa</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="725"/>
         <source>&amp;Other</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Ndala</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="744"/>
         <source>&amp;UTF-8</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;UTF-8</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="755"/>
         <source>UTF-&amp;16</source>
-        <translation type="unfinished"></translation>
+        <translation>UTF-&amp;16</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="766"/>
         <source>&amp;ISO-8859-1</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;ISO-8859-1</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="824"/>
         <source>Close &amp;Other Tabs</source>
-        <translation type="unfinished"></translation>
+        <translation>Gyawo Butimbe Bul&amp;ala</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="829"/>
         <source>&amp;Copy File Name</source>
-        <translation type="unfinished"></translation>
+        <translation>Erinnya Lya Fayiro Eno &amp;Likwate</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="834"/>
         <source>Copy File &amp;Path</source>
-        <translation type="unfinished"></translation>
+        <translation>Kwata Ery&apos;o&amp;busangiro Lya Fayiro Eno</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="845"/>
         <source>Alt+Right</source>
-        <translation type="unfinished"></translation>
+        <translation>Alt+Kasaale ka ddyo</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="856"/>
         <source>Alt+Left</source>
-        <translation type="unfinished"></translation>
+        <translation>Alt+Kasaale ka kkono</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="864"/>
         <source>&amp;First Tab</source>
-        <translation type="unfinished"></translation>
+        <translation>Genda ku Ka&amp;sooka</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="867"/>
         <source>Alt+Down</source>
-        <translation type="unfinished"></translation>
+        <translation>Alt+Kasaale akakka</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="875"/>
         <source>&amp;Last Tab</source>
-        <translation type="unfinished"></translation>
+        <translation>Genda ku Kas&amp;emba</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="878"/>
         <source>Alt+Up</source>
-        <translation type="unfinished"></translation>
+        <translation>Alt+Kasaale akadda waggulu</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="883"/>
         <source>Menu</source>
-        <translation type="unfinished"></translation>
+        <translation>Menyu</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="100"/>
         <source>Calculate number of words</source>
-        <translation type="unfinished"></translation>
+        <translation>Bala ebigambo</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="115"/>
         <source>Next</source>
-        <translation type="unfinished"></translation>
+        <translation>Ekiddako</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="116"/>
         <source>Previous</source>
-        <translation type="unfinished"></translation>
+        <translation>Ekikulembera</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="117"/>
         <source>Replace all</source>
-        <translation type="unfinished"></translation>
+        <translation>Kiwanyise wonna</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="632"/>
@@ -1163,13 +1163,13 @@
         <location filename="../../filedialog.h" line="49"/>
         <source>Ctrl+H</source>
         <comment>Toggle showing hidden files</comment>
-        <translation type="unfinished">Ctrl+H</translation>
+        <translation>Ctrl+H</translation>
     </message>
     <message>
         <location filename="../../filedialog.h" line="50"/>
         <source>Alt+.</source>
         <comment>Toggle showing hidden files</comment>
-        <translation type="unfinished"></translation>
+        <translation>Alt+.</translation>
     </message>
 </context>
 <context>
@@ -1177,58 +1177,58 @@
     <message>
         <location filename="../../fontDialog.ui" line="14"/>
         <source>Select Font</source>
-        <translation type="unfinished"></translation>
+        <translation>Londa Nkula ya Nnukuta</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="38"/>
         <source>Programming Fonts</source>
-        <translation type="unfinished"></translation>
+        <translation>Eza Mu Kuwandika Puloguramu</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="45"/>
         <location filename="../../fontDialog.ui" line="55"/>
         <source>Font:</source>
-        <translation type="unfinished"></translation>
+        <translation>Nkula ya Nnukuta:</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="69"/>
         <source>Size:</source>
-        <translation type="unfinished"></translation>
+        <translation>Bunene:</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="89"/>
         <source>Weight:</source>
-        <translation type="unfinished"></translation>
+        <translation>Obuggumivu:</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="103"/>
         <source>Normal</source>
-        <translation type="unfinished"></translation>
+        <translation>Za bulijjo</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="108"/>
         <source>Medium</source>
-        <translation type="unfinished"></translation>
+        <translation>Za kibogwe</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="113"/>
         <source>Bold</source>
-        <translation type="unfinished"></translation>
+        <translation>Nziggumivu</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="118"/>
         <source>Black</source>
-        <translation type="unfinished"></translation>
+        <translation>Nzirugavu</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="126"/>
         <source>Italic</source>
-        <translation type="unfinished"></translation>
+        <translation>Italiki</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="149"/>
         <source>Preview</source>
-        <translation type="unfinished"></translation>
+        <translation>Ndagaako</translation>
     </message>
 </context>
 <context>
@@ -1236,7 +1236,7 @@
     <message>
         <location filename="../../lineedit.cpp" line="34"/>
         <source>Clear text (Ctrl+K)</source>
-        <translation type="unfinished"></translation>
+        <translation>Ebigambo byerulewo (Ctrl+K)</translation>
     </message>
 </context>
 <context>
@@ -1244,12 +1244,12 @@
     <message>
         <location filename="../../prefDialog.ui" line="14"/>
         <source>Preferences</source>
-        <translation type="unfinished"></translation>
+        <translation>Nteekateeka</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="30"/>
         <source>Window</source>
-        <translation type="unfinished"></translation>
+        <translation>Ddirisa</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="69"/>
@@ -2065,37 +2065,37 @@ in the editing mode.</source>
         <location filename="../../searchbar.cpp" line="94"/>
         <location filename="../../searchbar.cpp" line="173"/>
         <source>Search...</source>
-        <translation type="unfinished"></translation>
+        <translation>Noonya...</translation>
     </message>
     <message>
         <location filename="../../searchbar.cpp" line="125"/>
         <source>Match Case</source>
-        <translation type="unfinished"></translation>
+        <translation>Yawula wakati w&apos;ennukuta nnene n&apos;entono</translation>
     </message>
     <message>
         <location filename="../../searchbar.cpp" line="132"/>
         <source>Whole Word</source>
-        <translation type="unfinished"></translation>
+        <translation>Nga Kyetengeredde</translation>
     </message>
     <message>
         <location filename="../../searchbar.cpp" line="139"/>
         <source>Regular Expression</source>
-        <translation type="unfinished"></translation>
+        <translation>Emboozi Enoonya</translation>
     </message>
     <message>
         <location filename="../../searchbar.cpp" line="171"/>
         <source>Search with regex...</source>
-        <translation type="unfinished"></translation>
+        <translation>Kozesa emboozi enoonya...</translation>
     </message>
     <message>
         <location filename="../../searchbar.cpp" line="120"/>
         <source>Next</source>
-        <translation type="unfinished"></translation>
+        <translation>Genda ku kiddako</translation>
     </message>
     <message>
         <location filename="../../searchbar.cpp" line="121"/>
         <source>Previous</source>
-        <translation type="unfinished"></translation>
+        <translation>Dda ku kikulembera</translation>
     </message>
 </context>
 <context>
@@ -2103,143 +2103,144 @@ in the editing mode.</source>
     <message>
         <location filename="../../sessionDialog.ui" line="14"/>
         <source>Session Manager</source>
-        <translation type="unfinished"></translation>
+        <translation>Ekiteekateeka bya Ntuula</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="113"/>
         <location filename="../../sessionDialog.ui" line="294"/>
         <source>&amp;Remove</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Lugyewo</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="45"/>
         <source>&lt;b&gt;Save/Restore Session&lt;/b&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;Tereka/Komyawo Olutuula&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="68"/>
         <source>Filter...</source>
-        <translation type="unfinished"></translation>
+        <translation>Ekisunsuzibwa...</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="81"/>
         <source>Open the selected session(s).</source>
-        <translation type="unfinished"></translation>
+        <translation>Tandika entuula ezitangaazidwa.</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="84"/>
         <location filename="../../sessionDialog.ui" line="299"/>
         <source>&amp;Open</source>
-        <translation type="unfinished">&amp;Bikkula</translation>
+        <translation>&amp;Tandika</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="110"/>
         <location filename="../../sessionDialog.ui" line="120"/>
         <source>Del</source>
-        <translation type="unfinished"></translation>
+        <translation>Erya &apos;Del&apos; nalyo likola</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="127"/>
         <location filename="../../sessionDialog.ui" line="137"/>
         <source>Ctrl+Del</source>
-        <translation type="unfinished"></translation>
+        <translation>Oba nyiga Ctrl+Del</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="171"/>
         <source>By default, all files that are opened in all
 windows will be included in the saved session.</source>
-        <translation type="unfinished"></translation>
+        <translation>Mu bya bulijjo, olutuula olukazzibwa luzingiramu
+buli fayiro esangibwa nga mbikkulire mu katimbe oba ddirisa.</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="175"/>
         <source>Save only from this &amp;window</source>
-        <translation type="unfinished"></translation>
+        <translation>Koma ku ebiri mu &amp;ddirisa lino byokka</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="204"/>
         <source>&lt;b&gt;Warning&lt;/b&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;Kutangaaza&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="250"/>
         <location filename="../../session.cpp" line="332"/>
         <source>&amp;Yes</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Ye</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="257"/>
         <source>&amp;No</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Nedda</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="307"/>
         <source>Re&amp;name</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Kyusa Linnya</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="130"/>
         <source>Remove &amp;All</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Zerule Zonna</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="284"/>
         <source>&amp;Close</source>
-        <translation type="unfinished">&amp;Gala</translation>
+        <translation>&amp;Gala</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="147"/>
         <source>Save the current session under the given title.</source>
-        <translation type="unfinished"></translation>
+        <translation>Olutuula luno lukalize mu linnya eriwandikidwa wano.</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="150"/>
         <source>&amp;Save</source>
-        <translation type="unfinished">Ka&amp;zza</translation>
+        <translation>Lu&amp;kazze</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="161"/>
         <source>Type a name to save session</source>
-        <translation type="unfinished"></translation>
+        <translation>Wandika wano erinnya lya lutuula</translation>
     </message>
     <message>
         <location filename="../../session.cpp" line="183"/>
         <source>Nothing saved.&lt;br&gt;No file was opened.</source>
-        <translation type="unfinished"></translation>
+        <translation>Tewali kikazzidwa.&lt;br&gt;Tewabaddewo fayiro embikkule.</translation>
     </message>
     <message>
         <location filename="../../session.cpp" line="281"/>
         <source>No file exists or can be opened.</source>
-        <translation type="unfinished"></translation>
+        <translation>Tewali fayiro oba eziriwo tezibikkulika.</translation>
     </message>
     <message>
         <location filename="../../session.cpp" line="283"/>
         <source>Not all files exist or can be opened.</source>
-        <translation type="unfinished"></translation>
+        <translation>Fayiro ezimu zibuze oba tezibikkulika.</translation>
     </message>
     <message>
         <location filename="../../session.cpp" line="318"/>
         <source>&amp;OK</source>
-        <translation type="unfinished"></translation>
+        <translation>K&amp;ale</translation>
     </message>
     <message>
         <location filename="../../session.cpp" line="337"/>
         <source>Do you really want to remove all saved sessions?</source>
-        <translation type="unfinished"></translation>
+        <translation>Ddala entuula eziterekedewa zonna oyagala okuzigyawo?</translation>
     </message>
     <message>
         <location filename="../../session.cpp" line="343"/>
         <source>Do you really want to remove the selected sessions?</source>
-        <translation type="unfinished"></translation>
+        <translation>Ddala entuula ezitangaazidwa oyagala okuzigyawo?</translation>
     </message>
     <message>
         <location filename="../../session.cpp" line="345"/>
         <source>Do you really want to remove the selected session?</source>
-        <translation type="unfinished"></translation>
+        <translation>Ddala olutuula olutangaazidwa oyagala okulugyawo?</translation>
     </message>
     <message>
         <location filename="../../session.cpp" line="350"/>
         <source>A session with the same name exists.&lt;br&gt;Do you want to overwrite it?</source>
-        <translation type="unfinished"></translation>
+        <translation>Waliwo olutuula olulala oluyitibwa eryo.&lt;br&gt;Oyagala luno ludde mu kifo kya lwo?</translation>
     </message>
 </context>
 <context>
@@ -2247,7 +2248,7 @@ windows will be included in the saved session.</source>
     <message>
         <location filename="../../sidepane.cpp" line="196"/>
         <source>Filter...</source>
-        <translation type="unfinished"></translation>
+        <translation>Ekisunsuzibwa...</translation>
     </message>
 </context>
 <context>
@@ -2255,37 +2256,37 @@ windows will be included in the saved session.</source>
     <message>
         <location filename="../../spellDialog.ui" line="25"/>
         <source>Unknown word:</source>
-        <translation type="unfinished"></translation>
+        <translation>Kigambo ekitamanyidwa:</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="51"/>
         <source>Add To Dictionary</source>
-        <translation type="unfinished"></translation>
+        <translation>Kiyingize mu Nkuluze</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="62"/>
         <source>Replace with:</source>
-        <translation type="unfinished">Teekawo kino:</translation>
+        <translation>Kiwanyisemu kino:</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="129"/>
         <source>Correct Once</source>
-        <translation type="unfinished"></translation>
+        <translation>Gololako Guno Omulundi</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="142"/>
         <source>Correct All</source>
-        <translation type="unfinished"></translation>
+        <translation>Kigorole Wonna</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="87"/>
         <source>Ignore Once</source>
-        <translation type="unfinished"></translation>
+        <translation>Wano Kireke</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="100"/>
         <source>Ignore All</source>
-        <translation type="unfinished"></translation>
+        <translation>Wonna Kireke</translation>
     </message>
 </context>
 <context>
@@ -2293,7 +2294,7 @@ windows will be included in the saved session.</source>
     <message>
         <location filename="../../textedit.cpp" line="152"/>
         <source>Double click to center current line</source>
-        <translation type="unfinished"></translation>
+        <translation>Nyigairira ebiri olunyiriri luno lwetereereze mu makkati g&apos;olupapula</translation>
     </message>
 </context>
 </TS>
