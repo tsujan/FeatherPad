@@ -232,7 +232,7 @@
     <message>
         <location filename="../../fp.ui" line="573"/>
         <source>Documen&amp;t Properties</source>
-        <translation>Ebikwa&amp;ta ku Kiwandiko</translation>
+        <translation>Ebikwa&amp;ta ku Kiwandike</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="576"/>
@@ -698,48 +698,48 @@
     <message>
         <location filename="../../fpwin.cpp" line="632"/>
         <source>&amp;Recently Opened</source>
-        <translation type="unfinished"></translation>
+        <translation>Fayiro E&amp;zisembye Okubikkulwa</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2076"/>
         <source>Close</source>
-        <translation type="unfinished"></translation>
+        <translation>Gala</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1353"/>
         <source>Save changes?</source>
-        <translation type="unfinished"></translation>
+        <translation>Ebikyusidwa bikazzibwe?</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="997"/>
         <source>Please attend to that window or just close its dialog!</source>
-        <translation type="unfinished"></translation>
+        <translation>Sooka olikoleko oba ggala akaboozi ako!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1357"/>
         <source>The document has been modified.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ekiwandike kikyusidwamu.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1368"/>
         <source>&amp;Discard changes</source>
-        <translation type="unfinished"></translation>
+        <translation>Ebikyusidwa bi&amp;jjulule</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1369"/>
         <source>&amp;Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Sazamu</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1371"/>
         <source>&amp;No to all</source>
-        <translation type="unfinished"></translation>
+        <translation>B&amp;yonna Bigaane</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1579"/>
         <location filename="../../fpwin.cpp" line="1628"/>
         <source>Unsaved</source>
-        <translation type="unfinished"></translation>
+        <translation>Ssi bikazze</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2982"/>
@@ -751,175 +751,175 @@
         <location filename="../../fpwin.cpp" line="6199"/>
         <location filename="../../fpwin.cpp" line="6206"/>
         <source>Lines</source>
-        <translation type="unfinished"></translation>
+        <translation>Ennyiriri</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4557"/>
         <location filename="../../fpwin.cpp" line="4572"/>
         <source>Sel. Chars</source>
-        <translation type="unfinished"></translation>
+        <translation>Obubonero Obutangaazidwa</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4559"/>
         <location filename="../../fpwin.cpp" line="4573"/>
         <source>Words</source>
-        <translation type="unfinished"></translation>
+        <translation>Ebigambo</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1969"/>
         <source>Another process is running in this tab!</source>
-        <translation type="unfinished"></translation>
+        <translation>Waliwo omulimu omulala ogubumbujjira mu katimbe kano!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2067"/>
         <source>Script File</source>
-        <translation type="unfinished"></translation>
+        <translation>Fayiro Ey&apos;ebiragiro</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="996"/>
         <source>Another FeatherPad window has a modal dialog!</source>
-        <translation type="unfinished"></translation>
+        <translation>Eddirisa lya FeatherPad eddala lireese akaboozi!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="833"/>
         <location filename="../../fpwin.cpp" line="4597"/>
         <source>Position:</source>
-        <translation type="unfinished"></translation>
+        <translation>Olukumbo akalagakifo mwe kali:</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="881"/>
         <location filename="../../fpwin.cpp" line="4615"/>
         <location filename="../../fpwin.cpp" line="4635"/>
         <source>Normal</source>
-        <translation type="unfinished"></translation>
+        <translation>Bigambobugambo</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1355"/>
         <location filename="../../fpwin.cpp" line="2742"/>
         <location filename="../../fpwin.cpp" line="5988"/>
         <source>The file does not exist.</source>
-        <translation type="unfinished"></translation>
+        <translation>Fayiro teriwo.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1740"/>
         <source>Open Link</source>
-        <translation type="unfinished"></translation>
+        <translation>Enyunzi Gibikkule</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1756"/>
         <source>Copy Link</source>
-        <translation type="unfinished"></translation>
+        <translation>Enyunzi Gikwate</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1970"/>
         <source>Only one process is allowed per tab.</source>
-        <translation type="unfinished"></translation>
+        <translation>Akatimbe kakkirizibwa okubumbujjiramu omulimu gumu gwokka.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2063"/>
         <source>Script Output</source>
-        <translation type="unfinished"></translation>
+        <translation>Ebikolebwawo Fayiro Ey&apos;ebiragiro</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2079"/>
         <source>Clear</source>
-        <translation type="unfinished"></translation>
+        <translation>Yerula</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2699"/>
         <source>FeatherPad does not open files larger than 100 MiB.</source>
-        <translation type="unfinished"></translation>
+        <translation>FeatherPad tebikkula fayiro ezisukka MiB 100 mu bunene.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2707"/>
         <source>Non-text file(s) not opened!</source>
-        <translation type="unfinished"></translation>
+        <translation>Fayiro ezitali za bigambo tezibikkudwa!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2708"/>
         <source>See Preferences → Files → Do not permit opening of non-text files</source>
-        <translation type="unfinished"></translation>
+        <translation>Kebera ekiri ku Nteekateeka → Fayiro → Tokkiriza okubikkula fayiro ezitali za bigambo</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2717"/>
         <source>Some file(s) could not be opened!</source>
-        <translation type="unfinished"></translation>
+        <translation>Fayiro ezimu tekisobose okuzibikkula!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2718"/>
         <source>You may not have the permission to read.</source>
-        <translation type="unfinished"></translation>
+        <translation>Endukusa za kwo ziyinza obutakukkiriza fayiro okuzisoma.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2728"/>
         <source>Uneditable file(s)!</source>
-        <translation type="unfinished"></translation>
+        <translation>Fayiro te(zi)wandikika mu!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2729"/>
         <source>Non-text files or files with huge lines cannot be edited.</source>
-        <translation type="unfinished"></translation>
+        <translation>Fairo ezitali za bigambo n&apos;ezo ezirimu ennyiriri empanvu ennyo tezikyusikamu muno.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2802"/>
         <source>Root Instance</source>
-        <translation type="unfinished"></translation>
+        <translation>Olubumbujjo Luno Lukozesa Buyinza Bwa Root</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2883"/>
         <source>Open file...</source>
-        <translation type="unfinished"></translation>
+        <translation>Bikkula fayiro...</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3118"/>
         <location filename="../../fpwin.cpp" line="3156"/>
         <source>Save as...</source>
-        <translation type="unfinished"></translation>
+        <translation>Kazzamu koppi...</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3192"/>
         <source>Keep encoding and save as...</source>
-        <translation type="unfinished"></translation>
+        <translation>Kazzamu koppi era jjukira n&apos;&amp;enkogojja...</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3509"/>
         <source>Saving as root.</source>
-        <translation type="unfinished"></translation>
+        <translation>Nkazzisa akawunti ya root.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3510"/>
         <source>Waiting for authentication...</source>
-        <translation type="unfinished"></translation>
+        <translation>Nninda eby&apos;okukakasibwa...</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3629"/>
         <source>&quot;pkexec&quot; is not found. Please install Polkit!</source>
-        <translation type="unfinished"></translation>
+        <translation>&quot;pkexec&quot; ebuze. Sisitemu eno ebulako ebiyamba bya Polkit!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3312"/>
         <source>Yes</source>
-        <translation type="unfinished"></translation>
+        <translation>Ye</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3313"/>
         <source>No</source>
-        <translation type="unfinished"></translation>
+        <translation>Nedda</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3314"/>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>Sazamu</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3315"/>
         <source>Do you want to use &lt;b&gt;MS Windows&lt;/b&gt; end-of-lines?</source>
-        <translation type="unfinished"></translation>
+        <translation>Oyagala okukozesa obufundikiralunyiriri obw&apos;ekika kya &lt;b&gt;MS Windows&lt;/b&gt;?</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3316"/>
         <source>This may be good for readability under MS Windows.</source>
-        <translation type="unfinished"></translation>
+        <translation>Kisobola okugonza okusoma ekiwandiko kino ku MS Windows.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3420"/>
@@ -927,7 +927,7 @@
         <location filename="../../fpwin.cpp" line="3628"/>
         <location filename="../../fpwin.cpp" line="3640"/>
         <source>Cannot be saved!</source>
-        <translation type="unfinished"></translation>
+        <translation>Okukazza tekukkirizibwa!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="450"/>
@@ -936,7 +936,7 @@
         <location filename="../../fpwin.cpp" line="5307"/>
         <location filename="../../fpwin.cpp" line="6396"/>
         <source>Help</source>
-        <translation type="unfinished"></translation>
+        <translation>Nyamba</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3681"/>
@@ -947,22 +947,22 @@
         <location filename="../../fpwin.cpp" line="6190"/>
         <location filename="../../fpwin.cpp" line="6198"/>
         <source>Syntax</source>
-        <translation type="unfinished"></translation>
+        <translation>Mateekaa ga Mpandika</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2698"/>
         <source>Huge file(s) not opened!</source>
-        <translation type="unfinished"></translation>
+        <translation>Fayiro e(zi)yitiridde obunene te(zi)bikkudwa!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2749"/>
         <source>Huge column!</source>
-        <translation type="unfinished"></translation>
+        <translation>Olukumbo luyitiridde obunene!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2750"/>
         <source>Columns with more than 1000 rows are not supported.</source>
-        <translation type="unfinished"></translation>
+        <translation>Puloguramu eno tesobola nkumbo ezirimu ennyiriri ezisukka mu 1000.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2874"/>
@@ -971,190 +971,190 @@
         <location filename="../../fpwin.cpp" line="3067"/>
         <location filename="../../fpwin.cpp" line="3089"/>
         <source>All Files</source>
-        <translation type="unfinished"></translation>
+        <translation>Fayiro ez&apos;ebika byonna</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3784"/>
         <source>Text tabs are converted to spaces.</source>
-        <translation type="unfinished"></translation>
+        <translation>Puloguramu buli w&apos;esanga oluseetuuka mu biwandikidwa erugyawo n&apos;ezzawo akabanga.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3894"/>
         <source>The selected text was too long.</source>
-        <translation type="unfinished"></translation>
+        <translation>Watangaazizza ebigambo ebiyitiridde obungi.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3895"/>
         <source>It is not fully processed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ebimu tebikoledwako.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4057"/>
         <location filename="../../fpwin.cpp" line="4291"/>
         <source>This file has been modified elsewhere or in another way!</source>
-        <translation type="unfinished"></translation>
+        <translation>Fayiro eno waliwo omulimu omulala ogutali gugwo ogugikyusizzamu!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4058"/>
         <location filename="../../fpwin.cpp" line="4292"/>
         <source>Please be careful about reloading or saving this document!</source>
-        <translation type="unfinished"></translation>
+        <translation>Wegendereze bw&apos;oba nga ekiwandiko kino onaakikazza oba okuddamu okukibikkula!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4704"/>
         <source>Printing in progress...</source>
-        <translation type="unfinished"></translation>
+        <translation>Okukubisa kutandise...</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4770"/>
         <source>Print Document</source>
-        <translation type="unfinished"></translation>
+        <translation>Ekiwandike kikubise</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4776"/>
         <source>Printing completed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Okukubisa kumalirizidwa.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5440"/>
         <location filename="../../fpwin.cpp" line="5573"/>
         <source>%1 Pages</source>
-        <translation type="unfinished"></translation>
+        <translation>Butimbe %1</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5472"/>
         <location filename="../../fpwin.cpp" line="5609"/>
         <source>Copy Target Path</source>
-        <translation type="unfinished"></translation>
+        <translation>Kwata Ery&apos;obusangiro Ly&apos;ekigenderwa</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5476"/>
         <location filename="../../fpwin.cpp" line="5613"/>
         <source>Open Target Here</source>
-        <translation type="unfinished"></translation>
+        <translation>Ekigenderwa Kibikkulire Wano</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5495"/>
         <location filename="../../fpwin.cpp" line="5633"/>
         <source>Copy Final Target Path</source>
-        <translation type="unfinished"></translation>
+        <translation>Kwata Ery&apos;obusangiro Ly&apos;ekigenderwa Eky&apos;enkomeredde</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5499"/>
         <location filename="../../fpwin.cpp" line="5637"/>
         <source>Open Final Target Here</source>
-        <translation type="unfinished"></translation>
+        <translation>Ekigenderwa Ky&apos;enkomeredde Kibikkulire Wano</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5519"/>
         <location filename="../../fpwin.cpp" line="5658"/>
         <source>Open Containing Folder</source>
-        <translation type="unfinished"></translation>
+        <translation>Bikkula Etterekero Mw&apos;eri</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5784"/>
         <source>You need to add a Hunspell dictionary.</source>
-        <translation type="unfinished"></translation>
+        <translation>Kyetaagisa oteekewo enkuluze ya mu Hunspell.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5785"/>
         <location filename="../../fpwin.cpp" line="5792"/>
         <location filename="../../fpwin.cpp" line="5802"/>
         <source>See Preferences → Text → Spell Checking!</source>
-        <translation type="unfinished"></translation>
+        <translation>Kebera ekiri ku Nteekateeka → Bigambo → Kukebera Mpandika!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5791"/>
         <source>The Hunspell dictionary does not exist.</source>
-        <translation type="unfinished"></translation>
+        <translation>Enkuluze eya mu Hunspell teeriwo.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5801"/>
         <source>The Hunspell dictionary is not accompanied by an affix file.</source>
-        <translation type="unfinished"></translation>
+        <translation>Enkuluze eya mu Hunspell ebulako fayiro eya affix egigenderako.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5824"/>
         <location filename="../../fpwin.cpp" line="5842"/>
         <location filename="../../fpwin.cpp" line="5857"/>
         <source>No misspelling in document.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ekiwandike temuli bigambo biwandikidwa bubi.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5826"/>
         <location filename="../../fpwin.cpp" line="5844"/>
         <location filename="../../fpwin.cpp" line="5859"/>
         <source>No misspelling from text cursor.</source>
-        <translation type="unfinished"></translation>
+        <translation>Okuva awali akalagakifo temuli bigambo biwandikidwa bubi.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5875"/>
         <source>Spell Checking</source>
-        <translation type="unfinished"></translation>
+        <translation>Kugorola Mpandika y&apos;Ebigambo</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="6222"/>
         <source>Some files cannot be saved!</source>
-        <translation type="unfinished"></translation>
+        <translation>Fayiro ezimu tekisobose okuzikazza!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="6262"/>
         <source>Translators</source>
-        <translation type="unfinished"></translation>
+        <translation>Abaakyusa</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="6258"/>
         <source>A lightweight, tabbed, plain-text editor</source>
-        <translation type="unfinished"></translation>
+        <translation>Puloguramu ey&apos;okuwandika ebigambo ebyereere eyisagamizidwa ku Qt</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="6259"/>
         <source>based on Qt</source>
-        <translation type="unfinished"></translation>
+        <translation>Ekusobozesa okukolera mu butimbe obusukka mu kamu era tenyunyunta sisitemu yo</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="6260"/>
         <source>Author</source>
-        <translation type="unfinished"></translation>
+        <translation>Muwandisi</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="6261"/>
         <source>aka.</source>
-        <translation type="unfinished"></translation>
+        <translation>aka.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="6262"/>
         <location filename="../../fpwin.cpp" line="6263"/>
         <source>About FeatherPad</source>
-        <translation type="unfinished"></translation>
+        <translation>Okwanjula FeatherPad</translation>
     </message>
     <message>
         <location filename="../../replace.cpp" line="277"/>
         <source>No Replacement</source>
-        <translation type="unfinished"></translation>
+        <translation>Tewali Biwanyisidwa</translation>
     </message>
     <message>
         <location filename="../../replace.cpp" line="279"/>
         <source>One Replacement</source>
-        <translation type="unfinished"></translation>
+        <translation>Wawanyisidwawo Kimu</translation>
     </message>
     <message numerus="yes">
         <location filename="../../replace.cpp" line="281"/>
         <source>%Ln Replacements</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>Wawanyisidwawo Ekintu %Ln</numerusform>
+            <numerusform>Wawanyisidwawo Ebintu %Ln</numerusform>
         </translation>
     </message>
     <message>
         <location filename="../../replace.cpp" line="285"/>
         <source>The first 1000 replacements are highlighted.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ebiwanyisidwa 1000 ebisooka bitangaazidwa.</translation>
     </message>
     <message>
         <location filename="../../syntax.cpp" line="314"/>
         <source>The size limit for syntax highlighting is exceeded.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ekkomo ly&apos;ebisobola okutangaazibwa eby&apos;amateeka g&apos;empandika liyitidwako.</translation>
     </message>
 </context>
 <context>
@@ -1254,12 +1254,12 @@
     <message>
         <location filename="../../prefDialog.ui" line="69"/>
         <source>Window Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Enkola y&apos;Amadirisa</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="75"/>
         <source>Remember window &amp;size on closing</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Puloguramu bw&apos;etandika amadirisa genkane bwe gaali lwe yasemba okukomyezebwa</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="84"/>
@@ -1267,155 +1267,169 @@
         <location filename="../../prefDialog.ui" line="107"/>
         <location filename="../../prefDialog.ui" line="120"/>
         <source>Window frame is excluded.</source>
-        <translation type="unfinished"></translation>
+        <translation>Bino tebibaliramu omwango gwa ddirisa.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="87"/>
         <source>Start with this size: </source>
-        <translation type="unfinished"></translation>
+        <translation>Puloguramu etandikenga ku bunene buno: </translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="100"/>
         <location filename="../../prefDialog.ui" line="123"/>
         <source> px</source>
-        <translation type="unfinished"></translation>
+        <translation> px</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="110"/>
         <source>×</source>
-        <translation type="unfinished"></translation>
+        <translation>x</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="148"/>
         <source>Enforcing a window position is not recommended
 and may not work with some window managers.</source>
-        <translation type="unfinished"></translation>
+        <translation>Okutegeka puloguramu bulijjo w&apos;esooka okuteeka
+ddirisa lya yo kisobola okuleeta mitawaana. Era
+kiyinza obutakolagana n&apos;ebiruŋamy&apos;awakolerwa ebimu.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="152"/>
         <source>Remember window &amp;position on closing</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Bw&apos;etandikanga eddirisa lya puloguramu
+lirabikire gye lyali lwe yasemba okukomyezebwa</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="159"/>
         <source>Most suitable with sessions
 but without tab functionality.</source>
-        <translation type="unfinished"></translation>
+        <translation>Kino kiyamba nga olina entuula ze watereka
+ate nga obutimbe tebutegekedwako obupande.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="188"/>
         <source>Uncheck for 1/5 of the width.</source>
-        <translation type="unfinished"></translation>
+        <translation>Bw&apos;oleka kano nga ssi katonyeze ekyawulako akabaawo
+kikawa 1/5 kya bugazi bwa ddirisa lya puloguramu.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="191"/>
         <source>Remember splitter position</source>
-        <translation type="unfinished"></translation>
+        <translation>Puloguramu ejjukirenga ekyawulako akabaawo
+we kyaali lwe yasemba okukomyezebwa</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="200"/>
         <source>Do not show &amp;toolbar</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Toteekawo olubaawo lw&apos;ebiyamba</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="207"/>
         <source>If the menubar is hidden,
 a menu button appears on the toolbar.</source>
-        <translation type="unfinished"></translation>
+        <translation>Olubaawo olwa menyu bwe lukisibwa,
+olw&apos;ebiyamba lubeerako ppeesa elireeta menyu.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="211"/>
         <source>Do not show &amp;menubar</source>
-        <translation type="unfinished"></translation>
+        <translation>Toteekawo olubaawo lwa &amp;menyu</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="218"/>
         <source>Double clicking on the title toggles the maximized state.
 The title also has a right click menu when a file is opened.</source>
-        <translation type="unfinished"></translation>
+        <translation>Omutwe oguli ku lubaawo lwa menyu bw&apos;ogunyigirira ebiri,
+kikyusa ddirisa wakati wa kubuna lutimbe n&apos;okwetengerera.
+Bw&apos;onyiga ppeesa ly&apos;akasongesebwa erya ddyo nga akasonga
+katudde ku mutwe ogwo kireeta menyu.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="222"/>
         <source>Show window title on menubar</source>
-        <translation type="unfinished"></translation>
+        <translation>Omutwe gw&apos;eddirisa gubeerenga ne ku lubaawo lwa menyu</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="229"/>
         <source>Menubar accelerators are activated by Alt
 and may interfere with customized shortcuts.</source>
-        <translation type="unfinished"></translation>
+        <translation>Amapeesa ag&apos;anguyisa ag&apos;oku lubaawo lwa menyu
+okukola ganyigirwa awamu n&apos;erya Alt. Kino kiyinza
+okutabula agamu ku mapeesa ag&apos;anguyisa ge
+weetegekera.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="233"/>
         <source>Disable menubar accelerators</source>
-        <translation type="unfinished"></translation>
+        <translation>Siba amapeesa ag&apos;anguyisa ag&apos;oku lubaawo lwa menyu</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="240"/>
         <source>Internal icons are used by default.</source>
-        <translation type="unfinished"></translation>
+        <translation>Mu bya bulijjo puloguramu ekozesa obufaananyi obwa yo.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="243"/>
         <source>Use system icons where possible</source>
-        <translation type="unfinished"></translation>
+        <translation>Puloguramu egeze okukozesenga obufaananyi obwa sisitemu</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="250"/>
         <source>Hide search &amp;bar by default</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Mu bya bulijjo puloguramu akabaawo akanoonyesebwa ekakisenga</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="257"/>
         <source>By default, each search entry
 has a separate search history.</source>
-        <translation type="unfinished"></translation>
+        <translation>Mu bya bulijjo buli katimbe kakozesa
+olukalala lw&apos;ebinoonyezedwa olwa ko.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="261"/>
         <source>Use a shared search history</source>
-        <translation type="unfinished"></translation>
+        <translation>Obutimbe bwonna bukozese olukalala lw&apos;ebinoonyezedwa lwe lumu</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="268"/>
         <source>Always show st&amp;atus bar</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Olubaawo olulaga mbeera y&apos;egibumbujja lubeerengawo bulijjo</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="293"/>
         <source>Show cursor position on status bar</source>
-        <translation type="unfinished"></translation>
+        <translation>Olubaawo olulaga mbeera y&apos;egibumbujja lulagenga obusangiro bw&apos;akalagakifo</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="304"/>
         <location filename="../../prefDialog.ui" line="314"/>
         <source>Will take effect after closing this dialog.</source>
-        <translation type="unfinished"></translation>
+        <translation>Kino kijja okutandika okukola olunaaggala akaboozi kano.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="307"/>
         <source>Tab position: </source>
-        <translation type="unfinished"></translation>
+        <translation>Obusangiro bw&apos;obupande bwa ku butimbe: </translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="318"/>
         <source>North</source>
-        <translation type="unfinished"></translation>
+        <translation>Waggulu</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="323"/>
         <source>South</source>
-        <translation type="unfinished"></translation>
+        <translation>Wansi</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="328"/>
         <source>West</source>
-        <translation type="unfinished"></translation>
+        <translation>Ku Kkono</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="333"/>
         <source>East</source>
-        <translation type="unfinished"></translation>
+        <translation>Ku Ddyo</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="359"/>
@@ -1423,17 +1437,25 @@ has a separate search history.</source>
 after the last tab is activated, and the same for Alt+Left.
 
 Tab navigation with mouse wheel is not affected.</source>
-        <translation type="unfinished"></translation>
+        <translation>Kino kitegeeza nti, mu kiwandike ekitegekedwa okukozesa
+empandika eva ku kkono okudda ku ddyo (LTR), bw&apos;obeera
+oli ku katimbe akasemba yo ku ddyo n&apos;onyiga aga &apos;Alt+Ddyo&apos;
+kikuzza mu katimbe akasooka ku kkono. Era bw&apos;obeera oli
+mu katimbe akasooka ku kkono n&apos;onyiga aga &apos;Alt+Kkono&apos; odda
+mu katimbe akasemba yo ku ddyo.
+
+Ekitegekebwa wano tekikyusa ku nkola ya namuziga eya ku
+kasongesebwa.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="365"/>
         <source>Tab navigation wraps &amp;around</source>
-        <translation type="unfinished"></translation>
+        <translation>Oku&amp;lambula obutimbe kwetoolola</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="385"/>
         <source>Close window on closing its last tab</source>
-        <translation type="unfinished"></translation>
+        <translation>Akatimbe akasigadde bw&apos;okagyawo nga n&apos;eddirisa lya puloguramu lyeggala</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="392"/>
@@ -1442,12 +1464,17 @@ current desktop, files will be opened in its tabs.
 
 However, some desktop environments may not
 report that they have multiple desktops.</source>
-        <translation type="unfinished"></translation>
+        <translation>Mu bya bulijjo, FeatherPad nga emaze okuggulawo
+eddirisa lya yo, buli fayiro by&apos;ebikkula erabikira mu
+katimbe akeeyongera mu ddirisa eryo.
+
+Ekitegekebwa wano kisobola okuyamba ku bika
+by&apos;awakolerwa ebimu.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="399"/>
         <source>Always open in separate windows</source>
-        <translation type="unfinished"></translation>
+        <translation>Buli kiwandike ekibukkulibwa kibeere mu ddirisa lya kyo</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="406"/>
@@ -1455,115 +1482,138 @@ report that they have multiple desktops.</source>
 desktop environment will be used instead of the Qt file dialog.
 
 Some desktop environments, like KDE and LXQt, provide files dialogs.</source>
-        <translation type="unfinished"></translation>
+        <translation>Bw&apos;otonnyeza wano puloguramu ejja okukozesa obuboozi
+obw&apos;ekiruŋamyawakolerwa mu kifo eky&apos;obwa Qt.
+
+Ebiruŋamyawakolerwa ebimu, nga KDE ne LXQt, bibeera
+n&apos;obuboozi bwa mu.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="412"/>
         <source>Native file dialog</source>
-        <translation type="unfinished"></translation>
+        <translation>Puloguramu ekozese obuboozi obwa sisitemu</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="488"/>
         <source>Uncheck for Monospace.</source>
-        <translation type="unfinished"></translation>
+        <translation>Bw&apos;obeera okozesa Monospace (ennukuta n&apos;obubonero
+ebyenkanankana) wano tegeka wo nga ssi watonnyeze.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="491"/>
         <source>Remember &amp;font</source>
-        <translation type="unfinished"></translation>
+        <translation>Pulouramu e&amp;jjukirenga enkula y&apos;ennukuta gy&apos;ebadde
+ekozesa lwe yasemba okukomyezebwa</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="512"/>
         <source>This covers parentheses, braces, brackets and quotes.</source>
-        <translation type="unfinished"></translation>
+        <translation>Kino kikola ku butaayiza obw&apos;ekika kya (, {, [ ne &quot;.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="515"/>
         <source>Auto-&amp;bracket</source>
-        <translation type="unfinished"></translation>
+        <translation>Puloguramu ekuteerengawo akataayiza akamaliri&amp;za</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="522"/>
         <source>By default, a triple period is replaced with an ellipsis
 and a double hyphen with a long dash while typing,
 under proper circumstances.</source>
-        <translation type="unfinished"></translation>
+        <translation>Mu ebya bulijjo, puloguramu w&apos;owandika obutonnyeze obusatu
+ekuddizawo akabonero kamu akalimu obutonnyeze obusatu.
+W&apos;owandika emisittale ebiri ekuddizawo akabonero kamu akalaga
+omusittale gumu omuwanvuye.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="527"/>
         <source>Replace triple periods and double hyphens while typing</source>
-        <translation type="unfinished"></translation>
+        <translation>W&apos;owandika obutonnyeze obusatu oba emisittale ebiri
+puloguramu ezzengawo akabonero akagenderere</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="541"/>
         <source>Highlight case-sensitive and whole matches
 of the selected text.</source>
-        <translation type="unfinished"></translation>
+        <translation>Kino kireetera puloguramu okutangaaza ebirala byonna mu
+kiwandike ebifaanaganya gwe by&apos;otangaazizza obubonero
+bwonna, okuli n&apos;obunene oba obutono bw&apos;ennukuta.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="545"/>
         <source>Selection highlighting</source>
-        <translation type="unfinished"></translation>
+        <translation>Puloguramu etangaazenga ebirala byonna
+ebifaanaganira ddala ggwe by&apos;otangaazizza</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="608"/>
         <source>Never highlight syntax for files &gt; </source>
-        <translation type="unfinished"></translation>
+        <translation>Totangaazanga eby&apos;amateeka g&apos;empandika
+mu biwandike nga obunene bwa byo &gt; </translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="577"/>
         <source>This creates a menu button on the
 status bar for changing the syntax.</source>
-        <translation type="unfinished"></translation>
+        <translation>Kino kireeta eppeesa ery&apos;okulonda mateeka
+ku lubaawo olulaga mbeera y&apos;egibumbujja.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="581"/>
         <source>Support syntax override</source>
-        <translation type="unfinished"></translation>
+        <translation>Kisoboke okwerondera amateeka g&apos;empandika agagobererwa</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="646"/>
         <source>Show spaces, tabs and tab lines
 when the syntax is highlighted.</source>
-        <translation type="unfinished"></translation>
+        <translation>Kino kireetera puloguramu okuteekawo
+obubonero obulaga buli awali akabanga
+n&apos;obulaga buli awali oluseetuka.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="650"/>
         <source>Show whitespaces</source>
-        <translation type="unfinished"></translation>
+        <translation>Teekangawo ebiraga ebika by&apos;ebbanga jjereere</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="666"/>
         <location filename="../../prefDialog.ui" line="677"/>
         <source>The vertical position lines will be drawn only if
 the editor font has a fixed pitch (like Monospace).</source>
-        <translation type="unfinished"></translation>
+        <translation>Enkoloboze ensimbalaala eziramba bifo mu nnyiriri
+zikola nga enkula ya nnukuta ekozesebwa emu ku
+ezo ennukuta zonna mwe z&apos;enkanankanira (okugeza
+nga Monospace).</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="670"/>
         <source>Show vertical lines starting from this position:</source>
-        <translation type="unfinished"></translation>
+        <translation>Awawandikibwa wabeerewo enkoloboze ensimbalaala.
+Ebifo mu lunyiriri by&apos;obala okutuuka ku lukoloboze oluddako:</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="657"/>
         <source>Show line and document ends</source>
-        <translation type="unfinished"></translation>
+        <translation>Obubonero obufundikira nnyiriri n&apos;ekiwandike bulabike</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="801"/>
         <source>Date and time format:</source>
-        <translation type="unfinished"></translation>
+        <translation>Empandika y&apos;ennaku n&apos;essaawa:</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="869"/>
         <source>Some text editors cannot open a document
 whose last line is not empty.</source>
-        <translation type="unfinished"></translation>
+        <translation>Puloguramu ez&apos;okuwandika ezimu tezisobola okubikkula
+ekiwandike ekitafundikirwa olunyiriri olwereere.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="873"/>
         <source>Ensure an empty last line on saving</source>
-        <translation type="unfinished"></translation>
+        <translation>Ekiwandike bwe kikazibwa, puloguramu
+erabe nti kifundikirwa olunyiriri olwereere</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="880"/>
@@ -1578,12 +1628,12 @@ whose last line is not empty.</source>
     <message>
         <location filename="../../prefDialog.ui" line="987"/>
         <source>Files</source>
-        <translation type="unfinished"></translation>
+        <translation>Fayiro</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="993"/>
         <source>File Management</source>
-        <translation type="unfinished"></translation>
+        <translation>Enkwata ya Fayiro</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1110"/>
@@ -1613,17 +1663,17 @@ will be shown by a popup dialog.</source>
     <message>
         <location filename="../../prefDialog.ui" line="1183"/>
         <source>Command + Arguments</source>
-        <translation type="unfinished"></translation>
+        <translation>Kiragiro + Agumenti</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1068"/>
         <source>Show recentl&amp;y modified files</source>
-        <translation type="unfinished"></translation>
+        <translation>Ndaga fayiro ezi&amp;sembye okukyusibwamu</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1098"/>
         <source>Show recentl&amp;y opened files</source>
-        <translation type="unfinished"></translation>
+        <translation>Ndaga fayiro e&amp;zisembye okubikkulwa</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1197"/>
@@ -1633,12 +1683,12 @@ will be shown by a popup dialog.</source>
     <message>
         <location filename="../../prefDialog.ui" line="1475"/>
         <source>Help</source>
-        <translation type="unfinished"></translation>
+        <translation>Nyamba</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="163"/>
         <source>Start with side-pane mode</source>
-        <translation type="unfinished"></translation>
+        <translation>Puloguramu etandikenga n&apos;akabaawo ak&apos;oku mabbali wekali</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="372"/>
@@ -1656,17 +1706,17 @@ and-drop either.</source>
     <message>
         <location filename="../../prefDialog.ui" line="443"/>
         <source>Text</source>
-        <translation type="unfinished"></translation>
+        <translation>Bigambo</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="482"/>
         <source>Text Editor</source>
-        <translation type="unfinished"></translation>
+        <translation>Enkwata y&apos;Ebiwandikibwa</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="498"/>
         <source>&amp;Wrap lines by default</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Puloguramu bulijjo ennyiriri empanvu ezimenyengamu</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="505"/>
@@ -1686,17 +1736,17 @@ and-drop either.</source>
     <message>
         <location filename="../../prefDialog.ui" line="712"/>
         <source>Dark c&amp;olor scheme</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Awawandikibwa wabeere waddugalirivu</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="747"/>
         <source>Background color value: </source>
-        <translation type="unfinished"></translation>
+        <translation>Obukwafu bwa langi ey&apos;obwaliriro: </translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="615"/>
         <source> MiB</source>
-        <translation type="unfinished"></translation>
+        <translation> MiB</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1117"/>
@@ -1781,7 +1831,7 @@ if the cursor is inside the text view?</source>
     <message>
         <location filename="../../prefDialog.ui" line="905"/>
         <source>Spell Checking</source>
-        <translation type="unfinished"></translation>
+        <translation>Eby&apos;okugolola Mpandika</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="913"/>
@@ -1789,18 +1839,20 @@ if the cursor is inside the text view?</source>
         <source>A Hunspell dictionary has a name that ends with &quot;.dic&quot;
 and should be alongside an affix file with the same
 name but ending with &quot;.aff&quot;.</source>
-        <translation type="unfinished"></translation>
+        <translation>Fayiro ez&apos;enkuluze eza mu Hunspell amannya ga zo gafundikirwa &quot;.dic&quot;
+ate buli emu eteekwa okuwerekerwa fayiro eya &apos;affix&apos; ey&apos;erinnya lye limu
+okugyako nti lifundikirwa &quot;.aff&quot;.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="918"/>
         <source>Hunspell dictionary path:</source>
-        <translation type="unfinished"></translation>
+        <translation>Ery&apos;obusangiro bw&apos;enkuluze eya mu Hunspell:</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="937"/>
         <location filename="../../pref.cpp" line="1802"/>
         <source>Add dictionary...</source>
-        <translation type="unfinished"></translation>
+        <translation>Yongerawo enkuluze...</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="949"/>
@@ -1832,7 +1884,7 @@ will be started from the document start.</source>
     <message>
         <location filename="../../prefDialog.ui" line="1207"/>
         <source> min</source>
-        <translation type="unfinished"></translation>
+        <translation> dakiika</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1238"/>
@@ -1857,7 +1909,8 @@ trailing spaces of a text file.</source>
     <message>
         <location filename="../../prefDialog.ui" line="1256"/>
         <source>Do not permit opening of non-text files</source>
-        <translation type="unfinished"></translation>
+        <translation>Puloguramu egaanenga okubikkula
+fayiro ezitali za bigambo</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1263"/>
@@ -1873,17 +1926,17 @@ be opened if they are pasted into FeatherPad.</source>
     <message>
         <location filename="../../prefDialog.ui" line="1294"/>
         <source>Shortcuts</source>
-        <translation type="unfinished"></translation>
+        <translation>Mapeesa Ag&apos;anguya</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1316"/>
         <source>Action</source>
-        <translation type="unfinished"></translation>
+        <translation>Kikolwa</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1321"/>
         <source>Shortcut</source>
-        <translation type="unfinished"></translation>
+        <translation>Okwanguya</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1329"/>
@@ -1895,12 +1948,12 @@ be opened if they are pasted into FeatherPad.</source>
         <location filename="../../prefDialog.ui" line="1406"/>
         <location filename="../../prefDialog.ui" line="1454"/>
         <source>Default</source>
-        <translation type="unfinished"></translation>
+        <translation>Ebya Bulijjo</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1343"/>
         <source>Syntax Colors</source>
-        <translation type="unfinished"></translation>
+        <translation>Langi ez&apos;ebya Mateeka ga Mpandika</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1438"/>
@@ -1936,7 +1989,7 @@ be opened if they are pasted into FeatherPad.</source>
     <message>
         <location filename="../../prefDialog.ui" line="1486"/>
         <source>Close</source>
-        <translation type="unfinished"></translation>
+        <translation>Gala</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="113"/>
@@ -1953,13 +2006,13 @@ in the editing mode.</source>
         <location filename="../../pref.cpp" line="355"/>
         <location filename="../../pref.cpp" line="1498"/>
         <source>files</source>
-        <translation type="unfinished"></translation>
+        <translation>fayiro</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="355"/>
         <location filename="../../pref.cpp" line="1498"/>
         <source>file</source>
-        <translation type="unfinished"></translation>
+        <translation>fayiro</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="422"/>
@@ -1995,7 +2048,7 @@ in the editing mode.</source>
     <message>
         <location filename="../../pref.cpp" line="460"/>
         <source>Key Words</source>
-        <translation type="unfinished"></translation>
+        <translation>Ebigambo Ebyawulemu</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="461"/>
@@ -2035,12 +2088,12 @@ in the editing mode.</source>
     <message>
         <location filename="../../pref.cpp" line="1524"/>
         <source>&amp;Recently Opened</source>
-        <translation type="unfinished"></translation>
+        <translation>Fayiro E&amp;zisembye Okubikkulwa</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="1525"/>
         <source>Recently &amp;Modified</source>
-        <translation type="unfinished"></translation>
+        <translation>Fayiro &amp;Ezisembye Okukyusibwamu</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="1600"/>
@@ -2050,7 +2103,7 @@ in the editing mode.</source>
     <message>
         <location filename="../../pref.cpp" line="1804"/>
         <source>Hunspell Dictionary Files</source>
-        <translation type="unfinished"></translation>
+        <translation>Fayiro ez&apos;Enkuluze eza mu Hunspell</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="523"/>
