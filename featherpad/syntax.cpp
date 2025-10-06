@@ -112,7 +112,7 @@ void FPwin::setProgLang (TextEdit *textEdit)
                  || fname.endsWith (".rdf") || fname.endsWith (".docbook") || fname.endsWith (".fnx")
                  || fname.endsWith (".ts") || fname.endsWith (".menu") || fname.endsWith (".kml", Qt::CaseInsensitive)
                  || fname.endsWith (".xspf", Qt::CaseInsensitive) || fname.endsWith (".asx", Qt::CaseInsensitive)
-                 || fname.endsWith (".nfo") || fname.endsWith (".dae") /* || fname.endsWith (".ui") || fname.endsWith (".xul")*/)
+                 /*|| fname.endsWith (".nfo") */|| fname.endsWith (".dae") /* || fname.endsWith (".ui") || fname.endsWith (".xul")*/)
             progLan = "xml";
         else if (fname.endsWith (".css") || fname.endsWith (".qss"))
             progLan = "css";
@@ -231,7 +231,7 @@ void FPwin::setProgLang (TextEdit *textEdit)
             else if (mime == "text/html" || parentMime == "text/html" || mime == "application/xhtml+xml") // should come before xml check
                 progLan = "html";
             else if (mime == "application/xml" || parentMime == "application/xml"
-                     || mime == "text/feathernotes-fnx" || mime == "audio/x-ms-asx" || mime == "text/x-nfo" || mime == "application/xml-dtd")
+                     || mime == "text/feathernotes-fnx" || mime == "audio/x-ms-asx" /*|| mime == "text/x-nfo" */|| mime == "application/xml-dtd")
                 progLan = "xml";
             else if (mime == "text/css")
                 progLan = "css";
