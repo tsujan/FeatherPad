@@ -100,7 +100,7 @@ tento řádek (Ctrl+Shift+J)</translation>
     <message>
         <location filename="../../fp.ui" line="398"/>
         <source>Replacing text</source>
-        <translation>Text je nahrazován</translation>
+        <translation>Text kterým nahradit</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="457"/>
@@ -713,7 +713,7 @@ tento řádek (Ctrl+Shift+J)</translation>
     <message>
         <location filename="../../fpwin.cpp" line="997"/>
         <source>Please attend to that window or just close its dialog!</source>
-        <translation>Přejděte prosím do tohoto okna nebo zavřete jeho dialog!</translation>
+        <translation>Přejděte prosím do onoho okna nebo jen zavřete jeho dialog!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1357"/>
@@ -1155,7 +1155,7 @@ tento řádek (Ctrl+Shift+J)</translation>
     <message>
         <location filename="../../syntax.cpp" line="314"/>
         <source>The size limit for syntax highlighting is exceeded.</source>
-        <translation>Překročen limit velikosti pro zvýrazňování syntaxe.</translation>
+        <translation>Překročen limit objemu pro zvýrazňování syntaxe.</translation>
     </message>
 </context>
 <context>
@@ -1336,7 +1336,7 @@ na liště nástrojů se zobrazí tlačítko nabídky.</translation>
         <location filename="../../prefDialog.ui" line="218"/>
         <source>Double clicking on the title toggles the maximized state.
 The title also has a right click menu when a file is opened.</source>
-        <translation>Dvojité kliknutí na lištu zapne/vypne maximalizovaný stav.
+        <translation>Dvojklik na lištu zapne/vypne maximalizovaný stav.
 Když je otevřen soubor, titulní lišta také má nabídku pod pravým tlačítkem.</translation>
     </message>
     <message>
@@ -1359,7 +1359,7 @@ a mohu kolidovat s uživatelsky určenými zkratkami.</translation>
     <message>
         <location filename="../../prefDialog.ui" line="240"/>
         <source>Internal icons are used by default.</source>
-        <translation>Vestavěné ikony jsou požity jako výchozí.</translation>
+        <translation>Vestavěné ikony jsou použity jako výchozí.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="243"/>
