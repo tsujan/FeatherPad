@@ -1289,7 +1289,7 @@
         <location filename="../../prefDialog.ui" line="148"/>
         <source>Enforcing a window position is not recommended
 and may not work with some window managers.</source>
-        <translation>Devigi pozicion por la fenestro ne estas rekomendite
+        <translation>Trudi pozicion al fenestro ne estas rekomendite
 kaj eble ne efikas ĉe iuj fenestraj agordiloj.</translation>
     </message>
     <message>
@@ -1358,7 +1358,7 @@ kaj povas interrompi adaptitajn fulmoklavojn.</translation>
     <message>
         <location filename="../../prefDialog.ui" line="240"/>
         <source>Internal icons are used by default.</source>
-        <translation>Internaj ikonoj estas uzitaj dafaulte.</translation>
+        <translation>Internaj ikonoj estas uzitaj defaŭlte.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="243"/>
@@ -1850,7 +1850,7 @@ and should be alongside an affix file with the same
 name but ending with &quot;.aff&quot;.</source>
         <translation>La Hunspell-vortaro havas nomon, kies finaĵo estas &quot;.dic&quot;,
 kaj devas akompani afiksan dosieron, kiu havas la saman
-nomon se kun la finaĵo &quot;.aff&quot;.</translation>
+nomon sed kun la finaĵo &quot;.aff&quot;.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="918"/>

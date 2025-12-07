@@ -1164,7 +1164,7 @@
         <location filename="../../filedialog.h" line="49"/>
         <source>Ctrl+H</source>
         <comment>Toggle showing hidden files</comment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Ctrl+H</translation>
     </message>
     <message>
         <location filename="../../filedialog.h" line="50"/>
@@ -1937,7 +1937,7 @@ be opened if they are pasted into FeatherPad.</source>
     <message>
         <location filename="../../prefDialog.ui" line="1486"/>
         <source>Close</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Zatvori</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="113"/>
@@ -2036,12 +2036,12 @@ in the editing mode.</source>
     <message>
         <location filename="../../pref.cpp" line="1524"/>
         <source>&amp;Recently Opened</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">&amp;Nedavno Otvoreno</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="1525"/>
         <source>Recently &amp;Modified</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Nedavno &amp;izmjenjene</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="1600"/>
@@ -2091,12 +2091,12 @@ in the editing mode.</source>
     <message>
         <location filename="../../searchbar.cpp" line="120"/>
         <source>Next</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Iduće</translation>
     </message>
     <message>
         <location filename="../../searchbar.cpp" line="121"/>
         <source>Previous</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Prijašnje</translation>
     </message>
 </context>
 <context>
@@ -2131,7 +2131,7 @@ in the editing mode.</source>
         <location filename="../../sessionDialog.ui" line="84"/>
         <location filename="../../sessionDialog.ui" line="299"/>
         <source>&amp;Open</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">&amp;Otvori</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="110"/>
@@ -2185,7 +2185,7 @@ windows will be included in the saved session.</source>
     <message>
         <location filename="../../sessionDialog.ui" line="284"/>
         <source>&amp;Close</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">&amp;Zatvori</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="147"/>
@@ -2195,7 +2195,7 @@ windows will be included in the saved session.</source>
     <message>
         <location filename="../../sessionDialog.ui" line="150"/>
         <source>&amp;Save</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">&amp;Spremi</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="161"/>
@@ -2266,7 +2266,7 @@ windows will be included in the saved session.</source>
     <message>
         <location filename="../../spellDialog.ui" line="62"/>
         <source>Replace with:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Zamijeni s:</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="129"/>
