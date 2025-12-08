@@ -407,7 +407,7 @@
     <message>
         <location filename="../../fp.ui" line="888"/>
         <source>&amp;Run</source>
-        <translation>Ek&amp;zekvi</translation>
+        <translation>&amp;Ruli</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="894"/>
@@ -570,7 +570,7 @@
     <message>
         <location filename="../../fp.ui" line="891"/>
         <source>Execute</source>
-        <translation>Ekzekvi</translation>
+        <translation>Ruli</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="819"/>
@@ -1629,13 +1629,13 @@ If the script is not run in a terminal
 emulator, the output and error messages
 will be shown by a popup dialog.</source>
         <translation>Ĉi tio povas esti komencanta signovico kun
-operando, ekz. &quot;xterm -hold&quot; por ekzekvi la
+operando, ekz. &quot;xterm -hold&quot; por ruli la
 procezon en XTerm.
 
 Se la signovico forestus, la dosiero estus
-ekzekvita senpere.
+rulita senpere.
 
-Se la skripto ne estus ekzekvita en terminal-
+Se la skripto ne estus rulebla en terminal-
 emulatoro, dialogo ekaperus montranta la
 eligajn kaj erarajn mesaĝojn.</translation>
     </message>
@@ -1745,12 +1745,12 @@ executable, the file will be executed by clicking
 the Run button, that appears on the toolbar/filemenu
 when needed, or by its shortcut Ctrl+E. Then, the
 process could be killed by Ctrl+Alt+E.</source>
-        <translation>Tio inkluzivas nur ekzekveblajn dosierojn
+        <translation>Tio inkluzivas nur ruleblajn dosierojn
 scribitajn en skript-lingvoj kiel Shell kaj Python.
 
 Se ĝi estus markita kaj la malfermita dosiero estus
-ekzekvebla, la dosiero estus plenumita per kliko al la
-butono &quot;Ekzekvi&quot;, kiu aperus taŭge sur la ilbreto/dosiermenuo,
+rulebla, la dosiero estus plenumigita per kliko al la
+butono &quot;Ruli&quot;, kiu aperus taŭge sur la ilbreto/dosiermenuo,
 aŭ per ĝia fulmoklavo Ctrl+E. Tiam, la procezo povus esti
 ĉesigita per la fulmoklavo Ctrl+Alt+E.</translation>
     </message>
@@ -1782,7 +1782,7 @@ ke ĉi tio efektivĝu.</translation>
     <message>
         <location filename="../../prefDialog.ui" line="1127"/>
         <source>Run executable scripts</source>
-        <translation>Plenumu ekzekveblajn skriptojn</translation>
+        <translation>Plenumigu ruleblajn skriptojn</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1001"/>
