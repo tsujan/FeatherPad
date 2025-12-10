@@ -98,7 +98,9 @@ In FeatherPad, searching and replacing are done by separate widgets for the user
 
 Therefore, there is no mixed "Search & Replace" widget: searching is always done by the search bar, and replacing by the 'Replacement' widget.
 
-The 'Next' buttons of the search bar and 'Replacement' widget always refer to the next occurrence that comes after the text cursor or selected text — and similarly for the 'Previous' buttons. In this regard, if there is a selection, it makes no difference whether it is made from start to end or conversely.
+The 'Next' button of the search bar always refers to the next occurrence that comes after the text cursor or selected text — and similarly for the 'Previous' button. In this regard, if there is a selection, it makes no difference whether it is made from start to end or conversely.
+
+The 'Next' button of the 'Replacement' widget includes the selected text, if any — and similarly for the 'Previous' button. The reason for this behavior is that the user may want to find a match first and only then decide whether it should be replaced: if it should, there will be no need to move the cursor.
 
 To remove the yellow highlights after finishing a search, you could
 

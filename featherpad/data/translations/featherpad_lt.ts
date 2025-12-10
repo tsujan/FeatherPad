@@ -590,8 +590,8 @@
     <message>
         <location filename="../../fp.ui" line="305"/>
         <location filename="../../fpwin.cpp" line="4151"/>
-        <location filename="../../replace.cpp" line="61"/>
-        <location filename="../../replace.cpp" line="112"/>
+        <location filename="../../replace.cpp" line="63"/>
+        <location filename="../../replace.cpp" line="114"/>
         <source>Replacement</source>
         <translation>Pakeitimas</translation>
     </message>
@@ -1129,17 +1129,17 @@
         <translation>Apie FeatherPad</translation>
     </message>
     <message>
-        <location filename="../../replace.cpp" line="277"/>
+        <location filename="../../replace.cpp" line="285"/>
         <source>No Replacement</source>
         <translation>Jokių pakeitimų</translation>
     </message>
     <message>
-        <location filename="../../replace.cpp" line="279"/>
+        <location filename="../../replace.cpp" line="287"/>
         <source>One Replacement</source>
         <translation>Vienas pakeitimas</translation>
     </message>
     <message numerus="yes">
-        <location filename="../../replace.cpp" line="281"/>
+        <location filename="../../replace.cpp" line="289"/>
         <source>%Ln Replacements</source>
         <translation>
             <numerusform>%Ln pakeitimas</numerusform>
@@ -1148,7 +1148,7 @@
         </translation>
     </message>
     <message>
-        <location filename="../../replace.cpp" line="285"/>
+        <location filename="../../replace.cpp" line="293"/>
         <source>The first 1000 replacements are highlighted.</source>
         <translation>Pirmieji 1000 pakeitimų yra paryškinti.</translation>
     </message>

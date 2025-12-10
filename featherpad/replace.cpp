@@ -1,5 +1,5 @@
 /*
- * Copyright (C) Pedram Pourang (aka Tsu Jan) 2014-2024 <tsujan2000@gmail.com>
+ * Copyright (C) Pedram Pourang (aka Tsu Jan) 2014-2025 <tsujan2000@gmail.com>
  *
  * FeatherPad is free software: you can redistribute it and/or modify it
  * under the terms of the GNU General Public License as published by the
@@ -19,6 +19,8 @@
 
 #include "fpwin.h"
 #include "ui_fp.h"
+
+#include <algorithm>
 
 namespace FeatherPad {
 
@@ -142,9 +144,15 @@ void FPwin::replace()
     QTextCursor tmp = start;
     QTextCursor found;
     if (QObject::sender() == ui->toolButtonNext)
+    {
+        start.setPosition (std::min (start.anchor(), start.position())); // to replace after searching
         found = textEdit->finding (txtFind, start, searchFlags, tabPage->matchRegex());
+    }
     else// if (QObject::sender() == ui->toolButtonPrv)
+    {
+        start.setPosition (std::max (start.anchor(), start.position()));
         found = textEdit->finding (txtFind, start, searchFlags | QTextDocument::FindBackward, tabPage->matchRegex());
+    }
     QColor color = QColor (textEdit->hasDarkScheme() ? Qt::darkGreen : Qt::green);
     int pos;
     if (!found.isNull())

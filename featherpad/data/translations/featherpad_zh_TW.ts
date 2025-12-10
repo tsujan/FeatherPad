@@ -590,8 +590,8 @@
     <message>
         <location filename="../../fp.ui" line="305"/>
         <location filename="../../fpwin.cpp" line="4151"/>
-        <location filename="../../replace.cpp" line="61"/>
-        <location filename="../../replace.cpp" line="112"/>
+        <location filename="../../replace.cpp" line="63"/>
+        <location filename="../../replace.cpp" line="114"/>
         <source>Replacement</source>
         <translation>取代</translation>
     </message>
@@ -1129,24 +1129,24 @@
         <translation>關於 FeatherPad</translation>
     </message>
     <message>
-        <location filename="../../replace.cpp" line="277"/>
+        <location filename="../../replace.cpp" line="285"/>
         <source>No Replacement</source>
         <translation>沒有取代</translation>
     </message>
     <message>
-        <location filename="../../replace.cpp" line="279"/>
+        <location filename="../../replace.cpp" line="287"/>
         <source>One Replacement</source>
         <translation>一個取代</translation>
     </message>
     <message numerus="yes">
-        <location filename="../../replace.cpp" line="281"/>
+        <location filename="../../replace.cpp" line="289"/>
         <source>%Ln Replacements</source>
         <translation>
             <numerusform>%Ln 個取代</numerusform>
         </translation>
     </message>
     <message>
-        <location filename="../../replace.cpp" line="285"/>
+        <location filename="../../replace.cpp" line="293"/>
         <source>The first 1000 replacements are highlighted.</source>
         <translation>頭前 1000 個取代之處強調顯示。</translation>
     </message>

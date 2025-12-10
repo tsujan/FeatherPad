@@ -596,8 +596,8 @@
     <message>
         <location filename="../../fp.ui" line="305"/>
         <location filename="../../fpwin.cpp" line="4151"/>
-        <location filename="../../replace.cpp" line="61"/>
-        <location filename="../../replace.cpp" line="112"/>
+        <location filename="../../replace.cpp" line="63"/>
+        <location filename="../../replace.cpp" line="114"/>
         <source>Replacement</source>
         <translation>Metin Değiştirme</translation>
     </message>
@@ -1139,18 +1139,18 @@
         <translation>FeatherPad Hakkında</translation>
     </message>
     <message>
-        <location filename="../../replace.cpp" line="277"/>
+        <location filename="../../replace.cpp" line="285"/>
         <source>No Replacement</source>
         <translatorcomment>Reminder: Literally &quot;Zero Replacement&quot; (in English &quot;no&quot; negates the expression, whereas in Turkish it should (also) be negated at the verb. Since the verb will either be non-existent or fixed as positive, then &quot;zero replacement [done]&quot; is the only acceptable wording left in Turkish, AFAIK.)</translatorcomment>
         <translation>Sıfır Değişiklik</translation>
     </message>
     <message>
-        <location filename="../../replace.cpp" line="279"/>
+        <location filename="../../replace.cpp" line="287"/>
         <source>One Replacement</source>
         <translation>Bir Değişiklik</translation>
     </message>
     <message numerus="yes">
-        <location filename="../../replace.cpp" line="281"/>
+        <location filename="../../replace.cpp" line="289"/>
         <source>%Ln Replacements</source>
         <translatorcomment>Reminder: Must be singular for enumerated items as in &quot;7 file&quot; but NOT &quot;7 files&quot;</translatorcomment>
         <translation>
@@ -1158,7 +1158,7 @@
         </translation>
     </message>
     <message>
-        <location filename="../../replace.cpp" line="285"/>
+        <location filename="../../replace.cpp" line="293"/>
         <source>The first 1000 replacements are highlighted.</source>
         <translation>İlk 1000 değiştirme vurgulanmıştır.</translation>
     </message>
