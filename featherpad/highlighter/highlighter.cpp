@@ -2118,13 +2118,16 @@ bool Highlighter::isEscapedQuote (const QString &text, const int pos, bool isSta
             }
             return false; // no other case of escaping at the start
         }
-        else if (progLan == "c" || progLan == "cpp")
-        {
-            /*if (text.at (pos) == '\''
-                && pos > 0 && text.at (pos - 1).isLetterOrNumber())
+        else if (progLan == "c")
+            return false;
+        else if (progLan == "cpp")
+        { // handled separately because of ' as separator
+            if (text.at (pos) == '\''
+                && pos > 0 && text.at (pos - 1).isNumber()
+                && pos < text.length() - 1 && text.at (pos + 1).isNumber())
             {
                 return true;
-            }*/
+            }
             return false;
         }
         else if (progLan != "sh" && progLan != "makefile" && progLan != "cmake"

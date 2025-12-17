@@ -4,6 +4,7 @@ V1.6.3
  * Fixed an asymmetry between the forward and backward searches/replacements if some text was selected.
  * Made replacing after searching easier (without needing to clear the selection first).
  * Fixed showing of ampersand in the recent files menus.
+ * Fixed highlighting of C++ numbers with single quote as separator.
  * Added more explanation on searching and replacing to Help.
 
 V1.6.2
