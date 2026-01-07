@@ -1,5 +1,5 @@
 /*
- * Copyright (C) Pedram Pourang (aka Tsu Jan) 2014-2025 <tsujan2000@gmail.com>
+ * Copyright (C) Pedram Pourang (aka Tsu Jan) 2014-2026 <tsujan2000@gmail.com>
  *
  * FeatherPad is free software: you can redistribute it and/or modify it
  * under the terms of the GNU General Public License as published by the
@@ -1786,6 +1786,16 @@ Highlighter::Highlighter (QTextDocument *parent, const QString& lang,
         quoteFormat.setFontWeight (QFont::Bold);
         errorFormat.setForeground (Red);
         errorFormat.setFontUnderline (true);
+        /* with Json, errorFormat is used everywhere
+           and overrided only if the syntax is correct */
+        if (!showWhiteSpace)
+        {
+            whiteSpaceFormat.setForeground (neutralColor);
+            rule.pattern.setPattern ("\\s+");
+            rule.format = whiteSpaceFormat;
+            highlightingRules.append (rule);
+        }
+
     }
 
     if (showWhiteSpace)

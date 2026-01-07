@@ -1,3 +1,7 @@
+V1.6.4
+---------
+ * Fixed JSON's highlighting without showing whitespaces.
+
 V1.6.3
 ---------
  * Check for nullity before calling `deleteLater()` — they say that's needed with Clang's optimizations enabled.
