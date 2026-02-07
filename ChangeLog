@@ -1,6 +1,8 @@
 V1.6.4
 ---------
- * Fixed JSON's highlighting without showing whitespaces.
+ * Fixed JSON's highlighting when whitespaces are not shown.
+ * Activate the session dialog under Wayland too when it is called by another window.
+ * Bumped the minimum version of Qt to 6.5.
 
 V1.6.3
 ---------

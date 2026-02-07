@@ -1783,19 +1783,18 @@ Highlighter::Highlighter (QTextDocument *parent, const QString& lang,
     }
     else if (progLan == "json")
     {
+        /* with Json, errorFormat is used everywhere
+           and overrided only if the syntax is correct */
         quoteFormat.setFontWeight (QFont::Bold);
         errorFormat.setForeground (Red);
         errorFormat.setFontUnderline (true);
-        /* with Json, errorFormat is used everywhere
-           and overrided only if the syntax is correct */
         if (!showWhiteSpace)
         {
-            whiteSpaceFormat.setForeground (neutralColor);
+            whiteSpaceFormat.setForeground (TextColor);
             rule.pattern.setPattern ("\\s+");
             rule.format = whiteSpaceFormat;
             highlightingRules.append (rule);
         }
-
     }
 
     if (showWhiteSpace)
