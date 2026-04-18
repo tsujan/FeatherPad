@@ -1,5 +1,5 @@
 /*
- * Copyright (C) Pedram Pourang (aka Tsu Jan) 2014-2025 <tsujan2000@gmail.com>
+ * Copyright (C) Pedram Pourang (aka Tsu Jan) 2014-2026 <tsujan2000@gmail.com>
  *
  * FeatherPad is free software: you can redistribute it and/or modify it
  * under the terms of the GNU General Public License as published by the
@@ -67,6 +67,14 @@ void TabBar::mouseReleaseEvent (QMouseEvent *event)
     dragStarted_ = false;
     dragStartPosition_ = QPoint();
 
+#if (QT_VERSION >= QT_VERSION_CHECK(6,11,0))
+    /* WARNING: Qt 6.11 implemented closing on middle clicking in a backward-incompatible
+                way, such that the index is reported wrongly after "mouseReleaseEvent". */
+    int index = tabAt (event->position().toPoint());
+    QTabBar::mouseReleaseEvent (event);
+    if (event->button() == Qt::MiddleButton && index < 0)
+        emit hideTabBar();
+#else
     QTabBar::mouseReleaseEvent (event);
     if (event->button() == Qt::MiddleButton)
     {
@@ -76,6 +84,7 @@ void TabBar::mouseReleaseEvent (QMouseEvent *event)
         else
             emit hideTabBar();
     }
+#endif
 }
 /*************************/
 void TabBar::mouseMoveEvent (QMouseEvent *event)

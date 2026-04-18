@@ -1,5 +1,5 @@
 /*
- * Copyright (C) Pedram Pourang (aka Tsu Jan) 2014-2025 <tsujan2000@gmail.com>
+ * Copyright (C) Pedram Pourang (aka Tsu Jan) 2014-2026 <tsujan2000@gmail.com>
  *
  * FeatherPad is free software: you can redistribute it and/or modify it
  * under the terms of the GNU General Public License as published by the
@@ -1584,7 +1584,7 @@ TabPage* FPwin::createEmptyTab (bool setCurrent, bool allowNormalHighlighter)
     if (ui->actionLineNumbers->isChecked() || ui->spinBox->isVisible())
         textEdit->showLineNumbers (true);
     if (ui->spinBox->isVisible())
-        connect (textEdit->document(), &QTextDocument::blockCountChanged, this, &FPwin::setMax);
+        connect (textEdit->document(), &QTextDocument::blockCountChanged, this, &FPwin::setMaxBlocks);
     if (ui->statusBar->isVisible()
         || config.getShowStatusbar()) // when the main window is being created, isVisible() isn't set yet
     {
@@ -4357,13 +4357,13 @@ void FPwin::jumpTo()
             connect (thisTextEdit->document(),
                      &QTextDocument::blockCountChanged,
                      this,
-                     &FPwin::setMax);
+                     &FPwin::setMaxBlocks);
         }
         else
             disconnect (thisTextEdit->document(),
                         &QTextDocument::blockCountChanged,
                         this,
-                        &FPwin::setMax);
+                        &FPwin::setMaxBlocks);
     }
 
     TabPage *tabPage = qobject_cast< TabPage *>(ui->tabWidget->currentWidget());
@@ -4386,7 +4386,7 @@ void FPwin::jumpTo()
         tabPage->textEdit()->setFocus();
 }
 /*************************/
-void FPwin::setMax (const int max)
+void FPwin::setMaxBlocks (const int max)
 {
     ui->spinBox->setMaximum (max);
 }
@@ -4977,7 +4977,7 @@ void FPwin::detachTab()
 
     disconnect (textEdit->document(), &QTextDocument::contentsChange, this, &FPwin::updateWordInfo);
     disconnect (textEdit->document(), &QTextDocument::contentsChange, this, &FPwin::formatOnTextChange);
-    disconnect (textEdit->document(), &QTextDocument::blockCountChanged, this, &FPwin::setMax);
+    disconnect (textEdit->document(), &QTextDocument::blockCountChanged, this, &FPwin::setMaxBlocks);
     disconnect (textEdit->document(), &QTextDocument::modificationChanged, this, &FPwin::asterisk);
     disconnect (textEdit->document(), &QTextDocument::undoAvailable, ui->actionUndo, &QAction::setEnabled);
     disconnect (textEdit->document(), &QTextDocument::redoAvailable, ui->actionRedo, &QAction::setEnabled);
@@ -5085,7 +5085,7 @@ void FPwin::detachTab()
         dropTarget->ui->spinBox->setVisible (true);
         dropTarget->ui->label->setVisible (true);
         dropTarget->ui->spinBox->setMaximum (textEdit->document()->blockCount());
-        connect (textEdit->document(), &QTextDocument::blockCountChanged, dropTarget, &FPwin::setMax);
+        connect (textEdit->document(), &QTextDocument::blockCountChanged, dropTarget, &FPwin::setMaxBlocks);
     }
     if (ln)
         dropTarget->ui->actionLineNumbers->setChecked (true);
@@ -5235,7 +5235,7 @@ void FPwin::dropTab (const QString& str, QObject *source)
 
     disconnect (textEdit->document(), &QTextDocument::contentsChange, dragSource, &FPwin::updateWordInfo);
     disconnect (textEdit->document(), &QTextDocument::contentsChange, dragSource, &FPwin::formatOnTextChange);
-    disconnect (textEdit->document(), &QTextDocument::blockCountChanged, dragSource, &FPwin::setMax);
+    disconnect (textEdit->document(), &QTextDocument::blockCountChanged, dragSource, &FPwin::setMaxBlocks);
     disconnect (textEdit->document(), &QTextDocument::modificationChanged, dragSource, &FPwin::asterisk);
     disconnect (textEdit->document(), &QTextDocument::undoAvailable, dragSource->ui->actionUndo, &QAction::setEnabled);
     disconnect (textEdit->document(), &QTextDocument::redoAvailable, dragSource->ui->actionRedo, &QAction::setEnabled);
@@ -5350,7 +5350,7 @@ void FPwin::dropTab (const QString& str, QObject *source)
         delete highlighter; highlighter = nullptr;
     }
     if (ui->spinBox->isVisible())
-        connect (textEdit->document(), &QTextDocument::blockCountChanged, this, &FPwin::setMax);
+        connect (textEdit->document(), &QTextDocument::blockCountChanged, this, &FPwin::setMaxBlocks);
     if (ui->actionLineNumbers->isChecked() || ui->spinBox->isVisible())
         textEdit->showLineNumbers (true);
     else

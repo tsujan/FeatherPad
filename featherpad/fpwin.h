@@ -1,5 +1,5 @@
 /*
- * Copyright (C) Pedram Pourang (aka Tsu Jan) 2014-2025 <tsujan2000@gmail.com>
+ * Copyright (C) Pedram Pourang (aka Tsu Jan) 2014-2026 <tsujan2000@gmail.com>
  *
  * FeatherPad is free software: you can redistribute it and/or modify it
  * under the terms of the GNU General Public License as published by the
@@ -154,7 +154,7 @@ private slots:
     void replaceDock();
     void resizeDock (bool topLevel);
     void jumpTo();
-    void setMax (const int max);
+    void setMaxBlocks (const int max);
     void goTo();
     void asterisk (bool modified);
     void reformat (TextEdit *textEdit);

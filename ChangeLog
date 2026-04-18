@@ -2,6 +2,7 @@ V1.6.4
 ---------
  * Fixed JSON's highlighting when whitespaces are not shown.
  * Activate the session dialog under Wayland too when it is called by another window.
+ * Fixed tab middle clicking for Qt ≥ 6.11 (it stopped working correctly after a backward-incompatible change in Qt).
  * Bumped the minimum version of Qt to 6.5.
 
 V1.6.3
