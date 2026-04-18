@@ -508,7 +508,7 @@
         <location filename="../../fp.ui" line="986"/>
         <location filename="../../fp.ui" line="989"/>
         <source>Sort Lines Reversely</source>
-        <translation>Sorter linjer rekursivt</translation>
+        <translation>Sorter linjer omvendt</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="994"/>
@@ -757,7 +757,7 @@
         <location filename="../../fpwin.cpp" line="4557"/>
         <location filename="../../fpwin.cpp" line="4572"/>
         <source>Sel. Chars</source>
-        <translation>Velg tegn</translation>
+        <translation>Merkede tegn</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4559"/>
@@ -952,17 +952,17 @@
     <message>
         <location filename="../../fpwin.cpp" line="2698"/>
         <source>Huge file(s) not opened!</source>
-        <translation>Kjempestore filer ikke åpnet!</translation>
+        <translation>Kjempestor(e) fil(er) ikke åpnet!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2749"/>
         <source>Huge column!</source>
-        <translation type="unfinished"></translation>
+        <translation>Kjempestor kolonne!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2750"/>
         <source>Columns with more than 1000 rows are not supported.</source>
-        <translation type="unfinished"></translation>
+        <translation>Kolonner med flere enn 1000 rekker støttes ikke.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2874"/>
