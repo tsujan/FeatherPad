@@ -22,7 +22,8 @@
 
 #include <QString>
 #include <QHash>
-#include <QStringEncoder>
+#include <QStringConverter>
+#include <string>
 
 class Hunspell;
 
@@ -46,9 +47,12 @@ public:
     }
 
 private:
+    std::string encodedWord (const QString &word) const;
+    QString decodedWord (const std::string &word) const;
+
     Hunspell *hunspell_;
     QString userDictionary_;
-    QStringEncoder encoder_;
+    QStringConverter::Encoding encoding_;
     QHash<QString, QString> corrections_;
 };
 

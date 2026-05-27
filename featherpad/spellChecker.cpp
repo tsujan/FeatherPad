@@ -23,11 +23,24 @@
 #include <QTextStream>
 #include <QStringList>
 #include <QRegularExpression>
+#include <QStringDecoder>
+#include <QStringEncoder>
 
 #include <hunspell.hxx>
 
 namespace FeatherPad {
 
+static inline QStringConverter::Encoding spellEncoding (const QString &encoding)
+{
+    return encoding.compare ("UTF-8", Qt::CaseInsensitive) == 0
+               ? QStringConverter::Utf8
+           : encoding.compare ("UTF-16", Qt::CaseInsensitive) == 0
+               ? QStringConverter::Utf16
+           : encoding.compare ("UTF-32", Qt::CaseInsensitive) == 0
+               ? QStringConverter::Utf32
+           : QStringConverter::Latin1;
+}
+/*************************/
 SpellChecker::SpellChecker (const QString& dictionaryPath, const QString& userDictionary)
 {
     userDictionary_ = userDictionary;
@@ -55,13 +68,7 @@ SpellChecker::SpellChecker (const QString& dictionaryPath, const QString& userDi
         }
         _affixFile.close();
     }
-    encoder_ = QStringEncoder (encoding.compare ("UTF-8", Qt::CaseInsensitive) == 0 ?
-                                   QStringConverter::Utf8
-                               : encoding.compare ("UTF-16", Qt::CaseInsensitive) == 0 ?
-                                   QStringConverter::Utf16
-                               : encoding.compare ("UTF-32", Qt::CaseInsensitive) == 0 ?
-                                   QStringConverter::Utf32
-                               : QStringConverter::Latin1);
+    encoding_ = spellEncoding (encoding);
 
     if (!userDictionary_.isEmpty())
     {
@@ -83,22 +90,34 @@ SpellChecker::~SpellChecker()
 /*************************/
 bool SpellChecker::spell (const QString& word)
 {
-    return hunspell_->spell (word.toStdString());
+    return hunspell_->spell (encodedWord (word));
 }
 /*************************/
 QStringList SpellChecker::suggest (const QString& word)
 {
-    const std::vector<std::string> strSuggestions = hunspell_->suggest (word.toStdString());
+    const std::vector<std::string> strSuggestions = hunspell_->suggest (encodedWord (word));
     QStringList suggestions;
     for (const auto &str : strSuggestions)
-        suggestions << QString::fromStdString (str);
+        suggestions << decodedWord (str);
     return suggestions;
 }
 /*************************/
 void SpellChecker::ignoreWord (const QString& word)
 {
-    QByteArray b = encoder_.encode (word);
-    hunspell_->add (b.toStdString());
+    hunspell_->add (encodedWord (word));
+}
+/*************************/
+std::string SpellChecker::encodedWord (const QString &word) const
+{
+    QStringEncoder encoder (encoding_);
+    const QByteArray b = encoder.encode (word);
+    return std::string (b.constData(), static_cast<size_t>(b.size()));
+}
+/*************************/
+QString SpellChecker::decodedWord (const std::string &word) const
+{
+    QStringDecoder decoder (encoding_);
+    return decoder.decode (QByteArray (word.data(), static_cast<qsizetype>(word.size())));
 }
 /*************************/
 void SpellChecker::addToUserWordlist (const QString& word)
