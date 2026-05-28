@@ -26,6 +26,13 @@
 
 namespace FeatherPad {
 
+static QRegularExpression sessionFilterExpression (const QString& filter)
+{
+    return QRegularExpression::fromWildcard (filter,
+                                             Qt::CaseInsensitive,
+                                             QRegularExpression::UnanchoredWildcardConversion);
+}
+
 // Since we don't want extra prompt dialogs, we make the
 // session dialog behave like a prompt dialog when needed.
 SessionDialog::SessionDialog (QWidget *parent):QDialog (parent), ui (new Ui::SessionDialog)
@@ -227,7 +234,7 @@ void SessionDialog::reallySaveSession()
     /* there's always an opened file here */
     allItems_ << ui->lineEdit->text();
     allItems_.removeDuplicates();
-    QRegularExpression exp (ui->filterLineEdit->text(), QRegularExpression::CaseInsensitiveOption);
+    QRegularExpression exp = sessionFilterExpression (ui->filterLineEdit->text());
     if (allItems_.filter (exp).contains (ui->lineEdit->text()))
     {
         ListWidgetItem *lwi = new ListWidgetItem (ui->lineEdit->text(), ui->listWidget);
@@ -474,7 +481,7 @@ void SessionDialog::reallyRenameSession()
            with all items that have the same name */
         if (!ui->filterLineEdit->text().isEmpty())
         {
-            QRegularExpression exp (ui->filterLineEdit->text(), QRegularExpression::CaseInsensitiveOption);
+            QRegularExpression exp = sessionFilterExpression (ui->filterLineEdit->text());
             if (!allItems_.filter (exp).contains (rename_.newName))
                 isFiltered = true;
         }
@@ -512,7 +519,7 @@ void SessionDialog::reallyApplyFilter()
         sel << items.at (i)->text();
     /* then, clear the current list and add the filtered one */
     ui->listWidget->clear();
-    QRegularExpression exp (ui->filterLineEdit->text(), QRegularExpression::CaseInsensitiveOption);
+    QRegularExpression exp = sessionFilterExpression (ui->filterLineEdit->text());
     const QStringList filtered = allItems_.filter (exp);
     for (const auto &item : filtered)
     {
