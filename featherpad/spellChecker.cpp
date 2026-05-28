@@ -45,7 +45,8 @@ SpellChecker::SpellChecker (const QString& dictionaryPath, const QString& userDi
         QTextStream stream (&_affixFile);
         QRegularExpression encDetector ("^\\s*SET\\s+([A-Z0-9\\-]+)\\s*", QRegularExpression::CaseInsensitiveOption);
         QRegularExpressionMatch match;
-        for (QString line = stream.readLine(); !line.isEmpty(); line = stream.readLine())
+        QString line;
+        while (stream.readLineInto (&line))
         {
             if (line.indexOf (encDetector, 0, &match) > -1)
             {
@@ -69,8 +70,12 @@ SpellChecker::SpellChecker (const QString& dictionaryPath, const QString& userDi
         if (userDictonaryFile.open (QIODevice::ReadOnly))
         {
             QTextStream stream (&userDictonaryFile);
-            for (QString word = stream.readLine(); !word.isEmpty(); word = stream.readLine())
-                ignoreWord (word);
+            QString word;
+            while (stream.readLineInto (&word))
+            {
+                if (!word.isEmpty())
+                    ignoreWord (word);
+            }
             userDictonaryFile.close();
         }
     }
