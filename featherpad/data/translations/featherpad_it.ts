@@ -957,7 +957,7 @@ linea (Ctrl + Shift + J)</translation>
     <message>
         <location filename="../../fpwin.cpp" line="1989"/>
         <source>Cannot start process!</source>
-        <translation type="unfinished"></translation>
+        <translation>Impossibile avviare il processo!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2758"/>
