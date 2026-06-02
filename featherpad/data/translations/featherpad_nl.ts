@@ -957,7 +957,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="1989"/>
         <source>Cannot start process!</source>
-        <translation type="unfinished"></translation>
+        <translation>Het proces kan niet worden gestart!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2758"/>
