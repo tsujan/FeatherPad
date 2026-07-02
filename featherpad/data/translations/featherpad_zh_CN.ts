@@ -957,17 +957,17 @@
     <message>
         <location filename="../../fpwin.cpp" line="1989"/>
         <source>Cannot start process!</source>
-        <translation type="unfinished"></translation>
+        <translation>无法启动进程！</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2758"/>
         <source>Huge column!</source>
-        <translation type="unfinished"></translation>
+        <translation>列过大！</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2759"/>
         <source>Columns with more than 1000 rows are not supported.</source>
-        <translation type="unfinished"></translation>
+        <translation>不支持超过1000行的列。</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2883"/>
