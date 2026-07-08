@@ -863,7 +863,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="2811"/>
         <source>Root Instance</source>
-        <translation>Ριζική περίοδος λειτουργίας</translation>
+        <translation>Υπόσταση διαχειριστή</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2892"/>
