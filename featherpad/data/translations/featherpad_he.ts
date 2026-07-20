@@ -957,7 +957,7 @@
     <message>
         <location filename="../../fpwin.cpp" line="1989"/>
         <source>Cannot start process!</source>
-        <translation type="unfinished"></translation>
+        <translation>לא ניתן להפעיל את התהליך!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2758"/>
@@ -1149,6 +1149,8 @@
         <translation>
             <numerusform>החלפה אחת</numerusform>
             <numerusform>שתי החלפות</numerusform>
+            <numerusform>%Ln החלפות</numerusform>
+            <numerusform>%Ln החלפות</numerusform>
         </translation>
     </message>
     <message>
