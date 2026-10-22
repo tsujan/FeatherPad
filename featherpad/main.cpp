@@ -79,22 +79,6 @@ int main (int argc, char **argv)
 
     singleton.init (firstArg == "--standalone" || firstArg == "-s");
 
-    QTranslator qtTranslator;
-    if (qtTranslator.load ("qt_" + QLocale::system().name(), QLibraryInfo::path (QLibraryInfo::TranslationsPath)))
-        singleton.installTranslator (&qtTranslator);
-
-    QTranslator FPTranslator;
-#if defined(Q_OS_HAIKU)
-    if (FPTranslator.load ("featherpad_" + QLocale::system().name(), QStringLiteral (DATADIR) + "/../translations"))
-#elif defined(Q_OS_MAC)
-    if (FPTranslator.load ("featherpad_" + QLocale::system().name(), singleton.applicationDirPath() + QStringLiteral ("/../Resources/translations/")))
-#else
-    if (FPTranslator.load ("featherpad_" + QLocale::system().name(), QStringLiteral (DATADIR) + "/featherpad/translations"))
-#endif
-    {
-        singleton.installTranslator (&FPTranslator);
-    }
-
     QStringList info;
 #ifdef HAS_X11
     int d = singleton.isX11() ? static_cast<int>(FeatherPad::fromDesktop()) : -1;
@@ -109,6 +93,24 @@ int main (int argc, char **argv)
     {
         singleton.sendInfo (info); // is sent to the primary instance
         return 0;
+    }
+
+    singleton.readConfig();
+
+    QTranslator qtTranslator;
+    if (qtTranslator.load ("qt_" + QLocale::system().name(), QLibraryInfo::path (QLibraryInfo::TranslationsPath)))
+        singleton.installTranslator (&qtTranslator);
+
+    QTranslator FPTranslator;
+#if defined(Q_OS_HAIKU)
+    if (FPTranslator.load ("featherpad_" + QLocale::system().name(), QStringLiteral (DATADIR) + "/../translations"))
+#elif defined(Q_OS_MAC)
+    if (FPTranslator.load ("featherpad_" + QLocale::system().name(), singleton.applicationDirPath() + QStringLiteral ("/../Resources/translations/")))
+#else
+    if (FPTranslator.load ("featherpad_" + QLocale::system().name(), QStringLiteral (DATADIR) + "/featherpad/translations"))
+#endif
+    {
+        singleton.installTranslator (&FPTranslator);
     }
 
     // Handle SIGQUIT, SIGINT, SIGTERM and SIGHUP (-> https://en.wikipedia.org/wiki/Unix_signal).

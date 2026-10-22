@@ -378,7 +378,6 @@ void Config::readSyntaxColors()// may be called multiple times
         curLineHighlight_ = -1;
     }
 
-
     settingsColors.beginGroup ("whiteSpace");
     int ws = settingsColors.value ("value").toInt();
     settingsColors.endGroup();

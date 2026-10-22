@@ -1,5 +1,5 @@
 /*
- * Copyright (C) Pedram Pourang (aka Tsu Jan) 2014-2020 <tsujan2000@gmail.com>
+ * Copyright (C) Pedram Pourang (aka Tsu Jan) 2014-2026 <tsujan2000@gmail.com>
  *
  * FeatherPad is free software: you can redistribute it and/or modify it
  * under the terms of the GNU General Public License as published by the
@@ -57,12 +57,7 @@ FPsingleton::FPsingleton (int &argc, char **argv) : QApplication (argc, argv)
     standalone_ = false;
     quitSignalReceived_ = false;
     isRoot_ = false;
-    config_.readConfig();
-    lastFiles_ = config_.getLastFiles();
-    if (config_.getSharedSearchHistory())
-        searchModel_ = new QStandardItemModel (0, 1, this);
-    else
-        searchModel_ = nullptr;
+    searchModel_ = nullptr;
 }
 /*************************/
 FPsingleton::~FPsingleton()
@@ -89,6 +84,14 @@ void FPsingleton::init (bool standalone)
             dbus.registerObject (QStringLiteral ("/Application"), this);
         }
     }
+}
+/*************************/
+void FPsingleton::readConfig()
+{
+    config_.readConfig();
+    lastFiles_ = config_.getLastFiles();
+    if (config_.getSharedSearchHistory())
+        searchModel_ = new QStandardItemModel (0, 1, this);
 }
 /*************************/
 void FPsingleton::quitting()

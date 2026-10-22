@@ -1,6 +1,7 @@
 V1.6.5
 ---------
  * Try to emulate X11's virtual desktop awareness on Wayland by relying on how Qt windows are exposed under the compositor. Unfortunately, it isn't reliable under all circumstances and doesn't work with some compositors (like Niri).
+ * Read config and load translations only for the primary instance (no redundant computation).
 
 V1.6.4
 ---------
