@@ -333,7 +333,7 @@ void FPwin::closeEvent (QCloseEvent *event)
     /* NOTE: With Qt6, "QCoreApplication::quit()" calls "closeEvent()" when the window is
              visible. But we want the app to quit without any prompt when receiving SIGTERM
              and similar signals. Here, we handle the situation by checking if a quit signal
-             is received. This is also safe with Qt5. */
+             is received. (This was also safe with Qt5.) */
     if (singleton->isQuitSignalReceived())
     {
         event->accept();
@@ -370,8 +370,8 @@ void FPwin::closeEvent (QCloseEvent *event)
 // session end and, for now, covers cursor positions of sessions and last files.
 void FPwin::cleanUpOnTerminating (Config &config, bool isLastWin)
 {
-    /* WARNING: Qt5 has a bug that will cause a crash if "QDockWidget::visibilityChanged"
-                isn't disconnected here. This is also good with Qt6. */
+    /* WARNING: Qt5 had a bug that would cause a crash if "QDockWidget::visibilityChanged"
+                wasn't disconnected here. This is also good with Qt6. */
     disconnect (ui->dockReplace, &QDockWidget::visibilityChanged, this, &FPwin::dockVisibilityChanged);
 
     lastWinFilesCur_.clear();

@@ -1,5 +1,5 @@
 /*
- * Copyright (C) Pedram Pourang (aka Tsu Jan) 2014-2025 <tsujan2000@gmail.com>
+ * Copyright (C) Pedram Pourang (aka Tsu Jan) 2014-2026 <tsujan2000@gmail.com>
  *
  * FeatherPad is free software: you can redistribute it and/or modify it
  * under the terms of the GNU General Public License as published by the
@@ -450,12 +450,17 @@ void TextEdit::prependToColumn (QKeyEvent *event)
         bool origMousePressed = mousePressed_;
         mousePressed_ = true;
         QTextCursor cur = textCursor();
+        int bn = -1;
         cur.beginEditBlock();
         for (auto const &extra : std::as_const (colSel_))
         {
             if (!extra.cursor.hasSelection()) continue;
             cur = extra.cursor;
             cur.setPosition (std::min (cur.anchor(), cur.position()));
+            if (cur.blockNumber() == bn)
+                continue; // take wrapping into account
+            else
+                bn = cur.blockNumber();
             cur.insertText (event->text());
             // TODO: overwriteMode() ?
         }
@@ -593,12 +598,17 @@ void TextEdit::keyPressEvent (QKeyEvent *event)
                 bool origMousePressed = mousePressed_;
                 mousePressed_ = true;
                 QTextCursor cur = textCursor();
+                int bn = -1;
                 cur.beginEditBlock();
                 for (auto const &extra : std::as_const (colSel_))
                 {
                     if (!extra.cursor.hasSelection()) continue;
                     cur = extra.cursor;
                     cur.setPosition (std::min (cur.anchor(), cur.position()));
+                    if (cur.blockNumber() == bn)
+                        continue; // take wrapping into account
+                    else
+                        bn = cur.blockNumber();
                     if (cur.columnNumber() == 0)
                         continue; // don't go to the previous line
                     cur.movePosition (QTextCursor::PreviousCharacter, QTextCursor::KeepAnchor);
@@ -1178,12 +1188,17 @@ void TextEdit::keyPressEvent (QKeyEvent *event)
                     bool origMousePressed = mousePressed_;
                     mousePressed_ = true;
                     const QString spaceTab (event->modifiers() & Qt::MetaModifier ? "  " : textTab_);
+                    int bn = -1;
                     cursor.beginEditBlock();
                     for (auto const &extra : std::as_const (colSel_))
                     {
                         if (!extra.cursor.hasSelection()) continue;
                         cursor = extra.cursor;
                         cursor.setPosition (std::min (cursor.anchor(), cursor.position()));
+                        if (cursor.blockNumber() == bn)
+                            continue; // take wrapping into account
+                        else
+                            bn = cursor.blockNumber();
                         cursor.insertText (remainingSpaces (spaceTab, cursor));
                     }
                     cursor.endEditBlock();

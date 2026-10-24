@@ -1,7 +1,8 @@
 V1.6.5
 ---------
- * Try to emulate X11's virtual desktop awareness on Wayland by relying on how Qt windows are exposed under the compositor. Unfortunately, it isn't reliable under all circumstances and doesn't work with some compositors (like Niri).
+ * Try to support workspace awareness on Wayland by relying on how Qt windows are exposed. Unfortunately, this isn't reliable under all Wayland compositors (so far, only KWin has been fully self-consistent in this regard).
  * Read config and load translations only for the primary instance (no redundant computation).
+ * Insert/remove characters with a column selection only for the first selected rows of its wrapped lines. (In this way, commenting out and uncommenting can be done with wrapped lines too.)
 
 V1.6.4
 ---------
@@ -59,7 +60,7 @@ V1.5.2
 
 V1.5.1
 ---------
- * Added a safe and simple workaround for KWin6 under X11.
+ * Added a safe and simple workaround for KWin6 under X11 (by calling QWidget::hide instead of QWidget::close for the dummy widget).
  * Under X11, if there is a minimized window on the current desktop, open files as new tabs in it and unminimize it.
 
 V1.5.0

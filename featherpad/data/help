@@ -179,11 +179,11 @@ If the left mouse button is kept pressed and Shift+Ctrl is still held, moving th
 
 A column is deselected when the text cursor is moved in any way (e.g. by arrow keys, or by clicking anywhere without holding Shift+Ctrl) and on some other occasions, but it is kept intact on right clicking. With a selected column, the items "Cut", "Copy", "Paste" and "Delete" in the right-click and Edit menus work on that column. Column pasting may be a little confusing at first, but it can be used for pasting a copied column on another.
 
-If a character is typed when a column is selected, that character is inserted before it for all of its rows, without deselecting it. This property can be used, e.g., for commenting out multiple lines of codes together. Also, Backspace moves the whole column backward by removing the characters that immediately precede it, and the Delete key deletes the column.
+If a character is typed when a column is selected, that character is inserted before the (first) selected rows of its (wrapped) lines. Also, Backspace removes the characters that immediately precede the (first) selected rows of its (wrapped) lines. These two operations can be used, e.g., for commenting out or uncommenting multiple lines of codes together, whether they are wrapped or not. The Delete key deletes the whole column.
 
 However, the Enter and BackTab keys do not make sense with a column, and so, they simply deselect it and do their normal jobs at the cursor position (to untab multiple lines, select them in the usual way and press the BackTab key, as explained in the section "Text Tabbing", above).
 
-NOTE: Column selection is useful only with unwrapped lines, although it is possible with wrapped lines too. Also, it may seem counter-intuitive with non-monospace fonts, with multi-character or double-width graphemes, or where hard tabs are used instead of soft tabs, because it is based on the number of characters, not their widths.
+NOTE: Column selection is mostly useful with unwrapped lines, although it is possible with wrapped lines too. Also, it may seem counter-intuitive with non-monospace fonts, with multi-character or double-width graphemes, or where hard tabs are used instead of soft tabs, because it is based on the number of characters, not their widths.
 
 ********************
 *   Auto-Bracket   *
