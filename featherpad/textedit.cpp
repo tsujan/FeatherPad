@@ -1352,7 +1352,8 @@ void TextEdit::keyPressEvent (QKeyEvent *event)
                 QTextBlock block = document()->findBlock (pos);
                 if (block.isValid())
                 {
-                    vbar->setValue (block.firstLineNumber());
+                    QTextLine line = block.layout()->lineForTextPosition(pos - block.position());
+                    vbar->setValue (block.firstLineNumber() + line.lineNumber());
                     event->accept();
                     return;
                 }
