@@ -975,7 +975,7 @@ void TextEdit::keyPressEvent (QKeyEvent *event)
         if (event->modifiers() == Qt::ControlModifier)
         {
             if (QScrollBar* vbar = verticalScrollBar())
-            { // scroll without changing the cursor position
+            { // scroll by one wrapped line without moving the cursor
                 vbar->setValue(vbar->value() + (event->key() == Qt::Key_Down ? 1 : -1));
                 event->accept();
                 return;
@@ -1068,10 +1068,10 @@ void TextEdit::keyPressEvent (QKeyEvent *event)
             }
         }
         else if (event->modifiers() == Qt::NoModifier
-                || (!(event->modifiers() & Qt::AltModifier)
-                    && ((event->modifiers() & Qt::ShiftModifier)
-                        || (event->modifiers() & Qt::MetaModifier)
-                        || (event->modifiers() & Qt::KeypadModifier))))
+                 || (!(event->modifiers() & Qt::AltModifier)
+                     && ((event->modifiers() & Qt::ShiftModifier)
+                         || (event->modifiers() & Qt::MetaModifier)
+                         || (event->modifiers() & Qt::KeypadModifier))))
         {
             /* NOTE: This also includes a useful Qt feature with Down/Up after Backspace/Enter.
                      The feature was removed with Backspace due to a regression in Qt 5.14.1. */
@@ -1136,8 +1136,8 @@ void TextEdit::keyPressEvent (QKeyEvent *event)
         mousePressed_ = false; // to remove column highlighting
         if (event->modifiers() == Qt::ControlModifier)
         {
-            if (QScrollBar* vbar = verticalScrollBar())
-            { // scroll without changing the cursor position
+            if (QScrollBar *vbar = verticalScrollBar())
+            { // scroll by one page without moving the cursor
                 vbar->setValue(vbar->value() + (event->key() == Qt::Key_PageDown ? 1 : -1) * vbar->pageStep());
                 event->accept();
                 return;
@@ -1340,7 +1340,25 @@ void TextEdit::keyPressEvent (QKeyEvent *event)
     else if (event->key() == Qt::Key_Home)
     {
         mousePressed_ = false; // to remove column highlighting
-        if (!(event->modifiers() & Qt::ControlModifier))
+        if (event->modifiers() == Qt::MetaModifier)
+        { // scroll such that the cursor is put at the top of the view
+            if (QScrollBar *vbar = verticalScrollBar())
+            {
+                int pos;
+                if (!colSel_.isEmpty())
+                    pos = colSel_.first().cursor.selectionStart();
+                else
+                    pos = textCursor().selectionStart();
+                QTextBlock block = document()->findBlock (pos);
+                if (block.isValid())
+                {
+                    vbar->setValue (block.firstLineNumber());
+                    event->accept();
+                    return;
+                }
+            }
+        }
+        else if (!(event->modifiers() & Qt::ControlModifier))
         { // Qt's default behavior isn't acceptable
             QTextCursor cur = textCursor();
             int p = cur.positionInBlock();

@@ -2,7 +2,8 @@ V1.6.5
 ---------
  * Try to support workspace awareness on Wayland by relying on how Qt windows are exposed. Unfortunately, this isn't reliable under all Wayland compositors (so far, only KWin has been fully self-consistent in this regard).
  * Read config and load translations only for the primary instance (no redundant computation).
- * Insert/remove characters with a column selection only for the first selected rows of its wrapped lines. (In this way, commenting out and uncommenting can be done with wrapped lines too.)
+ * Insert/remove characters with a column selection only for the first selected segments of wrapped lines. (In this way, commenting out and uncommenting can be done with wrapped lines of code too.)
+ * Scroll the (focused) view with Meta+Home such that the text cursor is put at its top.
 
 V1.6.4
 ---------

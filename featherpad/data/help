@@ -179,7 +179,7 @@ If the left mouse button is kept pressed and Shift+Ctrl is still held, moving th
 
 A column is deselected when the text cursor is moved in any way (e.g. by arrow keys, or by clicking anywhere without holding Shift+Ctrl) and on some other occasions, but it is kept intact on right clicking. With a selected column, the items "Cut", "Copy", "Paste" and "Delete" in the right-click and Edit menus work on that column. Column pasting may be a little confusing at first, but it can be used for pasting a copied column on another.
 
-If a character is typed when a column is selected, that character is inserted before the (first) selected segments of (wrapped) lines. Also, Backspace removes the characters that immediately precede the (first) selected segments of (wrapped) lines. These two operations can be used for commenting out or uncommenting multiple lines of codes together, regardless of wrapping.
+If a character is typed when a column is selected, that character is inserted before the (first) selected segments of (wrapped) lines. Also, Backspace removes the characters that immediately precede the (first) selected segments of (wrapped) lines. These two operations can be used for commenting out or uncommenting multiple lines of code together, regardless of wrapping.
 
 The Delete key deletes the whole column. However, the Enter and BackTab keys do not make sense with a column, and so, they simply deselect it and do their normal jobs at the cursor position. (To untab multiple lines, select them in the usual way and press the BackTab key, as explained in the section "Text Tabbing", above.)
 
@@ -247,12 +247,13 @@ Ctrl+Alt+E          Exit (kill) the above process immediately
 
 Scrolling:
 ***********
-Shift+Mouse Wheel     If cursor is inside view, scroll up/down by one wrapped line;
-                      if cursor is on vertical scrollbar, scroll up/down by half the page
-Alt+Mouse Wheel       If cursor is inside view, scroll horizontally when horizontal
+Shift+Mouse Wheel     If mouse cursor is inside view, scroll up/down by one wrapped line;
+                      if mouse cursor is on vertical scrollbar, scroll up/down by half the page
+Alt+Mouse Wheel       If mouse cursor is inside view, scroll horizontally when horizontal
                       scrollbar is visible (which may happen when wrapping is disabled)
 Ctrl+Up/Down          Scroll up/down by one wrapped line without moving text cursor
 Ctrl+PageUp/PageDown  Scroll up/down by one page without moving text cursor
+Meta+Home             Scroll such that text cursor is put at the top of view
 
 Moving text cursor:
 ********************
@@ -260,8 +261,8 @@ Home                Go to to the line start plus the indentation
 End                 Go to to the line end
 Ctrl+Home           Go to to the text start
 Ctrl+End            Go to to the text end
-Right/Left          Move the cursor one character to the right/left
-Ctrl+Right/Left     Move the cursor one word to the right/left
+Right/Left          Move text cursor one character to the right/left
+Ctrl+Right/Left     Move text cursor one word to the right/left
 Up/Down             Go to the same position in the previous/next wrapped line
 Shift+Up/Down       Go to the same position in the previous/next wrapped line while selecting text
 Meta+Up/Down        Go to the same position in the previous/next (real) line
