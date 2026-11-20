@@ -6,7 +6,7 @@
     <message>
         <location filename="../../about.ui" line="177"/>
         <source>License</source>
-        <translation type="unfinished"></translation>
+        <translation>Licence</translation>
     </message>
 </context>
 <context>
@@ -25,566 +25,567 @@
         <location filename="../../fpwin.cpp" line="5057"/>
         <location filename="../../fpwin.cpp" line="5318"/>
         <source>Untitled</source>
-        <translation type="unfinished"></translation>
+        <translation>Bez nosaukuma</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="71"/>
         <source>Go to line:</source>
-        <translation type="unfinished"></translation>
+        <translation>Pāriet uz rindu:</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="107"/>
         <source>Select text from cursor to this line
 (Ctrl+Shift+J)</source>
-        <translation type="unfinished"></translation>
+        <translation>Atlasīt tekstu no kursora līdz šai rindai
+(Ctrl+Shift+J)</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="111"/>
         <source>Select Text</source>
-        <translation type="unfinished"></translation>
+        <translation>Atlasīt tekstu</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="114"/>
         <source>Ctrl+Shift+J</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Shift+J</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="149"/>
         <source>&amp;File</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Fails</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="189"/>
         <location filename="../../fp.ui" line="787"/>
         <source>&amp;Edit</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Rediģēt</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="219"/>
         <source>&amp;Options</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Opcijas</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2989"/>
         <location filename="../../fpwin.cpp" line="4560"/>
         <source>Encoding</source>
-        <translation type="unfinished"></translation>
+        <translation>Kodējums</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="242"/>
         <source>&amp;Search</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Meklēt</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="250"/>
         <location filename="../../fp.ui" line="709"/>
         <source>&amp;Help</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Palīdzība</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="353"/>
         <source>Find:</source>
-        <translation type="unfinished"></translation>
+        <translation>Meklēt:</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="369"/>
         <source>To be replaced</source>
-        <translation type="unfinished"></translation>
+        <translation>Aizstājamais</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="382"/>
         <source>Replace with:</source>
-        <translation type="unfinished"></translation>
+        <translation>Aizstāt ar:</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="398"/>
         <source>Replacing text</source>
-        <translation type="unfinished"></translation>
+        <translation>Aizstājošais teksts</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="457"/>
         <source>&amp;New</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Jauns</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="460"/>
         <source>New tab</source>
-        <translation type="unfinished"></translation>
+        <translation>Jauna cilne</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="463"/>
         <source>Ctrl+N</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+N</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="468"/>
         <source>&amp;Open</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Atvērt</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="471"/>
         <source>Open a file</source>
-        <translation type="unfinished"></translation>
+        <translation>Atvērt failu</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="474"/>
         <source>Ctrl+O</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+O</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="482"/>
         <location filename="../../fpwin.cpp" line="1367"/>
         <source>&amp;Save</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Saglabāt</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="485"/>
         <source>Save the current tab</source>
-        <translation type="unfinished"></translation>
+        <translation>Saglabāt pašreizējo cilni</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="488"/>
         <source>Ctrl+S</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+S</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="496"/>
         <source>&amp;Undo</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Atsaukt</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="499"/>
         <source>Undo</source>
-        <translation type="unfinished"></translation>
+        <translation>Atsaukt</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="502"/>
         <source>Ctrl+Z</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Z</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="510"/>
         <source>&amp;Redo</source>
-        <translation type="unfinished"></translation>
+        <translation>Atk&amp;ārtot</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="513"/>
         <source>Redo</source>
-        <translation type="unfinished"></translation>
+        <translation>Atkārtot</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="516"/>
         <source>Ctrl+Shift+Z</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Shift+Z</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="524"/>
         <location filename="../../fp.ui" line="527"/>
         <source>Reload</source>
-        <translation type="unfinished"></translation>
+        <translation>Pārlādēt</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="530"/>
         <source>Ctrl+Shift+R</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Shift+R</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="535"/>
         <source>&amp;Find</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Meklēt</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="541"/>
         <source>Ctrl+F</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+F</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="549"/>
         <source>Show/hide replacement dock</source>
-        <translation type="unfinished"></translation>
+        <translation>Rādīt/slēpt aizstāšanas paneli</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="552"/>
         <source>Ctrl+R</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+R</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="557"/>
         <source>Save &amp;As</source>
-        <translation type="unfinished"></translation>
+        <translation>Saglabāt &amp;kā</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="560"/>
         <source>Ctrl+Shift+S</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Shift+S</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="565"/>
         <source>&amp;Print</source>
-        <translation type="unfinished"></translation>
+        <translation>Dr&amp;ukāt</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="568"/>
         <source>Ctrl+P</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+P</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="573"/>
         <source>Documen&amp;t Properties</source>
-        <translation type="unfinished"></translation>
+        <translation>Dokumen&amp;ta īpašības</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="576"/>
         <source>Ctrl+Shift+D</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Shift+D</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="581"/>
         <source>&amp;Close</source>
-        <translation type="unfinished"></translation>
+        <translation>Aiz&amp;vērt</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="584"/>
         <source>Ctrl+Shift+Q</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Shift+Q</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="589"/>
         <source>&amp;Quit</source>
-        <translation type="unfinished"></translation>
+        <translation>Izi&amp;et</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="592"/>
         <source>Ctrl+Q</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Q</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="600"/>
         <source>&amp;Cut</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Izgriezt</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="603"/>
         <source>Ctrl+X</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+X</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="611"/>
         <source>C&amp;opy</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Kopēt</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="614"/>
         <source>Ctrl+C</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+C</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="619"/>
         <source>&amp;Paste</source>
-        <translation type="unfinished"></translation>
+        <translation>Ie&amp;līmēt</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="622"/>
         <source>Ctrl+V</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+V</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="630"/>
         <source>&amp;Delete</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Dzēst</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="635"/>
         <source>&amp;Select All</source>
-        <translation type="unfinished"></translation>
+        <translation>Atlasī&amp;t visu</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="638"/>
         <source>Ctrl+A</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+A</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="643"/>
         <source>&amp;Font</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Fonts</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="651"/>
         <source>&amp;Line Numbers</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Rindu numuri</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="654"/>
         <source>Ctrl+L</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+L</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="665"/>
         <source>&amp;Wrap Lines</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Aplauzt rindas</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="668"/>
         <source>Ctrl+W</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+W</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="679"/>
         <source>&amp;Auto-Indentation</source>
-        <translation type="unfinished"></translation>
+        <translation>Automātiskā at&amp;kāpe</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="682"/>
         <source>Ctrl+I</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+I</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="693"/>
         <source>&amp;Syntax Highlighting</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Sintakses izcelšana</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="696"/>
         <source>Ctrl+Shift+H</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Shift+H</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="701"/>
         <source>&amp;Preferences</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Iestatījumi</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="704"/>
         <source>Ctrl+Shift+P</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Shift+P</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="712"/>
         <source>Ctrl+H</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+H</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="717"/>
         <source>&amp;About</source>
-        <translation type="unfinished"></translation>
+        <translation>P&amp;ar</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="733"/>
         <source>Enforce UTF-8</source>
-        <translation type="unfinished"></translation>
+        <translation>Piespiest UTF-8</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="771"/>
         <source>Save with &amp;Encoding</source>
-        <translation type="unfinished"></translation>
+        <translation>Saglabāt ar k&amp;odējumu</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="776"/>
         <source>&amp;Jump to</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Pāriet uz</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="779"/>
         <source>Show/hide jump bar</source>
-        <translation type="unfinished"></translation>
+        <translation>Rādīt/slēpt pārlēciena joslu</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="782"/>
         <source>Ctrl+J</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+J</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="790"/>
         <source>Edit text</source>
-        <translation type="unfinished"></translation>
+        <translation>Rediģēt tekstu</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="793"/>
         <source>Ctrl+Shift+E</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Shift+E</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="888"/>
         <source>&amp;Run</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Palaist</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="894"/>
         <source>Ctrl+E</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+E</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="899"/>
         <source>&amp;Clear</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Notīrīt</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="902"/>
         <source>Clear the list of recently modified files</source>
-        <translation type="unfinished"></translation>
+        <translation>Notīrīt nesen mainīto failu sarakstu</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="910"/>
         <source>Save/Restore Session</source>
-        <translation type="unfinished"></translation>
+        <translation>Saglabāt/atjaunot sesiju</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="907"/>
         <source>Sa&amp;ve/Restore Session</source>
-        <translation type="unfinished"></translation>
+        <translation>Sa&amp;glabāt/atjaunot sesiju</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="913"/>
         <source>Ctrl+M</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+M</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="918"/>
         <source>Side-Pane</source>
-        <translation type="unfinished"></translation>
+        <translation>Sānu rūts</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="921"/>
         <source>Ctrl+Alt+P</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Alt+P</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="926"/>
         <source>Paste Date and Time</source>
-        <translation type="unfinished"></translation>
+        <translation>Ielīmēt datumu un laiku</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="929"/>
         <source>Ctrl+Shift+V</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Shift+V</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="934"/>
         <location filename="../../fp.ui" line="937"/>
         <source>To Upper Case</source>
-        <translation type="unfinished"></translation>
+        <translation>Uz lielajiem burtiem</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="940"/>
         <source>Ctrl+Shift+U</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Shift+U</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="945"/>
         <location filename="../../fp.ui" line="948"/>
         <source>To Lower Case</source>
-        <translation type="unfinished"></translation>
+        <translation>Uz mazajiem burtiem</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="951"/>
         <source>Ctrl+Shift+L</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Shift+L</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="956"/>
         <location filename="../../fp.ui" line="959"/>
         <source>To Start Case</source>
-        <translation type="unfinished"></translation>
+        <translation>Vārdi ar lielo sākumburtu</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="967"/>
         <location filename="../../fp.ui" line="970"/>
         <source>Last Active Tab</source>
-        <translation type="unfinished"></translation>
+        <translation>Pēdējā aktīvā cilne</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="973"/>
         <source>F1</source>
-        <translation type="unfinished"></translation>
+        <translation>F1</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="978"/>
         <location filename="../../fp.ui" line="981"/>
         <source>Sort Lines</source>
-        <translation type="unfinished"></translation>
+        <translation>Kārtot rindas</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="986"/>
         <location filename="../../fp.ui" line="989"/>
         <source>Sort Lines Reversely</source>
-        <translation type="unfinished"></translation>
+        <translation>Kārtot rindas apgrieztā secībā</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="994"/>
         <source>Check Spelling</source>
-        <translation type="unfinished"></translation>
+        <translation>Pārbaudīt pareizrakstību</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="997"/>
         <source>F2</source>
-        <translation type="unfinished"></translation>
+        <translation>F2</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1002"/>
         <location filename="../../fp.ui" line="1005"/>
         <source>Save All Files</source>
-        <translation type="unfinished"></translation>
+        <translation>Saglabāt visus failus</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1010"/>
         <location filename="../../fp.ui" line="1013"/>
         <source>User Dictionary</source>
-        <translation type="unfinished"></translation>
+        <translation>Lietotāja vārdnīca</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="1018"/>
         <source>Text Tabs to Spaces</source>
-        <translation type="unfinished"></translation>
+        <translation>Teksta tabulācijas aizstāt ar atstarpēm</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="801"/>
         <source>&amp;Detach Tab</source>
-        <translation type="unfinished"></translation>
+        <translation>At&amp;dalīt cilni</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="804"/>
         <source>Ctrl+T</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+T</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="809"/>
         <source>Close Ne&amp;xt Tabs</source>
-        <translation type="unfinished"></translation>
+        <translation>Aizvērt &amp;nākamās cilnes</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="814"/>
         <source>Close &amp;Previous Tabs</source>
-        <translation type="unfinished"></translation>
+        <translation>Aizvērt &amp;iepriekšējās cilnes</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="842"/>
         <source>Ne&amp;xt Tab</source>
-        <translation type="unfinished"></translation>
+        <translation>N&amp;ākamā cilne</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="853"/>
         <source>Previous Ta&amp;b</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Iepriekšējā cilne</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="891"/>
         <source>Execute</source>
-        <translation type="unfinished"></translation>
+        <translation>Izpildīt</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="819"/>
         <source>Close &amp;All Tabs</source>
-        <translation type="unfinished"></translation>
+        <translation>Aizvērt &amp;visas cilnes</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="153"/>
         <source>Recently &amp;Modified</source>
-        <translation type="unfinished"></translation>
+        <translation>Nesen &amp;mainītie</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="223"/>
         <source>&amp;Encoding</source>
-        <translation type="unfinished"></translation>
+        <translation>Ko&amp;dējums</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="305"/>
@@ -592,153 +593,153 @@
         <location filename="../../replace.cpp" line="63"/>
         <location filename="../../replace.cpp" line="114"/>
         <source>Replacement</source>
-        <translation type="unfinished"></translation>
+        <translation>Aizstāšana</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="538"/>
         <source>Focus/hide search bar</source>
-        <translation type="unfinished"></translation>
+        <translation>Fokusēt/slēpt meklēšanas joslu</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="546"/>
         <source>&amp;Replace</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Aizstāt</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="725"/>
         <source>&amp;Other</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Cits</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="744"/>
         <source>&amp;UTF-8</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;UTF-8</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="755"/>
         <source>UTF-&amp;16</source>
-        <translation type="unfinished"></translation>
+        <translation>UTF-&amp;16</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="766"/>
         <source>&amp;ISO-8859-1</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;ISO-8859-1</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="824"/>
         <source>Close &amp;Other Tabs</source>
-        <translation type="unfinished"></translation>
+        <translation>Aizvērt &amp;citas cilnes</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="829"/>
         <source>&amp;Copy File Name</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Kopēt faila nosaukumu</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="834"/>
         <source>Copy File &amp;Path</source>
-        <translation type="unfinished"></translation>
+        <translation>Kopēt faila ce&amp;ļu</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="845"/>
         <source>Alt+Right</source>
-        <translation type="unfinished"></translation>
+        <translation>Alt+Right</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="856"/>
         <source>Alt+Left</source>
-        <translation type="unfinished"></translation>
+        <translation>Alt+Left</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="864"/>
         <source>&amp;First Tab</source>
-        <translation type="unfinished"></translation>
+        <translation>Pi&amp;rmā cilne</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="867"/>
         <source>Alt+Down</source>
-        <translation type="unfinished"></translation>
+        <translation>Alt+Down</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="875"/>
         <source>&amp;Last Tab</source>
-        <translation type="unfinished"></translation>
+        <translation>Pēdējā &amp;cilne</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="878"/>
         <source>Alt+Up</source>
-        <translation type="unfinished"></translation>
+        <translation>Alt+Up</translation>
     </message>
     <message>
         <location filename="../../fp.ui" line="883"/>
         <source>Menu</source>
-        <translation type="unfinished"></translation>
+        <translation>Izvēlne</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="100"/>
         <source>Calculate number of words</source>
-        <translation type="unfinished"></translation>
+        <translation>Saskaitīt vārdus</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="115"/>
         <source>Next</source>
-        <translation type="unfinished"></translation>
+        <translation>Nākamais</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="116"/>
         <source>Previous</source>
-        <translation type="unfinished"></translation>
+        <translation>Iepriekšējais</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="117"/>
         <source>Replace all</source>
-        <translation type="unfinished"></translation>
+        <translation>Aizstāt visu</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="632"/>
         <source>&amp;Recently Opened</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Nesen atvērtie</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2085"/>
         <source>Close</source>
-        <translation type="unfinished"></translation>
+        <translation>Aizvērt</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1353"/>
         <source>Save changes?</source>
-        <translation type="unfinished"></translation>
+        <translation>Vai saglabāt izmaiņas?</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="997"/>
         <source>Please attend to that window or just close its dialog!</source>
-        <translation type="unfinished"></translation>
+        <translation>Lūdzu, pievērsieties tam logam vai vienkārši aizveriet tā dialoglodziņu!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1357"/>
         <source>The document has been modified.</source>
-        <translation type="unfinished"></translation>
+        <translation>Dokuments ir mainīts.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1368"/>
         <source>&amp;Discard changes</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Atmest izmaiņas</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1369"/>
         <source>&amp;Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>At&amp;celt</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1371"/>
         <source>&amp;No to all</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Nē visiem</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1579"/>
         <location filename="../../fpwin.cpp" line="1628"/>
         <source>Unsaved</source>
-        <translation type="unfinished"></translation>
+        <translation>Nesaglabāts</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2991"/>
@@ -750,175 +751,175 @@
         <location filename="../../fpwin.cpp" line="6208"/>
         <location filename="../../fpwin.cpp" line="6215"/>
         <source>Lines</source>
-        <translation type="unfinished"></translation>
+        <translation>Rindas</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4566"/>
         <location filename="../../fpwin.cpp" line="4581"/>
         <source>Sel. Chars</source>
-        <translation type="unfinished"></translation>
+        <translation>Atl. rakstz.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4568"/>
         <location filename="../../fpwin.cpp" line="4582"/>
         <source>Words</source>
-        <translation type="unfinished"></translation>
+        <translation>Vārdi</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1969"/>
         <source>Another process is running in this tab!</source>
-        <translation type="unfinished"></translation>
+        <translation>Šajā cilnē darbojas cits process!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2076"/>
         <source>Script File</source>
-        <translation type="unfinished"></translation>
+        <translation>Skripta fails</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="996"/>
         <source>Another FeatherPad window has a modal dialog!</source>
-        <translation type="unfinished"></translation>
+        <translation>Citam FeatherPad logam ir modāls dialoglodziņš!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="833"/>
         <location filename="../../fpwin.cpp" line="4606"/>
         <source>Position:</source>
-        <translation type="unfinished"></translation>
+        <translation>Pozīcija:</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="881"/>
         <location filename="../../fpwin.cpp" line="4624"/>
         <location filename="../../fpwin.cpp" line="4644"/>
         <source>Normal</source>
-        <translation type="unfinished"></translation>
+        <translation>Parasts</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1355"/>
         <location filename="../../fpwin.cpp" line="2751"/>
         <location filename="../../fpwin.cpp" line="5997"/>
         <source>The file does not exist.</source>
-        <translation type="unfinished"></translation>
+        <translation>Fails nepastāv.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1740"/>
         <source>Open Link</source>
-        <translation type="unfinished"></translation>
+        <translation>Atvērt saiti</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1756"/>
         <source>Copy Link</source>
-        <translation type="unfinished"></translation>
+        <translation>Kopēt saiti</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1970"/>
         <source>Only one process is allowed per tab.</source>
-        <translation type="unfinished"></translation>
+        <translation>Vienā cilnē atļauts tikai viens process.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2072"/>
         <source>Script Output</source>
-        <translation type="unfinished"></translation>
+        <translation>Skripta izvade</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2088"/>
         <source>Clear</source>
-        <translation type="unfinished"></translation>
+        <translation>Notīrīt</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2708"/>
         <source>FeatherPad does not open files larger than 100 MiB.</source>
-        <translation type="unfinished"></translation>
+        <translation>FeatherPad neatver failus, kas lielāki par 100 MiB.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2716"/>
         <source>Non-text file(s) not opened!</source>
-        <translation type="unfinished"></translation>
+        <translation>Faili, kas nav teksta faili, netika atvērti!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2717"/>
         <source>See Preferences → Files → Do not permit opening of non-text files</source>
-        <translation type="unfinished"></translation>
+        <translation>Skatiet Iestatījumi → Faili → Neļaut atvērt failus, kas nav teksta faili</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2726"/>
         <source>Some file(s) could not be opened!</source>
-        <translation type="unfinished"></translation>
+        <translation>Dažus failus neizdevās atvērt!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2727"/>
         <source>You may not have the permission to read.</source>
-        <translation type="unfinished"></translation>
+        <translation>Iespējams, jums nav lasīšanas atļaujas.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2737"/>
         <source>Uneditable file(s)!</source>
-        <translation type="unfinished"></translation>
+        <translation>Nerediģējami faili!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2738"/>
         <source>Non-text files or files with huge lines cannot be edited.</source>
-        <translation type="unfinished"></translation>
+        <translation>Failus, kas nav teksta faili, vai failus ar ļoti garām rindām nevar rediģēt.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2811"/>
         <source>Root Instance</source>
-        <translation type="unfinished"></translation>
+        <translation>Root instance</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2892"/>
         <source>Open file...</source>
-        <translation type="unfinished"></translation>
+        <translation>Atvērt failu...</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3127"/>
         <location filename="../../fpwin.cpp" line="3165"/>
         <source>Save as...</source>
-        <translation type="unfinished"></translation>
+        <translation>Saglabāt kā...</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3201"/>
         <source>Keep encoding and save as...</source>
-        <translation type="unfinished"></translation>
+        <translation>Paturēt kodējumu un saglabāt kā...</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3518"/>
         <source>Saving as root.</source>
-        <translation type="unfinished"></translation>
+        <translation>Saglabā kā root.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3519"/>
         <source>Waiting for authentication...</source>
-        <translation type="unfinished"></translation>
+        <translation>Gaida autentifikāciju...</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3638"/>
         <source>&quot;pkexec&quot; is not found. Please install Polkit!</source>
-        <translation type="unfinished"></translation>
+        <translation>„pkexec” nav atrasts. Lūdzu, instalējiet Polkit!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3321"/>
         <source>Yes</source>
-        <translation type="unfinished"></translation>
+        <translation>Jā</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3322"/>
         <source>No</source>
-        <translation type="unfinished"></translation>
+        <translation>Nē</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3323"/>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>Atcelt</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3324"/>
         <source>Do you want to use &lt;b&gt;MS Windows&lt;/b&gt; end-of-lines?</source>
-        <translation type="unfinished"></translation>
+        <translation>Vai vēlaties izmantot &lt;b&gt;MS Windows&lt;/b&gt; rindu beigas?</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3325"/>
         <source>This may be good for readability under MS Windows.</source>
-        <translation type="unfinished"></translation>
+        <translation>Tas var uzlabot lasāmību MS Windows vidē.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3429"/>
@@ -926,7 +927,7 @@
         <location filename="../../fpwin.cpp" line="3637"/>
         <location filename="../../fpwin.cpp" line="3649"/>
         <source>Cannot be saved!</source>
-        <translation type="unfinished"></translation>
+        <translation>Nevar saglabāt!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="450"/>
@@ -935,7 +936,7 @@
         <location filename="../../fpwin.cpp" line="5316"/>
         <location filename="../../fpwin.cpp" line="6405"/>
         <source>Help</source>
-        <translation type="unfinished"></translation>
+        <translation>Palīdzība</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3690"/>
@@ -946,27 +947,27 @@
         <location filename="../../fpwin.cpp" line="6199"/>
         <location filename="../../fpwin.cpp" line="6207"/>
         <source>Syntax</source>
-        <translation type="unfinished"></translation>
+        <translation>Sintakse</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2707"/>
         <source>Huge file(s) not opened!</source>
-        <translation type="unfinished"></translation>
+        <translation>Milzīgi faili netika atvērti!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="1989"/>
         <source>Cannot start process!</source>
-        <translation type="unfinished"></translation>
+        <translation>Neizdevās palaist procesu!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2758"/>
         <source>Huge column!</source>
-        <translation type="unfinished"></translation>
+        <translation>Milzīga kolonna!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2759"/>
         <source>Columns with more than 1000 rows are not supported.</source>
-        <translation type="unfinished"></translation>
+        <translation>Kolonnas ar vairāk nekā 1000 rindām netiek atbalstītas.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="2883"/>
@@ -975,189 +976,191 @@
         <location filename="../../fpwin.cpp" line="3076"/>
         <location filename="../../fpwin.cpp" line="3098"/>
         <source>All Files</source>
-        <translation type="unfinished"></translation>
+        <translation>Visi faili</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3793"/>
         <source>Text tabs are converted to spaces.</source>
-        <translation type="unfinished"></translation>
+        <translation>Teksta tabulācijas pārvērstas atstarpēs.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3903"/>
         <source>The selected text was too long.</source>
-        <translation type="unfinished"></translation>
+        <translation>Atlasītais teksts bija pārāk garš.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="3904"/>
         <source>It is not fully processed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Tas nav apstrādāts pilnībā.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4066"/>
         <location filename="../../fpwin.cpp" line="4300"/>
         <source>This file has been modified elsewhere or in another way!</source>
-        <translation type="unfinished"></translation>
+        <translation>Šis fails ir mainīts citur vai citā veidā!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4067"/>
         <location filename="../../fpwin.cpp" line="4301"/>
         <source>Please be careful about reloading or saving this document!</source>
-        <translation type="unfinished"></translation>
+        <translation>Lūdzu, uzmanieties, pārlādējot vai saglabājot šo dokumentu!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4713"/>
         <source>Printing in progress...</source>
-        <translation type="unfinished"></translation>
+        <translation>Notiek drukāšana...</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4779"/>
         <source>Print Document</source>
-        <translation type="unfinished"></translation>
+        <translation>Drukāt dokumentu</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="4785"/>
         <source>Printing completed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Drukāšana pabeigta.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5449"/>
         <location filename="../../fpwin.cpp" line="5582"/>
         <source>%1 Pages</source>
-        <translation type="unfinished"></translation>
+        <translation>Lapas: %1</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5481"/>
         <location filename="../../fpwin.cpp" line="5618"/>
         <source>Copy Target Path</source>
-        <translation type="unfinished"></translation>
+        <translation>Kopēt mērķa ceļu</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5485"/>
         <location filename="../../fpwin.cpp" line="5622"/>
         <source>Open Target Here</source>
-        <translation type="unfinished"></translation>
+        <translation>Atvērt mērķi šeit</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5504"/>
         <location filename="../../fpwin.cpp" line="5642"/>
         <source>Copy Final Target Path</source>
-        <translation type="unfinished"></translation>
+        <translation>Kopēt galīgā mērķa ceļu</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5508"/>
         <location filename="../../fpwin.cpp" line="5646"/>
         <source>Open Final Target Here</source>
-        <translation type="unfinished"></translation>
+        <translation>Atvērt galīgo mērķi šeit</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5528"/>
         <location filename="../../fpwin.cpp" line="5667"/>
         <source>Open Containing Folder</source>
-        <translation type="unfinished"></translation>
+        <translation>Atvērt saturošo mapi</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5793"/>
         <source>You need to add a Hunspell dictionary.</source>
-        <translation type="unfinished"></translation>
+        <translation>Jāpievieno Hunspell vārdnīca.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5794"/>
         <location filename="../../fpwin.cpp" line="5801"/>
         <location filename="../../fpwin.cpp" line="5811"/>
         <source>See Preferences → Text → Spell Checking!</source>
-        <translation type="unfinished"></translation>
+        <translation>Skatiet Iestatījumi → Teksts → Pareizrakstības pārbaude!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5800"/>
         <source>The Hunspell dictionary does not exist.</source>
-        <translation type="unfinished"></translation>
+        <translation>Hunspell vārdnīca nepastāv.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5810"/>
         <source>The Hunspell dictionary is not accompanied by an affix file.</source>
-        <translation type="unfinished"></translation>
+        <translation>Hunspell vārdnīcai nav pievienota piedēkļu (affix) faila.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5833"/>
         <location filename="../../fpwin.cpp" line="5851"/>
         <location filename="../../fpwin.cpp" line="5866"/>
         <source>No misspelling in document.</source>
-        <translation type="unfinished"></translation>
+        <translation>Dokumentā nav pareizrakstības kļūdu.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5835"/>
         <location filename="../../fpwin.cpp" line="5853"/>
         <location filename="../../fpwin.cpp" line="5868"/>
         <source>No misspelling from text cursor.</source>
-        <translation type="unfinished"></translation>
+        <translation>No teksta kursora vairs nav pareizrakstības kļūdu.</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="5884"/>
         <source>Spell Checking</source>
-        <translation type="unfinished"></translation>
+        <translation>Pareizrakstības pārbaude</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="6231"/>
         <source>Some files cannot be saved!</source>
-        <translation type="unfinished"></translation>
+        <translation>Dažus failus nevar saglabāt!</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="6271"/>
         <source>Translators</source>
-        <translation type="unfinished"></translation>
+        <translation>Tulkotāji</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="6267"/>
         <source>A lightweight, tabbed, plain-text editor</source>
-        <translation type="unfinished"></translation>
+        <translation>Viegls teksta redaktors ar cilnēm</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="6268"/>
         <source>based on Qt</source>
-        <translation type="unfinished"></translation>
+        <translation>veidots ar Qt</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="6269"/>
         <source>Author</source>
-        <translation type="unfinished"></translation>
+        <translation>Autors</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="6270"/>
         <source>aka.</source>
-        <translation type="unfinished"></translation>
+        <translation>jeb</translation>
     </message>
     <message>
         <location filename="../../fpwin.cpp" line="6271"/>
         <location filename="../../fpwin.cpp" line="6272"/>
         <source>About FeatherPad</source>
-        <translation type="unfinished"></translation>
+        <translation>Par FeatherPad</translation>
     </message>
     <message>
         <location filename="../../replace.cpp" line="285"/>
         <source>No Replacement</source>
-        <translation type="unfinished"></translation>
+        <translation>Nav aizstāšanu</translation>
     </message>
     <message>
         <location filename="../../replace.cpp" line="287"/>
         <source>One Replacement</source>
-        <translation type="unfinished"></translation>
+        <translation>Viena aizstāšana</translation>
     </message>
     <message numerus="yes">
         <location filename="../../replace.cpp" line="289"/>
         <source>%Ln Replacements</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%Ln aizstāšana</numerusform>
+            <numerusform>Aizstāšanas: %Ln</numerusform>
+            <numerusform>%Ln aizstāšanu</numerusform>
         </translation>
     </message>
     <message>
         <location filename="../../replace.cpp" line="293"/>
         <source>The first 1000 replacements are highlighted.</source>
-        <translation type="unfinished"></translation>
+        <translation>Pirmās 1000 aizstāšanas ir izceltas.</translation>
     </message>
     <message>
         <location filename="../../syntax.cpp" line="314"/>
         <source>The size limit for syntax highlighting is exceeded.</source>
-        <translation type="unfinished"></translation>
+        <translation>Pārsniegts sintakses izcelšanas izmēra ierobežojums.</translation>
     </message>
 </context>
 <context>
@@ -1166,13 +1169,13 @@
         <location filename="../../filedialog.h" line="49"/>
         <source>Ctrl+H</source>
         <comment>Toggle showing hidden files</comment>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+H</translation>
     </message>
     <message>
         <location filename="../../filedialog.h" line="50"/>
         <source>Alt+.</source>
         <comment>Toggle showing hidden files</comment>
-        <translation type="unfinished"></translation>
+        <translation>Alt+.</translation>
     </message>
 </context>
 <context>
@@ -1180,58 +1183,58 @@
     <message>
         <location filename="../../fontDialog.ui" line="14"/>
         <source>Select Font</source>
-        <translation type="unfinished"></translation>
+        <translation>Izvēlieties fontu</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="38"/>
         <source>Programming Fonts</source>
-        <translation type="unfinished"></translation>
+        <translation>Programmēšanas fonti</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="45"/>
         <location filename="../../fontDialog.ui" line="55"/>
         <source>Font:</source>
-        <translation type="unfinished"></translation>
+        <translation>Fonts:</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="69"/>
         <source>Size:</source>
-        <translation type="unfinished"></translation>
+        <translation>Izmērs:</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="89"/>
         <source>Weight:</source>
-        <translation type="unfinished"></translation>
+        <translation>Biezums:</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="103"/>
         <source>Normal</source>
-        <translation type="unfinished"></translation>
+        <translation>Parasts</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="108"/>
         <source>Medium</source>
-        <translation type="unfinished"></translation>
+        <translation>Vidējs</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="113"/>
         <source>Bold</source>
-        <translation type="unfinished"></translation>
+        <translation>Trekns</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="118"/>
         <source>Black</source>
-        <translation type="unfinished"></translation>
+        <translation>Melns</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="126"/>
         <source>Italic</source>
-        <translation type="unfinished"></translation>
+        <translation>Kursīvs</translation>
     </message>
     <message>
         <location filename="../../fontDialog.ui" line="149"/>
         <source>Preview</source>
-        <translation type="unfinished"></translation>
+        <translation>Priekšskatījums</translation>
     </message>
 </context>
 <context>
@@ -1239,7 +1242,7 @@
     <message>
         <location filename="../../lineedit.cpp" line="34"/>
         <source>Clear text (Ctrl+K)</source>
-        <translation type="unfinished"></translation>
+        <translation>Notīrīt tekstu (Ctrl+K)</translation>
     </message>
 </context>
 <context>
@@ -1247,22 +1250,22 @@
     <message>
         <location filename="../../prefDialog.ui" line="14"/>
         <source>Preferences</source>
-        <translation type="unfinished"></translation>
+        <translation>Iestatījumi</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="30"/>
         <source>Window</source>
-        <translation type="unfinished"></translation>
+        <translation>Logs</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="69"/>
         <source>Window Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Loga iestatījumi</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="75"/>
         <source>Remember window &amp;size on closing</source>
-        <translation type="unfinished"></translation>
+        <translation>Aizverot atcerēties loga &amp;izmēru</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="84"/>
@@ -1270,155 +1273,161 @@
         <location filename="../../prefDialog.ui" line="107"/>
         <location filename="../../prefDialog.ui" line="120"/>
         <source>Window frame is excluded.</source>
-        <translation type="unfinished"></translation>
+        <translation>Loga rāmis netiek ieskaitīts.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="87"/>
         <source>Start with this size: </source>
-        <translation type="unfinished"></translation>
+        <translation>Sākt ar šo izmēru: </translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="100"/>
         <location filename="../../prefDialog.ui" line="123"/>
         <source> px</source>
-        <translation type="unfinished"></translation>
+        <translation> px</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="110"/>
         <source>×</source>
-        <translation type="unfinished"></translation>
+        <translation>×</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="148"/>
         <source>Enforcing a window position is not recommended
 and may not work with some window managers.</source>
-        <translation type="unfinished"></translation>
+        <translation>Loga novietojuma piespiešana nav ieteicama
+un var nedarboties ar dažiem logu pārvaldniekiem.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="152"/>
         <source>Remember window &amp;position on closing</source>
-        <translation type="unfinished"></translation>
+        <translation>Aizverot atcerēties loga &amp;novietojumu</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="159"/>
         <source>Most suitable with sessions
 but without tab functionality.</source>
-        <translation type="unfinished"></translation>
+        <translation>Vispiemērotākais ar sesijām,
+bet bez ciļņu funkcionalitātes.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="188"/>
         <source>Uncheck for 1/5 of the width.</source>
-        <translation type="unfinished"></translation>
+        <translation>Noņemiet atzīmi, lai būtu 1/5 no platuma.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="191"/>
         <source>Remember splitter position</source>
-        <translation type="unfinished"></translation>
+        <translation>Atcerēties sadalītāja novietojumu</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="200"/>
         <source>Do not show &amp;toolbar</source>
-        <translation type="unfinished"></translation>
+        <translation>Nerādīt &amp;rīkjoslu</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="207"/>
         <source>If the menubar is hidden,
 a menu button appears on the toolbar.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ja izvēļņu josla ir paslēpta,
+rīkjoslā parādās izvēlnes poga.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="211"/>
         <source>Do not show &amp;menubar</source>
-        <translation type="unfinished"></translation>
+        <translation>Nerādīt &amp;izvēļņu joslu</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="218"/>
         <source>Double clicking on the title toggles the maximized state.
 The title also has a right click menu when a file is opened.</source>
-        <translation type="unfinished"></translation>
+        <translation>Dubultklikšķis uz virsraksta pārslēdz maksimizēto stāvokli.
+Kad fails ir atvērts, virsrakstam ir arī labā klikšķa izvēlne.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="222"/>
         <source>Show window title on menubar</source>
-        <translation type="unfinished"></translation>
+        <translation>Rādīt loga virsrakstu izvēļņu joslā</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="229"/>
         <source>Menubar accelerators are activated by Alt
 and may interfere with customized shortcuts.</source>
-        <translation type="unfinished"></translation>
+        <translation>Izvēļņu joslas paātrinātājtaustiņi tiek aktivizēti ar Alt
+un var traucēt pielāgotiem īsinājumtaustiņiem.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="233"/>
         <source>Disable menubar accelerators</source>
-        <translation type="unfinished"></translation>
+        <translation>Atspējot izvēļņu joslas paātrinātājtaustiņus</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="240"/>
         <source>Internal icons are used by default.</source>
-        <translation type="unfinished"></translation>
+        <translation>Pēc noklusējuma tiek izmantotas iekšējās ikonas.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="243"/>
         <source>Use system icons where possible</source>
-        <translation type="unfinished"></translation>
+        <translation>Izmantot sistēmas ikonas, kur iespējams</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="250"/>
         <source>Hide search &amp;bar by default</source>
-        <translation type="unfinished"></translation>
+        <translation>Pēc noklusējuma slēpt meklēšanas &amp;joslu</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="257"/>
         <source>By default, each search entry
 has a separate search history.</source>
-        <translation type="unfinished"></translation>
+        <translation>Pēc noklusējuma katram meklēšanas laukam
+ir atsevišķa meklēšanas vēsture.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="261"/>
         <source>Use a shared search history</source>
-        <translation type="unfinished"></translation>
+        <translation>Izmantot kopīgu meklēšanas vēsturi</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="268"/>
         <source>Always show st&amp;atus bar</source>
-        <translation type="unfinished"></translation>
+        <translation>Vienmēr rādīt st&amp;atusa joslu</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="293"/>
         <source>Show cursor position on status bar</source>
-        <translation type="unfinished"></translation>
+        <translation>Rādīt kursora pozīciju statusa joslā</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="304"/>
         <location filename="../../prefDialog.ui" line="314"/>
         <source>Will take effect after closing this dialog.</source>
-        <translation type="unfinished"></translation>
+        <translation>Stāsies spēkā pēc šī dialoglodziņa aizvēršanas.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="307"/>
         <source>Tab position: </source>
-        <translation type="unfinished"></translation>
+        <translation>Ciļņu novietojums: </translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="318"/>
         <source>North</source>
-        <translation type="unfinished"></translation>
+        <translation>Augšā</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="323"/>
         <source>South</source>
-        <translation type="unfinished"></translation>
+        <translation>Apakšā</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="328"/>
         <source>West</source>
-        <translation type="unfinished"></translation>
+        <translation>Pa kreisi</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="333"/>
         <source>East</source>
-        <translation type="unfinished"></translation>
+        <translation>Pa labi</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="359"/>
@@ -1426,17 +1435,20 @@ has a separate search history.</source>
 after the last tab is activated, and the same for Alt+Left.
 
 Tab navigation with mouse wheel is not affected.</source>
-        <translation type="unfinished"></translation>
+        <translation>Tas nozīmē, ka (rakstībai no kreisās uz labo) Alt+Right pēc pēdējās cilnes aktivizē pirmo cilni,
+un tāpat ar Alt+Left.
+
+Pārvietošanos pa cilnēm ar peles ritenīti tas neietekmē.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="365"/>
         <source>Tab navigation wraps &amp;around</source>
-        <translation type="unfinished"></translation>
+        <translation>Pārvietošanās pa cilnēm notiek pa &amp;apli</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="385"/>
         <source>Close window on closing its last tab</source>
-        <translation type="unfinished"></translation>
+        <translation>Aizverot pēdējo cilni, aizvērt logu</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="392"/>
@@ -1445,12 +1457,16 @@ current desktop, files will be opened in its tabs.
 
 However, some desktop environments may not
 report that they have multiple desktops.</source>
-        <translation type="unfinished"></translation>
+        <translation>Pēc noklusējuma, ja pašreizējā darba vietā ir FeatherPad logs,
+faili tiks atvērti tā cilnēs.
+
+Taču dažas darbvirsmas vides var
+neziņot, ka tām ir vairākas darba vietas.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="399"/>
         <source>Always open in separate windows</source>
-        <translation type="unfinished"></translation>
+        <translation>Vienmēr atvērt atsevišķos logos</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="406"/>
@@ -1458,140 +1474,150 @@ report that they have multiple desktops.</source>
 desktop environment will be used instead of the Qt file dialog.
 
 Some desktop environments, like KDE and LXQt, provide files dialogs.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ja atzīmēts, Qt failu dialoglodziņa vietā tiks izmantots
+pašreizējās darbvirsmas vides nodrošinātais failu dialoglodziņš.
+
+Dažas darbvirsmas vides, piemēram, KDE un LXQt, nodrošina failu dialoglodziņus.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="412"/>
         <source>Native file dialog</source>
-        <translation type="unfinished"></translation>
+        <translation>Sistēmas failu dialoglodziņš</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="488"/>
         <source>Uncheck for Monospace.</source>
-        <translation type="unfinished"></translation>
+        <translation>Noņemiet atzīmi, lai izmantotu Monospace.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="491"/>
         <source>Remember &amp;font</source>
-        <translation type="unfinished"></translation>
+        <translation>Atcerēties &amp;fontu</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="512"/>
         <source>This covers parentheses, braces, brackets and quotes.</source>
-        <translation type="unfinished"></translation>
+        <translation>Tas attiecas uz apaļajām, figūriekavām, kvadrātiekavām un pēdiņām.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="515"/>
         <source>Auto-&amp;bracket</source>
-        <translation type="unfinished"></translation>
+        <translation>Automātiskas &amp;iekavas</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="522"/>
         <source>By default, a triple period is replaced with an ellipsis
 and a double hyphen with a long dash while typing,
 under proper circumstances.</source>
-        <translation type="unfinished"></translation>
+        <translation>Pēc noklusējuma rakstīšanas laikā, ja apstākļi atbilst,
+trīs punkti tiek aizstāti ar daudzpunkti
+un divi defises — ar garo domuzīmi.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="527"/>
         <source>Replace triple periods and double hyphens while typing</source>
-        <translation type="unfinished"></translation>
+        <translation>Rakstot aizstāt trīs punktus un divas defises</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="541"/>
         <source>Highlight case-sensitive and whole matches
 of the selected text.</source>
-        <translation type="unfinished"></translation>
+        <translation>Izcelt atlasītā teksta reģistrjutīgās
+un pilnās atbilstības.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="545"/>
         <source>Selection highlighting</source>
-        <translation type="unfinished"></translation>
+        <translation>Atlases izcelšana</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="608"/>
         <source>Never highlight syntax for files &gt; </source>
-        <translation type="unfinished"></translation>
+        <translation>Nekad neizcelt sintaksi failiem &gt; </translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="577"/>
         <source>This creates a menu button on the
 status bar for changing the syntax.</source>
-        <translation type="unfinished"></translation>
+        <translation>Tas statusa joslā izveido izvēlnes pogu
+sintakses maiņai.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="581"/>
         <source>Support syntax override</source>
-        <translation type="unfinished"></translation>
+        <translation>Atbalstīt sintakses aizstāšanu</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="646"/>
         <source>Show spaces, tabs and tab lines
 when the syntax is highlighted.</source>
-        <translation type="unfinished"></translation>
+        <translation>Kad sintakse ir izcelta,
+rādīt atstarpes, tabulācijas un tabulāciju līnijas.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="650"/>
         <source>Show whitespaces</source>
-        <translation type="unfinished"></translation>
+        <translation>Rādīt tukšumzīmes</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="666"/>
         <location filename="../../prefDialog.ui" line="677"/>
         <source>The vertical position lines will be drawn only if
 the editor font has a fixed pitch (like Monospace).</source>
-        <translation type="unfinished"></translation>
+        <translation>Vertikālās pozīcijas līnijas tiks zīmētas tikai tad,
+ja redaktora fonts ir vienplatuma (piemēram, Monospace).</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="670"/>
         <source>Show vertical lines starting from this position:</source>
-        <translation type="unfinished"></translation>
+        <translation>Rādīt vertikālas līnijas, sākot no šīs pozīcijas:</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="657"/>
         <source>Show line and document ends</source>
-        <translation type="unfinished"></translation>
+        <translation>Rādīt rindu un dokumenta beigas</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="801"/>
         <source>Date and time format:</source>
-        <translation type="unfinished"></translation>
+        <translation>Datuma un laika formāts:</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="869"/>
         <source>Some text editors cannot open a document
 whose last line is not empty.</source>
-        <translation type="unfinished"></translation>
+        <translation>Daži teksta redaktori nevar atvērt dokumentu,
+kura pēdējā rinda nav tukša.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="873"/>
         <source>Ensure an empty last line on saving</source>
-        <translation type="unfinished"></translation>
+        <translation>Saglabājot nodrošināt tukšu pēdējo rindu</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="880"/>
         <source>Remove trailing spaces on saving</source>
-        <translation type="unfinished"></translation>
+        <translation>Saglabājot noņemt beigu atstarpes</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="898"/>
         <source>Inertial scrolling with mouse wheel</source>
-        <translation type="unfinished"></translation>
+        <translation>Inerciāla ritināšana ar peles ritenīti</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="987"/>
         <source>Files</source>
-        <translation type="unfinished"></translation>
+        <translation>Faili</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="993"/>
         <source>File Management</source>
-        <translation type="unfinished"></translation>
+        <translation>Failu pārvaldība</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1110"/>
         <source>Start with files of last window</source>
-        <translation type="unfinished"></translation>
+        <translation>Sākt ar pēdējā loga failiem</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1152"/>
@@ -1606,42 +1632,51 @@ will be executed directly.
 If the script is not run in a terminal
 emulator, the output and error messages
 will be shown by a popup dialog.</source>
-        <translation type="unfinished"></translation>
+        <translation>Tā var būt jebkura palaišanas komanda ar
+argumentiem, piemēram, „xterm -hold”,
+lai procesu palaistu XTerm.
+
+Ja komanda atstāta tukša, fails
+tiks izpildīts tieši.
+
+Ja skripts netiek palaists termināļa
+emulatorā, izvade un kļūdu ziņojumi
+tiks rādīti uznirstošā dialoglodziņā.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1164"/>
         <source>Start with this command: </source>
-        <translation type="unfinished"></translation>
+        <translation>Palaist ar šo komandu: </translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1183"/>
         <source>Command + Arguments</source>
-        <translation type="unfinished"></translation>
+        <translation>Komanda + argumenti</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1068"/>
         <source>Show recentl&amp;y modified files</source>
-        <translation type="unfinished"></translation>
+        <translation>Rādīt nesen &amp;mainītos failus</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1098"/>
         <source>Show recentl&amp;y opened files</source>
-        <translation type="unfinished"></translation>
+        <translation>Rādīt nesen &amp;atvērtos failus</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1197"/>
         <source>Save changes to opened files every:</source>
-        <translation type="unfinished"></translation>
+        <translation>Saglabāt izmaiņas atvērtajos failos ik pēc:</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1475"/>
         <source>Help</source>
-        <translation type="unfinished"></translation>
+        <translation>Palīdzība</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="163"/>
         <source>Start with side-pane mode</source>
-        <translation type="unfinished"></translation>
+        <translation>Sākt sānu rūts režīmā</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="372"/>
@@ -1649,57 +1684,60 @@ will be shown by a popup dialog.</source>
 tooltip and context menu of a single tab but you could not
 merge a single tabbed window into another one by tab drag-
 and-drop either.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ja atzīmēts, jūs ne tikai zaudēsiet vienas cilnes informatīvo
+paskaidri un konteksta izvēlni, bet arī nevarēsiet
+apvienot vienas cilnes logu ar citu, velkot cilni
+ar peli.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="378"/>
         <source>&amp;Do not show a single tab</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Nerādīt vienu cilni</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="443"/>
         <source>Text</source>
-        <translation type="unfinished"></translation>
+        <translation>Teksts</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="482"/>
         <source>Text Editor</source>
-        <translation type="unfinished"></translation>
+        <translation>Teksta redaktors</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="498"/>
         <source>&amp;Wrap lines by default</source>
-        <translation type="unfinished"></translation>
+        <translation>Pēc noklusējuma &amp;aplauzt rindas</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="505"/>
         <source>Auto-&amp;indent by default</source>
-        <translation type="unfinished"></translation>
+        <translation>Pēc noklusējuma &amp;automātiska atkāpe</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="534"/>
         <source>Always show line &amp;numbers</source>
-        <translation type="unfinished"></translation>
+        <translation>Vienmēr rādīt rindu &amp;numurus</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="552"/>
         <source>Highlight s&amp;yntax by default</source>
-        <translation type="unfinished"></translation>
+        <translation>Pēc noklusējuma izcelt &amp;sintaksi</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="712"/>
         <source>Dark c&amp;olor scheme</source>
-        <translation type="unfinished"></translation>
+        <translation>Tumša &amp;krāsu shēma</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="747"/>
         <source>Background color value: </source>
-        <translation type="unfinished"></translation>
+        <translation>Fona krāsas vērtība: </translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="615"/>
         <source> MiB</source>
-        <translation type="unfinished"></translation>
+        <translation> MiB</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1117"/>
@@ -1711,12 +1749,19 @@ executable, the file will be executed by clicking
 the Run button, that appears on the toolbar/filemenu
 when needed, or by its shortcut Ctrl+E. Then, the
 process could be killed by Ctrl+Alt+E.</source>
-        <translation type="unfinished"></translation>
+        <translation>Tas attiecas tikai uz izpildāmiem failiem, kas rakstīti
+skriptu valodās, piemēram, Shell un Python.
+
+Ja atzīmēts un atvērtais fails ir
+izpildāms, fails tiks izpildīts, noklikšķinot
+uz pogas Palaist, kas vajadzības gadījumā parādās
+rīkjoslā/faila izvēlnē, vai ar tās īsinājumtaustiņu Ctrl+E.
+Pēc tam procesu var nobeigt ar Ctrl+Alt+E.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="709"/>
         <source>Needs window reopening to take effect.</source>
-        <translation type="unfinished"></translation>
+        <translation>Lai stātos spēkā, logs jāatver no jauna.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="737"/>
@@ -1729,12 +1774,19 @@ between 230 and 255; for the dark
 background, between 0 and 50.
 
 Needs window reopening to take effect.</source>
-        <translation type="unfinished"></translation>
+        <translation>Fona krāsas vērtība.
+255 nozīmē baltu, bet 0 — melnu.
+
+Gaišam fonam tā var būt
+no 230 līdz 255; tumšam
+fonam — no 0 līdz 50.
+
+Lai stātos spēkā, logs jāatver no jauna.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1127"/>
         <source>Run executable scripts</source>
-        <translation type="unfinished"></translation>
+        <translation>Palaist izpildāmus skriptus</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1001"/>
@@ -1744,12 +1796,16 @@ opened files FeatherPad shows. The default
 is 10.
 
 Needs application restart to take effect.</source>
-        <translation type="unfinished"></translation>
+        <translation>Maksimālais FeatherPad rādīto nesen mainīto vai
+atvērto failu skaits. Noklusējums
+ir 10.
+
+Lai stātos spēkā, jāpārstartē lietotne.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="786"/>
         <source>Add a small margin around text</source>
-        <translation type="unfinished"></translation>
+        <translation>Pievienot nelielu atstarpi ap tekstu</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="795"/>
@@ -1758,33 +1814,37 @@ Needs application restart to take effect.</source>
 Leave empty for the system default.
 
 Takes effect after closing this dialog.</source>
-        <translation type="unfinished"></translation>
+        <translation>Izmanto datuma un laika ielīmēšanai.
+Atstājiet tukšu, lai izmantotu sistēmas noklusējumu.
+
+Stājas spēkā pēc šī dialoglodziņa aizvēršanas.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="828"/>
         <source>Text tab size:</source>
-        <translation type="unfinished"></translation>
+        <translation>Teksta tabulācijas izmērs:</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="835"/>
         <source> spaces</source>
-        <translation type="unfinished"></translation>
+        <translation> atstarpes</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="887"/>
         <source>Thick text cursor</source>
-        <translation type="unfinished"></translation>
+        <translation>Biezs teksta kursors</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="894"/>
         <source>Should the mouse wheel scrolling be inertial
 if the cursor is inside the text view?</source>
-        <translation type="unfinished"></translation>
+        <translation>Vai ritināšanai ar peles ritenīti jābūt inerciālai,
+ja kursors atrodas teksta skatā?</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="905"/>
         <source>Spell Checking</source>
-        <translation type="unfinished"></translation>
+        <translation>Pareizrakstības pārbaude</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="913"/>
@@ -1792,50 +1852,53 @@ if the cursor is inside the text view?</source>
         <source>A Hunspell dictionary has a name that ends with &quot;.dic&quot;
 and should be alongside an affix file with the same
 name but ending with &quot;.aff&quot;.</source>
-        <translation type="unfinished"></translation>
+        <translation>Hunspell vārdnīcas nosaukums beidzas ar „.dic”,
+tai blakus jābūt piedēkļu failam ar tādu pašu
+nosaukumu, kas beidzas ar „.aff”.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="918"/>
         <source>Hunspell dictionary path:</source>
-        <translation type="unfinished"></translation>
+        <translation>Hunspell vārdnīcas ceļš:</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="937"/>
         <location filename="../../pref.cpp" line="1802"/>
         <source>Add dictionary...</source>
-        <translation type="unfinished"></translation>
+        <translation>Pievienot vārdnīcu...</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="949"/>
         <source>If this is unchecked, spell checking
 will be started from the document start.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ja izvēles rūtiņa nav atzīmēta, pareizrakstības
+pārbaude sāksies no dokumenta sākuma.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="953"/>
         <source>Start spell checking from text cursor</source>
-        <translation type="unfinished"></translation>
+        <translation>Sākt pareizrakstības pārbaudi no teksta kursora</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1008"/>
         <source>Number of recent files: </source>
-        <translation type="unfinished"></translation>
+        <translation>Neseno failu skaits: </translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1107"/>
         <source>Only if their number is not greater than 50.</source>
-        <translation type="unfinished"></translation>
+        <translation>Tikai tad, ja to skaits nav lielāks par 50.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1194"/>
         <location filename="../../prefDialog.ui" line="1204"/>
         <source>Only for files that exist and can be saved.</source>
-        <translation type="unfinished"></translation>
+        <translation>Tikai failiem, kas pastāv un ko var saglabāt.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1207"/>
         <source> min</source>
-        <translation type="unfinished"></translation>
+        <translation> min</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1238"/>
@@ -1845,221 +1908,228 @@ be used also when the opened file is not modified.
 This can be useful under certain circumstances,
 e.g. for changing the time stamp or removing the
 trailing spaces of a text file.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ja atzīmēts, pogu/izvēlnes vienumu Saglabāt var izmantot
+arī tad, ja atvērtais fails nav mainīts.
+
+Tas var noderēt noteiktos apstākļos,
+piemēram, lai mainītu laikspiedolu vai noņemtu
+teksta faila beigu atstarpes.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1246"/>
         <source>Allow saving unmodified files</source>
-        <translation type="unfinished"></translation>
+        <translation>Atļaut saglabāt nemainītus failus</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1253"/>
         <source>Show a warning instead.</source>
-        <translation type="unfinished"></translation>
+        <translation>Tā vietā rādīt brīdinājumu.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1256"/>
         <source>Do not permit opening of non-text files</source>
-        <translation type="unfinished"></translation>
+        <translation>Neļaut atvērt failus, kas nav teksta faili</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1263"/>
         <source>By default, when files are copied, they will
 be opened if they are pasted into FeatherPad.</source>
-        <translation type="unfinished"></translation>
+        <translation>Pēc noklusējuma nokopēti faili tiks atvērti,
+ja tos ielīmē FeatherPad.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1267"/>
         <source>Paste paths instead of files</source>
-        <translation type="unfinished"></translation>
+        <translation>Ielīmēt ceļus, nevis failus</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1294"/>
         <source>Shortcuts</source>
-        <translation type="unfinished"></translation>
+        <translation>Īsinājumtaustiņi</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1316"/>
         <source>Action</source>
-        <translation type="unfinished"></translation>
+        <translation>Darbība</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1321"/>
         <source>Shortcut</source>
-        <translation type="unfinished"></translation>
+        <translation>Īsinājumtaustiņš</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1329"/>
         <source>Restore default shortcuts.</source>
-        <translation type="unfinished"></translation>
+        <translation>Atjaunot noklusējuma īsinājumtaustiņus.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1332"/>
         <location filename="../../prefDialog.ui" line="1406"/>
         <location filename="../../prefDialog.ui" line="1454"/>
         <source>Default</source>
-        <translation type="unfinished"></translation>
+        <translation>Noklusējums</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1343"/>
         <source>Syntax Colors</source>
-        <translation type="unfinished"></translation>
+        <translation>Sintakses krāsas</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1438"/>
         <source>Element</source>
-        <translation type="unfinished"></translation>
+        <translation>Elements</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1443"/>
         <source>Text Color</source>
-        <translation type="unfinished"></translation>
+        <translation>Teksta krāsa</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1360"/>
         <source>Whitespace color value:</source>
-        <translation type="unfinished"></translation>
+        <translation>Tukšumzīmju krāsas vērtība:</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1393"/>
         <location filename="../../prefDialog.ui" line="1403"/>
         <source>Has effect only if line numbers are shown.</source>
-        <translation type="unfinished"></translation>
+        <translation>Darbojas tikai tad, ja tiek rādīti rindu numuri.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1396"/>
         <source>Current line highlight value:</source>
-        <translation type="unfinished"></translation>
+        <translation>Pašreizējās rindas izcelšanas vērtība:</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1451"/>
         <source>Restore default syntax colors.</source>
-        <translation type="unfinished"></translation>
+        <translation>Atjaunot noklusējuma sintakses krāsas.</translation>
     </message>
     <message>
         <location filename="../../prefDialog.ui" line="1486"/>
         <source>Close</source>
-        <translation type="unfinished"></translation>
+        <translation>Aizvērt</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="113"/>
         <source>Press a modifier key to clear a shortcut
 in the editing mode.</source>
-        <translation type="unfinished"></translation>
+        <translation>Lai rediģēšanas režīmā notīrītu īsinājumtaustiņu,
+nospiediet modificētājtaustiņu.</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="119"/>
         <source>Double click a color to change it.</source>
-        <translation type="unfinished"></translation>
+        <translation>Lai mainītu krāsu, veiciet dubultklikšķi uz tās.</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="355"/>
         <location filename="../../pref.cpp" line="1498"/>
         <source>files</source>
-        <translation type="unfinished"></translation>
+        <translation>faili</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="355"/>
         <location filename="../../pref.cpp" line="1498"/>
         <source>file</source>
-        <translation type="unfinished"></translation>
+        <translation>fails</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="422"/>
         <location filename="../../pref.cpp" line="1617"/>
         <source>Warning: Ambiguous shortcut detected!</source>
-        <translation type="unfinished"></translation>
+        <translation>Brīdinājums: atrasts neviennozīmīgs īsinājumtaustiņš!</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="455"/>
         <source>Functions, URLs,…</source>
-        <translation type="unfinished"></translation>
+        <translation>Funkcijas, URL,…</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="456"/>
         <source>Built-in Functions</source>
-        <translation type="unfinished"></translation>
+        <translation>Iebūvētās funkcijas</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="457"/>
         <source>Comments</source>
-        <translation type="unfinished"></translation>
+        <translation>Komentāri</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="458"/>
         <source>Quotations</source>
-        <translation type="unfinished"></translation>
+        <translation>Citāti</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="459"/>
         <source>Types</source>
-        <translation type="unfinished"></translation>
+        <translation>Tipi</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="460"/>
         <source>Key Words</source>
-        <translation type="unfinished"></translation>
+        <translation>Atslēgvārdi</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="461"/>
         <source>Numbers</source>
-        <translation type="unfinished"></translation>
+        <translation>Skaitļi</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="462"/>
         <source>Regular Expressions, Code Blocks,…</source>
-        <translation type="unfinished"></translation>
+        <translation>Regulārās izteiksmes, koda bloki,…</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="463"/>
         <source>Document Blocks, XML/HTML Elements,…</source>
-        <translation type="unfinished"></translation>
+        <translation>Dokumenta bloki, XML/HTML elementi,…</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="464"/>
         <source>Markdown Headings, CSS Values,…</source>
-        <translation type="unfinished"></translation>
+        <translation>Markdown virsraksti, CSS vērtības,…</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="465"/>
         <source>Extra Elements</source>
-        <translation type="unfinished"></translation>
+        <translation>Papildu elementi</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="647"/>
         <source>Application restart is needed for changes to take effect.</source>
-        <translation type="unfinished"></translation>
+        <translation>Lai izmaiņas stātos spēkā, jāpārstartē lietotne.</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="668"/>
         <source>Window reopening is needed for changes to take effect.</source>
-        <translation type="unfinished"></translation>
+        <translation>Lai izmaiņas stātos spēkā, logs jāatver no jauna.</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="1524"/>
         <source>&amp;Recently Opened</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Nesen atvērtie</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="1525"/>
         <source>Recently &amp;Modified</source>
-        <translation type="unfinished"></translation>
+        <translation>Nesen &amp;mainītie</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="1600"/>
         <source>The typed shortcut was reserved.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ievadītais īsinājumtaustiņš ir rezervēts.</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="1804"/>
         <source>Hunspell Dictionary Files</source>
-        <translation type="unfinished"></translation>
+        <translation>Hunspell vārdnīcu faili</translation>
     </message>
     <message>
         <location filename="../../pref.cpp" line="523"/>
         <location filename="../../pref.cpp" line="1890"/>
         <source>Select Syntax Color</source>
-        <translation type="unfinished"></translation>
+        <translation>Izvēlieties sintakses krāsu</translation>
     </message>
 </context>
 <context>
@@ -2068,37 +2138,37 @@ in the editing mode.</source>
         <location filename="../../searchbar.cpp" line="94"/>
         <location filename="../../searchbar.cpp" line="173"/>
         <source>Search...</source>
-        <translation type="unfinished"></translation>
+        <translation>Meklēt...</translation>
     </message>
     <message>
         <location filename="../../searchbar.cpp" line="125"/>
         <source>Match Case</source>
-        <translation type="unfinished"></translation>
+        <translation>Reģistrjutīgs</translation>
     </message>
     <message>
         <location filename="../../searchbar.cpp" line="132"/>
         <source>Whole Word</source>
-        <translation type="unfinished"></translation>
+        <translation>Viss vārds</translation>
     </message>
     <message>
         <location filename="../../searchbar.cpp" line="139"/>
         <source>Regular Expression</source>
-        <translation type="unfinished"></translation>
+        <translation>Regulārā izteiksme</translation>
     </message>
     <message>
         <location filename="../../searchbar.cpp" line="171"/>
         <source>Search with regex...</source>
-        <translation type="unfinished"></translation>
+        <translation>Meklēt ar regulāro izteiksmi...</translation>
     </message>
     <message>
         <location filename="../../searchbar.cpp" line="120"/>
         <source>Next</source>
-        <translation type="unfinished"></translation>
+        <translation>Nākamais</translation>
     </message>
     <message>
         <location filename="../../searchbar.cpp" line="121"/>
         <source>Previous</source>
-        <translation type="unfinished"></translation>
+        <translation>Iepriekšējais</translation>
     </message>
 </context>
 <context>
@@ -2106,143 +2176,144 @@ in the editing mode.</source>
     <message>
         <location filename="../../sessionDialog.ui" line="14"/>
         <source>Session Manager</source>
-        <translation type="unfinished"></translation>
+        <translation>Sesiju pārvaldnieks</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="113"/>
         <location filename="../../sessionDialog.ui" line="294"/>
         <source>&amp;Remove</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Noņemt</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="45"/>
         <source>&lt;b&gt;Save/Restore Session&lt;/b&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;Saglabāt/atjaunot sesiju&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="68"/>
         <source>Filter...</source>
-        <translation type="unfinished"></translation>
+        <translation>Filtrēt...</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="81"/>
         <source>Open the selected session(s).</source>
-        <translation type="unfinished"></translation>
+        <translation>Atvērt atlasītās sesijas.</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="84"/>
         <location filename="../../sessionDialog.ui" line="299"/>
         <source>&amp;Open</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Atvērt</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="110"/>
         <location filename="../../sessionDialog.ui" line="120"/>
         <source>Del</source>
-        <translation type="unfinished"></translation>
+        <translation>Del</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="127"/>
         <location filename="../../sessionDialog.ui" line="137"/>
         <source>Ctrl+Del</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Del</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="171"/>
         <source>By default, all files that are opened in all
 windows will be included in the saved session.</source>
-        <translation type="unfinished"></translation>
+        <translation>Pēc noklusējuma saglabātajā sesijā tiks iekļauti
+visi visos logos atvērtie faili.</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="175"/>
         <source>Save only from this &amp;window</source>
-        <translation type="unfinished"></translation>
+        <translation>Saglabāt tikai no šī &amp;loga</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="204"/>
         <source>&lt;b&gt;Warning&lt;/b&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;Brīdinājums&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="250"/>
         <location filename="../../session.cpp" line="332"/>
         <source>&amp;Yes</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Jā</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="257"/>
         <source>&amp;No</source>
-        <translation type="unfinished"></translation>
+        <translation>N&amp;ē</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="307"/>
         <source>Re&amp;name</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Pārdēvēt</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="130"/>
         <source>Remove &amp;All</source>
-        <translation type="unfinished"></translation>
+        <translation>Noņemt &amp;visas</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="284"/>
         <source>&amp;Close</source>
-        <translation type="unfinished"></translation>
+        <translation>Ai&amp;zvērt</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="147"/>
         <source>Save the current session under the given title.</source>
-        <translation type="unfinished"></translation>
+        <translation>Saglabāt pašreizējo sesiju ar norādīto nosaukumu.</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="150"/>
         <source>&amp;Save</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Saglabāt</translation>
     </message>
     <message>
         <location filename="../../sessionDialog.ui" line="161"/>
         <source>Type a name to save session</source>
-        <translation type="unfinished"></translation>
+        <translation>Ievadiet nosaukumu, lai saglabātu sesiju</translation>
     </message>
     <message>
         <location filename="../../session.cpp" line="183"/>
         <source>Nothing saved.&lt;br&gt;No file was opened.</source>
-        <translation type="unfinished"></translation>
+        <translation>Nekas netika saglabāts.&lt;br&gt;Neviens fails nebija atvērts.</translation>
     </message>
     <message>
         <location filename="../../session.cpp" line="281"/>
         <source>No file exists or can be opened.</source>
-        <translation type="unfinished"></translation>
+        <translation>Neviens fails nepastāv vai nav atverams.</translation>
     </message>
     <message>
         <location filename="../../session.cpp" line="283"/>
         <source>Not all files exist or can be opened.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ne visi faili pastāv vai ir atverami.</translation>
     </message>
     <message>
         <location filename="../../session.cpp" line="318"/>
         <source>&amp;OK</source>
-        <translation type="unfinished"></translation>
+        <translation>La&amp;bi</translation>
     </message>
     <message>
         <location filename="../../session.cpp" line="337"/>
         <source>Do you really want to remove all saved sessions?</source>
-        <translation type="unfinished"></translation>
+        <translation>Vai tiešām vēlaties noņemt visas saglabātās sesijas?</translation>
     </message>
     <message>
         <location filename="../../session.cpp" line="343"/>
         <source>Do you really want to remove the selected sessions?</source>
-        <translation type="unfinished"></translation>
+        <translation>Vai tiešām vēlaties noņemt atlasītās sesijas?</translation>
     </message>
     <message>
         <location filename="../../session.cpp" line="345"/>
         <source>Do you really want to remove the selected session?</source>
-        <translation type="unfinished"></translation>
+        <translation>Vai tiešām vēlaties noņemt atlasīto sesiju?</translation>
     </message>
     <message>
         <location filename="../../session.cpp" line="350"/>
         <source>A session with the same name exists.&lt;br&gt;Do you want to overwrite it?</source>
-        <translation type="unfinished"></translation>
+        <translation>Sesija ar tādu pašu nosaukumu jau pastāv.&lt;br&gt;Vai vēlaties to pārrakstīt?</translation>
     </message>
 </context>
 <context>
@@ -2250,7 +2321,7 @@ windows will be included in the saved session.</source>
     <message>
         <location filename="../../sidepane.cpp" line="196"/>
         <source>Filter...</source>
-        <translation type="unfinished"></translation>
+        <translation>Filtrēt...</translation>
     </message>
 </context>
 <context>
@@ -2258,37 +2329,37 @@ windows will be included in the saved session.</source>
     <message>
         <location filename="../../spellDialog.ui" line="25"/>
         <source>Unknown word:</source>
-        <translation type="unfinished"></translation>
+        <translation>Nezināms vārds:</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="51"/>
         <source>Add To Dictionary</source>
-        <translation type="unfinished"></translation>
+        <translation>Pievienot vārdnīcai</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="62"/>
         <source>Replace with:</source>
-        <translation type="unfinished"></translation>
+        <translation>Aizstāt ar:</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="129"/>
         <source>Correct Once</source>
-        <translation type="unfinished"></translation>
+        <translation>Labot vienreiz</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="142"/>
         <source>Correct All</source>
-        <translation type="unfinished"></translation>
+        <translation>Labot visus</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="87"/>
         <source>Ignore Once</source>
-        <translation type="unfinished"></translation>
+        <translation>Ignorēt vienreiz</translation>
     </message>
     <message>
         <location filename="../../spellDialog.ui" line="100"/>
         <source>Ignore All</source>
-        <translation type="unfinished"></translation>
+        <translation>Ignorēt visus</translation>
     </message>
 </context>
 <context>
@@ -2296,7 +2367,7 @@ windows will be included in the saved session.</source>
     <message>
         <location filename="../../textedit.cpp" line="152"/>
         <source>Double click to center current line</source>
-        <translation type="unfinished"></translation>
+        <translation>Veiciet dubultklikšķi, lai centrētu pašreizējo rindu</translation>
     </message>
 </context>
 </TS>
